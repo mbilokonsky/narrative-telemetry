@@ -1,0 +1,4 @@
+# defaults for nodejs typescript project:
+node_modules/
+dist/
+*.log
