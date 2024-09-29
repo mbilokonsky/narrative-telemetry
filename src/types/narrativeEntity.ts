@@ -17,13 +17,15 @@ export interface NarrativeEntity<T extends NarrativeEntityState = NarrativeEntit
   stateHistory: State<T>[];
   firstIntroduced: EventID;
   lastSeen?: EventID;
+  lastUpdated: EventID;
 }
 
 export enum DiageticEntityType {
   CHARACTER = 'character',
   SETTING = 'setting',
   ITEM = 'item',
-  FACTION = 'faction'
+  FACTION = 'faction',
+  RELATIONSHIP = 'relationship'
 }
 
 export enum NondiageticEntityType {

@@ -1,6 +1,7 @@
 // this file is nested within the entities/ folder
 import { NarrativeEntityID } from '../core';
-import { NarrativeEntity, NarrativeEntityState } from '../narrativeEntity';
+
+export type AbsentialID = string;
 
 export enum AbsentialType {
   DESIRE = 'desire',
@@ -46,7 +47,7 @@ export enum AbsentialRelationship {
   RESOLVES = 'resolves'
 }
 
-export interface AbsentialState extends NarrativeEntityState {
+export interface AbsentialState {
   type: AbsentialType;
   status: AbsentialStatus;
   significance: number;
@@ -54,19 +55,21 @@ export interface AbsentialState extends NarrativeEntityState {
   intensity: number;
 }
 
-export interface Absential extends NarrativeEntity<AbsentialState> {
+export interface Absential {
+  id: AbsentialID;
   holder: NarrativeEntityID;
   origin: string;
+  state: AbsentialState;
   parentAbsential?: NarrativeEntityID;
-  childAbsentials: NarrativeEntityID[];
-  conflictingAbsentials: NarrativeEntityID[];
+  childAbsentials: AbsentialID[];
+  conflictingAbsentials: AbsentialID[];
   relatedEntities: Array<{
     entityId: NarrativeEntityID;
     relationship: EntityAbsentialRelationship;
     strength: number;
   }>;
   relatedAbsentials: Array<{
-    absentialId: NarrativeEntityID;
+    absentialId: AbsentialID;
     relationship: AbsentialRelationship;
     strength: number;
   }>;

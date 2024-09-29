@@ -1,16 +1,6 @@
 import { NarrativeEntityID, NarrativeEventType, EventID, Timestamp } from './core';
-import { NarrativeEntity, NarrativeEntityState } from './narrativeEntity';
-import { Absential } from './entities/absential';
-import { Character } from './entities/character';
-import { Item } from './entities/item';
-import { Setting } from './entities/setting';
-import { Faction } from './entities/faction';
-import { Theme } from './entities/theme';
-import { Symbol } from './entities/symbol';
-import { Author } from './entities/author';
-import { Narrator } from './entities/narrator';
-import { Reader } from './entities/reader';
-import { Relationship } from './entities/relationship';
+import { Author, Character, Faction, Item, NarrativeEntity, NarrativeEntityState, Narrator, Reader, Relationship, Setting, Symbol, Theme } from './narrativeEntity';
+import { Absential, AbsentialState } from './entities/absential';
 
 export type EntityStateChange<T extends NarrativeEntityState> = {
   [K in keyof T]?: T[K];
@@ -21,7 +11,6 @@ export type NewEntityCreation<T extends NarrativeEntity> = {
 };
 
 export type AnyNewEntityCreation =
-  NewEntityCreation<Absential> |
   NewEntityCreation<Character> |
   NewEntityCreation<Item> |
   NewEntityCreation<Setting> |
@@ -44,7 +33,12 @@ export interface EventEffect {
     entityId: NarrativeEntityID;
     changes: EntityStateChange<NarrativeEntityState>;
   }>;
+  absentialChanges: Array<{
+    absentialId: NarrativeEntityID;
+    changes: Partial<AbsentialState>;
+  }>;
   newEntities: AnyNewEntityCreation[];
+  newAbsentials: Absential[];
 }
 
 export interface Event {
@@ -61,4 +55,12 @@ export interface Event {
 export interface CausalChain {
   events: EventID[];
   finalEffect: EventEffect;
+}
+
+export interface DiageticEvent extends Event {
+  type: NarrativeEventType;
+}
+
+export interface NondiageticEvent extends Event {
+  type: NarrativeEventType;
 }
