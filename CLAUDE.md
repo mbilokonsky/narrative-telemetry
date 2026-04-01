@@ -1,168 +1,174 @@
 # Narrative-Telemetry
 
-A framework for narrative analysis that models stories as traces — borrowing OpenTelemetry's span/event architecture to represent the unfolding of a narrative, then layering multiple interpretive readings over a shared textual spine.
+## Vision
+
+Narrative-telemetry is a framework for computational narrative analysis that aims to become a standard for structured representation of storytelling — for scholars, game developers, and AI systems that need to "read."
+
+The core insight: **stories can be modeled as traces.** Borrowing OpenTelemetry's span/event architecture, we represent the unfolding of a narrative as nested spans (story → acts → scenes → beats) with events dispatched within them. Multiple interpretive **readings** can be layered over a shared textual spine, each assigning its own significance, themes, and meaning to the same events. The text exists in superposition; each reading collapses it.
+
+The ambition: if this ontology is rich enough to capture what makes a story work — from a 2000-word Joyce story to Lord of the Rings to the Decline and Fall of the Roman Empire — then it's rich enough to power narrative generation, teach LLMs to read with interpretive depth, and serve as the backbone for game narrative systems.
 
 ## Core Principles
 
-**Significance is relational, not intrinsic.** An event's importance is a property of the relationship between that event and a given reading. The text exists in superposition; each reading collapses it into an interpretive frame. Never put significance scores on events or entities directly — they belong in Reading annotations.
+**Significance is relational, not intrinsic.** An event's importance is a property of (event, reading), never of the event alone. The same event can be a 0.9 in a formalist reading and a 0.3 in a postcolonial reading. Never put significance scores on Event or NarrativeEntityState directly — they belong in Reading annotations only.
 
-**Observe first, interpret later.** Pass 1 exhaustively extracts what's in the text (events, entities, relationships) with no interpretive framing. Pass 2+ constructs readings that assign significance, themes, symbols, and causality over that shared spine.
+**Observe first, interpret later.** Pass 1 exhaustively extracts what's in the text (events, entities, relationships) with no interpretive framing. Pass 2+ constructs readings that layer significance, themes, symbols, and causality. These passes must be separate in both code and LLM prompts.
 
-**The ontology is deliberately broad.** The type system should accommodate a 2000-word short story, a 500,000-word epic, and a multi-volume historical work. Empty fields on a given entity are expected and fine — don't trim the types to fit one text.
+**The ontology is deliberately broad.** Empty fields on a given entity are expected. The type system accommodates short stories, novels, epics, historical works. Don't trim types to fit one text.
 
-**OTEL is the endgame.** The span/event/attribute structure is designed to eventually export to OTLP so we can use Jaeger, Grafana Tempo, and TraceQL as the query layer rather than building one from scratch.
+**Text annotations can overlap.** A single word can simultaneously reference multiple entities (e.g., "Araby" = setting + mental construct + orientalist symbol). Use the character-level TextAnnotation system, not string matching. Diegetic annotations live in TextModel; interpretive annotations live in Reading.
+
+**OTEL is the endgame.** The span/event/attribute structure is designed to export to OTLP so we can use Jaeger, Grafana Tempo, and TraceQL as the query layer rather than building one from scratch.
+
+**Semantic IDs everywhere.** Use slugs (`boy`, `mangans-sister`, `e09-conversation`, `abs-quest-to-araby`), not auto-generated counters. A bounded text has a bounded namespace. Readable JSON is debuggable JSON.
+
+## Current State (277 tests passing)
+
+### What exists and works
+- **Type system**: characters, settings, items, factions, themes, symbols, relationships (interpersonal/group/symbolic), absentials, mental constructs, narrator, reader, author, text annotations
+- **NarrativeAnalysisSystem**: Pass 1 (text-building) + Pass 2 (reading-building) APIs + compareReadings()
+- **LLM pipeline** (`src/ingest/`): two-pass extraction (extract.ts → interpret.ts), text chunking with entity deduplication for long texts, CLI interface
+- **OTEL export** (`src/export/`): Jaeger, OTLP, console formats — deterministic trace IDs, full attribute encoding
+- **Derive** (`src/derive/`): tension curves, TensionField (5-dimensional entity-scoped), pacing, divergence, authorial profiling
+- **Analytics** (`src/analytics/`): Joyce vs Mansfield comparative analysis across 30 stories
+- **UI** (`ui/`): span waterfall, annotated text view with overlapping entity annotations, reading comparison, tension chart, entity inspector with context
+- **Corpus**: 30 stories analyzed (15 Joyce Dubliners + 15 Mansfield), hand-coded Araby with formalist + postcolonial readings
+- **Persistence**: JSON file save/load
+- **Tests**: 277 passing (unit, OTEL, TensionField, compareReadings, chunking, Eveline corpus)
+
+### What's next (see PLAN.md for full roadmap)
+- **S1**: Multi-story explorer UI (load any of 30 analyzed stories)
+- **S2**: Absential timeline visualization (watch a desire accumulate and break)
+- **S3**: Side-by-side reading comparison (superposition made visible)
+- **S4**: Paste-and-analyze (live LLM ingestion in the UI)
+- **M4**: Dimension-specific tension scoring (fix the biggest analytical limitation)
+- **M1**: Reading authoring in the UI (scholars create their own readings)
 
 ## Architecture
 
 ```
 StoryModel
-├── text: TextModel          ← shared, neutral, exhaustive
-│   ├── rootSpan: StorySpan  ← nested: story → acts → scenes → beats
-│   ├── diegetic             ← characters, settings, items, factions
-│   ├── events               ← neutral observations anchored to text lines
-│   ├── relationships        ← interpersonal, group (diegetic facts)
-│   ├── absentials           ← character desires/fears/goals
-│   └── mentalConstructs     ← diegetic beliefs/knowledge
-└── readings: Record<string, Reading>  ← interpretive overlays
+├── text: TextModel              ← shared, neutral, exhaustive
+│   ├── rootSpan: StorySpan      ← nested: story → acts → scenes → beats
+│   ├── diegetic                 ← characters, settings, items, factions
+│   ├── events                   ← neutral observations anchored to text lines
+│   ├── relationships            ← interpersonal, group (diegetic facts)
+│   ├── absentials               ← character desires/fears/goals
+│   ├── mentalConstructs         ← diegetic beliefs/knowledge
+│   └── annotations              ← character-level text anchors (overlapping OK)
+└── readings: Record<string, Reading>
     ├── themes, symbols, symbolic relationships
     ├── narrator, reader, author
-    ├── eventSignificance    ← the "collapse" from superposition
+    ├── eventSignificance        ← the "collapse" from superposition
     ├── entitySignificance, absentialSignificance
-    ├── mentalConstructs     ← interpretive (what the critic/reader notices)
-    ├── globalTension        ← tension curve (interpretive)
-    └── spanAnnotations      ← per-span tension, pacing, notes
+    ├── mentalConstructs         ← interpretive (what the critic notices)
+    ├── annotations              ← reading-specific text anchors
+    ├── globalTension            ← tension curve
+    └── spanAnnotations          ← per-span tension, pacing, notes
 ```
 
-### Key type locations
-- `src/types/core.ts` — enums, IDs, Timestamp, State<T>, Emotion
-- `src/types/events.ts` — Event, TextLocation
-- `src/types/narrativeEntity.ts` — NarrativeEntity, NarrativeEntityState, diegetic/non-diegetic base types, re-exports all entity types
-- `src/types/entities/` — one file per entity type (character, setting, absential, etc.)
-- `src/types/structural.ts` — StorySpan, TextModel, Reading, ReadingEventAnnotation, StoryModel
-- `src/NarrativeAnalysisSystem.ts` — the system class with Pass 1 and Pass 2 APIs
+### Key files
+| File | What |
+|------|------|
+| `src/types/structural.ts` | StoryModel, TextModel, Reading, TextAnnotation, StorySpan |
+| `src/types/events.ts` | Event, TextLocation |
+| `src/types/narrativeEntity.ts` | NarrativeEntity base, DiegeticEntity, NonDiegeticEntity |
+| `src/types/entities/*.ts` | Character, Setting, Item, Absential, MentalConstruct, etc. |
+| `src/NarrativeAnalysisSystem.ts` | Core API (Pass 1 + Pass 2 + comparison) |
+| `src/ingest/extract.ts` | LLM Pass 1: text → TextModel |
+| `src/ingest/interpret.ts` | LLM Pass 2: TextModel + lens → Reading |
+| `src/ingest/chunker.ts` | Long-text splitting with overlap |
+| `src/ingest/registry.ts` | Cross-chunk entity deduplication |
+| `src/ingest/pipeline.ts` | Orchestrates extract → interpret → derive → export |
+| `src/export/otel.ts` | StoryModel → OTEL traces |
+| `src/export/otlp.ts` | OTEL → OTLP v1 JSON |
+| `src/export/jaeger.ts` | OTEL → Jaeger format |
+| `src/derive/tensionField.ts` | 5-dimensional entity-scoped tension decomposition |
+| `src/derive/tension.ts` | Normalized tension curves |
+| `src/derive/divergence.ts` | Reading comparison metrics |
+| `src/derive/author-profile.ts` | Authorial signature aggregation |
+| `src/analytics/compare-authors.ts` | Cross-corpus comparative analysis |
 
 ### Diegetic vs non-diegetic split
-- **Diegetic** (in the story world): characters, settings, items, factions, interpersonal/group relationships, absentials, diegetic mental constructs → live in TextModel
-- **Non-diegetic** (about the story): themes, symbols, symbolic relationships, narrator framing, reader state, author intent → live in Reading
-
-### Entity IDs
-Use semantic slugs, not auto-generated counters. A bounded text has a bounded namespace. Examples: `boy`, `mangans-sister`, `north-richmond-st`, `florin`, `abs-quest-to-araby`. This makes the JSON readable, the ingestion debuggable, and cross-references obvious.
+- **Diegetic** (in the story world): characters, settings, items, factions, interpersonal/group relationships, absentials, diegetic mental constructs → TextModel
+- **Non-diegetic** (about the story): themes, symbols, symbolic relationships, narrator framing, reader state, author intent → Reading
 
 ## Commands
 
 ```bash
-npm run build       # tsc
-npm run ingest      # run src/ingest-araby.ts → writes data/araby.json
-npm run validate    # run src/validate.ts → checks all success criteria
-npm run ui:dev      # start the UI dev server (Vite + React)
-npm run ui:build    # production build of the UI
+# Core
+npm run build                    # tsc
+npm run ingest                   # manual Araby ingestion → data/araby.json
+npm run validate                 # 35-check validation suite
+
+# LLM pipeline
+npx ts-node src/ingest/cli.ts corpus/araby.txt --title "Araby" --lens formalist
+npx ts-node src/export/cli.ts data/araby.json --format otlp --output traces/araby.json
+
+# UI
+npm run ui:dev                   # Vite dev server
+npm run ui:build                 # production build
+
+# Tests (277 total)
+npx ts-node src/tests/run-all.ts # all tests
 ```
 
 ## Working with the code
 
-### Adding a new text
-1. Put the source text in `corpus/`
-2. Create `src/ingest-{name}.ts` following the two-pass pattern:
-   - Pass 1: register entities, create spans, extract events with text anchors
-   - Pass 2: create readings with significance annotations, themes, symbols, tension curves
-3. Add an npm script for it
-4. The output goes to `data/{slug}.json` (gitignored)
-
-### Adding a new entity type
-1. Create `src/types/entities/{type}.ts` with `{Type}State extends NarrativeEntityState` and the entity interface
-2. Re-export from `src/types/narrativeEntity.ts`
-3. Add a storage slot in the appropriate place (TextModel.diegetic for diegetic, Reading for non-diegetic)
-4. Add a registration method to NarrativeAnalysisSystem
-
-### Adding a new reading to an existing text
-Readings are independent — you can add one to an existing ingestion without touching Pass 1. Just call `sys.createReading(...)` and annotate events/entities/absentials.
-
-## What exists today
-- Type system covering: characters, settings, items, factions, themes, symbols, relationships (interpersonal/group/symbolic), absentials, mental constructs, narrator, reader, author
-- NarrativeAnalysisSystem with Pass 1 (text-building) and Pass 2 (reading-building) APIs
-- JSON file persistence (save/load/list/delete)
-- Exhaustive encoding of Joyce's "Araby" with 28 events, 11 characters, 9 settings, 7 items, 5 absentials
-- Two demonstration readings (formalist, postcolonial) that diverge on the same event set
-- Validation suite (35 checks)
-
-## UI
-
-The UI lives in `ui/` (Vite + React + TypeScript). It loads `data/araby.json` and `corpus/araby.txt` from `ui/public/data/`. After running `npm run ingest`, copy fresh data:
-
+### Adding a new text via LLM pipeline
 ```bash
-cp data/araby.json ui/public/data/
-cp corpus/araby.txt ui/public/data/
+# 1. Put text in corpus/
+cp my-story.txt corpus/
+
+# 2. Extract + interpret (requires ANTHROPIC_API_KEY)
+npx ts-node src/ingest/cli.ts corpus/my-story.txt \
+  --title "My Story" --lens formalist --output output/my-story.json
+
+# 3. Copy to UI public dir
+cp output/my-story.json ui/public/data/
 ```
 
-Layout:
-- **Top bar:** Story title + reading selector (tabs) + compare toggle
-- **Left panel:** Span waterfall (Jaeger-style nested spans with event dots colored by significance)
-- **Center panel:** Full text with event highlighting colored by active reading's significance
-- **Right panel:** Detail inspector (event/span details, per-reading significance + notes)
-- **Bottom of right panel:** Tension chart (SVG line chart, overlays both readings in compare mode)
+### Adding a new text manually
+1. Create `src/ingest-{name}.ts` following the two-pass pattern in `ingest-araby.ts`
+2. Pass 1: register entities, spans, events with text anchors and semantic slug IDs
+3. Pass 2: create readings with significance annotations, themes, symbols, tension curves
+4. Add an npm script
 
-## LLM Ingestion Pipeline (`src/ingest/`)
+### Adding a new reading to an existing text
+Readings are independent — add one without touching Pass 1:
+```typescript
+sys.createReading('psychoanalytic', 'A psychoanalytic reading...', narrator, reader, author);
+sys.annotateEvent('psychoanalytic', 'e08-o-love', { significance: 1.0, note: '...' });
+// etc.
+```
 
-Two-pass LLM extraction following the observe-first-interpret-later principle:
-
-- `extract.ts` — Pass 1: raw text → TextModel (entities, events, spans, relationships, absentials)
-- `interpret.ts` — Pass 2: TextModel + lens → Reading (themes, symbols, significance, tension)
-- `chunker.ts` — splits long texts at chapter/scene boundaries with paragraph overlap
-- `registry.ts` — cross-chunk entity deduplication (entities from chunk N inform chunk N+1)
-- `pipeline.ts` — orchestrates: extract → interpret → derive → export
-- `cli.ts` — `npx ts-node src/ingest/cli.ts corpus/eveline.txt --title "Eveline"`
-- `client.ts` — Anthropic API client (supports API key and OAuth)
-
-## OTEL Export (`src/export/`)
-
-Maps narrative structure to OpenTelemetry trace format:
-
-- Story → Trace (deterministic trace ID from SHA-256 of title+author)
-- Spans → OTEL Spans (preserving hierarchy)
-- Events → OTEL Span Events with full attribute encoding
-- Attributes: `narrative.span.type`, `narrative.event.significance`, `narrative.reading.*`, etc.
-
-Export formats:
-- `otel.ts` — raw OTEL trace structure
-- `otlp.ts` — OTLP v1 JSON (for Grafana Tempo, OTEL Collector)
-- `jaeger.ts` — Jaeger-compatible format
-- `console.ts` — human-readable text output
-- `cli.ts` — `npx ts-node src/export/cli.ts data/araby.json --format otlp`
-
-## Derive (`src/derive/`)
-
-Analytical tools that operate on StoryModel + Reading:
-
-- `tension.ts` — compute normalized tension curves from event significance
-- `tensionField.ts` — hierarchical entity-scoped tension decomposition (per-entity x 5 dimensions: absential, relational, epistemic, atmospheric, pacing)
-- `coarseGrain.ts` — aggregate significance at span level
-- `pacing.ts` — event density scoring per span
-- `divergence.ts` — measure how two readings differ on the same events
-- `author-profile.ts` — aggregate per-story readings into authorial structural signatures
+### Adding a new entity type
+1. Create `src/types/entities/{type}.ts` — `{Type}State extends NarrativeEntityState` + entity interface
+2. Re-export from `src/types/narrativeEntity.ts`
+3. Add storage slot in TextModel.diegetic (if diegetic) or Reading (if non-diegetic)
+4. Add registration method to NarrativeAnalysisSystem
 
 ## Generated Outputs (`output/`)
 
-LLM-generated analysis outputs are checked in because they're expensive to reproduce. Includes:
+LLM-generated analysis outputs are checked in because they're expensive to reproduce:
 - `output/dubliners/` — formalist readings of all 15 Dubliners stories
 - `output/mansfield/` — formalist readings of 15 Mansfield stories
 - `output/joyce-profile.json`, `output/mansfield-profile.json` — authorial signatures
 - `output/comparative-analysis.json` — Joyce vs Mansfield divergence analysis
 - `FINDINGS.md` — human-readable comparative findings
 
-## Tests
+## UI
 
-```bash
-npx ts-node src/tests/run-all.ts           # all 235 tests
-npx ts-node src/tests/unit.ts              # unit tests (62)
-npx ts-node src/tests/validate-otel.ts     # OTEL export (61)
-npx ts-node src/tests/test-tension-field.ts # TensionField (41)
-npx ts-node src/tests/test-compare-readings.ts # compareReadings (26)
-npx ts-node src/tests/validate-chunked.ts  # chunked extraction (33)
-npx ts-node src/tests/test-eveline.ts      # Eveline corpus (12)
-```
+Lives in `ui/` (Vite + React + TypeScript). Loads data from `ui/public/data/`.
 
-## What doesn't exist yet
-- Query layer via OTEL tooling (export works; need to run Jaeger/Tempo against it)
-- Interpretive causality (ReadingEventAnnotation.causes/effects fields exist but are unpopulated)
-- UI: reading creation/editing, entity relationship graph
-- More interpretive lenses in the LLM pipeline (postcolonial, psychoanalytic, etc.)
+**Layout**: top bar (reading selector + compare toggle) | left (span waterfall) | center (annotated text) | right (detail inspector + tension chart)
+
+**Key features**: event highlighting by significance, overlapping entity annotations with popup selector, per-reading side-by-side comparison, entity context (reader-facing background notes like a critical edition)
+
+## Known Limitations
+
+- **Dimension-specific tension**: TensionField has 5 dimensions but they're currently derived proportionally from composite significance, not scored independently by the LLM. Fix: update interpretation prompt (see PLAN.md M4).
+- **Interpretive causality**: `ReadingEventAnnotation.causes/effects` fields exist in the type but are never populated.
+- **Flat absential state histories**: LLM extraction doesn't produce intermediate state transitions, so tension computation uses event-significance fallback instead of absential accumulation strategy.
+- **UI is read-only**: No reading creation/editing (see PLAN.md M1).
+- **UI loads one story**: Hardcoded to araby.json (see PLAN.md S1).
