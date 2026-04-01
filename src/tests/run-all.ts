@@ -11,6 +11,7 @@ const suites = [
   { name: 'OTEL Export', script: 'src/tests/validate-otel.ts' },
   { name: 'CompareReadings API', script: 'src/tests/test-compare-readings.ts' },
   { name: 'TensionField', script: 'src/tests/test-tension-field.ts' },
+  { name: 'Eveline Corpus', script: 'src/tests/test-eveline.ts' },
 ];
 
 let totalPassed = 0;
