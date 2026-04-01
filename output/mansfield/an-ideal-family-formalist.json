@@ -1,0 +1,5217 @@
+{
+  "text": {
+    "title": "The Spring",
+    "author": "Katherine Mansfield",
+    "description": "An elderly man, Mr. Neave, experiences a day of profound alienation from his family and life's work, culminating in a disorienting vision that suggests his true wife and identity have been lost to time and circumstance.",
+    "rootSpan": {
+      "id": "span_1",
+      "type": "story",
+      "title": "The Spring",
+      "description": "An elderly man, Mr. Neave, experiences a day of profound alienation from his family and life's work, culminating in a disorienting vision that suggests his true wife and identity have been lost to time and circumstance.",
+      "startTimestamp": {
+        "percentage": 0
+      },
+      "endTimestamp": {
+        "percentage": 100
+      },
+      "events": [],
+      "childSpans": [
+        {
+          "id": "span_2",
+          "type": "act",
+          "title": "The Evening Walk",
+          "description": "Mr. Neave leaves the office and walks home, struggling against the vitality of spring and his own weariness.",
+          "startTimestamp": {
+            "percentage": 0
+          },
+          "endTimestamp": {
+            "percentage": 25
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_3",
+              "type": "scene",
+              "title": "Departure from Office",
+              "description": "Mr. Neave exits the office building and begins his walk home, feeling the weight of age and exhaustion.",
+              "startTimestamp": {
+                "percentage": 0
+              },
+              "endTimestamp": {
+                "percentage": 12
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_4",
+                  "type": "beat",
+                  "title": "Physical Exit",
+                  "description": "Mr. Neave presses through the swing door and descends the steps.",
+                  "startTimestamp": {
+                    "percentage": 0
+                  },
+                  "endTimestamp": {
+                    "percentage": 3
+                  },
+                  "events": [
+                    "e01-neave-exits-office"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_5",
+                  "type": "beat",
+                  "title": "Spring as Antagonist",
+                  "description": "Mr. Neave perceives spring as a living force waiting to greet him, but he lacks the energy to meet it.",
+                  "startTimestamp": {
+                    "percentage": 3
+                  },
+                  "endTimestamp": {
+                    "percentage": 12
+                  },
+                  "events": [
+                    "e02-spring-confrontation"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_6",
+              "type": "scene",
+              "title": "The Homeward Journey",
+              "description": "Mr. Neave walks through the town, struggling with the effort of greeting acquaintances and navigating the crowded streets.",
+              "startTimestamp": {
+                "percentage": 12
+              },
+              "endTimestamp": {
+                "percentage": 25
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_7",
+                  "type": "beat",
+                  "title": "Greeting Struggle",
+                  "description": "Mr. Neave attempts to maintain his usual social gestures but cannot manage the kindly expression that once came naturally.",
+                  "startTimestamp": {
+                    "percentage": 12
+                  },
+                  "endTimestamp": {
+                    "percentage": 18
+                  },
+                  "events": [
+                    "e03-greeting-effort"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_8",
+                  "type": "beat",
+                  "title": "Heavy Air",
+                  "description": "Mr. Neave walks as if through water, while the crowd and traffic move with dreamlike indifference.",
+                  "startTimestamp": {
+                    "percentage": 18
+                  },
+                  "endTimestamp": {
+                    "percentage": 25
+                  },
+                  "events": [
+                    "e04-dreamlike-crowd"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_9",
+          "type": "act",
+          "title": "Harold and Family Concerns",
+          "description": "Mr. Neave's thoughts turn to his son Harold's behavior and his family's pressure for him to retire.",
+          "startTimestamp": {
+            "percentage": 25
+          },
+          "endTimestamp": {
+            "percentage": 55
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_10",
+              "type": "scene",
+              "title": "Harold's Late Return",
+              "description": "Mr. Neave recalls Harold's late return from lunch and reflects on his son's excessive handsomeness and the family's indulgence of him.",
+              "startTimestamp": {
+                "percentage": 25
+              },
+              "endTimestamp": {
+                "percentage": 40
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_11",
+                  "type": "beat",
+                  "title": "Harold's Arrival",
+                  "description": "Harold saunters into the office vestibule, perfectly turned out and smiling his characteristic half-smile.",
+                  "startTimestamp": {
+                    "percentage": 25
+                  },
+                  "endTimestamp": {
+                    "percentage": 30
+                  },
+                  "events": [
+                    "e05-harold-late-return"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_12",
+                  "type": "beat",
+                  "title": "Neave's Judgment",
+                  "description": "Mr. Neave reflects on Harold's beauty, the family's worship of him, and his past misdeeds, particularly the stolen purse incident.",
+                  "startTimestamp": {
+                    "percentage": 30
+                  },
+                  "endTimestamp": {
+                    "percentage": 40
+                  },
+                  "events": [
+                    "e06-neave-reflection-harold"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_13",
+              "type": "scene",
+              "title": "Pressure to Retire",
+              "description": "Mr. Neave recalls his family's insistence that he retire and hand over the business to Harold.",
+              "startTimestamp": {
+                "percentage": 40
+              },
+              "endTimestamp": {
+                "percentage": 55
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_14",
+                  "type": "beat",
+                  "title": "Charlotte's Plea",
+                  "description": "Charlotte urges Mr. Neave to retire and enjoy the house and garden, suggesting he take up a hobby.",
+                  "startTimestamp": {
+                    "percentage": 40
+                  },
+                  "endTimestamp": {
+                    "percentage": 45
+                  },
+                  "events": [
+                    "e07-charlotte-retirement-plea"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_15",
+                  "type": "beat",
+                  "title": "Lola's Comment",
+                  "description": "Lola adds that all men ought to have hobbies, as life is impossible without them.",
+                  "startTimestamp": {
+                    "percentage": 45
+                  },
+                  "endTimestamp": {
+                    "percentage": 48
+                  },
+                  "events": [
+                    "e08-lola-hobbies-comment"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_16",
+                  "type": "beat",
+                  "title": "Neave's Bitter Reflection",
+                  "description": "Mr. Neave reflects on what his family would have without his work, acknowledging their beauty and Charlotte's remarkable nature.",
+                  "startTimestamp": {
+                    "percentage": 48
+                  },
+                  "endTimestamp": {
+                    "percentage": 55
+                  },
+                  "events": [
+                    "e09-neave-reflection-hobbies"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_17",
+          "type": "act",
+          "title": "Arrival at Home",
+          "description": "Mr. Neave reaches his house and encounters his family in the drawing-room, observing their vitality and preoccupations.",
+          "startTimestamp": {
+            "percentage": 55
+          },
+          "endTimestamp": {
+            "percentage": 75
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_18",
+              "type": "scene",
+              "title": "Approaching the House",
+              "description": "Mr. Neave walks up Harcourt Avenue and arrives at his corner house, observing its appearance and the flowers.",
+              "startTimestamp": {
+                "percentage": 55
+              },
+              "endTimestamp": {
+                "percentage": 62
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_19",
+                  "type": "beat",
+                  "title": "Avenue Walk",
+                  "description": "Mr. Neave walks the length of fashionable Harcourt Avenue and reaches the corner house.",
+                  "startTimestamp": {
+                    "percentage": 55
+                  },
+                  "endTimestamp": {
+                    "percentage": 58
+                  },
+                  "events": [
+                    "e10-house-arrival"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_20",
+                  "type": "beat",
+                  "title": "House Details",
+                  "description": "Mr. Neave observes the white-painted house, open windows, tulle curtains, hyacinths, and famous hydrangeas.",
+                  "startTimestamp": {
+                    "percentage": 58
+                  },
+                  "endTimestamp": {
+                    "percentage": 62
+                  },
+                  "events": [
+                    "e11-house-observation"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_21",
+              "type": "scene",
+              "title": "Family Gathering",
+              "description": "Mr. Neave enters the house and finds his family in the drawing-room, discussing an event with ices.",
+              "startTimestamp": {
+                "percentage": 62
+              },
+              "endTimestamp": {
+                "percentage": 75
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_22",
+                  "type": "beat",
+                  "title": "Hall Entry",
+                  "description": "Mr. Neave enters the dusky hall filled with wraps, parasols, and gloves, hearing the piano from the music-room.",
+                  "startTimestamp": {
+                    "percentage": 62
+                  },
+                  "endTimestamp": {
+                    "percentage": 64
+                  },
+                  "events": [
+                    "e12-hall-entry"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_23",
+                  "type": "beat",
+                  "title": "Conversation Overheard",
+                  "description": "Mr. Neave hears Charlotte, Ethel, and Marion discussing ices from an event.",
+                  "startTimestamp": {
+                    "percentage": 64
+                  },
+                  "endTimestamp": {
+                    "percentage": 67
+                  },
+                  "events": [
+                    "e13-family-conversation"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_24",
+                  "type": "beat",
+                  "title": "Lola's Emergence",
+                  "description": "Lola dashes out of the music-room, startled by her father's presence, her cheeks crimson and eyes glittering.",
+                  "startTimestamp": {
+                    "percentage": 67
+                  },
+                  "endTimestamp": {
+                    "percentage": 70
+                  },
+                  "events": [
+                    "e14-lola-startled"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_25",
+                  "type": "beat",
+                  "title": "Telephone Interruption",
+                  "description": "The telephone rings, and Lola dashes away with a cry like a sob, while Charlotte calls out to her father.",
+                  "startTimestamp": {
+                    "percentage": 70
+                  },
+                  "endTimestamp": {
+                    "percentage": 72
+                  },
+                  "events": [
+                    "e15-telephone-call"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_26",
+                  "type": "beat",
+                  "title": "Family Greetings",
+                  "description": "Charlotte, Ethel, and Marion greet Mr. Neave with concern about his tiredness and his walk home.",
+                  "startTimestamp": {
+                    "percentage": 72
+                  },
+                  "endTimestamp": {
+                    "percentage": 75
+                  },
+                  "events": [
+                    "e16-family-greetings"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_27",
+          "type": "act",
+          "title": "Drawing-Room Conversation",
+          "description": "Mr. Neave sits in the drawing-room as his family discusses fashion and his refusal to dress for dinner.",
+          "startTimestamp": {
+            "percentage": 75
+          },
+          "endTimestamp": {
+            "percentage": 85
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_28",
+              "type": "scene",
+              "title": "Drawing-Room Discussion",
+              "description": "Mr. Neave sinks into a chair while his family discusses a dress design and his tiredness.",
+              "startTimestamp": {
+                "percentage": 75
+              },
+              "endTimestamp": {
+                "percentage": 85
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_29",
+                  "type": "beat",
+                  "title": "Seating",
+                  "description": "Mr. Neave sinks into one of the immense drawing-room chairs.",
+                  "startTimestamp": {
+                    "percentage": 75
+                  },
+                  "endTimestamp": {
+                    "percentage": 76
+                  },
+                  "events": [
+                    "e17-neave-sits"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_30",
+                  "type": "beat",
+                  "title": "Cab Discussion",
+                  "description": "Ethel questions why he didn't take a cab, and Marion defends his choice, commenting on his naughtiness.",
+                  "startTimestamp": {
+                    "percentage": 76
+                  },
+                  "endTimestamp": {
+                    "percentage": 79
+                  },
+                  "events": [
+                    "e18-dress-discussion"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_31",
+                  "type": "beat",
+                  "title": "Harold Question",
+                  "description": "Charlotte asks if Harold left the office before Mr. Neave, and he responds uncertainly.",
+                  "startTimestamp": {
+                    "percentage": 79
+                  },
+                  "endTimestamp": {
+                    "percentage": 80
+                  },
+                  "events": [
+                    "e19-harold-inquiry"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_32",
+                  "type": "beat",
+                  "title": "Dress Design Discussion",
+                  "description": "Ethel shows Charlotte a dress design with yellow and silver touches, and they debate the train.",
+                  "startTimestamp": {
+                    "percentage": 80
+                  },
+                  "endTimestamp": {
+                    "percentage": 83
+                  },
+                  "events": [
+                    "e20-neave-dozing"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_33",
+                  "type": "beat",
+                  "title": "Dress Refusal",
+                  "description": "Mr. Neave announces he won't dress for dinner, causing concern from his family about guests arriving.",
+                  "startTimestamp": {
+                    "percentage": 83
+                  },
+                  "endTimestamp": {
+                    "percentage": 85
+                  },
+                  "events": [
+                    "e21-dress-refusal"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_34",
+          "type": "act",
+          "title": "The Dressing-Room",
+          "description": "Mr. Neave retires to his dressing-room where young Charles attends to him, and he falls into a disturbing dream.",
+          "startTimestamp": {
+            "percentage": 85
+          },
+          "endTimestamp": {
+            "percentage": 100
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_35",
+              "type": "scene",
+              "title": "Dressing Preparation",
+              "description": "Mr. Neave enters his dressing-room where young Charles prepares him for dinner.",
+              "startTimestamp": {
+                "percentage": 85
+              },
+              "endTimestamp": {
+                "percentage": 92
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_36",
+                  "type": "beat",
+                  "title": "Charles Waiting",
+                  "description": "Young Charles is waiting in the dressing-room, carefully tucking a towel around the hot-water can.",
+                  "startTimestamp": {
+                    "percentage": 85
+                  },
+                  "endTimestamp": {
+                    "percentage": 87
+                  },
+                  "events": [
+                    "e22-charles-waiting"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_37",
+                  "type": "beat",
+                  "title": "Settling In",
+                  "description": "Mr. Neave lowers himself into the cane lounge by the window and makes his evening joke to Charles.",
+                  "startTimestamp": {
+                    "percentage": 87
+                  },
+                  "endTimestamp": {
+                    "percentage": 89
+                  },
+                  "events": [
+                    "e23-neave-settles"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_38",
+                  "type": "beat",
+                  "title": "Evening Reflection",
+                  "description": "Mr. Neave enjoys the mild evening and hears the grass being cut on the tennis court, imagining future tennis parties.",
+                  "startTimestamp": {
+                    "percentage": 89
+                  },
+                  "endTimestamp": {
+                    "percentage": 91
+                  },
+                  "events": [
+                    "e24-evening-sounds"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_39",
+                  "type": "beat",
+                  "title": "Grooming",
+                  "description": "Mr. Neave combs his white beard and receives his handkerchief, watch, seals, and spectacle case from Charles.",
+                  "startTimestamp": {
+                    "percentage": 91
+                  },
+                  "endTimestamp": {
+                    "percentage": 92
+                  },
+                  "events": [
+                    "e25-beard-combing"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_40",
+              "type": "scene",
+              "title": "The Dream",
+              "description": "Mr. Neave falls asleep and experiences a disturbing vision of a little ancient man climbing stairs and a revelation about his true wife.",
+              "startTimestamp": {
+                "percentage": 92
+              },
+              "endTimestamp": {
+                "percentage": 100
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_41",
+                  "type": "beat",
+                  "title": "Dream Begins",
+                  "description": "Mr. Neave imagines a little withered ancient man climbing endless flights of stairs.",
+                  "startTimestamp": {
+                    "percentage": 92
+                  },
+                  "endTimestamp": {
+                    "percentage": 94
+                  },
+                  "events": [
+                    "e26-dream-begins"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_42",
+                  "type": "beat",
+                  "title": "Descent and Horror",
+                  "description": "The little old man descends toward the dining-room but then makes for the porch, drive, and office, causing Mr. Neave horror.",
+                  "startTimestamp": {
+                    "percentage": 94
+                  },
+                  "endTimestamp": {
+                    "percentage": 96
+                  },
+                  "events": [
+                    "e27-spider-man-descent"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_43",
+                  "type": "beat",
+                  "title": "Awakening",
+                  "description": "Mr. Neave starts up in the dark dressing-room, unsure how long he has slept, feeling forgotten and alienated from his family.",
+                  "startTimestamp": {
+                    "percentage": 96
+                  },
+                  "endTimestamp": {
+                    "percentage": 98
+                  },
+                  "events": [
+                    "e28-neave-awakens"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_44",
+                  "type": "beat",
+                  "title": "Memory Intrusion",
+                  "description": "A vivid memory surfaces of a dark porch with a passion-vine, small warm arms, a pale face, and the words 'Good-bye, my treasure.'",
+                  "startTimestamp": {
+                    "percentage": 98
+                  },
+                  "endTimestamp": {
+                    "percentage": 99
+                  },
+                  "events": [
+                    "e29-memory-flash"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_45",
+                  "type": "beat",
+                  "title": "Dinner Call",
+                  "description": "Young Charles announces that dinner is on the table, and Mr. Neave responds that he is coming.",
+                  "startTimestamp": {
+                    "percentage": 99
+                  },
+                  "endTimestamp": {
+                    "percentage": 100
+                  },
+                  "events": [
+                    "e30-charles-announces-dinner"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "diegetic": {
+      "characters": {
+        "neave": {
+          "id": "neave",
+          "name": "Mr. Neave",
+          "description": "An elderly man who has built a successful business and raised a family, but now feels exhausted, alienated, and haunted by a lost past.",
+          "tags": [
+            "protagonist",
+            "elderly",
+            "businessman",
+            "father",
+            "husband"
+          ],
+          "textMentions": [
+            "old Mr. Neave",
+            "Mr. Neave",
+            "he"
+          ],
+          "context": "The central character of the story, experiencing a crisis of identity and belonging.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-neave-exits-office",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "office-building",
+                "factionRelationships": {},
+                "age": 70,
+                "gender": "male",
+                "occupation": "businessman, office owner",
+                "personalityTraits": [
+                  "weary",
+                  "reflective",
+                  "dutiful",
+                  "haunted",
+                  "alienated"
+                ],
+                "coreValues": [
+                  "hard work",
+                  "family responsibility",
+                  "business integrity"
+                ],
+                "physicalDescription": "elderly man with a white beard, walking with a stick, moving slowly and heavily",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-neave-exits-office"
+        },
+        "harold": {
+          "id": "harold",
+          "name": "Harold",
+          "description": "Mr. Neave's handsome son, indulged by the family and expected to take over the business, but unreliable and late to work.",
+          "tags": [
+            "son",
+            "handsome",
+            "unreliable",
+            "spoiled"
+          ],
+          "textMentions": [
+            "Harold",
+            "he"
+          ],
+          "context": "The object of family worship and Mr. Neave's concern about the future of the business.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05-harold-late-return",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "office-building",
+                "factionRelationships": {},
+                "age": 30,
+                "gender": "male",
+                "occupation": "office worker, heir to business",
+                "personalityTraits": [
+                  "handsome",
+                  "charming",
+                  "unreliable",
+                  "manipulative"
+                ],
+                "coreValues": [
+                  "pleasure",
+                  "charm"
+                ],
+                "physicalDescription": "exceptionally handsome with striking eyes, lashes, and lips; perfectly turned out; cool and suave",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05-harold-late-return"
+        },
+        "charlotte": {
+          "id": "charlotte",
+          "name": "Charlotte",
+          "description": "Mr. Neave's wife, a remarkable woman who manages the household and social life, concerned about her husband's health.",
+          "tags": [
+            "wife",
+            "mother",
+            "hostess",
+            "remarkable"
+          ],
+          "textMentions": [
+            "Charlotte",
+            "his wife",
+            "she"
+          ],
+          "context": "The matriarch of the family, managing the household and social affairs.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13-family-conversation",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "drawing-room",
+                "factionRelationships": {},
+                "age": 65,
+                "gender": "female",
+                "occupation": "housewife, hostess",
+                "personalityTraits": [
+                  "capable",
+                  "concerned",
+                  "vague",
+                  "warm"
+                ],
+                "coreValues": [
+                  "family",
+                  "social standing",
+                  "comfort"
+                ],
+                "physicalDescription": "plump, small-fingered, warm-cheeked, bright-haired",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13-family-conversation"
+        },
+        "ethel": {
+          "id": "ethel",
+          "name": "Ethel",
+          "description": "One of Mr. Neave's daughters, bright-haired and concerned about her father's health, interested in fashion.",
+          "tags": [
+            "daughter",
+            "bright-haired",
+            "concerned"
+          ],
+          "textMentions": [
+            "Ethel",
+            "bright-haired Ethel"
+          ],
+          "context": "A member of the family household, engaged in social activities and fashion.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13-family-conversation",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "drawing-room",
+                "factionRelationships": {},
+                "age": 25,
+                "gender": "female",
+                "occupation": "unmarried, social activities",
+                "personalityTraits": [
+                  "concerned",
+                  "fashionable",
+                  "talkative"
+                ],
+                "coreValues": [
+                  "family",
+                  "fashion",
+                  "social life"
+                ],
+                "physicalDescription": "bright-haired",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13-family-conversation"
+        },
+        "marion": {
+          "id": "marion",
+          "name": "Marion",
+          "description": "One of Mr. Neave's daughters, with a hard, bright laugh and a theatrical manner of speaking, formerly shy.",
+          "tags": [
+            "daughter",
+            "theatrical",
+            "changed"
+          ],
+          "textMentions": [
+            "Marion",
+            "she"
+          ],
+          "context": "A member of the family household, notable for her transformation from a shy, stuttering child.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13-family-conversation",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "drawing-room",
+                "factionRelationships": {},
+                "age": 27,
+                "gender": "female",
+                "occupation": "unmarried, social activities",
+                "personalityTraits": [
+                  "theatrical",
+                  "hard-laughing",
+                  "confident",
+                  "formerly shy"
+                ],
+                "coreValues": [
+                  "social standing",
+                  "family"
+                ],
+                "physicalDescription": "no specific physical description provided",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13-family-conversation"
+        },
+        "lola": {
+          "id": "lola",
+          "name": "Lola",
+          "description": "Mr. Neave's youngest daughter, vital and energetic, with flushed cheeks and glittering eyes, seemingly waiting for someone.",
+          "tags": [
+            "daughter",
+            "youngest",
+            "vital",
+            "energetic"
+          ],
+          "textMentions": [
+            "Lola",
+            "the baby",
+            "she"
+          ],
+          "context": "The youngest member of the family, representing youth and vitality that Mr. Neave finds overwhelming.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14-lola-startled",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "music-room",
+                "factionRelationships": {},
+                "age": 20,
+                "gender": "female",
+                "occupation": "unmarried, social activities",
+                "personalityTraits": [
+                  "vital",
+                  "energetic",
+                  "impatient",
+                  "distracted"
+                ],
+                "coreValues": [
+                  "youth",
+                  "pleasure",
+                  "social life"
+                ],
+                "physicalDescription": "cheeks crimson from playing, eyes glittering, hair falling over forehead, breathing heavily",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14-lola-startled"
+        },
+        "charles": {
+          "id": "charles",
+          "name": "Young Charles",
+          "description": "A young servant in the Neave household who has been with the family since childhood, attending to Mr. Neave's needs.",
+          "tags": [
+            "servant",
+            "young",
+            "loyal",
+            "attentive"
+          ],
+          "textMentions": [
+            "Charles",
+            "young Charles",
+            "he"
+          ],
+          "context": "A loyal servant who has grown up in the household and maintains a respectful relationship with Mr. Neave.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22-charles-waiting",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "dressing-room",
+                "factionRelationships": {},
+                "age": 25,
+                "gender": "male",
+                "occupation": "servant",
+                "personalityTraits": [
+                  "loyal",
+                  "attentive",
+                  "respectful",
+                  "careful"
+                ],
+                "coreValues": [
+                  "service",
+                  "loyalty"
+                ],
+                "physicalDescription": "young, red-faced as a boy, breathing intensely, frowning with concentration",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22-charles-waiting"
+        },
+        "unknown-woman": {
+          "id": "unknown-woman",
+          "name": "Unknown Woman (Memory)",
+          "description": "A pale, small woman from Mr. Neave's past, associated with a dark porch and passion-vine, who calls him 'my treasure.'",
+          "tags": [
+            "memory",
+            "past",
+            "mysterious",
+            "lost"
+          ],
+          "textMentions": [
+            "a face, little and pale",
+            "a voice",
+            "my treasure"
+          ],
+          "context": "A figure from Mr. Neave's past, possibly his true wife, revealed in a memory or dream.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e29-memory-flash",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "dark-porch",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "unknown",
+                "personalityTraits": [
+                  "tender",
+                  "affectionate"
+                ],
+                "coreValues": [
+                  "love",
+                  "intimacy"
+                ],
+                "physicalDescription": "little and pale, with small warm arms",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e29-memory-flash"
+        }
+      },
+      "settings": {
+        "office-building": {
+          "id": "office-building",
+          "name": "The Office Building",
+          "description": "A business office where Mr. Neave works, with a swing door and broad steps leading to the pavement.",
+          "tags": [
+            "workplace",
+            "urban",
+            "business"
+          ],
+          "textMentions": [
+            "the office",
+            "swing door",
+            "three broad steps",
+            "the vestibule"
+          ],
+          "context": "The starting point of Mr. Neave's evening walk, representing his life's work.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "urban town setting",
+          "climate": "spring evening, warm and golden",
+          "historicalContext": "early 20th century business setting",
+          "culturalBackground": "British business culture",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-neave-exits-office",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "professional, busy"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-neave-exits-office"
+        },
+        "town-streets": {
+          "id": "town-streets",
+          "name": "Town Streets",
+          "description": "The streets of the town through which Mr. Neave walks home, filled with crowds, trams, carts, and cabs.",
+          "tags": [
+            "urban",
+            "public",
+            "crowded"
+          ],
+          "textMentions": [
+            "the pavement",
+            "the homeward-looking crowd",
+            "trams",
+            "light carts",
+            "big swinging cabs"
+          ],
+          "context": "The setting for Mr. Neave's struggle against the vitality of spring and the indifference of the crowd.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "urban town",
+          "climate": "spring evening, golden light",
+          "historicalContext": "early 20th century urban setting",
+          "culturalBackground": "British town life",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02-spring-confrontation",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "busy, dreamlike, indifferent"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02-spring-confrontation"
+        },
+        "government-buildings": {
+          "id": "government-buildings",
+          "name": "Government Buildings",
+          "description": "A landmark on Mr. Neave's walk home, with ancient cabbage palms outside.",
+          "tags": [
+            "landmark",
+            "public",
+            "urban"
+          ],
+          "textMentions": [
+            "the Government buildings",
+            "ancient cabbage palms"
+          ],
+          "context": "A stopping point where Mr. Neave pauses to reflect on his family's pressure for him to retire.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "urban town",
+          "climate": "evening, windy",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British colonial setting",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07-charlotte-retirement-plea",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "contemplative"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07-charlotte-retirement-plea"
+        },
+        "harcourt-avenue": {
+          "id": "harcourt-avenue",
+          "name": "Harcourt Avenue",
+          "description": "A fashionable avenue in the town where Mr. Neave's house is located at the corner.",
+          "tags": [
+            "residential",
+            "fashionable",
+            "upscale"
+          ],
+          "textMentions": [
+            "fashionable Harcourt Avenue",
+            "the corner house"
+          ],
+          "context": "The location of Mr. Neave's home, representing his social standing and success.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "fashionable residential area",
+          "climate": "spring evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British upper-middle-class neighborhood",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10-house-arrival",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "elegant, prosperous"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10-house-arrival"
+        },
+        "neave-house": {
+          "id": "neave-house",
+          "name": "The Neave House",
+          "description": "A large white-painted corner house with wide-open windows, tulle curtains, blue jars of hyacinths, and famous hydrangeas.",
+          "tags": [
+            "home",
+            "large",
+            "elegant",
+            "famous"
+          ],
+          "textMentions": [
+            "the big white-painted house",
+            "wide-open windows",
+            "tulle curtains",
+            "blue jars of hyacinths",
+            "hydrangeas"
+          ],
+          "context": "The family home, representing Mr. Neave's success and the center of his family's social life.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "corner of Harcourt Avenue",
+          "climate": "spring evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British upper-middle-class home",
+          "parentSetting": "harcourt-avenue",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11-house-observation",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "elegant, vital, youthful"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11-house-observation"
+        },
+        "hall": {
+          "id": "hall",
+          "name": "The Hall",
+          "description": "The entrance hall of the Neave house, dusky with wraps, parasols, and gloves piled on oak chests.",
+          "tags": [
+            "interior",
+            "entrance",
+            "cluttered"
+          ],
+          "textMentions": [
+            "the hall",
+            "dusky",
+            "wraps, parasols, gloves",
+            "oak chests"
+          ],
+          "context": "The entry point to the family home, suggesting the busy social life of the household.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "interior of Neave house",
+          "climate": "interior, evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British home",
+          "parentSetting": "neave-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12-hall-entry",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "cluttered, busy"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12-hall-entry"
+        },
+        "music-room": {
+          "id": "music-room",
+          "name": "The Music-Room",
+          "description": "A room in the Neave house where a piano is played, quick, loud, and impatient.",
+          "tags": [
+            "interior",
+            "musical",
+            "lively"
+          ],
+          "textMentions": [
+            "the music-room",
+            "the piano",
+            "quick, loud and impatient"
+          ],
+          "context": "The room where Lola is playing when Mr. Neave arrives home.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "interior of Neave house",
+          "climate": "interior, evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British home",
+          "parentSetting": "neave-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14-lola-startled",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "lively, energetic"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14-lola-startled"
+        },
+        "drawing-room": {
+          "id": "drawing-room",
+          "name": "The Drawing-Room",
+          "description": "A large room in the Neave house where the family gathers, with immense chairs and a door ajar.",
+          "tags": [
+            "interior",
+            "social",
+            "large"
+          ],
+          "textMentions": [
+            "the drawing-room",
+            "immense drawing-room chairs",
+            "drawing-room door"
+          ],
+          "context": "The main social space of the house where the family converses and Mr. Neave sits exhausted.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "interior of Neave house",
+          "climate": "interior, evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British home",
+          "parentSetting": "neave-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16-family-greetings",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "social, lively, overwhelming"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16-family-greetings"
+        },
+        "telephone-room": {
+          "id": "telephone-room",
+          "name": "The Telephone-Room",
+          "description": "A room in the Neave house where the telephone is located.",
+          "tags": [
+            "interior",
+            "modern",
+            "small"
+          ],
+          "textMentions": [
+            "the telephone-room"
+          ],
+          "context": "The room where Lola rushes to answer the telephone, suggesting an important call.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "interior of Neave house",
+          "climate": "interior, evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British home",
+          "parentSetting": "neave-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e15-telephone-call",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "private, urgent"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e15-telephone-call"
+        },
+        "dressing-room": {
+          "id": "dressing-room",
+          "name": "The Dressing-Room",
+          "description": "Mr. Neave's private dressing-room with a cane lounge by the window, where he prepares for dinner and falls asleep.",
+          "tags": [
+            "interior",
+            "private",
+            "bedroom"
+          ],
+          "textMentions": [
+            "his dressing-room",
+            "the cane lounge",
+            "the window"
+          ],
+          "context": "The setting where Mr. Neave experiences his disturbing dream and memory.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "interior of Neave house",
+          "climate": "interior, evening, darkening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British home",
+          "parentSetting": "neave-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22-charles-waiting",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "private, contemplative, dreamlike"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22-charles-waiting"
+        },
+        "tennis-court": {
+          "id": "tennis-court",
+          "name": "The Tennis Court",
+          "description": "A tennis court below the dressing-room window where grass is being cut.",
+          "tags": [
+            "outdoor",
+            "recreational",
+            "grounds"
+          ],
+          "textMentions": [
+            "the tennis court",
+            "the grass",
+            "the mower"
+          ],
+          "context": "Part of the Neave estate, representing the family's leisure and social activities.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "grounds of Neave house",
+          "climate": "spring evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British upper-middle-class recreation",
+          "parentSetting": "neave-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e24-evening-sounds",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "peaceful, recreational"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e24-evening-sounds"
+        },
+        "dining-room": {
+          "id": "dining-room",
+          "name": "The Dining-Room",
+          "description": "The dining-room of the Neave house, glittering and gay, where dinner is served.",
+          "tags": [
+            "interior",
+            "social",
+            "formal"
+          ],
+          "textMentions": [
+            "the dining-room"
+          ],
+          "context": "The setting where the family gathers for dinner, referenced in Mr. Neave's dream.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "interior of Neave house",
+          "climate": "interior, evening",
+          "historicalContext": "early 20th century",
+          "culturalBackground": "British home",
+          "parentSetting": "neave-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e27-spider-man-descent",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "formal, social, glittering"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e27-spider-man-descent"
+        },
+        "dark-porch": {
+          "id": "dark-porch",
+          "name": "The Dark Porch",
+          "description": "A dark porch half hidden by a passion-vine that droops sorrowful and mournful, from Mr. Neave's memory.",
+          "tags": [
+            "memory",
+            "intimate",
+            "past"
+          ],
+          "textMentions": [
+            "a dark porch",
+            "passion-vine",
+            "drooped sorrowful, mournful"
+          ],
+          "context": "A setting from Mr. Neave's past, possibly from his true marriage, revealed in a memory.",
+          "type": "setting",
+          "realm": "memory",
+          "geography": "unknown location",
+          "climate": "intimate, tender",
+          "historicalContext": "Mr. Neave's past",
+          "culturalBackground": "unknown",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e29-memory-flash",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "intimate, tender, sorrowful"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e29-memory-flash"
+        }
+      },
+      "items": {
+        "stick": {
+          "id": "stick",
+          "name": "Walking Stick",
+          "description": "A stick that Mr. Neave carries and uses to help him walk and gesture.",
+          "tags": [
+            "personal",
+            "walking aid",
+            "gesture"
+          ],
+          "textMentions": [
+            "his stick",
+            "with his stick"
+          ],
+          "context": "A symbol of Mr. Neave's age and authority, used for both support and social gestures.",
+          "type": "item",
+          "itemType": "walking aid",
+          "origin": "personal possession",
+          "physicalDescription": "a stick used for walking",
+          "defaultFunction": "walking aid and gesture",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-neave-exits-office",
+                "location": "office-building",
+                "condition": "normal",
+                "owner": "neave",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-neave-exits-office"
+        },
+        "wide-awake": {
+          "id": "wide-awake",
+          "name": "Wide-Awake Hat",
+          "description": "A wide-brimmed hat that Mr. Neave tips as a greeting gesture.",
+          "tags": [
+            "clothing",
+            "hat",
+            "social"
+          ],
+          "textMentions": [
+            "his wide-awake"
+          ],
+          "context": "A symbol of Mr. Neave's social courtesy and the greeting ritual he maintains.",
+          "type": "item",
+          "itemType": "hat",
+          "origin": "personal possession",
+          "physicalDescription": "a wide-brimmed hat",
+          "defaultFunction": "head covering and social greeting",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03-greeting-effort",
+                "location": "town-streets",
+                "condition": "normal",
+                "owner": "neave",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03-greeting-effort"
+        },
+        "mothers-purse": {
+          "id": "mothers-purse",
+          "name": "Mother's Purse",
+          "description": "A purse that Harold stole from his mother when he was thirteen, taking the money and hiding it in the cook's bedroom.",
+          "tags": [
+            "stolen",
+            "past",
+            "family scandal"
+          ],
+          "textMentions": [
+            "his mother's purse"
+          ],
+          "context": "A symbol of Harold's early misdeed and the family's indulgence of him.",
+          "type": "item",
+          "itemType": "purse",
+          "origin": "Harold's mother",
+          "physicalDescription": "a purse containing money",
+          "defaultFunction": "money container",
+          "culturalSignificance": "symbol of family scandal and indulgence",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e06-neave-reflection-harold",
+                "location": "neave-house",
+                "condition": "normal",
+                "owner": "charlotte",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e06-neave-reflection-harold"
+        },
+        "cigar-box": {
+          "id": "cigar-box",
+          "name": "Cigar Box",
+          "description": "A cigar box that Mr. Neave pushes across the smoking-room table when entertaining guests.",
+          "tags": [
+            "social",
+            "hospitality",
+            "luxury"
+          ],
+          "textMentions": [
+            "the cigar box"
+          ],
+          "context": "A symbol of Mr. Neave's hospitality and the social life of the household.",
+          "type": "item",
+          "itemType": "container",
+          "origin": "personal possession",
+          "physicalDescription": "a box of cigars",
+          "defaultFunction": "hospitality offering",
+          "culturalSignificance": "symbol of upper-middle-class hospitality",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09-neave-reflection-hobbies",
+                "location": "smoking-room",
+                "condition": "normal",
+                "owner": "neave",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09-neave-reflection-hobbies"
+        },
+        "hyacinths": {
+          "id": "hyacinths",
+          "name": "Blue Jars of Hyacinths",
+          "description": "Blue jars containing hyacinths placed on the broad sills of the house windows.",
+          "tags": [
+            "flowers",
+            "decoration",
+            "spring"
+          ],
+          "textMentions": [
+            "blue jars of hyacinths"
+          ],
+          "context": "A symbol of the house's elegance and the vitality of spring.",
+          "type": "item",
+          "itemType": "flowers",
+          "origin": "garden",
+          "physicalDescription": "blue jars containing hyacinths",
+          "defaultFunction": "decoration",
+          "culturalSignificance": "symbol of spring and elegance",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11-house-observation",
+                "location": "neave-house",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11-house-observation"
+        },
+        "hydrangeas": {
+          "id": "hydrangeas",
+          "name": "Hydrangeas",
+          "description": "Famous hydrangeas on either side of the carriage porch, coming into flower with pinkish, bluish masses.",
+          "tags": [
+            "flowers",
+            "decoration",
+            "famous"
+          ],
+          "textMentions": [
+            "their hydrangeas",
+            "pinkish, bluish masses of flower"
+          ],
+          "context": "Famous flowers that are a point of pride for the Neave family.",
+          "type": "item",
+          "itemType": "flowers",
+          "origin": "garden",
+          "physicalDescription": "pinkish, bluish masses of flowers among spreading leaves",
+          "defaultFunction": "decoration",
+          "culturalSignificance": "symbol of family pride and status",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11-house-observation",
+                "location": "neave-house",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11-house-observation"
+        },
+        "tulle-curtains": {
+          "id": "tulle-curtains",
+          "name": "Tulle Curtains",
+          "description": "Tulle curtains floating outwards from the wide-open windows of the house.",
+          "tags": [
+            "decoration",
+            "interior",
+            "elegant"
+          ],
+          "textMentions": [
+            "tulle curtains floating outwards"
+          ],
+          "context": "A symbol of the house's elegance and openness.",
+          "type": "item",
+          "itemType": "curtains",
+          "origin": "house furnishing",
+          "physicalDescription": "tulle curtains floating outwards",
+          "defaultFunction": "window covering",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11-house-observation",
+                "location": "neave-house",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11-house-observation"
+        },
+        "wraps-parasols-gloves": {
+          "id": "wraps-parasols-gloves",
+          "name": "Wraps, Parasols, and Gloves",
+          "description": "Items piled on oak chests in the hall, suggesting the busy social life of the household.",
+          "tags": [
+            "clothing",
+            "accessories",
+            "social"
+          ],
+          "textMentions": [
+            "wraps, parasols, gloves"
+          ],
+          "context": "Symbols of the family's active social life.",
+          "type": "item",
+          "itemType": "clothing and accessories",
+          "origin": "family possessions",
+          "physicalDescription": "piled on oak chests",
+          "defaultFunction": "clothing and accessories",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12-hall-entry",
+                "location": "hall",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12-hall-entry"
+        },
+        "piano": {
+          "id": "piano",
+          "name": "Piano",
+          "description": "A piano in the music-room that Lola plays, quick, loud, and impatient.",
+          "tags": [
+            "musical instrument",
+            "interior",
+            "social"
+          ],
+          "textMentions": [
+            "the piano"
+          ],
+          "context": "A symbol of the family's cultural refinement and Lola's vitality.",
+          "type": "item",
+          "itemType": "musical instrument",
+          "origin": "house furnishing",
+          "physicalDescription": "a piano",
+          "defaultFunction": "musical instrument",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14-lola-startled",
+                "location": "music-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14-lola-startled"
+        },
+        "handkerchief": {
+          "id": "handkerchief",
+          "name": "Crumpled Handkerchief",
+          "description": "A crumpled handkerchief that Lola tugs at angrily with her teeth.",
+          "tags": [
+            "personal",
+            "emotional",
+            "small"
+          ],
+          "textMentions": [
+            "her crumpled handkerchief"
+          ],
+          "context": "A symbol of Lola's emotional state and distraction.",
+          "type": "item",
+          "itemType": "handkerchief",
+          "origin": "personal possession",
+          "physicalDescription": "crumpled handkerchief",
+          "defaultFunction": "personal item",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14-lola-startled",
+                "location": "hall",
+                "condition": "normal",
+                "owner": "lola",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14-lola-startled"
+        },
+        "telephone": {
+          "id": "telephone",
+          "name": "Telephone",
+          "description": "A telephone in the telephone-room that rings and draws Lola away urgently.",
+          "tags": [
+            "modern",
+            "communication",
+            "urgent"
+          ],
+          "textMentions": [
+            "the telephone"
+          ],
+          "context": "A symbol of modern communication and Lola's distraction from her father.",
+          "type": "item",
+          "itemType": "communication device",
+          "origin": "house furnishing",
+          "physicalDescription": "a telephone",
+          "defaultFunction": "communication",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e15-telephone-call",
+                "location": "telephone-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e15-telephone-call"
+        },
+        "rocker": {
+          "id": "rocker",
+          "name": "Rocking Chair",
+          "description": "A rocking chair that Charlotte sits in, with a creaking sound.",
+          "tags": [
+            "furniture",
+            "interior",
+            "comfort"
+          ],
+          "textMentions": [
+            "her rocker",
+            "the creak, creak of her rocker"
+          ],
+          "context": "A symbol of Charlotte's comfort and domestic role.",
+          "type": "item",
+          "itemType": "furniture",
+          "origin": "house furnishing",
+          "physicalDescription": "a rocking chair",
+          "defaultFunction": "seating",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13-family-conversation",
+                "location": "drawing-room",
+                "condition": "normal",
+                "owner": "charlotte",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13-family-conversation"
+        },
+        "dress-design": {
+          "id": "dress-design",
+          "name": "Dress Design",
+          "description": "A dress design with yellow and silver touches that Ethel shows to Charlotte and Marion, debating the train.",
+          "tags": [
+            "fashion",
+            "paper",
+            "discussion"
+          ],
+          "textMentions": [
+            "the page",
+            "Yellow, with touches of silver"
+          ],
+          "context": "A symbol of the family's preoccupation with fashion and social life.",
+          "type": "item",
+          "itemType": "design",
+          "origin": "fashion design",
+          "physicalDescription": "a page with yellow and silver touches",
+          "defaultFunction": "fashion design",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e20-neave-dozing",
+                "location": "drawing-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e20-neave-dozing"
+        },
+        "tortoise-shell-spectacles": {
+          "id": "tortoise-shell-spectacles",
+          "name": "Tortoise-Shell Spectacles",
+          "description": "Charlotte's tortoise-shell spectacles that she uses to examine the dress design.",
+          "tags": [
+            "personal",
+            "accessory",
+            "vision"
+          ],
+          "textMentions": [
+            "her tortoise-shell spectacles"
+          ],
+          "context": "A symbol of Charlotte's practical nature.",
+          "type": "item",
+          "itemType": "spectacles",
+          "origin": "personal possession",
+          "physicalDescription": "tortoise-shell spectacles",
+          "defaultFunction": "vision aid",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e20-neave-dozing",
+                "location": "drawing-room",
+                "condition": "normal",
+                "owner": "charlotte",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e20-neave-dozing"
+        },
+        "mirror": {
+          "id": "mirror",
+          "name": "Mirror",
+          "description": "A mirror in the drawing-room where Marion pats her hair.",
+          "tags": [
+            "furniture",
+            "interior",
+            "vanity"
+          ],
+          "textMentions": [
+            "a mirror"
+          ],
+          "context": "A symbol of Marion's vanity and self-consciousness.",
+          "type": "item",
+          "itemType": "furniture",
+          "origin": "house furnishing",
+          "physicalDescription": "a mirror",
+          "defaultFunction": "reflection",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18-dress-discussion",
+                "location": "drawing-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18-dress-discussion"
+        },
+        "gramophone": {
+          "id": "gramophone",
+          "name": "Sixty-Guinea Gramophone",
+          "description": "An expensive gramophone in the music-room that the girls dance to.",
+          "tags": [
+            "luxury",
+            "musical",
+            "expensive"
+          ],
+          "textMentions": [
+            "the sixty-guinea gramophone"
+          ],
+          "context": "A symbol of the family's wealth and leisure.",
+          "type": "item",
+          "itemType": "musical device",
+          "origin": "purchased luxury item",
+          "physicalDescription": "a gramophone",
+          "defaultFunction": "music reproduction",
+          "culturalSignificance": "symbol of wealth and modernity",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09-neave-reflection-hobbies",
+                "location": "music-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09-neave-reflection-hobbies"
+        },
+        "towel": {
+          "id": "towel",
+          "name": "Towel",
+          "description": "A towel that young Charles tucks around the hot-water can in the dressing-room.",
+          "tags": [
+            "household",
+            "service",
+            "practical"
+          ],
+          "textMentions": [
+            "a towel"
+          ],
+          "context": "A symbol of Charles's careful service.",
+          "type": "item",
+          "itemType": "towel",
+          "origin": "household item",
+          "physicalDescription": "a towel",
+          "defaultFunction": "household use",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22-charles-waiting",
+                "location": "dressing-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22-charles-waiting"
+        },
+        "hot-water-can": {
+          "id": "hot-water-can",
+          "name": "Hot-Water Can",
+          "description": "A hot-water can that young Charles carefully tends to in the dressing-room.",
+          "tags": [
+            "household",
+            "service",
+            "practical"
+          ],
+          "textMentions": [
+            "the hot-water can"
+          ],
+          "context": "A symbol of the household's comfort and service.",
+          "type": "item",
+          "itemType": "container",
+          "origin": "household item",
+          "physicalDescription": "a hot-water can",
+          "defaultFunction": "heating water",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22-charles-waiting",
+                "location": "dressing-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22-charles-waiting"
+        },
+        "cane-lounge": {
+          "id": "cane-lounge",
+          "name": "Cane Lounge",
+          "description": "A cane lounge by the window in the dressing-room where Mr. Neave settles.",
+          "tags": [
+            "furniture",
+            "interior",
+            "comfort"
+          ],
+          "textMentions": [
+            "the cane lounge"
+          ],
+          "context": "A symbol of comfort and rest.",
+          "type": "item",
+          "itemType": "furniture",
+          "origin": "house furnishing",
+          "physicalDescription": "a cane lounge",
+          "defaultFunction": "seating and resting",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23-neave-settles",
+                "location": "dressing-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23-neave-settles"
+        },
+        "tie-pin": {
+          "id": "tie-pin",
+          "name": "Tie Pin",
+          "description": "A pin in Mr. Neave's tie that young Charles removes.",
+          "tags": [
+            "personal",
+            "clothing",
+            "accessory"
+          ],
+          "textMentions": [
+            "the pin out of his tie"
+          ],
+          "context": "A symbol of Mr. Neave's formal dress.",
+          "type": "item",
+          "itemType": "pin",
+          "origin": "personal possession",
+          "physicalDescription": "a tie pin",
+          "defaultFunction": "clothing fastener",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23-neave-settles",
+                "location": "dressing-room",
+                "condition": "normal",
+                "owner": "neave",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23-neave-settles"
+        },
+        "comb": {
+          "id": "comb",
+          "name": "Comb",
+          "description": "A comb that young Charles gives to Mr. Neave to comb his white beard.",
+          "tags": [
+            "personal",
+            "grooming",
+            "practical"
+          ],
+          "textMentions": [
+            "the comb"
+          ],
+          "context": "A symbol of grooming and self-care.",
+          "type": "item",
+          "itemType": "comb",
+          "origin": "household item",
+          "physicalDescription": "a comb",
+          "defaultFunction": "grooming",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-beard-combing",
+                "location": "dressing-room",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-beard-combing"
+        },
+        "watch-seals": {
+          "id": "watch-seals",
+          "name": "Watch and Seals",
+          "description": "Mr. Neave's watch and seals that young Charles gives to him.",
+          "tags": [
+            "personal",
+            "accessory",
+            "valuable"
+          ],
+          "textMentions": [
+            "his watch and seals"
+          ],
+          "context": "Symbols of Mr. Neave's status and time.",
+          "type": "item",
+          "itemType": "accessories",
+          "origin": "personal possession",
+          "physicalDescription": "a watch and seals",
+          "defaultFunction": "timekeeping and decoration",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-beard-combing",
+                "location": "dressing-room",
+                "condition": "normal",
+                "owner": "neave",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-beard-combing"
+        },
+        "spectacle-case": {
+          "id": "spectacle-case",
+          "name": "Spectacle Case",
+          "description": "A spectacle case that young Charles gives to Mr. Neave.",
+          "tags": [
+            "personal",
+            "accessory",
+            "practical"
+          ],
+          "textMentions": [
+            "spectacle case"
+          ],
+          "context": "A symbol of Mr. Neave's practical needs.",
+          "type": "item",
+          "itemType": "case",
+          "origin": "personal possession",
+          "physicalDescription": "a spectacle case",
+          "defaultFunction": "spectacle storage",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-beard-combing",
+                "location": "dressing-room",
+                "condition": "normal",
+                "owner": "neave",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-beard-combing"
+        },
+        "passion-vine": {
+          "id": "passion-vine",
+          "name": "Passion-Vine",
+          "description": "A passion-vine that droops sorrowful and mournful, half-hiding a dark porch in Mr. Neave's memory.",
+          "tags": [
+            "plant",
+            "memory",
+            "symbolic"
+          ],
+          "textMentions": [
+            "passion-vine",
+            "drooped sorrowful, mournful"
+          ],
+          "context": "A symbol of sorrow and loss in Mr. Neave's past.",
+          "type": "item",
+          "itemType": "plant",
+          "origin": "natural",
+          "physicalDescription": "a passion-vine drooping sorrowful and mournful",
+          "defaultFunction": "plant",
+          "culturalSignificance": "symbol of sorrow and loss",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e29-memory-flash",
+                "location": "dark-porch",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e29-memory-flash"
+        }
+      },
+      "factions": {}
+    },
+    "events": {
+      "e01-neave-exits-office": {
+        "id": "e01-neave-exits-office",
+        "type": "action",
+        "description": "Mr. Neave presses through the swing door of the office building and descends the three broad steps to the pavement.",
+        "timestamp": {
+          "percentage": 1
+        },
+        "textLocation": {
+          "startLine": 1,
+          "endLine": 2
+        },
+        "participants": [
+          "neave",
+          "office-building"
+        ],
+        "precedingEvent": null
+      },
+      "e02-spring-confrontation": {
+        "id": "e02-spring-confrontation",
+        "type": "environmental",
+        "description": "Mr. Neave feels confronted by spring—warm, eager, restless—waiting for him in the golden light, ready to run up, blow in his white beard, and drag sweetly on his arm, but he cannot meet her.",
+        "timestamp": {
+          "percentage": 2
+        },
+        "textLocation": {
+          "startLine": 3,
+          "endLine": 11
+        },
+        "participants": [
+          "neave"
+        ],
+        "precedingEvent": "e01-neave-exits-office"
+      },
+      "e03-greeting-effort": {
+        "id": "e03-greeting-effort",
+        "type": "action",
+        "description": "Mr. Neave attempts to greet people he knows—friends, acquaintances, shopkeepers, postmen, drivers—by tipping his wide-awake with his stick, but cannot manage the gay glance and kindly twinkle that usually accompany the gesture.",
+        "timestamp": {
+          "percentage": 5
+        },
+        "textLocation": {
+          "startLine": 14,
+          "endLine": 19
+        },
+        "participants": [
+          "neave",
+          "town-streets"
+        ],
+        "precedingEvent": "e02-spring-confrontation"
+      },
+      "e04-dreamlike-crowd": {
+        "id": "e04-dreamlike-crowd",
+        "type": "environmental",
+        "description": "Mr. Neave walks through the homeward-looking crowd, lifting his knees high as if walking through heavy, solid air like water, while trams clank, light carts clatter, and big swinging cabs bowl along with reckless, defiant indifference known only in dreams.",
+        "timestamp": {
+          "percentage": 7
+        },
+        "textLocation": {
+          "startLine": 20,
+          "endLine": 26
+        },
+        "participants": [
+          "neave",
+          "town-streets"
+        ],
+        "precedingEvent": "e03-greeting-effort"
+      },
+      "e05-harold-late-return": {
+        "id": "e05-harold-late-return",
+        "type": "action",
+        "description": "Harold saunters into the office vestibule, perfectly turned out, cool, suave, and smiling his peculiar little half-smile that women find fascinating, having been late returning from lunch.",
+        "timestamp": {
+          "percentage": 12
+        },
+        "textLocation": {
+          "startLine": 33,
+          "endLine": 38
+        },
+        "participants": [
+          "harold",
+          "neave",
+          "office-building"
+        ],
+        "precedingEvent": "e04-dreamlike-crowd"
+      },
+      "e06-neave-reflection-harold": {
+        "id": "e06-neave-reflection-harold",
+        "type": "revelation",
+        "description": "Mr. Neave reflects that Harold is too handsome by far, that no man has a right to such eyes, lashes, and lips, and that the family, servants, and everyone else worship him and forgive him everything, including the time he stole his mother's purse when he was thirteen.",
+        "timestamp": {
+          "percentage": 15
+        },
+        "textLocation": {
+          "startLine": 39,
+          "endLine": 54
+        },
+        "participants": [
+          "neave",
+          "harold",
+          "charlotte"
+        ],
+        "precedingEvent": "e05-harold-late-return"
+      },
+      "e07-charlotte-retirement-plea": {
+        "id": "e07-charlotte-retirement-plea",
+        "type": "dialogue",
+        "description": "Charlotte urges Mr. Neave to retire and hand over the business to Harold, suggesting he enjoy the house and garden or take up a hobby instead of going to the office.",
+        "timestamp": {
+          "percentage": 20
+        },
+        "textLocation": {
+          "startLine": 60,
+          "endLine": 67
+        },
+        "participants": [
+          "charlotte",
+          "neave"
+        ],
+        "precedingEvent": "e06-neave-reflection-harold"
+      },
+      "e08-lola-hobbies-comment": {
+        "id": "e08-lola-hobbies-comment",
+        "type": "dialogue",
+        "description": "Lola chimes in loftily that all men ought to have hobbies, as life is impossible if they haven't.",
+        "timestamp": {
+          "percentage": 22
+        },
+        "textLocation": {
+          "startLine": 68,
+          "endLine": 70
+        },
+        "participants": [
+          "lola",
+          "charlotte"
+        ],
+        "precedingEvent": "e07-charlotte-retirement-plea"
+      },
+      "e09-neave-reflection-hobbies": {
+        "id": "e09-neave-reflection-hobbies",
+        "type": "revelation",
+        "description": "Mr. Neave reflects bitterly on what his family would have without his work—no town house, seaside bungalow, horses, golf, or sixty-guinea gramophone—and acknowledges that the girls are smart and good-looking, and Charlotte is remarkable, and their house is the most popular in town.",
+        "timestamp": {
+          "percentage": 25
+        },
+        "textLocation": {
+          "startLine": 71,
+          "endLine": 95
+        },
+        "participants": [
+          "neave",
+          "charlotte",
+          "ethel",
+          "marion",
+          "lola"
+        ],
+        "precedingEvent": "e08-lola-hobbies-comment"
+      },
+      "e10-house-arrival": {
+        "id": "e10-house-arrival",
+        "type": "action",
+        "description": "Mr. Neave walks the length of fashionable Harcourt Avenue and reaches the corner house with its carriage gates pushed back and fresh marks of wheels on the drive.",
+        "timestamp": {
+          "percentage": 30
+        },
+        "textLocation": {
+          "startLine": 96,
+          "endLine": 100
+        },
+        "participants": [
+          "neave",
+          "harcourt-avenue",
+          "neave-house"
+        ],
+        "precedingEvent": "e09-neave-reflection-hobbies"
+      },
+      "e11-house-observation": {
+        "id": "e11-house-observation",
+        "type": "environmental",
+        "description": "Mr. Neave observes the big white-painted house with wide-open windows, tulle curtains floating outwards, blue jars of hyacinths on the broad sills, and famous hydrangeas on either side of the carriage porch coming into flower with pinkish, bluish masses.",
+        "timestamp": {
+          "percentage": 32
+        },
+        "textLocation": {
+          "startLine": 101,
+          "endLine": 110
+        },
+        "participants": [
+          "neave",
+          "neave-house"
+        ],
+        "precedingEvent": "e10-house-arrival"
+      },
+      "e12-hall-entry": {
+        "id": "e12-hall-entry",
+        "type": "action",
+        "description": "Mr. Neave enters the hall, which is dusky with wraps, parasols, and gloves piled on oak chests, and hears the piano from the music-room sounding quick, loud, and impatient.",
+        "timestamp": {
+          "percentage": 34
+        },
+        "textLocation": {
+          "startLine": 111,
+          "endLine": 115
+        },
+        "participants": [
+          "neave",
+          "hall",
+          "music-room"
+        ],
+        "precedingEvent": "e11-house-observation"
+      },
+      "e13-family-conversation": {
+        "id": "e13-family-conversation",
+        "type": "dialogue",
+        "description": "Mr. Neave hears Charlotte, Ethel, and Marion discussing ices from an event, with Charlotte asking about them and the girls criticizing the quality and variety.",
+        "timestamp": {
+          "percentage": 36
+        },
+        "textLocation": {
+          "startLine": 116,
+          "endLine": 127
+        },
+        "participants": [
+          "charlotte",
+          "ethel",
+          "marion"
+        ],
+        "precedingEvent": "e12-hall-entry"
+      },
+      "e14-lola-startled": {
+        "id": "e14-lola-startled",
+        "type": "action",
+        "description": "Lola dashes out of the music-room, startled and nearly screaming at the sight of her father, her cheeks crimson from playing, her eyes glittering, her hair falling over her forehead, breathing as though she has come running through the dark and is frightened.",
+        "timestamp": {
+          "percentage": 38
+        },
+        "textLocation": {
+          "startLine": 128,
+          "endLine": 140
+        },
+        "participants": [
+          "lola",
+          "neave",
+          "music-room"
+        ],
+        "precedingEvent": "e13-family-conversation"
+      },
+      "e15-telephone-call": {
+        "id": "e15-telephone-call",
+        "type": "action",
+        "description": "The telephone rings, and Lola gives a cry like a sob and dashes past her father, slamming the door of the telephone-room.",
+        "timestamp": {
+          "percentage": 40
+        },
+        "textLocation": {
+          "startLine": 141,
+          "endLine": 145
+        },
+        "participants": [
+          "lola",
+          "neave",
+          "telephone-room"
+        ],
+        "precedingEvent": "e14-lola-startled"
+      },
+      "e16-family-greetings": {
+        "id": "e16-family-greetings",
+        "type": "action",
+        "description": "Charlotte, Ethel, and Marion greet Mr. Neave with concern about his tiredness, offering their cheeks and lips, and asking if he walked home.",
+        "timestamp": {
+          "percentage": 41
+        },
+        "textLocation": {
+          "startLine": 146,
+          "endLine": 154
+        },
+        "participants": [
+          "charlotte",
+          "ethel",
+          "marion",
+          "neave",
+          "drawing-room"
+        ],
+        "precedingEvent": "e15-telephone-call"
+      },
+      "e17-neave-sits": {
+        "id": "e17-neave-sits",
+        "type": "action",
+        "description": "Mr. Neave sinks into one of the immense drawing-room chairs.",
+        "timestamp": {
+          "percentage": 42
+        },
+        "textLocation": {
+          "startLine": 155,
+          "endLine": 156
+        },
+        "participants": [
+          "neave",
+          "drawing-room"
+        ],
+        "precedingEvent": "e16-family-greetings"
+      },
+      "e18-dress-discussion": {
+        "id": "e18-dress-discussion",
+        "type": "dialogue",
+        "description": "Ethel questions why Mr. Neave didn't take a cab, and Marion defends his choice, commenting that he is naughty and that Charlotte spoils him, while Marion laughs her hard, bright laugh and pats her hair in a mirror.",
+        "timestamp": {
+          "percentage": 43
+        },
+        "textLocation": {
+          "startLine": 157,
+          "endLine": 170
+        },
+        "participants": [
+          "ethel",
+          "marion",
+          "charlotte",
+          "neave"
+        ],
+        "precedingEvent": "e17-neave-sits"
+      },
+      "e19-harold-inquiry": {
+        "id": "e19-harold-inquiry",
+        "type": "dialogue",
+        "description": "Charlotte asks if Harold left the office before Mr. Neave, and he responds that he is not sure and didn't see Harold after four o'clock.",
+        "timestamp": {
+          "percentage": 45
+        },
+        "textLocation": {
+          "startLine": 171,
+          "endLine": 176
+        },
+        "participants": [
+          "charlotte",
+          "neave",
+          "harold"
+        ],
+        "precedingEvent": "e18-dress-discussion"
+      },
+      "e20-neave-dozing": {
+        "id": "e20-neave-dozing",
+        "type": "action",
+        "description": "Ethel shows Charlotte a dress design with yellow and silver touches, and they debate whether the train should be included, while Mr. Neave, forgotten, sinks into his chair and dozes, hearing them as though in a dream.",
+        "timestamp": {
+          "percentage": 47
+        },
+        "textLocation": {
+          "startLine": 177,
+          "endLine": 195
+        },
+        "participants": [
+          "ethel",
+          "charlotte",
+          "marion",
+          "neave",
+          "drawing-room"
+        ],
+        "precedingEvent": "e19-harold-inquiry"
+      },
+      "e21-dress-refusal": {
+        "id": "e21-dress-refusal",
+        "type": "dialogue",
+        "description": "Mr. Neave mutters that he won't dress for dinner, causing concern from his family about guests arriving, including Lucile, Henry Davenport, and Mrs. Teddie Walker, but he eventually agrees to dress.",
+        "timestamp": {
+          "percentage": 50
+        },
+        "textLocation": {
+          "startLine": 196,
+          "endLine": 213
+        },
+        "participants": [
+          "neave",
+          "charlotte",
+          "ethel",
+          "marion"
+        ],
+        "precedingEvent": "e20-neave-dozing"
+      },
+      "e22-charles-waiting": {
+        "id": "e22-charles-waiting",
+        "type": "action",
+        "description": "Young Charles is waiting in the dressing-room, carefully tucking a towel around the hot-water can, having been a favorite of Mr. Neave since he came to the house as a little red-faced boy to look after the fires.",
+        "timestamp": {
+          "percentage": 52
+        },
+        "textLocation": {
+          "startLine": 214,
+          "endLine": 220
+        },
+        "participants": [
+          "charles",
+          "neave",
+          "dressing-room"
+        ],
+        "precedingEvent": "e21-dress-refusal"
+      },
+      "e23-neave-settles": {
+        "id": "e23-neave-settles",
+        "type": "action",
+        "description": "Mr. Neave lowers himself into the cane lounge by the window, stretches out his legs, and makes his little evening joke 'Dress him up, Charles!' while Charles bends forward to take the pin out of his tie.",
+        "timestamp": {
+          "percentage": 54
+        },
+        "textLocation": {
+          "startLine": 221,
+          "endLine": 226
+        },
+        "participants": [
+          "neave",
+          "charles",
+          "dressing-room"
+        ],
+        "precedingEvent": "e22-charles-waiting"
+      },
+      "e24-evening-sounds": {
+        "id": "e24-evening-sounds",
+        "type": "environmental",
+        "description": "Mr. Neave enjoys the pleasant, mild evening by the open window, hearing the soft churr of the grass mower on the tennis court below, and imagining the girls' future tennis parties with Marion's voice ringing out and Charlotte calling from the veranda.",
+        "timestamp": {
+          "percentage": 56
+        },
+        "textLocation": {
+          "startLine": 227,
+          "endLine": 239
+        },
+        "participants": [
+          "neave",
+          "dressing-room",
+          "tennis-court"
+        ],
+        "precedingEvent": "e23-neave-settles"
+      },
+      "e25-beard-combing": {
+        "id": "e25-beard-combing",
+        "type": "action",
+        "description": "Mr. Neave takes the comb from young Charles and carefully combs his white beard over, then receives his folded handkerchief, watch and seals, and spectacle case from Charles before the door shuts and he is alone.",
+        "timestamp": {
+          "percentage": 58
+        },
+        "textLocation": {
+          "startLine": 240,
+          "endLine": 247
+        },
+        "participants": [
+          "neave",
+          "charles",
+          "dressing-room"
+        ],
+        "precedingEvent": "e24-evening-sounds"
+      },
+      "e26-dream-begins": {
+        "id": "e26-dream-begins",
+        "type": "action",
+        "description": "Mr. Neave imagines a little ancient fellow with spider-like legs climbing down endless flights of stairs toward a glittering, gay dining-room.",
+        "timestamp": {
+          "percentage": 60
+        },
+        "textLocation": {
+          "startLine": 248,
+          "endLine": 251
+        },
+        "participants": [
+          "neave",
+          "dressing-room"
+        ],
+        "precedingEvent": "e25-beard-combing"
+      },
+      "e27-spider-man-descent": {
+        "id": "e27-spider-man-descent",
+        "type": "action",
+        "description": "The little old spider-man slips past the dining-room and makes for the porch, dark drive, carriage gates, and office, causing Mr. Neave horror as he cries out to stop him.",
+        "timestamp": {
+          "percentage": 62
+        },
+        "textLocation": {
+          "startLine": 252,
+          "endLine": 258
+        },
+        "participants": [
+          "neave",
+          "dressing-room"
+        ],
+        "precedingEvent": "e26-dream-begins"
+      },
+      "e28-neave-awakens": {
+        "id": "e28-neave-awakens",
+        "type": "action",
+        "description": "Mr. Neave starts up in the dark dressing-room, unsure how long he has been asleep, listening to far-away voices and sounds through the house, feeling forgotten and alienated, wondering what the house, Charlotte, the girls, and Harold have to do with him, realizing they are strangers and life has passed him by.",
+        "timestamp": {
+          "percentage": 64
+        },
+        "textLocation": {
+          "startLine": 259,
+          "endLine": 272
+        },
+        "participants": [
+          "neave",
+          "dressing-room"
+        ],
+        "precedingEvent": "e27-spider-man-descent"
+      },
+      "e29-memory-flash": {
+        "id": "e29-memory-flash",
+        "type": "revelation",
+        "description": "A vivid memory surfaces of a dark porch half hidden by a passion-vine that droops sorrowful and mournful, with small warm arms around his neck, a little pale face lifted to his, and a voice breathing 'Good-bye, my treasure,' causing Mr. Neave to realize that she was his true wife and all the rest of his life has been a dream.",
+        "timestamp": {
+          "percentage": 66
+        },
+        "textLocation": {
+          "startLine": 273,
+          "endLine": 285
+        },
+        "participants": [
+          "neave",
+          "unknown-woman",
+          "dark-porch"
+        ],
+        "precedingEvent": "e28-neave-awakens"
+      },
+      "e30-charles-announces-dinner": {
+        "id": "e30-charles-announces-dinner",
+        "type": "dialogue",
+        "description": "Young Charles opens the door, stands in the light, puts his hands by his side, and shouts like a young soldier that dinner is on the table, and Mr. Neave responds that he is coming.",
+        "timestamp": {
+          "percentage": 68
+        },
+        "textLocation": {
+          "startLine": 286,
+          "endLine": 289
+        },
+        "participants": [
+          "charles",
+          "neave",
+          "dressing-room"
+        ],
+        "precedingEvent": "e29-memory-flash"
+      }
+    },
+    "relationships": {
+      "interpersonal": {
+        "rel-neave-harold": {
+          "id": "rel-neave-harold",
+          "name": "Father and Son",
+          "description": "Mr. Neave is Harold's father, concerned about his son's reliability and the future of the business, while Harold is indulged by the family and expected to take over.",
+          "tags": [
+            "family",
+            "business",
+            "concern"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "neave",
+            "harold"
+          ],
+          "nature": "paternal concern mixed with doubt",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05-harold-late-return",
+                "strength": 0.6,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05-harold-late-return"
+        },
+        "rel-neave-charlotte": {
+          "id": "rel-neave-charlotte",
+          "name": "Husband and Wife",
+          "description": "Mr. Neave is married to Charlotte, a remarkable woman who manages the household and social life, though he feels increasingly alienated from her.",
+          "tags": [
+            "family",
+            "marriage",
+            "alienation"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "neave",
+            "charlotte"
+          ],
+          "nature": "marriage with growing distance",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07-charlotte-retirement-plea",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07-charlotte-retirement-plea"
+        },
+        "rel-neave-ethel": {
+          "id": "rel-neave-ethel",
+          "name": "Father and Daughter",
+          "description": "Mr. Neave is Ethel's father; she is concerned about his health and tiredness.",
+          "tags": [
+            "family",
+            "concern"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "neave",
+            "ethel"
+          ],
+          "nature": "paternal with filial concern",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16-family-greetings",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16-family-greetings"
+        },
+        "rel-neave-marion": {
+          "id": "rel-neave-marion",
+          "name": "Father and Daughter",
+          "description": "Mr. Neave is Marion's father; she is theatrical and concerned about his health, though she comments on his naughtiness.",
+          "tags": [
+            "family",
+            "concern",
+            "teasing"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "neave",
+            "marion"
+          ],
+          "nature": "paternal with playful criticism",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16-family-greetings",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16-family-greetings"
+        },
+        "rel-neave-lola": {
+          "id": "rel-neave-lola",
+          "name": "Father and Daughter",
+          "description": "Mr. Neave is Lola's father; she is his youngest daughter, vital and energetic, seemingly distracted by a telephone call.",
+          "tags": [
+            "family",
+            "youth",
+            "distance"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "neave",
+            "lola"
+          ],
+          "nature": "paternal with growing distance",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14-lola-startled",
+                "strength": 0.4,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14-lola-startled"
+        },
+        "rel-neave-charles": {
+          "id": "rel-neave-charles",
+          "name": "Master and Servant",
+          "description": "Mr. Neave has a warm relationship with young Charles, who has been with the family since childhood and attends to his needs with care.",
+          "tags": [
+            "service",
+            "loyalty",
+            "warmth"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "neave",
+            "charles"
+          ],
+          "nature": "affectionate master-servant relationship",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22-charles-waiting",
+                "strength": 0.7,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "ally"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22-charles-waiting"
+        },
+        "rel-charlotte-harold": {
+          "id": "rel-charlotte-harold",
+          "name": "Mother and Son",
+          "description": "Charlotte worships Harold and forgives him everything, indulging him as the family favorite.",
+          "tags": [
+            "family",
+            "indulgence",
+            "favoritism"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "charlotte",
+            "harold"
+          ],
+          "nature": "maternal indulgence",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e06-neave-reflection-harold",
+                "strength": 0.8,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e06-neave-reflection-harold"
+        },
+        "rel-charlotte-girls": {
+          "id": "rel-charlotte-girls",
+          "name": "Mother and Daughters",
+          "description": "Charlotte is close to her daughters, Ethel, Marion, and Lola, and they are happy together, which is why they have never married.",
+          "tags": [
+            "family",
+            "closeness",
+            "happiness"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "charlotte",
+            "ethel",
+            "marion",
+            "lola"
+          ],
+          "nature": "close maternal relationship",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09-neave-reflection-hobbies",
+                "strength": 0.8,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09-neave-reflection-hobbies"
+        },
+        "rel-neave-unknown-woman": {
+          "id": "rel-neave-unknown-woman",
+          "name": "Husband and Wife (Past)",
+          "description": "Mr. Neave has a memory of a pale, small woman who calls him 'my treasure' on a dark porch, whom he realizes was his true wife, suggesting his current life is a dream.",
+          "tags": [
+            "memory",
+            "past",
+            "true love",
+            "lost"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "neave",
+            "unknown-woman"
+          ],
+          "nature": "true love from the past",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e29-memory-flash",
+                "strength": 0.9,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "lover"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e29-memory-flash"
+        }
+      },
+      "group": {
+        "group-neave-family": {
+          "id": "group-neave-family",
+          "name": "The Neave Family",
+          "description": "Mr. Neave's household consisting of his wife Charlotte, his son Harold, and his daughters Ethel, Marion, and Lola, who are wealthy, socially prominent, and preoccupied with leisure and fashion.",
+          "tags": [
+            "family",
+            "household",
+            "wealthy",
+            "social"
+          ],
+          "type": "group",
+          "participants": [
+            "neave",
+            "charlotte",
+            "harold",
+            "ethel",
+            "marion",
+            "lola"
+          ],
+          "nature": "family unit with shared household and social life",
+          "subRelationships": [],
+          "groupDynamics": {
+            "cohesion": 0.7,
+            "sharedPurpose": 0.5,
+            "internalConflict": 0
+          },
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09-neave-reflection-hobbies",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09-neave-reflection-hobbies"
+        }
+      }
+    },
+    "absentials": {
+      "abs-energy-vitality": {
+        "id": "abs-energy-vitality",
+        "name": "Energy and Vitality",
+        "description": "Mr. Neave's lack of energy and inability to meet the vitality of spring and his family.",
+        "tags": [
+          "exhaustion",
+          "aging",
+          "alienation"
+        ],
+        "holder": "neave",
+        "origin": "Mr. Neave feels tired and lacks the energy to greet spring or engage with his family's gaiety.",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "spring",
+            "relationship": "obstacle",
+            "strength": 0.8
+          },
+          {
+            "entityId": "charlotte",
+            "relationship": "influenced_by",
+            "strength": 0.6
+          },
+          {
+            "entityId": "lola",
+            "relationship": "influenced_by",
+            "strength": 0.7
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e02-spring-confrontation",
+              "type": "lack",
+              "status": "unsatisfied",
+              "urgency": 0.8,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e02-spring-confrontation"
+      },
+      "abs-business-integrity": {
+        "id": "abs-business-integrity",
+        "name": "Business Integrity",
+        "description": "Mr. Neave's concern that his business will dissolve if he retires and hands it over to Harold.",
+        "tags": [
+          "business",
+          "concern",
+          "legacy"
+        ],
+        "holder": "neave",
+        "origin": "Mr. Neave believes that a business cannot be played with and requires a man's whole heart and soul, which Harold may not provide.",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "harold",
+            "relationship": "obstacle",
+            "strength": 0.8
+          },
+          {
+            "entityId": "charlotte",
+            "relationship": "obstacle",
+            "strength": 0.6
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e06-neave-reflection-harold",
+              "type": "fear",
+              "status": "unsatisfied",
+              "urgency": 0.7,
+              "intensity": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e06-neave-reflection-harold"
+      },
+      "abs-true-identity": {
+        "id": "abs-true-identity",
+        "name": "True Identity and Lost Love",
+        "description": "Mr. Neave's realization that his true wife is a pale woman from his past, and that his current life with Charlotte and his family is a dream or false reality.",
+        "tags": [
+          "identity",
+          "memory",
+          "loss",
+          "truth"
+        ],
+        "holder": "neave",
+        "origin": "A vivid memory surfaces of a dark porch and a woman who calls him 'my treasure,' causing Mr. Neave to question the reality of his current life.",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "unknown-woman",
+            "relationship": "target",
+            "strength": 0.9
+          },
+          {
+            "entityId": "charlotte",
+            "relationship": "obstacle",
+            "strength": 0.8
+          },
+          {
+            "entityId": "dark-porch",
+            "relationship": "target",
+            "strength": 0.8
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e29-memory-flash",
+              "type": "desire",
+              "status": "resolved_mixed",
+              "urgency": 0.9,
+              "intensity": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e29-memory-flash"
+      },
+      "abs-belonging": {
+        "id": "abs-belonging",
+        "name": "Sense of Belonging",
+        "description": "Mr. Neave's loss of belonging to his family and home, feeling that they are strangers to him.",
+        "tags": [
+          "alienation",
+          "family",
+          "identity"
+        ],
+        "holder": "neave",
+        "origin": "After waking from his dream, Mr. Neave feels forgotten and alienated, questioning his connection to his family and home.",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "charlotte",
+            "relationship": "obstacle",
+            "strength": 0.7
+          },
+          {
+            "entityId": "harold",
+            "relationship": "obstacle",
+            "strength": 0.7
+          },
+          {
+            "entityId": "neave-house",
+            "relationship": "obstacle",
+            "strength": 0.6
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e28-neave-awakens",
+              "type": "lack",
+              "status": "unsatisfied",
+              "urgency": 0.8,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e28-neave-awakens"
+      }
+    },
+    "mentalConstructs": {
+      "mc-harold-handsome": {
+        "id": "mc-harold-handsome",
+        "name": "Harold's Excessive Handsomeness",
+        "description": "Mr. Neave's belief that Harold is too handsome by far and that no man has a right to such eyes, lashes, and lips.",
+        "tags": [
+          "appearance",
+          "concern",
+          "judgment"
+        ],
+        "holder": "neave",
+        "subject": "harold",
+        "isDiegetic": true,
+        "source": "e06-neave-reflection-harold",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e06-neave-reflection-harold",
+              "content": "Harold is exceptionally handsome in a way that is uncanny and has enabled him to be indulged by everyone.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e06-neave-reflection-harold"
+      },
+      "mc-family-worship-harold": {
+        "id": "mc-family-worship-harold",
+        "name": "Family Worship of Harold",
+        "description": "Mr. Neave's observation that his family, servants, and everyone else worship Harold and forgive him everything.",
+        "tags": [
+          "family",
+          "indulgence",
+          "concern"
+        ],
+        "holder": "neave",
+        "subject": "harold",
+        "isDiegetic": true,
+        "source": "e06-neave-reflection-harold",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e06-neave-reflection-harold",
+              "content": "The family and society indulge Harold because of his beauty, which has enabled him to avoid consequences for his misdeeds.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e06-neave-reflection-harold"
+      },
+      "mc-business-requires-dedication": {
+        "id": "mc-business-requires-dedication",
+        "name": "Business Requires Dedication",
+        "description": "Mr. Neave's belief that a business cannot be played with and requires a man's whole heart and soul.",
+        "tags": [
+          "business",
+          "values",
+          "concern"
+        ],
+        "holder": "neave",
+        "subject": "office-building",
+        "isDiegetic": true,
+        "source": "e06-neave-reflection-harold",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e06-neave-reflection-harold",
+              "content": "A business, even a successful and established one, will fall apart if a man does not put his whole heart and soul into it.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e06-neave-reflection-harold"
+      },
+      "mc-hobbies-insufficient": {
+        "id": "mc-hobbies-insufficient",
+        "name": "Hobbies Cannot Replace Work",
+        "description": "Mr. Neave's reflection that hobbies could not have paid for his family's lifestyle and luxuries.",
+        "tags": [
+          "work",
+          "values",
+          "family"
+        ],
+        "holder": "neave",
+        "subject": "neave",
+        "isDiegetic": true,
+        "source": "e09-neave-reflection-hobbies",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e09-neave-reflection-hobbies",
+              "content": "His life's work, not hobbies, has provided the town house, seaside bungalow, horses, golf, and gramophone that his family enjoys.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e09-neave-reflection-hobbies"
+      },
+      "mc-family-popularity": {
+        "id": "mc-family-popularity",
+        "name": "Family's Social Prominence",
+        "description": "Mr. Neave's knowledge that his family is the most popular in town and entertains more than any other family.",
+        "tags": [
+          "social",
+          "family",
+          "status"
+        ],
+        "holder": "neave",
+        "subject": "neave-house",
+        "isDiegetic": true,
+        "source": "e09-neave-reflection-hobbies",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e09-neave-reflection-hobbies",
+              "content": "No other house in the town is as popular as theirs, and no other family entertains so much.",
+              "type": "fact",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.6
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e09-neave-reflection-hobbies"
+      },
+      "mc-girls-never-married": {
+        "id": "mc-girls-never-married",
+        "name": "Daughters' Unmarried Status",
+        "description": "Mr. Neave's understanding that his daughters have never married because they are too happy at home.",
+        "tags": [
+          "family",
+          "daughters",
+          "happiness"
+        ],
+        "holder": "neave",
+        "subject": "ethel",
+        "isDiegetic": true,
+        "source": "e09-neave-reflection-hobbies",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e09-neave-reflection-hobbies",
+              "content": "The girls could have married anybody, but they have too good a time at home and are too happy together with Charlotte.",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.5
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e09-neave-reflection-hobbies"
+      },
+      "mc-marion-transformation": {
+        "id": "mc-marion-transformation",
+        "name": "Marion's Transformation",
+        "description": "Mr. Neave's observation that Marion has changed from a shy, stuttering child to a theatrical, confident woman.",
+        "tags": [
+          "daughters",
+          "change",
+          "observation"
+        ],
+        "holder": "neave",
+        "subject": "marion",
+        "isDiegetic": true,
+        "source": "e18-dress-discussion",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e18-dress-discussion",
+              "content": "Marion, who once had a soft, hesitating voice and even stuttered, now speaks in a theatrical manner as though on stage.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.5
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e18-dress-discussion"
+      },
+      "mc-neave-forgotten": {
+        "id": "mc-neave-forgotten",
+        "name": "Neave Feels Forgotten",
+        "description": "Mr. Neave's feeling that he is forgotten by his family and that they are strangers to him.",
+        "tags": [
+          "alienation",
+          "family",
+          "identity"
+        ],
+        "holder": "neave",
+        "subject": "neave",
+        "isDiegetic": true,
+        "source": "e28-neave-awakens",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e28-neave-awakens",
+              "content": "He has been forgotten by his family; they are strangers to him; life has passed him by.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e28-neave-awakens"
+      },
+      "mc-true-wife-memory": {
+        "id": "mc-true-wife-memory",
+        "name": "True Wife from the Past",
+        "description": "Mr. Neave's realization that a pale woman from his past was his true wife and that his current life is a dream.",
+        "tags": [
+          "memory",
+          "identity",
+          "truth"
+        ],
+        "holder": "neave",
+        "subject": "unknown-woman",
+        "isDiegetic": true,
+        "source": "e29-memory-flash",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e29-memory-flash",
+              "content": "The pale woman from the dark porch was his true wife, and all the rest of his life has been a dream.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e29-memory-flash"
+      }
+    },
+    "annotations": []
+  },
+  "readings": {
+    "Formalist Reading": {
+      "name": "Formalist Reading",
+      "description": "A formalist analysis of 'The Spring' focusing on narrative structure, literary devices, symbolism, and the formal construction of meaning through language, imagery, and compositional techniques.",
+      "themes": {
+        "theme-alienation-through-form": {
+          "id": "theme-alienation-through-form",
+          "name": "Alienation Through Narrative Form",
+          "description": "The story's formal structure—fragmented consciousness, dreamlike sequences, and shifting perspectives—enacts Mr. Neave's psychological alienation. The narrative form itself becomes the content.",
+          "tags": [
+            "narrative-technique",
+            "consciousness",
+            "structure"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-neave-exits-office",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-neave-exits-office"
+        },
+        "theme-temporal-dissolution": {
+          "id": "theme-temporal-dissolution",
+          "name": "Temporal Dissolution and Dream Logic",
+          "description": "The story employs dream logic and temporal fluidity to explore the dissolution of linear time. Past and present collapse, suggesting that narrative time itself is unstable.",
+          "tags": [
+            "time",
+            "dream",
+            "structure"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-dream-begins",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-dream-begins"
+        },
+        "theme-language-as-barrier": {
+          "id": "theme-language-as-barrier",
+          "name": "Language and Communication as Barrier",
+          "description": "Dialogue and speech throughout the story fail to communicate genuine connection. Language becomes a formal barrier rather than a bridge, emphasizing isolation through stylistic means.",
+          "tags": [
+            "dialogue",
+            "language",
+            "style"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03-greeting-effort",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03-greeting-effort"
+        },
+        "theme-material-form-emptiness": {
+          "id": "theme-material-form-emptiness",
+          "name": "Material Form and Spiritual Emptiness",
+          "description": "The story's detailed, precise descriptions of material objects and domestic spaces contrast sharply with the protagonist's inner void, creating ironic tension through formal juxtaposition.",
+          "tags": [
+            "imagery",
+            "description",
+            "irony"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11-house-observation",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11-house-observation"
+        }
+      },
+      "symbols": {
+        "sym-spring": {
+          "id": "sym-spring",
+          "name": "Spring",
+          "description": "Spring functions as a formal symbol of vitality and renewal that Mr. Neave cannot access. Its personification as a feminine, eager force contrasts with his exhaustion, creating symbolic tension.",
+          "tags": [
+            "nature",
+            "vitality",
+            "personification"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02-spring-confrontation",
+                "currentMeanings": [
+                  {
+                    "description": "Renewal and life force that excludes the aging protagonist",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Feminine desire and attraction that remains inaccessible",
+                    "strength": 0.7
+                  },
+                  {
+                    "description": "The gap between external world and internal capacity",
+                    "strength": 0.8
+                  }
+                ],
+                "currentManifestations": [
+                  "e02-spring-confrontation"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02-spring-confrontation"
+        },
+        "sym-white-beard": {
+          "id": "sym-white-beard",
+          "name": "White Beard",
+          "description": "The white beard appears repeatedly as a formal marker of age, authority, and the passage of time. Its careful combing suggests both dignity and futility.",
+          "tags": [
+            "age",
+            "identity",
+            "grooming"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02-spring-confrontation",
+                "currentMeanings": [
+                  {
+                    "description": "Visible marker of aging and loss of vitality",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Maintained dignity and self-care amid dissolution",
+                    "strength": 0.7
+                  }
+                ],
+                "currentManifestations": [
+                  "neave"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02-spring-confrontation"
+        },
+        "sym-spider-man": {
+          "id": "sym-spider-man",
+          "name": "The Spider-Man",
+          "description": "A formally surreal image emerging from dream logic, the ancient spider-man descending stairs represents the fragmentation of self and the dissolution of identity through dreamlike distortion.",
+          "tags": [
+            "dream",
+            "surrealism",
+            "fragmentation"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-dream-begins",
+                "currentMeanings": [
+                  {
+                    "description": "Fragmented, diminished version of the self",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Descent into the unconscious and past",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Inversion of authority and control",
+                    "strength": 0.75
+                  }
+                ],
+                "currentManifestations": [
+                  "e26-dream-begins",
+                  "e27-spider-man-descent"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-dream-begins"
+        },
+        "sym-dark-porch": {
+          "id": "sym-dark-porch",
+          "name": "The Dark Porch and Passion-Vine",
+          "description": "A formally constructed image of loss and mourning. The dark porch half-hidden by drooping passion-vine represents the obscured past and the true self that has been lost to time.",
+          "tags": [
+            "memory",
+            "loss",
+            "nature"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e29-memory-flash",
+                "currentMeanings": [
+                  {
+                    "description": "The lost past and true identity",
+                    "strength": 0.95
+                  },
+                  {
+                    "description": "Sorrow and mournfulness embedded in natural imagery",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Obscurity and the inaccessibility of truth",
+                    "strength": 0.8
+                  }
+                ],
+                "currentManifestations": [
+                  "dark-porch",
+                  "passion-vine"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e29-memory-flash"
+        }
+      },
+      "symbolicRelationships": {
+        "symrel-spring-vitality": {
+          "id": "symrel-spring-vitality",
+          "name": "Spring as Inaccessible Vitality",
+          "description": "Spring's personification and Mr. Neave's inability to meet it formally enacts the theme of alienation. The gap between the symbol and the protagonist's capacity creates the story's central formal tension.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-spring",
+            "theme-alienation-through-form"
+          ],
+          "nature": "Spring's eager, feminine personification contrasts with Neave's exhausted passivity, creating ironic distance through formal stylistic means.",
+          "symbol": "sym-spring",
+          "symbolized": "theme-alienation-through-form",
+          "interpretation": "Spring's eager, feminine personification contrasts with Neave's exhausted passivity, creating ironic distance through formal stylistic means.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02-spring-confrontation",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02-spring-confrontation"
+        },
+        "symrel-spider-descent": {
+          "id": "symrel-spider-descent",
+          "name": "Spider-Man as Temporal Dissolution",
+          "description": "The spider-man's descent through dream logic formally represents the collapse of linear narrative time and the dissolution of coherent identity.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-spider-man",
+            "theme-temporal-dissolution"
+          ],
+          "nature": "The surreal image of the spider-man descending endless stairs enacts temporal fragmentation through dreamlike distortion of form.",
+          "symbol": "sym-spider-man",
+          "symbolized": "theme-temporal-dissolution",
+          "interpretation": "The surreal image of the spider-man descending endless stairs enacts temporal fragmentation through dreamlike distortion of form.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-dream-begins",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-dream-begins"
+        },
+        "symrel-porch-memory": {
+          "id": "symrel-porch-memory",
+          "name": "Dark Porch as Lost True Self",
+          "description": "The dark porch and passion-vine formally construct the revelation that Neave's true identity lies in the past, obscured and inaccessible.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-dark-porch",
+            "abs-true-identity"
+          ],
+          "nature": "The formal image of the dark porch half-hidden by drooping vine represents the obscured truth of Neave's authentic self and lost love.",
+          "symbol": "sym-dark-porch",
+          "symbolized": "abs-true-identity",
+          "interpretation": "The formal image of the dark porch half-hidden by drooping vine represents the obscured truth of Neave's authentic self and lost love.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e29-memory-flash",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e29-memory-flash"
+        }
+      },
+      "narrator": {
+        "id": "narrator",
+        "name": "Third-Person Limited Narrator",
+        "description": "The narrator maintains close proximity to Mr. Neave's consciousness while preserving formal distance. The narrative voice shifts between external observation and internal revelation, creating a formally sophisticated stream of consciousness.",
+        "tags": [],
+        "type": "narrator",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "reliability": 0.75,
+              "mentalConstructs": [],
+              "perspective": "third_person_limited"
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "reader": {
+        "id": "reader",
+        "name": "Formalist Reader",
+        "description": "The reader is positioned to attend to the story's formal construction—its imagery, narrative structure, dream sequences, and symbolic patterns. The reader must recognize how form enacts meaning and how the story's structure mirrors its thematic content.",
+        "tags": [],
+        "type": "reader",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "mentalConstructs": [],
+              "emotions": {
+                "joy": 0,
+                "trust": 0,
+                "fear": 0,
+                "surprise": 0,
+                "sadness": 0,
+                "disgust": 0,
+                "anger": 0,
+                "anticipation": 0,
+                "intensity": 0
+              }
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "author": {
+        "id": "author",
+        "name": "Katherine Mansfield",
+        "description": "Mansfield employs modernist narrative techniques including stream of consciousness, fragmented time, and symbolic imagery to explore psychological alienation. Her formal sophistication creates meaning through structure and language rather than plot.",
+        "tags": [],
+        "type": "author",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "style": {},
+              "themes": []
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "eventSignificance": {
+        "e01-neave-exits-office": {
+          "significance": 0.6,
+          "note": "Formal beginning establishes the protagonist's departure from the world of work and control. The swing door and steps create a threshold moment."
+        },
+        "e02-spring-confrontation": {
+          "significance": 0.85,
+          "note": "Highly significant for formalist reading. The personification of spring and Neave's inability to meet it establishes the central symbolic tension and alienation theme through vivid imagery."
+        },
+        "e03-greeting-effort": {
+          "significance": 0.7,
+          "note": "Demonstrates the failure of communication and social ritual through formal description of gesture. Language and action fail to convey genuine connection."
+        },
+        "e04-dreamlike-crowd": {
+          "significance": 0.75,
+          "note": "Introduces dreamlike quality to narrative form. The description of walking through 'heavy, solid air like water' creates surreal temporal and spatial distortion."
+        },
+        "e05-harold-late-return": {
+          "significance": 0.5,
+          "note": "Introduces Harold as a formal contrast to Neave—youth, beauty, and indifference versus age, exhaustion, and responsibility."
+        },
+        "e06-neave-reflection-harold": {
+          "significance": 0.65,
+          "note": "Reveals Neave's bitter judgment through interior monologue. The formal technique of free indirect discourse conveys alienation from family values."
+        },
+        "e07-charlotte-retirement-plea": {
+          "significance": 0.6,
+          "note": "Dialogue that fails to communicate genuine understanding. Charlotte's suggestion reveals the family's inability to comprehend Neave's need for work and identity."
+        },
+        "e08-lola-hobbies-comment": {
+          "significance": 0.45,
+          "note": "Minor dialogue contribution that reinforces the theme of superficial family discourse. Lola's pronouncement is formally empty."
+        },
+        "e09-neave-reflection-hobbies": {
+          "significance": 0.7,
+          "note": "Extended interior monologue revealing Neave's bitter awareness of his role as provider. The formal technique of free indirect discourse creates ironic distance."
+        },
+        "e10-house-arrival": {
+          "significance": 0.55,
+          "note": "Marks transition to domestic space. The description of Harcourt Avenue and the corner house establishes the material world that contrasts with Neave's inner void."
+        },
+        "e11-house-observation": {
+          "significance": 0.8,
+          "note": "Highly significant for formalist reading. Detailed, precise description of the house—hyacinths, hydrangeas, tulle curtains—creates ironic contrast with Neave's spiritual emptiness."
+        },
+        "e12-hall-entry": {
+          "significance": 0.6,
+          "note": "Formal entrance into the domestic space. The description of wraps, parasols, and gloves suggests busy social life that excludes Neave."
+        },
+        "e13-family-conversation": {
+          "significance": 0.5,
+          "note": "Dialogue overheard rather than participated in. The formal technique of exclusion reinforces Neave's alienation from family discourse."
+        },
+        "e14-lola-startled": {
+          "significance": 0.65,
+          "note": "Lola's vital, energetic emergence contrasts formally with Neave's exhaustion. Her flushed cheeks and glittering eyes embody the spring vitality he cannot access."
+        },
+        "e15-telephone-call": {
+          "significance": 0.5,
+          "note": "Interruption that draws Lola away urgently. The telephone represents modern communication that fragments family presence."
+        },
+        "e16-family-greetings": {
+          "significance": 0.6,
+          "note": "Formal greeting ritual that fails to create genuine connection. The offering of cheeks and lips is mechanical and hollow."
+        },
+        "e17-neave-sits": {
+          "significance": 0.55,
+          "note": "Simple action that establishes Neave's passive position in the drawing-room. The immense chair dwarfs him formally."
+        },
+        "e18-dress-discussion": {
+          "significance": 0.5,
+          "note": "Trivial dialogue about fashion that excludes Neave. The formal technique of overheard conversation reinforces his marginalization."
+        },
+        "e19-harold-inquiry": {
+          "significance": 0.55,
+          "note": "Charlotte's question about Harold reveals her concern for the son rather than the husband. Formal dialogue structure emphasizes Neave's secondary status."
+        },
+        "e20-neave-dozing": {
+          "significance": 0.75,
+          "note": "Significant transition. Neave's dozing while family discusses dress design formally enacts his withdrawal from domestic life. The dreamlike quality begins here."
+        },
+        "e21-dress-refusal": {
+          "significance": 0.65,
+          "note": "Neave's resistance to dressing for dinner reveals his alienation. The family's concern about guests rather than his wellbeing is formally emphasized through dialogue."
+        },
+        "e22-charles-waiting": {
+          "significance": 0.6,
+          "note": "Charles represents continuity and loyalty. His careful preparation contrasts with the family's indifference, creating formal irony."
+        },
+        "e23-neave-settles": {
+          "significance": 0.65,
+          "note": "The ritual of settling into the cane lounge and the evening joke establish a moment of temporary comfort before the dream sequence."
+        },
+        "e24-evening-sounds": {
+          "significance": 0.7,
+          "note": "Neave's imaginative projection of future tennis parties reveals his role as provider of pleasures he cannot share. Formal technique of interior monologue creates poignant distance."
+        },
+        "e25-beard-combing": {
+          "significance": 0.65,
+          "note": "Careful grooming ritual before solitude. The white beard combing is formally significant as a marker of dignity maintained amid dissolution."
+        },
+        "e26-dream-begins": {
+          "significance": 0.85,
+          "note": "Highly significant. The dream sequence formally shifts narrative into surrealism. The spider-man image introduces the fragmentation of identity and consciousness."
+        },
+        "e27-spider-man-descent": {
+          "significance": 0.9,
+          "note": "Crucial for formalist reading. The surreal descent through endless stairs enacts temporal and spatial dissolution. The spider-man's movement away from the dining-room toward the office creates formal irony."
+        },
+        "e28-neave-awakens": {
+          "significance": 0.9,
+          "note": "Pivotal revelation moment. Neave's awakening brings the realization that his family are strangers and life has passed him by. The formal shift from dream to consciousness is maximally significant."
+        },
+        "e29-memory-flash": {
+          "significance": 0.95,
+          "note": "Climactic moment of formalist significance. The memory of the dark porch and pale woman represents the revelation that Neave's true identity and love have been lost. The formal image is densely symbolic."
+        },
+        "e30-charles-announces-dinner": {
+          "significance": 0.7,
+          "note": "Return to external reality and social obligation. Charles's formal announcement and Neave's response mark the return to the present moment and the continuation of the false life."
+        }
+      },
+      "entitySignificance": {
+        "neave": {
+          "significance": 1,
+          "note": "The protagonist whose consciousness structures the entire narrative. His alienation is the formal and thematic center."
+        },
+        "harold": {
+          "significance": 0.65,
+          "note": "Formal contrast figure representing youth, beauty, and indifference. His late arrival and easy charm emphasize Neave's exhaustion."
+        },
+        "charlotte": {
+          "significance": 0.6,
+          "note": "Represents the domestic world and family expectations. Her dialogue reveals the family's inability to understand Neave's inner life."
+        },
+        "ethel": {
+          "significance": 0.4,
+          "note": "Minor character representing the daughters' superficial concerns with fashion and social life."
+        },
+        "marion": {
+          "significance": 0.4,
+          "note": "Minor character whose theatrical manner and hard laugh embody the family's superficiality."
+        },
+        "lola": {
+          "significance": 0.55,
+          "note": "Represents vital youth and energy. Her startled emergence and urgent telephone call contrast with Neave's passivity."
+        },
+        "charles": {
+          "significance": 0.65,
+          "note": "Servant figure who represents loyalty and continuity. His careful attention to Neave creates formal irony against the family's indifference."
+        },
+        "unknown-woman": {
+          "significance": 0.85,
+          "note": "The pale woman from memory represents Neave's true identity and lost love. Her formal appearance in the memory sequence is symbolically crucial."
+        },
+        "office-building": {
+          "significance": 0.6,
+          "note": "Represents the world of work and control that Neave is leaving. Its formal description as a threshold space is significant."
+        },
+        "town-streets": {
+          "significance": 0.55,
+          "note": "The dreamlike quality of the streets emphasizes Neave's alienation from the external world."
+        },
+        "neave-house": {
+          "significance": 0.75,
+          "note": "The white house with its detailed description of hyacinths and hydrangeas represents the material world that contrasts with Neave's inner void."
+        },
+        "dressing-room": {
+          "significance": 0.8,
+          "note": "The private space where the dream occurs. Formally significant as the site of revelation and the boundary between external and internal worlds."
+        },
+        "dark-porch": {
+          "significance": 0.9,
+          "note": "The memory location that represents the true past and lost identity. Formally constructed as a symbolic space of mourning and loss."
+        }
+      },
+      "absentialSignificance": {
+        "abs-energy-vitality": {
+          "significance": 0.85,
+          "note": "The absence of energy and vitality is formally enacted through Neave's inability to meet spring and his exhaustion. This absence structures the narrative."
+        },
+        "abs-business-integrity": {
+          "significance": 0.6,
+          "note": "Neave's concern about the business dissolving without him reveals his anxiety about identity and purpose, though this is less formally central than other absences."
+        },
+        "abs-true-identity": {
+          "significance": 0.95,
+          "note": "The absence of true identity is the story's formal and thematic climax. The revelation that Neave's true wife is the pale woman and his current life is a dream makes this absence maximally significant."
+        },
+        "abs-belonging": {
+          "significance": 0.9,
+          "note": "The absence of belonging to family and home is formally enacted through dialogue that excludes Neave and his growing sense of alienation. This absence drives the narrative tension."
+        }
+      },
+      "mentalConstructs": {},
+      "annotations": [],
+      "globalTension": [
+        {
+          "timestamp": {
+            "percentage": 1
+          },
+          "value": 0.3
+        },
+        {
+          "timestamp": {
+            "percentage": 2
+          },
+          "value": 0.5
+        },
+        {
+          "timestamp": {
+            "percentage": 5
+          },
+          "value": 0.55
+        },
+        {
+          "timestamp": {
+            "percentage": 7
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 12
+          },
+          "value": 0.5
+        },
+        {
+          "timestamp": {
+            "percentage": 15
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 20
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 25
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 30
+          },
+          "value": 0.55
+        },
+        {
+          "timestamp": {
+            "percentage": 32
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 38
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 42
+          },
+          "value": 0.55
+        },
+        {
+          "timestamp": {
+            "percentage": 47
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 50
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 54
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 56
+          },
+          "value": 0.55
+        },
+        {
+          "timestamp": {
+            "percentage": 60
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 62
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 64
+          },
+          "value": 0.95
+        },
+        {
+          "timestamp": {
+            "percentage": 66
+          },
+          "value": 0.98
+        },
+        {
+          "timestamp": {
+            "percentage": 68
+          },
+          "value": 0.8
+        }
+      ],
+      "spanAnnotations": {
+        "span_1": {
+          "tension": 0.65,
+          "note": "Overall story tension builds from alienation to revelation through formal narrative techniques."
+        },
+        "span_2": {
+          "tension": 0.55,
+          "note": "Evening walk establishes alienation through dreamlike imagery and failed communication."
+        },
+        "span_3": {
+          "tension": 0.5,
+          "note": "Departure from office creates threshold moment and introduces spring as antagonist."
+        },
+        "span_4": {
+          "tension": 0.3,
+          "note": "Physical exit is formally simple but structurally significant as narrative beginning."
+        },
+        "span_5": {
+          "tension": 0.65,
+          "note": "Spring confrontation introduces central symbolic tension through vivid personification."
+        },
+        "span_6": {
+          "tension": 0.6,
+          "note": "Homeward journey employs dreamlike description to create alienation from external world."
+        },
+        "span_7": {
+          "tension": 0.55,
+          "note": "Greeting struggle demonstrates failure of social ritual and communication."
+        },
+        "span_8": {
+          "tension": 0.65,
+          "note": "Heavy air description creates surreal temporal distortion."
+        },
+        "span_9": {
+          "tension": 0.6,
+          "note": "Harold and family concerns introduce domestic conflict and pressure to retire."
+        },
+        "span_10": {
+          "tension": 0.5,
+          "note": "Harold's late return establishes formal contrast between youth and age."
+        },
+        "span_11": {
+          "tension": 0.5,
+          "note": "Harold's arrival is formally described but thematically minor."
+        },
+        "span_12": {
+          "tension": 0.65,
+          "note": "Neave's reflection reveals bitter judgment through interior monologue."
+        },
+        "span_13": {
+          "tension": 0.6,
+          "note": "Pressure to retire demonstrates family's inability to understand Neave's identity."
+        },
+        "span_14": {
+          "tension": 0.6,
+          "note": "Charlotte's plea reveals superficial understanding of Neave's needs."
+        },
+        "span_15": {
+          "tension": 0.45,
+          "note": "Lola's comment is formally empty and reinforces superficiality."
+        },
+        "span_16": {
+          "tension": 0.65,
+          "note": "Neave's bitter reflection creates ironic distance through free indirect discourse."
+        },
+        "span_17": {
+          "tension": 0.55,
+          "note": "Arrival at home transitions to domestic space and material world."
+        },
+        "span_18": {
+          "tension": 0.55,
+          "note": "Approaching the house establishes the material setting that contrasts with inner void."
+        },
+        "span_19": {
+          "tension": 0.55,
+          "note": "Avenue walk is formally descriptive but thematically transitional."
+        },
+        "span_20": {
+          "tension": 0.6,
+          "note": "House observation creates ironic contrast between material beauty and spiritual emptiness."
+        },
+        "span_21": {
+          "tension": 0.6,
+          "note": "Family gathering demonstrates Neave's exclusion from domestic life."
+        },
+        "span_22": {
+          "tension": 0.55,
+          "note": "Hall entry establishes the domestic space through sensory description."
+        },
+        "span_23": {
+          "tension": 0.5,
+          "note": "Overheard conversation reinforces Neave's exclusion from family discourse."
+        },
+        "span_24": {
+          "tension": 0.65,
+          "note": "Lola's emergence contrasts vital youth with Neave's exhaustion."
+        },
+        "span_25": {
+          "tension": 0.5,
+          "note": "Telephone interruption fragments family presence."
+        },
+        "span_26": {
+          "tension": 0.6,
+          "note": "Family greetings are formal but hollow, failing to create genuine connection."
+        },
+        "span_27": {
+          "tension": 0.65,
+          "note": "Drawing-room conversation reveals family's superficiality and Neave's marginalization."
+        },
+        "span_28": {
+          "tension": 0.65,
+          "note": "Drawing-room discussion demonstrates Neave's passive exclusion from family life."
+        },
+        "span_29": {
+          "tension": 0.55,
+          "note": "Seating establishes Neave's passive position."
+        },
+        "span_30": {
+          "tension": 0.5,
+          "note": "Cab discussion is trivial and excludes Neave."
+        },
+        "span_31": {
+          "tension": 0.55,
+          "note": "Harold question reveals Charlotte's concern for son over husband."
+        },
+        "span_32": {
+          "tension": 0.7,
+          "note": "Neave's dozing formally enacts his withdrawal from domestic life."
+        },
+        "span_33": {
+          "tension": 0.65,
+          "note": "Dress refusal reveals Neave's alienation and family's indifference."
+        },
+        "span_34": {
+          "tension": 0.75,
+          "note": "Dressing-room section contains the dream and revelation, maximally significant formally."
+        },
+        "span_35": {
+          "tension": 0.6,
+          "note": "Dressing preparation establishes the private space before dream."
+        },
+        "span_36": {
+          "tension": 0.6,
+          "note": "Charles's waiting creates formal irony of loyalty amid family indifference."
+        },
+        "span_37": {
+          "tension": 0.6,
+          "note": "Settling in establishes temporary comfort before dream."
+        },
+        "span_38": {
+          "tension": 0.55,
+          "note": "Evening sounds reveal Neave's role as provider of pleasures he cannot share."
+        },
+        "span_39": {
+          "tension": 0.6,
+          "note": "Grooming ritual maintains dignity before solitude."
+        },
+        "span_40": {
+          "tension": 0.85,
+          "note": "Dream sequence formally shifts narrative into surrealism and revelation."
+        },
+        "span_41": {
+          "tension": 0.75,
+          "note": "Dream begins introduces spider-man image and temporal dissolution."
+        },
+        "span_42": {
+          "tension": 0.85,
+          "note": "Descent and horror enact fragmentation of identity through surreal form."
+        },
+        "span_43": {
+          "tension": 0.95,
+          "note": "Awakening brings realization of alienation from family and lost life."
+        },
+        "span_44": {
+          "tension": 0.98,
+          "note": "Memory intrusion is climactic revelation that true identity and love are lost."
+        },
+        "span_45": {
+          "tension": 0.8,
+          "note": "Dinner call returns to external reality and continuation of false life."
+        }
+      }
+    }
+  }
+}
