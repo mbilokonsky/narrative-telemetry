@@ -12,6 +12,7 @@ const suites = [
   { name: 'CompareReadings API', script: 'src/tests/test-compare-readings.ts' },
   { name: 'TensionField', script: 'src/tests/test-tension-field.ts' },
   { name: 'Eveline Corpus', script: 'src/tests/test-eveline.ts' },
+  { name: 'Story Catalog', script: 'src/tests/test-story-catalog.ts' },
 ];
 
 let totalPassed = 0;
