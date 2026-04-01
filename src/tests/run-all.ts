@@ -16,6 +16,7 @@ const suites = [
   { name: 'Divergence (UI)', script: 'src/tests/test-divergence-ui.ts' },
   { name: 'Absential Timeline', script: 'src/tests/test-absential-timeline.ts' },
   { name: 'Server & Analyze', script: 'src/tests/test-server.ts' },
+  { name: 'Tension Dimensions', script: 'src/tests/test-tension-dimensions.ts' },
 ];
 
 let totalPassed = 0;

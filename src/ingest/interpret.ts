@@ -51,7 +51,7 @@ interface ReadingResult {
   eventSignificance: Record<string, any>;
   entitySignificance: Record<string, any>;
   absentialSignificance: Record<string, any>;
-  globalTension: Array<{ timestamp: { percentage: number }; value: number }>;
+  globalTension: Array<{ timestamp: { percentage: number }; value: number; dimensions?: any }>;
   spanAnnotations: Record<string, any>;
 }
 
@@ -199,14 +199,25 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
     };
   }
 
-  // Build event significance (ensure all events covered)
+  // Build event significance (ensure all events covered, with optional 5D dimensions)
   const eventSignificance: Reading['eventSignificance'] = {};
   for (const [eventId, ann] of Object.entries(result.eventSignificance ?? {})) {
-    eventSignificance[eventId] = {
+    const entry: Reading['eventSignificance'][string] = {
       significance: ann.significance ?? 0.5,
       note: ann.note,
       causes: ann.causes,
     };
+    // Include 5D dimensions if provided by the LLM
+    if (ann.dimensions && typeof ann.dimensions === 'object') {
+      entry.dimensions = {
+        absential: Number(ann.dimensions.absential) || 0,
+        relational: Number(ann.dimensions.relational) || 0,
+        epistemic: Number(ann.dimensions.epistemic) || 0,
+        atmospheric: Number(ann.dimensions.atmospheric) || 0,
+        pacing: Number(ann.dimensions.pacing) || 0,
+      };
+    }
+    eventSignificance[eventId] = entry;
   }
   // Fill in any missing events with default 0.3
   for (const eventId of Object.keys(textModel.events)) {
@@ -250,10 +261,22 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
     absentialSignificance,
     mentalConstructs: {},
     annotations: [],
-    globalTension: (result.globalTension ?? []).map(pt => ({
-      timestamp: pt.timestamp,
-      value: pt.value,
-    })),
+    globalTension: (result.globalTension ?? []).map(pt => {
+      const entry: Reading['globalTension'][number] = {
+        timestamp: pt.timestamp,
+        value: pt.value,
+      };
+      if (pt.dimensions && typeof pt.dimensions === 'object') {
+        entry.dimensions = {
+          absential: Number(pt.dimensions.absential) || 0,
+          relational: Number(pt.dimensions.relational) || 0,
+          epistemic: Number(pt.dimensions.epistemic) || 0,
+          atmospheric: Number(pt.dimensions.atmospheric) || 0,
+          pacing: Number(pt.dimensions.pacing) || 0,
+        };
+      }
+      return entry;
+    }),
     spanAnnotations,
   };
 

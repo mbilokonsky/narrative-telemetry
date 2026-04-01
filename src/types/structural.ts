@@ -69,8 +69,17 @@ export interface ReadingEventEffect {
   description: string;
 }
 
+export interface TensionDimensions {
+  absential: number;    // 0-1: unresolved desires, fears, goals
+  relational: number;   // 0-1: interpersonal conflict/stress
+  epistemic: number;    // 0-1: information asymmetry, uncertainty
+  atmospheric: number;  // 0-1: environmental/mood pressure
+  pacing: number;       // 0-1: event density / temporal compression
+}
+
 export interface ReadingEventAnnotation {
   significance: number;
+  dimensions?: TensionDimensions;
   note?: string;
   causes?: EventID[];
   effects?: ReadingEventEffect[];
@@ -107,7 +116,7 @@ export interface Reading {
 
   annotations: TextAnnotation[];
 
-  globalTension: Array<{ timestamp: Timestamp; value: number }>;
+  globalTension: Array<{ timestamp: Timestamp; value: number; dimensions?: TensionDimensions }>;
   spanAnnotations: Record<SpanID, ReadingSpanAnnotation>;
 }
 

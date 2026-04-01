@@ -227,7 +227,7 @@ interface ReadingResult {
   entitySignificance: Record<string, { significance: number; note?: string }>;
   absentialSignificance: Record<string, { significance: number; note?: string }>;
 
-  globalTension: Array<{ timestamp: { percentage: number }; value: number }>;
+  globalTension: Array<TensionPoint>;
   spanAnnotations: Record<string, SpanAnnotation>;
 }
 
@@ -276,10 +276,25 @@ interface AuthorNode {
   description: string;
 }
 
+interface TensionDimensions {
+  absential: number;      // 0-1: unresolved desires, fears, goals
+  relational: number;     // 0-1: interpersonal conflict/stress
+  epistemic: number;      // 0-1: information asymmetry, uncertainty
+  atmospheric: number;    // 0-1: environmental/mood pressure
+  pacing: number;         // 0-1: event density / temporal compression
+}
+
 interface EventAnnotation {
-  significance: number;       // 0-1
+  significance: number;       // 0-1 composite score
+  dimensions: TensionDimensions;  // independent 5D scoring
   note?: string;
   causes?: string[];          // event IDs
+}
+
+interface TensionPoint {
+  timestamp: { percentage: number };
+  value: number;              // composite tension 0-1
+  dimensions: TensionDimensions;  // independent 5D tension at this point
 }
 
 interface SpanAnnotation {
@@ -290,12 +305,24 @@ interface SpanAnnotation {
 
 ## Rules
 
-1. **Cover ALL events.** Every event ID from the TextModel must appear in eventSignificance with a score from 0 to 1.
+1. **Cover ALL events.** Every event ID from the TextModel must appear in eventSignificance with a composite score AND independent dimension scores.
 2. **Lens-specific.** Your significance scores, themes, and symbols should reflect THIS specific interpretive lens. A formalist reading and a postcolonial reading of the same text should produce different scores.
-3. **Tension curve.** Provide 15-25 tension points spanning 0-100% of the story. Tension should reflect narrative tension under this lens.
+3. **Tension curve.** Provide 15-25 tension points spanning 0-100% of the story. Each point must include both a composite value AND independent dimension values.
 4. **Themes and symbols.** Identify 2-5 themes and 2-5 symbols relevant to this lens.
 5. **Semantic IDs.** Use readable slugs for themes/symbols: "theme-disillusionment", "sym-light-dark".
-6. **Significance scores.** 0 = irrelevant to this lens, 1 = maximally significant. Most events should score 0.3-0.7. Reserve 0.8+ for truly pivotal moments.`;
+6. **Significance scores.** 0 = irrelevant to this lens, 1 = maximally significant. Most events should score 0.3-0.7. Reserve 0.8+ for truly pivotal moments.
+
+## Five Tension Dimensions (Independent Scoring)
+
+Score each event AND each tension point independently across FIVE dimensions (0-1 each):
+
+1. **absential** (0-1): Does this event advance, complicate, or resolve unresolved desires, fears, or goals? Score 0 = no impact on pursuits; 1 = pivotal moment for a quest/desire.
+2. **relational** (0-1): Does this event create or intensify interpersonal conflict, stress, or alter relationships? Score 0 = no relationship impact; 1 = major relationship rupture/revelation.
+3. **epistemic** (0-1): Does this event change what characters or reader know? Create information asymmetry, dramatic irony, or resolve mysteries? Score 0 = no knowledge change; 1 = major revelation.
+4. **atmospheric** (0-1): Does this event shift mood, environment, or ambient pressure? Score 0 = no atmospheric shift; 1 = complete tonal transformation.
+5. **pacing** (0-1): Does this event represent high activity/compression or mark a tempo change? Score 0 = no pacing impact; 1 = extreme acceleration/deceleration.
+
+**CRITICAL: These dimensions are INDEPENDENT.** An event can be high in absential (0.8) but low in atmospheric (0.2). Do NOT force them to correlate or sum to 1. Score each dimension on its own merits.`;
 
 export function buildInterpretationUserPrompt(textModelJson: string, lens: string): string {
   return `Here is the TextModel (neutral extraction) of the story:

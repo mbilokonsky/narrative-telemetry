@@ -76,14 +76,24 @@ export interface Absential {
   stateHistory: AbsentialState[];
 }
 
+export interface TensionDimensions {
+  absential: number;
+  relational: number;
+  epistemic: number;
+  atmospheric: number;
+  pacing: number;
+}
+
 export interface Significance {
   significance: number;
+  dimensions?: TensionDimensions;
   note?: string;
 }
 
 export interface TensionPoint {
   timestamp: Timestamp;
   value: number;
+  dimensions?: TensionDimensions;
 }
 
 export interface Reading {
