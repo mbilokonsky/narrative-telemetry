@@ -5,3 +5,6 @@ data/
 *.log
 ui/node_modules/
 ui/dist/
+
+# Compiled TypeScript output
+src/**/*.js
