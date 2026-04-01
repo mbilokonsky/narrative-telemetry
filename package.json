@@ -21,7 +21,8 @@
     "test:unit": "npx ts-node src/tests/unit.ts",
     "test:otel": "npx ts-node src/tests/validate-otel.ts",
     "test:manual": "npx ts-node src/validate.ts",
-    "otel:export": "npx ts-node src/export/cli.ts"
+    "otel:export": "npx ts-node src/export/cli.ts",
+    "otel:import": "npx ts-node src/export/import-to-jaeger.ts"
   },
   "keywords": [],
   "author": "",

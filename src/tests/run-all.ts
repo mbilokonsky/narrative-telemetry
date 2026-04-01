@@ -19,6 +19,7 @@ const suites = [
   { name: 'Tension Dimensions', script: 'src/tests/test-tension-dimensions.ts' },
   { name: 'Reading Editor', script: 'src/tests/test-reading-editor.ts' },
   { name: 'Relationship Graph', script: 'src/tests/test-relationship-graph.ts' },
+  { name: 'OTEL Import', script: 'src/tests/test-otel-import.ts' },
 ];
 
 let totalPassed = 0;
