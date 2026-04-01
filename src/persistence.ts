@@ -23,7 +23,7 @@ function slugify(title: string): string {
 
 export function saveStoryModel(model: StoryModel): string {
   ensureDataDir();
-  const slug = slugify(model.title);
+  const slug = slugify(model.text.title);
   const filePath = storyPath(slug);
   fs.writeFileSync(filePath, JSON.stringify(model, null, 2), 'utf-8');
   return filePath;

@@ -1,113 +1,128 @@
 import { loadStoryModel, saveStoryModel } from './persistence';
-import { StoryModel, StorySpan } from './types';
+import { StoryModel, StorySpan, TextModel, Reading } from './types';
 
 let passed = 0;
 let failed = 0;
 
 function check(name: string, condition: boolean, detail?: string): void {
-  if (condition) {
-    console.log(`  ✓ ${name}`);
-    passed++;
-  } else {
-    console.log(`  ✗ ${name}${detail ? ': ' + detail : ''}`);
-    failed++;
-  }
+  if (condition) { console.log(`  ✓ ${name}`); passed++; }
+  else { console.log(`  ✗ ${name}${detail ? ': ' + detail : ''}`); failed++; }
 }
 
-function countEvents(span: StorySpan): number {
-  let count = span.events.length;
-  for (const child of span.childSpans) {
-    count += countEvents(child);
-  }
-  return count;
+function collectSpanEventIds(span: StorySpan): string[] {
+  return [...span.events, ...span.childSpans.flatMap(c => collectSpanEventIds(c))];
 }
 
-function allEventsInSpans(span: StorySpan): string[] {
-  const ids = span.events.map(e => e.id);
-  for (const child of span.childSpans) {
-    ids.push(...allEventsInSpans(child));
-  }
-  return ids;
+function countScenes(span: StorySpan): number {
+  return span.childSpans.reduce((n, act) => n + act.childSpans.length, 0);
 }
 
 console.log('\n=== Narrative-Telemetry Validation ===\n');
 
 const model = loadStoryModel('araby');
+const text = model.text;
 
-// 1. Structural completeness
-console.log('Structural completeness:');
-const charCount = Object.keys(model.entities.diegetic.characters).length;
-check('≥3 characters', charCount >= 3, `got ${charCount}`);
+// ── 1. Structural completeness ──
+console.log('TextModel completeness:');
+const charCount = Object.keys(text.diegetic.characters).length;
+check('≥8 characters', charCount >= 8, `got ${charCount}`);
 
-const settingCount = Object.keys(model.entities.diegetic.settings).length;
-check('≥3 settings', settingCount >= 3, `got ${settingCount}`);
+const settingCount = Object.keys(text.diegetic.settings).length;
+check('≥7 settings', settingCount >= 7, `got ${settingCount}`);
 
-const themeCount = Object.keys(model.entities.nonDiegetic.themes).length;
-check('≥1 theme', themeCount >= 1, `got ${themeCount}`);
+const itemCount = Object.keys(text.diegetic.items).length;
+check('≥5 items', itemCount >= 5, `got ${itemCount}`);
 
-const narratorCount = Object.keys(model.entities.nonDiegetic.narrators).length;
-check('≥1 narrator', narratorCount >= 1, `got ${narratorCount}`);
+const eventCount = Object.keys(text.events).length;
+check('≥20 events', eventCount >= 20, `got ${eventCount}`);
 
-check('Root span is STORY type', model.rootSpan.type === 'story');
+const absentialCount = Object.keys(text.absentials).length;
+check('≥4 absentials', absentialCount >= 4, `got ${absentialCount}`);
 
-const actCount = model.rootSpan.childSpans.length;
-check('Root span has child spans (acts)', actCount > 0, `got ${actCount}`);
+const relCount = Object.keys(text.relationships.interpersonal).length + Object.keys(text.relationships.group).length;
+check('≥3 relationships', relCount >= 3, `got ${relCount}`);
 
-const sceneCount = model.rootSpan.childSpans.reduce((n, act) => n + act.childSpans.length, 0);
-check('Acts have child spans (scenes)', sceneCount > 0, `got ${sceneCount}`);
+const mcCount = Object.keys(text.mentalConstructs).length;
+check('≥2 mental constructs', mcCount >= 2, `got ${mcCount}`);
 
-const eventCount = Object.keys(model.events).length;
-check('≥5 events', eventCount >= 5, `got ${eventCount}`);
+check('Root span is STORY type', text.rootSpan.type === 'story');
+check('Has child spans (acts)', text.rootSpan.childSpans.length >= 3, `got ${text.rootSpan.childSpans.length}`);
+check('Has scenes', countScenes(text.rootSpan) >= 9, `got ${countScenes(text.rootSpan)}`);
 
-const spanEventCount = countEvents(model.rootSpan);
-check('Events in spans match event registry', spanEventCount === eventCount, `spans: ${spanEventCount}, registry: ${eventCount}`);
-
-const absentialCount = Object.keys(model.absentials).length;
-check('≥2 absentials', absentialCount >= 2, `got ${absentialCount}`);
-
-const relCount =
-  Object.keys(model.relationships.interpersonal).length +
-  Object.keys(model.relationships.group).length +
-  Object.keys(model.relationships.symbolic).length;
-check('≥1 relationship', relCount >= 1, `got ${relCount}`);
-
-const mcCount = Object.keys(model.mentalConstructs).length;
-check('≥1 mental construct', mcCount >= 1, `got ${mcCount}`);
-
-// 2. Causality
-console.log('\nCausality:');
-const eventsWithCauses = Object.values(model.events).filter(e => e.cause.diageticCause);
-check('Events have diegetic causes', eventsWithCauses.length > 0, `${eventsWithCauses.length}/${eventCount}`);
-
-let entitiesWithMultipleStates = 0;
-for (const char of Object.values(model.entities.diegetic.characters)) {
-  if (char.stateHistory.length > 1) entitiesWithMultipleStates++;
-}
-check('≥1 character with multiple state entries', entitiesWithMultipleStates >= 1, `got ${entitiesWithMultipleStates}`);
-
-let absentialsWithMultipleStates = 0;
-for (const abs of Object.values(model.absentials)) {
-  if (abs.stateHistory.length > 1) absentialsWithMultipleStates++;
-}
-check('≥1 absential with state transitions', absentialsWithMultipleStates >= 1, `got ${absentialsWithMultipleStates}`);
-
-// 3. Span nesting
-console.log('\nSpan nesting:');
-const spanEventIds = new Set(allEventsInSpans(model.rootSpan));
-const registryEventIds = new Set(Object.keys(model.events));
+// ── 2. Events ──
+console.log('\nEvents:');
+const spanEventIds = new Set(collectSpanEventIds(text.rootSpan));
+const registryEventIds = new Set(Object.keys(text.events));
 const orphanEvents = [...registryEventIds].filter(id => !spanEventIds.has(id));
-check('No orphan events (all events in spans)', orphanEvents.length === 0, `${orphanEvents.length} orphans`);
+check('No orphan events', orphanEvents.length === 0, `${orphanEvents.length} orphans`);
+check('Spans reference only registered events', [...spanEventIds].every(id => registryEventIds.has(id)));
 
-check('Spans nest: story→acts→scenes',
-  model.rootSpan.childSpans.length > 0 && model.rootSpan.childSpans.some(a => a.childSpans.length > 0));
+const eventsWithTextLocation = Object.values(text.events).filter(e => e.textLocation && e.textLocation.startLine > 0);
+check('Events have text locations', eventsWithTextLocation.length === eventCount, `${eventsWithTextLocation.length}/${eventCount}`);
 
-// 4. Persistence round-trip
-console.log('\nPersistence round-trip:');
+const eventsWithParticipants = Object.values(text.events).filter(e => e.participants.length > 0);
+check('Events have participants', eventsWithParticipants.length === eventCount, `${eventsWithParticipants.length}/${eventCount}`);
+
+const eventsWithPreceding = Object.values(text.events).filter(e => e.precedingEvent);
+check('Most events have precedingEvent', eventsWithPreceding.length >= eventCount - 2, `${eventsWithPreceding.length}/${eventCount}`);
+
+// ── 3. Absential state transitions ──
+console.log('\nAbsential causality:');
+let absWithTransitions = 0;
+for (const abs of Object.values(text.absentials)) {
+  if (abs.stateHistory.length > 1) absWithTransitions++;
+}
+check('≥2 absentials with state transitions', absWithTransitions >= 2, `got ${absWithTransitions}`);
+
+// ── 4. Readings ──
+console.log('\nReadings:');
+const readingNames = Object.keys(model.readings);
+check('≥2 readings', readingNames.length >= 2, `got ${readingNames.length}`);
+
+for (const name of readingNames) {
+  const r = model.readings[name];
+  console.log(`\n  Reading: "${name}"`);
+
+  const themeCount = Object.keys(r.themes).length;
+  check(`  ${name}: ≥1 theme`, themeCount >= 1, `got ${themeCount}`);
+
+  const symbolCount = Object.keys(r.symbols).length;
+  check(`  ${name}: ≥1 symbol`, symbolCount >= 1, `got ${symbolCount}`);
+
+  check(`  ${name}: has narrator`, !!r.narrator);
+  check(`  ${name}: has reader`, !!r.reader);
+  check(`  ${name}: has author`, !!r.author);
+
+  const annotatedEvents = Object.keys(r.eventSignificance).length;
+  check(`  ${name}: annotated ≥20 events`, annotatedEvents >= 20, `got ${annotatedEvents}`);
+
+  // Verify all annotated events reference valid TextModel events
+  const invalidEventRefs = Object.keys(r.eventSignificance).filter(id => !registryEventIds.has(id));
+  check(`  ${name}: all event refs valid`, invalidEventRefs.length === 0, `${invalidEventRefs.length} invalid`);
+
+  check(`  ${name}: has tension curve`, r.globalTension.length >= 5, `got ${r.globalTension.length} points`);
+}
+
+// ── 5. Significance diverges between readings ──
+console.log('\nSignificance divergence:');
+if (readingNames.length >= 2) {
+  const r1 = model.readings[readingNames[0]];
+  const r2 = model.readings[readingNames[1]];
+  const sharedEvents = Object.keys(r1.eventSignificance).filter(id => id in r2.eventSignificance);
+  let divergences = 0;
+  for (const id of sharedEvents) {
+    if (Math.abs(r1.eventSignificance[id].significance - r2.eventSignificance[id].significance) > 0.2) {
+      divergences++;
+    }
+  }
+  check('Readings diverge on ≥5 events (significance diff > 0.2)', divergences >= 5, `got ${divergences}`);
+}
+
+// ── 6. Persistence round-trip ──
+console.log('\nPersistence:');
 const reloaded = loadStoryModel('araby');
-const originalJson = JSON.stringify(model);
-const reloadedJson = JSON.stringify(reloaded);
-check('Save → load round-trip produces identical JSON', originalJson === reloadedJson);
+check('Round-trip produces identical JSON', JSON.stringify(model) === JSON.stringify(reloaded));
 
-// Summary
+// ── Summary ──
 console.log(`\n=== Results: ${passed} passed, ${failed} failed ===\n`);
 process.exit(failed > 0 ? 1 : 0);

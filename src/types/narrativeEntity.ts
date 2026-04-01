@@ -4,8 +4,6 @@ export interface NarrativeEntityState {
   version: NarrativeStateVersion;
   activeAbsentials: string[];
   currentRelationships: NarrativeEntityID[];
-  symbolsPresent: NarrativeEntityID[];
-  significance: number;
   generatedBy: EventID;
 }
 

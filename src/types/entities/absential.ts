@@ -49,7 +49,6 @@ export enum AbsentialRelationship {
 export interface AbsentialState extends NarrativeEntityState {
   type: AbsentialType;
   status: AbsentialStatus;
-  significance: number;
   urgency: number;
   intensity: number;
 }

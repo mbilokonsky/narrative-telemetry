@@ -1,60 +1,104 @@
-import { StorySpanType, Timestamp, NarrativeEntityID, NarrativeStateVersion, EventID, NarrativeEventType } from './core';
+import { StorySpanType, Timestamp, NarrativeEntityID, EventID, SpanID, NarrativeEventType } from './core';
+import {
+  Character, Setting, Item, Faction,
+  InterpersonalRelationship, GroupRelationship, SymbolicRelationship,
+  Theme, NarrativeSymbol, Author, Narrator, Reader,
+  MentalConstruct, Absential,
+} from './narrativeEntity';
 import { Event } from './events';
-import { Absential, Character, Setting, Item, Faction, InterpersonalRelationship, SymbolicRelationship, GroupRelationship, Reader, Theme, NarrativeSymbol, Author, Narrator, MentalConstruct } from './narrativeEntity';
+
+// ── Structural (shared, neutral) ──
 
 export interface StorySpan {
-  id: string;
+  id: SpanID;
   type: StorySpanType;
   title: string;
   description: string;
   startTimestamp: Timestamp;
   endTimestamp: Timestamp;
-  events: Event[];
+  events: EventID[];
   childSpans: StorySpan[];
-  narrativeElementStates: Array<{
-    elementId: NarrativeEntityID;
-    stateVersion: NarrativeStateVersion;
-  }>;
-  dominantElements: NarrativeEntityID[];
-  tension: number;
-  pacing: PacingMetric;
 }
 
+export interface TextModel {
+  title: string;
+  author: string;
+  description: string;
+  rootSpan: StorySpan;
+  diegetic: {
+    characters: Record<NarrativeEntityID, Character>;
+    settings: Record<NarrativeEntityID, Setting>;
+    items: Record<NarrativeEntityID, Item>;
+    factions: Record<NarrativeEntityID, Faction>;
+  };
+  events: Record<EventID, Event>;
+  relationships: {
+    interpersonal: Record<NarrativeEntityID, InterpersonalRelationship>;
+    group: Record<NarrativeEntityID, GroupRelationship>;
+  };
+  absentials: Record<NarrativeEntityID, Absential>;
+  mentalConstructs: Record<NarrativeEntityID, MentalConstruct>;
+}
+
+// ── Reading (interpretive overlay) ──
+
 export interface PacingMetric {
-  pace: number; // -1 to 1, where -1 is very slow, 0 is neutral, 1 is very fast
+  pace: number;
   dominantEventType: NarrativeEventType;
   tensionLevel: number;
   absentialResolutionRate: number;
   knowledgeAcquisitionRate: number;
 }
 
-export interface StoryModel {
-  title: string;
-  author: string;
+export interface ReadingEventEffect {
+  entityId: NarrativeEntityID;
+  stateChanges: Record<string, unknown>;
   description: string;
-  rootSpan: StorySpan;
-  entities: {
-    diegetic: {
-      characters: Record<NarrativeEntityID, Character>;
-      settings: Record<NarrativeEntityID, Setting>;
-      items: Record<NarrativeEntityID, Item>;
-      factions: Record<NarrativeEntityID, Faction>;
-    };
-    nonDiegetic: {
-      themes: Record<NarrativeEntityID, Theme>;
-      symbols: Record<NarrativeEntityID, NarrativeSymbol>;
-      authors: Record<NarrativeEntityID, Author>;
-      narrators: Record<NarrativeEntityID, Narrator>;
-      readers: Record<NarrativeEntityID, Reader>;
-    };
-  };
-  relationships: {
-    interpersonal: Record<NarrativeEntityID, InterpersonalRelationship>;
-    group: Record<NarrativeEntityID, GroupRelationship>;
-    symbolic: Record<NarrativeEntityID, SymbolicRelationship>;
-  };
+}
+
+export interface ReadingEventAnnotation {
+  significance: number;
+  note?: string;
+  causes?: EventID[];
+  effects?: ReadingEventEffect[];
+}
+
+export interface ReadingSignificance {
+  significance: number;
+  note?: string;
+}
+
+export interface ReadingSpanAnnotation {
+  tension?: number;
+  pacing?: PacingMetric;
+  dominantElements?: NarrativeEntityID[];
+  note?: string;
+}
+
+export interface Reading {
+  name: string;
+  description: string;
+
+  themes: Record<NarrativeEntityID, Theme>;
+  symbols: Record<NarrativeEntityID, NarrativeSymbol>;
+  symbolicRelationships: Record<NarrativeEntityID, SymbolicRelationship>;
+  narrator: Narrator;
+  reader: Reader;
+  author: Author;
+
+  eventSignificance: Record<EventID, ReadingEventAnnotation>;
+  entitySignificance: Record<NarrativeEntityID, ReadingSignificance>;
+  absentialSignificance: Record<NarrativeEntityID, ReadingSignificance>;
+
   mentalConstructs: Record<NarrativeEntityID, MentalConstruct>;
-  events: Record<EventID, Event>;
-  absentials: Record<NarrativeEntityID, Absential>;
+
   globalTension: Array<{ timestamp: Timestamp; value: number }>;
+  spanAnnotations: Record<SpanID, ReadingSpanAnnotation>;
+}
+
+// ── Top-level model ──
+
+export interface StoryModel {
+  text: TextModel;
+  readings: Record<string, Reading>;
 }
