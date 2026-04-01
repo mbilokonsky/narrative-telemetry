@@ -1,0 +1,60 @@
+:root {
+  --bg: #1a1b23;
+  --bg-surface: #22232d;
+  --bg-hover: #2a2b37;
+  --bg-selected: #2e3045;
+  --border: #333446;
+  --text: #c8c9d4;
+  --text-dim: #8889a0;
+  --text-bright: #eaebf2;
+  --accent: #7b8cde;
+  --accent-dim: rgba(123, 140, 222, 0.25);
+  --mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', Consolas, monospace;
+  --sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* significance scale: green (low) -> yellow (mid) -> red (high) */
+  --sig-0: hsl(120, 70%, 40%);
+  --sig-50: hsl(60, 70%, 45%);
+  --sig-100: hsl(0, 70%, 50%);
+
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
