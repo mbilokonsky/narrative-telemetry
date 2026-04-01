@@ -255,6 +255,7 @@ function App() {
             compareMode={compareMode}
             readingKeys={readingKeys}
             onSelectEvent={handleSelectEvent}
+            onSelectEntity={handleSelectEntity}
           />
         </div>
       </div>

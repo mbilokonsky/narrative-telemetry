@@ -2,6 +2,7 @@ import type { StoryModel, Selection, Character, Setting, Item, Relationship, Tex
 import { significanceColor } from '../utils'
 import { TensionChart } from './TensionChart'
 import { AbsentialTimeline } from './AbsentialTimeline'
+import { RelationshipGraph } from './RelationshipGraph'
 
 interface DetailInspectorProps {
   model: StoryModel;
@@ -10,6 +11,7 @@ interface DetailInspectorProps {
   compareMode: boolean;
   readingKeys: string[];
   onSelectEvent?: (id: string) => void;
+  onSelectEntity?: (id: string) => void;
 }
 
 const READING_COLORS: Record<string, string> = {};
@@ -47,6 +49,7 @@ export function DetailInspector({
   compareMode,
   readingKeys,
   onSelectEvent,
+  onSelectEntity,
 }: DetailInspectorProps) {
   const displayedReadings = compareMode ? readingKeys : [activeReading];
 
@@ -88,6 +91,12 @@ export function DetailInspector({
             </div>
           ))}
         </div>
+        <RelationshipGraph
+          model={model}
+          reading={model.readings[activeReading]}
+          selection={selection}
+          onSelectEntity={onSelectEntity ?? (() => {})}
+        />
         <TensionChart
           tensions={tensionData}
           selection={selection}

@@ -18,6 +18,7 @@ const suites = [
   { name: 'Server & Analyze', script: 'src/tests/test-server.ts' },
   { name: 'Tension Dimensions', script: 'src/tests/test-tension-dimensions.ts' },
   { name: 'Reading Editor', script: 'src/tests/test-reading-editor.ts' },
+  { name: 'Relationship Graph', script: 'src/tests/test-relationship-graph.ts' },
 ];
 
 let totalPassed = 0;
