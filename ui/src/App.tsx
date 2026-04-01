@@ -6,6 +6,7 @@ import { StorySelector } from './components/StorySelector'
 import { ReadingSelector } from './components/ReadingSelector'
 import { SpanWaterfall } from './components/SpanWaterfall'
 import { TextView } from './components/TextView'
+import { SplitTextView } from './components/SplitTextView'
 import { DetailInspector } from './components/DetailInspector'
 
 function App() {
@@ -118,7 +119,7 @@ function App() {
             active={activeReading}
             onSelect={setActiveReading}
             compareMode={compareMode}
-            onToggleCompare={() => setCompareMode(c => !c)}
+            onToggleCompare={readingKeys.length >= 2 ? () => setCompareMode(c => !c) : undefined}
           />
         </div>
       </div>
@@ -135,17 +136,28 @@ function App() {
         </div>
         <div className="panel-center">
           {text.length > 0 ? (
-            <TextView
-              lines={text}
-              events={model.text.events}
-              entities={model.text.diegetic}
-              reading={model.readings[activeReading]}
-              compareReading={compareMode ? model.readings[readingKeys.find(k => k !== activeReading) ?? activeReading] : undefined}
-              selection={selection}
-              onSelectEvent={handleSelectEvent}
-              onSelectEntity={handleSelectEntity}
-              textAnnotations={model.text.annotations}
-            />
+            compareMode && readingKeys.length >= 2 ? (
+              <SplitTextView
+                lines={text}
+                events={model.text.events}
+                entities={model.text.diegetic}
+                readingA={model.readings[activeReading]}
+                readingB={model.readings[readingKeys.find(k => k !== activeReading) ?? activeReading]}
+                selection={selection}
+                onSelectEvent={handleSelectEvent}
+              />
+            ) : (
+              <TextView
+                lines={text}
+                events={model.text.events}
+                entities={model.text.diegetic}
+                reading={model.readings[activeReading]}
+                selection={selection}
+                onSelectEvent={handleSelectEvent}
+                onSelectEntity={handleSelectEntity}
+                textAnnotations={model.text.annotations}
+              />
+            )
           ) : (
             <EventListView
               events={model.text.events}

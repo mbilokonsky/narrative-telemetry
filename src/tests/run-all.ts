@@ -13,6 +13,7 @@ const suites = [
   { name: 'TensionField', script: 'src/tests/test-tension-field.ts' },
   { name: 'Eveline Corpus', script: 'src/tests/test-eveline.ts' },
   { name: 'Story Catalog', script: 'src/tests/test-story-catalog.ts' },
+  { name: 'Divergence (UI)', script: 'src/tests/test-divergence-ui.ts' },
 ];
 
 let totalPassed = 0;
