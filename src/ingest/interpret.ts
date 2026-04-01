@@ -1,4 +1,4 @@
-import Anthropic from '@anthropic-ai/sdk';
+import { createClient } from './client';
 import {
   TextModel, Reading,
   NonDiegeticEntityType,
@@ -14,8 +14,8 @@ export interface InterpretOptions {
   temperature?: number;
 }
 
-const DEFAULT_MODEL = 'claude-sonnet-4-6';
-const DEFAULT_MAX_TOKENS = 16000;
+const DEFAULT_MODEL = 'claude-haiku-4-5';
+const DEFAULT_MAX_TOKENS = 32000;
 
 function ts(pct: number) { return { percentage: pct }; }
 
@@ -267,7 +267,7 @@ export async function interpretReading(
   lens: string,
   options: InterpretOptions = {},
 ): Promise<{ name: string; reading: Reading }> {
-  const client = new Anthropic();
+  const client = createClient();
 
   // Prepare a compact version of textModel for the prompt
   // (omit deeply nested state histories to save tokens)
@@ -322,7 +322,9 @@ export async function interpretReading(
 
   console.log(`[interpret] Generating "${lens}" reading (${Object.keys(textModel.events).length} events to annotate)...`);
 
-  const response = await client.messages.create({
+  // Use streaming to avoid timeout on large responses
+  let fullText = '';
+  const stream = client.messages.stream({
     model: options.model ?? DEFAULT_MODEL,
     max_tokens: options.maxTokens ?? DEFAULT_MAX_TOKENS,
     temperature: options.temperature ?? 0.3,
@@ -333,12 +335,13 @@ export async function interpretReading(
     }],
   });
 
-  const content = response.content[0];
-  if (content.type !== 'text') {
-    throw new Error('Expected text response from LLM');
+  for await (const event of stream) {
+    if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
+      fullText += event.delta.text;
+    }
   }
 
-  let rawJson = content.text.trim();
+  let rawJson = fullText.trim();
   if (rawJson.startsWith('```')) {
     rawJson = rawJson.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
   }

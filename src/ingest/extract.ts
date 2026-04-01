@@ -1,4 +1,4 @@
-import Anthropic from '@anthropic-ai/sdk';
+import { createClient } from './client';
 import { NarrativeAnalysisSystem } from '../NarrativeAnalysisSystem';
 import {
   StorySpanType,
@@ -54,8 +54,8 @@ export interface ExtractOptions {
   temperature?: number;
 }
 
-const DEFAULT_MODEL = 'claude-sonnet-4-6';
-const DEFAULT_MAX_TOKENS = 16000;
+const DEFAULT_MODEL = 'claude-haiku-4-5';
+const DEFAULT_MAX_TOKENS = 64000;
 
 function emptyEmotion() {
   return { joy: 0, trust: 0, fear: 0, surprise: 0, sadness: 0, disgust: 0, anger: 0, anticipation: 0, intensity: 0 };
@@ -501,12 +501,14 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
 // ── Main extraction function ──
 
 export async function extractTextModel(text: string, options: ExtractOptions = {}): Promise<TextModel> {
-  const client = new Anthropic();
+  const client = createClient();
   const lineCount = text.split('\n').length;
 
   console.log(`[extract] Sending ${lineCount}-line text to LLM for extraction...`);
 
-  const response = await client.messages.create({
+  // Use streaming to avoid timeout on large responses
+  let fullText = '';
+  const stream = client.messages.stream({
     model: options.model ?? DEFAULT_MODEL,
     max_tokens: options.maxTokens ?? DEFAULT_MAX_TOKENS,
     temperature: options.temperature ?? 0.2,
@@ -517,12 +519,13 @@ export async function extractTextModel(text: string, options: ExtractOptions = {
     }],
   });
 
-  const content = response.content[0];
-  if (content.type !== 'text') {
-    throw new Error('Expected text response from LLM');
+  for await (const event of stream) {
+    if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
+      fullText += event.delta.text;
+    }
   }
 
-  let rawJson = content.text.trim();
+  let rawJson = fullText.trim();
   // Strip markdown fences if present
   if (rawJson.startsWith('```')) {
     rawJson = rawJson.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
