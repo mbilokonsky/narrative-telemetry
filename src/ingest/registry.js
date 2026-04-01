@@ -35,8 +35,10 @@ class EntityRegistry {
      * Register a new entity or update an existing one.
      */
     register(entry) {
-        var _a;
-        const fullEntry = Object.assign(Object.assign({}, entry), { firstSeenChunk: (_a = entry.firstSeenChunk) !== null && _a !== void 0 ? _a : 0 });
+        const fullEntry = {
+            ...entry,
+            firstSeenChunk: entry.firstSeenChunk ?? 0,
+        };
         this.entities.set(entry.id, fullEntry);
         // Index canonical name
         this.nameIndex.set(this.normalize(entry.canonicalName), entry.id);
@@ -50,9 +52,8 @@ class EntityRegistry {
      * Returns null if not found.
      */
     lookup(nameOrAlias) {
-        var _a;
         const normalized = this.normalize(nameOrAlias);
-        return (_a = this.nameIndex.get(normalized)) !== null && _a !== void 0 ? _a : null;
+        return this.nameIndex.get(normalized) ?? null;
     }
     /**
      * Get an entity by ID.

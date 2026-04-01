@@ -56,7 +56,7 @@ class NarrativeAnalysisSystem {
         return id;
     }
     findSpan(spanId, from) {
-        const root = from !== null && from !== void 0 ? from : this.model.text.rootSpan;
+        const root = from ?? this.model.text.rootSpan;
         if (root.id === spanId)
             return root;
         for (const child of root.childSpans) {
@@ -68,47 +68,40 @@ class NarrativeAnalysisSystem {
     }
     // ── Diegetic entities ──
     addCharacter(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('char');
-        this.model.text.diegetic.characters[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('char');
+        this.model.text.diegetic.characters[id] = { ...data, id };
         return id;
     }
     addSetting(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('setting');
-        this.model.text.diegetic.settings[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('setting');
+        this.model.text.diegetic.settings[id] = { ...data, id };
         return id;
     }
     addItem(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('item');
-        this.model.text.diegetic.items[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('item');
+        this.model.text.diegetic.items[id] = { ...data, id };
         return id;
     }
     addFaction(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('faction');
-        this.model.text.diegetic.factions[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('faction');
+        this.model.text.diegetic.factions[id] = { ...data, id };
         return id;
     }
     // ── Diegetic relationships ──
     addInterpersonalRelationship(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('rel');
-        this.model.text.relationships.interpersonal[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('rel');
+        this.model.text.relationships.interpersonal[id] = { ...data, id };
         return id;
     }
     addGroupRelationship(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('rel');
-        this.model.text.relationships.group[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('rel');
+        this.model.text.relationships.group[id] = { ...data, id };
         return id;
     }
     // ── Absentials ──
     addAbsential(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('abs');
-        this.model.text.absentials[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('abs');
+        this.model.text.absentials[id] = { ...data, id };
         return id;
     }
     updateAbsentialStatus(absentialId, status, eventId, timestamp) {
@@ -118,15 +111,14 @@ class NarrativeAnalysisSystem {
         const lastState = abs.stateHistory[abs.stateHistory.length - 1];
         abs.stateHistory.push({
             timestamp,
-            data: Object.assign(Object.assign({}, lastState.data), { status }),
+            data: { ...lastState.data, status },
             causedBy: { eventId },
         });
     }
     // ── Diegetic mental constructs ──
     addMentalConstruct(data) {
-        var _a;
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('mc');
-        this.model.text.mentalConstructs[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('mc');
+        this.model.text.mentalConstructs[id] = { ...data, id };
         return id;
     }
     // ── Text annotations (diegetic) ──
@@ -135,12 +127,11 @@ class NarrativeAnalysisSystem {
     }
     // ── Events ──
     addEvent(spanId, data) {
-        var _a;
         const span = this.findSpan(spanId);
         if (!span)
             throw new Error(`Span ${spanId} not found`);
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('evt');
-        const event = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('evt');
+        const event = { ...data, id };
         span.events.push(id);
         this.model.text.events[id] = event;
         return id;
@@ -175,31 +166,27 @@ class NarrativeAnalysisSystem {
     }
     // ── Interpretive entities ──
     addTheme(readingName, data) {
-        var _a;
         const r = this.getReading(readingName);
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('theme');
-        r.themes[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('theme');
+        r.themes[id] = { ...data, id };
         return id;
     }
     addSymbol(readingName, data) {
-        var _a;
         const r = this.getReading(readingName);
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('sym');
-        r.symbols[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('sym');
+        r.symbols[id] = { ...data, id };
         return id;
     }
     addSymbolicRelationship(readingName, data) {
-        var _a;
         const r = this.getReading(readingName);
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('symrel');
-        r.symbolicRelationships[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('symrel');
+        r.symbolicRelationships[id] = { ...data, id };
         return id;
     }
     addReadingMentalConstruct(readingName, data) {
-        var _a;
         const r = this.getReading(readingName);
-        const id = (_a = data.id) !== null && _a !== void 0 ? _a : generateId('rmc');
-        r.mentalConstructs[id] = Object.assign(Object.assign({}, data), { id });
+        const id = data.id ?? generateId('rmc');
+        r.mentalConstructs[id] = { ...data, id };
         return id;
     }
     // ── Significance annotations ──

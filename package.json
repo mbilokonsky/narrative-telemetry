@@ -13,8 +13,13 @@
     "ui:dev": "cd ui && npx vite --open",
     "ui:build": "cd ui && npx vite build",
     "ingest:auto": "npx ts-node src/ingest/cli.ts",
-    "test": "npx ts-node src/tests/validate-auto.ts",
-    "test:manual": "npx ts-node src/validate.ts"
+    "test": "npx ts-node src/tests/run-all.ts",
+    "test:auto": "npx ts-node src/tests/validate-auto.ts",
+    "test:chunked": "npx ts-node src/tests/validate-chunked.ts",
+    "test:unit": "npx ts-node src/tests/unit.ts",
+    "test:otel": "npx ts-node src/tests/validate-otel.ts",
+    "test:manual": "npx ts-node src/validate.ts",
+    "otel:export": "npx ts-node src/export/cli.ts"
   },
   "keywords": [],
   "author": "",

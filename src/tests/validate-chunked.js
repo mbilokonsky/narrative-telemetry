@@ -4,7 +4,6 @@
  *
  * Tests the chunking strategies, entity registry deduplication, and span stitching.
  */
-var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 const registry_1 = require("../ingest/registry");
 const chunker_1 = require("../ingest/chunker");
@@ -106,8 +105,8 @@ check('Registry: prompt context includes characters', promptContext.includes('bo
 check('Registry: prompt context includes descriptions', promptContext.includes('The unnamed narrator'));
 // Test 11: Get entity details
 const boyEntry = registry.get('boy');
-check('Registry: get returns correct entry', (boyEntry === null || boyEntry === void 0 ? void 0 : boyEntry.canonicalName) === 'The Boy');
-check('Registry: entry has aliases', (_a = boyEntry === null || boyEntry === void 0 ? void 0 : boyEntry.aliases.includes('narrator')) !== null && _a !== void 0 ? _a : false);
+check('Registry: get returns correct entry', boyEntry?.canonicalName === 'The Boy');
+check('Registry: entry has aliases', boyEntry?.aliases.includes('narrator') ?? false);
 // Test 12: No duplicate registration (same ID)
 const initialCount = registry.count;
 registry.register({

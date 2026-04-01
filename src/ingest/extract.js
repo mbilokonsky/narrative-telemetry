@@ -1,20 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __asyncValues = (this && this.__asyncValues) || function (o) {
-    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
-    var m = o[Symbol.asyncIterator], i;
-    return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
-    function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
-    function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getChunkStats = exports.chunkText = exports.EntityRegistry = void 0;
 exports.extractTextModel = extractTextModel;
@@ -33,17 +17,15 @@ function base(eventId) {
     return { version: 'v1', activeAbsentials: [], currentRelationships: [], generatedBy: eventId };
 }
 function toSpanType(s) {
-    var _a;
     const map = {
         story: types_1.StorySpanType.STORY,
         act: types_1.StorySpanType.ACT,
         scene: types_1.StorySpanType.SCENE,
         beat: types_1.StorySpanType.BEAT,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.StorySpanType.BEAT;
+    return map[s] ?? types_1.StorySpanType.BEAT;
 }
 function toEventType(s) {
-    var _a;
     const map = {
         action: types_1.NarrativeEventType.ACTION,
         dialogue: types_1.NarrativeEventType.DIALOGUE,
@@ -51,10 +33,9 @@ function toEventType(s) {
         decision: types_1.NarrativeEventType.DECISION,
         environmental: types_1.NarrativeEventType.ENVIRONMENTAL,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.NarrativeEventType.ACTION;
+    return map[s] ?? types_1.NarrativeEventType.ACTION;
 }
 function toRealmType(s) {
-    var _a;
     const map = {
         material_reality: types_1.RealmType.MATERIAL_REALITY,
         dream: types_1.RealmType.DREAM,
@@ -62,7 +43,7 @@ function toRealmType(s) {
         vision: types_1.RealmType.VISION,
         hypothetical_reality: types_1.RealmType.HYPOTHETICAL_REALITY,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.RealmType.MATERIAL_REALITY;
+    return map[s] ?? types_1.RealmType.MATERIAL_REALITY;
 }
 function toRelationshipLabel(s) {
     if (!s)
@@ -81,7 +62,6 @@ function toRelationshipLabel(s) {
     return map[s];
 }
 function toAbsentialType(s) {
-    var _a;
     const map = {
         desire: types_1.AbsentialType.DESIRE,
         fear: types_1.AbsentialType.FEAR,
@@ -92,10 +72,9 @@ function toAbsentialType(s) {
         potential: types_1.AbsentialType.POTENTIAL,
         trigger: types_1.AbsentialType.TRIGGER,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.AbsentialType.DESIRE;
+    return map[s] ?? types_1.AbsentialType.DESIRE;
 }
 function toAbsentialStatus(s) {
-    var _a;
     const map = {
         unsatisfied: types_1.AbsentialStatus.UNSATISFIED,
         canceled: types_1.AbsentialStatus.CANCELED,
@@ -103,10 +82,9 @@ function toAbsentialStatus(s) {
         resolved_blocked: types_1.AbsentialStatus.RESOLVED_BLOCKED,
         resolved_mixed: types_1.AbsentialStatus.RESOLVED_MIXED,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.AbsentialStatus.UNSATISFIED;
+    return map[s] ?? types_1.AbsentialStatus.UNSATISFIED;
 }
 function toEntityAbsentialRel(s) {
-    var _a;
     const map = {
         target: types_1.EntityAbsentialRelationship.TARGET,
         obstacle: types_1.EntityAbsentialRelationship.OBSTACLE,
@@ -118,10 +96,9 @@ function toEntityAbsentialRel(s) {
         beneficiary: types_1.EntityAbsentialRelationship.BENEFICIARY,
         victim: types_1.EntityAbsentialRelationship.VICTIM,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.EntityAbsentialRelationship.TARGET;
+    return map[s] ?? types_1.EntityAbsentialRelationship.TARGET;
 }
 function toMentalConstructType(s) {
-    var _a;
     const map = {
         fact: types_1.MentalConstructType.FACT,
         belief: types_1.MentalConstructType.BELIEF,
@@ -130,10 +107,9 @@ function toMentalConstructType(s) {
         skill: types_1.MentalConstructType.SKILL,
         speculation: types_1.MentalConstructType.SPECULATION,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.MentalConstructType.BELIEF;
+    return map[s] ?? types_1.MentalConstructType.BELIEF;
 }
 function toCertaintyLevel(s) {
-    var _a;
     const map = {
         certain: types_1.CertaintyLevel.CERTAIN,
         probable: types_1.CertaintyLevel.PROBABLE,
@@ -141,25 +117,23 @@ function toCertaintyLevel(s) {
         doubtful: types_1.CertaintyLevel.DOUBTFUL,
         unknown: types_1.CertaintyLevel.UNKNOWN,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.CertaintyLevel.PROBABLE;
+    return map[s] ?? types_1.CertaintyLevel.PROBABLE;
 }
 function toAwarenessLevel(s) {
-    var _a;
     const map = {
         conscious: types_1.AwarenessLevel.CONSCIOUS,
         subconscious: types_1.AwarenessLevel.SUBCONSCIOUS,
         unconscious: types_1.AwarenessLevel.UNCONSCIOUS,
     };
-    return (_a = map[s]) !== null && _a !== void 0 ? _a : types_1.AwarenessLevel.CONSCIOUS;
+    return map[s] ?? types_1.AwarenessLevel.CONSCIOUS;
 }
 // ── Build TextModel from LLM extraction ──
 function buildSpans(sys, parentId, children) {
-    var _a;
     const idMap = {};
     for (const child of children) {
         const spanId = sys.createSpan(parentId, toSpanType(child.type), child.title, child.description, child.startPct, child.endPct);
         idMap[child.id] = spanId;
-        if ((_a = child.children) === null || _a === void 0 ? void 0 : _a.length) {
+        if (child.children?.length) {
             const nested = buildSpans(sys, spanId, child.children);
             Object.assign(idMap, nested);
         }
@@ -167,276 +141,317 @@ function buildSpans(sys, parentId, children) {
     return idMap;
 }
 function findSpanForEvent(rootSpan, eventId) {
-    var _a, _b;
     // Find the deepest span that lists this event
-    for (const child of (_a = rootSpan.children) !== null && _a !== void 0 ? _a : []) {
+    for (const child of rootSpan.children ?? []) {
         const found = findSpanForEvent(child, eventId);
         if (found)
             return found;
     }
-    if ((_b = rootSpan.eventIds) === null || _b === void 0 ? void 0 : _b.includes(eventId))
+    if (rootSpan.eventIds?.includes(eventId))
         return rootSpan.id;
     return null;
 }
 function buildTextModel(extraction) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26, _27, _28, _29, _30, _31, _32, _33, _34, _35, _36, _37, _38, _39, _40, _41, _42, _43, _44, _45, _46, _47, _48, _49, _50, _51, _52, _53, _54, _55, _56, _57, _58, _59, _60, _61, _62, _63;
     const sys = new NarrativeAnalysisSystem_1.NarrativeAnalysisSystem(extraction.title, extraction.author, extraction.description);
     const rootId = sys.getRootSpanId();
     // Build span tree and collect ID mapping
-    const spanMap = buildSpans(sys, rootId, (_a = extraction.rootSpan.children) !== null && _a !== void 0 ? _a : []);
+    const spanMap = buildSpans(sys, rootId, extraction.rootSpan.children ?? []);
     spanMap[extraction.rootSpan.id] = rootId;
     // Register settings first (characters reference them for location)
-    for (const s of (_b = extraction.settings) !== null && _b !== void 0 ? _b : []) {
+    for (const s of extraction.settings ?? []) {
         sys.addSetting({
             id: s.id,
             name: s.name,
             description: s.description,
-            tags: (_c = s.tags) !== null && _c !== void 0 ? _c : [],
-            textMentions: (_d = s.textMentions) !== null && _d !== void 0 ? _d : [],
-            context: (_e = s.context) !== null && _e !== void 0 ? _e : '',
+            tags: s.tags ?? [],
+            textMentions: s.textMentions ?? [],
+            context: s.context ?? '',
             type: types_1.DiegeticEntityType.SETTING,
-            realm: toRealmType((_f = s.realm) !== null && _f !== void 0 ? _f : 'material_reality'),
-            geography: (_g = s.geography) !== null && _g !== void 0 ? _g : '',
-            climate: (_h = s.climate) !== null && _h !== void 0 ? _h : '',
-            historicalContext: (_j = s.historicalContext) !== null && _j !== void 0 ? _j : '',
-            culturalBackground: (_k = s.culturalBackground) !== null && _k !== void 0 ? _k : '',
+            realm: toRealmType(s.realm ?? 'material_reality'),
+            geography: s.geography ?? '',
+            climate: s.climate ?? '',
+            historicalContext: s.historicalContext ?? '',
+            culturalBackground: s.culturalBackground ?? '',
             parentSetting: s.parentSetting,
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_l = s.firstEvent) !== null && _l !== void 0 ? _l : 'init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: {}, culturalNorms: {}, tension: 0, atmosphere: (_m = s.atmosphere) !== null && _m !== void 0 ? _m : '' }),
+                    data: {
+                        ...base(s.firstEvent ?? 'init'),
+                        currentCharacters: [],
+                        currentItems: [],
+                        dominantFactions: {},
+                        environmentalConditions: {},
+                        culturalNorms: {},
+                        tension: 0,
+                        atmosphere: s.atmosphere ?? '',
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_o = s.firstEvent) !== null && _o !== void 0 ? _o : 'init',
+            firstIntroduced: s.firstEvent ?? 'init',
         });
     }
     // Register characters
-    for (const c of (_p = extraction.characters) !== null && _p !== void 0 ? _p : []) {
+    for (const c of extraction.characters ?? []) {
         sys.addCharacter({
             id: c.id,
             name: c.name,
             description: c.description,
-            tags: (_q = c.tags) !== null && _q !== void 0 ? _q : [],
-            textMentions: (_r = c.textMentions) !== null && _r !== void 0 ? _r : [],
-            context: (_s = c.context) !== null && _s !== void 0 ? _s : '',
+            tags: c.tags ?? [],
+            textMentions: c.textMentions ?? [],
+            context: c.context ?? '',
             type: types_1.DiegeticEntityType.CHARACTER,
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_t = c.firstEvent) !== null && _t !== void 0 ? _t : 'init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: (_u = c.initialLocation) !== null && _u !== void 0 ? _u : '', factionRelationships: {}, age: (_v = c.age) !== null && _v !== void 0 ? _v : 0, gender: (_w = c.gender) !== null && _w !== void 0 ? _w : 'unknown', occupation: (_x = c.occupation) !== null && _x !== void 0 ? _x : '', personalityTraits: (_y = c.personalityTraits) !== null && _y !== void 0 ? _y : [], coreValues: (_z = c.coreValues) !== null && _z !== void 0 ? _z : [], physicalDescription: (_0 = c.physicalDescription) !== null && _0 !== void 0 ? _0 : '', skills: {}, socialStatus: {} }),
+                    data: {
+                        ...base(c.firstEvent ?? 'init'),
+                        emotionalState: emptyEmotion(),
+                        mentalConstructs: [],
+                        inventory: [],
+                        location: c.initialLocation ?? '',
+                        factionRelationships: {},
+                        age: c.age ?? 0,
+                        gender: c.gender ?? 'unknown',
+                        occupation: c.occupation ?? '',
+                        personalityTraits: c.personalityTraits ?? [],
+                        coreValues: c.coreValues ?? [],
+                        physicalDescription: c.physicalDescription ?? '',
+                        skills: {},
+                        socialStatus: {},
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_1 = c.firstEvent) !== null && _1 !== void 0 ? _1 : 'init',
+            firstIntroduced: c.firstEvent ?? 'init',
         });
     }
     // Register items
-    for (const item of (_2 = extraction.items) !== null && _2 !== void 0 ? _2 : []) {
+    for (const item of extraction.items ?? []) {
         sys.addItem({
             id: item.id,
             name: item.name,
             description: item.description,
-            tags: (_3 = item.tags) !== null && _3 !== void 0 ? _3 : [],
-            textMentions: (_4 = item.textMentions) !== null && _4 !== void 0 ? _4 : [],
-            context: (_5 = item.context) !== null && _5 !== void 0 ? _5 : '',
+            tags: item.tags ?? [],
+            textMentions: item.textMentions ?? [],
+            context: item.context ?? '',
             type: types_1.DiegeticEntityType.ITEM,
-            itemType: (_6 = item.itemType) !== null && _6 !== void 0 ? _6 : '',
-            origin: (_7 = item.origin) !== null && _7 !== void 0 ? _7 : '',
-            physicalDescription: (_8 = item.physicalDescription) !== null && _8 !== void 0 ? _8 : '',
-            defaultFunction: (_9 = item.defaultFunction) !== null && _9 !== void 0 ? _9 : '',
+            itemType: item.itemType ?? '',
+            origin: item.origin ?? '',
+            physicalDescription: item.physicalDescription ?? '',
+            defaultFunction: item.defaultFunction ?? '',
             culturalSignificance: item.culturalSignificance,
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_10 = item.firstEvent) !== null && _10 !== void 0 ? _10 : 'init')), { location: (_11 = item.initialLocation) !== null && _11 !== void 0 ? _11 : '', condition: 'normal', owner: (_12 = item.initialOwner) !== null && _12 !== void 0 ? _12 : null, isHidden: false }),
+                    data: {
+                        ...base(item.firstEvent ?? 'init'),
+                        location: item.initialLocation ?? '',
+                        condition: 'normal',
+                        owner: item.initialOwner ?? null,
+                        isHidden: false,
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_13 = item.firstEvent) !== null && _13 !== void 0 ? _13 : 'init',
+            firstIntroduced: item.firstEvent ?? 'init',
         });
     }
     // Register factions
-    for (const f of (_14 = extraction.factions) !== null && _14 !== void 0 ? _14 : []) {
+    for (const f of extraction.factions ?? []) {
         sys.addFaction({
             id: f.id,
             name: f.name,
             description: f.description,
-            tags: (_15 = f.tags) !== null && _15 !== void 0 ? _15 : [],
-            textMentions: (_16 = f.textMentions) !== null && _16 !== void 0 ? _16 : [],
-            context: (_17 = f.context) !== null && _17 !== void 0 ? _17 : '',
+            tags: f.tags ?? [],
+            textMentions: f.textMentions ?? [],
+            context: f.context ?? '',
             type: types_1.DiegeticEntityType.FACTION,
-            foundingPrinciples: (_18 = f.foundingPrinciples) !== null && _18 !== void 0 ? _18 : [],
-            historicalContext: (_19 = f.historicalContext) !== null && _19 !== void 0 ? _19 : '',
-            organizationalStructure: (_20 = f.organizationalStructure) !== null && _20 !== void 0 ? _20 : '',
+            foundingPrinciples: f.foundingPrinciples ?? [],
+            historicalContext: f.historicalContext ?? '',
+            organizationalStructure: f.organizationalStructure ?? '',
             recruitmentMethods: [],
             symbolism: { colors: [], emblem: '', motto: '' },
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_21 = f.firstEvent) !== null && _21 !== void 0 ? _21 : 'init')), { members: (_22 = f.members) !== null && _22 !== void 0 ? _22 : [], sharedMentalConstructs: [], influence: 0, resources: {}, ideology: {}, relationships: {}, publicOpinion: 0 }),
+                    data: {
+                        ...base(f.firstEvent ?? 'init'),
+                        members: f.members ?? [],
+                        sharedMentalConstructs: [],
+                        influence: 0,
+                        resources: {},
+                        ideology: {},
+                        relationships: {},
+                        publicOpinion: 0,
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_23 = f.firstEvent) !== null && _23 !== void 0 ? _23 : 'init',
+            firstIntroduced: f.firstEvent ?? 'init',
         });
     }
     // Register events (need to resolve span IDs)
-    for (const e of (_24 = extraction.events) !== null && _24 !== void 0 ? _24 : []) {
+    for (const e of extraction.events ?? []) {
         const extractionSpanId = findSpanForEvent(extraction.rootSpan, e.id);
-        const systemSpanId = extractionSpanId ? ((_25 = spanMap[extractionSpanId]) !== null && _25 !== void 0 ? _25 : rootId) : rootId;
+        const systemSpanId = extractionSpanId ? (spanMap[extractionSpanId] ?? rootId) : rootId;
         sys.addEvent(systemSpanId, {
             id: e.id,
             type: toEventType(e.type),
             description: e.description,
-            timestamp: (_26 = e.timestamp) !== null && _26 !== void 0 ? _26 : ts(0),
-            textLocation: (_27 = e.textLocation) !== null && _27 !== void 0 ? _27 : { startLine: 1, endLine: 1 },
-            participants: (_28 = e.participants) !== null && _28 !== void 0 ? _28 : [],
+            timestamp: e.timestamp ?? ts(0),
+            textLocation: e.textLocation ?? { startLine: 1, endLine: 1 },
+            participants: e.participants ?? [],
             precedingEvent: e.precedingEvent,
         });
     }
     // Register interpersonal relationships
-    for (const r of (_30 = (_29 = extraction.relationships) === null || _29 === void 0 ? void 0 : _29.interpersonal) !== null && _30 !== void 0 ? _30 : []) {
+    for (const r of extraction.relationships?.interpersonal ?? []) {
         sys.addInterpersonalRelationship({
             id: r.id,
             name: r.name,
             description: r.description,
-            tags: (_31 = r.tags) !== null && _31 !== void 0 ? _31 : [],
+            tags: r.tags ?? [],
             type: types_1.RelationshipType.INTERPERSONAL,
             participants: r.participants,
-            nature: (_32 = r.nature) !== null && _32 !== void 0 ? _32 : '',
+            nature: r.nature ?? '',
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_33 = r.firstEvent) !== null && _33 !== void 0 ? _33 : 'init')), { strength: (_34 = r.strength) !== null && _34 !== void 0 ? _34 : 0.5, dynamics: { power: 0, influence: 0, conflict: 0 }, label: toRelationshipLabel(r.label) }),
+                    data: {
+                        ...base(r.firstEvent ?? 'init'),
+                        strength: r.strength ?? 0.5,
+                        dynamics: { power: 0, influence: 0, conflict: 0 },
+                        label: toRelationshipLabel(r.label),
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_35 = r.firstEvent) !== null && _35 !== void 0 ? _35 : 'init',
+            firstIntroduced: r.firstEvent ?? 'init',
         });
     }
     // Register group relationships
-    for (const r of (_37 = (_36 = extraction.relationships) === null || _36 === void 0 ? void 0 : _36.group) !== null && _37 !== void 0 ? _37 : []) {
+    for (const r of extraction.relationships?.group ?? []) {
         sys.addGroupRelationship({
             id: r.id,
             name: r.name,
             description: r.description,
-            tags: (_38 = r.tags) !== null && _38 !== void 0 ? _38 : [],
+            tags: r.tags ?? [],
             type: types_1.RelationshipType.GROUP,
-            participants: (_39 = r.participants) !== null && _39 !== void 0 ? _39 : [],
-            nature: (_40 = r.nature) !== null && _40 !== void 0 ? _40 : '',
+            participants: r.participants ?? [],
+            nature: r.nature ?? '',
             subRelationships: [],
             groupDynamics: {
-                cohesion: (_41 = r.cohesion) !== null && _41 !== void 0 ? _41 : 0.5,
-                sharedPurpose: (_42 = r.sharedPurpose) !== null && _42 !== void 0 ? _42 : 0.5,
+                cohesion: r.cohesion ?? 0.5,
+                sharedPurpose: r.sharedPurpose ?? 0.5,
                 internalConflict: 0,
             },
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_43 = r.firstEvent) !== null && _43 !== void 0 ? _43 : 'init')), { strength: 0.5, dynamics: { power: 0, influence: 0, conflict: 0 } }),
+                    data: {
+                        ...base(r.firstEvent ?? 'init'),
+                        strength: 0.5,
+                        dynamics: { power: 0, influence: 0, conflict: 0 },
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_44 = r.firstEvent) !== null && _44 !== void 0 ? _44 : 'init',
+            firstIntroduced: r.firstEvent ?? 'init',
         });
     }
     // Register absentials
-    for (const a of (_45 = extraction.absentials) !== null && _45 !== void 0 ? _45 : []) {
+    for (const a of extraction.absentials ?? []) {
         sys.addAbsential({
             id: a.id,
             name: a.name,
             description: a.description,
-            tags: (_46 = a.tags) !== null && _46 !== void 0 ? _46 : [],
+            tags: a.tags ?? [],
             holder: a.holder,
-            origin: (_47 = a.origin) !== null && _47 !== void 0 ? _47 : '',
+            origin: a.origin ?? '',
             childAbsentials: [],
             conflictingAbsentials: [],
-            relatedEntities: ((_48 = a.relatedEntities) !== null && _48 !== void 0 ? _48 : []).map((re) => {
-                var _a;
-                return ({
-                    entityId: re.entityId,
-                    relationship: toEntityAbsentialRel(re.relationship),
-                    strength: (_a = re.strength) !== null && _a !== void 0 ? _a : 0.5,
-                });
-            }),
+            relatedEntities: (a.relatedEntities ?? []).map((re) => ({
+                entityId: re.entityId,
+                relationship: toEntityAbsentialRel(re.relationship),
+                strength: re.strength ?? 0.5,
+            })),
             relatedAbsentials: [],
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_49 = a.firstEvent) !== null && _49 !== void 0 ? _49 : 'init')), { type: toAbsentialType(a.type), status: toAbsentialStatus((_50 = a.initialStatus) !== null && _50 !== void 0 ? _50 : 'unsatisfied'), urgency: (_51 = a.urgency) !== null && _51 !== void 0 ? _51 : 0.5, intensity: (_52 = a.intensity) !== null && _52 !== void 0 ? _52 : 0.5 }),
+                    data: {
+                        ...base(a.firstEvent ?? 'init'),
+                        type: toAbsentialType(a.type),
+                        status: toAbsentialStatus(a.initialStatus ?? 'unsatisfied'),
+                        urgency: a.urgency ?? 0.5,
+                        intensity: a.intensity ?? 0.5,
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_53 = a.firstEvent) !== null && _53 !== void 0 ? _53 : 'init',
+            firstIntroduced: a.firstEvent ?? 'init',
         });
     }
     // Register mental constructs
-    for (const mc of (_54 = extraction.mentalConstructs) !== null && _54 !== void 0 ? _54 : []) {
+    for (const mc of extraction.mentalConstructs ?? []) {
         sys.addMentalConstruct({
             id: mc.id,
             name: mc.name,
             description: mc.description,
-            tags: (_55 = mc.tags) !== null && _55 !== void 0 ? _55 : [],
+            tags: mc.tags ?? [],
             holder: mc.holder,
             subject: mc.subject,
-            isDiegetic: (_56 = mc.isDiegetic) !== null && _56 !== void 0 ? _56 : true,
+            isDiegetic: mc.isDiegetic ?? true,
             source: mc.firstEvent,
             relatedConstructs: [],
             conflictingConstructs: [],
             supportingConstructs: [],
             stateHistory: [{
                     timestamp: ts(0),
-                    data: Object.assign(Object.assign({}, base((_57 = mc.firstEvent) !== null && _57 !== void 0 ? _57 : 'init')), { content: (_58 = mc.content) !== null && _58 !== void 0 ? _58 : mc.description, type: toMentalConstructType((_59 = mc.type) !== null && _59 !== void 0 ? _59 : 'belief'), certainty: toCertaintyLevel((_60 = mc.certainty) !== null && _60 !== void 0 ? _60 : 'probable'), awareness: toAwarenessLevel((_61 = mc.awareness) !== null && _61 !== void 0 ? _61 : 'conscious'), emotionalAssociation: {}, salience: (_62 = mc.salience) !== null && _62 !== void 0 ? _62 : 0.5 }),
+                    data: {
+                        ...base(mc.firstEvent ?? 'init'),
+                        content: mc.content ?? mc.description,
+                        type: toMentalConstructType(mc.type ?? 'belief'),
+                        certainty: toCertaintyLevel(mc.certainty ?? 'probable'),
+                        awareness: toAwarenessLevel(mc.awareness ?? 'conscious'),
+                        emotionalAssociation: {},
+                        salience: mc.salience ?? 0.5,
+                    },
                     causedBy: {},
                 }],
-            firstIntroduced: (_63 = mc.firstEvent) !== null && _63 !== void 0 ? _63 : 'init',
+            firstIntroduced: mc.firstEvent ?? 'init',
         });
     }
     return sys.getModel().text;
 }
 // ── Main extraction function ──
-function extractTextModel(text_1) {
-    return __awaiter(this, arguments, void 0, function* (text, options = {}) {
-        var _a, e_1, _b, _c;
-        var _d, _e, _f, _g, _h, _j, _k, _l, _m;
-        const client = (0, client_1.createClient)();
-        const lineCount = text.split('\n').length;
-        console.log(`[extract] Sending ${lineCount}-line text to LLM for extraction...`);
-        // Use streaming to avoid timeout on large responses
-        let fullText = '';
-        const stream = client.messages.stream({
-            model: (_d = options.model) !== null && _d !== void 0 ? _d : DEFAULT_MODEL,
-            max_tokens: (_e = options.maxTokens) !== null && _e !== void 0 ? _e : DEFAULT_MAX_TOKENS,
-            temperature: (_f = options.temperature) !== null && _f !== void 0 ? _f : 0.2,
-            system: prompts_1.EXTRACTION_SYSTEM_PROMPT,
-            messages: [{
-                    role: 'user',
-                    content: (0, prompts_1.buildExtractionUserPrompt)(text, lineCount),
-                }],
-        });
-        try {
-            for (var _o = true, stream_1 = __asyncValues(stream), stream_1_1; stream_1_1 = yield stream_1.next(), _a = stream_1_1.done, !_a; _o = true) {
-                _c = stream_1_1.value;
-                _o = false;
-                const event = _c;
-                if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
-                    fullText += event.delta.text;
-                }
-            }
-        }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
-        finally {
-            try {
-                if (!_o && !_a && (_b = stream_1.return)) yield _b.call(stream_1);
-            }
-            finally { if (e_1) throw e_1.error; }
-        }
-        let rawJson = fullText.trim();
-        // Strip markdown fences if present
-        if (rawJson.startsWith('```')) {
-            rawJson = rawJson.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
-        }
-        let extraction;
-        try {
-            extraction = JSON.parse(rawJson);
-        }
-        catch (err) {
-            console.error('[extract] Failed to parse LLM JSON output');
-            console.error('[extract] Raw output (first 500 chars):', rawJson.slice(0, 500));
-            throw new Error(`JSON parse error: ${err.message}`);
-        }
-        console.log(`[extract] Parsed extraction: ${(_h = (_g = extraction.events) === null || _g === void 0 ? void 0 : _g.length) !== null && _h !== void 0 ? _h : 0} events, ${(_k = (_j = extraction.characters) === null || _j === void 0 ? void 0 : _j.length) !== null && _k !== void 0 ? _k : 0} characters, ${(_m = (_l = extraction.settings) === null || _l === void 0 ? void 0 : _l.length) !== null && _m !== void 0 ? _m : 0} settings`);
-        const textModel = buildTextModel(extraction);
-        console.log(`[extract] Built TextModel: "${textModel.title}" by ${textModel.author}`);
-        return textModel;
+async function extractTextModel(text, options = {}) {
+    const client = (0, client_1.createClient)();
+    const lineCount = text.split('\n').length;
+    console.log(`[extract] Sending ${lineCount}-line text to LLM for extraction...`);
+    // Use streaming to avoid timeout on large responses
+    let fullText = '';
+    const stream = client.messages.stream({
+        model: options.model ?? DEFAULT_MODEL,
+        max_tokens: options.maxTokens ?? DEFAULT_MAX_TOKENS,
+        temperature: options.temperature ?? 0.2,
+        system: prompts_1.EXTRACTION_SYSTEM_PROMPT,
+        messages: [{
+                role: 'user',
+                content: (0, prompts_1.buildExtractionUserPrompt)(text, lineCount),
+            }],
     });
+    for await (const event of stream) {
+        if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
+            fullText += event.delta.text;
+        }
+    }
+    let rawJson = fullText.trim();
+    // Strip markdown fences if present
+    if (rawJson.startsWith('```')) {
+        rawJson = rawJson.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
+    }
+    let extraction;
+    try {
+        extraction = JSON.parse(rawJson);
+    }
+    catch (err) {
+        console.error('[extract] Failed to parse LLM JSON output');
+        console.error('[extract] Raw output (first 500 chars):', rawJson.slice(0, 500));
+        throw new Error(`JSON parse error: ${err.message}`);
+    }
+    console.log(`[extract] Parsed extraction: ${extraction.events?.length ?? 0} events, ${extraction.characters?.length ?? 0} characters, ${extraction.settings?.length ?? 0} settings`);
+    const textModel = buildTextModel(extraction);
+    console.log(`[extract] Built TextModel: "${textModel.title}" by ${textModel.author}`);
+    return textModel;
 }
 // ─────────────────────────────────────────────────
 // CHUNKED EXTRACTION FOR LONG TEXTS
@@ -452,155 +467,136 @@ Object.defineProperty(exports, "getChunkStats", { enumerable: true, get: functio
  * Maintains an entity registry across chunks so that "Mangan's sister"
  * gets the same ID whether she appears in chunk 1 or chunk 12.
  */
-function extractTextModelChunked(text_1) {
-    return __awaiter(this, arguments, void 0, function* (text, options = {}) {
-        const chunks = (0, chunker_1.chunkText)(text, options.chunkOptions);
-        const stats = (0, chunker_1.getChunkStats)(chunks);
-        const contentChunks = chunks.filter(c => !c.isOverlap);
-        console.log(`[chunked-extract] Text split into ${contentChunks.length} content chunks (+ ${stats.overlapChunks} overlap contexts)`);
-        console.log(`[chunked-extract] Total: ${stats.totalChars.toLocaleString()} chars, ~${stats.estimatedTokens.toLocaleString()} tokens`);
-        const registry = new registry_1.EntityRegistry();
-        const chunkResults = [];
-        let globalEventSeq = 0;
-        for (let i = 0; i < contentChunks.length; i++) {
-            const chunk = contentChunks[i];
-            console.log(`\n[chunked-extract] Processing chunk ${i + 1}/${contentChunks.length} (${chunk.startPct.toFixed(1)}% - ${chunk.endPct.toFixed(1)}%)...`);
-            const result = yield extractChunk(chunk, registry, options, i === 0);
-            result._chunkIndex = i;
-            result._startPct = chunk.startPct;
-            result._endPct = chunk.endPct;
-            // Update registry with entities from this chunk
-            updateRegistryFromExtraction(registry, result, i);
-            // Renumber events with global sequence
-            globalEventSeq = renumberEvents(result, globalEventSeq, chunk.startPct);
-            chunkResults.push(result);
-            if (options.onChunkComplete) {
-                options.onChunkComplete(i, contentChunks.length, registry.count);
-            }
-            console.log(`[chunked-extract] Chunk ${i + 1} complete. Registry now has ${registry.count} entities.`);
+async function extractTextModelChunked(text, options = {}) {
+    const chunks = (0, chunker_1.chunkText)(text, options.chunkOptions);
+    const stats = (0, chunker_1.getChunkStats)(chunks);
+    const contentChunks = chunks.filter(c => !c.isOverlap);
+    console.log(`[chunked-extract] Text split into ${contentChunks.length} content chunks (+ ${stats.overlapChunks} overlap contexts)`);
+    console.log(`[chunked-extract] Total: ${stats.totalChars.toLocaleString()} chars, ~${stats.estimatedTokens.toLocaleString()} tokens`);
+    const registry = new registry_1.EntityRegistry();
+    const chunkResults = [];
+    let globalEventSeq = 0;
+    for (let i = 0; i < contentChunks.length; i++) {
+        const chunk = contentChunks[i];
+        console.log(`\n[chunked-extract] Processing chunk ${i + 1}/${contentChunks.length} (${chunk.startPct.toFixed(1)}% - ${chunk.endPct.toFixed(1)}%)...`);
+        const result = await extractChunk(chunk, registry, options, i === 0);
+        result._chunkIndex = i;
+        result._startPct = chunk.startPct;
+        result._endPct = chunk.endPct;
+        // Update registry with entities from this chunk
+        updateRegistryFromExtraction(registry, result, i);
+        // Renumber events with global sequence
+        globalEventSeq = renumberEvents(result, globalEventSeq, chunk.startPct);
+        chunkResults.push(result);
+        if (options.onChunkComplete) {
+            options.onChunkComplete(i, contentChunks.length, registry.count);
         }
-        // Merge all chunk results into a single TextModel
-        console.log(`\n[chunked-extract] Merging ${chunkResults.length} chunk results...`);
-        const mergedExtraction = mergeChunkExtractions(chunkResults);
-        const textModel = buildTextModel(mergedExtraction);
-        console.log(`[chunked-extract] Complete: "${textModel.title}" by ${textModel.author}`);
-        console.log(`[chunked-extract] Final: ${Object.keys(textModel.events).length} events, ${Object.keys(textModel.diegetic.characters).length} characters, ${Object.keys(textModel.diegetic.settings).length} settings`);
-        return textModel;
-    });
+        console.log(`[chunked-extract] Chunk ${i + 1} complete. Registry now has ${registry.count} entities.`);
+    }
+    // Merge all chunk results into a single TextModel
+    console.log(`\n[chunked-extract] Merging ${chunkResults.length} chunk results...`);
+    const mergedExtraction = mergeChunkExtractions(chunkResults);
+    const textModel = buildTextModel(mergedExtraction);
+    console.log(`[chunked-extract] Complete: "${textModel.title}" by ${textModel.author}`);
+    console.log(`[chunked-extract] Final: ${Object.keys(textModel.events).length} events, ${Object.keys(textModel.diegetic.characters).length} characters, ${Object.keys(textModel.diegetic.settings).length} settings`);
+    return textModel;
 }
 /**
  * Extract a single chunk, with registry context for non-first chunks.
  */
-function extractChunk(chunk, registry, options, isFirstChunk) {
-    return __awaiter(this, void 0, void 0, function* () {
-        var _a, e_2, _b, _c;
-        var _d, _e, _f;
-        const client = (0, client_1.createClient)();
-        // Build prompt with registry context for subsequent chunks
-        let userPrompt = (0, prompts_1.buildExtractionUserPrompt)(chunk.text, chunk.text.split('\n').length);
-        if (!isFirstChunk && registry.count > 0) {
-            const registryContext = registry.toPromptContext();
-            userPrompt = `${registryContext}\n\n---\n\n${userPrompt}\n\nImportant: Reuse the entity IDs listed above. Only create new entities if they genuinely haven't appeared before. Continue the event numbering sequence.`;
-        }
-        // Use streaming
-        let fullText = '';
-        const stream = client.messages.stream({
-            model: (_d = options.model) !== null && _d !== void 0 ? _d : DEFAULT_MODEL,
-            max_tokens: (_e = options.maxTokens) !== null && _e !== void 0 ? _e : DEFAULT_MAX_TOKENS,
-            temperature: (_f = options.temperature) !== null && _f !== void 0 ? _f : 0.2,
-            system: prompts_1.EXTRACTION_SYSTEM_PROMPT,
-            messages: [{ role: 'user', content: userPrompt }],
-        });
-        try {
-            for (var _g = true, stream_2 = __asyncValues(stream), stream_2_1; stream_2_1 = yield stream_2.next(), _a = stream_2_1.done, !_a; _g = true) {
-                _c = stream_2_1.value;
-                _g = false;
-                const event = _c;
-                if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
-                    fullText += event.delta.text;
-                }
-            }
-        }
-        catch (e_2_1) { e_2 = { error: e_2_1 }; }
-        finally {
-            try {
-                if (!_g && !_a && (_b = stream_2.return)) yield _b.call(stream_2);
-            }
-            finally { if (e_2) throw e_2.error; }
-        }
-        let rawJson = fullText.trim();
-        if (rawJson.startsWith('```')) {
-            rawJson = rawJson.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
-        }
-        try {
-            return JSON.parse(rawJson);
-        }
-        catch (err) {
-            console.error('[chunked-extract] Failed to parse chunk JSON');
-            console.error('[chunked-extract] Raw (first 500 chars):', rawJson.slice(0, 500));
-            throw new Error(`Chunk parse error: ${err.message}`);
-        }
+async function extractChunk(chunk, registry, options, isFirstChunk) {
+    const client = (0, client_1.createClient)();
+    // Build prompt with registry context for subsequent chunks
+    let userPrompt = (0, prompts_1.buildExtractionUserPrompt)(chunk.text, chunk.text.split('\n').length);
+    if (!isFirstChunk && registry.count > 0) {
+        const registryContext = registry.toPromptContext();
+        userPrompt = `${registryContext}\n\n---\n\n${userPrompt}\n\nImportant: Reuse the entity IDs listed above. Only create new entities if they genuinely haven't appeared before. Continue the event numbering sequence.`;
+    }
+    // Use streaming
+    let fullText = '';
+    const stream = client.messages.stream({
+        model: options.model ?? DEFAULT_MODEL,
+        max_tokens: options.maxTokens ?? DEFAULT_MAX_TOKENS,
+        temperature: options.temperature ?? 0.2,
+        system: prompts_1.EXTRACTION_SYSTEM_PROMPT,
+        messages: [{ role: 'user', content: userPrompt }],
     });
+    for await (const event of stream) {
+        if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
+            fullText += event.delta.text;
+        }
+    }
+    let rawJson = fullText.trim();
+    if (rawJson.startsWith('```')) {
+        rawJson = rawJson.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
+    }
+    try {
+        return JSON.parse(rawJson);
+    }
+    catch (err) {
+        console.error('[chunked-extract] Failed to parse chunk JSON');
+        console.error('[chunked-extract] Raw (first 500 chars):', rawJson.slice(0, 500));
+        throw new Error(`Chunk parse error: ${err.message}`);
+    }
 }
 /**
  * Update registry with entities from a chunk extraction.
  */
 function updateRegistryFromExtraction(registry, extraction, chunkIndex) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
     // Register characters
-    for (const char of (_a = extraction.characters) !== null && _a !== void 0 ? _a : []) {
+    for (const char of extraction.characters ?? []) {
         if (!registry.has(char.id)) {
             registry.register({
                 id: char.id,
                 type: 'character',
                 canonicalName: char.name,
-                aliases: (_b = char.aliases) !== null && _b !== void 0 ? _b : [],
+                aliases: char.aliases ?? [],
                 description: char.description,
                 firstSeenChunk: chunkIndex,
             });
         }
     }
     // Register settings
-    for (const setting of (_c = extraction.settings) !== null && _c !== void 0 ? _c : []) {
+    for (const setting of extraction.settings ?? []) {
         if (!registry.has(setting.id)) {
             registry.register({
                 id: setting.id,
                 type: 'setting',
                 canonicalName: setting.name,
-                aliases: (_d = setting.aliases) !== null && _d !== void 0 ? _d : [],
+                aliases: setting.aliases ?? [],
                 description: setting.description,
                 firstSeenChunk: chunkIndex,
             });
         }
     }
     // Register items
-    for (const item of (_e = extraction.items) !== null && _e !== void 0 ? _e : []) {
+    for (const item of extraction.items ?? []) {
         if (!registry.has(item.id)) {
             registry.register({
                 id: item.id,
                 type: 'item',
                 canonicalName: item.name,
-                aliases: (_f = item.aliases) !== null && _f !== void 0 ? _f : [],
+                aliases: item.aliases ?? [],
                 description: item.description,
                 firstSeenChunk: chunkIndex,
             });
         }
     }
     // Register factions
-    for (const faction of (_g = extraction.factions) !== null && _g !== void 0 ? _g : []) {
+    for (const faction of extraction.factions ?? []) {
         if (!registry.has(faction.id)) {
             registry.register({
                 id: faction.id,
                 type: 'faction',
                 canonicalName: faction.name,
-                aliases: (_h = faction.aliases) !== null && _h !== void 0 ? _h : [],
+                aliases: faction.aliases ?? [],
                 description: faction.description,
                 firstSeenChunk: chunkIndex,
             });
         }
     }
     // Register absentials
-    for (const abs of (_j = extraction.absentials) !== null && _j !== void 0 ? _j : []) {
+    for (const abs of extraction.absentials ?? []) {
         if (!registry.has(abs.id)) {
             registry.register({
                 id: abs.id,
@@ -618,28 +614,26 @@ function updateRegistryFromExtraction(registry, extraction, chunkIndex) {
  * Returns the next available sequence number.
  */
 function renumberEvents(extraction, startSeq, chunkStartPct) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
     const eventIdMap = new Map();
     let seq = startSeq;
     // Build ID mapping
-    for (const event of (_a = extraction.events) !== null && _a !== void 0 ? _a : []) {
+    for (const event of extraction.events ?? []) {
         const oldId = event.id;
         const newId = `e${String(seq + 1).padStart(3, '0')}`;
         eventIdMap.set(oldId, newId);
         event.id = newId;
         seq++;
         // Adjust timestamp percentage to be global
-        if (((_b = event.timestamp) === null || _b === void 0 ? void 0 : _b.percentage) !== undefined) {
+        if (event.timestamp?.percentage !== undefined) {
             // Local percentage within chunk -> global percentage
             const localPct = event.timestamp.percentage;
-            event.timestamp.percentage = chunkStartPct + (localPct / 100) * ((_d = (_c = extraction.rootSpan) === null || _c === void 0 ? void 0 : _c.endPct) !== null && _d !== void 0 ? _d : 100 - chunkStartPct);
+            event.timestamp.percentage = chunkStartPct + (localPct / 100) * (extraction.rootSpan?.endPct ?? 100 - chunkStartPct);
         }
     }
     // Update references in spans
     function updateSpanEventIds(span) {
-        var _a, _b, _c;
-        span.eventIds = (_b = (_a = span.eventIds) === null || _a === void 0 ? void 0 : _a.map((id) => { var _a; return (_a = eventIdMap.get(id)) !== null && _a !== void 0 ? _a : id; })) !== null && _b !== void 0 ? _b : [];
-        for (const child of (_c = span.children) !== null && _c !== void 0 ? _c : []) {
+        span.eventIds = span.eventIds?.map((id) => eventIdMap.get(id) ?? id) ?? [];
+        for (const child of span.children ?? []) {
             updateSpanEventIds(child);
         }
     }
@@ -647,21 +641,21 @@ function renumberEvents(extraction, startSeq, chunkStartPct) {
         updateSpanEventIds(extraction.rootSpan);
     }
     // Update entity firstEvent references
-    for (const char of (_e = extraction.characters) !== null && _e !== void 0 ? _e : []) {
+    for (const char of extraction.characters ?? []) {
         if (char.firstEvent)
-            char.firstEvent = (_f = eventIdMap.get(char.firstEvent)) !== null && _f !== void 0 ? _f : char.firstEvent;
+            char.firstEvent = eventIdMap.get(char.firstEvent) ?? char.firstEvent;
     }
-    for (const setting of (_g = extraction.settings) !== null && _g !== void 0 ? _g : []) {
+    for (const setting of extraction.settings ?? []) {
         if (setting.firstEvent)
-            setting.firstEvent = (_h = eventIdMap.get(setting.firstEvent)) !== null && _h !== void 0 ? _h : setting.firstEvent;
+            setting.firstEvent = eventIdMap.get(setting.firstEvent) ?? setting.firstEvent;
     }
-    for (const item of (_j = extraction.items) !== null && _j !== void 0 ? _j : []) {
+    for (const item of extraction.items ?? []) {
         if (item.firstEvent)
-            item.firstEvent = (_k = eventIdMap.get(item.firstEvent)) !== null && _k !== void 0 ? _k : item.firstEvent;
+            item.firstEvent = eventIdMap.get(item.firstEvent) ?? item.firstEvent;
     }
-    for (const abs of (_l = extraction.absentials) !== null && _l !== void 0 ? _l : []) {
+    for (const abs of extraction.absentials ?? []) {
         if (abs.firstEvent)
-            abs.firstEvent = (_m = eventIdMap.get(abs.firstEvent)) !== null && _m !== void 0 ? _m : abs.firstEvent;
+            abs.firstEvent = eventIdMap.get(abs.firstEvent) ?? abs.firstEvent;
     }
     return seq;
 }
@@ -669,16 +663,15 @@ function renumberEvents(extraction, startSeq, chunkStartPct) {
  * Merge multiple chunk extractions into a single extraction result.
  */
 function mergeChunkExtractions(chunks) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y;
     const merged = {
-        title: (_b = (_a = chunks[0]) === null || _a === void 0 ? void 0 : _a.title) !== null && _b !== void 0 ? _b : 'Untitled',
-        author: (_d = (_c = chunks[0]) === null || _c === void 0 ? void 0 : _c.author) !== null && _d !== void 0 ? _d : 'Unknown',
-        description: (_f = (_e = chunks[0]) === null || _e === void 0 ? void 0 : _e.description) !== null && _f !== void 0 ? _f : '',
+        title: chunks[0]?.title ?? 'Untitled',
+        author: chunks[0]?.author ?? 'Unknown',
+        description: chunks[0]?.description ?? '',
         rootSpan: {
             id: 'story-main',
             type: 'story',
-            title: (_h = (_g = chunks[0]) === null || _g === void 0 ? void 0 : _g.title) !== null && _h !== void 0 ? _h : 'Untitled',
-            description: (_k = (_j = chunks[0]) === null || _j === void 0 ? void 0 : _j.description) !== null && _k !== void 0 ? _k : '',
+            title: chunks[0]?.title ?? 'Untitled',
+            description: chunks[0]?.description ?? '',
             startPct: 0,
             endPct: 100,
             eventIds: [],
@@ -703,45 +696,45 @@ function mergeChunkExtractions(chunks) {
     };
     for (const chunk of chunks) {
         // Merge entities (deduplicate by ID)
-        for (const char of (_l = chunk.characters) !== null && _l !== void 0 ? _l : []) {
+        for (const char of chunk.characters ?? []) {
             if (!seenIds.characters.has(char.id)) {
                 merged.characters.push(char);
                 seenIds.characters.add(char.id);
             }
         }
-        for (const setting of (_m = chunk.settings) !== null && _m !== void 0 ? _m : []) {
+        for (const setting of chunk.settings ?? []) {
             if (!seenIds.settings.has(setting.id)) {
                 merged.settings.push(setting);
                 seenIds.settings.add(setting.id);
             }
         }
-        for (const item of (_o = chunk.items) !== null && _o !== void 0 ? _o : []) {
+        for (const item of chunk.items ?? []) {
             if (!seenIds.items.has(item.id)) {
                 merged.items.push(item);
                 seenIds.items.add(item.id);
             }
         }
-        for (const faction of (_p = chunk.factions) !== null && _p !== void 0 ? _p : []) {
+        for (const faction of chunk.factions ?? []) {
             if (!seenIds.factions.has(faction.id)) {
                 merged.factions.push(faction);
                 seenIds.factions.add(faction.id);
             }
         }
-        for (const abs of (_q = chunk.absentials) !== null && _q !== void 0 ? _q : []) {
+        for (const abs of chunk.absentials ?? []) {
             if (!seenIds.absentials.has(abs.id)) {
                 merged.absentials.push(abs);
                 seenIds.absentials.add(abs.id);
             }
         }
         // Merge events (already globally renumbered)
-        for (const event of (_r = chunk.events) !== null && _r !== void 0 ? _r : []) {
+        for (const event of chunk.events ?? []) {
             if (!seenIds.events.has(event.id)) {
                 merged.events.push(event);
                 seenIds.events.add(event.id);
             }
         }
         // Merge spans: take acts from each chunk's root
-        if ((_s = chunk.rootSpan) === null || _s === void 0 ? void 0 : _s.children) {
+        if (chunk.rootSpan?.children) {
             for (const act of chunk.rootSpan.children) {
                 // Adjust act percentages to be global
                 const actStartPct = chunk._startPct + (act.startPct / 100) * (chunk._endPct - chunk._startPct);
@@ -750,28 +743,27 @@ function mergeChunkExtractions(chunks) {
                 act.endPct = actEndPct;
                 // Recursively adjust scene/beat percentages
                 function adjustPercentages(span, parentStart, parentEnd) {
-                    var _a;
                     span.startPct = parentStart + (span.startPct / 100) * (parentEnd - parentStart);
                     span.endPct = parentStart + (span.endPct / 100) * (parentEnd - parentStart);
-                    for (const child of (_a = span.children) !== null && _a !== void 0 ? _a : []) {
+                    for (const child of span.children ?? []) {
                         adjustPercentages(child, span.startPct, span.endPct);
                     }
                 }
-                for (const scene of (_t = act.children) !== null && _t !== void 0 ? _t : []) {
+                for (const scene of act.children ?? []) {
                     adjustPercentages(scene, act.startPct, act.endPct);
                 }
                 merged.rootSpan.children.push(act);
             }
         }
         // Merge relationships
-        for (const rel of (_v = (_u = chunk.relationships) === null || _u === void 0 ? void 0 : _u.interpersonal) !== null && _v !== void 0 ? _v : []) {
+        for (const rel of chunk.relationships?.interpersonal ?? []) {
             merged.relationships.interpersonal.push(rel);
         }
-        for (const rel of (_x = (_w = chunk.relationships) === null || _w === void 0 ? void 0 : _w.group) !== null && _x !== void 0 ? _x : []) {
+        for (const rel of chunk.relationships?.group ?? []) {
             merged.relationships.group.push(rel);
         }
         // Merge mental constructs
-        for (const mc of (_y = chunk.mentalConstructs) !== null && _y !== void 0 ? _y : []) {
+        for (const mc of chunk.mentalConstructs ?? []) {
             merged.mentalConstructs.push(mc);
         }
     }

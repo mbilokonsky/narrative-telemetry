@@ -8,6 +8,10 @@ import {
   computePacing, PacingScore,
   computeDivergence, DivergenceMap,
 } from '../derive';
+import { storyModelToOtel, OtelExportOptions, OtelTrace } from '../export/otel';
+import { jaegerExport } from '../export/jaeger';
+import { otlpExport } from '../export/otlp';
+import { consoleExport } from '../export/console';
 
 // ── Options ──
 
@@ -128,4 +132,21 @@ export function deriveInsights(model: StoryModel): DerivedInsights {
   }
 
   return { tensionCurves, coarseGrained, pacing, divergence };
+}
+
+/**
+ * Export a StoryModel to OTEL trace format.
+ * Returns the serialized string (Jaeger/OTLP JSON) or prints to console.
+ */
+export function exportToOtel(
+  model: StoryModel,
+  format: 'jaeger' | 'otlp' | 'console' = 'jaeger',
+  options?: OtelExportOptions,
+): string | void {
+  const trace = storyModelToOtel(model, options);
+  if (format === 'console') {
+    consoleExport(trace);
+    return;
+  }
+  return format === 'jaeger' ? jaegerExport(trace) : otlpExport(trace);
 }

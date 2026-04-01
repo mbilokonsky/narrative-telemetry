@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { ingestText, ingestTextChunked, deriveInsights, IngestOptions } from './pipeline';
+import { ingestText, ingestTextChunked, deriveInsights, exportToOtel, IngestOptions } from './pipeline';
 import { saveStoryModel } from '../persistence';
 
 // ── Parse CLI args ──
@@ -16,13 +16,16 @@ Options:
   --title <title>     Override story title
   --model <model>     LLM model to use (default: claude-haiku-4-5)
   --verbose           Show detailed progress
+  --otel <format>     Export OTEL trace: jaeger, otlp, console (requires at least one --lens)
+  --otel-output <p>   Output path for OTEL trace (default: traces/<slug>.<fmt>.json)
   --help              Show this help
 
 Examples:
   npx ts-node src/ingest/cli.ts corpus/araby.txt --lens formalist
   npx ts-node src/ingest/cli.ts corpus/araby.txt --lens formalist --lens postcolonial --derive
   npx ts-node src/ingest/cli.ts corpus/araby.txt --output output/araby.json
-  npx ts-node src/ingest/cli.ts novel.txt --chunked --lens formalist --derive`);
+  npx ts-node src/ingest/cli.ts novel.txt --chunked --lens formalist --derive
+  npx ts-node src/ingest/cli.ts corpus/araby.txt --lens formalist --derive --otel jaeger --otel-output traces/araby.json`);
   process.exit(1);
 }
 
@@ -35,6 +38,8 @@ interface CliArgs {
   title?: string;
   model?: string;
   verbose: boolean;
+  otel?: 'jaeger' | 'otlp' | 'console';
+  otelOutput?: string;
 }
 
 function parseArgs(argv: string[]): CliArgs {
@@ -49,6 +54,8 @@ function parseArgs(argv: string[]): CliArgs {
   let title: string | undefined;
   let model: string | undefined;
   let verbose = false;
+  let otel: 'jaeger' | 'otlp' | 'console' | undefined;
+  let otelOutput: string | undefined;
 
   for (let i = 1; i < args.length; i++) {
     switch (args[i]) {
@@ -77,13 +84,25 @@ function parseArgs(argv: string[]): CliArgs {
       case '--verbose':
         verbose = true;
         break;
+      case '--otel':
+        if (!args[i + 1]) { console.error('--otel requires a value'); process.exit(1); }
+        otel = args[++i] as any;
+        if (!['jaeger', 'otlp', 'console'].includes(otel!)) {
+          console.error(`Unknown otel format: ${otel}. Use jaeger, otlp, or console.`);
+          process.exit(1);
+        }
+        break;
+      case '--otel-output':
+        if (!args[i + 1]) { console.error('--otel-output requires a value'); process.exit(1); }
+        otelOutput = args[++i];
+        break;
       default:
         console.error(`Unknown option: ${args[i]}`);
         usage();
     }
   }
 
-  return { textFile, lenses, output, derive, chunked, title, model, verbose };
+  return { textFile, lenses, output, derive, chunked, title, model, verbose, otel, otelOutput };
 }
 
 // ── Main ──
@@ -144,6 +163,24 @@ async function main() {
   } else {
     const savedPath = saveStoryModel(model);
     console.log(`[cli] Saved to ${savedPath}`);
+  }
+
+  // OTEL export
+  if (args.otel) {
+    console.log(`[cli] Exporting OTEL trace (${args.otel})...`);
+    const result = exportToOtel(model, args.otel);
+
+    if (typeof result === 'string') {
+      const slug = path.basename(args.textFile, path.extname(args.textFile));
+      const defaultOtelPath = path.resolve('traces', `${slug}.${args.otel}.json`);
+      const otelPath = args.otelOutput ? path.resolve(args.otelOutput) : defaultOtelPath;
+
+      const otelDir = path.dirname(otelPath);
+      if (!fs.existsSync(otelDir)) fs.mkdirSync(otelDir, { recursive: true });
+
+      fs.writeFileSync(otelPath, result, 'utf-8');
+      console.log(`[cli] OTEL trace written to ${otelPath}`);
+    }
   }
 }
 

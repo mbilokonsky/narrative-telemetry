@@ -15,7 +15,7 @@ function computeSpanSignificance(span, reading) {
     const children = span.childSpans.map(child => computeSpanSignificance(child, reading));
     // Collect direct event significances
     const directSigs = span.events
-        .map(eid => { var _a; return (_a = reading.eventSignificance[eid]) === null || _a === void 0 ? void 0 : _a.significance; })
+        .map(eid => reading.eventSignificance[eid]?.significance)
         .filter((s) => s !== undefined);
     let meanSignificance;
     let eventCount;

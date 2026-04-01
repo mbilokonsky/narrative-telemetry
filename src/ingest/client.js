@@ -45,7 +45,7 @@ function createClient() {
         return new sdk_1.default({ apiKey });
     }
     // Try OAuth token (from env or auth profiles)
-    const oauthToken = (apiKey === null || apiKey === void 0 ? void 0 : apiKey.startsWith('sk-ant-oat'))
+    const oauthToken = apiKey?.startsWith('sk-ant-oat')
         ? apiKey
         : loadOAuthToken();
     if (oauthToken) {
@@ -63,21 +63,20 @@ function createClient() {
     return new sdk_1.default();
 }
 function loadOAuthToken() {
-    var _a, _b, _c;
     const profilePaths = [
-        path.join((_a = process.env.HOME) !== null && _a !== void 0 ? _a : '', '.openclaw/agents/main/agent/auth-profiles.json'),
+        path.join(process.env.HOME ?? '', '.openclaw/agents/main/agent/auth-profiles.json'),
     ];
     for (const p of profilePaths) {
         try {
             if (fs.existsSync(p)) {
                 const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
-                const profile = (_b = data.profiles) === null || _b === void 0 ? void 0 : _b['anthropic:default'];
-                if ((_c = profile === null || profile === void 0 ? void 0 : profile.token) === null || _c === void 0 ? void 0 : _c.startsWith('sk-ant-oat')) {
+                const profile = data.profiles?.['anthropic:default'];
+                if (profile?.token?.startsWith('sk-ant-oat')) {
                     return profile.token;
                 }
             }
         }
-        catch (_d) {
+        catch {
             // ignore
         }
     }

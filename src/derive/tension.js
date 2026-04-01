@@ -33,7 +33,7 @@ function checkAbsentialQuality(textModel) {
     let multiState = 0;
     for (const abs of absentials) {
         if (abs.stateHistory.length >= 2) {
-            const pcts = abs.stateHistory.map(s => { var _a, _b; return (_b = (_a = s.timestamp) === null || _a === void 0 ? void 0 : _a.percentage) !== null && _b !== void 0 ? _b : 0; });
+            const pcts = abs.stateHistory.map(s => s.timestamp?.percentage ?? 0);
             if (new Set(pcts).size >= 2)
                 multiState++;
         }
@@ -44,20 +44,19 @@ function checkAbsentialQuality(textModel) {
  * Strategy 1: Absential-based tension (when state histories are good)
  */
 function computeFromAbsentials(textModel, reading, steps) {
-    var _a, _b, _c, _d, _e, _f, _g, _h;
     const absentials = Object.values(textModel.absentials);
     const intervals = [];
     for (const abs of absentials) {
-        const sig = (_b = (_a = reading.absentialSignificance[abs.id]) === null || _a === void 0 ? void 0 : _a.significance) !== null && _b !== void 0 ? _b : 0.3;
-        const startPct = (_e = (_d = (_c = abs.stateHistory[0]) === null || _c === void 0 ? void 0 : _c.timestamp) === null || _d === void 0 ? void 0 : _d.percentage) !== null && _e !== void 0 ? _e : 0;
+        const sig = reading.absentialSignificance[abs.id]?.significance ?? 0.3;
+        const startPct = abs.stateHistory[0]?.timestamp?.percentage ?? 0;
         let endPct = 100;
         for (const state of abs.stateHistory) {
-            const status = (_f = state.data) === null || _f === void 0 ? void 0 : _f.status;
+            const status = state.data?.status;
             if (status === 'resolved_satisfied' ||
                 status === 'resolved_blocked' ||
                 status === 'resolved_mixed' ||
                 status === 'canceled') {
-                if (((_h = (_g = state.timestamp) === null || _g === void 0 ? void 0 : _g.percentage) !== null && _h !== void 0 ? _h : 0) > startPct) {
+                if ((state.timestamp?.percentage ?? 0) > startPct) {
                     endPct = state.timestamp.percentage;
                     break;
                 }
@@ -91,13 +90,12 @@ function computeFromAbsentials(textModel, reading, steps) {
  * - The curve naturally peaks where high-significance events cluster
  */
 function computeFromEventSignificance(textModel, reading, steps) {
-    var _a, _b, _c, _d;
     // Collect events with their timestamps and significance
     const events = [];
     for (const [evtId, evt] of Object.entries(textModel.events)) {
-        const sig = (_b = (_a = reading.eventSignificance[evtId]) === null || _a === void 0 ? void 0 : _a.significance) !== null && _b !== void 0 ? _b : 0;
+        const sig = reading.eventSignificance[evtId]?.significance ?? 0;
         // Use event timestamp percentage, or estimate from position in event list
-        const pct = (_d = (_c = evt.timestamp) === null || _c === void 0 ? void 0 : _c.percentage) !== null && _d !== void 0 ? _d : estimateEventPosition(evtId, textModel);
+        const pct = evt.timestamp?.percentage ?? estimateEventPosition(evtId, textModel);
         events.push({ pct, significance: sig });
     }
     events.sort((a, b) => a.pct - b.pct);

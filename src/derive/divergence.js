@@ -9,9 +9,8 @@ exports.computeDivergence = computeDivergence;
  * Aggregate: mean divergence, max divergence, top-N most divergent events
  */
 function computeDivergence(r1, r2, options = {}) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
-    const topN = (_a = options.topN) !== null && _a !== void 0 ? _a : 10;
-    const threshold = (_b = options.threshold) !== null && _b !== void 0 ? _b : 0.2;
+    const topN = options.topN ?? 10;
+    const threshold = options.threshold ?? 0.2;
     // Event divergence — union of all event IDs from both readings
     const allEventIds = new Set([
         ...Object.keys(r1.eventSignificance),
@@ -19,8 +18,8 @@ function computeDivergence(r1, r2, options = {}) {
     ]);
     const events = [];
     for (const eventId of allEventIds) {
-        const s1 = (_d = (_c = r1.eventSignificance[eventId]) === null || _c === void 0 ? void 0 : _c.significance) !== null && _d !== void 0 ? _d : 0;
-        const s2 = (_f = (_e = r2.eventSignificance[eventId]) === null || _e === void 0 ? void 0 : _e.significance) !== null && _f !== void 0 ? _f : 0;
+        const s1 = r1.eventSignificance[eventId]?.significance ?? 0;
+        const s2 = r2.eventSignificance[eventId]?.significance ?? 0;
         events.push({
             eventId,
             reading1Significance: s1,
@@ -35,8 +34,8 @@ function computeDivergence(r1, r2, options = {}) {
     ]);
     const entities = [];
     for (const entityId of allEntityIds) {
-        const s1 = (_h = (_g = r1.entitySignificance[entityId]) === null || _g === void 0 ? void 0 : _g.significance) !== null && _h !== void 0 ? _h : 0;
-        const s2 = (_k = (_j = r2.entitySignificance[entityId]) === null || _j === void 0 ? void 0 : _j.significance) !== null && _k !== void 0 ? _k : 0;
+        const s1 = r1.entitySignificance[entityId]?.significance ?? 0;
+        const s2 = r2.entitySignificance[entityId]?.significance ?? 0;
         entities.push({
             entityId,
             reading1Significance: s1,

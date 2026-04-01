@@ -39,10 +39,9 @@ const SCENE_BREAK_PATTERNS = [
  * Split text into chunks using multi-strategy detection.
  */
 function chunkText(text, options = {}) {
-    var _a, _b, _c;
-    const targetSize = (_a = options.targetChunkSize) !== null && _a !== void 0 ? _a : DEFAULT_TARGET_SIZE;
-    const overlapParas = (_b = options.overlapParagraphs) !== null && _b !== void 0 ? _b : DEFAULT_OVERLAP_PARAGRAPHS;
-    const chapterMarkers = (_c = options.chapterMarkers) !== null && _c !== void 0 ? _c : DEFAULT_CHAPTER_MARKERS;
+    const targetSize = options.targetChunkSize ?? DEFAULT_TARGET_SIZE;
+    const overlapParas = options.overlapParagraphs ?? DEFAULT_OVERLAP_PARAGRAPHS;
+    const chapterMarkers = options.chapterMarkers ?? DEFAULT_CHAPTER_MARKERS;
     // If text is short enough, return as single chunk
     if (text.length <= targetSize) {
         return [{

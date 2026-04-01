@@ -25,7 +25,7 @@ const northRichmondSt = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Dead-end street in north Dublin',
     climate: 'Damp, cold, winter', historicalContext: 'Turn-of-century Dublin under British rule',
     culturalBackground: 'Catholic, working-class Irish',
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.3, warmth: 0.2 }, culturalNorms: { catholicism: 0.9, propriety: 0.8 }, tension: 0.2, atmosphere: 'quiet, decaying, suffocating' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.3, warmth: 0.2 }, culturalNorms: { catholicism: 0.9, propriety: 0.8 }, tension: 0.2, atmosphere: 'quiet, decaying, suffocating' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const house = sys.addSetting({
@@ -37,7 +37,7 @@ const house = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'End of North Richmond Street',
     climate: 'Cold, damp interior', historicalContext: 'Previous tenant was a priest who died in the back drawing-room',
     culturalBackground: 'Catholic household', parentSetting: northRichmondSt,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.2, mustiness: 0.8 }, culturalNorms: { catholicism: 0.9 }, tension: 0.1, atmosphere: 'musty, dark, haunted by absence' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.2, mustiness: 0.8 }, culturalNorms: { catholicism: 0.9 }, tension: 0.1, atmosphere: 'musty, dark, haunted by absence' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const backDrawingRoom = sys.addSetting({
@@ -49,7 +49,7 @@ const backDrawingRoom = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Back room of the house',
     climate: 'Dark, damp', historicalContext: 'The priest died here',
     culturalBackground: 'Residual religious atmosphere', parentSetting: house,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.1, rain: 0.7 }, culturalNorms: {}, tension: 0.3, atmosphere: 'dark, rainy, intimate' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.1, rain: 0.7 }, culturalNorms: {}, tension: 0.3, atmosphere: 'dark, rainy, intimate' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const wildGarden = sys.addSetting({
@@ -61,7 +61,7 @@ const wildGarden = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Behind the house',
     climate: 'Overgrown, damp', historicalContext: 'Part of the priest\'s former property',
     culturalBackground: 'Neglected', parentSetting: house,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { wildness: 0.8 }, culturalNorms: {}, tension: 0, atmosphere: 'wild, neglected' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { wildness: 0.8 }, culturalNorms: {}, tension: 0, atmosphere: 'wild, neglected' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const marketStreets = sys.addSetting({
@@ -73,7 +73,7 @@ const marketStreets = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Dublin market area',
     climate: 'Cold, busy', historicalContext: 'Saturday evening markets',
     culturalBackground: 'Working-class commerce, street-singers, labourers',
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { noise: 0.9, crowding: 0.8, light: 0.6 }, culturalNorms: { commerce: 0.9 }, tension: 0.3, atmosphere: 'flaring, hostile to romance' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { noise: 0.9, crowding: 0.8, light: 0.6 }, culturalNorms: { commerce: 0.9 }, tension: 0.3, atmosphere: 'flaring, hostile to romance' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const classroom = sys.addSetting({
@@ -85,7 +85,7 @@ const classroom = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Unspecified Dublin school',
     climate: 'Indoor', historicalContext: 'Christian Brothers\' School',
     culturalBackground: 'Catholic education',
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: {}, culturalNorms: { discipline: 0.8 }, tension: 0.2, atmosphere: 'tedious, constraining' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: {}, culturalNorms: { discipline: 0.8 }, tension: 0.2, atmosphere: 'tedious, constraining' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const buckinghamSt = sys.addSetting({
@@ -97,7 +97,7 @@ const buckinghamSt = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Street near the train station',
     climate: 'Night, gas-lit', historicalContext: 'Dublin infrastructure',
     culturalBackground: 'Commercial Dublin',
-    stateHistory: [{ timestamp: ts(70), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.5, crowding: 0.6 }, culturalNorms: {}, tension: 0.5, atmosphere: 'thronged with buyers, glaring with gas' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(70), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.5, crowding: 0.6 }, culturalNorms: {}, tension: 0.5, atmosphere: 'thronged with buyers, glaring with gas' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const trainCarriage = sys.addSetting({
@@ -109,7 +109,7 @@ const trainCarriage = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Dublin rail line',
     climate: 'Cold, bare', historicalContext: 'Special train for bazaar-goers',
     culturalBackground: 'Third-class',
-    stateHistory: [{ timestamp: ts(73), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { emptiness: 0.9 }, culturalNorms: {}, tension: 0.4, atmosphere: 'bare, deserted, slow' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(73), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { emptiness: 0.9 }, culturalNorms: {}, tension: 0.4, atmosphere: 'bare, deserted, slow' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const arabyHall = sys.addSetting({
@@ -121,7 +121,7 @@ const arabyHall = sys.addSetting({
     realm: types_1.RealmType.MATERIAL_REALITY, geography: 'Large hall in Dublin',
     climate: 'Dark, closing down', historicalContext: 'Charity bazaars were common in Dublin',
     culturalBackground: 'Pseudo-oriental commercial spectacle',
-    stateHistory: [{ timestamp: ts(80), data: Object.assign(Object.assign({}, base('init')), { currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.2, emptiness: 0.8 }, culturalNorms: { commerce: 0.9 }, tension: 0.6, atmosphere: 'dark, nearly empty, church-like silence' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(80), data: { ...base('init'), currentCharacters: [], currentItems: [], dominantFactions: {}, environmentalConditions: { light: 0.2, emptiness: 0.8 }, culturalNorms: { commerce: 0.9 }, tension: 0.6, atmosphere: 'dark, nearly empty, church-like silence' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 // ── Characters ──
@@ -131,7 +131,7 @@ const boy = sys.addCharacter({
     context: 'The unnamed narrator, looking back on a childhood experience. Joyce\'s Dubliners stories frequently use unnamed first-person narrators to achieve universality.',
     name: 'The boy (narrator as child)', description: 'Unnamed boy consumed by a romantic infatuation',
     tags: ['protagonist', 'youth', 'romantic', 'naive'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { emotionalState: Object.assign(Object.assign({}, emptyEmotion()), { anticipation: 0.6, joy: 0.3, intensity: 0.4 }), mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 12, gender: 'male', occupation: 'student', personalityTraits: ['imaginative', 'sensitive', 'earnest', 'naive'], coreValues: ['devotion', 'romance', 'adventure'], physicalDescription: 'Young boy, unspecified', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: { ...emptyEmotion(), anticipation: 0.6, joy: 0.3, intensity: 0.4 }, mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 12, gender: 'male', occupation: 'student', personalityTraits: ['imaginative', 'sensitive', 'earnest', 'naive'], coreValues: ['devotion', 'romance', 'adventure'], physicalDescription: 'Young boy, unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const mangansSister = sys.addCharacter({
@@ -140,7 +140,7 @@ const mangansSister = sys.addCharacter({
     context: 'Never named — she exists in the story only as someone\'s sister and as the boy\'s idealized projection. Her namelessness is often noted by critics as significant.',
     name: 'Mangan\'s sister', description: 'Unnamed older sister of the boy\'s friend, object of his infatuation',
     tags: ['love-interest', 'unattainable', 'idealized'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 14, gender: 'female', occupation: 'student (convent)', personalityTraits: ['graceful', 'distant'], coreValues: [], physicalDescription: 'Figure defined by light from half-opened door, soft rope of hair, silver bracelet', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 14, gender: 'female', occupation: 'student (convent)', personalityTraits: ['graceful', 'distant'], coreValues: [], physicalDescription: 'Figure defined by light from half-opened door, soft rope of hair, silver bracelet', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const uncle = sys.addCharacter({
@@ -149,7 +149,7 @@ const uncle = sys.addCharacter({
     context: 'The boy\'s guardian, whose forgetfulness and drinking represent the adult world\'s indifference to the boy\'s inner life.',
     name: 'The uncle', description: 'The boy\'s uncle and guardian, often drunk, forgetful',
     tags: ['guardian', 'obstacle', 'unreliable'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 45, gender: 'male', occupation: 'unspecified', personalityTraits: ['forgetful', 'well-meaning', 'unreliable'], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 45, gender: 'male', occupation: 'unspecified', personalityTraits: ['forgetful', 'well-meaning', 'unreliable'], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const aunt = sys.addCharacter({
@@ -158,7 +158,7 @@ const aunt = sys.addCharacter({
     context: 'The more sympathetic guardian, who ultimately intervenes to get the boy his money. Her Freemasonry comment reflects the Catholic suspicion of Protestant organizations in turn-of-century Dublin.',
     name: 'The aunt', description: 'The boy\'s aunt, a cautious domestic presence',
     tags: ['guardian', 'domestic'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 40, gender: 'female', occupation: 'homemaker', personalityTraits: ['cautious', 'practical', 'devout'], coreValues: ['propriety', 'religion'], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 40, gender: 'female', occupation: 'homemaker', personalityTraits: ['cautious', 'practical', 'devout'], coreValues: ['propriety', 'religion'], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const mangan = sys.addCharacter({
@@ -167,7 +167,7 @@ const mangan = sys.addCharacter({
     context: 'The boy\'s friend, notable mainly as the sister\'s brother. The name may allude to James Clarence Mangan, an Irish poet whom Joyce admired and who wrote orientalist verse — connecting to the story\'s \'Eastern enchantment\' theme.',
     name: 'Mangan', description: 'The boy\'s friend, brother of the girl, barely individuated',
     tags: ['friend', 'minor'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 12, gender: 'male', occupation: 'student', personalityTraits: [], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 12, gender: 'male', occupation: 'student', personalityTraits: [], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const mrsMercer = sys.addCharacter({
@@ -176,7 +176,7 @@ const mrsMercer = sys.addCharacter({
     context: 'A pawnbroker\'s widow who collects used stamps \'for some pious purpose.\' She embodies the intersection of commerce and piety that pervades Dublin in Dubliners.',
     name: 'Mrs. Mercer', description: 'A garrulous old pawnbroker\'s widow who collects used stamps for pious purposes',
     tags: ['minor', 'obstacle', 'pious'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(55), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 65, gender: 'female', occupation: 'pawnbroker\'s widow', personalityTraits: ['garrulous', 'pious'], coreValues: ['piety'], physicalDescription: 'Old', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(55), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 65, gender: 'female', occupation: 'pawnbroker\'s widow', personalityTraits: ['garrulous', 'pious'], coreValues: ['piety'], physicalDescription: 'Old', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const schoolmaster = sys.addCharacter({
@@ -185,7 +185,7 @@ const schoolmaster = sys.addCharacter({
     context: 'The boy\'s teacher at the Christian Brothers\' School, a Catholic educational institution common in Dublin.',
     name: 'The schoolmaster', description: 'The boy\'s teacher, notices his declining attention',
     tags: ['minor', 'authority'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(40), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: classroom, factionRelationships: {}, age: 40, gender: 'male', occupation: 'teacher', personalityTraits: ['stern', 'observant'], coreValues: ['discipline'], physicalDescription: 'Face passes from amiability to sternness', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(40), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: classroom, factionRelationships: {}, age: 40, gender: 'male', occupation: 'teacher', personalityTraits: ['stern', 'observant'], coreValues: ['discipline'], physicalDescription: 'Face passes from amiability to sternness', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const stallLady = sys.addCharacter({
@@ -194,7 +194,7 @@ const stallLady = sys.addCharacter({
     context: 'The stall attendant whose banal flirtation with two Englishmen provides the story\'s devastating structural mirror to the boy\'s own romantic quest.',
     name: 'The young lady at the stall', description: 'A young woman flirting with two gentlemen at a bazaar stall, speaks to the boy without interest',
     tags: ['minor', 'mirror', 'english'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(83), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 22, gender: 'female', occupation: 'stall attendant', personalityTraits: ['flirtatious', 'indifferent'], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(83), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 22, gender: 'female', occupation: 'stall attendant', personalityTraits: ['flirtatious', 'indifferent'], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const twoGentlemen = sys.addCharacter({
@@ -203,7 +203,7 @@ const twoGentlemen = sys.addCharacter({
     context: 'Their English accents are the only detail given. In a postcolonial reading, they represent English cultural ownership of even the \'oriental\' fantasy space.',
     name: 'The two young gentlemen', description: 'Two young men with English accents flirting with the stall lady',
     tags: ['minor', 'english'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(83), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 25, gender: 'male', occupation: 'unspecified', personalityTraits: [], coreValues: [], physicalDescription: 'English accents noted', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(83), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 25, gender: 'male', occupation: 'unspecified', personalityTraits: [], coreValues: [], physicalDescription: 'English accents noted', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const turnstileMan = sys.addCharacter({
@@ -212,7 +212,7 @@ const turnstileMan = sys.addCharacter({
     context: 'Appears only to take the boy\'s shilling at the entrance.',
     name: 'The weary-looking man', description: 'Man at the turnstile who takes the boy\'s shilling',
     tags: ['minor', 'incidental'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(80), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 50, gender: 'male', occupation: 'turnstile attendant', personalityTraits: ['weary'], coreValues: [], physicalDescription: 'Weary-looking', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(80), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 50, gender: 'male', occupation: 'turnstile attendant', personalityTraits: ['weary'], coreValues: [], physicalDescription: 'Weary-looking', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const deadPriest = sys.addCharacter({
@@ -221,7 +221,7 @@ const deadPriest = sys.addCharacter({
     context: 'The unnamed priest who previously rented the house and died in the back drawing-room. He left his money to institutions and his furniture to his sister — a detail suggesting both charity and the absence of family. His eclectic library (Scott, a devotional text, Vidocq) hints at a complex inner life.',
     name: 'The dead priest', description: 'Former tenant who died in the back drawing-room; an absent presence haunting the house',
     tags: ['absent', 'death', 'religion'], type: types_1.DiegeticEntityType.CHARACTER,
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 0, gender: 'male', occupation: 'priest (deceased)', personalityTraits: ['charitable'], coreValues: ['charity', 'religion'], physicalDescription: 'Deceased', skills: {}, socialStatus: {} }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 0, gender: 'male', occupation: 'priest (deceased)', personalityTraits: ['charitable'], coreValues: ['charity', 'religion'], physicalDescription: 'Deceased', skills: {}, socialStatus: {} }, causedBy: {} }],
     firstIntroduced: 'init',
     lastSeen: 'init',
 });
@@ -234,7 +234,7 @@ const bookAbbot = sys.addItem({
     tags: ['book', 'priest', 'romance'], type: types_1.DiegeticEntityType.ITEM, itemType: 'book',
     origin: 'The dead priest\'s collection', physicalDescription: 'Paper-covered, curled and damp pages',
     defaultFunction: 'Reading material',
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { location: house, condition: 'damp, curled pages', owner: null, isHidden: false }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), location: house, condition: 'damp, curled pages', owner: null, isHidden: false }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const bookDevout = sys.addItem({
@@ -245,7 +245,7 @@ const bookDevout = sys.addItem({
     tags: ['book', 'priest', 'religion'], type: types_1.DiegeticEntityType.ITEM, itemType: 'book',
     origin: 'The dead priest\'s collection', physicalDescription: 'Paper-covered, curled and damp pages',
     defaultFunction: 'Religious instruction',
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { location: house, condition: 'damp, curled pages', owner: null, isHidden: false }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), location: house, condition: 'damp, curled pages', owner: null, isHidden: false }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const bookVidocq = sys.addItem({
@@ -256,7 +256,7 @@ const bookVidocq = sys.addItem({
     tags: ['book', 'priest', 'adventure', 'secular'], type: types_1.DiegeticEntityType.ITEM, itemType: 'book',
     origin: 'The dead priest\'s collection', physicalDescription: 'Yellow leaves',
     defaultFunction: 'Entertainment / adventure reading',
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { location: house, condition: 'yellow leaves', owner: null, isHidden: false }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), location: house, condition: 'yellow leaves', owner: null, isHidden: false }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const bicyclePump = sys.addItem({
@@ -267,7 +267,7 @@ const bicyclePump = sys.addItem({
     tags: ['priest', 'decay', 'mundane'], type: types_1.DiegeticEntityType.ITEM, itemType: 'bicycle part',
     origin: 'The dead priest\'s possessions', physicalDescription: 'Rusty',
     defaultFunction: 'Inflating bicycle tyres (now useless)',
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { location: wildGarden, condition: 'rusty', owner: null, isHidden: true }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), location: wildGarden, condition: 'rusty', owner: null, isHidden: true }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const silverBracelet = sys.addItem({
@@ -278,7 +278,7 @@ const silverBracelet = sys.addItem({
     tags: ['jewelry', 'sensory', 'iconic'], type: types_1.DiegeticEntityType.ITEM, itemType: 'jewelry',
     origin: 'Unknown', physicalDescription: 'Silver bracelet',
     defaultFunction: 'Adornment',
-    stateHistory: [{ timestamp: ts(30), data: Object.assign(Object.assign({}, base('init')), { location: mangansSister, condition: 'normal', owner: mangansSister, isHidden: false }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(30), data: { ...base('init'), location: mangansSister, condition: 'normal', owner: mangansSister, isHidden: false }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const florin = sys.addItem({
@@ -289,7 +289,7 @@ const florin = sys.addItem({
     tags: ['money', 'permission'], type: types_1.DiegeticEntityType.ITEM, itemType: 'coin',
     origin: 'The uncle', physicalDescription: 'A florin (two shillings)',
     defaultFunction: 'Currency for Araby',
-    stateHistory: [{ timestamp: ts(65), data: Object.assign(Object.assign({}, base('init')), { location: house, condition: 'normal', owner: uncle, isHidden: false }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(65), data: { ...base('init'), location: house, condition: 'normal', owner: uncle, isHidden: false }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const remainingCoins = sys.addItem({
@@ -300,7 +300,7 @@ const remainingCoins = sys.addItem({
     tags: ['money', 'failure', 'sound'], type: types_1.DiegeticEntityType.ITEM, itemType: 'coins',
     origin: 'Change from bazaar entrance fee', physicalDescription: 'Two pennies and a sixpence',
     defaultFunction: 'Insufficient currency',
-    stateHistory: [{ timestamp: ts(85), data: Object.assign(Object.assign({}, base('init')), { location: boy, condition: 'in pocket', owner: boy, isHidden: false }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(85), data: { ...base('init'), location: boy, condition: 'in pocket', owner: boy, isHidden: false }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 // ── Relationships ──
@@ -309,7 +309,7 @@ sys.addInterpersonalRelationship({
     participants: [boy, mangansSister], nature: 'One-sided romantic infatuation',
     name: 'Boy → Mangan\'s sister', description: 'The boy\'s consuming, idealized love',
     tags: ['romance', 'unrequited', 'idealized'],
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { strength: 0.8, dynamics: { power: -0.7, influence: 0.9, conflict: 0.1 }, label: types_1.RelationshipLabel.LOVER, specificLabel: 'unrequited infatuation' }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), strength: 0.8, dynamics: { power: -0.7, influence: 0.9, conflict: 0.1 }, label: types_1.RelationshipLabel.LOVER, specificLabel: 'unrequited infatuation' }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 sys.addInterpersonalRelationship({
@@ -317,7 +317,7 @@ sys.addInterpersonalRelationship({
     participants: [boy, uncle], nature: 'Guardian-ward, marked by negligence',
     name: 'Boy ↔ Uncle', description: 'Dependent on unreliable guardian',
     tags: ['family', 'guardian', 'obstacle'],
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { strength: 0.4, dynamics: { power: -0.8, influence: 0.3, conflict: 0.3 }, label: types_1.RelationshipLabel.FAMILY }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), strength: 0.4, dynamics: { power: -0.8, influence: 0.3, conflict: 0.3 }, label: types_1.RelationshipLabel.FAMILY }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 sys.addInterpersonalRelationship({
@@ -325,7 +325,7 @@ sys.addInterpersonalRelationship({
     participants: [boy, mangan], nature: 'Childhood friendship',
     name: 'Boy ↔ Mangan', description: 'Friends who play in the street together',
     tags: ['friendship', 'childhood'],
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { strength: 0.5, dynamics: { power: 0, influence: 0.2, conflict: 0 }, label: types_1.RelationshipLabel.FRIEND }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), strength: 0.5, dynamics: { power: 0, influence: 0.2, conflict: 0 }, label: types_1.RelationshipLabel.FRIEND }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 sys.addInterpersonalRelationship({
@@ -333,7 +333,7 @@ sys.addInterpersonalRelationship({
     participants: [uncle, aunt], nature: 'Married couple, domestic tension',
     name: 'Uncle ↔ Aunt', description: 'The aunt manages the uncle\'s shortcomings',
     tags: ['marriage', 'domestic'],
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { strength: 0.5, dynamics: { power: -0.2, influence: 0.4, conflict: 0.3 }, label: types_1.RelationshipLabel.FAMILY }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), strength: 0.5, dynamics: { power: -0.2, influence: 0.4, conflict: 0.3 }, label: types_1.RelationshipLabel.FAMILY }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 // ── Absentials ──
@@ -344,7 +344,7 @@ const absLonging = sys.addAbsential({
     childAbsentials: ['abs-speak', 'abs-quest'], conflictingAbsentials: [],
     relatedEntities: [{ entityId: mangansSister, relationship: types_1.EntityAbsentialRelationship.TARGET, strength: 0.9 }],
     relatedAbsentials: [],
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { type: types_1.AbsentialType.DESIRE, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0.5, intensity: 0.7 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), type: types_1.AbsentialType.DESIRE, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0.5, intensity: 0.7 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const absSpeak = sys.addAbsential({
@@ -354,7 +354,7 @@ const absSpeak = sys.addAbsential({
     parentAbsential: absLonging, childAbsentials: [], conflictingAbsentials: [],
     relatedEntities: [{ entityId: mangansSister, relationship: types_1.EntityAbsentialRelationship.TARGET, strength: 0.7 }],
     relatedAbsentials: [],
-    stateHistory: [{ timestamp: ts(10), data: Object.assign(Object.assign({}, base('init')), { type: types_1.AbsentialType.DESIRE, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0.6, intensity: 0.5 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(10), data: { ...base('init'), type: types_1.AbsentialType.DESIRE, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0.6, intensity: 0.5 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 const absQuest = sys.addAbsential({
@@ -368,7 +368,7 @@ const absQuest = sys.addAbsential({
         { entityId: uncle, relationship: types_1.EntityAbsentialRelationship.OBSTACLE, strength: 0.6 },
     ],
     relatedAbsentials: [],
-    stateHistory: [{ timestamp: ts(35), data: Object.assign(Object.assign({}, base('init')), { type: types_1.AbsentialType.GOAL, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0.7, intensity: 0.8 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(35), data: { ...base('init'), type: types_1.AbsentialType.GOAL, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0.7, intensity: 0.8 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 sys.addAbsential({
@@ -378,7 +378,7 @@ sys.addAbsential({
     childAbsentials: [], conflictingAbsentials: [],
     relatedEntities: [{ entityId: arabyHall, relationship: types_1.EntityAbsentialRelationship.TARGET, strength: 0.5 }],
     relatedAbsentials: [],
-    stateHistory: [{ timestamp: ts(35), data: Object.assign(Object.assign({}, base('init')), { type: types_1.AbsentialType.DESIRE, status: types_1.AbsentialStatus.RESOLVED_BLOCKED, urgency: 0.3, intensity: 0.3 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(35), data: { ...base('init'), type: types_1.AbsentialType.DESIRE, status: types_1.AbsentialStatus.RESOLVED_BLOCKED, urgency: 0.3, intensity: 0.3 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 sys.addAbsential({
@@ -388,7 +388,7 @@ sys.addAbsential({
     childAbsentials: [], conflictingAbsentials: [],
     relatedEntities: [{ entityId: house, relationship: types_1.EntityAbsentialRelationship.INFLUENCED_BY, strength: 0.7 }],
     relatedAbsentials: [],
-    stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { type: types_1.AbsentialType.LACK, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0, intensity: 0.4 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(0), data: { ...base('init'), type: types_1.AbsentialType.LACK, status: types_1.AbsentialStatus.UNSATISFIED, urgency: 0, intensity: 0.4 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 // ── Diegetic mental constructs ──
@@ -398,7 +398,7 @@ sys.addMentalConstruct({
     description: 'A near-sacred figure surrounded by light, worthy of devotion',
     tags: ['idealization', 'romance'], subject: mangansSister, holder: boy, isDiegetic: true,
     relatedConstructs: [], conflictingConstructs: [], supportingConstructs: [],
-    stateHistory: [{ timestamp: ts(5), data: Object.assign(Object.assign({}, base('init')), { content: 'She is an almost sacred figure, surrounded by light', type: types_1.MentalConstructType.BELIEF, certainty: types_1.CertaintyLevel.CERTAIN, awareness: types_1.AwarenessLevel.CONSCIOUS, emotionalAssociation: { devotion: 0.9, awe: 0.8 }, salience: 0.95 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(5), data: { ...base('init'), content: 'She is an almost sacred figure, surrounded by light', type: types_1.MentalConstructType.BELIEF, certainty: types_1.CertaintyLevel.CERTAIN, awareness: types_1.AwarenessLevel.CONSCIOUS, emotionalAssociation: { devotion: 0.9, awe: 0.8 }, salience: 0.95 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 sys.addMentalConstruct({
@@ -407,7 +407,7 @@ sys.addMentalConstruct({
     description: 'The word "Araby" casts an Eastern enchantment — the bazaar as exotic quest destination',
     tags: ['fantasy', 'orientalism'], subject: arabyHall, holder: boy, isDiegetic: true,
     relatedConstructs: ['mc-ideal-image'], conflictingConstructs: [], supportingConstructs: ['mc-ideal-image'],
-    stateHistory: [{ timestamp: ts(38), data: Object.assign(Object.assign({}, base('init')), { content: 'The syllables of Araby cast an Eastern enchantment over me', type: types_1.MentalConstructType.BELIEF, certainty: types_1.CertaintyLevel.CERTAIN, awareness: types_1.AwarenessLevel.CONSCIOUS, emotionalAssociation: { enchantment: 0.9, anticipation: 0.8 }, salience: 0.9 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(38), data: { ...base('init'), content: 'The syllables of Araby cast an Eastern enchantment over me', type: types_1.MentalConstructType.BELIEF, certainty: types_1.CertaintyLevel.CERTAIN, awareness: types_1.AwarenessLevel.CONSCIOUS, emotionalAssociation: { enchantment: 0.9, anticipation: 0.8 }, salience: 0.9 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 sys.addMentalConstruct({
@@ -416,7 +416,7 @@ sys.addMentalConstruct({
     description: 'The aunt hopes the bazaar is not some Freemason affair',
     tags: ['suspicion', 'religion'], subject: arabyHall, holder: aunt, isDiegetic: true,
     relatedConstructs: [], conflictingConstructs: [], supportingConstructs: [],
-    stateHistory: [{ timestamp: ts(42), data: Object.assign(Object.assign({}, base('init')), { content: 'Hopes it is not some Freemason affair', type: types_1.MentalConstructType.SPECULATION, certainty: types_1.CertaintyLevel.DOUBTFUL, awareness: types_1.AwarenessLevel.CONSCIOUS, emotionalAssociation: { suspicion: 0.5 }, salience: 0.3 }), causedBy: {} }],
+    stateHistory: [{ timestamp: ts(42), data: { ...base('init'), content: 'Hopes it is not some Freemason affair', type: types_1.MentalConstructType.SPECULATION, certainty: types_1.CertaintyLevel.DOUBTFUL, awareness: types_1.AwarenessLevel.CONSCIOUS, emotionalAssociation: { suspicion: 0.5 }, salience: 0.3 }, causedBy: {} }],
     firstIntroduced: 'init',
 });
 // ── Span structure ──
@@ -471,13 +471,13 @@ sys.updateAbsentialStatus('abs-longing', types_1.AbsentialStatus.RESOLVED_MIXED,
 // ════════════════════════════════════════════════════════
 //  PASS 2: Reading 1 — Formalist / Epiphanic
 // ════════════════════════════════════════════════════════
-sys.createReading('formalist', 'A formalist reading focused on narrative structure, imagery patterns, the Joycean epiphany as formal device, light/dark symbolism, and the movement from romantic idealization to devastating self-knowledge.', { id: 'narr-formalist', name: 'Retrospective first-person narrator', description: 'The adult narrator looking back with ironic distance', tags: ['retrospective', 'ironic'], type: types_1.NonDiegeticEntityType.NARRATOR, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { reliability: 0.7, mentalConstructs: [], perspective: types_1.NarratorPerspective.FIRST_PERSON }), causedBy: {} }], firstIntroduced: 'init' }, { id: 'reader-formalist', name: 'Formalist implied reader', description: 'A reader attuned to structure and imagery', tags: ['formalist'], type: types_1.NonDiegeticEntityType.READER, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { mentalConstructs: [], emotions: emptyEmotion() }), causedBy: {} }], firstIntroduced: 'init' }, { id: 'author-formalist', name: 'James Joyce', description: 'Joyce as craftsman of the epiphany', tags: ['modernist'], type: types_1.NonDiegeticEntityType.AUTHOR, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { style: { irony: 0.9, lyricism: 0.8, precision: 0.9 }, themes: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addTheme('formalist', { id: 'th-disillusionment', name: 'Disillusionment / Epiphany', description: 'Movement from romantic idealization to painful self-awareness', tags: ['epiphany', 'loss-of-innocence'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { prevalence: 0.3, relatedElements: [boy, mangansSister, arabyHall], manifestations: [], progression: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addTheme('formalist', { id: 'th-paralysis', name: 'Paralysis', description: 'Pervasive stasis and entrapment — the central Dubliners theme', tags: ['stasis', 'entrapment'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { prevalence: 0.5, relatedElements: [northRichmondSt, uncle, house], manifestations: [], progression: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addTheme('formalist', { id: 'th-secular-devotion', name: 'Secular devotion / religious language for profane love', description: 'The boy\'s love is described in liturgical terms — chalice, prayers, adoration', tags: ['religion', 'secular-sacred'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { prevalence: 0.6, relatedElements: [boy, mangansSister, deadPriest], manifestations: [], progression: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addSymbol('formalist', { id: 'sym-light-dark', name: 'Light and darkness', description: 'Light = idealization, the girl illuminated; darkness = reality, Dublin, the closing bazaar', tags: ['imagery'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentMeanings: [{ description: 'Light = romantic idealization', strength: 0.8 }, { description: 'Darkness = reality, disillusionment', strength: 0.8 }], currentManifestations: [mangansSister, northRichmondSt, arabyHall] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addSymbol('formalist', { id: 'sym-chalice', name: 'The chalice', description: '"I bore my chalice safely through a throng of foes" — the boy as knight/priest', tags: ['religious', 'quest'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(25), data: Object.assign(Object.assign({}, base('init')), { currentMeanings: [{ description: 'Sacred vessel for profane devotion', strength: 0.9 }, { description: 'The boy as questing knight-priest', strength: 0.7 }], currentManifestations: [boy, mangansSister, marketStreets] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addSymbol('formalist', { id: 'sym-blind-street', name: 'The blind street', description: 'Physical dead-end as metaphor for spiritual/emotional dead-end', tags: ['setting-as-symbol'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentMeanings: [{ description: 'Dead-end street = dead-end desire', strength: 0.7 }], currentManifestations: [northRichmondSt] }), causedBy: {} }], firstIntroduced: 'init' });
+sys.createReading('formalist', 'A formalist reading focused on narrative structure, imagery patterns, the Joycean epiphany as formal device, light/dark symbolism, and the movement from romantic idealization to devastating self-knowledge.', { id: 'narr-formalist', name: 'Retrospective first-person narrator', description: 'The adult narrator looking back with ironic distance', tags: ['retrospective', 'ironic'], type: types_1.NonDiegeticEntityType.NARRATOR, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), reliability: 0.7, mentalConstructs: [], perspective: types_1.NarratorPerspective.FIRST_PERSON }, causedBy: {} }], firstIntroduced: 'init' }, { id: 'reader-formalist', name: 'Formalist implied reader', description: 'A reader attuned to structure and imagery', tags: ['formalist'], type: types_1.NonDiegeticEntityType.READER, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), mentalConstructs: [], emotions: emptyEmotion() }, causedBy: {} }], firstIntroduced: 'init' }, { id: 'author-formalist', name: 'James Joyce', description: 'Joyce as craftsman of the epiphany', tags: ['modernist'], type: types_1.NonDiegeticEntityType.AUTHOR, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), style: { irony: 0.9, lyricism: 0.8, precision: 0.9 }, themes: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addTheme('formalist', { id: 'th-disillusionment', name: 'Disillusionment / Epiphany', description: 'Movement from romantic idealization to painful self-awareness', tags: ['epiphany', 'loss-of-innocence'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), prevalence: 0.3, relatedElements: [boy, mangansSister, arabyHall], manifestations: [], progression: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addTheme('formalist', { id: 'th-paralysis', name: 'Paralysis', description: 'Pervasive stasis and entrapment — the central Dubliners theme', tags: ['stasis', 'entrapment'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), prevalence: 0.5, relatedElements: [northRichmondSt, uncle, house], manifestations: [], progression: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addTheme('formalist', { id: 'th-secular-devotion', name: 'Secular devotion / religious language for profane love', description: 'The boy\'s love is described in liturgical terms — chalice, prayers, adoration', tags: ['religion', 'secular-sacred'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), prevalence: 0.6, relatedElements: [boy, mangansSister, deadPriest], manifestations: [], progression: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addSymbol('formalist', { id: 'sym-light-dark', name: 'Light and darkness', description: 'Light = idealization, the girl illuminated; darkness = reality, Dublin, the closing bazaar', tags: ['imagery'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentMeanings: [{ description: 'Light = romantic idealization', strength: 0.8 }, { description: 'Darkness = reality, disillusionment', strength: 0.8 }], currentManifestations: [mangansSister, northRichmondSt, arabyHall] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addSymbol('formalist', { id: 'sym-chalice', name: 'The chalice', description: '"I bore my chalice safely through a throng of foes" — the boy as knight/priest', tags: ['religious', 'quest'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(25), data: { ...base('init'), currentMeanings: [{ description: 'Sacred vessel for profane devotion', strength: 0.9 }, { description: 'The boy as questing knight-priest', strength: 0.7 }], currentManifestations: [boy, mangansSister, marketStreets] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addSymbol('formalist', { id: 'sym-blind-street', name: 'The blind street', description: 'Physical dead-end as metaphor for spiritual/emotional dead-end', tags: ['setting-as-symbol'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentMeanings: [{ description: 'Dead-end street = dead-end desire', strength: 0.7 }], currentManifestations: [northRichmondSt] }, causedBy: {} }], firstIntroduced: 'init' });
 sys.annotateEvent('formalist', 'e01-street-described', { significance: 0.6, note: 'Establishes the "blind" setting — dead-end street as structural premonition' });
 sys.annotateEvent('formalist', 'e02-priest-legacy', { significance: 0.5, note: 'The priest\'s books span sacred, romantic, and criminal — foreshadows the story\'s range' });
 sys.annotateEvent('formalist', 'e03-winter-play', { significance: 0.4, note: 'Communal play contrasted with individual obsession' });
@@ -520,14 +520,14 @@ for (const [pct, val] of [[0, 0.2], [10, 0.3], [20, 0.5], [28, 0.6], [32, 0.65],
 // ════════════════════════════════════════════════════════
 //  PASS 2: Reading 2 — Postcolonial
 // ════════════════════════════════════════════════════════
-sys.createReading('postcolonial', 'A postcolonial reading focused on "Araby" as orientalist fantasy, English cultural dominance, commerce and empire, Dublin as colonized space, and the boy\'s desire as mimicry of imperial romance.', { id: 'narr-postcolonial', name: 'Retrospective narrator (colonial subject)', description: 'The narrator as adult Irish subject reflecting on colonial fantasy', tags: ['retrospective', 'colonial-subject'], type: types_1.NonDiegeticEntityType.NARRATOR, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { reliability: 0.8, mentalConstructs: [], perspective: types_1.NarratorPerspective.FIRST_PERSON }), causedBy: {} }], firstIntroduced: 'init' }, { id: 'reader-postcolonial', name: 'Postcolonial implied reader', description: 'A reader attuned to imperial structures and orientalism', tags: ['postcolonial'], type: types_1.NonDiegeticEntityType.READER, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { mentalConstructs: [], emotions: emptyEmotion() }), causedBy: {} }], firstIntroduced: 'init' }, { id: 'author-postcolonial', name: 'James Joyce', description: 'Joyce as Irish writer navigating the colonial condition', tags: ['irish', 'exile'], type: types_1.NonDiegeticEntityType.AUTHOR, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { style: { irony: 0.9, anti_imperial: 0.7 }, themes: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addTheme('postcolonial', { id: 'th-orientalism', name: 'Orientalism', description: '"Araby" as orientalist fantasy — the exotic East as projection of desire', tags: ['orientalism', 'empire'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { prevalence: 0.7, relatedElements: [arabyHall, boy], manifestations: [], progression: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addTheme('postcolonial', { id: 'th-commerce', name: 'Commerce and Empire', description: 'Everything reduces to commercial transaction', tags: ['commerce', 'capitalism'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { prevalence: 0.5, relatedElements: [arabyHall, florin, remainingCoins, marketStreets], manifestations: [], progression: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addTheme('postcolonial', { id: 'th-english-dominance', name: 'English cultural dominance', description: 'English accents, English literature, the colonizer\'s commerce', tags: ['english', 'colonial'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { prevalence: 0.4, relatedElements: [twoGentlemen, stallLady, bookAbbot], manifestations: [], progression: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addTheme('postcolonial', { id: 'th-dublin-colonized', name: 'Dublin as colonized space', description: 'Paralysis as colonial paralysis — British rule, Catholic constraint, economic stagnation', tags: ['dublin', 'colonial'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { prevalence: 0.6, relatedElements: [northRichmondSt, house, classroom], manifestations: [], progression: [] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addSymbol('postcolonial', { id: 'sym-name-araby', name: 'The name "Araby"', description: 'An orientalist signifier — an exotic elsewhere that never delivers', tags: ['orientalism'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(0), data: Object.assign(Object.assign({}, base('init')), { currentMeanings: [{ description: 'Orientalist fantasy projected onto a Dublin charity bazaar', strength: 0.9 }], currentManifestations: [arabyHall] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addSymbol('postcolonial', { id: 'sym-arabs-farewell', name: '"The Arab\'s Farewell to his Steed"', description: 'Sentimental orientalist verse — the colonizer\'s romanticized East', tags: ['orientalism', 'poetry'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(70), data: Object.assign(Object.assign({}, base('init')), { currentMeanings: [{ description: 'Sentimental orientalism — the East as the colonizer imagines it', strength: 0.8 }], currentManifestations: [uncle] }), causedBy: {} }], firstIntroduced: 'init' });
-sys.addSymbol('postcolonial', { id: 'sym-coins', name: 'The florin / coins', description: 'Imperial currency — desire reduces to financial transaction', tags: ['money', 'empire'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(65), data: Object.assign(Object.assign({}, base('init')), { currentMeanings: [{ description: 'Imperial currency mediating all desire', strength: 0.7 }], currentManifestations: [florin, remainingCoins] }), causedBy: {} }], firstIntroduced: 'init' });
+sys.createReading('postcolonial', 'A postcolonial reading focused on "Araby" as orientalist fantasy, English cultural dominance, commerce and empire, Dublin as colonized space, and the boy\'s desire as mimicry of imperial romance.', { id: 'narr-postcolonial', name: 'Retrospective narrator (colonial subject)', description: 'The narrator as adult Irish subject reflecting on colonial fantasy', tags: ['retrospective', 'colonial-subject'], type: types_1.NonDiegeticEntityType.NARRATOR, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), reliability: 0.8, mentalConstructs: [], perspective: types_1.NarratorPerspective.FIRST_PERSON }, causedBy: {} }], firstIntroduced: 'init' }, { id: 'reader-postcolonial', name: 'Postcolonial implied reader', description: 'A reader attuned to imperial structures and orientalism', tags: ['postcolonial'], type: types_1.NonDiegeticEntityType.READER, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), mentalConstructs: [], emotions: emptyEmotion() }, causedBy: {} }], firstIntroduced: 'init' }, { id: 'author-postcolonial', name: 'James Joyce', description: 'Joyce as Irish writer navigating the colonial condition', tags: ['irish', 'exile'], type: types_1.NonDiegeticEntityType.AUTHOR, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), style: { irony: 0.9, anti_imperial: 0.7 }, themes: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addTheme('postcolonial', { id: 'th-orientalism', name: 'Orientalism', description: '"Araby" as orientalist fantasy — the exotic East as projection of desire', tags: ['orientalism', 'empire'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), prevalence: 0.7, relatedElements: [arabyHall, boy], manifestations: [], progression: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addTheme('postcolonial', { id: 'th-commerce', name: 'Commerce and Empire', description: 'Everything reduces to commercial transaction', tags: ['commerce', 'capitalism'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), prevalence: 0.5, relatedElements: [arabyHall, florin, remainingCoins, marketStreets], manifestations: [], progression: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addTheme('postcolonial', { id: 'th-english-dominance', name: 'English cultural dominance', description: 'English accents, English literature, the colonizer\'s commerce', tags: ['english', 'colonial'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), prevalence: 0.4, relatedElements: [twoGentlemen, stallLady, bookAbbot], manifestations: [], progression: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addTheme('postcolonial', { id: 'th-dublin-colonized', name: 'Dublin as colonized space', description: 'Paralysis as colonial paralysis — British rule, Catholic constraint, economic stagnation', tags: ['dublin', 'colonial'], type: types_1.NonDiegeticEntityType.THEME, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), prevalence: 0.6, relatedElements: [northRichmondSt, house, classroom], manifestations: [], progression: [] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addSymbol('postcolonial', { id: 'sym-name-araby', name: 'The name "Araby"', description: 'An orientalist signifier — an exotic elsewhere that never delivers', tags: ['orientalism'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(0), data: { ...base('init'), currentMeanings: [{ description: 'Orientalist fantasy projected onto a Dublin charity bazaar', strength: 0.9 }], currentManifestations: [arabyHall] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addSymbol('postcolonial', { id: 'sym-arabs-farewell', name: '"The Arab\'s Farewell to his Steed"', description: 'Sentimental orientalist verse — the colonizer\'s romanticized East', tags: ['orientalism', 'poetry'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(70), data: { ...base('init'), currentMeanings: [{ description: 'Sentimental orientalism — the East as the colonizer imagines it', strength: 0.8 }], currentManifestations: [uncle] }, causedBy: {} }], firstIntroduced: 'init' });
+sys.addSymbol('postcolonial', { id: 'sym-coins', name: 'The florin / coins', description: 'Imperial currency — desire reduces to financial transaction', tags: ['money', 'empire'], type: types_1.NonDiegeticEntityType.SYMBOL, stateHistory: [{ timestamp: ts(65), data: { ...base('init'), currentMeanings: [{ description: 'Imperial currency mediating all desire', strength: 0.7 }], currentManifestations: [florin, remainingCoins] }, causedBy: {} }], firstIntroduced: 'init' });
 sys.annotateEvent('postcolonial', 'e01-street-described', { significance: 0.7, note: 'Christian Brothers\' School — Catholic education under British rule' });
 sys.annotateEvent('postcolonial', 'e02-priest-legacy', { significance: 0.6, note: 'Walter Scott (English romance), devotional text, Vidocq (French secular) — colonial cultural mix' });
 sys.annotateEvent('postcolonial', 'e03-winter-play', { significance: 0.3, note: 'Background texture of colonized Dublin' });
