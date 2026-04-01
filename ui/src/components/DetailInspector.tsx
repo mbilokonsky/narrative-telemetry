@@ -1,4 +1,4 @@
-import type { StoryModel, Selection, Character, Setting, Item, Relationship } from '../types'
+import type { StoryModel, Selection, Character, Setting, Item, Relationship, TextAnnotation } from '../types'
 import { significanceColor } from '../utils'
 import { TensionChart } from './TensionChart'
 
@@ -198,6 +198,23 @@ export function DetailInspector({
     // Tags
     const tags = ('tags' in entity && entity.tags) ? entity.tags : [];
 
+    // Collect annotation notes for this entity
+    const annotationNotes: { source: string; note: string }[] = [];
+    const diegeticAnnotations: TextAnnotation[] = model.text.annotations ?? [];
+    for (const ann of diegeticAnnotations) {
+      if (ann.entityId === entityId && ann.note) {
+        annotationNotes.push({ source: 'text', note: ann.note });
+      }
+    }
+    for (const key of displayedReadings) {
+      const readingAnnotations: TextAnnotation[] = model.readings[key].annotations ?? [];
+      for (const ann of readingAnnotations) {
+        if (ann.entityId === entityId && ann.note) {
+          annotationNotes.push({ source: key, note: ann.note });
+        }
+      }
+    }
+
     return (
       <div className="detail-inspector">
         <div className="detail-section">
@@ -210,6 +227,17 @@ export function DetailInspector({
             </p>
           )}
         </div>
+        {annotationNotes.length > 0 && (
+          <div className="detail-section">
+            <div className="detail-label">Annotation Notes</div>
+            {annotationNotes.map((an, i) => (
+              <div key={i} className="annotation-note-item">
+                <span className="annotation-note-source">{an.source}:</span>{' '}
+                <span className="annotation-note-text">{an.note}</span>
+              </div>
+            ))}
+          </div>
+        )}
         {tags.length > 0 && (
           <div className="detail-section">
             <div className="detail-label">Tags</div>
@@ -511,6 +539,22 @@ function DetailStyle() {
         font-size: 12px;
         color: var(--text-dim);
         line-height: 1.4;
+      }
+      .annotation-note-item {
+        font-size: 12px;
+        color: var(--text);
+        line-height: 1.5;
+        margin-bottom: 4px;
+      }
+      .annotation-note-source {
+        font-weight: 600;
+        color: var(--text-dim);
+        text-transform: capitalize;
+        font-size: 11px;
+      }
+      .annotation-note-text {
+        font-style: italic;
+        color: var(--text);
       }
     `}</style>
   );

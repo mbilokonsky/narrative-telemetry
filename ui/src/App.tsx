@@ -95,6 +95,7 @@ function App() {
             selection={selection}
             onSelectEvent={handleSelectEvent}
             onSelectEntity={handleSelectEntity}
+            textAnnotations={model.text.annotations}
           />
         </div>
         <div className="panel-right">

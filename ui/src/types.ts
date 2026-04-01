@@ -1,3 +1,13 @@
+export interface TextAnnotation {
+  entityId: string;
+  startLine: number;  // 1-indexed
+  startChar: number;  // 0-indexed within line
+  endLine: number;
+  endChar: number;
+  mentionText: string;
+  note?: string;
+}
+
 export interface Timestamp {
   percentage: number;
 }
@@ -83,6 +93,7 @@ export interface Reading {
   absentialSignificance: Record<string, Significance>;
   globalTension: TensionPoint[];
   spanAnnotations: Record<string, unknown>;
+  annotations?: TextAnnotation[];
 }
 
 export interface StoryModel {
@@ -101,6 +112,7 @@ export interface StoryModel {
     relationships: { interpersonal: Record<string, unknown>; group: Record<string, unknown> };
     absentials: Record<string, Absential>;
     mentalConstructs: Record<string, unknown>;
+    annotations?: TextAnnotation[];
   };
   readings: Record<string, Reading>;
 }

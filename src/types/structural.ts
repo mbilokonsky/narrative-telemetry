@@ -7,6 +7,18 @@ import {
 } from './narrativeEntity';
 import { Event } from './events';
 
+// ── Text annotations (overlapping, stackable) ──
+
+export interface TextAnnotation {
+  entityId: NarrativeEntityID;
+  startLine: number;
+  startChar: number;
+  endLine: number;
+  endChar: number;
+  mentionText: string;
+  note?: string;
+}
+
 // ── Structural (shared, neutral) ──
 
 export interface StorySpan {
@@ -38,6 +50,7 @@ export interface TextModel {
   };
   absentials: Record<NarrativeEntityID, Absential>;
   mentalConstructs: Record<NarrativeEntityID, MentalConstruct>;
+  annotations: TextAnnotation[];
 }
 
 // ── Reading (interpretive overlay) ──
@@ -91,6 +104,8 @@ export interface Reading {
   absentialSignificance: Record<NarrativeEntityID, ReadingSignificance>;
 
   mentalConstructs: Record<NarrativeEntityID, MentalConstruct>;
+
+  annotations: TextAnnotation[];
 
   globalTension: Array<{ timestamp: Timestamp; value: number }>;
   spanAnnotations: Record<SpanID, ReadingSpanAnnotation>;

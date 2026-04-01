@@ -1,11 +1,6 @@
-import { useEffect, useRef, useMemo, type ReactNode } from 'react'
-import type { StoryEvent, Reading, Selection, Character, Setting, Item } from '../types'
+import { useEffect, useRef, useMemo, useState, type ReactNode } from 'react'
+import type { StoryEvent, Reading, Selection, Character, Setting, Item, TextAnnotation } from '../types'
 import { significanceColor } from '../utils'
-
-interface EntityMention {
-  entityId: string;
-  mention: string;
-}
 
 interface Entities {
   characters: Record<string, Character>;
@@ -22,104 +17,226 @@ interface TextViewProps {
   selection: Selection;
   onSelectEvent: (id: string) => void;
   onSelectEntity: (entityId: string) => void;
+  textAnnotations?: TextAnnotation[];
 }
 
-/** Build a sorted list of all entity mentions (longest first to avoid partial matches). */
-function collectMentions(entities: Entities): EntityMention[] {
-  const mentions: EntityMention[] = [];
+/** Annotation with source tag for styling purposes. */
+interface TaggedAnnotation extends TextAnnotation {
+  source: 'diegetic' | 'reading';
+}
 
-  const addEntity = (id: string, entity: { name: string; textMentions?: string[] }) => {
-    if (entity.textMentions && entity.textMentions.length > 0) {
-      for (const m of entity.textMentions) {
-        mentions.push({ entityId: id, mention: m });
-      }
+/** A segment of a line that may have zero or more annotations. */
+interface LineSegment {
+  startChar: number;
+  endChar: number;
+  text: string;
+  annotations: TaggedAnnotation[];
+}
+
+/** Resolve entity name from model entities. */
+function resolveEntityName(entityId: string, entities: Entities): string {
+  const entity = entities.characters[entityId] ?? entities.settings[entityId] ?? entities.items[entityId];
+  return entity ? entity.name : entityId;
+}
+
+/**
+ * Given a line number and the line text, compute the annotation segments.
+ * Annotations can overlap; we split the line into non-overlapping segments
+ * where each segment carries all annotations that cover it.
+ */
+function computeLineSegments(
+  lineNum: number,
+  lineText: string,
+  annotations: TaggedAnnotation[],
+): LineSegment[] {
+  if (annotations.length === 0) {
+    return [{ startChar: 0, endChar: lineText.length, text: lineText, annotations: [] }];
+  }
+
+  // Calculate effective char ranges on this line for each annotation
+  type EffectiveAnnotation = { start: number; end: number; annotation: TaggedAnnotation };
+  const effective: EffectiveAnnotation[] = [];
+
+  for (const ann of annotations) {
+    const start = ann.startLine < lineNum ? 0 : ann.startChar;
+    const end = ann.endLine > lineNum ? lineText.length : ann.endChar;
+    if (start < end && start < lineText.length) {
+      effective.push({ start, end: Math.min(end, lineText.length), annotation: ann });
     }
-    // Always include the entity name as a mention
-    mentions.push({ entityId: id, mention: entity.name });
+  }
+
+  if (effective.length === 0) {
+    return [{ startChar: 0, endChar: lineText.length, text: lineText, annotations: [] }];
+  }
+
+  // Collect all boundary points
+  const boundaries = new Set<number>();
+  boundaries.add(0);
+  boundaries.add(lineText.length);
+  for (const ea of effective) {
+    boundaries.add(ea.start);
+    boundaries.add(ea.end);
+  }
+  const sorted = Array.from(boundaries).sort((a, b) => a - b);
+
+  // Build segments between consecutive boundary points
+  const segments: LineSegment[] = [];
+  for (let i = 0; i < sorted.length - 1; i++) {
+    const s = sorted[i];
+    const e = sorted[i + 1];
+    if (s >= e) continue;
+    const covering = effective
+      .filter(ea => ea.start <= s && ea.end >= e)
+      .map(ea => ea.annotation);
+    segments.push({
+      startChar: s,
+      endChar: e,
+      text: lineText.slice(s, e),
+      annotations: covering,
+    });
+  }
+
+  return segments;
+}
+
+/** Popup for disambiguating overlapping annotations. */
+function AnnotationPopup({
+  annotations,
+  entities,
+  onSelect,
+  onClose,
+}: {
+  annotations: TaggedAnnotation[];
+  entities: Entities;
+  onSelect: (entityId: string) => void;
+  onClose: () => void;
+}) {
+  return (
+    <div className="annotation-popup" onClick={e => e.stopPropagation()}>
+      <div className="annotation-popup-header">
+        Multiple annotations
+        <span className="annotation-popup-close" onClick={onClose}>&times;</span>
+      </div>
+      {annotations.map((ann, i) => (
+        <div
+          key={`${ann.entityId}-${i}`}
+          className="annotation-popup-item"
+          onClick={() => {
+            onSelect(ann.entityId);
+            onClose();
+          }}
+        >
+          <span
+            className="annotation-popup-dot"
+            style={{ background: ann.source === 'diegetic' ? 'var(--text-muted, #666)' : 'var(--accent, #7b8cde)' }}
+          />
+          <span className="annotation-popup-name">{resolveEntityName(ann.entityId, entities)}</span>
+          <span className="annotation-popup-source">{ann.source}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/** Render a single annotated segment. */
+function AnnotatedSegment({
+  segment,
+  entities,
+  onSelectEntity,
+}: {
+  segment: LineSegment;
+  entities: Entities;
+  onSelectEntity: (entityId: string) => void;
+}) {
+  const [showPopup, setShowPopup] = useState(false);
+
+  if (segment.annotations.length === 0) {
+    return <>{segment.text}</>;
+  }
+
+  // Deduplicate annotations by entityId (keep unique entities)
+  const uniqueByEntity = new Map<string, TaggedAnnotation>();
+  for (const ann of segment.annotations) {
+    if (!uniqueByEntity.has(ann.entityId)) {
+      uniqueByEntity.set(ann.entityId, ann);
+    }
+  }
+  const uniqueAnnotations = Array.from(uniqueByEntity.values());
+  const count = uniqueAnnotations.length;
+  const hasMultiple = count > 1;
+  const hasDiegetic = uniqueAnnotations.some(a => a.source === 'diegetic');
+  const hasReading = uniqueAnnotations.some(a => a.source === 'reading');
+  const hasMixed = hasDiegetic && hasReading;
+
+  // Determine underline style class
+  let styleClass = 'annotation-diegetic';
+  if (hasMixed || hasMultiple) {
+    styleClass = 'annotation-overlap';
+  } else if (hasReading) {
+    styleClass = 'annotation-reading';
+  }
+
+  const handleClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (hasMultiple) {
+      setShowPopup(prev => !prev);
+    } else {
+      onSelectEntity(uniqueAnnotations[0].entityId);
+    }
   };
 
-  for (const [id, c] of Object.entries(entities.characters)) addEntity(id, c);
-  for (const [id, s] of Object.entries(entities.settings)) addEntity(id, s);
-  for (const [id, i] of Object.entries(entities.items)) addEntity(id, i);
-
-  // Deduplicate (same entityId + mention)
-  const seen = new Set<string>();
-  const deduped: EntityMention[] = [];
-  for (const m of mentions) {
-    const key = `${m.entityId}::${m.mention}`;
-    if (!seen.has(key)) {
-      seen.add(key);
-      deduped.push(m);
-    }
-  }
-
-  // Sort by mention length descending (longest first)
-  deduped.sort((a, b) => b.mention.length - a.mention.length);
-  return deduped;
+  return (
+    <span className={`entity-mention ${styleClass}`} style={{ position: 'relative' }} onClick={handleClick}>
+      {segment.text}
+      {hasMultiple && (
+        <span className="annotation-badge">{count}</span>
+      )}
+      {showPopup && (
+        <AnnotationPopup
+          annotations={uniqueAnnotations}
+          entities={entities}
+          onSelect={onSelectEntity}
+          onClose={() => setShowPopup(false)}
+        />
+      )}
+    </span>
+  );
 }
 
-/** Annotate a line of text with clickable entity mentions. */
+/** Annotate a line using structured annotation positions. */
 function annotateLine(
-  line: string,
-  mentions: EntityMention[],
+  lineNum: number,
+  lineText: string,
+  annotations: TaggedAnnotation[],
+  entities: Entities,
   onSelectEntity: (entityId: string) => void,
 ): ReactNode {
-  if (!line) return '\u00A0';
+  if (!lineText) return '\u00A0';
 
-  // Find all non-overlapping matches
-  type Match = { start: number; end: number; entityId: string };
-  const matches: Match[] = [];
-  const occupied = new Uint8Array(line.length);
+  // Filter annotations that cover this line
+  const lineAnnotations = annotations.filter(
+    ann => ann.startLine <= lineNum && ann.endLine >= lineNum
+  );
 
-  for (const { entityId, mention } of mentions) {
-    let searchFrom = 0;
-    while (searchFrom < line.length) {
-      const idx = line.indexOf(mention, searchFrom);
-      if (idx === -1) break;
-      const end = idx + mention.length;
-      // Check no overlap
-      let overlap = false;
-      for (let i = idx; i < end; i++) {
-        if (occupied[i]) { overlap = true; break; }
-      }
-      if (!overlap) {
-        matches.push({ start: idx, end, entityId });
-        for (let i = idx; i < end; i++) occupied[i] = 1;
-      }
-      searchFrom = idx + 1;
-    }
+  const segments = computeLineSegments(lineNum, lineText, lineAnnotations);
+
+  // If no segments have annotations, return plain text
+  if (segments.every(s => s.annotations.length === 0)) {
+    return lineText;
   }
 
-  if (matches.length === 0) return line;
-
-  // Sort matches by start position
-  matches.sort((a, b) => a.start - b.start);
-
-  const parts: ReactNode[] = [];
-  let cursor = 0;
-  for (let i = 0; i < matches.length; i++) {
-    const m = matches[i];
-    if (cursor < m.start) {
-      parts.push(line.slice(cursor, m.start));
-    }
-    parts.push(
-      <span
-        key={`em-${i}`}
-        className="entity-mention"
-        onClick={(e) => {
-          e.stopPropagation();
-          onSelectEntity(m.entityId);
-        }}
-      >
-        {line.slice(m.start, m.end)}
-      </span>
-    );
-    cursor = m.end;
-  }
-  if (cursor < line.length) {
-    parts.push(line.slice(cursor));
-  }
-  return <>{parts}</>;
+  return (
+    <>
+      {segments.map((seg, i) => (
+        <AnnotatedSegment
+          key={`${seg.startChar}-${i}`}
+          segment={seg}
+          entities={entities}
+          onSelectEntity={onSelectEntity}
+        />
+      ))}
+    </>
+  );
 }
 
 export function TextView({
@@ -131,6 +248,7 @@ export function TextView({
   selection,
   onSelectEvent,
   onSelectEntity,
+  textAnnotations,
 }: TextViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const selectedRef = useRef<HTMLDivElement>(null);
@@ -151,8 +269,33 @@ export function TextView({
     return map;
   }, [events]);
 
-  // Collect entity mentions once
-  const mentions = useMemo(() => collectMentions(entities), [entities]);
+  // Collect all applicable annotations with source tags
+  const allAnnotations: TaggedAnnotation[] = useMemo(() => {
+    const result: TaggedAnnotation[] = [];
+
+    // Diegetic annotations from text
+    if (textAnnotations) {
+      for (const ann of textAnnotations) {
+        result.push({ ...ann, source: 'diegetic' });
+      }
+    }
+
+    // Active reading's annotations
+    if (reading.annotations) {
+      for (const ann of reading.annotations) {
+        result.push({ ...ann, source: 'reading' });
+      }
+    }
+
+    // Compare reading's annotations (if in compare mode)
+    if (compareReading?.annotations) {
+      for (const ann of compareReading.annotations) {
+        result.push({ ...ann, source: 'reading' });
+      }
+    }
+
+    return result;
+  }, [textAnnotations, reading, compareReading]);
 
   // Scroll selected event into view
   useEffect(() => {
@@ -232,7 +375,7 @@ export function TextView({
               )}
               <span className="line-number">{lineNum}</span>
               <span className="line-text">
-                {annotateLine(line, mentions, onSelectEntity)}
+                {annotateLine(lineNum, line, allAnnotations, entities, onSelectEntity)}
               </span>
             </div>
           );
@@ -291,12 +434,96 @@ export function TextView({
           color: var(--text-bright);
         }
         .entity-mention {
-          border-bottom: 1px dotted var(--text-muted, #666);
           cursor: pointer;
           transition: border-color 0.15s;
         }
         .entity-mention:hover {
           border-bottom-color: var(--text-bright, #eee);
+        }
+        .entity-mention.annotation-diegetic {
+          border-bottom: 1px dotted var(--text-muted, #666);
+        }
+        .entity-mention.annotation-reading {
+          border-bottom: 1px dotted var(--accent, #7b8cde);
+        }
+        .entity-mention.annotation-overlap {
+          border-bottom: 2px dotted var(--accent, #7b8cde);
+        }
+        .annotation-badge {
+          display: inline-block;
+          position: relative;
+          top: -0.6em;
+          left: 1px;
+          font-size: 9px;
+          font-family: var(--mono);
+          background: var(--accent, #7b8cde);
+          color: var(--bg, #1a1a2e);
+          border-radius: 6px;
+          min-width: 12px;
+          height: 12px;
+          line-height: 12px;
+          text-align: center;
+          padding: 0 2px;
+          font-weight: 700;
+        }
+        .annotation-popup {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          z-index: 100;
+          background: var(--bg-panel, #1e1e34);
+          border: 1px solid var(--border, #333);
+          border-radius: 6px;
+          padding: 4px 0;
+          min-width: 200px;
+          box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+          font-size: 12px;
+          white-space: nowrap;
+        }
+        .annotation-popup-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 4px 10px 6px;
+          font-size: 11px;
+          color: var(--text-dim);
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          border-bottom: 1px solid var(--border, #333);
+        }
+        .annotation-popup-close {
+          cursor: pointer;
+          font-size: 14px;
+          color: var(--text-dim);
+        }
+        .annotation-popup-close:hover {
+          color: var(--text-bright);
+        }
+        .annotation-popup-item {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding: 6px 10px;
+          cursor: pointer;
+          color: var(--text);
+        }
+        .annotation-popup-item:hover {
+          background: var(--bg-hover, #2a2a4a);
+        }
+        .annotation-popup-dot {
+          width: 6px;
+          height: 6px;
+          min-width: 6px;
+          border-radius: 50%;
+        }
+        .annotation-popup-name {
+          color: var(--text-bright, #eee);
+          font-weight: 500;
+        }
+        .annotation-popup-source {
+          color: var(--text-dim);
+          font-size: 10px;
+          margin-left: auto;
         }
         .compare-gutter {
           display: flex;

@@ -6,6 +6,7 @@ import {
   ReadingEventAnnotation,
   ReadingSignificance,
   ReadingSpanAnnotation,
+  TextAnnotation,
   PacingMetric,
   Event,
   TextLocation,
@@ -64,6 +65,7 @@ export class NarrativeAnalysisSystem {
         relationships: { interpersonal: {}, group: {} },
         absentials: {},
         mentalConstructs: {},
+        annotations: [],
       },
       readings: {},
     };
@@ -170,6 +172,12 @@ export class NarrativeAnalysisSystem {
     return id;
   }
 
+  // ── Text annotations (diegetic) ──
+
+  annotate(entityId: NarrativeEntityID, startLine: number, startChar: number, endLine: number, endChar: number, mentionText: string, note?: string): void {
+    this.model.text.annotations.push({ entityId, startLine, startChar, endLine, endChar, mentionText, note });
+  }
+
   // ── Events ──
 
   addEvent(spanId: string, data: Omit<Event, 'id'> & { id?: string }): string {
@@ -200,6 +208,7 @@ export class NarrativeAnalysisSystem {
       entitySignificance: {},
       absentialSignificance: {},
       mentalConstructs: {},
+      annotations: [],
       globalTension: [],
       spanAnnotations: {},
     };
@@ -257,6 +266,12 @@ export class NarrativeAnalysisSystem {
 
   annotateSpan(readingName: string, spanId: SpanID, annotation: ReadingSpanAnnotation): void {
     this.getReading(readingName).spanAnnotations[spanId] = annotation;
+  }
+
+  // ── Reading-level text annotations (interpretive) ──
+
+  annotateText(readingName: string, entityId: NarrativeEntityID, startLine: number, startChar: number, endLine: number, endChar: number, mentionText: string, note?: string): void {
+    this.getReading(readingName).annotations.push({ entityId, startLine, startChar, endLine, endChar, mentionText, note });
   }
 
   // ── Tension ──

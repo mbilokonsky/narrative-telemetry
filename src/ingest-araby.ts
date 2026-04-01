@@ -697,6 +697,52 @@ for (const [pct, val] of [[0,0.3],[10,0.2],[25,0.5],[36,0.4],[44,0.6],[58,0.3],[
 }
 
 // ════════════════════════════════════════════════════════
+//  Text Annotations (diegetic — factual references)
+// ════════════════════════════════════════════════════════
+
+// Street and settings
+sys.annotate('north-richmond-st', 4, 0, 4, 21, 'North Richmond Street');
+sys.annotate('back-drawing-room', 72, 34, 72, 53, 'back drawing-room');
+sys.annotate('wild-garden', 18, 4, 18, 15, 'wild garden');
+sys.annotate('buckingham-st', 170, 47, 170, 64, 'Buckingham Street');
+
+// The priest's books — each is both an item AND a reference to the dead priest
+sys.annotate('book-abbot', 15, 38, 15, 47, 'The Abbot');
+sys.annotate('dead-priest', 15, 38, 15, 47, 'The Abbot', 'Part of the dead priest\'s library');
+sys.annotate('book-devout', 16, 0, 16, 18, 'Devout Communicant');
+sys.annotate('dead-priest', 16, 0, 16, 18, 'Devout Communicant', 'Part of the dead priest\'s library');
+sys.annotate('book-vidocq', 16, 25, 16, 47, 'The Memoirs of Vidocq');
+sys.annotate('dead-priest', 16, 25, 16, 47, 'The Memoirs of Vidocq', 'Part of the dead priest\'s library');
+
+// Other items
+sys.annotate('bicycle-pump', 19, 32, 19, 50, 'rusty bicycle-pump');
+sys.annotate('dead-priest', 19, 32, 19, 50, 'rusty bicycle-pump', 'The late tenant\'s possession');
+sys.annotate('silver-bracelet', 89, 29, 89, 44, 'silver bracelet');
+sys.annotate('mangans-sister', 89, 29, 89, 44, 'silver bracelet', 'Defines her presence — she turns it round and round');
+sys.annotate('florin', 170, 9, 170, 15, 'florin');
+
+// "Araby" — simultaneously the setting and the boy's fantasy
+sys.annotate('araby-hall', 84, 10, 84, 15, 'Araby');
+sys.annotate('mc-araby-fantasy', 84, 10, 84, 15, 'Araby', 'The word carries the Eastern enchantment');
+sys.annotate('araby-hall', 107, 36, 107, 41, 'Araby');
+sys.annotate('mc-araby-fantasy', 107, 36, 107, 41, 'Araby', 'The syllables cast an enchantment');
+
+// Characters
+sys.annotate('mangans-sister', 36, 3, 36, 18, "Mangan's sister");
+
+// ════════════════════════════════════════════════════════
+//  Reading-level annotations (interpretive)
+// ════════════════════════════════════════════════════════
+
+// Postcolonial: "Araby" is also an orientalist signifier
+sys.annotateText('postcolonial', 'sym-name-araby', 84, 10, 84, 15, 'Araby', 'Orientalist signifier — the exotic East as projection');
+sys.annotateText('postcolonial', 'sym-name-araby', 107, 36, 107, 41, 'Araby', '"Eastern enchantment" — orientalist fantasy');
+sys.annotateText('postcolonial', 'th-english-dominance', 15, 38, 15, 47, 'The Abbot', 'Walter Scott — English literary culture in an Irish priest\'s library');
+
+// Formalist: the "blind" street as symbol
+sys.annotateText('formalist', 'sym-blind-street', 4, 29, 4, 34, 'blind', 'Dead-end street as structural premonition of dead-end desire');
+
+// ════════════════════════════════════════════════════════
 //  Save
 // ════════════════════════════════════════════════════════
 
