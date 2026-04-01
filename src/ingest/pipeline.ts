@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import { StoryModel, TextModel, Reading } from '../types';
-import { extractTextModel, ExtractOptions } from './extract';
+import { extractTextModel, ExtractOptions, extractTextModelChunked, ChunkedExtractOptions } from './extract';
 import { interpretReading, InterpretOptions } from './interpret';
 import {
   computeTensionCurve, TensionPoint,
@@ -15,6 +15,9 @@ export interface IngestOptions {
   extract?: ExtractOptions;
   interpret?: InterpretOptions;
   lenses?: string[];
+  title?: string;
+  model?: string;
+  verbose?: boolean;
 }
 
 export interface DerivedInsights {
@@ -30,13 +33,51 @@ export interface DerivedInsights {
  * Full pipeline: raw text → TextModel → Readings → StoryModel
  */
 export async function ingestText(text: string, options: IngestOptions = {}): Promise<StoryModel> {
-  const textModel = await extractTextModel(text, options.extract);
+  const extractOpts: ExtractOptions = {
+    ...options.extract,
+    model: options.model ?? options.extract?.model,
+  };
+  const textModel = await extractTextModel(text, extractOpts);
 
   const readings: Record<string, Reading> = {};
   const lenses = options.lenses ?? [];
 
   for (const lens of lenses) {
-    const { name, reading } = await interpretReading(textModel, lens, options.interpret);
+    const interpretOpts: InterpretOptions = {
+      ...options.interpret,
+      model: options.model ?? options.interpret?.model,
+    };
+    const { name, reading } = await interpretReading(textModel, lens, interpretOpts);
+    readings[name] = reading;
+  }
+
+  return { text: textModel, readings };
+}
+
+/**
+ * Chunked pipeline for long texts: splits text, maintains entity registry across chunks.
+ */
+export async function ingestTextChunked(text: string, options: IngestOptions = {}): Promise<StoryModel> {
+  const chunkOpts: ChunkedExtractOptions = {
+    model: options.model ?? options.extract?.model,
+    maxTokens: options.extract?.maxTokens,
+    temperature: options.extract?.temperature,
+    onChunkComplete: options.verbose
+      ? (idx, total, registrySize) => console.log(`  Chunk ${idx + 1}/${total}: ${registrySize} entities in registry`)
+      : undefined,
+  };
+
+  const textModel = await extractTextModelChunked(text, chunkOpts);
+
+  const readings: Record<string, Reading> = {};
+  const lenses = options.lenses ?? [];
+
+  for (const lens of lenses) {
+    const interpretOpts: InterpretOptions = {
+      ...options.interpret,
+      model: options.model ?? options.interpret?.model,
+    };
+    const { name, reading } = await interpretReading(textModel, lens, interpretOpts);
     readings[name] = reading;
   }
 

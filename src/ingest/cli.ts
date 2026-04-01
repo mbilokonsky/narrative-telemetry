@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { ingestText, deriveInsights } from './pipeline';
+import { ingestText, ingestTextChunked, deriveInsights, IngestOptions } from './pipeline';
 import { saveStoryModel } from '../persistence';
 
 // ── Parse CLI args ──
@@ -12,12 +12,17 @@ Options:
   --lens <name>       Interpretive lens (repeatable, e.g. --lens formalist --lens postcolonial)
   --output <path>     Output JSON file path (default: data/<slug>.json via persistence)
   --derive            Include derived insights in output
+  --chunked           Use chunked extraction for long texts (auto-detected if > 50K chars)
+  --title <title>     Override story title
+  --model <model>     LLM model to use (default: claude-haiku-4-5)
+  --verbose           Show detailed progress
   --help              Show this help
 
 Examples:
   npx ts-node src/ingest/cli.ts corpus/araby.txt --lens formalist
   npx ts-node src/ingest/cli.ts corpus/araby.txt --lens formalist --lens postcolonial --derive
-  npx ts-node src/ingest/cli.ts corpus/araby.txt --output output/araby.json`);
+  npx ts-node src/ingest/cli.ts corpus/araby.txt --output output/araby.json
+  npx ts-node src/ingest/cli.ts novel.txt --chunked --lens formalist --derive`);
   process.exit(1);
 }
 
@@ -26,6 +31,10 @@ interface CliArgs {
   lenses: string[];
   output?: string;
   derive: boolean;
+  chunked: boolean;
+  title?: string;
+  model?: string;
+  verbose: boolean;
 }
 
 function parseArgs(argv: string[]): CliArgs {
@@ -36,6 +45,10 @@ function parseArgs(argv: string[]): CliArgs {
   const lenses: string[] = [];
   let output: string | undefined;
   let derive = false;
+  let chunked = false;
+  let title: string | undefined;
+  let model: string | undefined;
+  let verbose = false;
 
   for (let i = 1; i < args.length; i++) {
     switch (args[i]) {
@@ -47,8 +60,22 @@ function parseArgs(argv: string[]): CliArgs {
         if (!args[i + 1]) { console.error('--output requires a value'); process.exit(1); }
         output = args[++i];
         break;
+      case '--title':
+        if (!args[i + 1]) { console.error('--title requires a value'); process.exit(1); }
+        title = args[++i];
+        break;
+      case '--model':
+        if (!args[i + 1]) { console.error('--model requires a value'); process.exit(1); }
+        model = args[++i];
+        break;
       case '--derive':
         derive = true;
+        break;
+      case '--chunked':
+        chunked = true;
+        break;
+      case '--verbose':
+        verbose = true;
         break;
       default:
         console.error(`Unknown option: ${args[i]}`);
@@ -56,7 +83,7 @@ function parseArgs(argv: string[]): CliArgs {
     }
   }
 
-  return { textFile, lenses, output, derive };
+  return { textFile, lenses, output, derive, chunked, title, model, verbose };
 }
 
 // ── Main ──
@@ -73,8 +100,23 @@ async function main() {
   const text = fs.readFileSync(textPath, 'utf-8');
   console.log(`[cli] Read ${text.split('\n').length} lines from ${args.textFile}`);
 
+  // Auto-detect chunked mode for long texts
+  const shouldChunk = args.chunked || text.length > 50000;
+  if (shouldChunk && !args.chunked) {
+    console.log(`[cli] Auto-enabling chunked mode for ${text.length.toLocaleString()} char text`);
+  }
+
+  const options: IngestOptions = {
+    lenses: args.lenses,
+    title: args.title,
+    model: args.model,
+    verbose: args.verbose,
+  };
+
   // Run pipeline
-  const model = await ingestText(text, { lenses: args.lenses });
+  const model = shouldChunk 
+    ? await ingestTextChunked(text, options)
+    : await ingestText(text, options);
 
   const readingCount = Object.keys(model.readings).length;
   const eventCount = Object.keys(model.text.events).length;

@@ -547,3 +547,392 @@ export async function extractTextModel(text: string, options: ExtractOptions = {
   console.log(`[extract] Built TextModel: "${textModel.title}" by ${textModel.author}`);
   return textModel;
 }
+
+// ─────────────────────────────────────────────────
+// CHUNKED EXTRACTION FOR LONG TEXTS
+// ─────────────────────────────────────────────────
+
+import { EntityRegistry, RegistryEntry } from './registry';
+import { chunkText, TextChunk, ChunkOptions, getChunkStats } from './chunker';
+
+export interface ChunkedExtractOptions extends ExtractOptions {
+  chunkOptions?: ChunkOptions;
+  onChunkComplete?: (chunkIndex: number, totalChunks: number, registrySize: number) => void;
+}
+
+interface ChunkExtractionResult extends ExtractionResult {
+  _chunkIndex: number;
+  _startPct: number;
+  _endPct: number;
+}
+
+/**
+ * Extract TextModel from long text using chunked processing.
+ * 
+ * Maintains an entity registry across chunks so that "Mangan's sister"
+ * gets the same ID whether she appears in chunk 1 or chunk 12.
+ */
+export async function extractTextModelChunked(
+  text: string, 
+  options: ChunkedExtractOptions = {}
+): Promise<TextModel> {
+  const chunks = chunkText(text, options.chunkOptions);
+  const stats = getChunkStats(chunks);
+  const contentChunks = chunks.filter(c => !c.isOverlap);
+  
+  console.log(`[chunked-extract] Text split into ${contentChunks.length} content chunks (+ ${stats.overlapChunks} overlap contexts)`);
+  console.log(`[chunked-extract] Total: ${stats.totalChars.toLocaleString()} chars, ~${stats.estimatedTokens.toLocaleString()} tokens`);
+  
+  const registry = new EntityRegistry();
+  const chunkResults: ChunkExtractionResult[] = [];
+  let globalEventSeq = 0;
+  
+  for (let i = 0; i < contentChunks.length; i++) {
+    const chunk = contentChunks[i];
+    console.log(`\n[chunked-extract] Processing chunk ${i + 1}/${contentChunks.length} (${chunk.startPct.toFixed(1)}% - ${chunk.endPct.toFixed(1)}%)...`);
+    
+    const result = await extractChunk(chunk, registry, options, i === 0);
+    result._chunkIndex = i;
+    result._startPct = chunk.startPct;
+    result._endPct = chunk.endPct;
+    
+    // Update registry with entities from this chunk
+    updateRegistryFromExtraction(registry, result, i);
+    
+    // Renumber events with global sequence
+    globalEventSeq = renumberEvents(result, globalEventSeq, chunk.startPct);
+    
+    chunkResults.push(result);
+    
+    if (options.onChunkComplete) {
+      options.onChunkComplete(i, contentChunks.length, registry.count);
+    }
+    
+    console.log(`[chunked-extract] Chunk ${i + 1} complete. Registry now has ${registry.count} entities.`);
+  }
+  
+  // Merge all chunk results into a single TextModel
+  console.log(`\n[chunked-extract] Merging ${chunkResults.length} chunk results...`);
+  const mergedExtraction = mergeChunkExtractions(chunkResults);
+  const textModel = buildTextModel(mergedExtraction);
+  
+  console.log(`[chunked-extract] Complete: "${textModel.title}" by ${textModel.author}`);
+  console.log(`[chunked-extract] Final: ${Object.keys(textModel.events).length} events, ${Object.keys(textModel.diegetic.characters).length} characters, ${Object.keys(textModel.diegetic.settings).length} settings`);
+  
+  return textModel;
+}
+
+/**
+ * Extract a single chunk, with registry context for non-first chunks.
+ */
+async function extractChunk(
+  chunk: TextChunk,
+  registry: EntityRegistry,
+  options: ExtractOptions,
+  isFirstChunk: boolean
+): Promise<ChunkExtractionResult> {
+  const client = createClient();
+  
+  // Build prompt with registry context for subsequent chunks
+  let userPrompt = buildExtractionUserPrompt(chunk.text, chunk.text.split('\n').length);
+  
+  if (!isFirstChunk && registry.count > 0) {
+    const registryContext = registry.toPromptContext();
+    userPrompt = `${registryContext}\n\n---\n\n${userPrompt}\n\nImportant: Reuse the entity IDs listed above. Only create new entities if they genuinely haven't appeared before. Continue the event numbering sequence.`;
+  }
+  
+  // Use streaming
+  let fullText = '';
+  const stream = client.messages.stream({
+    model: options.model ?? DEFAULT_MODEL,
+    max_tokens: options.maxTokens ?? DEFAULT_MAX_TOKENS,
+    temperature: options.temperature ?? 0.2,
+    system: EXTRACTION_SYSTEM_PROMPT,
+    messages: [{ role: 'user', content: userPrompt }],
+  });
+
+  for await (const event of stream) {
+    if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
+      fullText += event.delta.text;
+    }
+  }
+
+  let rawJson = fullText.trim();
+  if (rawJson.startsWith('```')) {
+    rawJson = rawJson.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
+  }
+
+  try {
+    return JSON.parse(rawJson);
+  } catch (err) {
+    console.error('[chunked-extract] Failed to parse chunk JSON');
+    console.error('[chunked-extract] Raw (first 500 chars):', rawJson.slice(0, 500));
+    throw new Error(`Chunk parse error: ${(err as Error).message}`);
+  }
+}
+
+/**
+ * Update registry with entities from a chunk extraction.
+ */
+function updateRegistryFromExtraction(
+  registry: EntityRegistry,
+  extraction: ExtractionResult,
+  chunkIndex: number
+): void {
+  // Register characters
+  for (const char of extraction.characters ?? []) {
+    if (!registry.has(char.id)) {
+      registry.register({
+        id: char.id,
+        type: 'character',
+        canonicalName: char.name,
+        aliases: char.aliases ?? [],
+        description: char.description,
+        firstSeenChunk: chunkIndex,
+      });
+    }
+  }
+  
+  // Register settings
+  for (const setting of extraction.settings ?? []) {
+    if (!registry.has(setting.id)) {
+      registry.register({
+        id: setting.id,
+        type: 'setting',
+        canonicalName: setting.name,
+        aliases: setting.aliases ?? [],
+        description: setting.description,
+        firstSeenChunk: chunkIndex,
+      });
+    }
+  }
+  
+  // Register items
+  for (const item of extraction.items ?? []) {
+    if (!registry.has(item.id)) {
+      registry.register({
+        id: item.id,
+        type: 'item',
+        canonicalName: item.name,
+        aliases: item.aliases ?? [],
+        description: item.description,
+        firstSeenChunk: chunkIndex,
+      });
+    }
+  }
+  
+  // Register factions
+  for (const faction of extraction.factions ?? []) {
+    if (!registry.has(faction.id)) {
+      registry.register({
+        id: faction.id,
+        type: 'faction',
+        canonicalName: faction.name,
+        aliases: faction.aliases ?? [],
+        description: faction.description,
+        firstSeenChunk: chunkIndex,
+      });
+    }
+  }
+  
+  // Register absentials
+  for (const abs of extraction.absentials ?? []) {
+    if (!registry.has(abs.id)) {
+      registry.register({
+        id: abs.id,
+        type: 'absential',
+        canonicalName: abs.name,
+        aliases: [],
+        description: abs.description,
+        firstSeenChunk: chunkIndex,
+      });
+    }
+  }
+}
+
+/**
+ * Renumber events with a global sequence and adjust timestamps.
+ * Returns the next available sequence number.
+ */
+function renumberEvents(
+  extraction: ExtractionResult,
+  startSeq: number,
+  chunkStartPct: number
+): number {
+  const eventIdMap = new Map<string, string>();
+  let seq = startSeq;
+  
+  // Build ID mapping
+  for (const event of extraction.events ?? []) {
+    const oldId = event.id;
+    const newId = `e${String(seq + 1).padStart(3, '0')}`;
+    eventIdMap.set(oldId, newId);
+    event.id = newId;
+    seq++;
+    
+    // Adjust timestamp percentage to be global
+    if (event.timestamp?.percentage !== undefined) {
+      // Local percentage within chunk -> global percentage
+      const localPct = event.timestamp.percentage;
+      event.timestamp.percentage = chunkStartPct + (localPct / 100) * (extraction.rootSpan?.endPct ?? 100 - chunkStartPct);
+    }
+  }
+  
+  // Update references in spans
+  function updateSpanEventIds(span: SpanNode) {
+    span.eventIds = span.eventIds?.map((id: string) => eventIdMap.get(id) ?? id) ?? [];
+    for (const child of span.children ?? []) {
+      updateSpanEventIds(child);
+    }
+  }
+  
+  if (extraction.rootSpan) {
+    updateSpanEventIds(extraction.rootSpan);
+  }
+  
+  // Update entity firstEvent references
+  for (const char of extraction.characters ?? []) {
+    if (char.firstEvent) char.firstEvent = eventIdMap.get(char.firstEvent) ?? char.firstEvent;
+  }
+  for (const setting of extraction.settings ?? []) {
+    if (setting.firstEvent) setting.firstEvent = eventIdMap.get(setting.firstEvent) ?? setting.firstEvent;
+  }
+  for (const item of extraction.items ?? []) {
+    if (item.firstEvent) item.firstEvent = eventIdMap.get(item.firstEvent) ?? item.firstEvent;
+  }
+  for (const abs of extraction.absentials ?? []) {
+    if (abs.firstEvent) abs.firstEvent = eventIdMap.get(abs.firstEvent) ?? abs.firstEvent;
+  }
+  
+  return seq;
+}
+
+/**
+ * Merge multiple chunk extractions into a single extraction result.
+ */
+function mergeChunkExtractions(chunks: ChunkExtractionResult[]): ExtractionResult {
+  const merged: ExtractionResult = {
+    title: chunks[0]?.title ?? 'Untitled',
+    author: chunks[0]?.author ?? 'Unknown',
+    description: chunks[0]?.description ?? '',
+    rootSpan: {
+      id: 'story-main',
+      type: 'story',
+      title: chunks[0]?.title ?? 'Untitled',
+      description: chunks[0]?.description ?? '',
+      startPct: 0,
+      endPct: 100,
+      eventIds: [],
+      children: [],
+    },
+    characters: [],
+    settings: [],
+    items: [],
+    factions: [],
+    events: [],
+    relationships: { interpersonal: [], group: [] },
+    absentials: [],
+    mentalConstructs: [],
+  };
+  
+  const seenIds = {
+    characters: new Set<string>(),
+    settings: new Set<string>(),
+    items: new Set<string>(),
+    factions: new Set<string>(),
+    absentials: new Set<string>(),
+    events: new Set<string>(),
+  };
+  
+  for (const chunk of chunks) {
+    // Merge entities (deduplicate by ID)
+    for (const char of chunk.characters ?? []) {
+      if (!seenIds.characters.has(char.id)) {
+        merged.characters.push(char);
+        seenIds.characters.add(char.id);
+      }
+    }
+    for (const setting of chunk.settings ?? []) {
+      if (!seenIds.settings.has(setting.id)) {
+        merged.settings.push(setting);
+        seenIds.settings.add(setting.id);
+      }
+    }
+    for (const item of chunk.items ?? []) {
+      if (!seenIds.items.has(item.id)) {
+        merged.items.push(item);
+        seenIds.items.add(item.id);
+      }
+    }
+    for (const faction of chunk.factions ?? []) {
+      if (!seenIds.factions.has(faction.id)) {
+        merged.factions.push(faction);
+        seenIds.factions.add(faction.id);
+      }
+    }
+    for (const abs of chunk.absentials ?? []) {
+      if (!seenIds.absentials.has(abs.id)) {
+        merged.absentials.push(abs);
+        seenIds.absentials.add(abs.id);
+      }
+    }
+    
+    // Merge events (already globally renumbered)
+    for (const event of chunk.events ?? []) {
+      if (!seenIds.events.has(event.id)) {
+        merged.events.push(event);
+        seenIds.events.add(event.id);
+      }
+    }
+    
+    // Merge spans: take acts from each chunk's root
+    if (chunk.rootSpan?.children) {
+      for (const act of chunk.rootSpan.children) {
+        // Adjust act percentages to be global
+        const actStartPct = chunk._startPct + (act.startPct / 100) * (chunk._endPct - chunk._startPct);
+        const actEndPct = chunk._startPct + (act.endPct / 100) * (chunk._endPct - chunk._startPct);
+        act.startPct = actStartPct;
+        act.endPct = actEndPct;
+        
+        // Recursively adjust scene/beat percentages
+        function adjustPercentages(span: SpanNode, parentStart: number, parentEnd: number) {
+          span.startPct = parentStart + (span.startPct / 100) * (parentEnd - parentStart);
+          span.endPct = parentStart + (span.endPct / 100) * (parentEnd - parentStart);
+          for (const child of span.children ?? []) {
+            adjustPercentages(child, span.startPct, span.endPct);
+          }
+        }
+        
+        for (const scene of act.children ?? []) {
+          adjustPercentages(scene, act.startPct, act.endPct);
+        }
+        
+        merged.rootSpan.children.push(act);
+      }
+    }
+    
+    // Merge relationships
+    for (const rel of chunk.relationships?.interpersonal ?? []) {
+      merged.relationships.interpersonal.push(rel);
+    }
+    for (const rel of chunk.relationships?.group ?? []) {
+      merged.relationships.group.push(rel);
+    }
+    
+    // Merge mental constructs
+    for (const mc of chunk.mentalConstructs ?? []) {
+      merged.mentalConstructs.push(mc);
+    }
+  }
+  
+  // Sort events by ID (which is sequential)
+  merged.events.sort((a, b) => a.id.localeCompare(b.id));
+  
+  // Sort root span children (acts) by start percentage
+  merged.rootSpan.children.sort((a, b) => a.startPct - b.startPct);
+  
+  return merged;
+}
+
+// Export chunked extraction types
+export { EntityRegistry, RegistryEntry, chunkText, TextChunk, ChunkOptions, getChunkStats };
