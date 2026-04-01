@@ -2,9 +2,52 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NarrativeAnalysisSystem = void 0;
 const types_1 = require("./types");
+const derive_1 = require("./derive");
 let counter = 0;
 function generateId(prefix) {
     return `${prefix}_${++counter}`;
+}
+// ── Helper functions for comparison ──
+function compareTensionCurves(curve1, curve2) {
+    const diffs = [];
+    const minLen = Math.min(curve1.length, curve2.length);
+    for (let i = 0; i < minLen; i++) {
+        diffs.push({
+            timestamp: curve1[i].timestamp,
+            diff: Math.abs(curve1[i].tension - curve2[i].tension),
+            reading1_value: curve1[i].tension,
+            reading2_value: curve2[i].tension,
+        });
+    }
+    return diffs;
+}
+function compareCoarseGrains(cg1, cg2) {
+    return {
+        spanId: 'root',
+        spanTitle: 'Story',
+        mean_significance_diff: Math.abs(cg1.meanSignificance - cg2.meanSignificance),
+        reading1_mean: cg1.meanSignificance,
+        reading2_mean: cg2.meanSignificance,
+    };
+}
+function generateComparisonSummary(name1, name2, divergence, tensionDiff, coarseGrainDiff) {
+    const lines = [];
+    lines.push(`Comparison: "${name1}" vs "${name2}"`);
+    lines.push('');
+    lines.push(`Divergence:`);
+    lines.push(`  Events with significant diff: ${divergence.divergentEventCount}`);
+    lines.push(`  Mean divergence: ${divergence.meanEventDivergence.toFixed(3)}`);
+    lines.push(`  Max divergence: ${divergence.maxEventDivergence.toFixed(3)}`);
+    lines.push('');
+    const avgTensionDiff = tensionDiff.length > 0 ? tensionDiff.reduce((sum, td) => sum + td.diff, 0) / tensionDiff.length : 0;
+    lines.push(`Tension:`);
+    lines.push(`  Average tension difference: ${avgTensionDiff.toFixed(3)}`);
+    lines.push('');
+    lines.push(`Structure (coarse-graining):`);
+    lines.push(`  Mean significance diff: ${coarseGrainDiff.mean_significance_diff.toFixed(3)}`);
+    lines.push(`  "${name1}" mean: ${coarseGrainDiff.reading1_mean.toFixed(3)}`);
+    lines.push(`  "${name2}" mean: ${coarseGrainDiff.reading2_mean.toFixed(3)}`);
+    return lines.join('\n');
 }
 class NarrativeAnalysisSystem {
     constructor(title, author, description) {
@@ -213,6 +256,61 @@ class NarrativeAnalysisSystem {
     // ── Output ──
     getModel() {
         return this.model;
+    }
+    // ═══════════════════════════════════════════════
+    //  READING COMPARISON API
+    // ═══════════════════════════════════════════════
+    /**
+     * Add a reading to the story model.
+     */
+    addReading(reading) {
+        this.model.readings[reading.name] = reading;
+    }
+    /**
+     * Get a reading by name (public API).
+     */
+    getReadingByName(name) {
+        return this.model.readings[name];
+    }
+    /**
+     * List all reading names in the model.
+     */
+    listReadings() {
+        return Object.keys(this.model.readings);
+    }
+    /**
+     * Get tension curve for a specific reading.
+     */
+    getTensionCurve(readingName) {
+        const reading = this.getReadingByName(readingName);
+        if (!reading) {
+            throw new Error(`Reading "${readingName}" not found`);
+        }
+        return (0, derive_1.computeTensionCurve)(this.model.text, reading);
+    }
+    /**
+     * Compare two readings: divergence, tension differences, structural differences.
+     */
+    compareReadings(readingName1, readingName2) {
+        const r1 = this.getReadingByName(readingName1);
+        const r2 = this.getReadingByName(readingName2);
+        if (!r1)
+            throw new Error(`Reading "${readingName1}" not found`);
+        if (!r2)
+            throw new Error(`Reading "${readingName2}" not found`);
+        // Divergence
+        const divergence = (0, derive_1.computeDivergence)(r1, r2);
+        // Tension comparison
+        const curve1 = (0, derive_1.computeTensionCurve)(this.model.text, r1);
+        const curve2 = (0, derive_1.computeTensionCurve)(this.model.text, r2);
+        const tension_diff = compareTensionCurves(curve1, curve2);
+        // Coarse-grain comparison
+        const cg1 = (0, derive_1.coarseGrain)(this.model.text.rootSpan, r1);
+        const cg2 = (0, derive_1.coarseGrain)(this.model.text.rootSpan, r2);
+        const coarse_grain_diff = compareCoarseGrains(cg1, cg2);
+        // Summary
+        const summary = generateComparisonSummary(readingName1, readingName2, divergence, tension_diff, coarse_grain_diff);
+        return { divergence, tension_diff, coarse_grain_diff, summary };
     }
 }
 exports.NarrativeAnalysisSystem = NarrativeAnalysisSystem;

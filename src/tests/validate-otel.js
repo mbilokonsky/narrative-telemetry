@@ -365,7 +365,7 @@ if (jaegerParsed) {
     const childSpan = data.spans.find((s) => s.references && s.references.length > 0);
     check('Child spans have CHILD_OF references', childSpan?.references[0]?.refType === 'CHILD_OF');
     // Timestamps should be in microseconds
-    const rootJaeger = data.spans.find((s) => s.operationName.includes('STORY'));
+    const rootJaeger = data.spans.find((s) => s.operationName.startsWith('story:'));
     if (rootJaeger) {
         const expectedStartMicro = BASE_TIME * 1000000;
         check('Jaeger timestamps in microseconds', rootJaeger.startTime === expectedStartMicro);

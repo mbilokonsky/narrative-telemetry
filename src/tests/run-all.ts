@@ -9,6 +9,7 @@ const suites = [
   { name: 'Chunked Extraction', script: 'src/tests/validate-chunked.ts' },
   { name: 'Auto-Generated Output', script: 'src/tests/validate-auto.ts' },
   { name: 'OTEL Export', script: 'src/tests/validate-otel.ts' },
+  { name: 'CompareReadings API', script: 'src/tests/test-compare-readings.ts' },
 ];
 
 let totalPassed = 0;
