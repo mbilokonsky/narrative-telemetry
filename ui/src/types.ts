@@ -63,11 +63,17 @@ export interface Item {
   context?: string;
 }
 
+export interface AbsentialState {
+  timestamp: Timestamp;
+  data: Record<string, unknown>;
+  causedBy?: Record<string, unknown>;
+}
+
 export interface Absential {
   id: string;
   name: string;
   description: string;
-  stateHistory: unknown[];
+  stateHistory: AbsentialState[];
 }
 
 export interface Significance {
@@ -131,4 +137,5 @@ export type Selection =
   | { type: 'event'; id: string }
   | { type: 'span'; id: string }
   | { type: 'entity'; entityId: string }
+  | { type: 'absential'; absentialId: string }
   | null;

@@ -7,6 +7,7 @@ import { ReadingSelector } from './components/ReadingSelector'
 import { SpanWaterfall } from './components/SpanWaterfall'
 import { TextView } from './components/TextView'
 import { SplitTextView } from './components/SplitTextView'
+import { AbsentialList } from './components/AbsentialList'
 import { DetailInspector } from './components/DetailInspector'
 
 function App() {
@@ -90,6 +91,12 @@ function App() {
     )
   }, [])
 
+  const handleSelectAbsential = useCallback((absentialId: string) => {
+    setSelection(prev =>
+      prev?.type === 'absential' && prev.absentialId === absentialId ? null : { type: 'absential', absentialId }
+    )
+  }, [])
+
   if (error) {
     return <div className="loading">Error: {error}</div>
   }
@@ -133,6 +140,14 @@ function App() {
             onSelectEvent={handleSelectEvent}
             onSelectSpan={handleSelectSpan}
           />
+          {Object.keys(model.text.absentials).length > 0 && (
+            <AbsentialList
+              absentials={model.text.absentials}
+              reading={model.readings[activeReading]}
+              selection={selection}
+              onSelect={handleSelectAbsential}
+            />
+          )}
         </div>
         <div className="panel-center">
           {text.length > 0 ? (
@@ -175,6 +190,7 @@ function App() {
             activeReading={activeReading}
             compareMode={compareMode}
             readingKeys={readingKeys}
+            onSelectEvent={handleSelectEvent}
           />
         </div>
       </div>

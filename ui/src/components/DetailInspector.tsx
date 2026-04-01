@@ -1,6 +1,7 @@
 import type { StoryModel, Selection, Character, Setting, Item, Relationship, TextAnnotation } from '../types'
 import { significanceColor } from '../utils'
 import { TensionChart } from './TensionChart'
+import { AbsentialTimeline } from './AbsentialTimeline'
 
 interface DetailInspectorProps {
   model: StoryModel;
@@ -8,6 +9,7 @@ interface DetailInspectorProps {
   activeReading: string;
   compareMode: boolean;
   readingKeys: string[];
+  onSelectEvent?: (id: string) => void;
 }
 
 const READING_COLORS: Record<string, string> = {};
@@ -44,6 +46,7 @@ export function DetailInspector({
   activeReading,
   compareMode,
   readingKeys,
+  onSelectEvent,
 }: DetailInspectorProps) {
   const displayedReadings = compareMode ? readingKeys : [activeReading];
 
@@ -325,6 +328,29 @@ export function DetailInspector({
             </div>
           </div>
         )}
+        <TensionChart
+          tensions={tensionData}
+          selection={selection}
+          events={model.text.events}
+        />
+        <DetailStyle />
+      </div>
+    );
+  }
+
+  // Absential selected
+  if (selection.type === 'absential') {
+    const abs = model.text.absentials[selection.absentialId];
+    if (!abs) return <div className="detail-inspector">Unknown absential<DetailStyle /></div>;
+
+    return (
+      <div className="detail-inspector">
+        <AbsentialTimeline
+          absential={abs}
+          events={model.text.events}
+          reading={model.readings[activeReading]}
+          onSelectEvent={onSelectEvent ?? (() => {})}
+        />
         <TensionChart
           tensions={tensionData}
           selection={selection}

@@ -14,6 +14,7 @@ const suites = [
   { name: 'Eveline Corpus', script: 'src/tests/test-eveline.ts' },
   { name: 'Story Catalog', script: 'src/tests/test-story-catalog.ts' },
   { name: 'Divergence (UI)', script: 'src/tests/test-divergence-ui.ts' },
+  { name: 'Absential Timeline', script: 'src/tests/test-absential-timeline.ts' },
 ];
 
 let totalPassed = 0;
