@@ -8,6 +8,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
+    "ingest": "npx ts-node src/ingest-araby.ts",
+    "validate": "npx ts-node src/validate.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
