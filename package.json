@@ -12,6 +12,7 @@
     "validate": "npx ts-node src/validate.ts",
     "ui:dev": "cd ui && npx vite --open",
     "ui:build": "cd ui && npx vite build",
+    "ingest:auto": "npx ts-node src/ingest/cli.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
