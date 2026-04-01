@@ -9,6 +9,7 @@ import { TextView } from './components/TextView'
 import { SplitTextView } from './components/SplitTextView'
 import { AbsentialList } from './components/AbsentialList'
 import { AnalyzeView } from './components/AnalyzeView'
+import { ReadingEditor } from './components/ReadingEditor'
 import { DetailInspector } from './components/DetailInspector'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [analyzeMode, setAnalyzeMode] = useState(false)
+  const [editingReading, setEditingReading] = useState(false)
 
   const loadStory = useCallback((slug: string) => {
     const entry = getStoryBySlug(slug)
@@ -104,11 +106,35 @@ function App() {
     setCurrentSlug('')
   }, [])
 
+  const handleSaveReading = useCallback((readingName: string, reading: import('./types').Reading) => {
+    setModel(prev => {
+      if (!prev) return prev;
+      return {
+        ...prev,
+        readings: { ...prev.readings, [readingName]: reading },
+      };
+    });
+    setActiveReading(readingName);
+    setEditingReading(false);
+  }, [])
+
   const handleSelectAbsential = useCallback((absentialId: string) => {
     setSelection(prev =>
       prev?.type === 'absential' && prev.absentialId === absentialId ? null : { type: 'absential', absentialId }
     )
   }, [])
+
+  if (editingReading && model) {
+    return (
+      <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <ReadingEditor
+          model={model}
+          onSave={handleSaveReading}
+          onCancel={() => setEditingReading(false)}
+        />
+      </div>
+    )
+  }
 
   if (analyzeMode) {
     return (
@@ -160,6 +186,9 @@ function App() {
             compareMode={compareMode}
             onToggleCompare={readingKeys.length >= 2 ? () => setCompareMode(c => !c) : undefined}
           />
+          <button className="analyze-toggle" onClick={() => setEditingReading(true)}>
+            + Reading
+          </button>
           <button className="analyze-toggle" onClick={() => setAnalyzeMode(true)}>
             + Analyze
           </button>
