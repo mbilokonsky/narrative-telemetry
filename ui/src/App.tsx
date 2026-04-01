@@ -8,6 +8,7 @@ import { SpanWaterfall } from './components/SpanWaterfall'
 import { TextView } from './components/TextView'
 import { SplitTextView } from './components/SplitTextView'
 import { AbsentialList } from './components/AbsentialList'
+import { AnalyzeView } from './components/AnalyzeView'
 import { DetailInspector } from './components/DetailInspector'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   const [selection, setSelection] = useState<Selection>(null)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [analyzeMode, setAnalyzeMode] = useState(false)
 
   const loadStory = useCallback((slug: string) => {
     const entry = getStoryBySlug(slug)
@@ -91,11 +93,41 @@ function App() {
     )
   }, [])
 
+  const handleAnalysisComplete = useCallback((resultModel: StoryModel, sourceText: string) => {
+    setModel(resultModel)
+    setText(sourceText.split('\n'))
+    const readingKeys = Object.keys(resultModel.readings)
+    if (readingKeys.length > 0) setActiveReading(readingKeys[0])
+    setCompareMode(false)
+    setSelection(null)
+    setAnalyzeMode(false)
+    setCurrentSlug('')
+  }, [])
+
   const handleSelectAbsential = useCallback((absentialId: string) => {
     setSelection(prev =>
       prev?.type === 'absential' && prev.absentialId === absentialId ? null : { type: 'absential', absentialId }
     )
   }, [])
+
+  if (analyzeMode) {
+    return (
+      <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <div className="top-bar">
+          <div className="top-bar-left">
+            <div className="top-bar-title">Narrative Telemetry</div>
+          </div>
+          <button className="analyze-toggle" onClick={() => setAnalyzeMode(false)}>
+            Back to Explorer
+          </button>
+        </div>
+        <AnalyzeView
+          onAnalysisComplete={handleAnalysisComplete}
+          onCancel={() => setAnalyzeMode(false)}
+        />
+      </div>
+    )
+  }
 
   if (error) {
     return <div className="loading">Error: {error}</div>
@@ -128,6 +160,9 @@ function App() {
             compareMode={compareMode}
             onToggleCompare={readingKeys.length >= 2 ? () => setCompareMode(c => !c) : undefined}
           />
+          <button className="analyze-toggle" onClick={() => setAnalyzeMode(true)}>
+            + Analyze
+          </button>
         </div>
       </div>
       <div className="main-layout">

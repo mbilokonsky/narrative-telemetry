@@ -15,6 +15,7 @@ const suites = [
   { name: 'Story Catalog', script: 'src/tests/test-story-catalog.ts' },
   { name: 'Divergence (UI)', script: 'src/tests/test-divergence-ui.ts' },
   { name: 'Absential Timeline', script: 'src/tests/test-absential-timeline.ts' },
+  { name: 'Server & Analyze', script: 'src/tests/test-server.ts' },
 ];
 
 let totalPassed = 0;

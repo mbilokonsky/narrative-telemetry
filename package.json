@@ -10,6 +10,7 @@
     "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
     "ingest": "npx ts-node src/ingest-araby.ts",
     "validate": "npx ts-node src/validate.ts",
+    "server": "npx ts-node src/server.ts",
     "ui:setup": "mkdir -p ui/public/data/dubliners ui/public/data/mansfield && cp output/dubliners/*.json ui/public/data/dubliners/ && cp output/mansfield/*.json ui/public/data/mansfield/",
     "ui:dev": "npm run ui:setup && cd ui && npx vite --open",
     "ui:build": "npm run ui:setup && cd ui && npx vite build",
@@ -27,11 +28,15 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
     "@types/node": "^22.5.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.81.0"
+    "@anthropic-ai/sdk": "^0.81.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
   }
 }

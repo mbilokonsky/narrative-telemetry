@@ -74,3 +74,19 @@
   color: var(--text-dim);
   font-size: 16px;
 }
+
+.analyze-toggle {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.analyze-toggle:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
