@@ -1,23 +1,136 @@
-import { useEffect, useRef, useMemo } from 'react'
-import type { StoryEvent, Reading, Selection } from '../types'
+import { useEffect, useRef, useMemo, type ReactNode } from 'react'
+import type { StoryEvent, Reading, Selection, Character, Setting, Item } from '../types'
 import { significanceColor } from '../utils'
+
+interface EntityMention {
+  entityId: string;
+  mention: string;
+}
+
+interface Entities {
+  characters: Record<string, Character>;
+  settings: Record<string, Setting>;
+  items: Record<string, Item>;
+}
 
 interface TextViewProps {
   lines: string[];
   events: Record<string, StoryEvent>;
+  entities: Entities;
   reading: Reading;
   compareReading?: Reading;
   selection: Selection;
   onSelectEvent: (id: string) => void;
+  onSelectEntity: (entityId: string) => void;
+}
+
+/** Build a sorted list of all entity mentions (longest first to avoid partial matches). */
+function collectMentions(entities: Entities): EntityMention[] {
+  const mentions: EntityMention[] = [];
+
+  const addEntity = (id: string, entity: { name: string; textMentions?: string[] }) => {
+    if (entity.textMentions && entity.textMentions.length > 0) {
+      for (const m of entity.textMentions) {
+        mentions.push({ entityId: id, mention: m });
+      }
+    }
+    // Always include the entity name as a mention
+    mentions.push({ entityId: id, mention: entity.name });
+  };
+
+  for (const [id, c] of Object.entries(entities.characters)) addEntity(id, c);
+  for (const [id, s] of Object.entries(entities.settings)) addEntity(id, s);
+  for (const [id, i] of Object.entries(entities.items)) addEntity(id, i);
+
+  // Deduplicate (same entityId + mention)
+  const seen = new Set<string>();
+  const deduped: EntityMention[] = [];
+  for (const m of mentions) {
+    const key = `${m.entityId}::${m.mention}`;
+    if (!seen.has(key)) {
+      seen.add(key);
+      deduped.push(m);
+    }
+  }
+
+  // Sort by mention length descending (longest first)
+  deduped.sort((a, b) => b.mention.length - a.mention.length);
+  return deduped;
+}
+
+/** Annotate a line of text with clickable entity mentions. */
+function annotateLine(
+  line: string,
+  mentions: EntityMention[],
+  onSelectEntity: (entityId: string) => void,
+): ReactNode {
+  if (!line) return '\u00A0';
+
+  // Find all non-overlapping matches
+  type Match = { start: number; end: number; entityId: string };
+  const matches: Match[] = [];
+  const occupied = new Uint8Array(line.length);
+
+  for (const { entityId, mention } of mentions) {
+    let searchFrom = 0;
+    while (searchFrom < line.length) {
+      const idx = line.indexOf(mention, searchFrom);
+      if (idx === -1) break;
+      const end = idx + mention.length;
+      // Check no overlap
+      let overlap = false;
+      for (let i = idx; i < end; i++) {
+        if (occupied[i]) { overlap = true; break; }
+      }
+      if (!overlap) {
+        matches.push({ start: idx, end, entityId });
+        for (let i = idx; i < end; i++) occupied[i] = 1;
+      }
+      searchFrom = idx + 1;
+    }
+  }
+
+  if (matches.length === 0) return line;
+
+  // Sort matches by start position
+  matches.sort((a, b) => a.start - b.start);
+
+  const parts: ReactNode[] = [];
+  let cursor = 0;
+  for (let i = 0; i < matches.length; i++) {
+    const m = matches[i];
+    if (cursor < m.start) {
+      parts.push(line.slice(cursor, m.start));
+    }
+    parts.push(
+      <span
+        key={`em-${i}`}
+        className="entity-mention"
+        onClick={(e) => {
+          e.stopPropagation();
+          onSelectEntity(m.entityId);
+        }}
+      >
+        {line.slice(m.start, m.end)}
+      </span>
+    );
+    cursor = m.end;
+  }
+  if (cursor < line.length) {
+    parts.push(line.slice(cursor));
+  }
+  return <>{parts}</>;
 }
 
 export function TextView({
   lines,
   events,
+  entities,
   reading,
   compareReading,
   selection,
   onSelectEvent,
+  onSelectEntity,
 }: TextViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const selectedRef = useRef<HTMLDivElement>(null);
@@ -37,6 +150,9 @@ export function TextView({
     }
     return map;
   }, [events]);
+
+  // Collect entity mentions once
+  const mentions = useMemo(() => collectMentions(entities), [entities]);
 
   // Scroll selected event into view
   useEffect(() => {
@@ -115,7 +231,9 @@ export function TextView({
                 </div>
               )}
               <span className="line-number">{lineNum}</span>
-              <span className="line-text">{line || '\u00A0'}</span>
+              <span className="line-text">
+                {annotateLine(line, mentions, onSelectEntity)}
+              </span>
             </div>
           );
         })}
@@ -171,6 +289,14 @@ export function TextView({
         }
         .text-line.selected .line-text {
           color: var(--text-bright);
+        }
+        .entity-mention {
+          border-bottom: 1px dotted var(--text-muted, #666);
+          cursor: pointer;
+          transition: border-color 0.15s;
+        }
+        .entity-mention:hover {
+          border-bottom-color: var(--text-bright, #eee);
         }
         .compare-gutter {
           display: flex;

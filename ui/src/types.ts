@@ -29,18 +29,28 @@ export interface Character {
   description: string;
   tags: string[];
   type: string;
+  textMentions?: string[];
+  context?: string;
 }
 
 export interface Setting {
   id: string;
   name: string;
   description: string;
+  tags?: string[];
+  type?: string;
+  textMentions?: string[];
+  context?: string;
 }
 
 export interface Item {
   id: string;
   name: string;
   description: string;
+  tags?: string[];
+  type?: string;
+  textMentions?: string[];
+  context?: string;
 }
 
 export interface Absential {
@@ -95,7 +105,18 @@ export interface StoryModel {
   readings: Record<string, Reading>;
 }
 
+export interface Relationship {
+  id: string;
+  type: string;
+  participants: string[];
+  nature?: string;
+  name: string;
+  description: string;
+  tags?: string[];
+}
+
 export type Selection =
   | { type: 'event'; id: string }
   | { type: 'span'; id: string }
+  | { type: 'entity'; entityId: string }
   | null;

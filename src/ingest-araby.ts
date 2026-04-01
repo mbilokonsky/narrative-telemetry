@@ -43,6 +43,8 @@ const rootId = sys.getRootSpanId();
 
 const northRichmondSt = sys.addSetting({
   id: 'north-richmond-st',
+  textMentions: ['North Richmond Street'],
+  context: 'A real street in Dublin\'s north side. \'Being blind\' means it\'s a dead-end (cul-de-sac). The Christian Brothers\' School on this street was a real institution. Joyce lived briefly at 17 North Richmond Street as a child.',
   name: 'North Richmond Street', description: 'A blind (dead-end) street in Dublin',
   tags: ['dublin', 'residential', 'dead-end'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Dead-end street in north Dublin',
@@ -54,6 +56,8 @@ const northRichmondSt = sys.addSetting({
 
 const house = sys.addSetting({
   id: 'house',
+  textMentions: ['our house', 'the house'],
+  context: 'The house at the blind end of the street, formerly the priest\'s. The musty air, waste room, and wild garden establish the atmosphere of decay that pervades the story.',
   name: 'The boy\'s house (former priest\'s house)', description: 'House at the blind end, formerly inhabited by a dead priest',
   tags: ['domestic', 'gloomy', 'religious-remnants'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'End of North Richmond Street',
@@ -65,6 +69,8 @@ const house = sys.addSetting({
 
 const backDrawingRoom = sys.addSetting({
   id: 'back-drawing-room',
+  textMentions: ['back drawing-room'],
+  context: 'The room where the priest died becomes the boy\'s private space for intense emotional experience — a secular confession booth.',
   name: 'The back drawing-room', description: 'Room where the priest died; the boy retreats here for private emotional experiences',
   tags: ['domestic', 'death', 'devotion'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Back room of the house',
@@ -76,6 +82,8 @@ const backDrawingRoom = sys.addSetting({
 
 const wildGarden = sys.addSetting({
   id: 'wild-garden',
+  textMentions: ['wild garden'],
+  context: 'The overgrown garden with its central apple-tree evokes the Garden of Eden — another paradise lost.',
   name: 'The wild garden', description: 'Overgrown garden behind the house with a central apple-tree and straggling bushes',
   tags: ['garden', 'decay', 'nature'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Behind the house',
@@ -87,6 +95,8 @@ const wildGarden = sys.addSetting({
 
 const marketStreets = sys.addSetting({
   id: 'market-streets',
+  textMentions: ['flaring streets'],
+  context: 'The Saturday evening markets where the aunt shops. The street-singers\' \'come-all-you about O\'Donovan Rossa\' references Jeremiah O\'Donovan Rossa (1831-1915), an Irish Fenian and nationalist leader, grounding the story in political context.',
   name: 'The market streets', description: 'Flaring streets jostled by drunken men and bargaining women on Saturday evenings',
   tags: ['commercial', 'sensory', 'hostile'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Dublin market area',
@@ -98,6 +108,8 @@ const marketStreets = sys.addSetting({
 
 const classroom = sys.addSetting({
   id: 'classroom',
+  textMentions: ['classroom', 'class'],
+  context: 'The Christian Brothers\' School — a network of Catholic schools founded by Edmund Rice, providing education to working-class Irish boys.',
   name: 'The classroom', description: 'The boy\'s school where he cannot concentrate',
   tags: ['school', 'constraint', 'distraction'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Unspecified Dublin school',
@@ -109,6 +121,8 @@ const classroom = sys.addSetting({
 
 const buckinghamSt = sys.addSetting({
   id: 'buckingham-st',
+  textMentions: ['Buckingham Street'],
+  context: 'A real Dublin street leading to Westland Row Station (now Pearse Station). Named after the Duke of Buckingham — one of many Dublin streets bearing English/colonial names.',
   name: 'Buckingham Street / the station', description: 'Street leading to the train station; the boy walks here clutching the florin',
   tags: ['transit', 'journey'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Street near the train station',
@@ -120,6 +134,8 @@ const buckinghamSt = sys.addSetting({
 
 const trainCarriage = sys.addSetting({
   id: 'train-carriage',
+  textMentions: ['third-class carriage', 'bare carriage'],
+  context: 'Third-class was the cheapest fare. The \'special train for the bazaar\' and the boy\'s solitary journey emphasize his isolation.',
   name: 'The train carriage', description: 'A deserted third-class carriage on the special train to the bazaar',
   tags: ['transit', 'isolation'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Dublin rail line',
@@ -131,6 +147,8 @@ const trainCarriage = sys.addSetting({
 
 const arabyHall = sys.addSetting({
   id: 'araby-hall',
+  textMentions: ['Araby', 'bazaar', 'the hall'],
+  context: 'Based on the real \'Araby\' bazaar held in Dublin in May 1894 at the Royal Dublin Society grounds in Ballsbridge, a charity event with an orientalist theme. The real bazaar raised funds for Jervis Street Hospital.',
   name: 'Araby bazaar', description: 'A large hall displaying the magical name, nearly empty and closing',
   tags: ['bazaar', 'exotic', 'commercial', 'disillusionment'], type: DiegeticEntityType.SETTING,
   realm: RealmType.MATERIAL_REALITY, geography: 'Large hall in Dublin',
@@ -144,6 +162,8 @@ const arabyHall = sys.addSetting({
 
 const boy = sys.addCharacter({
   id: 'boy',
+  textMentions: [],
+  context: 'The unnamed narrator, looking back on a childhood experience. Joyce\'s Dubliners stories frequently use unnamed first-person narrators to achieve universality.',
   name: 'The boy (narrator as child)', description: 'Unnamed boy consumed by a romantic infatuation',
   tags: ['protagonist', 'youth', 'romantic', 'naive'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: { ...emptyEmotion(), anticipation: 0.6, joy: 0.3, intensity: 0.4 }, mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 12, gender: 'male', occupation: 'student', personalityTraits: ['imaginative', 'sensitive', 'earnest', 'naive'], coreValues: ['devotion', 'romance', 'adventure'], physicalDescription: 'Young boy, unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -152,6 +172,8 @@ const boy = sys.addCharacter({
 
 const mangansSister = sys.addCharacter({
   id: 'mangans-sister',
+  textMentions: ['Mangan\'s sister'],
+  context: 'Never named — she exists in the story only as someone\'s sister and as the boy\'s idealized projection. Her namelessness is often noted by critics as significant.',
   name: 'Mangan\'s sister', description: 'Unnamed older sister of the boy\'s friend, object of his infatuation',
   tags: ['love-interest', 'unattainable', 'idealized'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 14, gender: 'female', occupation: 'student (convent)', personalityTraits: ['graceful', 'distant'], coreValues: [], physicalDescription: 'Figure defined by light from half-opened door, soft rope of hair, silver bracelet', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -160,6 +182,8 @@ const mangansSister = sys.addCharacter({
 
 const uncle = sys.addCharacter({
   id: 'uncle',
+  textMentions: ['my uncle', 'uncle'],
+  context: 'The boy\'s guardian, whose forgetfulness and drinking represent the adult world\'s indifference to the boy\'s inner life.',
   name: 'The uncle', description: 'The boy\'s uncle and guardian, often drunk, forgetful',
   tags: ['guardian', 'obstacle', 'unreliable'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 45, gender: 'male', occupation: 'unspecified', personalityTraits: ['forgetful', 'well-meaning', 'unreliable'], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -168,6 +192,8 @@ const uncle = sys.addCharacter({
 
 const aunt = sys.addCharacter({
   id: 'aunt',
+  textMentions: ['my aunt', 'aunt'],
+  context: 'The more sympathetic guardian, who ultimately intervenes to get the boy his money. Her Freemasonry comment reflects the Catholic suspicion of Protestant organizations in turn-of-century Dublin.',
   name: 'The aunt', description: 'The boy\'s aunt, a cautious domestic presence',
   tags: ['guardian', 'domestic'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 40, gender: 'female', occupation: 'homemaker', personalityTraits: ['cautious', 'practical', 'devout'], coreValues: ['propriety', 'religion'], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -176,6 +202,8 @@ const aunt = sys.addCharacter({
 
 const mangan = sys.addCharacter({
   id: 'mangan',
+  textMentions: ['Mangan'],
+  context: 'The boy\'s friend, notable mainly as the sister\'s brother. The name may allude to James Clarence Mangan, an Irish poet whom Joyce admired and who wrote orientalist verse — connecting to the story\'s \'Eastern enchantment\' theme.',
   name: 'Mangan', description: 'The boy\'s friend, brother of the girl, barely individuated',
   tags: ['friend', 'minor'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: northRichmondSt, factionRelationships: {}, age: 12, gender: 'male', occupation: 'student', personalityTraits: [], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -184,6 +212,8 @@ const mangan = sys.addCharacter({
 
 const mrsMercer = sys.addCharacter({
   id: 'mrs-mercer',
+  textMentions: ['Mrs Mercer', 'Mrs. Mercer'],
+  context: 'A pawnbroker\'s widow who collects used stamps \'for some pious purpose.\' She embodies the intersection of commerce and piety that pervades Dublin in Dubliners.',
   name: 'Mrs. Mercer', description: 'A garrulous old pawnbroker\'s widow who collects used stamps for pious purposes',
   tags: ['minor', 'obstacle', 'pious'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(55), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 65, gender: 'female', occupation: 'pawnbroker\'s widow', personalityTraits: ['garrulous', 'pious'], coreValues: ['piety'], physicalDescription: 'Old', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -192,6 +222,8 @@ const mrsMercer = sys.addCharacter({
 
 const schoolmaster = sys.addCharacter({
   id: 'schoolmaster',
+  textMentions: ['my master'],
+  context: 'The boy\'s teacher at the Christian Brothers\' School, a Catholic educational institution common in Dublin.',
   name: 'The schoolmaster', description: 'The boy\'s teacher, notices his declining attention',
   tags: ['minor', 'authority'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(40), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: classroom, factionRelationships: {}, age: 40, gender: 'male', occupation: 'teacher', personalityTraits: ['stern', 'observant'], coreValues: ['discipline'], physicalDescription: 'Face passes from amiability to sternness', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -200,6 +232,8 @@ const schoolmaster = sys.addCharacter({
 
 const stallLady = sys.addCharacter({
   id: 'stall-lady',
+  textMentions: ['young lady', 'the young lady'],
+  context: 'The stall attendant whose banal flirtation with two Englishmen provides the story\'s devastating structural mirror to the boy\'s own romantic quest.',
   name: 'The young lady at the stall', description: 'A young woman flirting with two gentlemen at a bazaar stall, speaks to the boy without interest',
   tags: ['minor', 'mirror', 'english'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(83), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 22, gender: 'female', occupation: 'stall attendant', personalityTraits: ['flirtatious', 'indifferent'], coreValues: [], physicalDescription: 'Unspecified', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -208,6 +242,8 @@ const stallLady = sys.addCharacter({
 
 const twoGentlemen = sys.addCharacter({
   id: 'two-gentlemen',
+  textMentions: ['two young gentlemen', 'young gentlemen'],
+  context: 'Their English accents are the only detail given. In a postcolonial reading, they represent English cultural ownership of even the \'oriental\' fantasy space.',
   name: 'The two young gentlemen', description: 'Two young men with English accents flirting with the stall lady',
   tags: ['minor', 'english'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(83), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 25, gender: 'male', occupation: 'unspecified', personalityTraits: [], coreValues: [], physicalDescription: 'English accents noted', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -216,6 +252,8 @@ const twoGentlemen = sys.addCharacter({
 
 const turnstileMan = sys.addCharacter({
   id: 'turnstile-man',
+  textMentions: ['weary-looking man'],
+  context: 'Appears only to take the boy\'s shilling at the entrance.',
   name: 'The weary-looking man', description: 'Man at the turnstile who takes the boy\'s shilling',
   tags: ['minor', 'incidental'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(80), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: arabyHall, factionRelationships: {}, age: 50, gender: 'male', occupation: 'turnstile attendant', personalityTraits: ['weary'], coreValues: [], physicalDescription: 'Weary-looking', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -224,6 +262,8 @@ const turnstileMan = sys.addCharacter({
 
 const deadPriest = sys.addCharacter({
   id: 'dead-priest',
+  textMentions: ['The former tenant', 'priest', 'the late tenant'],
+  context: 'The unnamed priest who previously rented the house and died in the back drawing-room. He left his money to institutions and his furniture to his sister — a detail suggesting both charity and the absence of family. His eclectic library (Scott, a devotional text, Vidocq) hints at a complex inner life.',
   name: 'The dead priest', description: 'Former tenant who died in the back drawing-room; an absent presence haunting the house',
   tags: ['absent', 'death', 'religion'], type: DiegeticEntityType.CHARACTER,
   stateHistory: [{ timestamp: ts(0), data: { ...base('init'), emotionalState: emptyEmotion(), mentalConstructs: [], inventory: [], location: house, factionRelationships: {}, age: 0, gender: 'male', occupation: 'priest (deceased)', personalityTraits: ['charitable'], coreValues: ['charity', 'religion'], physicalDescription: 'Deceased', skills: {}, socialStatus: {} }, causedBy: {} }],
@@ -235,6 +275,8 @@ const deadPriest = sys.addCharacter({
 
 const bookAbbot = sys.addItem({
   id: 'book-abbot',
+  textMentions: ['The Abbot'],
+  context: 'The Abbot (1820) by Sir Walter Scott — a historical romance about Mary Queen of Scots. Scott was hugely popular but represented English literary culture. The presence of this book in an Irish priest\'s library reflects the cultural penetration of English literature.',
   name: 'The Abbot (Walter Scott)', description: 'A romantic historical novel found among the dead priest\'s papers',
   tags: ['book', 'priest', 'romance'], type: DiegeticEntityType.ITEM, itemType: 'book',
   origin: 'The dead priest\'s collection', physicalDescription: 'Paper-covered, curled and damp pages',
@@ -245,6 +287,8 @@ const bookAbbot = sys.addItem({
 
 const bookDevout = sys.addItem({
   id: 'book-devout',
+  textMentions: ['The Devout Communicant'],
+  context: 'A Catholic devotional manual by Pacificus Baker (1695). Its presence alongside Scott and Vidocq suggests the priest\'s reading ranged from pious to adventurous — or perhaps that he was more complex than his vocation suggests.',
   name: 'The Devout Communicant', description: 'A religious text found among the dead priest\'s papers',
   tags: ['book', 'priest', 'religion'], type: DiegeticEntityType.ITEM, itemType: 'book',
   origin: 'The dead priest\'s collection', physicalDescription: 'Paper-covered, curled and damp pages',
@@ -255,6 +299,8 @@ const bookDevout = sys.addItem({
 
 const bookVidocq = sys.addItem({
   id: 'book-vidocq',
+  textMentions: ['The Memoirs of Vidocq', 'Vidocq'],
+  context: 'The Memoirs of Eug\u00e8ne Fran\u00e7ois Vidocq (1775-1857), a French criminal who became the founder of the S\u00fbret\u00e9 Nationale, the first modern detective bureau. The boy \'liked it best because its leaves were yellow\' — drawn to the sensory quality rather than the content, a detail that prefigures his conflation of surface and substance throughout the story.',
   name: 'The Memoirs of Vidocq', description: 'Memoirs of a French criminal-turned-detective; the boy liked it best because its leaves were yellow',
   tags: ['book', 'priest', 'adventure', 'secular'], type: DiegeticEntityType.ITEM, itemType: 'book',
   origin: 'The dead priest\'s collection', physicalDescription: 'Yellow leaves',
@@ -265,6 +311,8 @@ const bookVidocq = sys.addItem({
 
 const bicyclePump = sys.addItem({
   id: 'bicycle-pump',
+  textMentions: ['rusty bicycle-pump'],
+  context: 'Found under a bush in the wild garden. A mundane object that emphasizes the priest\'s mortality and the passage of time — even his possessions are decaying.',
   name: 'The rusty bicycle-pump', description: 'Found under a bush in the wild garden, belonging to the dead priest',
   tags: ['priest', 'decay', 'mundane'], type: DiegeticEntityType.ITEM, itemType: 'bicycle part',
   origin: 'The dead priest\'s possessions', physicalDescription: 'Rusty',
@@ -275,6 +323,8 @@ const bicyclePump = sys.addItem({
 
 const silverBracelet = sys.addItem({
   id: 'silver-bracelet',
+  textMentions: ['silver bracelet', 'bracelet'],
+  context: 'The bracelet she turns \'round and round her wrist\' during their conversation is one of the story\'s most precisely observed sensory details. It\'s the kind of unconscious gesture that a boy in love would fixate on.',
   name: 'The silver bracelet', description: 'Bracelet on Mangan\'s sister\'s wrist, which she turns round and round during the conversation',
   tags: ['jewelry', 'sensory', 'iconic'], type: DiegeticEntityType.ITEM, itemType: 'jewelry',
   origin: 'Unknown', physicalDescription: 'Silver bracelet',
@@ -285,6 +335,8 @@ const silverBracelet = sys.addItem({
 
 const florin = sys.addItem({
   id: 'florin',
+  textMentions: ['florin'],
+  context: 'A two-shilling coin (one-tenth of a pound). Worth roughly \u00a312-15 in today\'s money. The boy pays a shilling (half the florin) at the turnstile and is left with two pennies and a sixpence — not enough to buy anything meaningful at the bazaar.',
   name: 'The florin', description: 'Two-shilling coin the uncle gives the boy for the bazaar',
   tags: ['money', 'permission'], type: DiegeticEntityType.ITEM, itemType: 'coin',
   origin: 'The uncle', physicalDescription: 'A florin (two shillings)',
@@ -295,6 +347,8 @@ const florin = sys.addItem({
 
 const remainingCoins = sys.addItem({
   id: 'remaining-coins',
+  textMentions: ['two pennies', 'sixpence'],
+  context: 'The boy \'allowed the two pennies to fall against the sixpence in my pocket\' — the sound of insufficient funds, the auditory counterpart to his visual epiphany.',
   name: 'Two pennies and a sixpence', description: 'The boy\'s remaining change after paying entrance; he lets them fall against each other',
   tags: ['money', 'failure', 'sound'], type: DiegeticEntityType.ITEM, itemType: 'coins',
   origin: 'Change from bazaar entrance fee', physicalDescription: 'Two pennies and a sixpence',

@@ -15,6 +15,8 @@ export interface NarrativeEntity<T extends NarrativeEntityState = NarrativeEntit
   stateHistory: State<T>[];
   firstIntroduced: EventID;
   lastSeen?: EventID;
+  textMentions?: string[];
+  context?: string;
 }
 
 export enum DiegeticEntityType {

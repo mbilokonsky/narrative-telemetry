@@ -42,6 +42,12 @@ function App() {
     )
   }, [])
 
+  const handleSelectEntity = useCallback((entityId: string) => {
+    setSelection(prev =>
+      prev?.type === 'entity' && prev.entityId === entityId ? null : { type: 'entity', entityId }
+    )
+  }, [])
+
   if (error) {
     return <div className="loading">Error: {error}</div>
   }
@@ -83,10 +89,12 @@ function App() {
           <TextView
             lines={text}
             events={model.text.events}
+            entities={model.text.diegetic}
             reading={model.readings[activeReading]}
             compareReading={compareMode ? model.readings[readingKeys.find(k => k !== activeReading) ?? activeReading] : undefined}
             selection={selection}
             onSelectEvent={handleSelectEvent}
+            onSelectEntity={handleSelectEntity}
           />
         </div>
         <div className="panel-right">

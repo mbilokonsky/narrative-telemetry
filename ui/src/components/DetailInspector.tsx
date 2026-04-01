@@ -1,4 +1,4 @@
-import type { StoryModel, Selection } from '../types'
+import type { StoryModel, Selection, Character, Setting, Item, Relationship } from '../types'
 import { significanceColor } from '../utils'
 import { TensionChart } from './TensionChart'
 
@@ -150,6 +150,153 @@ export function DetailInspector({
             })}
           </div>
         </div>
+        <TensionChart
+          tensions={tensionData}
+          selection={selection}
+          events={model.text.events}
+        />
+        <DetailStyle />
+      </div>
+    );
+  }
+
+  // Entity selected
+  if (selection.type === 'entity') {
+    const entityId = selection.entityId;
+    // Look up entity across all diegetic categories
+    const entity: (Character | Setting | Item) | undefined =
+      model.text.diegetic.characters[entityId] ??
+      model.text.diegetic.settings[entityId] ??
+      model.text.diegetic.items[entityId];
+
+    if (!entity) return <div className="detail-inspector">Unknown entity<DetailStyle /></div>;
+
+    // Determine entity category
+    const entityCategory = model.text.diegetic.characters[entityId]
+      ? 'Character'
+      : model.text.diegetic.settings[entityId]
+        ? 'Setting'
+        : 'Item';
+
+    // Find events this entity participates in
+    const participatingEvents = Object.values(model.text.events).filter(evt =>
+      evt.participants.includes(entityId)
+    );
+
+    // Find relationships this entity is involved in
+    const relationships: Relationship[] = [];
+    const interpersonal = model.text.relationships.interpersonal as Record<string, Relationship>;
+    for (const rel of Object.values(interpersonal)) {
+      if (rel.participants && rel.participants.includes(entityId)) {
+        relationships.push(rel);
+      }
+    }
+
+    // Collect textMentions
+    const textMentions = entity.textMentions ?? [];
+
+    // Tags
+    const tags = ('tags' in entity && entity.tags) ? entity.tags : [];
+
+    return (
+      <div className="detail-inspector">
+        <div className="detail-section">
+          <div className="detail-label">{entityCategory}</div>
+          <h3>{entity.name}</h3>
+          <p className="detail-desc">{entity.description}</p>
+          {entity.context && (
+            <p className="detail-desc" style={{ fontStyle: 'italic', marginTop: 8 }}>
+              {entity.context}
+            </p>
+          )}
+        </div>
+        {tags.length > 0 && (
+          <div className="detail-section">
+            <div className="detail-label">Tags</div>
+            <div className="detail-tags">
+              {tags.map(t => (
+                <span key={t} className="detail-tag">{t}</span>
+              ))}
+            </div>
+          </div>
+        )}
+        {participatingEvents.length > 0 && (
+          <div className="detail-section">
+            <div className="detail-label">Events ({participatingEvents.length})</div>
+            <div className="span-event-list">
+              {participatingEvents.map(evt => {
+                const sig = model.readings[activeReading].eventSignificance[evt.id]?.significance ?? 0;
+                return (
+                  <div key={evt.id} className="span-event-item">
+                    <div
+                      className="span-event-dot"
+                      style={{ background: significanceColor(sig) }}
+                    />
+                    <div>
+                      <div className="span-event-id">{evt.id}</div>
+                      <div className="span-event-desc">{evt.description}</div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+        {relationships.length > 0 && (
+          <div className="detail-section">
+            <div className="detail-label">Relationships</div>
+            <div className="span-event-list">
+              {relationships.map(rel => (
+                <div key={rel.id} className="span-event-item">
+                  <div className="span-event-dot" style={{ background: 'var(--accent)' }} />
+                  <div>
+                    <div className="span-event-id">{rel.name}</div>
+                    <div className="span-event-desc">{rel.description}</div>
+                    {rel.nature && (
+                      <div className="span-event-desc" style={{ fontStyle: 'italic' }}>{rel.nature}</div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        <div className="detail-section">
+          <div className="detail-label">Significance</div>
+          <div className="sig-rows">
+            {displayedReadings.map(key => {
+              const sig = model.readings[key].entitySignificance[entityId];
+              return (
+                <div key={key} className="sig-row">
+                  <div className="sig-reading-name">{key}</div>
+                  <div className="sig-bar-wrap">
+                    <div
+                      className="sig-bar"
+                      style={{
+                        width: `${(sig?.significance ?? 0) * 100}%`,
+                        background: significanceColor(sig?.significance ?? 0),
+                      }}
+                    />
+                    <span className="sig-value">
+                      {(sig?.significance ?? 0).toFixed(2)}
+                    </span>
+                  </div>
+                  {sig?.note && <div className="sig-note">{sig.note}</div>}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        {textMentions.length > 0 && (
+          <div className="detail-section">
+            <div className="detail-label">Referenced in text</div>
+            <div className="detail-tags">
+              {textMentions.map(m => (
+                <span key={m} className="detail-tag">{m}</span>
+              ))}
+            </div>
+          </div>
+        )}
         <TensionChart
           tensions={tensionData}
           selection={selection}
