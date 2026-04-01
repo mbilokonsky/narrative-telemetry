@@ -50,7 +50,7 @@ LLM reads raw text and produces a neutral, exhaustive TextModel:
 ---
 
 ## Phase 2: Interpret (Pass 2 — Reading)
-**Status:** queued (depends on Phase 1)
+**Status:** done
 **Files:** `src/ingest/interpret.ts`
 
 Given a completed TextModel + a lens description, LLM produces a Reading:
