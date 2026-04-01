@@ -6,7 +6,7 @@ import { Item } from './entities/item';
 import { Setting } from './entities/setting';
 import { Faction } from './entities/faction';
 import { Theme } from './entities/theme';
-import { Symbol } from './entities/symbol';
+import { NarrativeSymbol } from './entities/symbol';
 import { Author } from './entities/author';
 import { Narrator } from './entities/narrator';
 import { Reader } from './entities/reader';
@@ -27,7 +27,7 @@ export type AnyNewEntityCreation =
   NewEntityCreation<Setting> |
   NewEntityCreation<Faction> |
   NewEntityCreation<Theme> |
-  NewEntityCreation<Symbol> |
+  NewEntityCreation<NarrativeSymbol> |
   NewEntityCreation<Author> |
   NewEntityCreation<Narrator> |
   NewEntityCreation<Reader> |

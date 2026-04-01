@@ -19,14 +19,14 @@ export interface NarrativeEntity<T extends NarrativeEntityState = NarrativeEntit
   lastSeen?: EventID;
 }
 
-export enum DiageticEntityType {
+export enum DiegeticEntityType {
   CHARACTER = 'character',
   SETTING = 'setting',
   ITEM = 'item',
   FACTION = 'faction'
 }
 
-export enum NondiageticEntityType {
+export enum NonDiegeticEntityType {
   READER = 'reader',
   THEME = 'theme',
   SYMBOL = 'symbol',
@@ -34,14 +34,14 @@ export enum NondiageticEntityType {
   NARRATOR = 'narrator'
 }
 
-export type NarrativeEntityType = DiageticEntityType | NondiageticEntityType;
+export type NarrativeEntityType = DiegeticEntityType | NonDiegeticEntityType;
 
-export interface DiageticEntity<T extends NarrativeEntityState = NarrativeEntityState> extends NarrativeEntity<T> {
-  type: DiageticEntityType;
+export interface DiegeticEntity<T extends NarrativeEntityState = NarrativeEntityState> extends NarrativeEntity<T> {
+  type: DiegeticEntityType;
 }
 
-export interface Nondiagetic<T extends NarrativeEntityState = NarrativeEntityState> extends NarrativeEntity<T> {
-  type: NondiageticEntityType;
+export interface NonDiegeticEntity<T extends NarrativeEntityState = NarrativeEntityState> extends NarrativeEntity<T> {
+  type: NonDiegeticEntityType;
 }
 
 export * from './entities/absential';

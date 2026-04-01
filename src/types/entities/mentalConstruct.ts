@@ -39,9 +39,9 @@ export interface MentalConstruct extends NarrativeEntity<MentalConstructState> {
   holder: NarrativeEntityID;
   isDiegetic: boolean;
   source?: NarrativeEntityID | EventID;
-  relatedConstructs: Set<NarrativeEntityID>;
-  conflictingConstructs: Set<NarrativeEntityID>;
-  supportingConstructs: Set<NarrativeEntityID>;
+  relatedConstructs: NarrativeEntityID[];
+  conflictingConstructs: NarrativeEntityID[];
+  supportingConstructs: NarrativeEntityID[];
 }
 
 export interface MentalConstructRelationship {

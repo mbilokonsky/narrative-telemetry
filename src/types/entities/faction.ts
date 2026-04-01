@@ -1,6 +1,6 @@
 // this file is nested within the entities/ folder
 import { NarrativeEntityID } from '../core';
-import { DiageticEntity, DiageticEntityType, NarrativeEntityState } from '../narrativeEntity';
+import { DiegeticEntity, DiegeticEntityType, NarrativeEntityState } from '../narrativeEntity';
 import { MentalConstructRelationship } from './mentalConstruct';
 import { RelationshipState } from './relationship';
 
@@ -14,8 +14,8 @@ export interface FactionState extends NarrativeEntityState {
   publicOpinion: number;
 }
 
-export interface Faction extends DiageticEntity<FactionState> {
-  type: DiageticEntityType.FACTION;
+export interface Faction extends DiegeticEntity<FactionState> {
+  type: DiegeticEntityType.FACTION;
   foundingPrinciples: string[];
   historicalContext: string;
   organizationalStructure: string;

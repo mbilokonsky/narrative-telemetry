@@ -1,6 +1,6 @@
 // this file is nested within the entities/ folder
 import { NarrativeEntityID } from '../core';
-import { Nondiagetic, NondiageticEntityType, NarrativeEntityState } from '../narrativeEntity';
+import { NonDiegeticEntity, NonDiegeticEntityType, NarrativeEntityState } from '../narrativeEntity';
 
 export interface SymbolState extends NarrativeEntityState {
   currentMeanings: Array<{
@@ -10,6 +10,6 @@ export interface SymbolState extends NarrativeEntityState {
   currentManifestations: NarrativeEntityID[];
 }
 
-export interface Symbol extends Nondiagetic<SymbolState> {
-  type: NondiageticEntityType.SYMBOL;
+export interface NarrativeSymbol extends NonDiegeticEntity<SymbolState> {
+  type: NonDiegeticEntityType.SYMBOL;
 }

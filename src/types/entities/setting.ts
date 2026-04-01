@@ -1,6 +1,6 @@
 // this file is nested within the entities/ folder
 import { NarrativeEntityID, RealmType } from '../core';
-import { DiageticEntity, DiageticEntityType, NarrativeEntityState } from '../narrativeEntity';
+import { DiegeticEntity, DiegeticEntityType, NarrativeEntityState } from '../narrativeEntity';
 
 export interface SettingState extends NarrativeEntityState {
   currentCharacters: NarrativeEntityID[];
@@ -12,8 +12,8 @@ export interface SettingState extends NarrativeEntityState {
   atmosphere: string;
 }
 
-export interface Setting extends DiageticEntity<SettingState> {
-  type: DiageticEntityType.SETTING;
+export interface Setting extends DiegeticEntity<SettingState> {
+  type: DiegeticEntityType.SETTING;
   realm: RealmType;
   geography: string;
   climate: string;

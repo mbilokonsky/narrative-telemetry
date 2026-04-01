@@ -1,6 +1,6 @@
 // this file is nested within the entities/ folder
 import { NarrativeEntityID, Timestamp } from '../core';
-import { Nondiagetic, NondiageticEntityType, NarrativeEntityState } from '../narrativeEntity';
+import { NonDiegeticEntity, NonDiegeticEntityType, NarrativeEntityState } from '../narrativeEntity';
 
 export interface ThemeState extends NarrativeEntityState {
   prevalence: number;
@@ -18,6 +18,6 @@ export interface ThemeState extends NarrativeEntityState {
   }>;
 }
 
-export interface Theme extends Nondiagetic<ThemeState> {
-  type: NondiageticEntityType.THEME;
+export interface Theme extends NonDiegeticEntity<ThemeState> {
+  type: NonDiegeticEntityType.THEME;
 }

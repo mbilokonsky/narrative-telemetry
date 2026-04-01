@@ -1,4 +1,5 @@
 # defaults for nodejs typescript project:
 node_modules/
 dist/
+data/
 *.log

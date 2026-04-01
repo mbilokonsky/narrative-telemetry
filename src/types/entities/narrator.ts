@@ -1,6 +1,6 @@
 // this file is nested within the entities/ folder
 import { NarratorPerspective } from '../core';
-import { Nondiagetic, NondiageticEntityType, NarrativeEntityState } from '../narrativeEntity';
+import { NonDiegeticEntity, NonDiegeticEntityType, NarrativeEntityState } from '../narrativeEntity';
 import { MentalConstructRelationship } from './mentalConstruct';
 
 export interface NarratorState extends NarrativeEntityState {
@@ -9,6 +9,6 @@ export interface NarratorState extends NarrativeEntityState {
   perspective: NarratorPerspective;
 }
 
-export interface Narrator extends Nondiagetic<NarratorState> {
-  type: NondiageticEntityType.NARRATOR;
+export interface Narrator extends NonDiegeticEntity<NarratorState> {
+  type: NonDiegeticEntityType.NARRATOR;
 }

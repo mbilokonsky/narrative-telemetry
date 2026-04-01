@@ -1,6 +1,6 @@
 import { StorySpanType, Timestamp, NarrativeEntityID, NarrativeStateVersion, EventID, NarrativeEventType } from './core';
 import { Event } from './events';
-import { Absential, Character, Setting, Item, Faction, InterpersonalRelationship, SymbolicRelationship, GroupRelationship, Reader, Theme, Symbol, Author, Narrator } from './narrativeEntity';
+import { Absential, Character, Setting, Item, Faction, InterpersonalRelationship, SymbolicRelationship, GroupRelationship, Reader, Theme, NarrativeSymbol, Author, Narrator, MentalConstruct } from './narrativeEntity';
 
 export interface StorySpan {
   id: string;
@@ -34,26 +34,27 @@ export interface StoryModel {
   description: string;
   rootSpan: StorySpan;
   entities: {
-    diagetic: {
+    diegetic: {
       characters: Record<NarrativeEntityID, Character>;
       settings: Record<NarrativeEntityID, Setting>;
       items: Record<NarrativeEntityID, Item>;
       factions: Record<NarrativeEntityID, Faction>;
-    },
-    nondiagetic: {
-      themes: Record<string, Theme>;
-      symbols: Record<string, Symbol>;
-      authors: Record<string, Author>;
-      narrators: Record<string, Narrator>;
-      readers: Record<string, Reader>;
-    }
-  }
+    };
+    nonDiegetic: {
+      themes: Record<NarrativeEntityID, Theme>;
+      symbols: Record<NarrativeEntityID, NarrativeSymbol>;
+      authors: Record<NarrativeEntityID, Author>;
+      narrators: Record<NarrativeEntityID, Narrator>;
+      readers: Record<NarrativeEntityID, Reader>;
+    };
+  };
   relationships: {
     interpersonal: Record<NarrativeEntityID, InterpersonalRelationship>;
     group: Record<NarrativeEntityID, GroupRelationship>;
     symbolic: Record<NarrativeEntityID, SymbolicRelationship>;
   };
+  mentalConstructs: Record<NarrativeEntityID, MentalConstruct>;
   events: Record<EventID, Event>;
-  absentials: Record<string, Absential>;
+  absentials: Record<NarrativeEntityID, Absential>;
   globalTension: Array<{ timestamp: Timestamp; value: number }>;
 }

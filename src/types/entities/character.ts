@@ -1,6 +1,6 @@
 // this file is nested within the entities/ folder
 import { NarrativeEntityID, Emotion } from '../core';
-import { DiageticEntity, DiageticEntityType, NarrativeEntityState } from '../narrativeEntity';
+import { DiegeticEntity, DiegeticEntityType, NarrativeEntityState } from '../narrativeEntity';
 import { MentalConstructRelationship } from './mentalConstruct';
 
 export interface CharacterState extends NarrativeEntityState {
@@ -22,6 +22,6 @@ export interface CharacterState extends NarrativeEntityState {
   socialStatus: Record<NarrativeEntityID, number>;
 }
 
-export interface Character extends DiageticEntity<CharacterState> {
-  type: DiageticEntityType.CHARACTER;
+export interface Character extends DiegeticEntity<CharacterState> {
+  type: DiegeticEntityType.CHARACTER;
 }

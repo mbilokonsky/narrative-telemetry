@@ -1,6 +1,6 @@
 // this file is nested within the entities/ folder
 import { NarrativeEntityID } from '../core';
-import { DiageticEntity, DiageticEntityType, NarrativeEntityState } from '../narrativeEntity';
+import { DiegeticEntity, DiegeticEntityType, NarrativeEntityState } from '../narrativeEntity';
 
 export interface ItemState extends NarrativeEntityState {
   location: NarrativeEntityID;
@@ -10,8 +10,8 @@ export interface ItemState extends NarrativeEntityState {
   currentUse?: string;
 }
 
-export interface Item extends DiageticEntity<ItemState> {
-  type: DiageticEntityType.ITEM;
+export interface Item extends DiegeticEntity<ItemState> {
+  type: DiegeticEntityType.ITEM;
   itemType: string;
   origin: string;
   physicalDescription: string;
