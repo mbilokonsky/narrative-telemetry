@@ -1,0 +1,5005 @@
+{
+  "text": {
+    "title": "A Little Cloud",
+    "author": "James Joyce",
+    "description": "Little Chandler, a modest Dublin clerk, reunites with his old friend Ignatius Gallaher, a successful London journalist, and becomes consumed with envy and regret about his own constrained life. Upon returning home, his frustration with his domestic situation erupts when he loses patience with his crying child.",
+    "rootSpan": {
+      "id": "span_1",
+      "type": "story",
+      "title": "A Little Cloud",
+      "description": "Little Chandler, a modest Dublin clerk, reunites with his old friend Ignatius Gallaher, a successful London journalist, and becomes consumed with envy and regret about his own constrained life. Upon returning home, his frustration with his domestic situation erupts when he loses patience with his crying child.",
+      "startTimestamp": {
+        "percentage": 0
+      },
+      "endTimestamp": {
+        "percentage": 100
+      },
+      "events": [],
+      "childSpans": [
+        {
+          "id": "span_2",
+          "type": "act",
+          "title": "Anticipation and Preparation",
+          "description": "Little Chandler's thoughts and journey toward meeting Gallaher",
+          "startTimestamp": {
+            "percentage": 0
+          },
+          "endTimestamp": {
+            "percentage": 35
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_3",
+              "type": "scene",
+              "title": "At the Office",
+              "description": "Little Chandler at his desk at King's Inns, reflecting on Gallaher's success and his own life",
+              "startTimestamp": {
+                "percentage": 0
+              },
+              "endTimestamp": {
+                "percentage": 15
+              },
+              "events": [
+                "e03-poetry-books-memory"
+              ],
+              "childSpans": [
+                {
+                  "id": "span_4",
+                  "type": "beat",
+                  "title": "Eight Years Past",
+                  "description": "Reflection on Gallaher's departure and transformation",
+                  "startTimestamp": {
+                    "percentage": 0
+                  },
+                  "endTimestamp": {
+                    "percentage": 5
+                  },
+                  "events": [
+                    "e01-memory-of-gallaher"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_5",
+                  "type": "beat",
+                  "title": "Little Chandler's Character",
+                  "description": "Physical and personality description of Little Chandler",
+                  "startTimestamp": {
+                    "percentage": 5
+                  },
+                  "endTimestamp": {
+                    "percentage": 10
+                  },
+                  "events": [],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_6",
+                  "type": "beat",
+                  "title": "Sunset Contemplation",
+                  "description": "Chandler gazes from his office window at the autumn sunset and reflects on life",
+                  "startTimestamp": {
+                    "percentage": 10
+                  },
+                  "endTimestamp": {
+                    "percentage": 15
+                  },
+                  "events": [
+                    "e02-office-melancholy"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_7",
+              "type": "scene",
+              "title": "Journey to Corless's",
+              "description": "Little Chandler's walk through Dublin toward the meeting place",
+              "startTimestamp": {
+                "percentage": 15
+              },
+              "endTimestamp": {
+                "percentage": 35
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_8",
+                  "type": "beat",
+                  "title": "Leaving King's Inns",
+                  "description": "Chandler leaves his desk and emerges into the street",
+                  "startTimestamp": {
+                    "percentage": 15
+                  },
+                  "endTimestamp": {
+                    "percentage": 18
+                  },
+                  "events": [
+                    "e04-leaving-office"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_9",
+                  "type": "beat",
+                  "title": "Henrietta Street",
+                  "description": "Chandler walks through the grimy street, indifferent to the children",
+                  "startTimestamp": {
+                    "percentage": 18
+                  },
+                  "endTimestamp": {
+                    "percentage": 22
+                  },
+                  "events": [
+                    "e05-street-walk"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_10",
+                  "type": "beat",
+                  "title": "Knowledge of Corless's",
+                  "description": "Chandler's thoughts about the restaurant and its patrons",
+                  "startTimestamp": {
+                    "percentage": 22
+                  },
+                  "endTimestamp": {
+                    "percentage": 28
+                  },
+                  "events": [
+                    "e06-corless-knowledge"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_11",
+                  "type": "beat",
+                  "title": "Poetic Ambitions",
+                  "description": "Chandler fantasizes about becoming a poet and publishing his work",
+                  "startTimestamp": {
+                    "percentage": 28
+                  },
+                  "endTimestamp": {
+                    "percentage": 34
+                  },
+                  "events": [
+                    "e07-poetic-ambition"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_12",
+                  "type": "beat",
+                  "title": "Entering Corless's",
+                  "description": "Chandler arrives at and enters the restaurant",
+                  "startTimestamp": {
+                    "percentage": 34
+                  },
+                  "endTimestamp": {
+                    "percentage": 35
+                  },
+                  "events": [
+                    "e08-arrival-at-corless"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_13",
+          "type": "act",
+          "title": "The Reunion",
+          "description": "Little Chandler and Ignatius Gallaher meet and converse at Corless's",
+          "startTimestamp": {
+            "percentage": 35
+          },
+          "endTimestamp": {
+            "percentage": 75
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_14",
+              "type": "scene",
+              "title": "Inside Corless's",
+              "description": "Chandler enters the bar and encounters Gallaher",
+              "startTimestamp": {
+                "percentage": 35
+              },
+              "endTimestamp": {
+                "percentage": 42
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_15",
+                  "type": "beat",
+                  "title": "The Bar",
+                  "description": "Chandler's disorientation upon entering the noisy, bright bar",
+                  "startTimestamp": {
+                    "percentage": 35
+                  },
+                  "endTimestamp": {
+                    "percentage": 38
+                  },
+                  "events": [
+                    "e09-bar-confusion"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_16",
+                  "type": "beat",
+                  "title": "Gallaher Appears",
+                  "description": "Chandler spots Gallaher at the counter",
+                  "startTimestamp": {
+                    "percentage": 38
+                  },
+                  "endTimestamp": {
+                    "percentage": 42
+                  },
+                  "events": [
+                    "e10-gallaher-greeting"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_17",
+              "type": "scene",
+              "title": "First Drinks and Pleasantries",
+              "description": "Gallaher and Chandler order drinks and exchange initial greetings",
+              "startTimestamp": {
+                "percentage": 42
+              },
+              "endTimestamp": {
+                "percentage": 55
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_18",
+                  "type": "beat",
+                  "title": "Gallaher's Appearance",
+                  "description": "Detailed description of Gallaher's physical features",
+                  "startTimestamp": {
+                    "percentage": 42
+                  },
+                  "endTimestamp": {
+                    "percentage": 46
+                  },
+                  "events": [
+                    "e11-gallaher-appearance"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_19",
+                  "type": "beat",
+                  "title": "Ordering Whisky",
+                  "description": "Gallaher orders drinks and they toast",
+                  "startTimestamp": {
+                    "percentage": 46
+                  },
+                  "endTimestamp": {
+                    "percentage": 50
+                  },
+                  "events": [
+                    "e12-whisky-order"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_20",
+                  "type": "beat",
+                  "title": "Catching Up",
+                  "description": "Discussion of mutual acquaintances and their fates",
+                  "startTimestamp": {
+                    "percentage": 50
+                  },
+                  "endTimestamp": {
+                    "percentage": 55
+                  },
+                  "events": [
+                    "e13-old-friends-talk",
+                    "e14-hogan-ohara-discussion",
+                    "e15-isle-of-man-reference"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_21",
+              "type": "scene",
+              "title": "Travel and Paris",
+              "description": "Gallaher describes his travels and experiences abroad",
+              "startTimestamp": {
+                "percentage": 55
+              },
+              "endTimestamp": {
+                "percentage": 65
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_22",
+                  "type": "beat",
+                  "title": "Paris Described",
+                  "description": "Gallaher discusses the beauty and life of Paris",
+                  "startTimestamp": {
+                    "percentage": 55
+                  },
+                  "endTimestamp": {
+                    "percentage": 59
+                  },
+                  "events": [
+                    "e16-paris-discussion"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_23",
+                  "type": "beat",
+                  "title": "Bohemian Experiences",
+                  "description": "Gallaher recounts visits to Moulin Rouge and cafés",
+                  "startTimestamp": {
+                    "percentage": 59
+                  },
+                  "endTimestamp": {
+                    "percentage": 62
+                  },
+                  "events": [
+                    "e17-moulin-rouge"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_24",
+                  "type": "beat",
+                  "title": "Immorality and Corruption",
+                  "description": "Gallaher discusses vice and corruption in European cities",
+                  "startTimestamp": {
+                    "percentage": 62
+                  },
+                  "endTimestamp": {
+                    "percentage": 65
+                  },
+                  "events": [
+                    "e18-immorality-discussion",
+                    "e19-corruption-stories"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_25",
+              "type": "scene",
+              "title": "Personal Matters",
+              "description": "Gallaher learns of Chandler's marriage and child",
+              "startTimestamp": {
+                "percentage": 65
+              },
+              "endTimestamp": {
+                "percentage": 75
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_26",
+                  "type": "beat",
+                  "title": "Chandler's Marriage",
+                  "description": "Gallaher learns Chandler married and offers congratulations",
+                  "startTimestamp": {
+                    "percentage": 65
+                  },
+                  "endTimestamp": {
+                    "percentage": 68
+                  },
+                  "events": [
+                    "e20-marriage-revelation"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_27",
+                  "type": "beat",
+                  "title": "The Child",
+                  "description": "Gallaher learns Chandler has a son",
+                  "startTimestamp": {
+                    "percentage": 68
+                  },
+                  "endTimestamp": {
+                    "percentage": 70
+                  },
+                  "events": [
+                    "e21-child-revelation"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_28",
+                  "type": "beat",
+                  "title": "Invitation Declined",
+                  "description": "Chandler invites Gallaher to visit; Gallaher declines due to prior engagement",
+                  "startTimestamp": {
+                    "percentage": 70
+                  },
+                  "endTimestamp": {
+                    "percentage": 72
+                  },
+                  "events": [
+                    "e22-invitation-declined"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_29",
+                  "type": "beat",
+                  "title": "Marriage and Money",
+                  "description": "Chandler and Gallaher discuss marriage prospects and Gallaher's intentions",
+                  "startTimestamp": {
+                    "percentage": 72
+                  },
+                  "endTimestamp": {
+                    "percentage": 75
+                  },
+                  "events": [
+                    "e23-marriage-prospects",
+                    "e24-final-toast"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_30",
+          "type": "act",
+          "title": "Return Home and Crisis",
+          "description": "Little Chandler returns home and his frustration erupts in anger at his child",
+          "startTimestamp": {
+            "percentage": 75
+          },
+          "endTimestamp": {
+            "percentage": 100
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_31",
+              "type": "scene",
+              "title": "At Home with the Child",
+              "description": "Chandler arrives home and is left alone with his sleeping son",
+              "startTimestamp": {
+                "percentage": 75
+              },
+              "endTimestamp": {
+                "percentage": 85
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_32",
+                  "type": "beat",
+                  "title": "Domestic Setting",
+                  "description": "Chandler enters the room holding his child",
+                  "startTimestamp": {
+                    "percentage": 75
+                  },
+                  "endTimestamp": {
+                    "percentage": 77
+                  },
+                  "events": [
+                    "e25-home-arrival"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_33",
+                  "type": "beat",
+                  "title": "Annie's Departure",
+                  "description": "Annie leaves to buy tea and sugar, leaving the child with Chandler",
+                  "startTimestamp": {
+                    "percentage": 77
+                  },
+                  "endTimestamp": {
+                    "percentage": 79
+                  },
+                  "events": [
+                    "e26-annie-departure"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_34",
+                  "type": "beat",
+                  "title": "Contemplating Annie's Photograph",
+                  "description": "Chandler examines a photograph of his wife and reflects on their relationship",
+                  "startTimestamp": {
+                    "percentage": 79
+                  },
+                  "endTimestamp": {
+                    "percentage": 83
+                  },
+                  "events": [
+                    "e27-photograph-contemplation"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_35",
+                  "type": "beat",
+                  "title": "Reading Byron",
+                  "description": "Chandler opens a volume of Byron's poems and begins to read",
+                  "startTimestamp": {
+                    "percentage": 83
+                  },
+                  "endTimestamp": {
+                    "percentage": 85
+                  },
+                  "events": [
+                    "e28-byron-reading"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_36",
+              "type": "scene",
+              "title": "The Child's Crying and Chandler's Outburst",
+              "description": "The child wakes and cries; Chandler loses his temper",
+              "startTimestamp": {
+                "percentage": 85
+              },
+              "endTimestamp": {
+                "percentage": 95
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_37",
+                  "type": "beat",
+                  "title": "The Child Awakens",
+                  "description": "The child wakes and begins to cry",
+                  "startTimestamp": {
+                    "percentage": 85
+                  },
+                  "endTimestamp": {
+                    "percentage": 87
+                  },
+                  "events": [
+                    "e29-child-awakens"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_38",
+                  "type": "beat",
+                  "title": "Failed Soothing",
+                  "description": "Chandler attempts to soothe the child but fails",
+                  "startTimestamp": {
+                    "percentage": 87
+                  },
+                  "endTimestamp": {
+                    "percentage": 90
+                  },
+                  "events": [
+                    "e30-chandler-frustration"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_39",
+                  "type": "beat",
+                  "title": "Chandler's Outburst",
+                  "description": "Chandler shouts at the child in anger",
+                  "startTimestamp": {
+                    "percentage": 90
+                  },
+                  "endTimestamp": {
+                    "percentage": 92
+                  },
+                  "events": [
+                    "e31-chandler-shouts"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_40",
+                  "type": "beat",
+                  "title": "Escalating Crisis",
+                  "description": "The child screams and Chandler becomes alarmed at its distress",
+                  "startTimestamp": {
+                    "percentage": 92
+                  },
+                  "endTimestamp": {
+                    "percentage": 95
+                  },
+                  "events": [
+                    "e32-child-screams"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_41",
+              "type": "scene",
+              "title": "Annie's Return and Aftermath",
+              "description": "Annie returns home and discovers what has happened",
+              "startTimestamp": {
+                "percentage": 95
+              },
+              "endTimestamp": {
+                "percentage": 100
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_42",
+                  "type": "beat",
+                  "title": "Annie Bursts In",
+                  "description": "Annie returns home and finds the child in distress",
+                  "startTimestamp": {
+                    "percentage": 95
+                  },
+                  "endTimestamp": {
+                    "percentage": 97
+                  },
+                  "events": [
+                    "e33-annie-returns"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_43",
+                  "type": "beat",
+                  "title": "Confrontation",
+                  "description": "Annie confronts Chandler and takes the child from him",
+                  "startTimestamp": {
+                    "percentage": 97
+                  },
+                  "endTimestamp": {
+                    "percentage": 99
+                  },
+                  "events": [
+                    "e34-annie-confrontation"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_44",
+                  "type": "beat",
+                  "title": "Remorse",
+                  "description": "Chandler feels shame and remorse as Annie comforts the child",
+                  "startTimestamp": {
+                    "percentage": 99
+                  },
+                  "endTimestamp": {
+                    "percentage": 100
+                  },
+                  "events": [
+                    "e35-chandler-shame"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "diegetic": {
+      "characters": {
+        "little-chandler": {
+          "id": "little-chandler",
+          "name": "Little Chandler",
+          "description": "A modest, refined Dublin clerk in his early thirties who is consumed with envy of his old friend's success and harbors unfulfilled literary ambitions",
+          "tags": [
+            "protagonist",
+            "clerk",
+            "aspiring-poet",
+            "husband",
+            "father"
+          ],
+          "textMentions": [
+            "Little Chandler",
+            "Tommy",
+            "he was but slightly under the average stature",
+            "his hands were white and small",
+            "his frame was fragile",
+            "his voice was quiet and his manners were refined"
+          ],
+          "context": "Dublin clerk working at King's Inns; represents the constrained, unfulfilled life of provincial Ireland",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "kings-inns",
+                "factionRelationships": {},
+                "age": 32,
+                "gender": "male",
+                "occupation": "clerk at King's Inns",
+                "personalityTraits": [
+                  "refined",
+                  "timid",
+                  "melancholic",
+                  "sensitive",
+                  "envious",
+                  "introspective",
+                  "easily embarrassed"
+                ],
+                "coreValues": [
+                  "propriety",
+                  "artistic expression",
+                  "respectability",
+                  "family duty"
+                ],
+                "physicalDescription": "Slightly under average height, white and small hands, fragile frame, quiet voice, fair silken hair and moustache, perfect nails, childish white teeth",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "ignatius-gallaher": {
+          "id": "ignatius-gallaher",
+          "name": "Ignatius Gallaher",
+          "description": "A successful London journalist who has traveled extensively and returned to Dublin for a brief visit, embodying worldly success and moral ambiguity",
+          "tags": [
+            "secondary-character",
+            "journalist",
+            "traveler",
+            "old-friend",
+            "foil"
+          ],
+          "textMentions": [
+            "Ignatius Gallaher",
+            "Gallaher",
+            "Tommy, old hero",
+            "his travelled air",
+            "his well-cut tweed suit",
+            "fearless accent"
+          ],
+          "context": "London Press journalist; represents the world of success and experience that Chandler envies",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "corless",
+                "factionRelationships": {},
+                "age": 32,
+                "gender": "male",
+                "occupation": "journalist on the London Press",
+                "personalityTraits": [
+                  "confident",
+                  "worldly",
+                  "bold",
+                  "vulgar",
+                  "boastful",
+                  "cynical",
+                  "charming"
+                ],
+                "coreValues": [
+                  "experience",
+                  "success",
+                  "pleasure",
+                  "independence",
+                  "money"
+                ],
+                "physicalDescription": "Large closely cropped head, heavy pale face, clean-shaven, bluish slate-colored eyes, vivid orange tie, long shapeless colorless lips, thin hair at crown",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "annie": {
+          "id": "annie",
+          "name": "Annie",
+          "description": "Little Chandler's wife, practical and somewhat cold, concerned with domestic economy and child-rearing",
+          "tags": [
+            "secondary-character",
+            "wife",
+            "mother"
+          ],
+          "textMentions": [
+            "Annie",
+            "his wife",
+            "Annie's photograph",
+            "the pale blue summer blouse"
+          ],
+          "context": "Chandler's wife; represents the domestic constraints that bind him",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-annie-departure",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "chandler-home",
+                "factionRelationships": {},
+                "age": 30,
+                "gender": "female",
+                "occupation": "housewife",
+                "personalityTraits": [
+                  "practical",
+                  "economical",
+                  "cold",
+                  "protective",
+                  "irritable",
+                  "devoted-to-child"
+                ],
+                "coreValues": [
+                  "family",
+                  "economy",
+                  "propriety",
+                  "child-welfare"
+                ],
+                "physicalDescription": "Pretty face with thin tight lips, pale blue summer blouse, composed eyes",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-annie-departure"
+        },
+        "chandler-child": {
+          "id": "chandler-child",
+          "name": "Chandler's Son",
+          "description": "Little Chandler's young son, whose crying becomes the catalyst for Chandler's emotional breakdown",
+          "tags": [
+            "minor-character",
+            "child",
+            "son"
+          ],
+          "textMentions": [
+            "child",
+            "little boy",
+            "the child",
+            "his arms",
+            "the sleeping child"
+          ],
+          "context": "Represents Chandler's domestic obligations and the constraints of his life",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-home-arrival",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "chandler-home",
+                "factionRelationships": {},
+                "age": 2,
+                "gender": "male",
+                "occupation": "none",
+                "personalityTraits": [
+                  "fretful",
+                  "sensitive",
+                  "dependent"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Small child, sleeping initially, prone to crying",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-home-arrival"
+        },
+        "monica": {
+          "id": "monica",
+          "name": "Monica",
+          "description": "Annie's young sister who helps with domestic work",
+          "tags": [
+            "minor-character",
+            "helper"
+          ],
+          "textMentions": [
+            "Monica",
+            "Annie's young sister"
+          ],
+          "context": "Helps the Chandlers with domestic tasks to save money",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-home-arrival",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "chandler-home",
+                "factionRelationships": {},
+                "age": 20,
+                "gender": "female",
+                "occupation": "domestic helper",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "Young woman",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-home-arrival"
+        },
+        "hogan": {
+          "id": "hogan",
+          "name": "Hogan",
+          "description": "A mutual acquaintance of Chandler and Gallaher, now employed at the Land Commission",
+          "tags": [
+            "minor-character",
+            "acquaintance"
+          ],
+          "textMentions": [
+            "Hogan",
+            "he's in the Land Commission"
+          ],
+          "context": "Represents a friend who has achieved modest success in Dublin",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14-hogan-ohara-discussion",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "dublin",
+                "factionRelationships": {},
+                "age": 32,
+                "gender": "male",
+                "occupation": "Land Commission employee",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "Unknown",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14-hogan-ohara-discussion"
+        },
+        "ohara": {
+          "id": "ohara",
+          "name": "O'Hara",
+          "description": "A mutual acquaintance of Chandler and Gallaher who has fallen into disrepute",
+          "tags": [
+            "minor-character",
+            "acquaintance"
+          ],
+          "textMentions": [
+            "O'Hara",
+            "he's gone to the dogs",
+            "Poor O'Hara"
+          ],
+          "context": "Represents a friend who has failed and declined",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14-hogan-ohara-discussion",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "dublin",
+                "factionRelationships": {},
+                "age": 32,
+                "gender": "male",
+                "occupation": "unknown",
+                "personalityTraits": [
+                  "dissolute"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Unknown",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14-hogan-ohara-discussion"
+        }
+      },
+      "settings": {
+        "kings-inns": {
+          "id": "kings-inns",
+          "name": "King's Inns",
+          "description": "A Dublin office building where Little Chandler works as a clerk, featuring a feudal arch and office windows overlooking gardens",
+          "tags": [
+            "workplace",
+            "dublin",
+            "institutional"
+          ],
+          "textMentions": [
+            "King's Inns",
+            "his desk in the King's Inns",
+            "the feudal arch of the King's Inns"
+          ],
+          "context": "Dublin legal institution; represents Chandler's constrained professional life",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, Ireland",
+          "climate": "Late autumn, golden sunset",
+          "historicalContext": "Dublin professional institution",
+          "culturalBackground": "Irish legal/administrative",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Institutional, melancholic, constraining"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "kings-inns-gardens": {
+          "id": "kings-inns-gardens",
+          "name": "King's Inns Gardens",
+          "description": "The gardens visible from Chandler's office window, populated with nurses, old men, and children",
+          "tags": [
+            "outdoor",
+            "dublin",
+            "public-space"
+          ],
+          "textMentions": [
+            "the grass plots and walks",
+            "the gardens",
+            "the children who ran screaming along the gravel paths"
+          ],
+          "context": "Public space visible from office; setting for Chandler's melancholic reflections",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, adjacent to King's Inns",
+          "climate": "Late autumn sunset, golden light",
+          "historicalContext": "Dublin public gardens",
+          "culturalBackground": "Irish urban",
+          "parentSetting": "kings-inns",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02-office-melancholy",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Melancholic, golden, populated with life"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02-office-melancholy"
+        },
+        "henrietta-street": {
+          "id": "henrietta-street",
+          "name": "Henrietta Street",
+          "description": "A Dublin street with grimy children, gaunt mansions, and the remnants of old nobility",
+          "tags": [
+            "street",
+            "dublin",
+            "urban"
+          ],
+          "textMentions": [
+            "Henrietta Street",
+            "A horde of grimy children populated the street",
+            "the gaunt spectral mansions"
+          ],
+          "context": "Dublin street representing urban decay and the past",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, Ireland",
+          "climate": "Evening, waning golden sunset, sharp air",
+          "historicalContext": "Former residence of Dublin nobility, now in decline",
+          "culturalBackground": "Irish urban, historical",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05-street-walk",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Decayed, populated with poor children, spectral"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05-street-walk"
+        },
+        "capel-street": {
+          "id": "capel-street",
+          "name": "Capel Street",
+          "description": "A Dublin street that Chandler finds dull and inelegant",
+          "tags": [
+            "street",
+            "dublin",
+            "urban"
+          ],
+          "textMentions": [
+            "Capel Street",
+            "the dull inelegance of Capel Street"
+          ],
+          "context": "Dublin street representing provincial mediocrity",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, Ireland",
+          "climate": "Evening",
+          "historicalContext": "Dublin commercial street",
+          "culturalBackground": "Irish urban",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e06-corless-knowledge",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Dull, inelegant, constraining"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e06-corless-knowledge"
+        },
+        "grattan-bridge": {
+          "id": "grattan-bridge",
+          "name": "Grattan Bridge",
+          "description": "A Dublin bridge from which Chandler observes the river and lower quays",
+          "tags": [
+            "bridge",
+            "dublin",
+            "landmark"
+          ],
+          "textMentions": [
+            "Grattan Bridge",
+            "he crossed Grattan Bridge",
+            "he looked down the river towards the lower quays"
+          ],
+          "context": "Dublin landmark; setting for Chandler's poetic inspiration",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, spanning the Liffey River",
+          "climate": "Sunset",
+          "historicalContext": "Dublin bridge",
+          "culturalBackground": "Irish urban",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07-poetic-ambition",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Contemplative, inspiring"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07-poetic-ambition"
+        },
+        "dublin-quays": {
+          "id": "dublin-quays",
+          "name": "Dublin Quays",
+          "description": "The lower quays of Dublin, with stunted houses that Chandler views with pity",
+          "tags": [
+            "waterfront",
+            "dublin",
+            "urban"
+          ],
+          "textMentions": [
+            "the lower quays",
+            "the poor stunted houses",
+            "a band of tramps, huddled together along the riverbanks"
+          ],
+          "context": "Dublin waterfront representing urban decay and stagnation",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, along the Liffey River",
+          "climate": "Sunset",
+          "historicalContext": "Dublin commercial waterfront",
+          "culturalBackground": "Irish urban",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07-poetic-ambition",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Decayed, melancholic, stagnant"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07-poetic-ambition"
+        },
+        "corless": {
+          "id": "corless",
+          "name": "Corless's",
+          "description": "An upscale Dublin restaurant where people go after the theatre to eat oysters and drink liqueurs, with French and German-speaking waiters",
+          "tags": [
+            "restaurant",
+            "dublin",
+            "upscale",
+            "social"
+          ],
+          "textMentions": [
+            "Corless's",
+            "people went there after the theatre to eat oysters and drink liqueurs",
+            "the waiters there spoke French and German",
+            "cabs drawn up before the door",
+            "richly dressed ladies"
+          ],
+          "context": "Upscale Dublin establishment representing sophistication and worldliness",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, Ireland",
+          "climate": "Evening/night",
+          "historicalContext": "Dublin upscale dining establishment",
+          "culturalBackground": "Irish urban, cosmopolitan",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e06-corless-knowledge",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Sophisticated, noisy, bright, worldly"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e06-corless-knowledge"
+        },
+        "corless-bar": {
+          "id": "corless-bar",
+          "name": "Corless's Bar",
+          "description": "The interior bar of Corless's restaurant, with red and green wine-glasses and many patrons",
+          "tags": [
+            "bar",
+            "interior",
+            "social"
+          ],
+          "textMentions": [
+            "The light and noise of the bar",
+            "the shining of many red and green wine-glasses",
+            "the bar seemed to him to be full of people"
+          ],
+          "context": "Interior setting where the reunion takes place",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Inside Corless's restaurant, Dublin",
+          "climate": "Interior, bright, noisy",
+          "historicalContext": "Dublin bar",
+          "culturalBackground": "Irish urban",
+          "parentSetting": "corless",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09-bar-confusion",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Bright, noisy, crowded, sophisticated"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09-bar-confusion"
+        },
+        "london": {
+          "id": "london",
+          "name": "London",
+          "description": "The great city where Gallaher lives and works as a journalist, representing worldly success and experience",
+          "tags": [
+            "city",
+            "foreign",
+            "cosmopolitan"
+          ],
+          "textMentions": [
+            "London",
+            "the great city London where Gallaher lived",
+            "the London Press",
+            "Ignatius Gallaher on the London Press"
+          ],
+          "context": "Represents the world of success and experience that Chandler envies",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "England",
+          "climate": "Unknown",
+          "historicalContext": "Major European city",
+          "culturalBackground": "English, cosmopolitan",
+          "parentSetting": null,
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Worldly, successful, competitive"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "paris": {
+          "id": "paris",
+          "name": "Paris",
+          "description": "A European city that Gallaher has visited and describes as beautiful and immoral, with Bohemian cafés and the Moulin Rouge",
+          "tags": [
+            "city",
+            "foreign",
+            "cosmopolitan"
+          ],
+          "textMentions": [
+            "Paris",
+            "Go to London or Paris: Paris, for choice",
+            "the life of Paris",
+            "there's no city like Paris for gaiety, movement, excitement",
+            "the Moulin Rouge",
+            "the Bohemian cafés"
+          ],
+          "context": "Represents European sophistication and moral ambiguity",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "France",
+          "climate": "Unknown",
+          "historicalContext": "Major European city",
+          "culturalBackground": "French, bohemian",
+          "parentSetting": null,
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16-paris-discussion",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Gay, exciting, immoral, bohemian"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16-paris-discussion"
+        },
+        "moulin-rouge": {
+          "id": "moulin-rouge",
+          "name": "Moulin Rouge",
+          "description": "A famous Parisian entertainment venue that Gallaher has visited",
+          "tags": [
+            "venue",
+            "paris",
+            "entertainment"
+          ],
+          "textMentions": [
+            "the Moulin Rouge",
+            "I've been to the Moulin Rouge"
+          ],
+          "context": "Represents Parisian bohemian entertainment",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Paris, France",
+          "climate": "Unknown",
+          "historicalContext": "Famous Parisian cabaret",
+          "culturalBackground": "French, bohemian",
+          "parentSetting": "paris",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e17-moulin-rouge",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Bohemian, exciting, immoral"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e17-moulin-rouge"
+        },
+        "isle-of-man": {
+          "id": "isle-of-man",
+          "name": "Isle of Man",
+          "description": "A location that Little Chandler has visited, representing his limited travel experience",
+          "tags": [
+            "island",
+            "travel-destination"
+          ],
+          "textMentions": [
+            "the Isle of Man",
+            "I've been to the Isle of Man"
+          ],
+          "context": "Represents Chandler's limited worldly experience",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "British Isles",
+          "climate": "Unknown",
+          "historicalContext": "British island",
+          "culturalBackground": "British",
+          "parentSetting": null,
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e15-isle-of-man-reference",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Modest, provincial"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e15-isle-of-man-reference"
+        },
+        "chandler-home": {
+          "id": "chandler-home",
+          "name": "Chandler's Home",
+          "description": "Little Chandler's modest house with a room off the hall, furnished on the hire system",
+          "tags": [
+            "home",
+            "domestic",
+            "dublin"
+          ],
+          "textMentions": [
+            "his little house",
+            "the room off the hall",
+            "the little room off the hall",
+            "his house"
+          ],
+          "context": "Represents Chandler's constrained domestic life",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, Ireland",
+          "climate": "Evening",
+          "historicalContext": "Dublin working-class home",
+          "culturalBackground": "Irish domestic",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-home-arrival",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Modest, constraining, domestic"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-home-arrival"
+        },
+        "chandler-room": {
+          "id": "chandler-room",
+          "name": "Room off the Hall",
+          "description": "The room in Chandler's home where he sits with his child, containing a table with a lamp and Annie's photograph",
+          "tags": [
+            "interior",
+            "domestic",
+            "private"
+          ],
+          "textMentions": [
+            "the room off the hall",
+            "the little room off the hall",
+            "A little lamp with a white china shade stood upon the table"
+          ],
+          "context": "Interior domestic space where the final crisis occurs",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Inside Chandler's home, Dublin",
+          "climate": "Evening, lamplight",
+          "historicalContext": "Dublin domestic interior",
+          "culturalBackground": "Irish domestic",
+          "parentSetting": "chandler-home",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-home-arrival",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Intimate, constraining, melancholic"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-home-arrival"
+        },
+        "dublin": {
+          "id": "dublin",
+          "name": "Dublin",
+          "description": "The capital city of Ireland, representing provincial life and stagnation in contrast to London and Paris",
+          "tags": [
+            "city",
+            "ireland",
+            "provincial"
+          ],
+          "textMentions": [
+            "Dublin",
+            "dear dirty Dublin",
+            "You could do nothing in Dublin"
+          ],
+          "context": "Setting for the entire story; represents provincial constraint",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Ireland",
+          "climate": "Late autumn",
+          "historicalContext": "Irish capital city",
+          "culturalBackground": "Irish",
+          "parentSetting": null,
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Provincial, dull, constraining, melancholic"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "north-wall": {
+          "id": "north-wall",
+          "name": "North Wall",
+          "description": "A Dublin location where Chandler saw Gallaher off eight years before",
+          "tags": [
+            "location",
+            "dublin",
+            "waterfront"
+          ],
+          "textMentions": [
+            "the North Wall",
+            "he had seen his friend off at the North Wall"
+          ],
+          "context": "Setting of the past event that frames the story",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Dublin, waterfront",
+          "climate": "Unknown",
+          "historicalContext": "Dublin port area",
+          "culturalBackground": "Irish urban",
+          "parentSetting": "dublin",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Farewell, departure"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        }
+      },
+      "items": {
+        "gallaher-tweed-suit": {
+          "id": "gallaher-tweed-suit",
+          "name": "Well-cut Tweed Suit",
+          "description": "Gallaher's fashionable suit that signals his success and worldly experience",
+          "tags": [
+            "clothing",
+            "status-symbol"
+          ],
+          "textMentions": [
+            "his well-cut tweed suit"
+          ],
+          "context": "Visible marker of Gallaher's success",
+          "type": "item",
+          "itemType": "clothing",
+          "origin": "London",
+          "physicalDescription": "Well-cut tweed suit",
+          "defaultFunction": "Clothing",
+          "culturalSignificance": "Marker of worldly success and sophistication",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "location": "corless",
+                "condition": "normal",
+                "owner": "ignatius-gallaher",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "gallaher-orange-tie": {
+          "id": "gallaher-orange-tie",
+          "name": "Vivid Orange Tie",
+          "description": "Gallaher's distinctive orange tie that stands out against his pale face",
+          "tags": [
+            "clothing",
+            "distinctive"
+          ],
+          "textMentions": [
+            "the vivid orange tie he wore"
+          ],
+          "context": "Distinctive feature of Gallaher's appearance",
+          "type": "item",
+          "itemType": "clothing",
+          "origin": "London",
+          "physicalDescription": "Vivid orange tie",
+          "defaultFunction": "Clothing",
+          "culturalSignificance": "Marker of Gallaher's bold, distinctive style",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11-gallaher-appearance",
+                "location": "corless",
+                "condition": "normal",
+                "owner": "ignatius-gallaher",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11-gallaher-appearance"
+        },
+        "chandler-perfume": {
+          "id": "chandler-perfume",
+          "name": "Perfume",
+          "description": "Perfume that Chandler uses discreetly on his handkerchief",
+          "tags": [
+            "grooming",
+            "personal-care"
+          ],
+          "textMentions": [
+            "used perfume discreetly on his handkerchief"
+          ],
+          "context": "Marker of Chandler's refined, careful nature",
+          "type": "item",
+          "itemType": "grooming product",
+          "origin": "Dublin",
+          "physicalDescription": "Perfume",
+          "defaultFunction": "Personal grooming",
+          "culturalSignificance": "Marker of refinement and care",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "location": "chandler-home",
+                "condition": "normal",
+                "owner": "little-chandler",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "poetry-books": {
+          "id": "poetry-books",
+          "name": "Books of Poetry",
+          "description": "A collection of poetry books on Chandler's shelves at home that he bought in his bachelor days",
+          "tags": [
+            "literature",
+            "personal-collection"
+          ],
+          "textMentions": [
+            "the books of poetry upon his shelves at home",
+            "He had bought them in his bachelor days"
+          ],
+          "context": "Represents Chandler's literary aspirations and unfulfilled potential",
+          "type": "item",
+          "itemType": "books",
+          "origin": "Dublin",
+          "physicalDescription": "Books of poetry on shelves",
+          "defaultFunction": "Reading, consolation",
+          "culturalSignificance": "Markers of Chandler's artistic aspirations",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03-poetry-books-memory",
+                "location": "chandler-home",
+                "condition": "normal",
+                "owner": "little-chandler",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03-poetry-books-memory"
+        },
+        "byrons-poems": {
+          "id": "byrons-poems",
+          "name": "Byron's Poems",
+          "description": "A volume of Byron's poetry that Chandler reads at home",
+          "tags": [
+            "literature",
+            "poetry"
+          ],
+          "textMentions": [
+            "A volume of Byron's poems lay before him on the table"
+          ],
+          "context": "Represents Chandler's literary aspirations and melancholic temperament",
+          "type": "item",
+          "itemType": "book",
+          "origin": "Unknown",
+          "physicalDescription": "Volume of Byron's poems",
+          "defaultFunction": "Reading, inspiration",
+          "culturalSignificance": "Represents Romantic poetry and melancholy",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e28-byron-reading",
+                "location": "chandler-room",
+                "condition": "normal",
+                "owner": "little-chandler",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e28-byron-reading"
+        },
+        "annie-photograph": {
+          "id": "annie-photograph",
+          "name": "Annie's Photograph",
+          "description": "A photograph of Annie in a pale blue summer blouse, enclosed in a frame of crumpled horn",
+          "tags": [
+            "photograph",
+            "domestic"
+          ],
+          "textMentions": [
+            "a photograph which was enclosed in a frame of crumpled horn",
+            "It was Annie's photograph",
+            "the pale blue summer blouse"
+          ],
+          "context": "Object of Chandler's contemplation and source of his dissatisfaction",
+          "type": "item",
+          "itemType": "photograph",
+          "origin": "Domestic",
+          "physicalDescription": "Photograph in crumpled horn frame, showing Annie in pale blue blouse",
+          "defaultFunction": "Domestic decoration, memory",
+          "culturalSignificance": "Represents Chandler's marriage and domestic life",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e27-photograph-contemplation",
+                "location": "chandler-room",
+                "condition": "normal",
+                "owner": "annie",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e27-photograph-contemplation"
+        },
+        "pale-blue-blouse": {
+          "id": "pale-blue-blouse",
+          "name": "Pale Blue Summer Blouse",
+          "description": "A blouse that Chandler bought for Annie as a present, which cost him ten and elevenpence",
+          "tags": [
+            "clothing",
+            "gift",
+            "domestic"
+          ],
+          "textMentions": [
+            "the pale blue summer blouse which he had brought her home as a present",
+            "It had cost him ten and elevenpence"
+          ],
+          "context": "Object of Chandler's anxiety and Annie's criticism",
+          "type": "item",
+          "itemType": "clothing",
+          "origin": "Dublin shop",
+          "physicalDescription": "Pale blue summer blouse with stylish sleeves",
+          "defaultFunction": "Clothing",
+          "culturalSignificance": "Represents Chandler's attempts at romantic gesture and Annie's practical criticism",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e27-photograph-contemplation",
+                "location": "chandler-home",
+                "condition": "normal",
+                "owner": "annie",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e27-photograph-contemplation"
+        },
+        "furniture": {
+          "id": "furniture",
+          "name": "Furniture",
+          "description": "Pretty furniture that Chandler bought for his house on the hire system",
+          "tags": [
+            "furniture",
+            "domestic",
+            "debt"
+          ],
+          "textMentions": [
+            "the pretty furniture which he had bought for his house on the hire system"
+          ],
+          "context": "Represents Chandler's domestic constraints and financial obligations",
+          "type": "item",
+          "itemType": "furniture",
+          "origin": "Dublin",
+          "physicalDescription": "Pretty, prim furniture",
+          "defaultFunction": "Domestic furnishing",
+          "culturalSignificance": "Represents Chandler's constrained financial situation",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e27-photograph-contemplation",
+                "location": "chandler-home",
+                "condition": "normal",
+                "owner": "little-chandler",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e27-photograph-contemplation"
+        },
+        "lamp": {
+          "id": "lamp",
+          "name": "White China Lamp",
+          "description": "A small lamp with a white china shade on the table in Chandler's room",
+          "tags": [
+            "lighting",
+            "domestic"
+          ],
+          "textMentions": [
+            "A little lamp with a white china shade stood upon the table"
+          ],
+          "context": "Domestic lighting in the scene of the final crisis",
+          "type": "item",
+          "itemType": "lamp",
+          "origin": "Domestic",
+          "physicalDescription": "Small lamp with white china shade",
+          "defaultFunction": "Lighting",
+          "culturalSignificance": "Domestic comfort",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-home-arrival",
+                "location": "chandler-room",
+                "condition": "normal",
+                "owner": "little-chandler",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-home-arrival"
+        },
+        "whisky": {
+          "id": "whisky",
+          "name": "Malt Whisky",
+          "description": "Irish whisky that Gallaher orders at Corless's, which he claims is better than what is available in London",
+          "tags": [
+            "beverage",
+            "alcohol"
+          ],
+          "textMentions": [
+            "two halves of malt whisky",
+            "better stuff than we get across the water"
+          ],
+          "context": "Beverage consumed during the reunion",
+          "type": "item",
+          "itemType": "beverage",
+          "origin": "Ireland",
+          "physicalDescription": "Malt whisky",
+          "defaultFunction": "Drinking",
+          "culturalSignificance": "Irish product, marker of hospitality",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12-whisky-order",
+                "location": "corless",
+                "condition": "normal",
+                "owner": "corless-bar",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12-whisky-order"
+        },
+        "cigar": {
+          "id": "cigar",
+          "name": "Cigar",
+          "description": "Cigars that Gallaher produces from his cigar-case for both men to smoke",
+          "tags": [
+            "tobacco",
+            "luxury"
+          ],
+          "textMentions": [
+            "Ignatius Gallaher produced his cigar-case",
+            "The two friends lit their cigars"
+          ],
+          "context": "Luxury item consumed during the reunion",
+          "type": "item",
+          "itemType": "tobacco",
+          "origin": "Unknown",
+          "physicalDescription": "Cigars",
+          "defaultFunction": "Smoking",
+          "culturalSignificance": "Marker of sophistication and leisure",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18-immorality-discussion",
+                "location": "corless",
+                "condition": "normal",
+                "owner": "ignatius-gallaher",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18-immorality-discussion"
+        },
+        "gold-watch": {
+          "id": "gold-watch",
+          "name": "Large Gold Watch",
+          "description": "Gallaher's large gold watch that he checks to see the time",
+          "tags": [
+            "timepiece",
+            "luxury"
+          ],
+          "textMentions": [
+            "Ignatius Gallaher took out a large gold watch and looked at it"
+          ],
+          "context": "Marker of Gallaher's wealth and success",
+          "type": "item",
+          "itemType": "watch",
+          "origin": "London",
+          "physicalDescription": "Large gold watch",
+          "defaultFunction": "Timekeeping",
+          "culturalSignificance": "Marker of wealth and sophistication",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e24-final-toast",
+                "location": "corless",
+                "condition": "normal",
+                "owner": "ignatius-gallaher",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e24-final-toast"
+        },
+        "coffee-parcel": {
+          "id": "coffee-parcel",
+          "name": "Parcel of Coffee",
+          "description": "Coffee from Bewley's that Chandler forgot to bring home for Annie",
+          "tags": [
+            "food",
+            "domestic"
+          ],
+          "textMentions": [
+            "he had forgotten to bring Annie home the parcel of coffee from Bewley's"
+          ],
+          "context": "Domestic detail that contributes to Annie's bad humor",
+          "type": "item",
+          "itemType": "food",
+          "origin": "Bewley's",
+          "physicalDescription": "Parcel of coffee",
+          "defaultFunction": "Food",
+          "culturalSignificance": "Domestic necessity",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-annie-departure",
+                "location": "corless",
+                "condition": "normal",
+                "owner": "little-chandler",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-annie-departure"
+        },
+        "tea-sugar": {
+          "id": "tea-sugar",
+          "name": "Tea and Sugar",
+          "description": "A quarter pound of tea and two pounds of sugar that Annie goes out to buy",
+          "tags": [
+            "food",
+            "domestic"
+          ],
+          "textMentions": [
+            "a quarter of a pound of tea and two pounds of sugar"
+          ],
+          "context": "Domestic necessities that Annie must purchase",
+          "type": "item",
+          "itemType": "food",
+          "origin": "Shop",
+          "physicalDescription": "Tea and sugar",
+          "defaultFunction": "Food",
+          "culturalSignificance": "Domestic necessities",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-annie-departure",
+                "location": "shop",
+                "condition": "normal",
+                "owner": "annie",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-annie-departure"
+        }
+      },
+      "factions": {}
+    },
+    "events": {
+      "e01-memory-of-gallaher": {
+        "id": "e01-memory-of-gallaher",
+        "type": "revelation",
+        "description": "Chandler recalls that eight years ago he saw his friend Gallaher off at the North Wall and wished him godspeed. Gallaher has since become a successful journalist on the London Press, displaying signs of worldly success through his traveled air, well-cut tweed suit, and fearless accent.",
+        "timestamp": {
+          "percentage": 1
+        },
+        "textLocation": {
+          "startLine": 1,
+          "endLine": 7
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "north-wall",
+          "london"
+        ],
+        "precedingEvent": null
+      },
+      "e02-office-melancholy": {
+        "id": "e02-office-melancholy",
+        "type": "environmental",
+        "description": "Chandler sits at his desk at King's Inns and gazes out the office window at the late autumn sunset covering the gardens. He watches the golden light fall on nurses, old men, and children, and becomes melancholic, reflecting on the uselessness of struggling against fortune.",
+        "timestamp": {
+          "percentage": 5
+        },
+        "textLocation": {
+          "startLine": 22,
+          "endLine": 35
+        },
+        "participants": [
+          "little-chandler",
+          "kings-inns",
+          "kings-inns-gardens"
+        ],
+        "precedingEvent": "e01-memory-of-gallaher"
+      },
+      "e03-poetry-books-memory": {
+        "id": "e03-poetry-books-memory",
+        "type": "revelation",
+        "description": "Chandler remembers the books of poetry on his shelves at home that he bought in his bachelor days. He recalls being tempted to read them to his wife but being held back by shyness, and how he sometimes repeats lines to himself for consolation.",
+        "timestamp": {
+          "percentage": 8
+        },
+        "textLocation": {
+          "startLine": 36,
+          "endLine": 42
+        },
+        "participants": [
+          "little-chandler",
+          "poetry-books",
+          "chandler-home"
+        ],
+        "precedingEvent": "e02-office-melancholy"
+      },
+      "e04-leaving-office": {
+        "id": "e04-leaving-office",
+        "type": "action",
+        "description": "When his hour has struck, Chandler stands up from his desk, takes leave of his fellow-clerks punctiliously, and emerges from under the feudal arch of King's Inns. He walks swiftly down Henrietta Street.",
+        "timestamp": {
+          "percentage": 12
+        },
+        "textLocation": {
+          "startLine": 43,
+          "endLine": 50
+        },
+        "participants": [
+          "little-chandler",
+          "kings-inns",
+          "henrietta-street"
+        ],
+        "precedingEvent": "e03-poetry-books-memory"
+      },
+      "e05-street-walk": {
+        "id": "e05-street-walk",
+        "type": "action",
+        "description": "Chandler walks through Henrietta Street, which is populated with grimy children. He picks his way deftly through the children and under the shadow of the gaunt spectral mansions where the old nobility of Dublin had roystered. His mind is full of present joy and no memory of the past touches him.",
+        "timestamp": {
+          "percentage": 14
+        },
+        "textLocation": {
+          "startLine": 51,
+          "endLine": 58
+        },
+        "participants": [
+          "little-chandler",
+          "henrietta-street"
+        ],
+        "precedingEvent": "e04-leaving-office"
+      },
+      "e06-corless-knowledge": {
+        "id": "e06-corless-knowledge",
+        "type": "revelation",
+        "description": "Chandler reflects on his knowledge of Corless's restaurant. He knows it is a place where people go after the theatre to eat oysters and drink liqueurs, where the waiters speak French and German. He has seen cabs and richly dressed ladies entering at night, but has always passed without looking.",
+        "timestamp": {
+          "percentage": 16
+        },
+        "textLocation": {
+          "startLine": 59,
+          "endLine": 75
+        },
+        "participants": [
+          "little-chandler",
+          "corless"
+        ],
+        "precedingEvent": "e05-street-walk"
+      },
+      "e07-poetic-ambition": {
+        "id": "e07-poetic-ambition",
+        "type": "revelation",
+        "description": "As Chandler crosses Grattan Bridge and looks down the river toward the lower quays, he is struck by a poetic moment. He observes the stunted houses and imagines writing a poem to express his idea. He fantasizes that Gallaher might get it published in a London paper. He feels an infant hope take life within him and steps onward bravely.",
+        "timestamp": {
+          "percentage": 20
+        },
+        "textLocation": {
+          "startLine": 76,
+          "endLine": 95
+        },
+        "participants": [
+          "little-chandler",
+          "grattan-bridge",
+          "dublin-quays",
+          "ignatius-gallaher"
+        ],
+        "precedingEvent": "e06-corless-knowledge"
+      },
+      "e08-arrival-at-corless": {
+        "id": "e08-arrival-at-corless",
+        "type": "action",
+        "description": "Chandler pursues his revery so ardently that he passes his street and has to turn back. As he comes near Corless's, his former agitation begins to overmaster him. He halts before the door in indecision, then finally opens the door and enters.",
+        "timestamp": {
+          "percentage": 28
+        },
+        "textLocation": {
+          "startLine": 155,
+          "endLine": 161
+        },
+        "participants": [
+          "little-chandler",
+          "corless"
+        ],
+        "precedingEvent": "e07-poetic-ambition"
+      },
+      "e09-bar-confusion": {
+        "id": "e09-bar-confusion",
+        "type": "action",
+        "description": "The light and noise of the bar hold Chandler at the doorway for a few moments. His sight is confused by the shining of many red and green wine-glasses. He feels that the people are observing him curiously and glances quickly to right and left, frowning slightly to make his errand appear serious.",
+        "timestamp": {
+          "percentage": 30
+        },
+        "textLocation": {
+          "startLine": 162,
+          "endLine": 169
+        },
+        "participants": [
+          "little-chandler",
+          "corless-bar"
+        ],
+        "precedingEvent": "e08-arrival-at-corless"
+      },
+      "e10-gallaher-greeting": {
+        "id": "e10-gallaher-greeting",
+        "type": "dialogue",
+        "description": "When Chandler's sight clears, he sees Ignatius Gallaher leaning with his back against the counter and his feet planted far apart. Gallaher greets him warmly: 'Hallo, Tommy, old hero, here you are! What is it to be? What will you have?'",
+        "timestamp": {
+          "percentage": 32
+        },
+        "textLocation": {
+          "startLine": 170,
+          "endLine": 180
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "corless-bar"
+        ],
+        "precedingEvent": "e09-bar-confusion"
+      },
+      "e11-gallaher-appearance": {
+        "id": "e11-gallaher-appearance",
+        "type": "revelation",
+        "description": "Gallaher's physical appearance is described in detail: he has a large closely cropped head, a heavy pale clean-shaven face, bluish slate-colored eyes, a vivid orange tie, and long shapeless colorless lips. He displays his thinning hair at the crown to Chandler.",
+        "timestamp": {
+          "percentage": 34
+        },
+        "textLocation": {
+          "startLine": 181,
+          "endLine": 200
+        },
+        "participants": [
+          "ignatius-gallaher",
+          "corless-bar"
+        ],
+        "precedingEvent": "e10-gallaher-greeting"
+      },
+      "e12-whisky-order": {
+        "id": "e12-whisky-order",
+        "type": "dialogue",
+        "description": "Gallaher orders two halves of malt whisky, claiming it is better stuff than what is available in London. Chandler allows his whisky to be very much diluted, while Gallaher drinks his neat. They toast to old times and old acquaintance.",
+        "timestamp": {
+          "percentage": 36
+        },
+        "textLocation": {
+          "startLine": 201,
+          "endLine": 225
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "corless-bar",
+          "whisky"
+        ],
+        "precedingEvent": "e11-gallaher-appearance"
+      },
+      "e13-old-friends-talk": {
+        "id": "e13-old-friends-talk",
+        "type": "dialogue",
+        "description": "Gallaher asks Chandler about the old gang. Chandler reports that O'Hara has gone to the dogs, while Hogan is in the Land Commission and seems to be flush with money. Gallaher remarks that O'Hara is probably drinking.",
+        "timestamp": {
+          "percentage": 38
+        },
+        "textLocation": {
+          "startLine": 226,
+          "endLine": 240
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "hogan",
+          "ohara"
+        ],
+        "precedingEvent": "e12-whisky-order"
+      },
+      "e14-hogan-ohara-discussion": {
+        "id": "e14-hogan-ohara-discussion",
+        "type": "dialogue",
+        "description": "Continuation of discussion about mutual acquaintances. Gallaher notes that he met Hogan in London and he seemed very flush. Chandler says O'Hara has been involved in other things besides drinking.",
+        "timestamp": {
+          "percentage": 39
+        },
+        "textLocation": {
+          "startLine": 241,
+          "endLine": 250
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "hogan",
+          "ohara"
+        ],
+        "precedingEvent": "e13-old-friends-talk"
+      },
+      "e15-isle-of-man-reference": {
+        "id": "e15-isle-of-man-reference",
+        "type": "dialogue",
+        "description": "Gallaher teases Chandler about never having traveled, saying he hasn't changed and is still the same serious person. Chandler mentions he has been to the Isle of Man. Gallaher laughs and suggests he should go to London or Paris instead.",
+        "timestamp": {
+          "percentage": 41
+        },
+        "textLocation": {
+          "startLine": 251,
+          "endLine": 265
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "isle-of-man",
+          "london",
+          "paris"
+        ],
+        "precedingEvent": "e14-hogan-ohara-discussion"
+      },
+      "e16-paris-discussion": {
+        "id": "e16-paris-discussion",
+        "type": "dialogue",
+        "description": "Gallaher describes Paris as beautiful and full of gaiety, movement, and excitement. He says there is no city like Paris for enjoying life. He mentions that the French have a great feeling for the Irish and were ready to eat him when they heard he was from Ireland.",
+        "timestamp": {
+          "percentage": 44
+        },
+        "textLocation": {
+          "startLine": 266,
+          "endLine": 290
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "paris"
+        ],
+        "precedingEvent": "e15-isle-of-man-reference"
+      },
+      "e17-moulin-rouge": {
+        "id": "e17-moulin-rouge",
+        "type": "dialogue",
+        "description": "Gallaher describes visiting the Moulin Rouge and Bohemian cafés in Paris. He mentions the cocottes and praises Parisian women for their style and go. Chandler asks if Paris is as immoral as they say.",
+        "timestamp": {
+          "percentage": 48
+        },
+        "textLocation": {
+          "startLine": 291,
+          "endLine": 315
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "moulin-rouge",
+          "paris"
+        ],
+        "precedingEvent": "e16-paris-discussion"
+      },
+      "e18-immorality-discussion": {
+        "id": "e18-immorality-discussion",
+        "type": "dialogue",
+        "description": "Gallaher makes a catholic gesture and says every place is immoral. He discusses the immorality of Paris compared to London and Dublin. Chandler insists on asking if Paris is more immoral than London or Dublin. Gallaher says it is six of one and half-a-dozen of the other.",
+        "timestamp": {
+          "percentage": 51
+        },
+        "textLocation": {
+          "startLine": 316,
+          "endLine": 340
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "paris",
+          "london",
+          "dublin"
+        ],
+        "precedingEvent": "e17-moulin-rouge"
+      },
+      "e19-corruption-stories": {
+        "id": "e19-corruption-stories",
+        "type": "dialogue",
+        "description": "Gallaher emerges from clouds of cigar smoke and says it is a rum world. He proceeds to sketch for Chandler pictures of corruption rife abroad, summarizing the vices of many capitals and awarding the palm to Berlin. He tells a story about an English duchess that he claims to know is true. Chandler is astonished.",
+        "timestamp": {
+          "percentage": 54
+        },
+        "textLocation": {
+          "startLine": 341,
+          "endLine": 365
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "cigar"
+        ],
+        "precedingEvent": "e18-immorality-discussion"
+      },
+      "e20-marriage-revelation": {
+        "id": "e20-marriage-revelation",
+        "type": "dialogue",
+        "description": "Gallaher remarks that in Dublin nothing is known of such things. He asks Chandler about himself and mentions that Hogan told him Chandler had tasted the joys of connubial bliss two years ago. Chandler blushes and smiles, saying he was married last May twelve months. Gallaher extends his hand and offers his best wishes.",
+        "timestamp": {
+          "percentage": 58
+        },
+        "textLocation": {
+          "startLine": 366,
+          "endLine": 385
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "annie"
+        ],
+        "precedingEvent": "e19-corruption-stories"
+      },
+      "e21-child-revelation": {
+        "id": "e21-child-revelation",
+        "type": "dialogue",
+        "description": "Gallaher asks if Chandler has any youngsters. Chandler blushes again and says they have one child, a little boy. Gallaher slaps him on the back and says 'Bravo, I wouldn't doubt you, Tommy.'",
+        "timestamp": {
+          "percentage": 61
+        },
+        "textLocation": {
+          "startLine": 386,
+          "endLine": 398
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "chandler-child"
+        ],
+        "precedingEvent": "e20-marriage-revelation"
+      },
+      "e22-invitation-declined": {
+        "id": "e22-invitation-declined",
+        "type": "dialogue",
+        "description": "Chandler invites Gallaher to spend an evening with him and his wife before he goes back, mentioning they can have music. Gallaher apologizes, saying he must leave tomorrow night. When Chandler asks about tonight, Gallaher explains he is over here with another fellow and they have arranged to go to a card-party.",
+        "timestamp": {
+          "percentage": 63
+        },
+        "textLocation": {
+          "startLine": 399,
+          "endLine": 415
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "annie"
+        ],
+        "precedingEvent": "e21-child-revelation"
+      },
+      "e23-marriage-prospects": {
+        "id": "e23-marriage-prospects",
+        "type": "dialogue",
+        "description": "Chandler suggests they have one more drink to clinch the bargain. Gallaher checks his gold watch and asks if it is to be the last. Chandler says positively. Gallaher orders another whisky as a deoc an doruis. Chandler feels warm and excited from the three small whiskies and Gallaher's strong cigar.",
+        "timestamp": {
+          "percentage": 66
+        },
+        "textLocation": {
+          "startLine": 416,
+          "endLine": 450
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "corless-bar",
+          "gold-watch",
+          "whisky"
+        ],
+        "precedingEvent": "e22-invitation-declined"
+      },
+      "e24-final-toast": {
+        "id": "e24-final-toast",
+        "type": "dialogue",
+        "description": "Chandler pushes one glass toward Gallaher and takes up the other boldly. He toasts, saying 'Who knows? When you come next year I may have the pleasure of wishing long life and happiness to Mr and Mrs Ignatius Gallaher.' Gallaher closes one eye expressively and says 'No blooming fear of that, my boy. I'm going to have my fling first.' Chandler insists that Gallaher will marry someday if he can find the girl. Gallaher says he means to marry money. Chandler shakes his head. Gallaher vehemently declares he can have any woman and cash he wants, and that he is in no hurry.",
+        "timestamp": {
+          "percentage": 70
+        },
+        "textLocation": {
+          "startLine": 451,
+          "endLine": 495
+        },
+        "participants": [
+          "little-chandler",
+          "ignatius-gallaher",
+          "corless-bar"
+        ],
+        "precedingEvent": "e23-marriage-prospects"
+      },
+      "e25-home-arrival": {
+        "id": "e25-home-arrival",
+        "type": "action",
+        "description": "Little Chandler sits in the room off the hall, holding his sleeping child in his arms. A little lamp with a white china shade stands on the table. Monica, Annie's young sister, has gone home long ago. It is a quarter to nine.",
+        "timestamp": {
+          "percentage": 76
+        },
+        "textLocation": {
+          "startLine": 496,
+          "endLine": 505
+        },
+        "participants": [
+          "little-chandler",
+          "chandler-child",
+          "chandler-room",
+          "monica",
+          "lamp"
+        ],
+        "precedingEvent": "e24-final-toast"
+      },
+      "e26-annie-departure": {
+        "id": "e26-annie-departure",
+        "type": "action",
+        "description": "Chandler came home late for tea and forgot to bring Annie home the parcel of coffee from Bewley's. Annie is in a bad humor and gives him short answers. She decides to go out herself for a quarter pound of tea and two pounds of sugar. She puts the sleeping child deftly in his arms and says 'Here. Don't waken him.'",
+        "timestamp": {
+          "percentage": 78
+        },
+        "textLocation": {
+          "startLine": 506,
+          "endLine": 520
+        },
+        "participants": [
+          "little-chandler",
+          "annie",
+          "chandler-child",
+          "coffee-parcel",
+          "tea-sugar"
+        ],
+        "precedingEvent": "e25-home-arrival"
+      },
+      "e27-photograph-contemplation": {
+        "id": "e27-photograph-contemplation",
+        "type": "revelation",
+        "description": "Chandler looks at Annie's photograph in its crumpled horn frame. He recalls the pale blue summer blouse he bought her for ten and elevenpence, the agony of nervousness it cost him, and how Annie initially criticized the price but later loved it. He now looks coldly at the photograph, finding something mean in it. He thinks of Gallaher's stories about rich Jewesses with dark Oriental eyes full of passion. He reflects on the pretty furniture he bought on the hire system and feels a dull resentment against his life.",
+        "timestamp": {
+          "percentage": 80
+        },
+        "textLocation": {
+          "startLine": 521,
+          "endLine": 560
+        },
+        "participants": [
+          "little-chandler",
+          "annie-photograph",
+          "pale-blue-blouse",
+          "furniture",
+          "ignatius-gallaher"
+        ],
+        "precedingEvent": "e26-annie-departure"
+      },
+      "e28-byron-reading": {
+        "id": "e28-byron-reading",
+        "type": "action",
+        "description": "A volume of Byron's poems lies before Chandler on the table. He opens it cautiously with his left hand lest he wake the child and begins to read the first poem, which begins 'Hushed are the winds and still the evening gloom.' He feels the rhythm of the verse and wonders if he could write like that, expressing the melancholy of his soul in verse.",
+        "timestamp": {
+          "percentage": 83
+        },
+        "textLocation": {
+          "startLine": 561,
+          "endLine": 575
+        },
+        "participants": [
+          "little-chandler",
+          "byrons-poems",
+          "chandler-child"
+        ],
+        "precedingEvent": "e27-photograph-contemplation"
+      },
+      "e29-child-awakens": {
+        "id": "e29-child-awakens",
+        "type": "action",
+        "description": "The child awakes and begins to cry. Chandler turns from the page and tries to hush it, but it will not be hushed. He begins to rock it to and fro in his arms, but its wailing cry grows keener.",
+        "timestamp": {
+          "percentage": 85
+        },
+        "textLocation": {
+          "startLine": 576,
+          "endLine": 585
+        },
+        "participants": [
+          "little-chandler",
+          "chandler-child",
+          "byrons-poems"
+        ],
+        "precedingEvent": "e28-byron-reading"
+      },
+      "e30-chandler-frustration": {
+        "id": "e30-chandler-frustration",
+        "type": "action",
+        "description": "Chandler rocks the child faster while trying to read the second stanza of Byron's poem. The wailing of the child pierces his ear. He realizes it is useless—he cannot read, he cannot do anything. He feels like a prisoner for life. His arms tremble with anger.",
+        "timestamp": {
+          "percentage": 87
+        },
+        "textLocation": {
+          "startLine": 586,
+          "endLine": 595
+        },
+        "participants": [
+          "little-chandler",
+          "chandler-child",
+          "byrons-poems"
+        ],
+        "precedingEvent": "e29-child-awakens"
+      },
+      "e31-chandler-shouts": {
+        "id": "e31-chandler-shouts",
+        "type": "action",
+        "description": "Suddenly bending to the child's face, Chandler shouts 'Stop!' The child stops for an instant, has a spasm of fright, and begins to scream.",
+        "timestamp": {
+          "percentage": 89
+        },
+        "textLocation": {
+          "startLine": 596,
+          "endLine": 601
+        },
+        "participants": [
+          "little-chandler",
+          "chandler-child"
+        ],
+        "precedingEvent": "e30-chandler-frustration"
+      },
+      "e32-child-screams": {
+        "id": "e32-child-screams",
+        "type": "action",
+        "description": "Chandler jumps up from his chair and walks hastily up and down the room with the child in his arms. The child begins to sob piteously, losing its breath for four or five seconds and then bursting out anew. The thin walls echo the sound. Chandler tries to soothe it but it sobs more convulsively. He looks at the contracted and quivering face of the child and becomes alarmed. He counts seven sobs without a break and catches the child to his breast in fright, thinking 'If it died!...'",
+        "timestamp": {
+          "percentage": 91
+        },
+        "textLocation": {
+          "startLine": 602,
+          "endLine": 615
+        },
+        "participants": [
+          "little-chandler",
+          "chandler-child",
+          "chandler-room"
+        ],
+        "precedingEvent": "e31-chandler-shouts"
+      },
+      "e33-annie-returns": {
+        "id": "e33-annie-returns",
+        "type": "action",
+        "description": "The door is burst open and Annie runs in, panting. She cries 'What is it? What is it?' The child, hearing its mother's voice, breaks out into a paroxysm of sobbing.",
+        "timestamp": {
+          "percentage": 93
+        },
+        "textLocation": {
+          "startLine": 616,
+          "endLine": 623
+        },
+        "participants": [
+          "annie",
+          "little-chandler",
+          "chandler-child",
+          "chandler-room"
+        ],
+        "precedingEvent": "e32-child-screams"
+      },
+      "e34-annie-confrontation": {
+        "id": "e34-annie-confrontation",
+        "type": "dialogue",
+        "description": "Annie flings her parcels on the floor and snatches the child from Chandler. She cries 'What have you done to him?' glaring into his face. Chandler sustains her gaze for one moment and his heart closes together as he meets the hatred in her eyes. He stammers denials. Annie gives him no heed and walks up and down the room, clasping the child tightly and murmuring endearments: 'My little man! My little mannie! Was 'ou frightened, love?... There now, love!... Lambabaun! Mamma's little lamb of the world!... There now!'",
+        "timestamp": {
+          "percentage": 96
+        },
+        "textLocation": {
+          "startLine": 624,
+          "endLine": 640
+        },
+        "participants": [
+          "annie",
+          "little-chandler",
+          "chandler-child",
+          "chandler-room"
+        ],
+        "precedingEvent": "e33-annie-returns"
+      },
+      "e35-chandler-shame": {
+        "id": "e35-chandler-shame",
+        "type": "revelation",
+        "description": "Chandler feels his cheeks suffused with shame and stands back out of the lamplight. He listens while the paroxysm of the child's sobbing grows less and less. Tears of remorse start to his eyes.",
+        "timestamp": {
+          "percentage": 99
+        },
+        "textLocation": {
+          "startLine": 641,
+          "endLine": 645
+        },
+        "participants": [
+          "little-chandler",
+          "annie",
+          "chandler-child",
+          "lamp"
+        ],
+        "precedingEvent": "e34-annie-confrontation"
+      }
+    },
+    "relationships": {
+      "interpersonal": {
+        "rel-chandler-gallaher": {
+          "id": "rel-chandler-gallaher",
+          "name": "Chandler and Gallaher Friendship",
+          "description": "Eight-year-old friendship between Little Chandler and Ignatius Gallaher, marked by admiration, envy, and a sense of inferiority on Chandler's part",
+          "tags": [
+            "friendship",
+            "old-friends",
+            "envy",
+            "admiration"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "little-chandler",
+            "ignatius-gallaher"
+          ],
+          "nature": "Old friends reunited after eight years; Chandler admires Gallaher's success but feels envious and inferior",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "strength": 0.6,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "friend"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "rel-chandler-annie": {
+          "id": "rel-chandler-annie",
+          "name": "Chandler and Annie Marriage",
+          "description": "Marriage between Little Chandler and Annie, characterized by domestic constraint, practical concerns, and emotional distance",
+          "tags": [
+            "marriage",
+            "domestic",
+            "constraint"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "little-chandler",
+            "annie"
+          ],
+          "nature": "Married couple; Chandler feels constrained and dissatisfied; Annie is practical and protective of their child",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-annie-departure",
+                "strength": 0.4,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "lover"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-annie-departure"
+        },
+        "rel-chandler-child": {
+          "id": "rel-chandler-child",
+          "name": "Chandler and His Son",
+          "description": "Relationship between Little Chandler and his young son, marked by initial care but culminating in anger and violence",
+          "tags": [
+            "parent-child",
+            "domestic",
+            "conflict"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "little-chandler",
+            "chandler-child"
+          ],
+          "nature": "Father and son; Chandler initially cares for the child but loses patience and shouts at him",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e25-home-arrival",
+                "strength": 0.3,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e25-home-arrival"
+        },
+        "rel-annie-child": {
+          "id": "rel-annie-child",
+          "name": "Annie and Her Son",
+          "description": "Relationship between Annie and her young son, characterized by protective devotion and maternal care",
+          "tags": [
+            "parent-child",
+            "domestic",
+            "protective"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "annie",
+            "chandler-child"
+          ],
+          "nature": "Mother and son; Annie is fiercely protective and devoted to the child",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e26-annie-departure",
+                "strength": 0.9,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e26-annie-departure"
+        }
+      },
+      "group": {
+        "grp-old-gang": {
+          "id": "grp-old-gang",
+          "name": "The Old Gang",
+          "description": "A group of old friends from Dublin including Chandler, Gallaher, Hogan, and O'Hara",
+          "tags": [
+            "friends",
+            "dublin",
+            "past"
+          ],
+          "type": "group",
+          "participants": [
+            "little-chandler",
+            "ignatius-gallaher",
+            "hogan",
+            "ohara"
+          ],
+          "nature": "Old friends from Dublin who have dispersed; some have succeeded, others have failed",
+          "subRelationships": [],
+          "groupDynamics": {
+            "cohesion": 0.3,
+            "sharedPurpose": 0.2,
+            "internalConflict": 0
+          },
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13-old-friends-talk",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13-old-friends-talk"
+        }
+      }
+    },
+    "absentials": {
+      "abs-literary-success": {
+        "id": "abs-literary-success",
+        "name": "Literary Success and Recognition",
+        "description": "Chandler's unfulfilled desire to become a published poet and achieve literary recognition",
+        "tags": [
+          "ambition",
+          "artistic",
+          "unfulfilled"
+        ],
+        "holder": "little-chandler",
+        "origin": "Chandler's contemplation of his poetic temperament and his observation of Gallaher's success in journalism",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "ignatius-gallaher",
+            "relationship": "facilitator",
+            "strength": 0.6
+          },
+          {
+            "entityId": "poetry-books",
+            "relationship": "target",
+            "strength": 0.5
+          },
+          {
+            "entityId": "byrons-poems",
+            "relationship": "catalyst",
+            "strength": 0.6
+          },
+          {
+            "entityId": "london",
+            "relationship": "target",
+            "strength": 0.7
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e07-poetic-ambition",
+              "type": "desire",
+              "status": "unsatisfied",
+              "urgency": 0.7,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e07-poetic-ambition"
+      },
+      "abs-escape-dublin": {
+        "id": "abs-escape-dublin",
+        "name": "Escape from Dublin",
+        "description": "Chandler's desire to escape his constrained life in Dublin and experience the world like Gallaher",
+        "tags": [
+          "ambition",
+          "escape",
+          "worldly-experience"
+        ],
+        "holder": "little-chandler",
+        "origin": "Chandler's observation of Gallaher's success and his own dissatisfaction with Dublin and his domestic life",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "ignatius-gallaher",
+            "relationship": "catalyst",
+            "strength": 0.9
+          },
+          {
+            "entityId": "dublin",
+            "relationship": "obstacle",
+            "strength": 0.8
+          },
+          {
+            "entityId": "london",
+            "relationship": "target",
+            "strength": 0.7
+          },
+          {
+            "entityId": "paris",
+            "relationship": "target",
+            "strength": 0.6
+          },
+          {
+            "entityId": "annie",
+            "relationship": "obstacle",
+            "strength": 0.7
+          },
+          {
+            "entityId": "chandler-child",
+            "relationship": "obstacle",
+            "strength": 0.8
+          },
+          {
+            "entityId": "furniture",
+            "relationship": "obstacle",
+            "strength": 0.6
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e07-poetic-ambition",
+              "type": "desire",
+              "status": "unsatisfied",
+              "urgency": 0.8,
+              "intensity": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e07-poetic-ambition"
+      },
+      "abs-worldly-experience": {
+        "id": "abs-worldly-experience",
+        "name": "Worldly Experience and Sophistication",
+        "description": "Chandler's desire to have traveled and experienced the world as Gallaher has",
+        "tags": [
+          "ambition",
+          "experience",
+          "envy"
+        ],
+        "holder": "little-chandler",
+        "origin": "Chandler's observation of Gallaher's travels and his own limited experience (only the Isle of Man)",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "ignatius-gallaher",
+            "relationship": "catalyst",
+            "strength": 0.9
+          },
+          {
+            "entityId": "london",
+            "relationship": "target",
+            "strength": 0.7
+          },
+          {
+            "entityId": "paris",
+            "relationship": "target",
+            "strength": 0.7
+          },
+          {
+            "entityId": "isle-of-man",
+            "relationship": "obstacle",
+            "strength": 0.5
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e15-isle-of-man-reference",
+              "type": "desire",
+              "status": "unsatisfied",
+              "urgency": 0.7,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e15-isle-of-man-reference"
+      },
+      "abs-marital-passion": {
+        "id": "abs-marital-passion",
+        "name": "Marital Passion and Romance",
+        "description": "Chandler's unfulfilled desire for passion and romance in his marriage",
+        "tags": [
+          "desire",
+          "romantic",
+          "marital"
+        ],
+        "holder": "little-chandler",
+        "origin": "Chandler's contemplation of Annie's photograph and his thoughts of Gallaher's stories about passionate Parisian women",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "annie",
+            "relationship": "target",
+            "strength": 0.8
+          },
+          {
+            "entityId": "annie-photograph",
+            "relationship": "catalyst",
+            "strength": 0.6
+          },
+          {
+            "entityId": "ignatius-gallaher",
+            "relationship": "catalyst",
+            "strength": 0.7
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e27-photograph-contemplation",
+              "type": "desire",
+              "status": "unsatisfied",
+              "urgency": 0.6,
+              "intensity": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e27-photograph-contemplation"
+      },
+      "abs-vindication": {
+        "id": "abs-vindication",
+        "name": "Vindication and Assertion of Manhood",
+        "description": "Chandler's desire to vindicate himself and assert his manhood in the face of Gallaher's superiority",
+        "tags": [
+          "desire",
+          "pride",
+          "masculinity"
+        ],
+        "holder": "little-chandler",
+        "origin": "Chandler's feeling that Gallaher is his inferior in birth and education yet has surpassed him in success",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "ignatius-gallaher",
+            "relationship": "catalyst",
+            "strength": 0.9
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e23-marriage-prospects",
+              "type": "desire",
+              "status": "unsatisfied",
+              "urgency": 0.7,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e23-marriage-prospects"
+      },
+      "abs-fear-of-mediocrity": {
+        "id": "abs-fear-of-mediocrity",
+        "name": "Fear of Mediocrity and Stagnation",
+        "description": "Chandler's fear that he will remain mediocre and stagnant in Dublin",
+        "tags": [
+          "fear",
+          "anxiety",
+          "existential"
+        ],
+        "holder": "little-chandler",
+        "origin": "Chandler's observation of Dublin's dullness and his own constrained life",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "dublin",
+            "relationship": "target",
+            "strength": 0.8
+          },
+          {
+            "entityId": "ignatius-gallaher",
+            "relationship": "catalyst",
+            "strength": 0.8
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e07-poetic-ambition",
+              "type": "fear",
+              "status": "unsatisfied",
+              "urgency": 0.8,
+              "intensity": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e07-poetic-ambition"
+      }
+    },
+    "mentalConstructs": {
+      "mc-gallaher-success": {
+        "id": "mc-gallaher-success",
+        "name": "Gallaher's Success",
+        "description": "Chandler's belief that Gallaher has achieved worldly success and superiority",
+        "tags": [
+          "belief",
+          "admiration",
+          "envy"
+        ],
+        "holder": "little-chandler",
+        "subject": "ignatius-gallaher",
+        "isDiegetic": true,
+        "source": "e01-memory-of-gallaher",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e01-memory-of-gallaher",
+              "content": "Gallaher has become a successful journalist on the London Press, has traveled extensively, and has achieved worldly success and sophistication",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.95
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e01-memory-of-gallaher"
+      },
+      "mc-chandler-inferiority": {
+        "id": "mc-chandler-inferiority",
+        "name": "Chandler's Sense of Inferiority",
+        "description": "Chandler's belief that he is inferior to Gallaher despite being his superior in birth and education",
+        "tags": [
+          "belief",
+          "self-perception",
+          "envy"
+        ],
+        "holder": "little-chandler",
+        "subject": "little-chandler",
+        "isDiegetic": true,
+        "source": "e23-marriage-prospects",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e23-marriage-prospects",
+              "content": "Gallaher is his inferior in birth and education yet has surpassed him in success; Chandler feels acutely the contrast between his own life and his friend's",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e23-marriage-prospects"
+      },
+      "mc-dublin-dullness": {
+        "id": "mc-dublin-dullness",
+        "name": "Dublin's Dullness",
+        "description": "Chandler's belief that Dublin is dull and inelegant and that one cannot succeed there",
+        "tags": [
+          "belief",
+          "opinion",
+          "location"
+        ],
+        "holder": "little-chandler",
+        "subject": "dublin",
+        "isDiegetic": true,
+        "source": "e07-poetic-ambition",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e07-poetic-ambition",
+              "content": "Dublin is dull and inelegant; you could do nothing in Dublin; if you wanted to succeed you had to go away",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.85
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e07-poetic-ambition"
+      },
+      "mc-paris-immorality": {
+        "id": "mc-paris-immorality",
+        "name": "Paris's Immorality",
+        "description": "Chandler's belief that Paris is immoral and full of vice",
+        "tags": [
+          "belief",
+          "opinion",
+          "morality"
+        ],
+        "holder": "little-chandler",
+        "subject": "paris",
+        "isDiegetic": true,
+        "source": "e17-moulin-rouge",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e17-moulin-rouge",
+              "content": "Paris is immoral and full of vice, particularly regarding women and sexual conduct",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e17-moulin-rouge"
+      },
+      "mc-chandler-poet": {
+        "id": "mc-chandler-poet",
+        "name": "Chandler's Poetic Temperament",
+        "description": "Chandler's belief that he has a poetic temperament and could write poetry",
+        "tags": [
+          "belief",
+          "self-perception",
+          "artistic"
+        ],
+        "holder": "little-chandler",
+        "subject": "little-chandler",
+        "isDiegetic": true,
+        "source": "e07-poetic-ambition",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e07-poetic-ambition",
+              "content": "He has a poetic temperament; melancholy is the dominant note of his temperament; he could express his feelings in verse and appeal to a little circle of kindred minds",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e07-poetic-ambition"
+      },
+      "mc-annie-coldness": {
+        "id": "mc-annie-coldness",
+        "name": "Annie's Coldness",
+        "description": "Chandler's belief that Annie is cold and lacks passion",
+        "tags": [
+          "belief",
+          "opinion",
+          "marital"
+        ],
+        "holder": "little-chandler",
+        "subject": "annie",
+        "isDiegetic": true,
+        "source": "e27-photograph-contemplation",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e27-photograph-contemplation",
+              "content": "Annie's eyes are cold and repellent; there is no passion in them, no rapture; she is unconscious and ladylike; she is mean and prim",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.75
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e27-photograph-contemplation"
+      },
+      "mc-gallaher-vulgar": {
+        "id": "mc-gallaher-vulgar",
+        "name": "Gallaher's Vulgarity",
+        "description": "Chandler's observation that Gallaher has become vulgar",
+        "tags": [
+          "belief",
+          "opinion",
+          "character"
+        ],
+        "holder": "little-chandler",
+        "subject": "ignatius-gallaher",
+        "isDiegetic": true,
+        "source": "e23-marriage-prospects",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e23-marriage-prospects",
+              "content": "There is something vulgar in Gallaher which Chandler had not observed before; this is the result of living in London amid the bustle and competition of the Press",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.6
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e23-marriage-prospects"
+      },
+      "mc-chandler-prisoner": {
+        "id": "mc-chandler-prisoner",
+        "name": "Chandler's Sense of Being a Prisoner",
+        "description": "Chandler's belief that he is a prisoner in his domestic life",
+        "tags": [
+          "belief",
+          "self-perception",
+          "constraint"
+        ],
+        "holder": "little-chandler",
+        "subject": "little-chandler",
+        "isDiegetic": true,
+        "source": "e30-chandler-frustration",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e30-chandler-frustration",
+              "content": "He is a prisoner for life; he cannot escape from his little house; his domestic obligations and financial constraints bind him",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.85
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e30-chandler-frustration"
+      },
+      "mc-gallaher-patronizing": {
+        "id": "mc-gallaher-patronizing",
+        "name": "Gallaher's Patronization",
+        "description": "Chandler's belief that Gallaher is patronizing him",
+        "tags": [
+          "belief",
+          "opinion",
+          "relationship"
+        ],
+        "holder": "little-chandler",
+        "subject": "ignatius-gallaher",
+        "isDiegetic": true,
+        "source": "e23-marriage-prospects",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e23-marriage-prospects",
+              "content": "Gallaher is patronizing him by his friendliness just as he is patronizing Ireland by his visit",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e23-marriage-prospects"
+      },
+      "mc-timidity-obstacle": {
+        "id": "mc-timidity-obstacle",
+        "name": "Timidity as Obstacle",
+        "description": "Chandler's belief that his timidity is what stands in his way",
+        "tags": [
+          "belief",
+          "self-perception",
+          "obstacle"
+        ],
+        "holder": "little-chandler",
+        "subject": "little-chandler",
+        "isDiegetic": true,
+        "source": "e23-marriage-prospects",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e23-marriage-prospects",
+              "content": "His unfortunate timidity is what stands in his way; it prevents him from achieving what he could achieve",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e23-marriage-prospects"
+      }
+    },
+    "annotations": []
+  },
+  "readings": {
+    "Formalist Reading": {
+      "name": "Formalist Reading",
+      "description": "A formalist interpretation focusing on narrative structure, literary devices, symbolic patterns, and the formal architecture of the text. Emphasis on how Joyce's stylistic choices—stream of consciousness, free indirect discourse, imagery patterns, and structural parallelism—create meaning through form rather than external reference.",
+      "themes": {
+        "theme-paralysis-of-form": {
+          "id": "theme-paralysis-of-form",
+          "name": "Paralysis Through Formal Constraint",
+          "description": "The narrative structure itself enacts paralysis: Chandler's consciousness is trapped within limited perspectives and repetitive patterns. The formal constraint of the third-person limited perspective mirrors his psychological entrapment.",
+          "tags": [
+            "structure",
+            "consciousness",
+            "constraint"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01-memory-of-gallaher",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01-memory-of-gallaher"
+        },
+        "theme-language-inadequacy": {
+          "id": "theme-language-inadequacy",
+          "name": "Language and Inadequacy of Expression",
+          "description": "The gap between Chandler's poetic aspirations and his actual linguistic capacity. Joyce's formal choices—the gap between free indirect discourse and dialogue—highlight the insufficiency of language to bridge desire and reality.",
+          "tags": [
+            "language",
+            "expression",
+            "desire"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03-poetry-books-memory",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03-poetry-books-memory"
+        },
+        "theme-structural-irony": {
+          "id": "theme-structural-irony",
+          "name": "Structural Irony and Formal Reversal",
+          "description": "The narrative structure inverts expectation: the first half builds toward poetic transcendence (e07), but the second half systematically dismantles this through formal degradation—from Byron's elevated verse to the child's inarticulate cries.",
+          "tags": [
+            "irony",
+            "structure",
+            "reversal"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07-poetic-ambition",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07-poetic-ambition"
+        },
+        "theme-epiphanic-failure": {
+          "id": "theme-epiphanic-failure",
+          "name": "Failed Epiphany and Formal Collapse",
+          "description": "Joyce's formal technique of the epiphany is inverted: instead of a moment of spiritual insight, Chandler experiences a moment of violent emotional collapse. The formal structure of the epiphany is preserved but its content is negated.",
+          "tags": [
+            "epiphany",
+            "form",
+            "collapse"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e31-chandler-shouts",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e31-chandler-shouts"
+        }
+      },
+      "symbols": {
+        "sym-light-darkness": {
+          "id": "sym-light-darkness",
+          "name": "Light and Darkness",
+          "description": "A formal pattern of illumination and shadow that structures the narrative. The golden sunset (e02), the bright bar lights (e09), and the white lamp (e25) contrast with gathering darkness, enacting the movement from aspiration to despair through visual form.",
+          "tags": [
+            "imagery",
+            "visual",
+            "contrast"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02-office-melancholy",
+                "currentMeanings": [
+                  {
+                    "description": "Consciousness and illumination of possibility",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Moral and emotional clarity versus obscurity",
+                    "strength": 0.7
+                  },
+                  {
+                    "description": "The formal structure of narrative revelation",
+                    "strength": 0.6
+                  }
+                ],
+                "currentManifestations": [
+                  "kings-inns-gardens",
+                  "corless-bar",
+                  "lamp"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02-office-melancholy"
+        },
+        "sym-voice-silence": {
+          "id": "sym-voice-silence",
+          "name": "Voice and Silence",
+          "description": "A formal pattern contrasting articulate speech with inarticulate sound. Gallaher's confident dialogue gives way to the child's wordless crying, enacting a formal degradation of language itself.",
+          "tags": [
+            "language",
+            "sound",
+            "form"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10-gallaher-greeting",
+                "currentMeanings": [
+                  {
+                    "description": "Articulation of desire and worldly confidence",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Inarticulate emotion and primal need",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "The failure of language to contain experience",
+                    "strength": 0.7
+                  }
+                ],
+                "currentManifestations": [
+                  "ignatius-gallaher",
+                  "chandler-child"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10-gallaher-greeting"
+        },
+        "sym-movement-stasis": {
+          "id": "sym-movement-stasis",
+          "name": "Movement and Stasis",
+          "description": "A formal opposition between Gallaher's constant motion (traveling, gesturing, speaking) and Chandler's static positions (sitting at desk, standing in bar, holding child). The formal pattern enacts the thematic contrast.",
+          "tags": [
+            "form",
+            "action",
+            "structure"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05-street-walk",
+                "currentMeanings": [
+                  {
+                    "description": "Worldly freedom and experience",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Domestic entrapment and immobility",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "The formal structure of constraint",
+                    "strength": 0.7
+                  }
+                ],
+                "currentManifestations": [
+                  "ignatius-gallaher",
+                  "little-chandler"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05-street-walk"
+        },
+        "sym-poetry-prose": {
+          "id": "sym-poetry-prose",
+          "name": "Poetry and Prose",
+          "description": "A formal opposition between elevated poetic language (Byron, Chandler's aspirations) and mundane prose (domestic detail, commercial transaction). The narrative formally enacts the collision between these registers.",
+          "tags": [
+            "language",
+            "literary",
+            "form"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03-poetry-books-memory",
+                "currentMeanings": [
+                  {
+                    "description": "Transcendence and aesthetic aspiration",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Quotidian reality and domestic constraint",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "The formal inadequacy of language",
+                    "strength": 0.8
+                  }
+                ],
+                "currentManifestations": [
+                  "byrons-poems",
+                  "poetry-books"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03-poetry-books-memory"
+        }
+      },
+      "symbolicRelationships": {
+        "symrel-light-aspiration": {
+          "id": "symrel-light-aspiration",
+          "name": "Light as Poetic Aspiration",
+          "description": "The formal pattern of light imagery (golden sunset, bright bar) correlates with moments of Chandler's poetic ambition and hope. Light formally represents the possibility of transcendence.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-light-darkness",
+            "theme-paralysis-of-form"
+          ],
+          "nature": "Light formally enacts the structure of hope and aspiration that the narrative will systematically dismantle.",
+          "symbol": "sym-light-darkness",
+          "symbolized": "theme-paralysis-of-form",
+          "interpretation": "Light formally enacts the structure of hope and aspiration that the narrative will systematically dismantle.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02-office-melancholy",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02-office-melancholy"
+        },
+        "symrel-silence-collapse": {
+          "id": "symrel-silence-collapse",
+          "name": "Silence as Formal Collapse",
+          "description": "The child's inarticulate cries formally represent the breakdown of language and articulation. The progression from dialogue to crying enacts a formal degradation of expression.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-voice-silence",
+            "theme-epiphanic-failure"
+          ],
+          "nature": "The formal shift from speech to inarticulate sound enacts the collapse of Chandler's ability to express or transcend his condition.",
+          "symbol": "sym-voice-silence",
+          "symbolized": "theme-epiphanic-failure",
+          "interpretation": "The formal shift from speech to inarticulate sound enacts the collapse of Chandler's ability to express or transcend his condition.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e29-child-awakens",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e29-child-awakens"
+        },
+        "symrel-stasis-paralysis": {
+          "id": "symrel-stasis-paralysis",
+          "name": "Stasis as Psychological Paralysis",
+          "description": "The formal pattern of Chandler's static positions correlates with his psychological paralysis. Movement is formally restricted to Gallaher, while Chandler remains formally immobilized.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-movement-stasis",
+            "theme-paralysis-of-form"
+          ],
+          "nature": "The formal restriction of Chandler's movement enacts the narrative's central theme of paralysis through structural constraint.",
+          "symbol": "sym-movement-stasis",
+          "symbolized": "theme-paralysis-of-form",
+          "interpretation": "The formal restriction of Chandler's movement enacts the narrative's central theme of paralysis through structural constraint.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04-leaving-office",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04-leaving-office"
+        },
+        "symrel-poetry-inadequacy": {
+          "id": "symrel-poetry-inadequacy",
+          "name": "Poetry as Formal Inadequacy",
+          "description": "Byron's poetry is formally presented as beautiful but inadequate to contain Chandler's experience. The formal gap between poetic language and lived reality becomes the central formal problem.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-poetry-prose",
+            "theme-language-inadequacy"
+          ],
+          "nature": "The formal collision between elevated poetic language and mundane domestic reality enacts the narrative's exploration of language's inadequacy.",
+          "symbol": "sym-poetry-prose",
+          "symbolized": "theme-language-inadequacy",
+          "interpretation": "The formal collision between elevated poetic language and mundane domestic reality enacts the narrative's exploration of language's inadequacy.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e28-byron-reading",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e28-byron-reading"
+        }
+      },
+      "narrator": {
+        "id": "narrator",
+        "name": "Third-Person Limited Narrator",
+        "description": "Joyce employs a formally constrained third-person limited perspective that remains locked within Chandler's consciousness. The narrator's access is formally restricted to Chandler's thoughts, perceptions, and interpretations, creating a formal parallelism between narrative constraint and psychological constraint.",
+        "tags": [],
+        "type": "narrator",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "reliability": 0.7,
+              "mentalConstructs": [],
+              "perspective": "third_person_limited"
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "reader": {
+        "id": "reader",
+        "name": "Formalist Reader",
+        "description": "The reader is positioned to experience the formal patterns and structural ironies of the text. The reader's attention is directed toward how narrative form enacts meaning—how the structure of the narrative mirrors Chandler's psychological structure. The reader must recognize the formal degradation from aspiration to collapse.",
+        "tags": [],
+        "type": "reader",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "mentalConstructs": [],
+              "emotions": {
+                "joy": 0,
+                "trust": 0,
+                "fear": 0,
+                "surprise": 0,
+                "sadness": 0,
+                "disgust": 0,
+                "anger": 0,
+                "anticipation": 0,
+                "intensity": 0
+              }
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "author": {
+        "id": "author",
+        "name": "James Joyce",
+        "description": "Joyce as a formalist craftsman constructing meaning through narrative technique, linguistic precision, and structural parallelism. The author's formal choices—the use of free indirect discourse, the management of perspective, the symbolic patterns of imagery—are the primary vehicles of meaning.",
+        "tags": [],
+        "type": "author",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "style": {},
+              "themes": []
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "eventSignificance": {
+        "e01-memory-of-gallaher": {
+          "significance": 0.8,
+          "note": "Establishes the formal contrast between past aspiration (eight years ago) and present stasis. The memory structure introduces the narrative's central formal opposition."
+        },
+        "e02-office-melancholy": {
+          "significance": 0.85,
+          "note": "Formally introduces the light/darkness imagery pattern and establishes the melancholic tone. The sunset observation is formally structured as a moment of aesthetic perception that will be inverted later."
+        },
+        "e03-poetry-books-memory": {
+          "significance": 0.8,
+          "note": "Introduces the poetry/prose symbolic opposition and establishes Chandler's linguistic aspiration. Formally establishes the gap between desire and expression."
+        },
+        "e04-leaving-office": {
+          "significance": 0.6,
+          "note": "Formally marks transition from stasis to movement. The 'feudal arch' is a formal detail suggesting constraint and historical weight."
+        },
+        "e05-street-walk": {
+          "significance": 0.65,
+          "note": "Continues the movement/stasis pattern. The formal description of grimy children and gaunt mansions establishes the visual texture of Dublin's constraint."
+        },
+        "e06-corless-knowledge": {
+          "significance": 0.7,
+          "note": "Formally establishes Corless as a space of aspiration and exclusion. The formal distance between Chandler's knowledge and his access enacts his social constraint."
+        },
+        "e07-poetic-ambition": {
+          "significance": 0.9,
+          "note": "Formally represents the peak of Chandler's aspiration. The poetic moment at Grattan Bridge is formally structured as an epiphany that will be systematically negated. This is the formal turning point toward ironic reversal."
+        },
+        "e08-arrival-at-corless": {
+          "significance": 0.75,
+          "note": "Formally marks the transition from aspiration to confrontation with reality. The hesitation at the door is formally significant as a moment of constraint."
+        },
+        "e09-bar-confusion": {
+          "significance": 0.7,
+          "note": "The light imagery (red and green wine-glasses) formally continues the light/darkness pattern. Chandler's confusion is formally enacted through visual disorientation."
+        },
+        "e10-gallaher-greeting": {
+          "significance": 0.8,
+          "note": "Formally introduces Gallaher's voice and movement. The dialogue formally contrasts with Chandler's interior consciousness. The greeting's warmth is formally undercut by what follows."
+        },
+        "e11-gallaher-appearance": {
+          "significance": 0.75,
+          "note": "The detailed physical description formally establishes Gallaher's material presence and worldly markers. The formal attention to physical detail enacts Chandler's envious observation."
+        },
+        "e12-whisky-order": {
+          "significance": 0.65,
+          "note": "Formally establishes the contrast between Gallaher's confidence and Chandler's dilution of his drink. The formal detail of dilution enacts psychological constraint."
+        },
+        "e13-old-friends-talk": {
+          "significance": 0.6,
+          "note": "Dialogue formally establishes the social context. The discussion of mutual acquaintances is formally structured as exposition but also as a measure of Chandler's stagnation."
+        },
+        "e14-hogan-ohara-discussion": {
+          "significance": 0.55,
+          "note": "Continuation of formal exposition. The discussion of O'Hara's decline formally foreshadows Chandler's own trajectory."
+        },
+        "e15-isle-of-man-reference": {
+          "significance": 0.7,
+          "note": "Formally establishes the contrast between Chandler's limited travel and Gallaher's worldly experience. The Isle of Man reference is formally ironic—a minimal journey presented as significant."
+        },
+        "e16-paris-discussion": {
+          "significance": 0.8,
+          "note": "Gallaher's description of Paris is formally structured as seductive rhetoric. The formal elevation of language mirrors the seductive power of the worldly narrative."
+        },
+        "e17-moulin-rouge": {
+          "significance": 0.75,
+          "note": "The Moulin Rouge reference formally introduces the theme of moral transgression and sensual experience. Formally structured as the apex of worldly sophistication."
+        },
+        "e18-immorality-discussion": {
+          "significance": 0.7,
+          "note": "The formal evasiveness of Gallaher's responses (six of one, half-a-dozen of the other) formally enacts moral ambiguity. Chandler's insistence is formally marked as naive."
+        },
+        "e19-corruption-stories": {
+          "significance": 0.8,
+          "note": "The cigar smoke formally obscures clarity. Gallaher's stories are formally presented as seductive but morally questionable. The formal tone shifts toward the sensational."
+        },
+        "e20-marriage-revelation": {
+          "significance": 0.85,
+          "note": "Formally marks the shift from Gallaher's worldly narrative to Chandler's domestic reality. The revelation of marriage is formally structured as a moment of constraint and embarrassment."
+        },
+        "e21-child-revelation": {
+          "significance": 0.8,
+          "note": "The child's existence is formally presented as both achievement and constraint. Gallaher's response ('Bravo') is formally ironic—congratulating Chandler on his entrapment."
+        },
+        "e22-invitation-declined": {
+          "significance": 0.75,
+          "note": "Formally marks Gallaher's refusal to enter Chandler's domestic world. The declined invitation formally establishes the unbridgeable gap between their lives."
+        },
+        "e23-marriage-prospects": {
+          "significance": 0.7,
+          "note": "The gold watch formally marks time and constraint. Chandler's warmth from whisky is formally presented as a temporary dissolution of constraint."
+        },
+        "e24-final-toast": {
+          "significance": 0.85,
+          "note": "Formally represents the climax of the reunion. Gallaher's declaration of intent to marry money is formally structured as a negation of Chandler's domestic achievement. The formal contrast between their visions of marriage is maximally significant."
+        },
+        "e25-home-arrival": {
+          "significance": 0.8,
+          "note": "Formally marks the transition from the bar to the domestic interior. The white lamp formally continues the light imagery. The formal shift from dialogue to interior consciousness is significant."
+        },
+        "e26-annie-departure": {
+          "significance": 0.75,
+          "note": "Annie's departure formally leaves Chandler alone with the child. The forgotten parcel formally enacts Chandler's failure in domestic responsibility. The formal transfer of the child is significant."
+        },
+        "e27-photograph-contemplation": {
+          "significance": 0.9,
+          "note": "Formally represents the deepening of Chandler's resentment. The photograph is formally presented as a mirror of his disillusionment. The contrast between the blouse he bought and his current coldness is formally structured as a reversal of feeling. This is formally crucial to the narrative's ironic structure."
+        },
+        "e28-byron-reading": {
+          "significance": 0.9,
+          "note": "Formally represents the return to poetic aspiration. Byron's verse is formally presented as beautiful but inadequate. The formal gap between poetic language and lived experience is maximally significant here."
+        },
+        "e29-child-awakens": {
+          "significance": 0.85,
+          "note": "Formally marks the interruption of poetic reverie by inarticulate need. The formal shift from elevated language to the child's cry is structurally significant."
+        },
+        "e30-chandler-frustration": {
+          "significance": 0.9,
+          "note": "Formally represents the collision between aspiration and constraint. The formal description of Chandler's trembling arms enacts psychological breakdown. This is the formal point of maximum tension."
+        },
+        "e31-chandler-shouts": {
+          "significance": 0.95,
+          "note": "Formally represents the eruption of repressed emotion. The shout is formally presented as a violation of the narrative's controlled tone. This is the formal climax and the inversion of the epiphanic moment from e07."
+        },
+        "e32-child-screams": {
+          "significance": 0.9,
+          "note": "The child's escalating screams formally represent the breakdown of control. The formal description of the child's physical distress enacts Chandler's psychological collapse. The thin walls formally echo the violation of domestic privacy."
+        },
+        "e33-annie-returns": {
+          "significance": 0.85,
+          "note": "Formally marks the intrusion of external judgment. Annie's entrance formally shatters the private space. The child's response to her voice is formally significant as a formal reversal of Chandler's authority."
+        },
+        "e34-annie-confrontation": {
+          "significance": 0.9,
+          "note": "Formally represents the moment of maximum shame and judgment. The formal description of Annie's hatred in her eyes is structurally crucial. The formal contrast between her endearments to the child and her contempt for Chandler is maximally significant."
+        },
+        "e35-chandler-shame": {
+          "significance": 0.85,
+          "note": "Formally represents the resolution into remorse. The tears of remorse formally mark the complete inversion of the narrative's opening aspiration. The formal retreat into shadow formally enacts psychological defeat."
+        }
+      },
+      "entitySignificance": {
+        "little-chandler": {
+          "significance": 1,
+          "note": "The protagonist whose consciousness formally structures the entire narrative. His formal constraint within third-person limited perspective is the narrative's central formal strategy."
+        },
+        "ignatius-gallaher": {
+          "significance": 0.95,
+          "note": "Functions formally as a foil and mirror. His physical presence and confident speech formally contrast with Chandler's constraint. His formal role is to embody the worldly alternative that Chandler cannot access."
+        },
+        "annie": {
+          "significance": 0.8,
+          "note": "Formally represents domestic constraint and judgment. Her photograph and her final confrontation are formally significant moments of constraint and shame."
+        },
+        "chandler-child": {
+          "significance": 0.9,
+          "note": "Formally represents inarticulate need and the breakdown of language. The child's crying formally negates Chandler's poetic aspirations and enacts the collapse of the narrative's formal structure."
+        },
+        "monica": {
+          "significance": 0.3,
+          "note": "Minor formal presence establishing domestic routine."
+        },
+        "hogan": {
+          "significance": 0.4,
+          "note": "Formally functions as a measure of social mobility and success, contrasting with Chandler's stagnation."
+        },
+        "ohara": {
+          "significance": 0.35,
+          "note": "Formally represents the possibility of decline and moral failure."
+        }
+      },
+      "absentialSignificance": {
+        "abs-literary-success": {
+          "significance": 0.95,
+          "note": "The central absence that structures the narrative. Chandler's unfulfilled literary ambition is formally enacted through the gap between poetic aspiration and prose reality. The absence is formally more significant than any presence."
+        },
+        "abs-escape-dublin": {
+          "significance": 0.9,
+          "note": "Formally structures the narrative's central opposition. The impossibility of escape is formally enacted through Chandler's formal constraint within Dublin and within the narrative's limited perspective."
+        },
+        "abs-worldly-experience": {
+          "significance": 0.85,
+          "note": "Formally represents what Chandler lacks. Gallaher's worldly experience is formally presented through narrative distance—Chandler can only hear about it, never access it."
+        },
+        "abs-marital-passion": {
+          "significance": 0.8,
+          "note": "Formally represented through the coldness of Chandler's regard for Annie's photograph. The absence of passion is formally enacted through the formal distance between Chandler and his wife."
+        },
+        "abs-vindication": {
+          "significance": 0.75,
+          "note": "Formally represents Chandler's desire to assert himself against Gallaher's superiority. The absence of vindication is formally enacted through the narrative's systematic negation of Chandler's aspirations."
+        },
+        "abs-fear-of-mediocrity": {
+          "significance": 0.8,
+          "note": "Formally structures Chandler's consciousness throughout. The fear is formally enacted through the narrative's formal constraint and the systematic negation of transcendence."
+        }
+      },
+      "mentalConstructs": {},
+      "annotations": [],
+      "globalTension": [
+        {
+          "timestamp": {
+            "percentage": 1
+          },
+          "value": 0.3
+        },
+        {
+          "timestamp": {
+            "percentage": 5
+          },
+          "value": 0.4
+        },
+        {
+          "timestamp": {
+            "percentage": 10
+          },
+          "value": 0.45
+        },
+        {
+          "timestamp": {
+            "percentage": 15
+          },
+          "value": 0.5
+        },
+        {
+          "timestamp": {
+            "percentage": 20
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 30
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 40
+          },
+          "value": 0.55
+        },
+        {
+          "timestamp": {
+            "percentage": 50
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 60
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 70
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 76
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 80
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 83
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 85
+          },
+          "value": 0.88
+        },
+        {
+          "timestamp": {
+            "percentage": 87
+          },
+          "value": 0.92
+        },
+        {
+          "timestamp": {
+            "percentage": 89
+          },
+          "value": 0.95
+        },
+        {
+          "timestamp": {
+            "percentage": 91
+          },
+          "value": 0.93
+        },
+        {
+          "timestamp": {
+            "percentage": 93
+          },
+          "value": 0.9
+        },
+        {
+          "timestamp": {
+            "percentage": 96
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 99
+          },
+          "value": 0.6
+        }
+      ],
+      "spanAnnotations": {
+        "span_1": {
+          "tension": 0.5,
+          "note": "Overall narrative tension curve from aspiration to collapse"
+        },
+        "span_2": {
+          "tension": 0.45,
+          "note": "Anticipation and preparation phase establishes formal constraint and aspiration"
+        },
+        "span_3": {
+          "tension": 0.4,
+          "note": "Office scene establishes melancholic tone and poetic aspiration"
+        },
+        "span_4": {
+          "tension": 0.3,
+          "note": "Memory of Gallaher introduces formal contrast"
+        },
+        "span_5": {
+          "tension": 0.35,
+          "note": "Character establishment through formal constraint"
+        },
+        "span_6": {
+          "tension": 0.45,
+          "note": "Sunset contemplation introduces light imagery and melancholy"
+        },
+        "span_7": {
+          "tension": 0.55,
+          "note": "Journey to Corless formally enacts movement toward confrontation"
+        },
+        "span_8": {
+          "tension": 0.5,
+          "note": "Leaving office marks formal transition"
+        },
+        "span_9": {
+          "tension": 0.5,
+          "note": "Street walk establishes Dublin's formal constraint"
+        },
+        "span_10": {
+          "tension": 0.55,
+          "note": "Knowledge of Corless establishes aspiration and exclusion"
+        },
+        "span_11": {
+          "tension": 0.7,
+          "note": "Poetic ambition represents peak aspiration before ironic reversal"
+        },
+        "span_12": {
+          "tension": 0.6,
+          "note": "Arrival at Corless marks formal transition to confrontation"
+        },
+        "span_13": {
+          "tension": 0.65,
+          "note": "The reunion formally enacts the collision between aspiration and reality"
+        },
+        "span_14": {
+          "tension": 0.6,
+          "note": "Bar scene establishes formal contrast between Gallaher and Chandler"
+        },
+        "span_15": {
+          "tension": 0.55,
+          "note": "Confusion at bar formally enacts Chandler's disorientation"
+        },
+        "span_16": {
+          "tension": 0.65,
+          "note": "Gallaher's greeting introduces confident voice and movement"
+        },
+        "span_17": {
+          "tension": 0.6,
+          "note": "First drinks establish formal contrast in consumption and confidence"
+        },
+        "span_18": {
+          "tension": 0.6,
+          "note": "Physical description formally establishes Gallaher's worldly presence"
+        },
+        "span_19": {
+          "tension": 0.55,
+          "note": "Whisky order formally enacts constraint through dilution"
+        },
+        "span_20": {
+          "tension": 0.55,
+          "note": "Catching up formally establishes social context and stagnation"
+        },
+        "span_21": {
+          "tension": 0.65,
+          "note": "Travel and Paris discussion formally elevates narrative tone"
+        },
+        "span_22": {
+          "tension": 0.7,
+          "note": "Paris description formally seduces through elevated language"
+        },
+        "span_23": {
+          "tension": 0.65,
+          "note": "Bohemian experiences formally introduce moral transgression"
+        },
+        "span_24": {
+          "tension": 0.6,
+          "note": "Immorality discussion formally enacts moral ambiguity"
+        },
+        "span_25": {
+          "tension": 0.75,
+          "note": "Personal matters formally shift from worldly to domestic"
+        },
+        "span_26": {
+          "tension": 0.8,
+          "note": "Marriage revelation formally marks constraint and embarrassment"
+        },
+        "span_27": {
+          "tension": 0.8,
+          "note": "Child revelation formally enacts entrapment"
+        },
+        "span_28": {
+          "tension": 0.75,
+          "note": "Invitation declined formally establishes unbridgeable gap"
+        },
+        "span_29": {
+          "tension": 0.75,
+          "note": "Marriage and money discussion formally represents competing visions"
+        },
+        "span_30": {
+          "tension": 0.8,
+          "note": "Return home and crisis formally enacts psychological breakdown"
+        },
+        "span_31": {
+          "tension": 0.75,
+          "note": "Domestic setting formally establishes constraint and isolation"
+        },
+        "span_32": {
+          "tension": 0.75,
+          "note": "Home arrival formally marks transition from public to private"
+        },
+        "span_33": {
+          "tension": 0.75,
+          "note": "Annie's departure formally leaves Chandler alone with constraint"
+        },
+        "span_34": {
+          "tension": 0.85,
+          "note": "Photograph contemplation formally deepens resentment and disillusionment"
+        },
+        "span_35": {
+          "tension": 0.85,
+          "note": "Byron reading formally represents return to poetic aspiration"
+        },
+        "span_36": {
+          "tension": 0.9,
+          "note": "Child's crying and outburst formally enacts collapse of aspiration"
+        },
+        "span_37": {
+          "tension": 0.85,
+          "note": "Child awakens formally interrupts poetic reverie"
+        },
+        "span_38": {
+          "tension": 0.9,
+          "note": "Failed soothing formally represents collision of aspiration and constraint"
+        },
+        "span_39": {
+          "tension": 0.95,
+          "note": "Chandler's outburst formally represents eruption and climax"
+        },
+        "span_40": {
+          "tension": 0.92,
+          "note": "Escalating crisis formally represents breakdown of control"
+        },
+        "span_41": {
+          "tension": 0.85,
+          "note": "Annie's return and aftermath formally enacts judgment and shame"
+        },
+        "span_42": {
+          "tension": 0.9,
+          "note": "Annie bursts in formally shatters private space"
+        },
+        "span_43": {
+          "tension": 0.9,
+          "note": "Confrontation formally represents maximum shame and judgment"
+        },
+        "span_44": {
+          "tension": 0.6,
+          "note": "Remorse formally resolves tension into resignation and defeat"
+        }
+      }
+    }
+  }
+}

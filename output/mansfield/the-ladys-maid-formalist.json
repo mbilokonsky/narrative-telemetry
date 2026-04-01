@@ -1,0 +1,4898 @@
+{
+  "text": {
+    "title": "Ellen",
+    "author": "Katherine Mansfield",
+    "description": "A monologue by Ellen, a devoted servant, recounting her life story and sacrifices to her employer's visitor late at night. Through anecdotes spanning from childhood to adulthood, Ellen reveals how she abandoned her own happiness to care for her aging lady.",
+    "rootSpan": {
+      "id": "span_1",
+      "type": "story",
+      "title": "Ellen",
+      "description": "A monologue by Ellen, a devoted servant, recounting her life story and sacrifices to her employer's visitor late at night. Through anecdotes spanning from childhood to adulthood, Ellen reveals how she abandoned her own happiness to care for her aging lady.",
+      "startTimestamp": {
+        "percentage": 0
+      },
+      "endTimestamp": {
+        "percentage": 100
+      },
+      "events": [],
+      "childSpans": [
+        {
+          "id": "span_2",
+          "type": "act",
+          "title": "Arrival and Tea",
+          "description": "Ellen arrives with tea and begins conversation with the visitor",
+          "startTimestamp": {
+            "percentage": 0
+          },
+          "endTimestamp": {
+            "percentage": 8
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_3",
+              "type": "scene",
+              "title": "Knock at the Door",
+              "description": "Ellen enters with tea and apologizes for the disturbance",
+              "startTimestamp": {
+                "percentage": 0
+              },
+              "endTimestamp": {
+                "percentage": 8
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_4",
+                  "type": "beat",
+                  "title": "The Knock",
+                  "description": "Ellen knocks and enters with tea",
+                  "startTimestamp": {
+                    "percentage": 0
+                  },
+                  "endTimestamp": {
+                    "percentage": 2
+                  },
+                  "events": [
+                    "e01"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_5",
+                  "type": "beat",
+                  "title": "Tea and Prayer Ritual",
+                  "description": "Ellen describes her lady's nightly tea and prayer routine",
+                  "startTimestamp": {
+                    "percentage": 2
+                  },
+                  "endTimestamp": {
+                    "percentage": 8
+                  },
+                  "events": [
+                    "e02",
+                    "e03"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_6",
+          "type": "act",
+          "title": "The Lady and Her Mother",
+          "description": "Ellen discusses her lady's devotion and recalls laying out her mother",
+          "startTimestamp": {
+            "percentage": 8
+          },
+          "endTimestamp": {
+            "percentage": 20
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_7",
+              "type": "scene",
+              "title": "Laying Out the Mother",
+              "description": "Ellen recounts preparing her lady's mother for burial",
+              "startTimestamp": {
+                "percentage": 8
+              },
+              "endTimestamp": {
+                "percentage": 15
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_8",
+                  "type": "beat",
+                  "title": "The Mother's Appearance",
+                  "description": "Ellen describes how her lady resembles her deceased mother",
+                  "startTimestamp": {
+                    "percentage": 8
+                  },
+                  "endTimestamp": {
+                    "percentage": 12
+                  },
+                  "events": [
+                    "e04"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_9",
+                  "type": "beat",
+                  "title": "The Purple Pansies",
+                  "description": "Ellen recalls the pansies she placed with the mother's body",
+                  "startTimestamp": {
+                    "percentage": 12
+                  },
+                  "endTimestamp": {
+                    "percentage": 15
+                  },
+                  "events": [
+                    "e05"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_10",
+              "type": "scene",
+              "title": "The Lady's Decline",
+              "description": "Ellen describes her lady's mental deterioration and final moments",
+              "startTimestamp": {
+                "percentage": 15
+              },
+              "endTimestamp": {
+                "percentage": 20
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_11",
+                  "type": "beat",
+                  "title": "The Lost Thing",
+                  "description": "Ellen describes her lady's obsessive searching behavior",
+                  "startTimestamp": {
+                    "percentage": 15
+                  },
+                  "endTimestamp": {
+                    "percentage": 18
+                  },
+                  "events": [
+                    "e06"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_12",
+                  "type": "beat",
+                  "title": "Last Words",
+                  "description": "Ellen recounts her lady's final incomplete utterance",
+                  "startTimestamp": {
+                    "percentage": 18
+                  },
+                  "endTimestamp": {
+                    "percentage": 20
+                  },
+                  "events": [],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_13",
+          "type": "act",
+          "title": "Childhood and the Hair-Dresser's Shop",
+          "description": "Ellen recounts her early life, her mother's death, and her grandfather's cruelty",
+          "startTimestamp": {
+            "percentage": 20
+          },
+          "endTimestamp": {
+            "percentage": 45
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_14",
+              "type": "scene",
+              "title": "Mother's Death and Grandfather's Shop",
+              "description": "Ellen describes losing her mother and living with her grandfather",
+              "startTimestamp": {
+                "percentage": 20
+              },
+              "endTimestamp": {
+                "percentage": 28
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_15",
+                  "type": "beat",
+                  "title": "No Suitors",
+                  "description": "Ellen explains she never had romantic interests as a girl",
+                  "startTimestamp": {
+                    "percentage": 20
+                  },
+                  "endTimestamp": {
+                    "percentage": 22
+                  },
+                  "events": [
+                    "e07"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_16",
+                  "type": "beat",
+                  "title": "Life Under the Table",
+                  "description": "Ellen describes her childhood in the hair-dresser's shop",
+                  "startTimestamp": {
+                    "percentage": 22
+                  },
+                  "endTimestamp": {
+                    "percentage": 28
+                  },
+                  "events": [
+                    "e08"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_17",
+              "type": "scene",
+              "title": "The Hair-Cutting Incident",
+              "description": "Ellen cuts off her own hair and is severely punished by her grandfather",
+              "startTimestamp": {
+                "percentage": 28
+              },
+              "endTimestamp": {
+                "percentage": 38
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_18",
+                  "type": "beat",
+                  "title": "Cutting the Hair",
+                  "description": "Ellen cuts off all her hair with scissors",
+                  "startTimestamp": {
+                    "percentage": 28
+                  },
+                  "endTimestamp": {
+                    "percentage": 32
+                  },
+                  "events": [
+                    "e09"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_19",
+                  "type": "beat",
+                  "title": "The Tongs Punishment",
+                  "description": "Grandfather burns Ellen's hand with tongs as punishment",
+                  "startTimestamp": {
+                    "percentage": 32
+                  },
+                  "endTimestamp": {
+                    "percentage": 35
+                  },
+                  "events": [
+                    "e10"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_20",
+                  "type": "beat",
+                  "title": "Running Away",
+                  "description": "Ellen runs away in panic with her injured hand",
+                  "startTimestamp": {
+                    "percentage": 35
+                  },
+                  "endTimestamp": {
+                    "percentage": 38
+                  },
+                  "events": [
+                    "e11"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_21",
+              "type": "scene",
+              "title": "Grandfather's Rejection",
+              "description": "Ellen describes her grandfather's inability to forgive her",
+              "startTimestamp": {
+                "percentage": 38
+              },
+              "endTimestamp": {
+                "percentage": 45
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_22",
+                  "type": "beat",
+                  "title": "Sent Away",
+                  "description": "Grandfather cannot bear to see Ellen; she is sent to her aunt",
+                  "startTimestamp": {
+                    "percentage": 38
+                  },
+                  "endTimestamp": {
+                    "percentage": 45
+                  },
+                  "events": [
+                    "e12"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_23",
+          "type": "act",
+          "title": "Service and the Donkey Fair",
+          "description": "Ellen enters service with her lady and recalls a childhood moment of longing",
+          "startTimestamp": {
+            "percentage": 45
+          },
+          "endTimestamp": {
+            "percentage": 70
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_24",
+              "type": "scene",
+              "title": "Meeting Her Lady",
+              "description": "Ellen meets her lady through her aunt's work",
+              "startTimestamp": {
+                "percentage": 45
+              },
+              "endTimestamp": {
+                "percentage": 50
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_25",
+                  "type": "beat",
+                  "title": "The Crippled Aunt",
+                  "description": "Ellen describes her aunt who was an upholstress",
+                  "startTimestamp": {
+                    "percentage": 45
+                  },
+                  "endTimestamp": {
+                    "percentage": 50
+                  },
+                  "events": [
+                    "e13"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_26",
+              "type": "scene",
+              "title": "The Donkey Fair at Sheldon",
+              "description": "Ellen recalls taking her lady's nieces to a fair and seeing donkeys",
+              "startTimestamp": {
+                "percentage": 50
+              },
+              "endTimestamp": {
+                "percentage": 70
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_27",
+                  "type": "beat",
+                  "title": "The Outing",
+                  "description": "Ellen takes the young ladies to the fair but they are too shy",
+                  "startTimestamp": {
+                    "percentage": 50
+                  },
+                  "endTimestamp": {
+                    "percentage": 60
+                  },
+                  "events": [
+                    "e14"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_28",
+                  "type": "beat",
+                  "title": "Desire for the Donkey Ride",
+                  "description": "Ellen becomes obsessed with the beautiful donkeys and their saddles",
+                  "startTimestamp": {
+                    "percentage": 60
+                  },
+                  "endTimestamp": {
+                    "percentage": 65
+                  },
+                  "events": [
+                    "e15"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_29",
+                  "type": "beat",
+                  "title": "The Dream Confession",
+                  "description": "Ellen cries out in bed that she wants a donkey ride, pretending to be asleep",
+                  "startTimestamp": {
+                    "percentage": 65
+                  },
+                  "endTimestamp": {
+                    "percentage": 70
+                  },
+                  "events": [
+                    "e16"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_30",
+          "type": "act",
+          "title": "Harry and the Sacrifice",
+          "description": "Ellen recounts her romance with Harry and her decision to abandon marriage",
+          "startTimestamp": {
+            "percentage": 70
+          },
+          "endTimestamp": {
+            "percentage": 95
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_31",
+              "type": "scene",
+              "title": "The Flower Shop Romance",
+              "description": "Ellen meets Harry at his flower shop and they plan to marry",
+              "startTimestamp": {
+                "percentage": 70
+              },
+              "endTimestamp": {
+                "percentage": 80
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_32",
+                  "type": "beat",
+                  "title": "Meeting Harry",
+                  "description": "Ellen and Harry meet while arranging flowers for company",
+                  "startTimestamp": {
+                    "percentage": 70
+                  },
+                  "endTimestamp": {
+                    "percentage": 75
+                  },
+                  "events": [
+                    "e17"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_33",
+                  "type": "beat",
+                  "title": "Engagement and Dreams",
+                  "description": "Ellen and Harry become engaged and plan their future over the shop",
+                  "startTimestamp": {
+                    "percentage": 75
+                  },
+                  "endTimestamp": {
+                    "percentage": 80
+                  },
+                  "events": [
+                    "e18"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_34",
+              "type": "scene",
+              "title": "The Lady's Illness",
+              "description": "Ellen notices her lady is unwell on the day she is to choose furniture with Harry",
+              "startTimestamp": {
+                "percentage": 80
+              },
+              "endTimestamp": {
+                "percentage": 90
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_35",
+                  "type": "beat",
+                  "title": "The Fateful Tuesday",
+                  "description": "Ellen observes her lady's pinched appearance and reluctance to let her go",
+                  "startTimestamp": {
+                    "percentage": 80
+                  },
+                  "endTimestamp": {
+                    "percentage": 85
+                  },
+                  "events": [
+                    "e19"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_36",
+                  "type": "beat",
+                  "title": "The Handkerchief",
+                  "description": "Ellen's lady stoops to pick up her handkerchief, something she never does",
+                  "startTimestamp": {
+                    "percentage": 85
+                  },
+                  "endTimestamp": {
+                    "percentage": 90
+                  },
+                  "events": [
+                    "e20"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_37",
+              "type": "scene",
+              "title": "Ellen Rejects Harry",
+              "description": "Ellen returns Harry's gifts and breaks their engagement",
+              "startTimestamp": {
+                "percentage": 90
+              },
+              "endTimestamp": {
+                "percentage": 95
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_38",
+                  "type": "beat",
+                  "title": "At the Door",
+                  "description": "Ellen returns Harry's letters, ring, and brooch and ends their engagement",
+                  "startTimestamp": {
+                    "percentage": 90
+                  },
+                  "endTimestamp": {
+                    "percentage": 95
+                  },
+                  "events": [
+                    "e21"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_39",
+          "type": "act",
+          "title": "Return to the Present",
+          "description": "Ellen realizes the time and reflects on her devotion and fears",
+          "startTimestamp": {
+            "percentage": 95
+          },
+          "endTimestamp": {
+            "percentage": 100
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_40",
+              "type": "scene",
+              "title": "The Clock Strikes",
+              "description": "Ellen realizes she has kept the visitor awake and returns to her duties",
+              "startTimestamp": {
+                "percentage": 95
+              },
+              "endTimestamp": {
+                "percentage": 98
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_41",
+                  "type": "beat",
+                  "title": "Awareness of Time",
+                  "description": "Ellen hears the clock and apologizes for keeping the visitor awake",
+                  "startTimestamp": {
+                    "percentage": 95
+                  },
+                  "endTimestamp": {
+                    "percentage": 98
+                  },
+                  "events": [
+                    "e22"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_42",
+              "type": "scene",
+              "title": "Final Reflection",
+              "description": "Ellen expresses her fear of losing her lady and her reliance on routine",
+              "startTimestamp": {
+                "percentage": 98
+              },
+              "endTimestamp": {
+                "percentage": 100
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_43",
+                  "type": "beat",
+                  "title": "The Unspoken Fear",
+                  "description": "Ellen admits to sometimes thinking about what would happen if something happened to her lady",
+                  "startTimestamp": {
+                    "percentage": 98
+                  },
+                  "endTimestamp": {
+                    "percentage": 100
+                  },
+                  "events": [
+                    "e23"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "diegetic": {
+      "characters": {
+        "ellen": {
+          "id": "ellen",
+          "name": "Ellen",
+          "description": "A devoted servant who has spent her life caring for her lady. She is introspective, self-sacrificing, and deeply attached to her employer. Ellen recounts her life story through anecdotes, revealing a pattern of abandoning her own desires for duty.",
+          "tags": [
+            "servant",
+            "narrator",
+            "devoted",
+            "self-sacrificing"
+          ],
+          "textMentions": [
+            "Ellen",
+            "I",
+            "me",
+            "my"
+          ],
+          "context": "Early 20th century domestic servant in England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "lady-bedroom",
+                "factionRelationships": {},
+                "age": 40,
+                "gender": "female",
+                "occupation": "Servant/Housekeeper",
+                "personalityTraits": [
+                  "devoted",
+                  "self-sacrificing",
+                  "observant",
+                  "anxious",
+                  "dutiful",
+                  "introspective",
+                  "articulate"
+                ],
+                "coreValues": [
+                  "loyalty",
+                  "duty",
+                  "care",
+                  "service"
+                ],
+                "physicalDescription": "Wears a uniform with collars and cuffs; has a burn mark on her hand from childhood; once had long hair that she cut off",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "visitor": {
+          "id": "visitor",
+          "name": "Visitor/Madam",
+          "description": "An unnamed visitor to whom Ellen tells her life story. The visitor is a listener and occasional questioner who prompts Ellen's narrative.",
+          "tags": [
+            "listener",
+            "guest",
+            "woman"
+          ],
+          "textMentions": [
+            "madam",
+            "you"
+          ],
+          "context": "A guest in the lady's house, awake late at night",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "lady-bedroom",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Unknown",
+                "personalityTraits": [
+                  "patient",
+                  "interested"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Unknown",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "lady": {
+          "id": "lady",
+          "name": "The Lady",
+          "description": "Ellen's employer, an elderly woman of deep religious faith and gentle character. She is devoted to prayer, keeps a list of people to pray for, and refuses physical comfort. She declines mentally in her final years, searching for something she has lost.",
+          "tags": [
+            "employer",
+            "elderly",
+            "religious",
+            "kind"
+          ],
+          "textMentions": [
+            "my lady",
+            "she"
+          ],
+          "context": "Upper-class woman in early 20th century England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "lady-bedroom",
+                "factionRelationships": {},
+                "age": 80,
+                "gender": "female",
+                "occupation": "Gentlewoman",
+                "personalityTraits": [
+                  "pious",
+                  "kind",
+                  "selfless",
+                  "dignified",
+                  "declining"
+                ],
+                "coreValues": [
+                  "faith",
+                  "prayer",
+                  "duty",
+                  "sacrifice"
+                ],
+                "physicalDescription": "Elderly, kneels on hard carpet for prayers, has lumbago, lies back with hands outside on pillow, has a pinched nose when unwell",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02"
+        },
+        "lady-mother": {
+          "id": "lady-mother",
+          "name": "The Lady's Mother",
+          "description": "The deceased mother of Ellen's lady. Ellen laid her out after death, arranging her hair and placing purple pansies beside her neck. She is remembered as sweet and beautiful.",
+          "tags": [
+            "deceased",
+            "mother",
+            "gentle"
+          ],
+          "textMentions": [
+            "her dear mother",
+            "she"
+          ],
+          "context": "Deceased woman from previous generation",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "unknown",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Unknown",
+                "personalityTraits": [
+                  "sweet",
+                  "gentle"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Had soft hair arranged in dainty curls; looked sweet when laid out",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "grandfather": {
+          "id": "grandfather",
+          "name": "Grandfather",
+          "description": "Ellen's grandfather who kept a hair-dresser's shop. He was proud of Ellen's hair and punished her severely when she cut it off. He could not forgive her afterward and refused to eat in her presence.",
+          "tags": [
+            "grandfather",
+            "strict",
+            "proud",
+            "unforgiving"
+          ],
+          "textMentions": [
+            "grandfather",
+            "Grandfather"
+          ],
+          "context": "Hair-dresser shop owner in late 19th century England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "hair-dresser-shop",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "Hair-dresser",
+                "personalityTraits": [
+                  "proud",
+                  "strict",
+                  "unforgiving",
+                  "violent",
+                  "vain"
+                ],
+                "coreValues": [
+                  "pride",
+                  "appearance"
+                ],
+                "physicalDescription": "Grabbed Ellen with tongs, had strong hands",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "aunt": {
+          "id": "aunt",
+          "name": "Aunt",
+          "description": "Ellen's aunt who was a cripple and upholstress. She was tiny and had to stand on sofas to cut out fabric. Ellen came to live with her after her grandfather rejected her, and through helping her aunt, Ellen met her lady.",
+          "tags": [
+            "aunt",
+            "crippled",
+            "upholstress",
+            "kind"
+          ],
+          "textMentions": [
+            "my aunt",
+            "she"
+          ],
+          "context": "Working-class woman in late 19th century England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "aunt-home",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Upholstress",
+                "personalityTraits": [
+                  "kind",
+                  "hardworking"
+                ],
+                "coreValues": [
+                  "family",
+                  "work"
+                ],
+                "physicalDescription": "Tiny, crippled, had to stand on sofas to work",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12"
+        },
+        "harry": {
+          "id": "harry",
+          "name": "Harry",
+          "description": "A florist who owned a flower shop near where Ellen and her lady lived. He and Ellen fell in love, quarreled about flower arrangements, and became engaged. He brought her lilies-of-the-valley and gave her a silver bird brooch with a heart and dagger charm. Ellen rejected him to stay with her lady.",
+          "tags": [
+            "florist",
+            "lover",
+            "rejected",
+            "kind"
+          ],
+          "textMentions": [
+            "Harry",
+            "he",
+            "young man"
+          ],
+          "context": "Tradesman florist in early 20th century England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e17",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "flower-shop",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "Florist",
+                "personalityTraits": [
+                  "generous",
+                  "romantic",
+                  "devoted"
+                ],
+                "coreValues": [
+                  "love",
+                  "romance"
+                ],
+                "physicalDescription": "Turned white when rejected",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e17"
+        },
+        "lady-nieces": {
+          "id": "lady-nieces",
+          "name": "The Lady's Nieces",
+          "description": "Two young nieces of Ellen's lady who stayed with them at Sheldon. They were shy and solemn, and Ellen took them to a fair to see donkeys.",
+          "tags": [
+            "children",
+            "nieces",
+            "shy"
+          ],
+          "textMentions": [
+            "two young ladies",
+            "two little nieces",
+            "they"
+          ],
+          "context": "Young girls visiting their aunt in early 20th century England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "sheldon",
+                "factionRelationships": {},
+                "age": 8,
+                "gender": "female",
+                "occupation": "Children",
+                "personalityTraits": [
+                  "shy",
+                  "solemn"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Solemn little loves",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "mother-ellen": {
+          "id": "mother-ellen",
+          "name": "Ellen's Mother",
+          "description": "Ellen's deceased mother who died of consumption when Ellen was four years old. Ellen was then sent to live with her grandfather.",
+          "tags": [
+            "deceased",
+            "mother"
+          ],
+          "textMentions": [
+            "My mother",
+            "she"
+          ],
+          "context": "Working-class woman who died in late 19th century England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "unknown",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Unknown",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "Unknown",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07"
+        },
+        "shop-assistants": {
+          "id": "shop-assistants",
+          "name": "Shop Assistants",
+          "description": "Kind assistants in the grandfather's hair-dresser shop who made wigs for Ellen and were gentle with her as she played under the table.",
+          "tags": [
+            "assistants",
+            "kind",
+            "workers"
+          ],
+          "textMentions": [
+            "assistants",
+            "They"
+          ],
+          "context": "Working-class employees in late 19th century hair-dresser shop",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "hair-dresser-shop",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "unknown",
+                "occupation": "Hair-dresser assistants",
+                "personalityTraits": [
+                  "kind",
+                  "gentle"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Unknown",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "mrs-james": {
+          "id": "mrs-james",
+          "name": "Mrs. James",
+          "description": "The cook in the lady's household at the time Ellen was young. Ellen slept in Mrs. James's bedroom and called out about wanting a donkey ride while pretending to be asleep.",
+          "tags": [
+            "cook",
+            "household-staff"
+          ],
+          "textMentions": [
+            "Mrs. James",
+            "our cook"
+          ],
+          "context": "Household cook in early 20th century England",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "lady-house",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Cook",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "Unknown",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16"
+        }
+      },
+      "settings": {
+        "lady-bedroom": {
+          "id": "lady-bedroom",
+          "name": "The Lady's Bedroom",
+          "description": "The bedroom where the lady sleeps and prays. Ellen brings her tea here at night. It is where the visitor is staying and where Ellen tells her story.",
+          "tags": [
+            "bedroom",
+            "private",
+            "intimate"
+          ],
+          "textMentions": [
+            "bed",
+            "bedroom"
+          ],
+          "context": "Upper-class household bedroom in early 20th century England",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Inside the lady's house",
+          "climate": "Warm, with tea and tucked-in feet",
+          "historicalContext": "Early 20th century domestic interior",
+          "culturalBackground": "English upper-class household",
+          "parentSetting": "lady-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Intimate, quiet, late-night, confessional"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "lady-house": {
+          "id": "lady-house",
+          "name": "The Lady's House",
+          "description": "The main residence of Ellen's lady. It contains multiple rooms including bedrooms, a dressing-table, stairs, porch, and kitchen. Ellen has lived and worked here for most of her adult life.",
+          "tags": [
+            "house",
+            "home",
+            "upper-class"
+          ],
+          "textMentions": [
+            "house",
+            "home"
+          ],
+          "context": "Upper-class English household in early 20th century",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "England, location varies (Sheldon mentioned as one location)",
+          "climate": "English weather, cold enough to wrap up",
+          "historicalContext": "Early 20th century domestic architecture",
+          "culturalBackground": "English upper-class household with servants",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Orderly, devoted, prayerful, aging"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02"
+        },
+        "hair-dresser-shop": {
+          "id": "hair-dresser-shop",
+          "name": "Grandfather's Hair-Dresser Shop",
+          "description": "The shop owned and operated by Ellen's grandfather. It has a counter where Ellen was displayed before customers, and a space under a table where Ellen played as a child, dressing her doll's hair and watching the assistants work.",
+          "tags": [
+            "shop",
+            "workplace",
+            "childhood"
+          ],
+          "textMentions": [
+            "hair-dresser's shop",
+            "shop",
+            "counter"
+          ],
+          "context": "Late 19th century working-class business",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "England, location unspecified",
+          "climate": "Indoor shop environment",
+          "historicalContext": "Late 19th century hair-dressing trade",
+          "culturalBackground": "Working-class English business",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Busy, professional, with customers"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "aunt-home": {
+          "id": "aunt-home",
+          "name": "Aunt's Home and Workshop",
+          "description": "The home and upholstery workshop of Ellen's aunt. It contains sofas that the tiny aunt had to stand on to cut out fabric backs. Ellen helped her aunt here and eventually met her lady through this work.",
+          "tags": [
+            "home",
+            "workshop",
+            "upholstery"
+          ],
+          "textMentions": [
+            "sofas",
+            "workshop"
+          ],
+          "context": "Late 19th/early 20th century working-class home",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "England, location unspecified",
+          "climate": "Indoor workshop",
+          "historicalContext": "Late 19th century upholstery trade",
+          "culturalBackground": "Working-class English household",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Industrious, humble"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12"
+        },
+        "flower-shop": {
+          "id": "flower-shop",
+          "name": "Harry's Flower Shop",
+          "description": "A flower shop owned by Harry, located just down the road and across from where Ellen and her lady were living. Ellen visited frequently to arrange flowers for company, and she and Harry fell in love here.",
+          "tags": [
+            "shop",
+            "flowers",
+            "romance"
+          ],
+          "textMentions": [
+            "flower-shop",
+            "shop"
+          ],
+          "context": "Early 20th century retail business",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Down the road and across from the lady's house",
+          "climate": "Shop environment with fresh flowers",
+          "historicalContext": "Early 20th century flower trade",
+          "culturalBackground": "English working-class business",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e17",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Romantic, fragrant, busy with arrangements"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e17"
+        },
+        "sheldon": {
+          "id": "sheldon",
+          "name": "Sheldon",
+          "description": "A location where the lady and her nieces stayed. There was a fair on the common nearby where Ellen took the young ladies to see donkeys.",
+          "tags": [
+            "location",
+            "fair",
+            "common"
+          ],
+          "textMentions": [
+            "Sheldon",
+            "common"
+          ],
+          "context": "English village or town in early 20th century",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "England, specific location unspecified",
+          "climate": "Pleasant enough for a fair",
+          "historicalContext": "Early 20th century English village",
+          "culturalBackground": "English rural/village setting",
+          "parentSetting": "england",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Festive, with animals and entertainment"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "fair-common": {
+          "id": "fair-common",
+          "name": "The Fair on the Common",
+          "description": "A fair held on the common at Sheldon where donkeys were available for rides. The donkeys were silver-grey with red saddles, blue bridles, and bells. Older girls were riding them while Ellen's young ladies were too shy.",
+          "tags": [
+            "fair",
+            "common",
+            "animals",
+            "entertainment"
+          ],
+          "textMentions": [
+            "fair",
+            "common",
+            "donkeys"
+          ],
+          "context": "Early 20th century English village fair",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Common at Sheldon",
+          "climate": "Pleasant day for a fair",
+          "historicalContext": "Early 20th century rural entertainment",
+          "culturalBackground": "English village fair tradition",
+          "parentSetting": "sheldon",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Festive, colorful, joyful, with music from bells"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "mrs-james-bedroom": {
+          "id": "mrs-james-bedroom",
+          "name": "Mrs. James's Bedroom",
+          "description": "The bedroom where Ellen slept when she was young, shared with Mrs. James the cook. It is where Ellen called out in the dark about wanting a donkey ride.",
+          "tags": [
+            "bedroom",
+            "shared",
+            "childhood"
+          ],
+          "textMentions": [
+            "Mrs. James's bedroom"
+          ],
+          "context": "Servant's bedroom in early 20th century household",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Inside the lady's house",
+          "climate": "Dark at night",
+          "historicalContext": "Early 20th century servant quarters",
+          "culturalBackground": "English household servant accommodation",
+          "parentSetting": "lady-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Dark, intimate, dreamlike"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16"
+        },
+        "road-outside-house": {
+          "id": "road-outside-house",
+          "name": "The Road Outside the House",
+          "description": "The road outside the lady's house where Ellen stands after rejecting Harry. She runs out in her apron and house-shoes and stands in the middle of the road staring after him.",
+          "tags": [
+            "road",
+            "outside",
+            "public"
+          ],
+          "textMentions": [
+            "road",
+            "middle of the road"
+          ],
+          "context": "Early 20th century English street",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Outside the lady's house",
+          "climate": "Daytime",
+          "historicalContext": "Early 20th century street",
+          "culturalBackground": "English residential area",
+          "parentSetting": "lady-house",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Public, exposed, emotional"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        }
+      },
+      "items": {
+        "red-book": {
+          "id": "red-book",
+          "name": "Little Red Book",
+          "description": "A small red book kept by the lady in which she records the names of people to pray for. Ellen finds it distressing when the lady asks for it, as it means more names have been added and the lady will spend longer on her knees.",
+          "tags": [
+            "book",
+            "prayer",
+            "religious"
+          ],
+          "textMentions": [
+            "little red book",
+            "red book"
+          ],
+          "context": "Religious devotional item",
+          "type": "item",
+          "itemType": "Book",
+          "origin": "Kept by the lady for her prayer practice",
+          "physicalDescription": "Small, red, contains written names",
+          "defaultFunction": "Recording names for prayer",
+          "culturalSignificance": "Symbol of the lady's deep religious devotion",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "lady",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        },
+        "kettle": {
+          "id": "kettle",
+          "name": "The Kettle",
+          "description": "A kettle that Ellen puts on when her lady kneels to pray. Ellen jokes with it, saying it needn't be in a hurry to say its prayers, but it always boils before the lady finishes praying.",
+          "tags": [
+            "kettle",
+            "tea",
+            "household"
+          ],
+          "textMentions": [
+            "kettle"
+          ],
+          "context": "Household kitchen item",
+          "type": "item",
+          "itemType": "Cooking vessel",
+          "origin": "Standard household kettle",
+          "physicalDescription": "Boils water for tea",
+          "defaultFunction": "Heating water for tea",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "lady",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02"
+        },
+        "eiderdown": {
+          "id": "eiderdown",
+          "name": "Eiderdown",
+          "description": "A soft quilt or comforter that Ellen tried to spread out on the hard carpet to make her lady's kneeling more comfortable during prayers. The lady refused it, asking if our Lord had an eiderdown.",
+          "tags": [
+            "bedding",
+            "comfort",
+            "refused"
+          ],
+          "textMentions": [
+            "eiderdown"
+          ],
+          "context": "Household bedding",
+          "type": "item",
+          "itemType": "Bedding",
+          "origin": "Household item",
+          "physicalDescription": "Soft, cushioning",
+          "defaultFunction": "Providing comfort and warmth",
+          "culturalSignificance": "Symbol of the lady's refusal of comfort in favor of spiritual discipline",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "lady",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        },
+        "purple-pansies": {
+          "id": "purple-pansies",
+          "name": "Purple Pansies",
+          "description": "Beautiful purple pansies that Ellen placed beside the neck of her lady's mother when laying her out after death. Ellen considers them to have made a beautiful picture and wishes she could place them with her lady now.",
+          "tags": [
+            "flowers",
+            "death",
+            "memory"
+          ],
+          "textMentions": [
+            "purple pansies",
+            "pansies"
+          ],
+          "context": "Funeral flowers",
+          "type": "item",
+          "itemType": "Flowers",
+          "origin": "Placed by Ellen at the mother's funeral",
+          "physicalDescription": "Purple, beautiful, arranged beside the neck",
+          "defaultFunction": "Funeral decoration",
+          "culturalSignificance": "Symbol of beauty in death and Ellen's care for the dead",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "location": "unknown",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "doll": {
+          "id": "doll",
+          "name": "Ellen's Doll",
+          "description": "A doll that Ellen played with as a child under the table in her grandfather's hair-dresser shop. She dressed the doll's hair, copying the assistants' work.",
+          "tags": [
+            "doll",
+            "toy",
+            "childhood"
+          ],
+          "textMentions": [
+            "doll"
+          ],
+          "context": "Child's toy",
+          "type": "item",
+          "itemType": "Toy",
+          "origin": "Ellen's childhood possession",
+          "physicalDescription": "Has hair that can be dressed",
+          "defaultFunction": "Child's play",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "location": "hair-dresser-shop",
+                "condition": "normal",
+                "owner": "ellen",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "wigs": {
+          "id": "wigs",
+          "name": "Wigs",
+          "description": "Wigs of various colors and latest fashions that the shop assistants made for Ellen to play with as a child. They were made from the hair-dresser shop materials.",
+          "tags": [
+            "wigs",
+            "toys",
+            "childhood"
+          ],
+          "textMentions": [
+            "wigs",
+            "little wigs"
+          ],
+          "context": "Hair-dresser shop products used as toys",
+          "type": "item",
+          "itemType": "Wigs",
+          "origin": "Made by shop assistants for Ellen",
+          "physicalDescription": "All colours, latest fashions",
+          "defaultFunction": "Child's play",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "location": "hair-dresser-shop",
+                "condition": "normal",
+                "owner": "shop-assistants",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "scissors": {
+          "id": "scissors",
+          "name": "Scissors",
+          "description": "A pair of scissors that Ellen found and used to cut off all her hair as a child. This act led to her grandfather's severe punishment.",
+          "tags": [
+            "scissors",
+            "tool",
+            "weapon"
+          ],
+          "textMentions": [
+            "scissors"
+          ],
+          "context": "Hair-dresser shop tool",
+          "type": "item",
+          "itemType": "Tool",
+          "origin": "From the hair-dresser shop",
+          "physicalDescription": "Sharp, capable of cutting hair",
+          "defaultFunction": "Hair cutting",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09",
+                "location": "hair-dresser-shop",
+                "condition": "normal",
+                "owner": "grandfather",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09"
+        },
+        "tongs": {
+          "id": "tongs",
+          "name": "Tongs",
+          "description": "Hair-dressing tongs that the grandfather grabbed and used to burn Ellen's hand as punishment for cutting off her hair. Ellen still bears the mark of this burn.",
+          "tags": [
+            "tongs",
+            "tool",
+            "weapon"
+          ],
+          "textMentions": [
+            "tongs"
+          ],
+          "context": "Hair-dresser shop tool used as weapon",
+          "type": "item",
+          "itemType": "Tool",
+          "origin": "Hair-dresser shop equipment",
+          "physicalDescription": "Hot, capable of burning",
+          "defaultFunction": "Hair styling",
+          "culturalSignificance": "Symbol of childhood trauma and grandfather's cruelty",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10",
+                "location": "hair-dresser-shop",
+                "condition": "normal",
+                "owner": "grandfather",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10"
+        },
+        "penny": {
+          "id": "penny",
+          "name": "Penny",
+          "description": "A penny that the grandfather gave Ellen to hold while he styled her hair on the counter before customers arrived. He always took it back afterward.",
+          "tags": [
+            "coin",
+            "reward",
+            "childhood"
+          ],
+          "textMentions": [
+            "penny"
+          ],
+          "context": "Small reward for child",
+          "type": "item",
+          "itemType": "Coin",
+          "origin": "Given by grandfather",
+          "physicalDescription": "A penny coin",
+          "defaultFunction": "Reward/distraction for child",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "location": "hair-dresser-shop",
+                "condition": "normal",
+                "owner": "grandfather",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "donkeys": {
+          "id": "donkeys",
+          "name": "The Donkeys",
+          "description": "Beautiful silver-grey donkeys with red saddles, blue bridles, and bells that Ellen saw at the fair at Sheldon. They became the object of her intense longing and appeared in her dreams.",
+          "tags": [
+            "animals",
+            "desire",
+            "memory"
+          ],
+          "textMentions": [
+            "donkeys",
+            "donkey"
+          ],
+          "context": "Fair animals",
+          "type": "item",
+          "itemType": "Animals",
+          "origin": "At the fair on the common at Sheldon",
+          "physicalDescription": "Silver-grey, with red saddles, blue bridles, bells on ears, gentle eyes, soft ears, neat little feet",
+          "defaultFunction": "Providing rides at the fair",
+          "culturalSignificance": "Symbol of Ellen's lost childhood joy and unfulfilled desires",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "location": "fair-common",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "flowers-harry": {
+          "id": "flowers-harry",
+          "name": "Flowers from Harry",
+          "description": "Beautiful flowers that Harry brought to Ellen, including lilies-of-the-valley. He brought them frequently as tokens of his love and devotion.",
+          "tags": [
+            "flowers",
+            "love",
+            "romance"
+          ],
+          "textMentions": [
+            "flowers",
+            "lilies-of-the-valley"
+          ],
+          "context": "Romantic gifts",
+          "type": "item",
+          "itemType": "Flowers",
+          "origin": "From Harry's flower shop",
+          "physicalDescription": "Lilies-of-the-valley and other beautiful flowers",
+          "defaultFunction": "Romantic gift",
+          "culturalSignificance": "Symbol of Harry's love and Ellen's romantic possibility",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e17",
+                "location": "flower-shop",
+                "condition": "normal",
+                "owner": "harry",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e17"
+        },
+        "silver-bird-brooch": {
+          "id": "silver-bird-brooch",
+          "name": "Silver Bird Brooch",
+          "description": "A silver bird brooch with a chain in its beak and a heart with a dagger on the end of the chain. Harry gave this to Ellen as an engagement gift. Ellen returns it when she rejects him.",
+          "tags": [
+            "brooch",
+            "jewelry",
+            "engagement"
+          ],
+          "textMentions": [
+            "silver bird",
+            "brooch",
+            "heart with a dagger"
+          ],
+          "context": "Engagement jewelry",
+          "type": "item",
+          "itemType": "Brooch/Jewelry",
+          "origin": "Given by Harry",
+          "physicalDescription": "Silver bird with chain in beak, heart with dagger on chain end",
+          "defaultFunction": "Engagement token",
+          "culturalSignificance": "Symbol of Ellen's rejected love and sacrifice",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18",
+                "location": "flower-shop",
+                "condition": "normal",
+                "owner": "harry",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18"
+        },
+        "harry-letters": {
+          "id": "harry-letters",
+          "name": "Harry's Letters",
+          "description": "Letters from Harry that Ellen returns to him when she rejects his proposal of marriage.",
+          "tags": [
+            "letters",
+            "correspondence",
+            "love"
+          ],
+          "textMentions": [
+            "letters"
+          ],
+          "context": "Love letters",
+          "type": "item",
+          "itemType": "Letters",
+          "origin": "Written by Harry",
+          "physicalDescription": "Written correspondence",
+          "defaultFunction": "Love communication",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "harry",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "engagement-ring": {
+          "id": "engagement-ring",
+          "name": "Engagement Ring",
+          "description": "An engagement ring that Harry gave Ellen. She returns it when she rejects his proposal.",
+          "tags": [
+            "ring",
+            "jewelry",
+            "engagement"
+          ],
+          "textMentions": [
+            "ring"
+          ],
+          "context": "Engagement jewelry",
+          "type": "item",
+          "itemType": "Ring/Jewelry",
+          "origin": "Given by Harry",
+          "physicalDescription": "Engagement ring",
+          "defaultFunction": "Engagement token",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18",
+                "location": "flower-shop",
+                "condition": "normal",
+                "owner": "harry",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18"
+        },
+        "handkerchief": {
+          "id": "handkerchief",
+          "name": "Handkerchief",
+          "description": "The lady's handkerchief that she drops and attempts to pick up herself on the day Ellen is to choose furniture with Harry. This gesture signals to Ellen that her lady is declining and needs her.",
+          "tags": [
+            "handkerchief",
+            "signal",
+            "decline"
+          ],
+          "textMentions": [
+            "handkerchief"
+          ],
+          "context": "Personal item",
+          "type": "item",
+          "itemType": "Handkerchief",
+          "origin": "Belonging to the lady",
+          "physicalDescription": "A handkerchief",
+          "defaultFunction": "Personal use",
+          "culturalSignificance": "Symbol of the lady's declining health and Ellen's realization of her duty",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e20",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "lady",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e20"
+        },
+        "apron": {
+          "id": "apron",
+          "name": "Apron",
+          "description": "Ellen's work apron that she wears when she runs out into the road after rejecting Harry. She runs out in her apron and house-shoes.",
+          "tags": [
+            "apron",
+            "clothing",
+            "servant"
+          ],
+          "textMentions": [
+            "apron"
+          ],
+          "context": "Servant's work clothing",
+          "type": "item",
+          "itemType": "Clothing",
+          "origin": "Ellen's work uniform",
+          "physicalDescription": "Work apron",
+          "defaultFunction": "Work protection",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "ellen",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "house-shoes": {
+          "id": "house-shoes",
+          "name": "House-Shoes",
+          "description": "Ellen's indoor shoes that she wears when she runs out into the road after rejecting Harry.",
+          "tags": [
+            "shoes",
+            "clothing",
+            "indoor"
+          ],
+          "textMentions": [
+            "house-shoes"
+          ],
+          "context": "Indoor footwear",
+          "type": "item",
+          "itemType": "Shoes",
+          "origin": "Ellen's indoor wear",
+          "physicalDescription": "House shoes",
+          "defaultFunction": "Indoor footwear",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "ellen",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "pinny": {
+          "id": "pinny",
+          "name": "Pinny (Pinafore)",
+          "description": "Ellen's pinafore or pinny in which she wraps her injured hand after cutting her hair and running away from her grandfather.",
+          "tags": [
+            "pinafore",
+            "clothing",
+            "childhood"
+          ],
+          "textMentions": [
+            "pinny"
+          ],
+          "context": "Child's clothing",
+          "type": "item",
+          "itemType": "Clothing",
+          "origin": "Ellen's childhood wear",
+          "physicalDescription": "Pinafore used to wrap injured hand",
+          "defaultFunction": "Child's protective garment",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11",
+                "location": "hair-dresser-shop",
+                "condition": "normal",
+                "owner": "ellen",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11"
+        },
+        "uniform": {
+          "id": "uniform",
+          "name": "Uniform",
+          "description": "Ellen's servant's uniform with collars and cuffs that she wore from the time she entered service with her lady. It marked her transition from childhood to adult service.",
+          "tags": [
+            "uniform",
+            "clothing",
+            "servant"
+          ],
+          "textMentions": [
+            "uniform",
+            "collars and cuffs"
+          ],
+          "context": "Servant's work uniform",
+          "type": "item",
+          "itemType": "Clothing",
+          "origin": "Provided by the lady",
+          "physicalDescription": "Uniform with collars and cuffs",
+          "defaultFunction": "Work identification and protection",
+          "culturalSignificance": "Symbol of Ellen's entry into service and loss of childhood",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "lady",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13"
+        },
+        "clock": {
+          "id": "clock",
+          "name": "The Clock",
+          "description": "A clock in the house that strikes and reminds Ellen of the time, making her realize she has kept the visitor awake with her story.",
+          "tags": [
+            "clock",
+            "time",
+            "household"
+          ],
+          "textMentions": [
+            "clock"
+          ],
+          "context": "Household timepiece",
+          "type": "item",
+          "itemType": "Clock",
+          "origin": "Household item",
+          "physicalDescription": "Strikes the hour",
+          "defaultFunction": "Telling time",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22",
+                "location": "lady-house",
+                "condition": "normal",
+                "owner": "lady",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22"
+        }
+      },
+      "factions": {}
+    },
+    "events": {
+      "e01": {
+        "id": "e01",
+        "type": "action",
+        "description": "Ellen knocks at the door at eleven o'clock and enters the visitor's bedroom",
+        "timestamp": {
+          "percentage": 0
+        },
+        "textLocation": {
+          "startLine": 1,
+          "endLine": 2
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "lady-bedroom"
+        ],
+        "precedingEvent": null
+      },
+      "e02": {
+        "id": "e02",
+        "type": "dialogue",
+        "description": "Ellen apologizes for disturbing the visitor and explains she has brought tea left over from her lady's evening tea",
+        "timestamp": {
+          "percentage": 1
+        },
+        "textLocation": {
+          "startLine": 3,
+          "endLine": 6
+        },
+        "participants": [
+          "ellen",
+          "visitor"
+        ],
+        "precedingEvent": "e01"
+      },
+      "e03": {
+        "id": "e03",
+        "type": "dialogue",
+        "description": "Ellen describes her lady's nightly tea ritual: she drinks it in bed after prayers, and Ellen puts the kettle on when the lady kneels. Ellen mentions the lady keeps a list of people to pray for in a little red book.",
+        "timestamp": {
+          "percentage": 2
+        },
+        "textLocation": {
+          "startLine": 7,
+          "endLine": 26
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "lady",
+          "red-book",
+          "kettle"
+        ],
+        "precedingEvent": "e02"
+      },
+      "e04": {
+        "id": "e04",
+        "type": "dialogue",
+        "description": "Ellen describes how her lady resembles her deceased mother when lying in bed, and recalls laying out her mother after death",
+        "timestamp": {
+          "percentage": 8
+        },
+        "textLocation": {
+          "startLine": 27,
+          "endLine": 35
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "lady",
+          "lady-mother"
+        ],
+        "precedingEvent": "e03"
+      },
+      "e05": {
+        "id": "e05",
+        "type": "dialogue",
+        "description": "Ellen describes arranging her lady's mother's hair in dainty curls and placing purple pansies beside her neck, creating a beautiful picture",
+        "timestamp": {
+          "percentage": 10
+        },
+        "textLocation": {
+          "startLine": 36,
+          "endLine": 42
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "lady-mother",
+          "purple-pansies"
+        ],
+        "precedingEvent": "e04"
+      },
+      "e06": {
+        "id": "e06",
+        "type": "dialogue",
+        "description": "Ellen describes her lady's mental decline in her final year: she became feeble, thought she had lost something, and searched constantly. Ellen recounts her lady's final stroke and last words: 'Look in—the—Look—in—'",
+        "timestamp": {
+          "percentage": 12
+        },
+        "textLocation": {
+          "startLine": 43,
+          "endLine": 57
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "lady"
+        ],
+        "precedingEvent": "e05"
+      },
+      "e07": {
+        "id": "e07",
+        "type": "dialogue",
+        "description": "Ellen explains that she never had suitors or romantic interests as a girl, and describes her mother's death from consumption when Ellen was four years old",
+        "timestamp": {
+          "percentage": 15
+        },
+        "textLocation": {
+          "startLine": 58,
+          "endLine": 62
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "mother-ellen"
+        ],
+        "precedingEvent": "e06"
+      },
+      "e08": {
+        "id": "e08",
+        "type": "dialogue",
+        "description": "Ellen describes her childhood in her grandfather's hair-dresser shop, where she played under a table dressing her doll's hair and copying the assistants. The assistants made her wigs of various colors and fashions.",
+        "timestamp": {
+          "percentage": 17
+        },
+        "textLocation": {
+          "startLine": 63,
+          "endLine": 72
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "grandfather",
+          "hair-dresser-shop",
+          "doll",
+          "wigs",
+          "shop-assistants",
+          "penny"
+        ],
+        "precedingEvent": "e07"
+      },
+      "e09": {
+        "id": "e09",
+        "type": "action",
+        "description": "Ellen finds scissors and cuts off all her hair in bits, acting like a monkey",
+        "timestamp": {
+          "percentage": 20
+        },
+        "textLocation": {
+          "startLine": 73,
+          "endLine": 76
+        },
+        "participants": [
+          "ellen",
+          "scissors",
+          "hair-dresser-shop"
+        ],
+        "precedingEvent": "e08"
+      },
+      "e10": {
+        "id": "e10",
+        "type": "action",
+        "description": "Grandfather becomes furious, grabs the tongs, and burns Ellen's hand as punishment, saying 'That'll teach you!' Ellen still bears the mark of this burn.",
+        "timestamp": {
+          "percentage": 21
+        },
+        "textLocation": {
+          "startLine": 77,
+          "endLine": 80
+        },
+        "participants": [
+          "ellen",
+          "grandfather",
+          "tongs",
+          "hair-dresser-shop"
+        ],
+        "precedingEvent": "e09"
+      },
+      "e11": {
+        "id": "e11",
+        "type": "action",
+        "description": "Ellen runs away in panic with her hand wrapped in her pinny and her hair sticking out, running around corners without knowing how far",
+        "timestamp": {
+          "percentage": 23
+        },
+        "textLocation": {
+          "startLine": 81,
+          "endLine": 87
+        },
+        "participants": [
+          "ellen",
+          "pinny",
+          "hair-dresser-shop"
+        ],
+        "precedingEvent": "e10"
+      },
+      "e12": {
+        "id": "e12",
+        "type": "dialogue",
+        "description": "Ellen explains that her grandfather never got over the incident and couldn't bear to see her afterward. Her aunt, who was a cripple and upholstress, took her in. Ellen was thirteen when she entered service with her lady through helping her aunt.",
+        "timestamp": {
+          "percentage": 26
+        },
+        "textLocation": {
+          "startLine": 88,
+          "endLine": 96
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "grandfather",
+          "aunt",
+          "lady"
+        ],
+        "precedingEvent": "e11"
+      },
+      "e13": {
+        "id": "e13",
+        "type": "dialogue",
+        "description": "Ellen describes entering service with her lady at age thirteen, wearing a uniform with collars and cuffs from the first day",
+        "timestamp": {
+          "percentage": 28
+        },
+        "textLocation": {
+          "startLine": 97,
+          "endLine": 101
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "lady",
+          "uniform"
+        ],
+        "precedingEvent": "e12"
+      },
+      "e14": {
+        "id": "e14",
+        "type": "action",
+        "description": "Ellen takes her lady's two young nieces to a fair on the common at Sheldon to ride donkeys, but the girls are too shy. Ellen watches the beautiful silver-grey donkeys with red saddles and blue bridles with bells.",
+        "timestamp": {
+          "percentage": 30
+        },
+        "textLocation": {
+          "startLine": 102,
+          "endLine": 120
+        },
+        "participants": [
+          "ellen",
+          "lady-nieces",
+          "sheldon",
+          "fair-common",
+          "donkeys"
+        ],
+        "precedingEvent": "e13"
+      },
+      "e15": {
+        "id": "e15",
+        "type": "dialogue",
+        "description": "Ellen describes her intense longing for the donkeys, their gentle eyes, soft ears, and neat little feet. She becomes obsessed with the desire to ride a donkey.",
+        "timestamp": {
+          "percentage": 38
+        },
+        "textLocation": {
+          "startLine": 121,
+          "endLine": 130
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "donkeys"
+        ],
+        "precedingEvent": "e14"
+      },
+      "e16": {
+        "id": "e16",
+        "type": "action",
+        "description": "Ellen lies in bed in Mrs. James's bedroom and, pretending to be asleep, suddenly calls out loudly: 'I do want to go on a donkey. I do want a donkey-ride!'",
+        "timestamp": {
+          "percentage": 42
+        },
+        "textLocation": {
+          "startLine": 131,
+          "endLine": 139
+        },
+        "participants": [
+          "ellen",
+          "mrs-james-bedroom",
+          "mrs-james"
+        ],
+        "precedingEvent": "e15"
+      },
+      "e17": {
+        "id": "e17",
+        "type": "dialogue",
+        "description": "Ellen describes meeting Harry, who owned a flower shop down the road from where she and her lady lived. They quarreled about how to arrange flowers, and Harry began bringing her flowers, including lilies-of-the-valley.",
+        "timestamp": {
+          "percentage": 44
+        },
+        "textLocation": {
+          "startLine": 140,
+          "endLine": 152
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "harry",
+          "flower-shop",
+          "flowers-harry"
+        ],
+        "precedingEvent": "e16"
+      },
+      "e18": {
+        "id": "e18",
+        "type": "dialogue",
+        "description": "Ellen describes planning to marry Harry and live over the shop. She dreams of arranging the shop window for Christmas and Easter. Harry gave her a silver bird brooch with a heart and dagger charm.",
+        "timestamp": {
+          "percentage": 50
+        },
+        "textLocation": {
+          "startLine": 153,
+          "endLine": 165
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "harry",
+          "flower-shop",
+          "silver-bird-brooch"
+        ],
+        "precedingEvent": "e17"
+      },
+      "e19": {
+        "id": "e19",
+        "type": "action",
+        "description": "On a Tuesday afternoon, Ellen's lady appears unwell—she keeps wrapping herself up, asks if it's cold, and her nose looks pinched. Ellen realizes her lady needs her and becomes conflicted about leaving to choose furniture with Harry.",
+        "timestamp": {
+          "percentage": 56
+        },
+        "textLocation": {
+          "startLine": 166,
+          "endLine": 177
+        },
+        "participants": [
+          "ellen",
+          "lady",
+          "lady-house"
+        ],
+        "precedingEvent": "e18"
+      },
+      "e20": {
+        "id": "e20",
+        "type": "action",
+        "description": "Ellen's lady drops her handkerchief and begins to stoop to pick it up herself—something she never does. Ellen realizes her lady is declining and needs her. The lady assures Ellen she should not disappoint her young man, but Ellen sees the lady's gesture of putting her hand on her heart.",
+        "timestamp": {
+          "percentage": 62
+        },
+        "textLocation": {
+          "startLine": 178,
+          "endLine": 195
+        },
+        "participants": [
+          "ellen",
+          "lady",
+          "handkerchief",
+          "lady-house"
+        ],
+        "precedingEvent": "e19"
+      },
+      "e21": {
+        "id": "e21",
+        "type": "action",
+        "description": "When Harry arrives, Ellen immediately returns his letters, ring, and silver bird brooch. She tells him 'it's all over' and that she cannot leave her lady. Harry turns white and Ellen slams the door. She runs out into the road in her apron and house-shoes, standing in the middle of the road staring after him.",
+        "timestamp": {
+          "percentage": 70
+        },
+        "textLocation": {
+          "startLine": 196,
+          "endLine": 210
+        },
+        "participants": [
+          "ellen",
+          "harry",
+          "harry-letters",
+          "engagement-ring",
+          "silver-bird-brooch",
+          "apron",
+          "house-shoes",
+          "road-outside-house"
+        ],
+        "precedingEvent": "e20"
+      },
+      "e22": {
+        "id": "e22",
+        "type": "action",
+        "description": "The clock strikes, and Ellen realizes she has been keeping the visitor awake with her story. She apologizes and offers to tuck in the visitor's feet, as she does every night for her lady.",
+        "timestamp": {
+          "percentage": 92
+        },
+        "textLocation": {
+          "startLine": 211,
+          "endLine": 217
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "clock",
+          "lady-bedroom"
+        ],
+        "precedingEvent": "e21"
+      },
+      "e23": {
+        "id": "e23",
+        "type": "dialogue",
+        "description": "Ellen admits that she sometimes thinks about what would happen if anything happened to her lady, but she pulls herself up sharply and tells herself not to think such thoughts. She emphasizes that thinking won't help anyone.",
+        "timestamp": {
+          "percentage": 96
+        },
+        "textLocation": {
+          "startLine": 218,
+          "endLine": 225
+        },
+        "participants": [
+          "ellen",
+          "visitor",
+          "lady"
+        ],
+        "precedingEvent": "e22"
+      }
+    },
+    "relationships": {
+      "interpersonal": {
+        "rel-ellen-lady": {
+          "id": "rel-ellen-lady",
+          "name": "Ellen and Her Lady",
+          "description": "A deep bond of devotion and service. Ellen has sacrificed her own happiness and romantic future to care for her lady. The relationship is characterized by Ellen's complete loyalty and the lady's gentle, kind nature.",
+          "tags": [
+            "devotion",
+            "service",
+            "sacrifice",
+            "love"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "ellen",
+            "lady"
+          ],
+          "nature": "Servant-employer relationship transformed into deep personal devotion",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13",
+                "strength": 1,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "mentor"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13"
+        },
+        "rel-ellen-grandfather": {
+          "id": "rel-ellen-grandfather",
+          "name": "Ellen and Her Grandfather",
+          "description": "A traumatic relationship marked by pride, punishment, and rejection. The grandfather was proud of Ellen's hair, punished her severely for cutting it, and could not forgive her afterward, refusing to eat in her presence.",
+          "tags": [
+            "trauma",
+            "punishment",
+            "rejection",
+            "cruelty"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "ellen",
+            "grandfather"
+          ],
+          "nature": "Abusive family relationship",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "strength": 0.8,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "rel-ellen-harry": {
+          "id": "rel-ellen-harry",
+          "name": "Ellen and Harry",
+          "description": "A romantic relationship that began with quarrels about flower arrangements and developed into love and engagement. Harry was generous and devoted, bringing Ellen flowers and giving her gifts. Ellen rejected him to stay with her lady.",
+          "tags": [
+            "romance",
+            "love",
+            "rejection",
+            "sacrifice"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "ellen",
+            "harry"
+          ],
+          "nature": "Romantic relationship ended by Ellen's choice",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e17",
+                "strength": 0.7,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "lover"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e17"
+        },
+        "rel-ellen-aunt": {
+          "id": "rel-ellen-aunt",
+          "name": "Ellen and Her Aunt",
+          "description": "A caring relationship where Ellen's aunt took her in after her grandfather rejected her. Ellen helped her aunt with upholstery work and through this work met her lady.",
+          "tags": [
+            "family",
+            "care",
+            "work"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "ellen",
+            "aunt"
+          ],
+          "nature": "Family relationship of care and support",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12",
+                "strength": 0.6,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12"
+        },
+        "rel-lady-mother": {
+          "id": "rel-lady-mother",
+          "name": "The Lady and Her Mother",
+          "description": "A relationship of deep affection. Ellen recalls the lady's mother as sweet and beautiful. The lady resembles her mother, and Ellen sometimes sees her mother in her lady's appearance.",
+          "tags": [
+            "family",
+            "affection",
+            "memory"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "lady",
+            "lady-mother"
+          ],
+          "nature": "Mother-daughter relationship",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "strength": 0.8,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "family"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "rel-ellen-visitor": {
+          "id": "rel-ellen-visitor",
+          "name": "Ellen and the Visitor",
+          "description": "A confessional relationship where Ellen tells her life story to the visitor late at night. The visitor listens patiently and occasionally prompts Ellen's narrative.",
+          "tags": [
+            "confession",
+            "listening",
+            "intimacy"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "ellen",
+            "visitor"
+          ],
+          "nature": "Temporary intimate conversation between stranger and servant",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "strength": 0.4,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "friend"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        }
+      },
+      "group": {}
+    },
+    "absentials": {
+      "abs-donkey-ride": {
+        "id": "abs-donkey-ride",
+        "name": "The Desire for a Donkey Ride",
+        "description": "Ellen's intense longing to ride one of the beautiful donkeys she saw at the fair at Sheldon. This desire becomes obsessive and appears in her dreams.",
+        "tags": [
+          "desire",
+          "childhood",
+          "unfulfilled",
+          "memory"
+        ],
+        "holder": "ellen",
+        "origin": "Seeing the beautiful silver-grey donkeys with red saddles and blue bridles at the fair at Sheldon when she was young",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "donkeys",
+            "relationship": "target",
+            "strength": 1
+          },
+          {
+            "entityId": "lady-nieces",
+            "relationship": "obstacle",
+            "strength": 0.5
+          },
+          {
+            "entityId": "uniform",
+            "relationship": "obstacle",
+            "strength": 0.4
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e14",
+              "type": "desire",
+              "status": "unsatisfied",
+              "urgency": 0.9,
+              "intensity": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e14"
+      },
+      "abs-marriage-to-harry": {
+        "id": "abs-marriage-to-harry",
+        "name": "The Desire to Marry Harry",
+        "description": "Ellen's hope to marry Harry, live over his flower shop, and arrange the shop window. This represents her potential for personal happiness and romantic fulfillment.",
+        "tags": [
+          "desire",
+          "romance",
+          "future",
+          "rejected"
+        ],
+        "holder": "ellen",
+        "origin": "Meeting Harry at his flower shop and falling in love; his proposal and gifts",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "harry",
+            "relationship": "target",
+            "strength": 1
+          },
+          {
+            "entityId": "lady",
+            "relationship": "obstacle",
+            "strength": 1
+          },
+          {
+            "entityId": "flower-shop",
+            "relationship": "target",
+            "strength": 0.7
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e17",
+              "type": "desire",
+              "status": "resolved_blocked",
+              "urgency": 0.8,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e17"
+      },
+      "abs-duty-to-lady": {
+        "id": "abs-duty-to-lady",
+        "name": "Duty to Her Lady",
+        "description": "Ellen's overwhelming sense of duty and obligation to care for her lady. This becomes the central organizing principle of her life and the reason she sacrifices her own happiness.",
+        "tags": [
+          "duty",
+          "obligation",
+          "devotion",
+          "sacrifice"
+        ],
+        "holder": "ellen",
+        "origin": "Years of service and deep attachment to her lady; the lady's kindness and need",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "lady",
+            "relationship": "target",
+            "strength": 1
+          },
+          {
+            "entityId": "harry",
+            "relationship": "obstacle",
+            "strength": 0.9
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e13",
+              "type": "goal",
+              "status": "resolved_satisfied",
+              "urgency": 1,
+              "intensity": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e13"
+      },
+      "abs-fear-of-losing-lady": {
+        "id": "abs-fear-of-losing-lady",
+        "name": "Fear of Losing Her Lady",
+        "description": "Ellen's deep anxiety about what would happen if something happened to her lady. This fear is so strong that she tries not to think about it, but it haunts her.",
+        "tags": [
+          "fear",
+          "anxiety",
+          "loss",
+          "dependence"
+        ],
+        "holder": "ellen",
+        "origin": "Her complete dependence on her lady and the lady's advancing age and declining health",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "lady",
+            "relationship": "target",
+            "strength": 1
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e23",
+              "type": "fear",
+              "status": "unsatisfied",
+              "urgency": 0.9,
+              "intensity": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e23"
+      },
+      "abs-childhood-joy": {
+        "id": "abs-childhood-joy",
+        "name": "Lost Childhood Joy",
+        "description": "Ellen's sense that she never truly experienced childhood. She entered service at thirteen and never felt like a child, always wearing her uniform and performing her duties.",
+        "tags": [
+          "loss",
+          "childhood",
+          "regret",
+          "identity"
+        ],
+        "holder": "ellen",
+        "origin": "Her early life in her grandfather's shop, the trauma of punishment, and her early entry into service",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "grandfather",
+            "relationship": "creator",
+            "strength": 0.8
+          },
+          {
+            "entityId": "lady",
+            "relationship": "influenced_by",
+            "strength": 0.6
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e13",
+              "type": "lack",
+              "status": "resolved_blocked",
+              "urgency": 0.6,
+              "intensity": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e13"
+      },
+      "abs-lady-lost-thing": {
+        "id": "abs-lady-lost-thing",
+        "name": "The Lady's Lost Thing",
+        "description": "The mysterious thing that the lady believes she has lost in her final year. She searches constantly for it, unable to settle or keep still. The nature of what she has lost is never revealed.",
+        "tags": [
+          "mystery",
+          "loss",
+          "decline",
+          "search"
+        ],
+        "holder": "lady",
+        "origin": "The lady's mental decline in her final year",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "lady",
+            "relationship": "target",
+            "strength": 1
+          },
+          {
+            "entityId": "ellen",
+            "relationship": "facilitator",
+            "strength": 0.7
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e06",
+              "type": "need",
+              "status": "resolved_blocked",
+              "urgency": 1,
+              "intensity": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e06"
+      }
+    },
+    "mentalConstructs": {
+      "mc-lady-prayerfulness": {
+        "id": "mc-lady-prayerfulness",
+        "name": "The Lady's Deep Prayerfulness",
+        "description": "Ellen's understanding that her lady is deeply religious and devoted to prayer. She keeps a list of people to pray for and prays for them every night, kneeling on the hard carpet without cushioning.",
+        "tags": [
+          "religion",
+          "devotion",
+          "prayer"
+        ],
+        "holder": "ellen",
+        "subject": "lady",
+        "isDiegetic": true,
+        "source": "e03",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e03",
+              "content": "My lady is deeply religious and prays every night for a long list of people she keeps in a little red book. She refuses comfort and kneels on the hard carpet.",
+              "type": "fact",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e03"
+      },
+      "mc-lady-goodness": {
+        "id": "mc-lady-goodness",
+        "name": "The Lady's Goodness",
+        "description": "Ellen's belief that her lady is exceptionally good and selfless. She never complains, thinks of others before herself, and is kind and gentle.",
+        "tags": [
+          "character",
+          "virtue",
+          "goodness"
+        ],
+        "holder": "ellen",
+        "subject": "lady",
+        "isDiegetic": true,
+        "source": "e03",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e03",
+              "content": "My lady is too good. She is selfless, kind, and never thinks of herself. She is like her dear mother.",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e03"
+      },
+      "mc-grandfather-cruelty": {
+        "id": "mc-grandfather-cruelty",
+        "name": "Ellen's Understanding of Her Grandfather's Cruelty",
+        "description": "Ellen's memory and understanding that her grandfather was cruel and violent, punishing her severely for cutting her hair and then rejecting her afterward.",
+        "tags": [
+          "trauma",
+          "memory",
+          "cruelty"
+        ],
+        "holder": "ellen",
+        "subject": "grandfather",
+        "isDiegetic": true,
+        "source": "e10",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e10",
+              "content": "My grandfather was furious when I cut my hair. He grabbed the tongs and burned my hand. He never got over it and couldn't bear to see me afterward.",
+              "type": "memory",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e10"
+      },
+      "mc-harry-love": {
+        "id": "mc-harry-love",
+        "name": "Ellen's Love for Harry",
+        "description": "Ellen's belief and feeling that she loves Harry and could have been happy with him. She dreams of arranging the flower shop window and living over the shop.",
+        "tags": [
+          "love",
+          "romance",
+          "possibility"
+        ],
+        "holder": "ellen",
+        "subject": "harry",
+        "isDiegetic": true,
+        "source": "e17",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e17",
+              "content": "I love Harry and could have been happy with him. I dream of arranging the shop window and living over the shop with him.",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e17"
+      },
+      "mc-lady-needs-her": {
+        "id": "mc-lady-needs-her",
+        "name": "Ellen's Realization That Her Lady Needs Her",
+        "description": "Ellen's understanding that her lady is declining and needs her care. This realization crystallizes when she sees her lady's pinched nose and attempts to pick up her handkerchief.",
+        "tags": [
+          "realization",
+          "duty",
+          "need"
+        ],
+        "holder": "ellen",
+        "subject": "lady",
+        "isDiegetic": true,
+        "source": "e19",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e19",
+              "content": "My lady is unwell and needs me. She cannot be left alone. I must stay with her.",
+              "type": "fact",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e19"
+      },
+      "mc-donkey-memory": {
+        "id": "mc-donkey-memory",
+        "name": "Ellen's Memory of the Donkeys",
+        "description": "Ellen's vivid memory of the beautiful silver-grey donkeys with red saddles, blue bridles, and bells at the fair at Sheldon. The memory is so strong it appears in her dreams.",
+        "tags": [
+          "memory",
+          "desire",
+          "childhood"
+        ],
+        "holder": "ellen",
+        "subject": "donkeys",
+        "isDiegetic": true,
+        "source": "e14",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e14",
+              "content": "I remember the beautiful silver-grey donkeys with red saddles, blue bridles, and bells. They had gentle eyes, soft ears, and neat little feet. I wanted to ride them more than anything.",
+              "type": "memory",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e14"
+      },
+      "mc-never-child": {
+        "id": "mc-never-child",
+        "name": "Ellen's Belief That She Was Never a Child",
+        "description": "Ellen's understanding that she never experienced childhood. She entered service at thirteen and wore her uniform from the first day, always performing her duties.",
+        "tags": [
+          "identity",
+          "loss",
+          "regret"
+        ],
+        "holder": "ellen",
+        "subject": "ellen",
+        "isDiegetic": true,
+        "source": "e13",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e13",
+              "content": "I don't remember ever feeling like a child. I was always in my uniform with collars and cuffs, always performing my duties.",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e13"
+      },
+      "mc-lady-resembles-mother": {
+        "id": "mc-lady-resembles-mother",
+        "name": "Ellen's Observation That Her Lady Resembles Her Mother",
+        "description": "Ellen's observation that when her lady lies in bed, she looks just like her mother did when Ellen laid her out after death.",
+        "tags": [
+          "observation",
+          "memory",
+          "resemblance"
+        ],
+        "holder": "ellen",
+        "subject": "lady",
+        "isDiegetic": true,
+        "source": "e04",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e04",
+              "content": "When my lady lies in bed with her hands outside and her head on the pillow, she looks just like her dear mother when I laid her out.",
+              "type": "fact",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e04"
+      },
+      "mc-thinking-no-good": {
+        "id": "mc-thinking-no-good",
+        "name": "Ellen's Belief That Thinking Won't Help",
+        "description": "Ellen's conviction that thinking about her fears and worries is pointless and unhelpful. She tries to avoid thinking about what would happen if something happened to her lady.",
+        "tags": [
+          "coping",
+          "avoidance",
+          "philosophy"
+        ],
+        "holder": "ellen",
+        "subject": "ellen",
+        "isDiegetic": true,
+        "source": "e23",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e23",
+              "content": "Thinking is no good to anyone. Thinking won't help. I shouldn't think about what would happen if something happened to my lady.",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e23"
+      }
+    },
+    "annotations": []
+  },
+  "readings": {
+    "Formalist Reading: Structure, Style, and Narrative Form": {
+      "name": "Formalist Reading: Structure, Style, and Narrative Form",
+      "description": "A formalist analysis of 'Ellen' examining narrative structure, stylistic patterns, symbolic imagery, and the formal techniques Mansfield employs to create meaning through form rather than external reference. Focus on the monologue structure, temporal layering, imagery patterns, and the relationship between narrative voice and textual meaning.",
+      "themes": {
+        "theme-sacrifice-as-narrative-form": {
+          "id": "theme-sacrifice-as-narrative-form",
+          "name": "Sacrifice as Narrative Structure",
+          "description": "The story's form itself enacts sacrifice: Ellen's desires are systematically deferred and abandoned through the narrative structure. Each temporal layer (childhood, service, romance, present) repeats the pattern of renunciation, creating a formal architecture of loss.",
+          "tags": [
+            "structure",
+            "repetition",
+            "form-as-content"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07"
+        },
+        "theme-monologue-as-confession": {
+          "id": "theme-monologue-as-confession",
+          "name": "Monologue as Confession and Entrapment",
+          "description": "The monologue form traps both Ellen and the listener in an endless narrative loop. Ellen's voice dominates, yet she remains bound to her duty even in speech—she cannot escape the narrative of service, only rehearse it. The form mirrors her psychological imprisonment.",
+          "tags": [
+            "voice",
+            "form",
+            "entrapment"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "theme-temporal-collapse": {
+          "id": "theme-temporal-collapse",
+          "name": "Temporal Collapse and Simultaneity",
+          "description": "The narrative collapses past and present through the monologue: Ellen tells her life story while simultaneously enacting her servitude (bringing tea, tucking in feet). Time becomes circular rather than linear, with each past sacrifice echoing in the present moment.",
+          "tags": [
+            "time",
+            "structure",
+            "simultaneity"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "theme-imagery-of-confinement": {
+          "id": "theme-imagery-of-confinement",
+          "name": "Imagery of Confinement and Enclosure",
+          "description": "Formal patterns of enclosure structure the narrative: Ellen under the table, in the shop, in the bedroom, in the house, in the road. Each space literally and figuratively contains her. The monologue itself becomes another enclosure from which she cannot escape.",
+          "tags": [
+            "imagery",
+            "space",
+            "confinement"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "theme-objects-as-formal-markers": {
+          "id": "theme-objects-as-formal-markers",
+          "name": "Objects as Formal Markers of Desire and Loss",
+          "description": "Symbolic objects (donkeys, flowers, brooch, pansies) function formally as markers of deferred and abandoned desires. They appear, intensify, then vanish from the narrative, their formal disappearance enacting Ellen's psychological renunciation.",
+          "tags": [
+            "symbolism",
+            "objects",
+            "form"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        }
+      },
+      "symbols": {
+        "sym-donkeys": {
+          "id": "sym-donkeys",
+          "name": "The Donkeys",
+          "description": "Formally, the donkeys represent the narrative's most intense moment of desire and longing. They appear suddenly (e14), intensify through obsessive description (e15), manifest in dream speech (e16), then disappear entirely from the narrative. Their formal arc enacts the pattern of desire-intensification-abandonment that structures the entire story.",
+          "tags": [
+            "desire",
+            "beauty",
+            "loss"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "currentMeanings": [
+                  {
+                    "description": "Innocent childhood desire and wonder",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "The beautiful object that cannot be possessed",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Formal marker of narrative intensity and emotional peak",
+                    "strength": 0.8
+                  }
+                ],
+                "currentManifestations": [
+                  "donkeys"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "sym-silver-bird-brooch": {
+          "id": "sym-silver-bird-brooch",
+          "name": "The Silver Bird Brooch",
+          "description": "Formally, the brooch functions as a concentrated symbol of romantic possibility. Its detailed description (heart, dagger, chain) creates textual density at the moment of engagement. Its return in e21 marks the narrative's formal reversal—the object that promised escape is returned, completing the arc of renunciation.",
+          "tags": [
+            "love",
+            "escape",
+            "rejection"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18",
+                "currentMeanings": [
+                  {
+                    "description": "Romantic love and the possibility of personal happiness",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "The tangible token that must be surrendered",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Formal pivot point in the narrative structure",
+                    "strength": 0.8
+                  }
+                ],
+                "currentManifestations": [
+                  "silver-bird-brooch"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18"
+        },
+        "sym-purple-pansies": {
+          "id": "sym-purple-pansies",
+          "name": "Purple Pansies",
+          "description": "Formally, the pansies represent aesthetic beauty applied to death. Ellen's careful arrangement of them (e05) demonstrates her artistic sensibility, yet they are placed on a corpse. The pansies appear early in the narrative and haunt Ellen's memory—she wishes she could place them with her lady now (e06), creating a formal echo that links past and present.",
+          "tags": [
+            "beauty",
+            "death",
+            "memory"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "currentMeanings": [
+                  {
+                    "description": "Aesthetic beauty and artistic arrangement",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "The beautiful gesture applied to death and loss",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Formal repetition linking past and present",
+                    "strength": 0.75
+                  }
+                ],
+                "currentManifestations": [
+                  "purple-pansies"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "sym-red-book": {
+          "id": "sym-red-book",
+          "name": "The Little Red Book",
+          "description": "Formally, the red book functions as a metonym for duty and obligation. Its appearance signals Ellen's anxiety (e03). The book's color and function create a visual and thematic anchor for the lady's piety, and its presence in the narrative structure emphasizes how duty literally writes itself into the household.",
+          "tags": [
+            "duty",
+            "obligation",
+            "prayer"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "currentMeanings": [
+                  {
+                    "description": "Duty and religious obligation",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "The written record of others' needs",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Formal marker of Ellen's anxiety and constraint",
+                    "strength": 0.75
+                  }
+                ],
+                "currentManifestations": [
+                  "red-book"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        },
+        "sym-kettle": {
+          "id": "sym-kettle",
+          "name": "The Kettle",
+          "description": "Formally, the kettle represents the mechanical rhythm of duty. Ellen's joke about it (e03) reveals her consciousness of its relentless boiling—it always finishes before the lady's prayers end. The kettle's formal function is to mark time and measure the lady's devotion, making it a symbol of temporal entrapment.",
+          "tags": [
+            "duty",
+            "time",
+            "rhythm"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "currentMeanings": [
+                  {
+                    "description": "The mechanical rhythm of daily service",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Time measured by obligation rather than desire",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Formal marker of the repetitive structure of service",
+                    "strength": 0.75
+                  }
+                ],
+                "currentManifestations": [
+                  "kettle"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        }
+      },
+      "symbolicRelationships": {
+        "symrel-donkeys-desire": {
+          "id": "symrel-donkeys-desire",
+          "name": "Donkeys as Desire Incarnate",
+          "description": "The donkeys formally embody Ellen's capacity for desire. Their appearance triggers the narrative's most intense emotional language. The formal relationship between the donkeys and Ellen's desire creates the story's emotional peak, after which desire is systematically abandoned.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-donkeys",
+            "theme-sacrifice-as-narrative-form"
+          ],
+          "nature": "The donkeys represent the beautiful object of desire that must be renounced. Formally, they mark the moment before sacrifice becomes inevitable.",
+          "symbol": "sym-donkeys",
+          "symbolized": "theme-sacrifice-as-narrative-form",
+          "interpretation": "The donkeys represent the beautiful object of desire that must be renounced. Formally, they mark the moment before sacrifice becomes inevitable.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "symrel-brooch-escape": {
+          "id": "symrel-brooch-escape",
+          "name": "Brooch as Escape Route",
+          "description": "The silver bird brooch formally represents the path not taken. Its detailed description creates textual density around romantic possibility, making its return in e21 a formal reversal that enacts Ellen's renunciation through the return of the object itself.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-silver-bird-brooch",
+            "abs-marriage-to-harry"
+          ],
+          "nature": "The brooch's return completes the formal arc of renunciation. The object that promised escape is surrendered, and with it, the possibility of personal happiness.",
+          "symbol": "sym-silver-bird-brooch",
+          "symbolized": "abs-marriage-to-harry",
+          "interpretation": "The brooch's return completes the formal arc of renunciation. The object that promised escape is surrendered, and with it, the possibility of personal happiness.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18"
+        },
+        "symrel-pansies-memory": {
+          "id": "symrel-pansies-memory",
+          "name": "Pansies as Haunting Memory",
+          "description": "The purple pansies formally link past and present through Ellen's memory. She placed them with the lady's mother; she wishes she could place them with her lady now. This formal echo creates temporal collapse, suggesting that Ellen's present is merely a repetition of her past.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-purple-pansies",
+            "theme-temporal-collapse"
+          ],
+          "nature": "The pansies' formal recurrence in Ellen's memory demonstrates how past and present collapse into a single pattern of beautiful gestures applied to death and loss.",
+          "symbol": "sym-purple-pansies",
+          "symbolized": "theme-temporal-collapse",
+          "interpretation": "The pansies' formal recurrence in Ellen's memory demonstrates how past and present collapse into a single pattern of beautiful gestures applied to death and loss.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "symrel-kettle-time": {
+          "id": "symrel-kettle-time",
+          "name": "Kettle as Time's Measure",
+          "description": "The kettle formally measures time through duty rather than desire. Its relentless boiling creates a rhythmic structure that mirrors the monologue's temporal entrapment. The kettle's formal function is to mark how duty consumes time.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-kettle",
+            "theme-temporal-collapse"
+          ],
+          "nature": "The kettle's mechanical rhythm formally enacts the way duty structures time. It boils while the lady prays, measuring devotion rather than desire.",
+          "symbol": "sym-kettle",
+          "symbolized": "theme-temporal-collapse",
+          "interpretation": "The kettle's mechanical rhythm formally enacts the way duty structures time. It boils while the lady prays, measuring devotion rather than desire.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        }
+      },
+      "narrator": {
+        "id": "narrator",
+        "name": "Ellen",
+        "description": "Ellen is the sole narrator, speaking in first person throughout the monologue. Her voice is intimate, confessional, and self-aware. She addresses the visitor directly, creating the illusion of conversation while dominating the narrative space. Her reliability is high regarding factual events but compromised regarding self-understanding—she cannot see the pattern of sacrifice that structures her life, only rehearse it.",
+        "tags": [],
+        "type": "narrator",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "reliability": 0.65,
+              "mentalConstructs": [],
+              "perspective": "first_person"
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "reader": {
+        "id": "reader",
+        "name": "The Visitor/Implied Reader",
+        "description": "The reader is positioned as the visitor in the bedroom, a passive listener to Ellen's monologue. The reader is trapped in the narrative space (the bedroom) and cannot escape Ellen's voice, mirroring Ellen's own entrapment. The reader's role is to witness and absorb Ellen's confession without intervention.",
+        "tags": [],
+        "type": "reader",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "mentalConstructs": [],
+              "emotions": {
+                "joy": 0,
+                "trust": 0,
+                "fear": 0,
+                "surprise": 0,
+                "sadness": 0,
+                "disgust": 0,
+                "anger": 0,
+                "anticipation": 0,
+                "intensity": 0
+              }
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "author": {
+        "id": "author",
+        "name": "Katherine Mansfield",
+        "description": "Mansfield employs a formalist technique of narrative enclosure and temporal collapse. She uses the monologue form to create a self-contained narrative world where form enacts meaning. The story's structure—past layered within present, desires systematically abandoned, objects appearing and disappearing—creates meaning through formal patterns rather than external plot.",
+        "tags": [],
+        "type": "author",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "style": {},
+              "themes": []
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "eventSignificance": {
+        "e01": {
+          "significance": 0.9,
+          "note": "Establishes the monologue form and spatial enclosure. The knock at the door initiates the narrative frame and traps both Ellen and reader in the bedroom space."
+        },
+        "e02": {
+          "significance": 0.7,
+          "note": "Introduces the tea ritual and Ellen's apologetic tone. Establishes her voice as deferential and service-oriented."
+        },
+        "e03": {
+          "significance": 0.8,
+          "note": "Introduces the red book and kettle as formal markers of duty and time. Creates the rhythmic structure of prayer and service that will echo throughout."
+        },
+        "e04": {
+          "significance": 0.6,
+          "note": "Links the lady to her mother through visual resemblance. Begins the formal pattern of death and memory."
+        },
+        "e05": {
+          "significance": 0.75,
+          "note": "Introduces the purple pansies and Ellen's aesthetic sensibility. Creates the formal image of beauty applied to death."
+        },
+        "e06": {
+          "significance": 0.85,
+          "note": "The lady's decline and final words create formal ambiguity. The 'lost thing' remains undefined, creating textual mystery that mirrors Ellen's own sense of loss."
+        },
+        "e07": {
+          "significance": 0.65,
+          "note": "Establishes Ellen's lack of romantic history and her mother's death. Creates the formal foundation for understanding Ellen's isolation."
+        },
+        "e08": {
+          "significance": 0.8,
+          "note": "Introduces the hair-dresser shop and the image of Ellen under the table. Establishes the formal pattern of enclosure and confinement."
+        },
+        "e09": {
+          "significance": 0.75,
+          "note": "Ellen's act of cutting her hair represents a moment of agency and rebellion. Formally, it marks the moment before punishment and renunciation."
+        },
+        "e10": {
+          "significance": 0.9,
+          "note": "The tongs punishment is the narrative's first major trauma. It creates a permanent mark (the burn scar) that formally links past violence to present identity."
+        },
+        "e11": {
+          "significance": 0.8,
+          "note": "Ellen's flight creates the formal image of panic and displacement. She runs without knowing how far, establishing the pattern of uncontrolled movement that precedes confinement."
+        },
+        "e12": {
+          "significance": 0.85,
+          "note": "The grandfather's rejection and Ellen's entry into service mark the formal transition from childhood to servitude. The aunt becomes the bridge between rejection and duty."
+        },
+        "e13": {
+          "significance": 0.75,
+          "note": "Ellen's uniform marks her formal transformation into a servant. The collars and cuffs represent the boundaries of her new identity."
+        },
+        "e14": {
+          "significance": 0.85,
+          "note": "The donkey fair introduces the narrative's most intense visual imagery. The detailed description of the donkeys creates the formal peak of desire before its abandonment."
+        },
+        "e15": {
+          "significance": 0.9,
+          "note": "Ellen's obsessive longing for the donkeys reaches its formal intensity. This event marks the narrative's emotional climax regarding desire."
+        },
+        "e16": {
+          "significance": 0.85,
+          "note": "Ellen's dream confession about the donkey ride demonstrates how desire manifests in unconscious speech. Formally, it shows desire breaking through the surface of duty."
+        },
+        "e17": {
+          "significance": 0.8,
+          "note": "Harry's introduction creates the formal possibility of escape. The flower shop becomes the alternative space where Ellen might have lived."
+        },
+        "e18": {
+          "significance": 0.9,
+          "note": "The engagement and the silver bird brooch create the narrative's second major moment of desire and possibility. The brooch's detailed description creates textual density around romantic hope."
+        },
+        "e19": {
+          "significance": 0.85,
+          "note": "The lady's illness on Tuesday creates the formal turning point. Ellen's conflict between duty and desire becomes explicit and irresolvable."
+        },
+        "e20": {
+          "significance": 0.95,
+          "note": "The handkerchief moment is the narrative's crucial pivot. The lady's gesture of putting her hand on her heart formally signals the choice Ellen must make. This is the story's structural climax."
+        },
+        "e21": {
+          "significance": 0.95,
+          "note": "Ellen's rejection of Harry and return of the brooch completes the formal arc of renunciation. The image of her standing in the road in apron and house-shoes enacts her entrapment."
+        },
+        "e22": {
+          "significance": 0.8,
+          "note": "The clock striking returns the narrative to the present moment. Ellen's offer to tuck in the visitor's feet demonstrates how her service continues even in the act of confession."
+        },
+        "e23": {
+          "significance": 0.85,
+          "note": "Ellen's final reflection on not thinking about loss reveals the psychological mechanism of her survival. Formally, it demonstrates how she maintains her identity through denial and suppression."
+        }
+      },
+      "entitySignificance": {
+        "ellen": {
+          "significance": 1,
+          "note": "Ellen is the narrative center. Her voice, consciousness, and formal entrapment structure the entire story."
+        },
+        "visitor": {
+          "significance": 0.4,
+          "note": "The visitor functions as a formal listener and frame device. Their presence justifies the monologue but remains largely passive."
+        },
+        "lady": {
+          "significance": 0.9,
+          "note": "The lady is the formal object of Ellen's duty and sacrifice. Her presence structures Ellen's choices and her decline marks the narrative's turning point."
+        },
+        "lady-mother": {
+          "significance": 0.65,
+          "note": "The lady's mother functions as a formal echo and precedent. Ellen's laying her out prefigures her future service to the lady."
+        },
+        "grandfather": {
+          "significance": 0.8,
+          "note": "The grandfather represents the first authority figure who rejects Ellen. His punishment creates the formal trauma that initiates her pattern of renunciation."
+        },
+        "aunt": {
+          "significance": 0.6,
+          "note": "The aunt functions as a bridge between rejection and service. She is the formal intermediary who connects Ellen to her lady."
+        },
+        "harry": {
+          "significance": 0.85,
+          "note": "Harry represents the formal possibility of escape and personal happiness. His presence creates the narrative's central conflict between duty and desire."
+        },
+        "lady-nieces": {
+          "significance": 0.5,
+          "note": "The nieces function as formal witnesses to Ellen's desire. They are too shy to ride the donkeys, but Ellen's longing is awakened by their presence."
+        },
+        "mother-ellen": {
+          "significance": 0.6,
+          "note": "Ellen's mother's death establishes the formal pattern of loss that structures Ellen's life. Her early death initiates Ellen's isolation."
+        },
+        "shop-assistants": {
+          "significance": 0.4,
+          "note": "The assistants represent kindness and creativity in Ellen's childhood. They create wigs for her play, demonstrating the aesthetic sensibility she will later suppress."
+        },
+        "mrs-james": {
+          "significance": 0.5,
+          "note": "Mrs. James provides the formal space where Ellen's unconscious desire breaks through in the donkey-ride confession."
+        }
+      },
+      "absentialSignificance": {
+        "abs-donkey-ride": {
+          "significance": 0.95,
+          "note": "The unfulfilled desire for a donkey ride is the narrative's most intense absence. It appears, intensifies, then vanishes, enacting the formal pattern of desire and renunciation."
+        },
+        "abs-marriage-to-harry": {
+          "significance": 0.95,
+          "note": "The marriage that never happens is the narrative's central absence. Its formal presence through the brooch and Ellen's dreams creates the story's emotional tension."
+        },
+        "abs-duty-to-lady": {
+          "significance": 0.9,
+          "note": "Duty is the organizing absence that structures all of Ellen's choices. It is present as constraint rather than as explicit content."
+        },
+        "abs-fear-of-losing-lady": {
+          "significance": 0.8,
+          "note": "The fear Ellen cannot articulate haunts the narrative's conclusion. It represents the psychological mechanism that keeps her bound to service."
+        },
+        "abs-childhood-joy": {
+          "significance": 0.75,
+          "note": "Ellen's lost childhood is formally present through her memories of play and desire. The uniform marks the moment childhood ends."
+        },
+        "abs-lady-lost-thing": {
+          "significance": 0.85,
+          "note": "The lady's mysterious lost thing creates formal ambiguity. It may represent lost love, lost time, or lost self—its indefiniteness creates textual mystery."
+        }
+      },
+      "mentalConstructs": {},
+      "annotations": [],
+      "globalTension": [
+        {
+          "timestamp": {
+            "percentage": 0
+          },
+          "value": 0.3
+        },
+        {
+          "timestamp": {
+            "percentage": 5
+          },
+          "value": 0.4
+        },
+        {
+          "timestamp": {
+            "percentage": 10
+          },
+          "value": 0.45
+        },
+        {
+          "timestamp": {
+            "percentage": 15
+          },
+          "value": 0.5
+        },
+        {
+          "timestamp": {
+            "percentage": 20
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 25
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 30
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 35
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 40
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 45
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 50
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 55
+          },
+          "value": 0.9
+        },
+        {
+          "timestamp": {
+            "percentage": 60
+          },
+          "value": 0.95
+        },
+        {
+          "timestamp": {
+            "percentage": 65
+          },
+          "value": 0.95
+        },
+        {
+          "timestamp": {
+            "percentage": 70
+          },
+          "value": 0.9
+        },
+        {
+          "timestamp": {
+            "percentage": 75
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 80
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 85
+          },
+          "value": 0.5
+        },
+        {
+          "timestamp": {
+            "percentage": 90
+          },
+          "value": 0.4
+        },
+        {
+          "timestamp": {
+            "percentage": 95
+          },
+          "value": 0.35
+        },
+        {
+          "timestamp": {
+            "percentage": 100
+          },
+          "value": 0.3
+        }
+      ],
+      "spanAnnotations": {
+        "span_1": {
+          "tension": 0.6,
+          "note": "Overall story tension builds through the monologue structure, peaks at the handkerchief moment, then subsides as Ellen returns to present duty."
+        },
+        "span_2": {
+          "tension": 0.35,
+          "note": "The arrival and tea ritual establish the frame and Ellen's voice. Low tension as the monologue begins."
+        },
+        "span_3": {
+          "tension": 0.3,
+          "note": "The knock at the door is formal and ritualistic. It establishes enclosure and the monologue frame."
+        },
+        "span_4": {
+          "tension": 0.3,
+          "note": "The knock itself is a simple action that initiates the narrative frame."
+        },
+        "span_5": {
+          "tension": 0.4,
+          "note": "The tea and prayer ritual introduce the formal patterns of duty and time that structure the story."
+        },
+        "span_6": {
+          "tension": 0.55,
+          "note": "The lady and her mother section introduces death and memory. Tension increases as Ellen recalls laying out the mother."
+        },
+        "span_7": {
+          "tension": 0.5,
+          "note": "Laying out the mother demonstrates Ellen's aesthetic sensibility and her relationship to death."
+        },
+        "span_8": {
+          "tension": 0.45,
+          "note": "The mother's appearance links the lady to her deceased mother, creating formal echo."
+        },
+        "span_9": {
+          "tension": 0.55,
+          "note": "The purple pansies create a moment of aesthetic beauty applied to death. Tension increases through vivid imagery."
+        },
+        "span_10": {
+          "tension": 0.65,
+          "note": "The lady's decline section introduces the mystery of the lost thing and the lady's final words."
+        },
+        "span_11": {
+          "tension": 0.65,
+          "note": "The lost thing creates formal ambiguity and mystery. Tension sustained through Ellen's description of decline."
+        },
+        "span_12": {
+          "tension": 0.65,
+          "note": "The lady's final words remain incomplete, creating textual mystery."
+        },
+        "span_13": {
+          "tension": 0.65,
+          "note": "Childhood and hair-dresser shop section introduces trauma and confinement. Tension builds toward the punishment."
+        },
+        "span_14": {
+          "tension": 0.55,
+          "note": "Mother's death and grandfather's shop establish Ellen's isolation and the formal pattern of loss."
+        },
+        "span_15": {
+          "tension": 0.5,
+          "note": "No suitors establishes Ellen's lack of romantic history and her isolation."
+        },
+        "span_16": {
+          "tension": 0.6,
+          "note": "Life under the table introduces the formal image of enclosure and confinement."
+        },
+        "span_17": {
+          "tension": 0.8,
+          "note": "The hair-cutting incident builds toward the punishment. Tension peaks at the tongs moment."
+        },
+        "span_18": {
+          "tension": 0.7,
+          "note": "Cutting the hair represents a moment of agency before punishment. Tension builds."
+        },
+        "span_19": {
+          "tension": 0.9,
+          "note": "The tongs punishment is the narrative's first major trauma. Tension peaks as the grandfather burns Ellen's hand."
+        },
+        "span_20": {
+          "tension": 0.8,
+          "note": "Running away demonstrates Ellen's panic and displacement. Tension remains high."
+        },
+        "span_21": {
+          "tension": 0.75,
+          "note": "Grandfather's rejection marks Ellen's transition to servitude. Tension subsides slightly as she is sent away."
+        },
+        "span_22": {
+          "tension": 0.75,
+          "note": "Ellen is sent to her aunt and enters service. This marks the formal beginning of her life of duty."
+        },
+        "span_23": {
+          "tension": 0.7,
+          "note": "Service and donkey fair section introduces Ellen's desires and the formal pattern of longing."
+        },
+        "span_24": {
+          "tension": 0.65,
+          "note": "Meeting her lady through the aunt establishes the relationship that will structure Ellen's life."
+        },
+        "span_25": {
+          "tension": 0.65,
+          "note": "The crippled aunt is the bridge between rejection and service."
+        },
+        "span_26": {
+          "tension": 0.8,
+          "note": "The donkey fair section builds tension through intense desire and longing."
+        },
+        "span_27": {
+          "tension": 0.75,
+          "note": "The outing to the fair introduces the donkeys and Ellen's awakening desire."
+        },
+        "span_28": {
+          "tension": 0.85,
+          "note": "Ellen's obsessive longing for the donkeys reaches its peak. Tension is highest in this section."
+        },
+        "span_29": {
+          "tension": 0.8,
+          "note": "The dream confession shows desire breaking through the surface of duty."
+        },
+        "span_30": {
+          "tension": 0.85,
+          "note": "Harry and sacrifice section contains the narrative's central conflict between duty and desire."
+        },
+        "span_31": {
+          "tension": 0.8,
+          "note": "The flower shop romance introduces Harry and the possibility of escape."
+        },
+        "span_32": {
+          "tension": 0.75,
+          "note": "Meeting Harry creates the formal possibility of personal happiness."
+        },
+        "span_33": {
+          "tension": 0.85,
+          "note": "Engagement and dreams reach high tension as Ellen imagines her future with Harry."
+        },
+        "span_34": {
+          "tension": 0.9,
+          "note": "The lady's illness creates the formal conflict that will lead to Ellen's sacrifice."
+        },
+        "span_35": {
+          "tension": 0.9,
+          "note": "The fateful Tuesday introduces the lady's illness and Ellen's conflict."
+        },
+        "span_36": {
+          "tension": 0.95,
+          "note": "The handkerchief moment is the narrative's structural climax. Tension peaks as Ellen recognizes her duty."
+        },
+        "span_37": {
+          "tension": 0.9,
+          "note": "Ellen rejects Harry and completes the formal arc of renunciation."
+        },
+        "span_38": {
+          "tension": 0.9,
+          "note": "At the door, Ellen returns the brooch and ends her engagement. This is the story's emotional climax."
+        },
+        "span_39": {
+          "tension": 0.4,
+          "note": "Return to present section shows tension subsiding as Ellen returns to her duty."
+        },
+        "span_40": {
+          "tension": 0.35,
+          "note": "The clock striking returns the narrative to the present moment."
+        },
+        "span_41": {
+          "tension": 0.35,
+          "note": "Ellen's awareness of time and her offer to tuck in the visitor's feet demonstrate her continued service."
+        },
+        "span_42": {
+          "tension": 0.3,
+          "note": "Final reflection shows Ellen's psychological mechanism of survival through denial."
+        },
+        "span_43": {
+          "tension": 0.3,
+          "note": "The unspoken fear remains unresolved. Ellen cannot think about loss, only suppress it."
+        }
+      }
+    }
+  }
+}

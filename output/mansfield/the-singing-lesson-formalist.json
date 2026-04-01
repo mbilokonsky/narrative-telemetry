@@ -1,0 +1,3503 @@
+{
+  "text": {
+    "title": "Miss Meadows",
+    "author": "Katherine Mansfield",
+    "description": "A music teacher at a girls' school receives a devastating letter from her fiancé breaking off their engagement, which she must conceal while conducting a choir class. The arrival of a telegram reversing his decision transforms her emotional state and her teaching.",
+    "rootSpan": {
+      "id": "span_1",
+      "type": "story",
+      "title": "Miss Meadows",
+      "description": "A music teacher at a girls' school receives a devastating letter from her fiancé breaking off their engagement, which she must conceal while conducting a choir class. The arrival of a telegram reversing his decision transforms her emotional state and her teaching.",
+      "startTimestamp": {
+        "percentage": 0
+      },
+      "endTimestamp": {
+        "percentage": 100
+      },
+      "events": [],
+      "childSpans": [
+        {
+          "id": "span_2",
+          "type": "act",
+          "title": "Morning Despair",
+          "description": "Miss Meadows arrives at school carrying emotional devastation from a letter breaking her engagement.",
+          "startTimestamp": {
+            "percentage": 0
+          },
+          "endTimestamp": {
+            "percentage": 25
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_3",
+              "type": "scene",
+              "title": "Cold Corridors",
+              "description": "Miss Meadows walks through the school corridors in despair, encountering the Science Mistress.",
+              "startTimestamp": {
+                "percentage": 0
+              },
+              "endTimestamp": {
+                "percentage": 12
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_4",
+                  "type": "beat",
+                  "title": "Arrival with Despair",
+                  "description": "Miss Meadows enters the school corridors carrying emotional pain like a knife.",
+                  "startTimestamp": {
+                    "percentage": 0
+                  },
+                  "endTimestamp": {
+                    "percentage": 6
+                  },
+                  "events": [
+                    "e01"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_5",
+                  "type": "beat",
+                  "title": "Science Mistress Encounter",
+                  "description": "The Science Mistress greets Miss Meadows with affected sweetness, which Miss Meadows receives with barely concealed hatred.",
+                  "startTimestamp": {
+                    "percentage": 6
+                  },
+                  "endTimestamp": {
+                    "percentage": 12
+                  },
+                  "events": [
+                    "e02",
+                    "e03"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_6",
+          "type": "act",
+          "title": "The Music Class",
+          "description": "Miss Meadows conducts Forms Four, Five, and Six through a music lesson while internally processing her broken engagement.",
+          "startTimestamp": {
+            "percentage": 25
+          },
+          "endTimestamp": {
+            "percentage": 85
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_7",
+              "type": "scene",
+              "title": "Music Hall Assembly",
+              "description": "Miss Meadows enters the music hall where Forms Four, Five, and Six are assembled, and begins the lesson.",
+              "startTimestamp": {
+                "percentage": 25
+              },
+              "endTimestamp": {
+                "percentage": 35
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_8",
+                  "type": "beat",
+                  "title": "Taking the Platform",
+                  "description": "Miss Meadows strides to the platform and commands silence from the assembled girls.",
+                  "startTimestamp": {
+                    "percentage": 25
+                  },
+                  "endTimestamp": {
+                    "percentage": 30
+                  },
+                  "events": [
+                    "e04"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_9",
+                  "type": "beat",
+                  "title": "Rejection of the Chrysanthemum",
+                  "description": "Mary Beazley offers the daily chrysanthemum, but Miss Meadows coldly ignores it and the greeting, shocking Mary.",
+                  "startTimestamp": {
+                    "percentage": 30
+                  },
+                  "endTimestamp": {
+                    "percentage": 35
+                  },
+                  "events": [
+                    "e05",
+                    "e06"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_10",
+              "type": "scene",
+              "title": "A Lament - First Performance",
+              "description": "The girls sing 'A Lament' while Miss Meadows internally reflects on Basil's letter and their relationship.",
+              "startTimestamp": {
+                "percentage": 35
+              },
+              "endTimestamp": {
+                "percentage": 60
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_11",
+                  "type": "beat",
+                  "title": "First Rendition",
+                  "description": "The girls sing the lament together without expression as Miss Meadows conducts and reflects on Basil's letter.",
+                  "startTimestamp": {
+                    "percentage": 35
+                  },
+                  "endTimestamp": {
+                    "percentage": 45
+                  },
+                  "events": [
+                    "e07",
+                    "e08"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_12",
+                  "type": "beat",
+                  "title": "Memories of Basil",
+                  "description": "As the girls sing, Miss Meadows recalls Basil's previous letters about furniture and his last visit in his blue suit.",
+                  "startTimestamp": {
+                    "percentage": 45
+                  },
+                  "endTimestamp": {
+                    "percentage": 55
+                  },
+                  "events": [
+                    "e09",
+                    "e10"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_13",
+                  "type": "beat",
+                  "title": "Second Rendition with Expression",
+                  "description": "Miss Meadows instructs the girls to sing with full expression, demonstrating the emotional interpretation she wants.",
+                  "startTimestamp": {
+                    "percentage": 55
+                  },
+                  "endTimestamp": {
+                    "percentage": 60
+                  },
+                  "events": [
+                    "e11"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_14",
+              "type": "scene",
+              "title": "Monica's Interruption",
+              "description": "Monica arrives with a message that Miss Wyatt wants to see Miss Meadows in the mistress's room.",
+              "startTimestamp": {
+                "percentage": 60
+              },
+              "endTimestamp": {
+                "percentage": 70
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_15",
+                  "type": "beat",
+                  "title": "The Summons",
+                  "description": "Monica delivers the message from Miss Wyatt, interrupting the music class.",
+                  "startTimestamp": {
+                    "percentage": 60
+                  },
+                  "endTimestamp": {
+                    "percentage": 65
+                  },
+                  "events": [
+                    "e12"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_16",
+                  "type": "beat",
+                  "title": "Class Left on Honor",
+                  "description": "Miss Meadows leaves the girls with instructions to remain quiet while she attends to the summons.",
+                  "startTimestamp": {
+                    "percentage": 65
+                  },
+                  "endTimestamp": {
+                    "percentage": 70
+                  },
+                  "events": [
+                    "e13"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_17",
+          "type": "act",
+          "title": "The Telegram",
+          "description": "Miss Meadows meets with Miss Wyatt and receives a telegram from Basil that reverses his decision.",
+          "startTimestamp": {
+            "percentage": 70
+          },
+          "endTimestamp": {
+            "percentage": 85
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_18",
+              "type": "scene",
+              "title": "Miss Wyatt's Office",
+              "description": "Miss Meadows enters the head mistress's office and receives a telegram from Basil.",
+              "startTimestamp": {
+                "percentage": 70
+              },
+              "endTimestamp": {
+                "percentage": 82
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_19",
+                  "type": "beat",
+                  "title": "Entry and Telegram Presentation",
+                  "description": "Miss Wyatt presents the telegram to Miss Meadows, who initially fears bad news.",
+                  "startTimestamp": {
+                    "percentage": 70
+                  },
+                  "endTimestamp": {
+                    "percentage": 75
+                  },
+                  "events": [
+                    "e14",
+                    "e15"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_20",
+                  "type": "beat",
+                  "title": "Reading the Telegram",
+                  "description": "Miss Meadows reads Basil's telegram saying he was mad and has bought the hat-stand, reversing his decision.",
+                  "startTimestamp": {
+                    "percentage": 75
+                  },
+                  "endTimestamp": {
+                    "percentage": 78
+                  },
+                  "events": [
+                    "e16"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_21",
+                  "type": "beat",
+                  "title": "Miss Wyatt's Disapproval",
+                  "description": "Miss Wyatt expresses disapproval of receiving telegrams during school hours unless for serious emergencies.",
+                  "startTimestamp": {
+                    "percentage": 78
+                  },
+                  "endTimestamp": {
+                    "percentage": 82
+                  },
+                  "events": [
+                    "e17"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_22",
+          "type": "act",
+          "title": "Return and Transformation",
+          "description": "Miss Meadows returns to the music hall transformed by joy and conducts the final song with genuine warmth.",
+          "startTimestamp": {
+            "percentage": 85
+          },
+          "endTimestamp": {
+            "percentage": 100
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_23",
+              "type": "scene",
+              "title": "Return to Music Hall",
+              "description": "Miss Meadows returns to the music hall and conducts the girls in a congratulatory song with full expression and joy.",
+              "startTimestamp": {
+                "percentage": 85
+              },
+              "endTimestamp": {
+                "percentage": 100
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_24",
+                  "type": "beat",
+                  "title": "Chrysanthemum Accepted",
+                  "description": "Miss Meadows picks up the yellow chrysanthemum and holds it to her lips to hide her smile.",
+                  "startTimestamp": {
+                    "percentage": 85
+                  },
+                  "endTimestamp": {
+                    "percentage": 90
+                  },
+                  "events": [
+                    "e18"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_25",
+                  "type": "beat",
+                  "title": "Congratulatory Song",
+                  "description": "The girls begin singing a congratulatory song with flowers and ribbons, which Miss Meadows initially stops to correct.",
+                  "startTimestamp": {
+                    "percentage": 90
+                  },
+                  "endTimestamp": {
+                    "percentage": 95
+                  },
+                  "events": [
+                    "e19"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_26",
+                  "type": "beat",
+                  "title": "Final Performance with Joy",
+                  "description": "Miss Meadows conducts the song again with her voice full, deep, and glowing with genuine expression and joy.",
+                  "startTimestamp": {
+                    "percentage": 95
+                  },
+                  "endTimestamp": {
+                    "percentage": 100
+                  },
+                  "events": [
+                    "e20"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "diegetic": {
+      "characters": {
+        "miss-meadows": {
+          "id": "miss-meadows",
+          "name": "Miss Meadows",
+          "description": "A music teacher at a girls' school who receives a letter breaking her engagement and must conceal her emotional devastation while conducting classes.",
+          "tags": [
+            "teacher",
+            "music-instructor",
+            "protagonist",
+            "engaged-woman"
+          ],
+          "textMentions": [
+            "Miss Meadows, in cap and gown",
+            "Miss Meadows, hugging the knife",
+            "Miss Meadows, her hands thrust in her sleeves",
+            "Miss Meadows stalked over to the piano",
+            "Miss Meadows was gone back to the music stand"
+          ],
+          "context": "A woman of thirty years old, engaged to Basil, a man five years her junior. She is a dedicated music teacher who maintains professional composure despite personal crisis.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "north-richmond-st-corridors",
+                "factionRelationships": {},
+                "age": 30,
+                "gender": "female",
+                "occupation": "Music Teacher",
+                "personalityTraits": [
+                  "composed",
+                  "dedicated",
+                  "emotionally sensitive",
+                  "professional",
+                  "passionate"
+                ],
+                "coreValues": [
+                  "duty",
+                  "professionalism",
+                  "love",
+                  "dignity"
+                ],
+                "physicalDescription": "Wears cap and gown, carries a baton, described as having eyelids that quiver when emotional",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "basil": {
+          "id": "basil",
+          "name": "Basil",
+          "description": "Miss Meadows' fiancé, a man of twenty-five who writes a letter breaking off their engagement, then sends a telegram reversing his decision.",
+          "tags": [
+            "fiancé",
+            "absent-character",
+            "male",
+            "young-man"
+          ],
+          "textMentions": [
+            "Basil! Miss Meadows stalked over to the piano",
+            "What could have possessed him to write such a letter!",
+            "Last time he had come to see her, Basil had worn a rose",
+            "Basil was twenty-five"
+          ],
+          "context": "A man five years younger than Miss Meadows who has become engaged to her. He is concerned with domestic furnishings and social standing. He sends a letter expressing doubts about marriage, then a telegram reversing his position.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "unknown",
+                "factionRelationships": {},
+                "age": 25,
+                "gender": "male",
+                "occupation": "Unknown (possibly academic or professional position)",
+                "personalityTraits": [
+                  "indecisive",
+                  "vain",
+                  "concerned with appearances",
+                  "affectionate"
+                ],
+                "coreValues": [
+                  "social standing",
+                  "comfort",
+                  "love"
+                ],
+                "physicalDescription": "Handsome, wears a bright blue suit, has dark red rose in buttonhole, strokes his hair and moustache, has gleaming teeth",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "science-mistress": {
+          "id": "science-mistress",
+          "name": "The Science Mistress",
+          "description": "A fellow teacher at the school with an affected, sweet manner that Miss Meadows finds irritating.",
+          "tags": [
+            "teacher",
+            "colleague",
+            "secondary-character"
+          ],
+          "textMentions": [
+            "The Science Mistress stopped Miss Meadows",
+            "Miss Meadows, hugging the knife, stared in hatred at the Science Mistress",
+            "Everything about her was sweet, pale, like honey"
+          ],
+          "context": "A colleague of Miss Meadows who greets her in the corridors with affected sweetness. She is described as having yellow hair and blue eyes.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "north-richmond-st-corridors",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Science Teacher",
+                "personalityTraits": [
+                  "sweet",
+                  "affected",
+                  "pale",
+                  "mocking"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Yellow hair, blue eyes, pale complexion, sweet smile, affected drawl",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02"
+        },
+        "mary-beazley": {
+          "id": "mary-beazley",
+          "name": "Mary Beazley",
+          "description": "Miss Meadows' favorite student who plays piano accompaniments and offers a daily chrysanthemum ritual.",
+          "tags": [
+            "student",
+            "favorite",
+            "piano-player",
+            "secondary-character"
+          ],
+          "textMentions": [
+            "Mary Beazley, Miss Meadows' favourite, who played accompaniments",
+            "Mary's horror when Miss Meadows totally ignored the chrysanthemum",
+            "Mary blushed until the tears stood in her eyes",
+            "Mary on the music stool, wriggled her spine"
+          ],
+          "context": "A student in the music class who has a special relationship with Miss Meadows, marked by a daily ritual of presenting a chrysanthemum. She is sensitive to Miss Meadows' emotional state.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "music-hall",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Student",
+                "personalityTraits": [
+                  "sensitive",
+                  "devoted",
+                  "emotional",
+                  "attentive"
+                ],
+                "coreValues": [
+                  "loyalty",
+                  "affection"
+                ],
+                "physicalDescription": "Has curls that fall over her cheeks, wears music stool, wears red wrist bangle",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "monica": {
+          "id": "monica",
+          "name": "Monica",
+          "description": "A young girl who delivers a message from Miss Wyatt to Miss Meadows during the music class.",
+          "tags": [
+            "student",
+            "messenger",
+            "minor-character"
+          ],
+          "textMentions": [
+            "A little girl in blue walked fussily up the aisle",
+            "Well, Monica, what is it?",
+            "Oh, if you please, Miss Meadows"
+          ],
+          "context": "A young student who interrupts the music class to deliver a summons from the head mistress.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "music-hall",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Student",
+                "personalityTraits": [
+                  "fussy",
+                  "nervous",
+                  "obedient"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Little girl in blue, hangs her head, bites her lips, wears silver bangle on red wrist",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12"
+        },
+        "miss-wyatt": {
+          "id": "miss-wyatt",
+          "name": "Miss Wyatt",
+          "description": "The head mistress of the school who summons Miss Meadows and delivers the telegram from Basil.",
+          "tags": [
+            "head-mistress",
+            "administrator",
+            "secondary-character"
+          ],
+          "textMentions": [
+            "Miss Wyatt wants to see you in the mistress's room",
+            "The head mistress sat at her desk",
+            "I sent for you just now because this telegram has come for you",
+            "I must say I don't approve of my teachers having telegrams sent to them"
+          ],
+          "context": "The head mistress of the school, described as kind but concerned with propriety and school regulations.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "mistress-room",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Head Mistress",
+                "personalityTraits": [
+                  "kind",
+                  "proper",
+                  "concerned with rules",
+                  "perceptive"
+                ],
+                "coreValues": [
+                  "propriety",
+                  "order",
+                  "kindness"
+                ],
+                "physicalDescription": "Sits at desk, wears lace tie with eyeglasses caught in it",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "forms-four-five-six": {
+          "id": "forms-four-five-six",
+          "name": "Forms Four, Five, and Six",
+          "description": "The assembled girls in the music class, ranging in age from younger to older students.",
+          "tags": [
+            "students",
+            "collective-character",
+            "audience"
+          ],
+          "textMentions": [
+            "Forms Four, Five, and Six were assembled in the music hall",
+            "that sea of coloured flannel blouses, with bobbing pink faces",
+            "The older girls were crimson; some of the younger ones began to cry"
+          ],
+          "context": "A group of students of varying ages who sing under Miss Meadows' direction. They are sensitive to her emotional state and respond to her instructions.",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "music-hall",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "Students",
+                "personalityTraits": [
+                  "responsive",
+                  "emotional",
+                  "observant"
+                ],
+                "coreValues": [],
+                "physicalDescription": "Wear colored flannel blouses, have pink faces, wear butterfly hair-bows, carry music-books",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        }
+      },
+      "settings": {
+        "north-richmond-st-corridors": {
+          "id": "north-richmond-st-corridors",
+          "name": "School Corridors",
+          "description": "Cold corridors leading to the music hall where Miss Meadows walks at the beginning of the day.",
+          "tags": [
+            "school",
+            "interior",
+            "passage"
+          ],
+          "textMentions": [
+            "the cold corridors that led to the music hall",
+            "The corridors were silent and cold; they echoed to Miss Meadows' steps"
+          ],
+          "context": "The interior passages of a girls' school, described as cold and echoing.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Interior of school building",
+          "climate": "Cold",
+          "historicalContext": "Early 20th century British girls' school",
+          "culturalBackground": "British educational institution",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Cold, echoing, institutional"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "music-hall": {
+          "id": "music-hall",
+          "name": "Music Hall",
+          "description": "The large assembly hall where Forms Four, Five, and Six gather for music instruction.",
+          "tags": [
+            "school",
+            "performance-space",
+            "interior"
+          ],
+          "textMentions": [
+            "Forms Four, Five, and Six were assembled in the music hall",
+            "The noise was deafening",
+            "the high, narrow windows"
+          ],
+          "context": "A school assembly hall used for music classes, with a platform, piano, and seating for multiple forms of students.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Interior of school building",
+          "climate": "Indoor",
+          "historicalContext": "Early 20th century British girls' school",
+          "culturalBackground": "British educational institution",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Noisy, energetic, institutional"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "mistress-room": {
+          "id": "mistress-room",
+          "name": "Head Mistress's Office",
+          "description": "The office of Miss Wyatt, the head mistress, where Miss Meadows is summoned to receive the telegram.",
+          "tags": [
+            "school",
+            "office",
+            "interior",
+            "administrative"
+          ],
+          "textMentions": [
+            "Miss Wyatt wants to see you in the mistress's room",
+            "The head mistress sat at her desk"
+          ],
+          "context": "The administrative office of the school's head mistress, a formal and private space.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Interior of school building",
+          "climate": "Indoor",
+          "historicalContext": "Early 20th century British girls' school",
+          "culturalBackground": "British educational institution",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Formal, quiet, administrative"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "school-exterior": {
+          "id": "school-exterior",
+          "name": "School Grounds and Exterior",
+          "description": "The outdoor areas around the school, visible through windows, with willow trees.",
+          "tags": [
+            "school",
+            "exterior",
+            "nature"
+          ],
+          "textMentions": [
+            "Girls of all ages, rosy from the air",
+            "The willow trees, outside the high, narrow windows, waved in the wind",
+            "Big spots of rain blew against the windows"
+          ],
+          "context": "The outdoor environment surrounding the school, featuring willow trees and autumn weather.",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "Exterior of school building",
+          "climate": "Autumn, cold, windy, rainy",
+          "historicalContext": "Early 20th century British school setting",
+          "culturalBackground": "British countryside or suburban setting",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "Autumnal, windy, melancholic"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        }
+      },
+      "items": {
+        "letter-from-basil": {
+          "id": "letter-from-basil",
+          "name": "Letter from Basil",
+          "description": "A letter from Basil breaking off the engagement, expressing doubts about marriage with the word 'disgust' scratched out and 'regret' written over it.",
+          "tags": [
+            "correspondence",
+            "plot-device",
+            "emotional-catalyst"
+          ],
+          "textMentions": [
+            "pierced to the heart, to the heart, by such a letter",
+            "I feel more and more strongly that our marriage would be a mistake",
+            "the word \"disgust\" was scratched out lightly and \"regret\" written over the top"
+          ],
+          "context": "A personal letter that serves as the emotional catalyst for the entire story, containing Basil's doubts about marriage.",
+          "type": "item",
+          "itemType": "Correspondence",
+          "origin": "Written by Basil to Miss Meadows",
+          "physicalDescription": "Contains handwritten text with a word scratched out and another written over it",
+          "defaultFunction": "Communication of personal feelings",
+          "culturalSignificance": "Represents the breaking of an engagement and personal rejection",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "location": "unknown",
+                "condition": "normal",
+                "owner": "miss-meadows",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "yellow-chrysanthemum": {
+          "id": "yellow-chrysanthemum",
+          "name": "Yellow Chrysanthemum",
+          "description": "A daily flower offered by Mary Beazley to Miss Meadows as part of a ritual that has continued for over a term.",
+          "tags": [
+            "ritual-object",
+            "symbol",
+            "gift"
+          ],
+          "textMentions": [
+            "a beautiful yellow chrysanthemum",
+            "This little ritual of the flower had been gone through for ages and ages",
+            "picking up the yellow chrysanthemum, she held it to her lips to hide her smile"
+          ],
+          "context": "A symbolic object representing the daily affection and routine between Miss Meadows and Mary Beazley.",
+          "type": "item",
+          "itemType": "Flower",
+          "origin": "Offered daily by Mary Beazley",
+          "physicalDescription": "Yellow chrysanthemum flower",
+          "defaultFunction": "Daily ritual gift and symbol of affection",
+          "culturalSignificance": "Represents the bond between teacher and student, and marks the emotional transformation of Miss Meadows",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "location": "music-hall",
+                "condition": "normal",
+                "owner": "mary-beazley",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "baton": {
+          "id": "baton",
+          "name": "Baton",
+          "description": "A conductor's baton carried by Miss Meadows to lead the music class.",
+          "tags": [
+            "tool",
+            "instrument",
+            "symbol-of-authority"
+          ],
+          "textMentions": [
+            "carrying a little baton",
+            "the baton under her arm",
+            "gave two sharp taps with her baton for silence"
+          ],
+          "context": "A tool used by Miss Meadows to conduct the choir and maintain order in the music class.",
+          "type": "item",
+          "itemType": "Conductor's Tool",
+          "origin": "Part of Miss Meadows' teaching equipment",
+          "physicalDescription": "A baton used for conducting",
+          "defaultFunction": "Conducting music and maintaining class discipline",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "location": "music-hall",
+                "condition": "normal",
+                "owner": "miss-meadows",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "telegram": {
+          "id": "telegram",
+          "name": "Telegram from Basil",
+          "description": "A telegram sent by Basil to Miss Meadows reversing his decision to break off the engagement, mentioning he was mad and has bought a hat-stand.",
+          "tags": [
+            "correspondence",
+            "plot-device",
+            "resolution"
+          ],
+          "textMentions": [
+            "this telegram has come for you",
+            "Pay no attention to letter, must have been mad, bought hat-stand to-day—Basil"
+          ],
+          "context": "A telegram that serves as the turning point of the story, reversing Miss Meadows' emotional state from despair to joy.",
+          "type": "item",
+          "itemType": "Correspondence",
+          "origin": "Sent by Basil to Miss Meadows via Miss Wyatt",
+          "physicalDescription": "Pink envelope containing telegram text",
+          "defaultFunction": "Communication of urgent message",
+          "culturalSignificance": "Represents reconciliation and the restoration of hope",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e15",
+                "location": "mistress-room",
+                "condition": "normal",
+                "owner": "basil",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e15"
+        },
+        "music-books": {
+          "id": "music-books",
+          "name": "Music Books",
+          "description": "Books containing sheet music used by the girls in the music class.",
+          "tags": [
+            "educational-material",
+            "prop"
+          ],
+          "textMentions": [
+            "music-books outspread",
+            "Page fourteen, please",
+            "Turn to page thirty-two"
+          ],
+          "context": "Educational materials used during the music lesson.",
+          "type": "item",
+          "itemType": "Educational Material",
+          "origin": "School property",
+          "physicalDescription": "Books containing sheet music with numbered pages",
+          "defaultFunction": "Providing musical notation for singing",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "location": "music-hall",
+                "condition": "normal",
+                "owner": "forms-four-five-six",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "brass-music-stand": {
+          "id": "brass-music-stand",
+          "name": "Brass Music Stand",
+          "description": "A brass stand on the platform where Miss Meadows places her conducting materials.",
+          "tags": [
+            "furniture",
+            "prop"
+          ],
+          "textMentions": [
+            "seized the brass music stand, planted it in front of her"
+          ],
+          "context": "A piece of equipment used during the music class.",
+          "type": "item",
+          "itemType": "Furniture",
+          "origin": "School property",
+          "physicalDescription": "Brass music stand",
+          "defaultFunction": "Holding sheet music and conducting materials",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "location": "music-hall",
+                "condition": "normal",
+                "owner": "school",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "piano": {
+          "id": "piano",
+          "name": "Piano",
+          "description": "The piano in the music hall where Mary Beazley plays accompaniments.",
+          "tags": [
+            "instrument",
+            "furniture"
+          ],
+          "textMentions": [
+            "by the piano, stood Mary Beazley",
+            "Down came Mary on the opening chord",
+            "the piano waited"
+          ],
+          "context": "The primary musical instrument used in the music class.",
+          "type": "item",
+          "itemType": "Musical Instrument",
+          "origin": "School property",
+          "physicalDescription": "Piano with music stool",
+          "defaultFunction": "Providing musical accompaniment",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "location": "music-hall",
+                "condition": "normal",
+                "owner": "school",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "ostrich-feather-boa": {
+          "id": "ostrich-feather-boa",
+          "name": "Ostrich Feather Boa",
+          "description": "A fashion accessory worn by Miss Meadows that Basil held during a romantic moment.",
+          "tags": [
+            "clothing-accessory",
+            "symbol-of-romance"
+          ],
+          "textMentions": [
+            "he had taken hold of the end of her ostrich feather boa"
+          ],
+          "context": "A detail from Miss Meadows' memory of a romantic moment with Basil.",
+          "type": "item",
+          "itemType": "Fashion Accessory",
+          "origin": "Owned by Miss Meadows",
+          "physicalDescription": "Ostrich feather boa",
+          "defaultFunction": "Fashion accessory",
+          "culturalSignificance": "Represents a moment of romantic connection",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10",
+                "location": "unknown",
+                "condition": "normal",
+                "owner": "miss-meadows",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10"
+        },
+        "fumed-oak-bookcase": {
+          "id": "fumed-oak-bookcase",
+          "name": "Fumed-Oak Bookcase",
+          "description": "A piece of furniture mentioned in Basil's previous letter as something he bought for 'our' books.",
+          "tags": [
+            "furniture",
+            "domestic-item"
+          ],
+          "textMentions": [
+            "a fumed-oak bookcase he had bought for \"our\" books"
+          ],
+          "context": "A detail from Basil's previous letter showing his domestic plans for their future together.",
+          "type": "item",
+          "itemType": "Furniture",
+          "origin": "Purchased by Basil",
+          "physicalDescription": "Fumed-oak bookcase",
+          "defaultFunction": "Storage of books",
+          "culturalSignificance": "Represents domestic planning and shared future",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09",
+                "location": "unknown",
+                "condition": "normal",
+                "owner": "basil",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09"
+        },
+        "natty-hall-stand": {
+          "id": "natty-hall-stand",
+          "name": "Natty Hall-Stand",
+          "description": "A hall-stand with a carved owl on a bracket holding three hat-brushes, mentioned in Basil's previous letter.",
+          "tags": [
+            "furniture",
+            "domestic-item"
+          ],
+          "textMentions": [
+            "a \"natty little hall-stand\" he had seen, \"a very neat affair with a carved owl on a bracket, holding three hat-brushes in its claws\""
+          ],
+          "context": "A detail from Basil's previous letter showing his attention to domestic furnishings.",
+          "type": "item",
+          "itemType": "Furniture",
+          "origin": "Seen by Basil",
+          "physicalDescription": "Hall-stand with carved owl on bracket holding three hat-brushes",
+          "defaultFunction": "Entryway furniture for storing hats and brushes",
+          "culturalSignificance": "Represents domestic planning and Basil's practical nature",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09",
+                "location": "unknown",
+                "condition": "normal",
+                "owner": "unknown",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09"
+        },
+        "rose-buttonhole": {
+          "id": "rose-buttonhole",
+          "name": "Rose in Buttonhole",
+          "description": "A dark red rose worn by Basil in his buttonhole during his last visit.",
+          "tags": [
+            "flower",
+            "fashion-accessory"
+          ],
+          "textMentions": [
+            "Last time he had come to see her, Basil had worn a rose in his buttonhole",
+            "with that dark red rose"
+          ],
+          "context": "A detail from Miss Meadows' memory of Basil's appearance during his last visit.",
+          "type": "item",
+          "itemType": "Flower",
+          "origin": "Worn by Basil",
+          "physicalDescription": "Dark red rose",
+          "defaultFunction": "Fashion accessory",
+          "culturalSignificance": "Represents Basil's vanity and attractiveness",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10",
+                "location": "unknown",
+                "condition": "normal",
+                "owner": "basil",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10"
+        },
+        "blue-suit": {
+          "id": "blue-suit",
+          "name": "Bright Blue Suit",
+          "description": "A bright blue suit worn by Basil during his last visit to Miss Meadows.",
+          "tags": [
+            "clothing"
+          ],
+          "textMentions": [
+            "How handsome he had looked in that bright blue suit"
+          ],
+          "context": "A detail from Miss Meadows' memory of Basil's appearance.",
+          "type": "item",
+          "itemType": "Clothing",
+          "origin": "Owned by Basil",
+          "physicalDescription": "Bright blue suit",
+          "defaultFunction": "Clothing",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10",
+                "location": "unknown",
+                "condition": "normal",
+                "owner": "basil",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10"
+        }
+      },
+      "factions": {}
+    },
+    "events": {
+      "e01": {
+        "id": "e01",
+        "type": "environmental",
+        "description": "Miss Meadows walks through the cold corridors of the school carrying emotional despair like a knife, while girls hurry past in excitement.",
+        "timestamp": {
+          "percentage": 2
+        },
+        "textLocation": {
+          "startLine": 1,
+          "endLine": 10
+        },
+        "participants": [
+          "miss-meadows",
+          "north-richmond-st-corridors",
+          "forms-four-five-six"
+        ]
+      },
+      "e02": {
+        "id": "e02",
+        "type": "dialogue",
+        "description": "The Science Mistress greets Miss Meadows with affected sweetness, commenting on the cold weather.",
+        "timestamp": {
+          "percentage": 5
+        },
+        "textLocation": {
+          "startLine": 12,
+          "endLine": 15
+        },
+        "participants": [
+          "miss-meadows",
+          "science-mistress",
+          "north-richmond-st-corridors"
+        ],
+        "precedingEvent": "e01"
+      },
+      "e03": {
+        "id": "e03",
+        "type": "action",
+        "description": "Miss Meadows stares at the Science Mistress in hatred while responding grimly to her greeting, then passes on.",
+        "timestamp": {
+          "percentage": 8
+        },
+        "textLocation": {
+          "startLine": 16,
+          "endLine": 28
+        },
+        "participants": [
+          "miss-meadows",
+          "science-mistress"
+        ],
+        "precedingEvent": "e02"
+      },
+      "e04": {
+        "id": "e04",
+        "type": "action",
+        "description": "Miss Meadows enters the music hall, strides to the platform, and commands silence from Forms Four, Five, and Six.",
+        "timestamp": {
+          "percentage": 15
+        },
+        "textLocation": {
+          "startLine": 30,
+          "endLine": 45
+        },
+        "participants": [
+          "miss-meadows",
+          "music-hall",
+          "forms-four-five-six",
+          "mary-beazley",
+          "baton",
+          "brass-music-stand"
+        ],
+        "precedingEvent": "e03"
+      },
+      "e05": {
+        "id": "e05",
+        "type": "action",
+        "description": "Mary Beazley offers the yellow chrysanthemum to Miss Meadows as part of their daily ritual.",
+        "timestamp": {
+          "percentage": 18
+        },
+        "textLocation": {
+          "startLine": 46,
+          "endLine": 56
+        },
+        "participants": [
+          "mary-beazley",
+          "miss-meadows",
+          "yellow-chrysanthemum",
+          "music-hall"
+        ],
+        "precedingEvent": "e04"
+      },
+      "e06": {
+        "id": "e06",
+        "type": "action",
+        "description": "Miss Meadows coldly ignores Mary Beazley's greeting and the chrysanthemum, shocking Mary and instructing her to turn to page fourteen instead.",
+        "timestamp": {
+          "percentage": 20
+        },
+        "textLocation": {
+          "startLine": 57,
+          "endLine": 68
+        },
+        "participants": [
+          "miss-meadows",
+          "mary-beazley",
+          "yellow-chrysanthemum",
+          "music-hall"
+        ],
+        "precedingEvent": "e05"
+      },
+      "e07": {
+        "id": "e07",
+        "type": "action",
+        "description": "Miss Meadows instructs the girls to sing 'A Lament' from page fourteen all together without expression.",
+        "timestamp": {
+          "percentage": 22
+        },
+        "textLocation": {
+          "startLine": 69,
+          "endLine": 80
+        },
+        "participants": [
+          "miss-meadows",
+          "forms-four-five-six",
+          "music-hall",
+          "baton"
+        ],
+        "precedingEvent": "e06"
+      },
+      "e08": {
+        "id": "e08",
+        "type": "revelation",
+        "description": "As the girls sing, Miss Meadows internally reflects on the content of Basil's letter breaking off their engagement, with the word 'disgust' scratched out and 'regret' written over it.",
+        "timestamp": {
+          "percentage": 25
+        },
+        "textLocation": {
+          "startLine": 81,
+          "endLine": 100
+        },
+        "participants": [
+          "miss-meadows",
+          "basil",
+          "letter-from-basil"
+        ],
+        "precedingEvent": "e07"
+      },
+      "e09": {
+        "id": "e09",
+        "type": "revelation",
+        "description": "Miss Meadows recalls Basil's previous letters about domestic furnishings, including a fumed-oak bookcase and a natty hall-stand with a carved owl.",
+        "timestamp": {
+          "percentage": 28
+        },
+        "textLocation": {
+          "startLine": 101,
+          "endLine": 110
+        },
+        "participants": [
+          "miss-meadows",
+          "basil",
+          "fumed-oak-bookcase",
+          "natty-hall-stand"
+        ],
+        "precedingEvent": "e08"
+      },
+      "e10": {
+        "id": "e10",
+        "type": "revelation",
+        "description": "Miss Meadows remembers Basil's last visit when he wore a bright blue suit with a dark red rose in his buttonhole and discussed the headmaster's wife's dinner invitations.",
+        "timestamp": {
+          "percentage": 32
+        },
+        "textLocation": {
+          "startLine": 111,
+          "endLine": 130
+        },
+        "participants": [
+          "miss-meadows",
+          "basil",
+          "blue-suit",
+          "rose-buttonhole"
+        ],
+        "precedingEvent": "e09"
+      },
+      "e11": {
+        "id": "e11",
+        "type": "action",
+        "description": "Miss Meadows instructs the girls to sing the lament again with full expression, demonstrating the emotional interpretation she wants them to achieve.",
+        "timestamp": {
+          "percentage": 38
+        },
+        "textLocation": {
+          "startLine": 131,
+          "endLine": 160
+        },
+        "participants": [
+          "miss-meadows",
+          "forms-four-five-six",
+          "music-hall",
+          "baton",
+          "mary-beazley"
+        ],
+        "precedingEvent": "e10"
+      },
+      "e12": {
+        "id": "e12",
+        "type": "action",
+        "description": "Monica arrives at the music hall and delivers a message from Miss Wyatt summoning Miss Meadows to the mistress's room.",
+        "timestamp": {
+          "percentage": 55
+        },
+        "textLocation": {
+          "startLine": 161,
+          "endLine": 175
+        },
+        "participants": [
+          "monica",
+          "miss-meadows",
+          "music-hall",
+          "miss-wyatt"
+        ],
+        "precedingEvent": "e11"
+      },
+      "e13": {
+        "id": "e13",
+        "type": "action",
+        "description": "Miss Meadows leaves the music class, instructing the girls to remain quiet on their honor while she attends to the summons.",
+        "timestamp": {
+          "percentage": 58
+        },
+        "textLocation": {
+          "startLine": 176,
+          "endLine": 182
+        },
+        "participants": [
+          "miss-meadows",
+          "forms-four-five-six",
+          "music-hall"
+        ],
+        "precedingEvent": "e12"
+      },
+      "e14": {
+        "id": "e14",
+        "type": "action",
+        "description": "Miss Meadows enters Miss Wyatt's office where the head mistress sits at her desk and prepares to present a telegram.",
+        "timestamp": {
+          "percentage": 62
+        },
+        "textLocation": {
+          "startLine": 183,
+          "endLine": 195
+        },
+        "participants": [
+          "miss-meadows",
+          "miss-wyatt",
+          "mistress-room"
+        ],
+        "precedingEvent": "e13"
+      },
+      "e15": {
+        "id": "e15",
+        "type": "action",
+        "description": "Miss Wyatt presents a telegram to Miss Meadows, expressing hope that it is not bad news.",
+        "timestamp": {
+          "percentage": 65
+        },
+        "textLocation": {
+          "startLine": 196,
+          "endLine": 205
+        },
+        "participants": [
+          "miss-wyatt",
+          "miss-meadows",
+          "telegram",
+          "mistress-room"
+        ],
+        "precedingEvent": "e14"
+      },
+      "e16": {
+        "id": "e16",
+        "type": "revelation",
+        "description": "Miss Meadows reads the telegram from Basil saying he was mad and has bought the hat-stand, reversing his decision to break off the engagement.",
+        "timestamp": {
+          "percentage": 68
+        },
+        "textLocation": {
+          "startLine": 206,
+          "endLine": 215
+        },
+        "participants": [
+          "miss-meadows",
+          "basil",
+          "telegram"
+        ],
+        "precedingEvent": "e15"
+      },
+      "e17": {
+        "id": "e17",
+        "type": "dialogue",
+        "description": "Miss Wyatt expresses disapproval of receiving telegrams during school hours unless for serious emergencies like death or accidents.",
+        "timestamp": {
+          "percentage": 72
+        },
+        "textLocation": {
+          "startLine": 216,
+          "endLine": 225
+        },
+        "participants": [
+          "miss-wyatt",
+          "miss-meadows",
+          "mistress-room"
+        ],
+        "precedingEvent": "e16"
+      },
+      "e18": {
+        "id": "e18",
+        "type": "action",
+        "description": "Miss Meadows returns to the music hall and picks up the yellow chrysanthemum, holding it to her lips to hide her smile.",
+        "timestamp": {
+          "percentage": 78
+        },
+        "textLocation": {
+          "startLine": 226,
+          "endLine": 232
+        },
+        "participants": [
+          "miss-meadows",
+          "music-hall",
+          "yellow-chrysanthemum",
+          "mary-beazley"
+        ],
+        "precedingEvent": "e17"
+      },
+      "e19": {
+        "id": "e19",
+        "type": "action",
+        "description": "The girls begin singing a congratulatory song with flowers and ribbons, which Miss Meadows initially stops to correct their interpretation.",
+        "timestamp": {
+          "percentage": 82
+        },
+        "textLocation": {
+          "startLine": 233,
+          "endLine": 250
+        },
+        "participants": [
+          "miss-meadows",
+          "forms-four-five-six",
+          "music-hall",
+          "baton"
+        ],
+        "precedingEvent": "e18"
+      },
+      "e20": {
+        "id": "e20",
+        "type": "action",
+        "description": "Miss Meadows conducts the congratulatory song again with her voice full, deep, and glowing with genuine expression and joy.",
+        "timestamp": {
+          "percentage": 90
+        },
+        "textLocation": {
+          "startLine": 251,
+          "endLine": 235
+        },
+        "participants": [
+          "miss-meadows",
+          "forms-four-five-six",
+          "music-hall",
+          "baton"
+        ],
+        "precedingEvent": "e19"
+      }
+    },
+    "relationships": {
+      "interpersonal": {
+        "rel-meadows-basil": {
+          "id": "rel-meadows-basil",
+          "name": "Miss Meadows and Basil",
+          "description": "An engagement between Miss Meadows and Basil that is broken off by letter and then restored by telegram.",
+          "tags": [
+            "romantic",
+            "engagement",
+            "central-relationship"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "miss-meadows",
+            "basil"
+          ],
+          "nature": "Romantic engagement marked by crisis and reconciliation",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "strength": 0.7,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "lover"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "rel-meadows-mary": {
+          "id": "rel-meadows-mary",
+          "name": "Miss Meadows and Mary Beazley",
+          "description": "A teacher-student relationship marked by a daily ritual of presenting a chrysanthemum and special affection.",
+          "tags": [
+            "teacher-student",
+            "affectionate",
+            "ritual"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "miss-meadows",
+            "mary-beazley"
+          ],
+          "nature": "Affectionate teacher-student bond with daily ritual",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "strength": 0.8,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "mentor"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "rel-meadows-science-mistress": {
+          "id": "rel-meadows-science-mistress",
+          "name": "Miss Meadows and Science Mistress",
+          "description": "A colleague relationship marked by Miss Meadows' hidden hatred and the Science Mistress' affected sweetness.",
+          "tags": [
+            "colleague",
+            "antagonistic",
+            "hidden-tension"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "miss-meadows",
+            "science-mistress"
+          ],
+          "nature": "Superficially cordial but marked by Miss Meadows' internal hatred",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02",
+                "strength": 0.4,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "rival"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02"
+        },
+        "rel-meadows-wyatt": {
+          "id": "rel-meadows-wyatt",
+          "name": "Miss Meadows and Miss Wyatt",
+          "description": "A professional relationship between a teacher and the head mistress, marked by kindness but also concern for propriety.",
+          "tags": [
+            "professional",
+            "hierarchical",
+            "kind"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "miss-meadows",
+            "miss-wyatt"
+          ],
+          "nature": "Professional relationship with kindness and concern for school rules",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "strength": 0.6,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                },
+                "label": "subordinate"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        }
+      },
+      "group": {
+        "group-music-class": {
+          "id": "group-music-class",
+          "name": "Music Class",
+          "description": "The assembled Forms Four, Five, and Six under Miss Meadows' instruction, responsive to her emotional state.",
+          "tags": [
+            "educational",
+            "collective",
+            "responsive"
+          ],
+          "type": "group",
+          "participants": [
+            "miss-meadows",
+            "forms-four-five-six",
+            "mary-beazley",
+            "music-hall"
+          ],
+          "nature": "Teacher-led educational group sensitive to instructor's emotional state",
+          "subRelationships": [],
+          "groupDynamics": {
+            "cohesion": 0.6,
+            "sharedPurpose": 0.7,
+            "internalConflict": 0
+          },
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        }
+      }
+    },
+    "absentials": {
+      "abs-engagement-broken": {
+        "id": "abs-engagement-broken",
+        "name": "Broken Engagement",
+        "description": "The fear and reality that Miss Meadows' engagement to Basil has been broken off by his letter.",
+        "tags": [
+          "fear",
+          "loss",
+          "rejection"
+        ],
+        "holder": "miss-meadows",
+        "origin": "Basil's letter expressing doubts about marriage and using the word 'disgust'",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "basil",
+            "relationship": "creator",
+            "strength": 1
+          },
+          {
+            "entityId": "letter-from-basil",
+            "relationship": "catalyst",
+            "strength": 1
+          },
+          {
+            "entityId": "science-mistress",
+            "relationship": "obstacle",
+            "strength": 0.3
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e08",
+              "type": "fear",
+              "status": "resolved_mixed",
+              "urgency": 1,
+              "intensity": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e08"
+      },
+      "abs-professional-shame": {
+        "id": "abs-professional-shame",
+        "name": "Professional Shame and Disappearance",
+        "description": "Miss Meadows' fear that she will have to leave the school and disappear when the broken engagement becomes known.",
+        "tags": [
+          "fear",
+          "shame",
+          "social-consequence"
+        ],
+        "holder": "miss-meadows",
+        "origin": "The realization that she will have to face colleagues and students after the engagement is broken",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "science-mistress",
+            "relationship": "obstacle",
+            "strength": 0.5
+          },
+          {
+            "entityId": "forms-four-five-six",
+            "relationship": "obstacle",
+            "strength": 0.4
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e08",
+              "type": "fear",
+              "status": "resolved_blocked",
+              "urgency": 0.9,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e08"
+      },
+      "abs-reconciliation": {
+        "id": "abs-reconciliation",
+        "name": "Reconciliation with Basil",
+        "description": "The desire and hope that Basil will reverse his decision and restore the engagement.",
+        "tags": [
+          "desire",
+          "hope",
+          "reconciliation"
+        ],
+        "holder": "miss-meadows",
+        "origin": "Miss Meadows' love for Basil and her internal plea that he reconsider",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "basil",
+            "relationship": "target",
+            "strength": 1
+          },
+          {
+            "entityId": "telegram",
+            "relationship": "resolver",
+            "strength": 1
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e08",
+              "type": "desire",
+              "status": "resolved_satisfied",
+              "urgency": 1,
+              "intensity": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e08"
+      },
+      "abs-emotional-control": {
+        "id": "abs-emotional-control",
+        "name": "Emotional Control During Class",
+        "description": "Miss Meadows' need to maintain professional composure and hide her emotional devastation while conducting the music class.",
+        "tags": [
+          "need",
+          "control",
+          "professionalism"
+        ],
+        "holder": "miss-meadows",
+        "origin": "Her position as a teacher and the presence of students and colleagues",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "forms-four-five-six",
+            "relationship": "obstacle",
+            "strength": 0.6
+          },
+          {
+            "entityId": "music-hall",
+            "relationship": "facilitator",
+            "strength": 0.5
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e04",
+              "type": "need",
+              "status": "resolved_mixed",
+              "urgency": 0.9,
+              "intensity": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e04"
+      }
+    },
+    "mentalConstructs": {
+      "mc-meadows-basil-love": {
+        "id": "mc-meadows-basil-love",
+        "name": "Miss Meadows' Love for Basil",
+        "description": "Miss Meadows' belief that she loves Basil deeply, even as he expresses doubts about his capacity to love her.",
+        "tags": [
+          "emotion",
+          "belief",
+          "romantic"
+        ],
+        "holder": "miss-meadows",
+        "subject": "basil",
+        "isDiegetic": true,
+        "source": "e08",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e08",
+              "content": "I love Basil and would accept his love in any measure, even if small",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e08"
+      },
+      "mc-meadows-engagement-miracle": {
+        "id": "mc-meadows-engagement-miracle",
+        "name": "The Engagement as Miracle",
+        "description": "Miss Meadows' belief that her engagement to Basil was a miracle, given her age and his youth.",
+        "tags": [
+          "memory",
+          "belief",
+          "self-perception"
+        ],
+        "holder": "miss-meadows",
+        "subject": "basil",
+        "isDiegetic": true,
+        "source": "e08",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e08",
+              "content": "At thirty years old, being engaged to a twenty-five-year-old man was a miracle",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e08"
+      },
+      "mc-meadows-basil-vain": {
+        "id": "mc-meadows-basil-vain",
+        "name": "Basil's Vanity",
+        "description": "Miss Meadows' observation that Basil is vain and aware of his own attractiveness.",
+        "tags": [
+          "observation",
+          "belief",
+          "character-assessment"
+        ],
+        "holder": "miss-meadows",
+        "subject": "basil",
+        "isDiegetic": true,
+        "source": "e10",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e10",
+              "content": "Basil is vain and knows how handsome he is; he strokes his hair and moustache",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e10"
+      },
+      "mc-meadows-basil-indecisive": {
+        "id": "mc-meadows-basil-indecisive",
+        "name": "Basil's Indecisiveness",
+        "description": "Miss Meadows' understanding that Basil is indecisive and prone to changing his mind.",
+        "tags": [
+          "observation",
+          "belief",
+          "character-assessment"
+        ],
+        "holder": "miss-meadows",
+        "subject": "basil",
+        "isDiegetic": true,
+        "source": "e16",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e16",
+              "content": "Basil is indecisive and can change his mind, as evidenced by the telegram reversing his letter",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e16"
+      },
+      "mc-meadows-girls-perception": {
+        "id": "mc-meadows-girls-perception",
+        "name": "Girls' Perception of Her Mood",
+        "description": "Miss Meadows' awareness that the girls know she is upset, though she tries to hide it.",
+        "tags": [
+          "awareness",
+          "belief",
+          "social-perception"
+        ],
+        "holder": "miss-meadows",
+        "subject": "forms-four-five-six",
+        "isDiegetic": true,
+        "source": "e04",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e04",
+              "content": "The girls think 'Meady is in a wax' and are aware of my emotional state",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e04"
+      },
+      "mc-meadows-science-mistress-sweetness": {
+        "id": "mc-meadows-science-mistress-sweetness",
+        "name": "Science Mistress' Affected Sweetness",
+        "description": "Miss Meadows' perception that the Science Mistress is artificially sweet and possibly mocking.",
+        "tags": [
+          "observation",
+          "belief",
+          "character-assessment"
+        ],
+        "holder": "miss-meadows",
+        "subject": "science-mistress",
+        "isDiegetic": true,
+        "source": "e02",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e02",
+              "content": "The Science Mistress is artificially sweet and pale, like honey, and may be mocking me",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e02"
+      },
+      "mc-meadows-lament-meaning": {
+        "id": "mc-meadows-lament-meaning",
+        "name": "The Lament's Tragic Meaning",
+        "description": "Miss Meadows' interpretation of the lament song as expressing her own emotional devastation.",
+        "tags": [
+          "interpretation",
+          "belief",
+          "emotional-projection"
+        ],
+        "holder": "miss-meadows",
+        "subject": "music-hall",
+        "isDiegetic": true,
+        "source": "e07",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e07",
+              "content": "The lament 'Fast! Ah, too Fast' expresses the tragic passing of pleasure and joy, like my engagement",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e07"
+      },
+      "mc-meadows-basil-not-marrying": {
+        "id": "mc-meadows-basil-not-marrying",
+        "name": "Basil's Declaration of Not Being a Marrying Man",
+        "description": "Miss Meadows' understanding of Basil's statement that he is not a marrying man.",
+        "tags": [
+          "belief",
+          "revelation",
+          "relationship-status"
+        ],
+        "holder": "miss-meadows",
+        "subject": "basil",
+        "isDiegetic": true,
+        "source": "e08",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e08",
+              "content": "Basil has concluded that he is not a marrying man and the idea of settling down fills him with disgust",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 1
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e08"
+      }
+    },
+    "annotations": []
+  },
+  "readings": {
+    "Formalist Reading": {
+      "name": "Formalist Reading",
+      "description": "A formalist analysis of 'Miss Meadows' examining narrative structure, literary devices, symbolic patterns, and the formal architecture of emotional transformation through musical and linguistic repetition.",
+      "themes": {
+        "theme-emotional-mastery": {
+          "id": "theme-emotional-mastery",
+          "name": "Emotional Mastery Through Form",
+          "description": "The protagonist's ability to channel and control raw emotion through the formal structures of music and professional conduct, transforming private devastation into public artistry.",
+          "tags": [
+            "emotion",
+            "control",
+            "art",
+            "performance"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "theme-structural-reversal": {
+          "id": "theme-structural-reversal",
+          "name": "Structural Reversal and Transformation",
+          "description": "The narrative's formal architecture depends on a complete reversal of emotional valence—from despair to joy—triggered by a single external event, demonstrating how form can contain and express contradictory emotional states.",
+          "tags": [
+            "structure",
+            "reversal",
+            "transformation",
+            "binary"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "theme-repetition-variation": {
+          "id": "theme-repetition-variation",
+          "name": "Repetition and Variation",
+          "description": "The formal technique of repeating 'A Lament' twice with different emotional interpretations, and the chrysanthemum ritual repeated and then inverted, demonstrates how identical formal elements can carry opposite meanings.",
+          "tags": [
+            "repetition",
+            "variation",
+            "form",
+            "technique"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07"
+        },
+        "theme-surface-depth": {
+          "id": "theme-surface-depth",
+          "name": "Surface vs. Depth",
+          "description": "The tension between Miss Meadows' external professional composure and internal emotional turmoil, explored through the formal gap between what is shown and what is concealed.",
+          "tags": [
+            "surface",
+            "depth",
+            "concealment",
+            "appearance"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        }
+      },
+      "symbols": {
+        "sym-yellow-chrysanthemum": {
+          "id": "sym-yellow-chrysanthemum",
+          "name": "Yellow Chrysanthemum",
+          "description": "A formal symbol of ritual, affection, and the cyclical nature of emotional states. Its rejection and acceptance frame the narrative's emotional arc, functioning as a visual marker of internal transformation.",
+          "tags": [
+            "flower",
+            "ritual",
+            "color",
+            "cyclical"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "currentMeanings": [
+                  {
+                    "description": "Daily ritual and constancy of affection",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Rejection of tenderness during despair",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Acceptance and restoration of emotional openness",
+                    "strength": 0.9
+                  }
+                ],
+                "currentManifestations": [
+                  "yellow-chrysanthemum",
+                  "mary-beazley"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "sym-lament-song": {
+          "id": "sym-lament-song",
+          "name": "A Lament (Musical Composition)",
+          "description": "A formally structured piece that serves as the narrative's central mirror, reflecting Miss Meadows' emotional state through its two contrasting performances. The song's form contains the story's emotional content.",
+          "tags": [
+            "music",
+            "form",
+            "emotion",
+            "performance"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07",
+                "currentMeanings": [
+                  {
+                    "description": "Expression of genuine despair without artifice",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "The formal structure that allows emotion to be shaped and controlled",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "The gap between technical instruction and emotional authenticity",
+                    "strength": 0.8
+                  }
+                ],
+                "currentManifestations": [
+                  "music-books",
+                  "piano"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07"
+        },
+        "sym-telegram": {
+          "id": "sym-telegram",
+          "name": "Telegram",
+          "description": "A formally compressed linguistic structure—brevity itself becomes meaningful. The telegram's form (abbreviated, urgent, reversing previous communication) mirrors the narrative's structural inversion.",
+          "tags": [
+            "communication",
+            "form",
+            "brevity",
+            "reversal"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16",
+                "currentMeanings": [
+                  {
+                    "description": "Reversal of the letter's meaning through formal compression",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "The power of form to overturn content",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Intrusion of external reality into controlled space",
+                    "strength": 0.75
+                  }
+                ],
+                "currentManifestations": [
+                  "telegram"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16"
+        },
+        "sym-baton": {
+          "id": "sym-baton",
+          "name": "Conductor's Baton",
+          "description": "An instrument of formal control and authority. The baton represents Miss Meadows' ability to shape and direct emotional expression through formal structures, wielded with increasing confidence.",
+          "tags": [
+            "control",
+            "authority",
+            "form",
+            "direction"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "currentMeanings": [
+                  {
+                    "description": "Instrument of professional mastery and control",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Extension of will over form and emotion",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Symbol of the teacher's power to shape expression",
+                    "strength": 0.8
+                  }
+                ],
+                "currentManifestations": [
+                  "baton"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        }
+      },
+      "symbolicRelationships": {
+        "symrel-chrysanthemum-affection": {
+          "id": "symrel-chrysanthemum-affection",
+          "name": "Chrysanthemum as Affection's Form",
+          "description": "The chrysanthemum embodies the formal ritual of affection—its daily offering and reception structure the relationship between teacher and student, making emotion visible through repeated form.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-yellow-chrysanthemum",
+            "theme-emotional-mastery"
+          ],
+          "nature": "The flower's rejection and acceptance demonstrates how emotional states can be expressed through formal acceptance or rejection of ritualized gestures.",
+          "symbol": "sym-yellow-chrysanthemum",
+          "symbolized": "theme-emotional-mastery",
+          "interpretation": "The flower's rejection and acceptance demonstrates how emotional states can be expressed through formal acceptance or rejection of ritualized gestures.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "symrel-lament-despair": {
+          "id": "symrel-lament-despair",
+          "name": "Lament as Formal Container of Despair",
+          "description": "The musical composition 'A Lament' serves as a formal container that allows Miss Meadows to express her despair without revealing its personal source, demonstrating art's formal capacity to universalize private emotion.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-lament-song",
+            "theme-surface-depth"
+          ],
+          "nature": "The song's form permits the expression of genuine emotion while maintaining professional distance—the form itself becomes the mechanism of concealment and revelation.",
+          "symbol": "sym-lament-song",
+          "symbolized": "theme-surface-depth",
+          "interpretation": "The song's form permits the expression of genuine emotion while maintaining professional distance—the form itself becomes the mechanism of concealment and revelation.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07"
+        },
+        "symrel-telegram-reversal": {
+          "id": "symrel-telegram-reversal",
+          "name": "Telegram as Structural Reversal",
+          "description": "The telegram's compressed form mirrors and enacts the narrative's structural reversal, using brevity and urgency to overturn the previous letter's meaning.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-telegram",
+            "theme-structural-reversal"
+          ],
+          "nature": "The telegram's formal properties (brevity, urgency, compression) embody the narrative's reversal of emotional valence—form and content align in the reversal itself.",
+          "symbol": "sym-telegram",
+          "symbolized": "theme-structural-reversal",
+          "interpretation": "The telegram's formal properties (brevity, urgency, compression) embody the narrative's reversal of emotional valence—form and content align in the reversal itself.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16"
+        },
+        "symrel-baton-control": {
+          "id": "symrel-baton-control",
+          "name": "Baton as Formal Authority",
+          "description": "The conductor's baton represents the formal mechanisms through which Miss Meadows exerts control over emotional expression, both in the music and in her own presentation.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-baton",
+            "theme-emotional-mastery"
+          ],
+          "nature": "The baton's movement and authority grow throughout the narrative, paralleling Miss Meadows' increasing emotional confidence and control over formal expression.",
+          "symbol": "sym-baton",
+          "symbolized": "theme-emotional-mastery",
+          "interpretation": "The baton's movement and authority grow throughout the narrative, paralleling Miss Meadows' increasing emotional confidence and control over formal expression.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        }
+      },
+      "narrator": {
+        "id": "narrator",
+        "name": "Third-Person Limited Narrator",
+        "description": "The narrator maintains close proximity to Miss Meadows' consciousness while preserving formal distance through third-person perspective. The narrative voice shifts between external observation and internal revelation, creating a formal tension between what is shown and what is known.",
+        "tags": [],
+        "type": "narrator",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "reliability": 0.95,
+              "mentalConstructs": [],
+              "perspective": "third_person_limited"
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "reader": {
+        "id": "reader",
+        "name": "Formalist Reader",
+        "description": "The reader is positioned to observe the formal architecture of the narrative—the repetitions, reversals, and symbolic patterns—and to recognize how literary form itself becomes the vehicle for emotional expression and transformation.",
+        "tags": [],
+        "type": "reader",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "mentalConstructs": [],
+              "emotions": {
+                "joy": 0,
+                "trust": 0,
+                "fear": 0,
+                "surprise": 0,
+                "sadness": 0,
+                "disgust": 0,
+                "anger": 0,
+                "anticipation": 0,
+                "intensity": 0
+              }
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "author": {
+        "id": "author",
+        "name": "Katherine Mansfield",
+        "description": "A modernist writer known for formal innovation, psychological depth, and the use of precise linguistic and structural patterns to convey emotional states. Her work demonstrates how form and content are inseparable.",
+        "tags": [],
+        "type": "author",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "style": {},
+              "themes": []
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "eventSignificance": {
+        "e01": {
+          "significance": 0.85,
+          "note": "Establishes the formal contrast between external setting (cold, orderly corridors) and internal state (despair), introducing the surface/depth tension central to formalist analysis."
+        },
+        "e02": {
+          "significance": 0.4,
+          "note": "Minor dialogue event that demonstrates the performative nature of social interaction; Miss Meadows must maintain formal composure."
+        },
+        "e03": {
+          "significance": 0.5,
+          "note": "Shows the formal gap between internal emotion (hatred) and external behavior (grimness); demonstrates the mask of professionalism."
+        },
+        "e04": {
+          "significance": 0.75,
+          "note": "Marks the transition to the central formal space (music hall) and establishes Miss Meadows' authority through the baton; introduces the formal structure of the class."
+        },
+        "e05": {
+          "significance": 0.8,
+          "note": "Introduces the chrysanthemum ritual as a formal, repeated gesture; establishes the symbolic pattern that will be inverted and restored."
+        },
+        "e06": {
+          "significance": 0.85,
+          "note": "The rejection of the chrysanthemum is formally significant as the inversion of the established ritual; demonstrates how form can express emotional rupture."
+        },
+        "e07": {
+          "significance": 0.9,
+          "note": "Introduces 'A Lament' as the central formal structure; the song becomes the narrative's mirror and the vehicle for emotional expression."
+        },
+        "e08": {
+          "significance": 0.95,
+          "note": "Critical revelation of the letter's content; the formal detail of 'disgust' scratched out and 'regret' written over demonstrates how textual form encodes emotional ambivalence."
+        },
+        "e09": {
+          "significance": 0.6,
+          "note": "Memories of domestic furnishings; these details establish Basil's character through material objects, contributing to the formal texture of the narrative."
+        },
+        "e10": {
+          "significance": 0.65,
+          "note": "Memories of Basil's appearance (blue suit, rose); these formal details of dress and presentation establish his character through visual form."
+        },
+        "e11": {
+          "significance": 0.9,
+          "note": "The second performance of 'A Lament' with full expression is formally crucial; it demonstrates how the same musical form can carry different emotional content through interpretation."
+        },
+        "e12": {
+          "significance": 0.7,
+          "note": "Monica's interruption introduces structural rupture; the summons breaks the formal continuity of the class and propels the narrative toward reversal."
+        },
+        "e13": {
+          "significance": 0.6,
+          "note": "Miss Meadows' departure on the girls' honor maintains formal control even in absence; demonstrates the internalization of formal authority."
+        },
+        "e14": {
+          "significance": 0.75,
+          "note": "Entry into Miss Wyatt's office shifts the formal setting; the office becomes the space where the narrative's reversal will occur."
+        },
+        "e15": {
+          "significance": 0.8,
+          "note": "The presentation of the telegram; formally significant as the moment of suspense before reversal, building narrative tension through formal delay."
+        },
+        "e16": {
+          "significance": 1,
+          "note": "The telegram's revelation is the narrative's formal pivot point; the reversal of meaning through compressed linguistic form enacts the story's structural inversion."
+        },
+        "e17": {
+          "significance": 0.5,
+          "note": "Miss Wyatt's disapproval is formally ironic; her concern for propriety contrasts with the emotional significance of the telegram's content."
+        },
+        "e18": {
+          "significance": 0.9,
+          "note": "The acceptance of the chrysanthemum formally restores the ritual that was rejected; this restoration mirrors the narrative's emotional reversal and is formally symmetrical with e06."
+        },
+        "e19": {
+          "significance": 0.8,
+          "note": "The girls' congratulatory song introduces a new musical form; Miss Meadows' initial correction demonstrates her continued formal authority even in joy."
+        },
+        "e20": {
+          "significance": 0.95,
+          "note": "The final performance with 'voice full, deep, and glowing' is the narrative's formal resolution; the same formal structures (music, conducting) now carry transformed emotional content."
+        }
+      },
+      "entitySignificance": {
+        "miss-meadows": {
+          "significance": 1,
+          "note": "The protagonist whose consciousness and emotional transformation structure the entire narrative; her relationship to form and control is the story's central concern."
+        },
+        "basil": {
+          "significance": 0.7,
+          "note": "An absent character whose presence is established through formal traces (letter, telegram, memories); his absence is more formally significant than his presence would be."
+        },
+        "science-mistress": {
+          "significance": 0.3,
+          "note": "A minor character whose affected manner serves as foil to Miss Meadows' genuine emotion; formally significant only as contrast."
+        },
+        "mary-beazley": {
+          "significance": 0.8,
+          "note": "A secondary character whose chrysanthemum ritual becomes a formal symbol; her relationship to Miss Meadows structures the narrative's emotional arc."
+        },
+        "monica": {
+          "significance": 0.4,
+          "note": "A minor character whose function is structural—she delivers the summons that interrupts the class and propels the narrative toward reversal."
+        },
+        "miss-wyatt": {
+          "significance": 0.6,
+          "note": "The head mistress whose office becomes the formal space of reversal; her disapproval provides ironic contrast to the telegram's significance."
+        },
+        "forms-four-five-six": {
+          "significance": 0.7,
+          "note": "The collective audience whose presence structures Miss Meadows' performance; they function as formal witnesses to her emotional transformation."
+        },
+        "yellow-chrysanthemum": {
+          "significance": 0.9,
+          "note": "A symbolic object whose formal properties (color, shape, ritual presentation) make it the narrative's central symbol of emotional states."
+        },
+        "letter-from-basil": {
+          "significance": 0.85,
+          "note": "A textual object whose formal properties (scratched-out words, revisions) encode emotional ambivalence; its form is as significant as its content."
+        },
+        "telegram": {
+          "significance": 0.95,
+          "note": "A formally compressed textual object that enacts the narrative's reversal; its brevity and urgency are formally significant."
+        },
+        "baton": {
+          "significance": 0.8,
+          "note": "An instrument of formal control whose wielding structures Miss Meadows' authority and emotional expression throughout the narrative."
+        },
+        "music-hall": {
+          "significance": 0.85,
+          "note": "The primary formal setting where emotional expression is channeled through music; its architecture structures the narrative's central scenes."
+        },
+        "mistress-room": {
+          "significance": 0.75,
+          "note": "The formal space where reversal occurs; its separation from the music hall creates structural contrast and narrative pivot."
+        },
+        "fumed-oak-bookcase": {
+          "significance": 0.4,
+          "note": "A material object that establishes Basil's character through formal detail; contributes to the narrative's texture but not its structure."
+        },
+        "natty-hall-stand": {
+          "significance": 0.5,
+          "note": "A material object mentioned in both letter and telegram; its presence in the telegram's reversal gives it formal significance as a symbol of reconciliation."
+        },
+        "blue-suit": {
+          "significance": 0.4,
+          "note": "A formal detail of appearance that establishes Basil's character through visual presentation; contributes to characterization through form."
+        },
+        "rose-buttonhole": {
+          "significance": 0.4,
+          "note": "A formal detail of dress that contributes to the narrative's visual texture and characterization of Basil."
+        }
+      },
+      "absentialSignificance": {
+        "abs-engagement-broken": {
+          "significance": 0.95,
+          "note": "The central absence that structures the entire narrative; its presence as absence drives the emotional arc and formal tension between surface and depth."
+        },
+        "abs-professional-shame": {
+          "significance": 0.7,
+          "note": "An absence that motivates Miss Meadows' formal control and professional composure; the fear of this absence shapes her behavior."
+        },
+        "abs-reconciliation": {
+          "significance": 0.9,
+          "note": "The desired absence that becomes present through the telegram; its formal reversal from impossible to actual structures the narrative's transformation."
+        },
+        "abs-emotional-control": {
+          "significance": 0.85,
+          "note": "The formal constraint that structures the entire narrative; Miss Meadows' struggle to maintain this absence of emotional display is the story's central formal tension."
+        }
+      },
+      "mentalConstructs": {},
+      "annotations": [],
+      "globalTension": [
+        {
+          "timestamp": {
+            "percentage": 2
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 8
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 15
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 20
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 25
+          },
+          "value": 0.9
+        },
+        {
+          "timestamp": {
+            "percentage": 32
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 38
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 55
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 62
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 65
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 68
+          },
+          "value": 0.95
+        },
+        {
+          "timestamp": {
+            "percentage": 72
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 78
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 82
+          },
+          "value": 0.5
+        },
+        {
+          "timestamp": {
+            "percentage": 90
+          },
+          "value": 0.3
+        },
+        {
+          "timestamp": {
+            "percentage": 100
+          },
+          "value": 0.1
+        }
+      ],
+      "spanAnnotations": {
+        "span_1": {
+          "tension": 0.7,
+          "note": "Overall narrative tension driven by formal structures and emotional reversals."
+        },
+        "span_2": {
+          "tension": 0.8,
+          "note": "Opening act establishes the surface/depth tension through formal contrast between setting and emotional state."
+        },
+        "span_3": {
+          "tension": 0.75,
+          "note": "Cold corridors establish formal setting that contrasts with internal despair."
+        },
+        "span_4": {
+          "tension": 0.8,
+          "note": "Arrival with despair introduces the narrative's central emotional state."
+        },
+        "span_5": {
+          "tension": 0.75,
+          "note": "Science Mistress encounter demonstrates the performative nature of social interaction."
+        },
+        "span_6": {
+          "tension": 0.8,
+          "note": "The music class act contains the narrative's central formal structures and emotional expressions."
+        },
+        "span_7": {
+          "tension": 0.75,
+          "note": "Music hall assembly establishes the formal space of emotional expression."
+        },
+        "span_8": {
+          "tension": 0.7,
+          "note": "Taking the platform establishes Miss Meadows' formal authority."
+        },
+        "span_9": {
+          "tension": 0.85,
+          "note": "Rejection of chrysanthemum is formally significant as inversion of established ritual."
+        },
+        "span_10": {
+          "tension": 0.85,
+          "note": "The lament performances are the narrative's formal center; tension derives from the gap between form and emotional content."
+        },
+        "span_11": {
+          "tension": 0.9,
+          "note": "First rendition of lament without expression demonstrates formal control over emotion."
+        },
+        "span_12": {
+          "tension": 0.85,
+          "note": "Memories of Basil deepen the emotional content beneath the formal surface."
+        },
+        "span_13": {
+          "tension": 0.8,
+          "note": "Second rendition with expression shows how form can carry transformed emotional content."
+        },
+        "span_14": {
+          "tension": 0.75,
+          "note": "Monica's interruption introduces structural rupture and propels narrative toward reversal."
+        },
+        "span_15": {
+          "tension": 0.8,
+          "note": "The summons creates formal suspense through narrative interruption."
+        },
+        "span_16": {
+          "tension": 0.7,
+          "note": "Class left on honor maintains formal control even in absence."
+        },
+        "span_17": {
+          "tension": 0.85,
+          "note": "The telegram act contains the narrative's formal pivot and reversal."
+        },
+        "span_18": {
+          "tension": 0.85,
+          "note": "Miss Wyatt's office becomes the formal space where reversal occurs."
+        },
+        "span_19": {
+          "tension": 0.85,
+          "note": "Entry and telegram presentation build tension through formal delay and suspense."
+        },
+        "span_20": {
+          "tension": 0.95,
+          "note": "Reading the telegram is the narrative's formal and emotional pivot point."
+        },
+        "span_21": {
+          "tension": 0.7,
+          "note": "Miss Wyatt's disapproval provides ironic contrast to the telegram's significance."
+        },
+        "span_22": {
+          "tension": 0.4,
+          "note": "Return and transformation act shows the resolution of the narrative's formal tensions."
+        },
+        "span_23": {
+          "tension": 0.4,
+          "note": "Return to music hall completes the narrative's formal symmetry."
+        },
+        "span_24": {
+          "tension": 0.5,
+          "note": "Chrysanthemum accepted formally restores the ritual that was rejected; symmetrical with span_9."
+        },
+        "span_25": {
+          "tension": 0.4,
+          "note": "Congratulatory song introduces new musical form; Miss Meadows' continued formal authority is evident."
+        },
+        "span_26": {
+          "tension": 0.2,
+          "note": "Final performance with joy is the narrative's formal resolution; emotional transformation is complete."
+        }
+      }
+    }
+  }
+}
