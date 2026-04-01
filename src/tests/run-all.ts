@@ -20,6 +20,7 @@ const suites = [
   { name: 'Reading Editor', script: 'src/tests/test-reading-editor.ts' },
   { name: 'Relationship Graph', script: 'src/tests/test-relationship-graph.ts' },
   { name: 'OTEL Import', script: 'src/tests/test-otel-import.ts' },
+  { name: 'Interpretive Causality', script: 'src/tests/test-causality.ts' },
 ];
 
 let totalPassed = 0;

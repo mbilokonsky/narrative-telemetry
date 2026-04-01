@@ -288,7 +288,8 @@ interface EventAnnotation {
   significance: number;       // 0-1 composite score
   dimensions: TensionDimensions;  // independent 5D scoring
   note?: string;
-  causes?: string[];          // event IDs
+  causes?: string[];          // event IDs that causally led to this event
+  effects?: string[];         // event IDs that this event causally triggers
 }
 
 interface TensionPoint {
@@ -322,7 +323,18 @@ Score each event AND each tension point independently across FIVE dimensions (0-
 4. **atmospheric** (0-1): Does this event shift mood, environment, or ambient pressure? Score 0 = no atmospheric shift; 1 = complete tonal transformation.
 5. **pacing** (0-1): Does this event represent high activity/compression or mark a tempo change? Score 0 = no pacing impact; 1 = extreme acceleration/deceleration.
 
-**CRITICAL: These dimensions are INDEPENDENT.** An event can be high in absential (0.8) but low in atmospheric (0.2). Do NOT force them to correlate or sum to 1. Score each dimension on its own merits.`;
+**CRITICAL: These dimensions are INDEPENDENT.** An event can be high in absential (0.8) but low in atmospheric (0.2). Do NOT force them to correlate or sum to 1. Score each dimension on its own merits.
+
+## Interpretive Causality
+
+For events with significance >= 0.5, annotate causal relationships:
+
+- **causes**: List event IDs that *under this reading's interpretation* causally led to this event. Not just temporal order — actual narrative causation (e.g., the uncle's lateness *caused* the boy's late arrival at the bazaar).
+- **effects**: List event IDs that this event causally triggers downstream.
+
+Different readings may identify different causal chains for the same events. A formalist might focus on structural causation (plot mechanics), while a psychoanalytic reading might trace unconscious motivations.
+
+Aim for at least 5-10 events with populated causes/effects. Not every event needs them — only those where the causal relationship is interpretively meaningful.`;
 
 export function buildInterpretationUserPrompt(textModelJson: string, lens: string): string {
   return `Here is the TextModel (neutral extraction) of the story:

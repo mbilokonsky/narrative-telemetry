@@ -205,8 +205,16 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
     const entry: Reading['eventSignificance'][string] = {
       significance: ann.significance ?? 0.5,
       note: ann.note,
-      causes: ann.causes,
+      causes: Array.isArray(ann.causes) ? ann.causes : undefined,
     };
+    // Map effects from simple event ID array to ReadingEventEffect[]
+    if (Array.isArray(ann.effects)) {
+      entry.effects = ann.effects.map((eid: string) => ({
+        entityId: eid,
+        stateChanges: {},
+        description: `Causes ${eid}`,
+      }));
+    }
     // Include 5D dimensions if provided by the LLM
     if (ann.dimensions && typeof ann.dimensions === 'object') {
       entry.dimensions = {

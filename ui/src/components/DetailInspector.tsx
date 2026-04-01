@@ -157,6 +157,40 @@ export function DetailInspector({
                     </span>
                   </div>
                   {sig?.note && <div className="sig-note">{sig.note}</div>}
+                  {sig?.causes && sig.causes.length > 0 && (
+                    <div className="causal-chain">
+                      <span className="causal-label">Caused by:</span>
+                      {sig.causes.map((cid: string) => {
+                        const causeEvt = model.text.events[cid];
+                        return (
+                          <span
+                            key={cid}
+                            className="causal-link"
+                            onClick={(e) => { e.stopPropagation(); onSelectEvent?.(cid); }}
+                          >
+                            {causeEvt ? causeEvt.description.slice(0, 60) : cid}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
+                  {sig?.effects && sig.effects.length > 0 && (
+                    <div className="causal-chain">
+                      <span className="causal-label">Causes:</span>
+                      {sig.effects.map((eff: any, i: number) => {
+                        const effEvt = model.text.events[eff.entityId];
+                        return (
+                          <span
+                            key={`eff-${i}`}
+                            className="causal-link"
+                            onClick={(e) => { e.stopPropagation(); onSelectEvent?.(eff.entityId); }}
+                          >
+                            {effEvt ? effEvt.description.slice(0, 60) : eff.entityId}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -590,6 +624,30 @@ function DetailStyle() {
       .annotation-note-text {
         font-style: italic;
         color: var(--text);
+      }
+      .causal-chain {
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+      }
+      .causal-label {
+        font-size: 10px;
+        font-weight: 600;
+        color: var(--text-dim);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+      .causal-link {
+        font-size: 11px;
+        color: var(--accent);
+        cursor: pointer;
+        padding: 2px 0;
+        line-height: 1.4;
+      }
+      .causal-link:hover {
+        color: var(--text-bright);
+        text-decoration: underline;
       }
     `}</style>
   );

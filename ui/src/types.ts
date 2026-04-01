@@ -88,6 +88,8 @@ export interface Significance {
   significance: number;
   dimensions?: TensionDimensions;
   note?: string;
+  causes?: string[];
+  effects?: { entityId: string; description: string }[];
 }
 
 export interface TensionPoint {
