@@ -186,7 +186,11 @@ function AnnotatedSegment({
   };
 
   return (
-    <span className={`entity-mention ${styleClass}`} style={{ position: 'relative' }} onClick={handleClick}>
+    <span
+      className={`entity-mention ${styleClass}`}
+      style={{ position: 'relative', zIndex: showPopup ? 1000 : undefined }}
+      onClick={handleClick}
+    >
       {segment.text}
       {hasMultiple && (
         <span className="annotation-badge">{count}</span>
