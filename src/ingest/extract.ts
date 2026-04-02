@@ -293,16 +293,24 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
     const stateHistory = [initialState];
     for (const tr of c.stateTransitions ?? []) {
       const prevData = stateHistory[stateHistory.length - 1].data;
+      const causes = tr.causes ?? [];
+      const primaryEvent = causes.find((c: any) => c.role === 'primary')?.eventId ?? causes[0]?.eventId;
       stateHistory.push({
         timestamp: ts(tr.percentage),
         data: {
           ...prevData,
-          ...base(tr.eventId),
+          ...base(primaryEvent ?? 'unknown'),
           location: tr.location ?? prevData.location,
-          // Store transition metadata in generatedBy and description via version
           version: `v1:${tr.description ?? ''}` as any,
         },
-        causedBy: { eventId: tr.eventId },
+        causedBy: {
+          eventId: primaryEvent,
+          factors: causes.map((c: any) => ({
+            eventId: c.eventId,
+            role: c.role ?? 'contributing',
+            description: c.description,
+          })),
+        },
       });
     }
 
@@ -458,17 +466,29 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
     let stateHistory;
 
     if (transitions.length > 0) {
-      stateHistory = transitions.map((tr: any) => ({
-        timestamp: ts(tr.percentage),
-        data: {
-          ...base(tr.eventId),
-          type: toAbsentialType(a.type),
-          status: toAbsentialStatus(tr.status ?? 'unsatisfied'),
-          urgency: tr.urgency ?? 0.5,
-          intensity: tr.intensity ?? 0.5,
-        },
-        causedBy: { eventId: tr.eventId },
-      }));
+      stateHistory = transitions.map((tr: any) => {
+        const causes = tr.causes ?? [];
+        const primaryEvent = causes.find((c: any) => c.role === 'primary')?.eventId
+          ?? causes[0]?.eventId ?? tr.eventId;
+        return {
+          timestamp: ts(tr.percentage),
+          data: {
+            ...base(primaryEvent),
+            type: toAbsentialType(a.type),
+            status: toAbsentialStatus(tr.status ?? 'unsatisfied'),
+            urgency: tr.urgency ?? 0.5,
+            intensity: tr.intensity ?? 0.5,
+          },
+          causedBy: {
+            eventId: primaryEvent,
+            factors: causes.map((c: any) => ({
+              eventId: c.eventId,
+              role: c.role ?? 'contributing',
+              description: c.description,
+            })),
+          },
+        };
+      });
     } else {
       // Legacy fallback: single initial state
       stateHistory = [{

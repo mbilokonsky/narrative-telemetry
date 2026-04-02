@@ -63,10 +63,20 @@ export interface Item {
   context?: string;
 }
 
+export interface CausalFactor {
+  eventId: string;
+  role: string;
+  description?: string;
+}
+
 export interface AbsentialState {
   timestamp: Timestamp;
   data: Record<string, unknown>;
-  causedBy?: Record<string, unknown>;
+  causedBy?: {
+    eventId?: string;
+    factors?: CausalFactor[];
+    [key: string]: unknown;
+  };
 }
 
 export interface Absential {

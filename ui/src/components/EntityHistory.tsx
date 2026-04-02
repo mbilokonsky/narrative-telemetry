@@ -11,6 +11,12 @@ interface EntityHistoryProps {
   onSelectEvent: (id: string) => void;
 }
 
+interface CausalFactor {
+  eventId: string;
+  role: string;
+  description?: string;
+}
+
 interface HistoryEntry {
   percentage: number;
   eventId: string;
@@ -19,6 +25,7 @@ interface HistoryEntry {
   readingKey?: string;
   description: string;
   changeType?: string;
+  factors?: CausalFactor[];
 }
 
 const CHANGE_TYPE_COLORS: Record<string, string> = {
@@ -71,12 +78,20 @@ export function EntityHistory({
           description = evt.description;
         }
 
+        // Extract causal factors if present
+        const factors: CausalFactor[] = (state.causedBy?.factors ?? []).map((f: any) => ({
+          eventId: f.eventId,
+          role: f.role ?? 'contributing',
+          description: f.description,
+        }));
+
         entries.push({
           percentage: state.timestamp.percentage,
           eventId,
           event: evt,
           source: 'diegetic',
           description,
+          factors: factors.length > 0 ? factors : undefined,
         });
       }
     }
@@ -169,6 +184,25 @@ export function EntityHistory({
                 {entry.event && entry.source === 'interpretive' && (
                   <div className="eh-entry-event">{entry.event.description}</div>
                 )}
+                {entry.factors && entry.factors.length > 1 && (
+                  <div className="eh-factors">
+                    {entry.factors.map((f, fi) => {
+                      const factorEvt = model.text.events[f.eventId];
+                      return (
+                        <div
+                          key={fi}
+                          className={`eh-factor ${f.role}`}
+                          onClick={(e) => { e.stopPropagation(); onSelectEvent(f.eventId); }}
+                        >
+                          <span className="eh-factor-role">{f.role}</span>
+                          <span className="eh-factor-desc">
+                            {f.description ?? factorEvt?.description ?? f.eventId}
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             </div>
           );
@@ -198,6 +232,18 @@ export function EntityHistory({
         .eh-entry-desc { font-size: 12px; color: var(--text); line-height: 1.5; }
         .eh-entry-event { font-size: 11px; color: var(--text-dim); line-height: 1.4; margin-top: 2px; font-style: italic; }
         .eh-entry.interpretive { border-left: 2px dotted var(--accent); padding-left: 6px; margin-left: -8px; }
+        .eh-factors { margin-top: 4px; display: flex; flex-direction: column; gap: 2px; padding-left: 4px; border-left: 1px solid var(--border); }
+        .eh-factor { display: flex; gap: 4px; align-items: baseline; font-size: 11px; cursor: pointer; padding: 1px 0; }
+        .eh-factor:hover .eh-factor-desc { color: var(--text-bright); }
+        .eh-factor-role { font-size: 9px; font-weight: 600; text-transform: uppercase; min-width: 65px; flex-shrink: 0; }
+        .eh-factor.primary .eh-factor-role { color: var(--accent); }
+        .eh-factor.contributing .eh-factor-role { color: #45a8e8; }
+        .eh-factor.necessary .eh-factor-role { color: #45e87b; }
+        .eh-factor.catalytic .eh-factor-role { color: #e8a845; }
+        .eh-factor.enabling .eh-factor-role { color: #9b59b6; }
+        .eh-factor.opposing .eh-factor-role { color: #e84545; }
+        .eh-factor.complicating .eh-factor-role { color: #e86445; }
+        .eh-factor-desc { color: var(--text-dim); line-height: 1.4; }
       `}</style>
     </div>
   );

@@ -58,12 +58,16 @@ interface CharacterNode {
   initialLocation: string;    // setting ID
   firstEvent: string;         // event ID of first appearance
   stateTransitions: Array<{   // track how this character changes through the story
-    eventId: string;          // event that causes this change
     percentage: number;       // 0-100 position in story
     location?: string;        // setting ID if location changes
     emotionalShift?: string;  // brief description of emotional change
     knowledgeChange?: string; // what does the character learn or realize?
     description: string;      // what changes and why
+    causes: Array<{           // what events contribute to this change (can be multiple!)
+      eventId: string;
+      role: "primary" | "contributing" | "necessary" | "catalytic" | "enabling" | "opposing" | "complicating";
+      description?: string;   // why this event matters
+    }>;
   }>;
 }
 
@@ -164,12 +168,16 @@ interface AbsentialNode {
   }>;
   firstEvent: string;
   stateTransitions: Array<{   // track how this absential evolves through the story
-    eventId: string;          // event that causes this change
     percentage: number;       // 0-100 position in story
     status: "unsatisfied" | "canceled" | "resolved_satisfied" | "resolved_blocked" | "resolved_mixed";
     urgency: number;          // 0-1
     intensity: number;        // 0-1
     description: string;      // what happens to this desire/fear/goal
+    causes: Array<{           // what events contribute to this change
+      eventId: string;
+      role: "primary" | "contributing" | "necessary" | "catalytic" | "enabling" | "opposing" | "complicating";
+      description?: string;
+    }>;
   }>;
 }
 
@@ -202,8 +210,8 @@ interface MentalConstructNode {
 8. **Event chaining.** Set precedingEvent to link events in narrative order.
 9. **Only diegetic mental constructs.** In Pass 1, only extract beliefs/knowledge that characters demonstrably hold in the story world.
 10. **Valid cross-references.** Every entity ID referenced in events, relationships, absentials, etc. must correspond to an entity you've defined.
-11. **State transitions for characters.** For each major character, provide 3-8 stateTransitions tracking how they change through the story: location changes, emotional shifts, knowledge gains, decisions made. Each must reference a valid event ID.
-12. **State transitions for absentials.** For each absential, provide 2-5 stateTransitions tracking how the desire/fear/goal evolves: when it's introduced (unsatisfied), when it intensifies, when it's complicated by obstacles, and when/how it resolves. The first entry should be the introduction, the last the resolution.`;
+11. **State transitions for characters.** For each major character, provide 3-8 stateTransitions tracking how they change through the story. Each transition has a `causes` array — state changes are rarely caused by a single event. Include the primary driver, contributing factors, and even opposing forces that were overcome. Use causal roles: primary (main driver), contributing (helped but not sufficient), necessary (required condition), catalytic (triggered without being consumed), enabling (made possible), opposing (pushed against but was overcome), complicating (made the outcome messy/partial).
+12. **State transitions for absentials.** For each absential, provide 2-5 stateTransitions with multi-causal `causes`. A desire might intensify because of a primary event AND a contributing atmospheric shift AND despite an opposing obstacle. The first entry should be the introduction, the last the resolution.`;
 
 export function buildExtractionUserPrompt(text: string, lineCount: number): string {
   return `Here is the full text to analyze (${lineCount} lines). Extract the complete narrative structure as a JSON object matching the ExtractionResult schema.
