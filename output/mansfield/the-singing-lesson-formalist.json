@@ -2581,7 +2581,640 @@
         "firstIntroduced": "e08"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "miss-meadows",
+        "startLine": 5,
+        "startChar": 7,
+        "endLine": 5,
+        "endChar": 36,
+        "mentionText": "Miss Meadows, in cap and gown"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 31,
+        "mentionText": "Miss Meadows, hugging the knife"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 39,
+        "startChar": 12,
+        "endLine": 39,
+        "endChar": 57,
+        "mentionText": "Miss Meadows, her hands thrust in her sleeves"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 60,
+        "startChar": 7,
+        "endLine": 60,
+        "endChar": 45,
+        "mentionText": "Miss Meadows stalked over to the piano"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 45,
+        "mentionText": "Miss Meadows was gone back to the music stand"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 5,
+        "startChar": 7,
+        "endLine": 5,
+        "endChar": 19,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 41,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 12,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 24,
+        "startChar": 27,
+        "endLine": 24,
+        "endChar": 39,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 31,
+        "startChar": 37,
+        "endLine": 31,
+        "endChar": 49,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 38,
+        "startChar": 26,
+        "endLine": 38,
+        "endChar": 38,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 39,
+        "startChar": 12,
+        "endLine": 39,
+        "endChar": 24,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 60,
+        "startChar": 7,
+        "endLine": 60,
+        "endChar": 19,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 62,
+        "startChar": 42,
+        "endLine": 62,
+        "endChar": 54,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 69,
+        "startChar": 19,
+        "endLine": 69,
+        "endChar": 31,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 12,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 92,
+        "startChar": 50,
+        "endLine": 92,
+        "endChar": 62,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 104,
+        "startChar": 19,
+        "endLine": 104,
+        "endChar": 31,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 126,
+        "startChar": 19,
+        "endLine": 126,
+        "endChar": 31,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 130,
+        "startChar": 43,
+        "endLine": 130,
+        "endChar": 55,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 153,
+        "startChar": 23,
+        "endLine": 153,
+        "endChar": 35,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 160,
+        "startChar": 43,
+        "endLine": 160,
+        "endChar": 55,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 172,
+        "startChar": 0,
+        "endLine": 172,
+        "endChar": 12,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 176,
+        "startChar": 20,
+        "endLine": 176,
+        "endChar": 32,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 179,
+        "startChar": 18,
+        "endLine": 179,
+        "endChar": 30,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 183,
+        "startChar": 51,
+        "endLine": 183,
+        "endChar": 63,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 186,
+        "startChar": 25,
+        "endLine": 186,
+        "endChar": 37,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 192,
+        "startChar": 41,
+        "endLine": 192,
+        "endChar": 53,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 194,
+        "startChar": 46,
+        "endLine": 194,
+        "endChar": 58,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 203,
+        "startChar": 41,
+        "endLine": 203,
+        "endChar": 53,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 207,
+        "startChar": 15,
+        "endLine": 207,
+        "endChar": 27,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 211,
+        "startChar": 22,
+        "endLine": 211,
+        "endChar": 34,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 215,
+        "startChar": 6,
+        "endLine": 215,
+        "endChar": 18,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 217,
+        "startChar": 39,
+        "endLine": 217,
+        "endChar": 51,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 229,
+        "startChar": 20,
+        "endLine": 229,
+        "endChar": 32,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 233,
+        "startChar": 17,
+        "endLine": 233,
+        "endChar": 29,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "miss-meadows",
+        "startLine": 237,
+        "startChar": 14,
+        "endLine": 237,
+        "endChar": 26,
+        "mentionText": "Miss Meadows"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 45,
+        "mentionText": "Basil! Miss Meadows stalked over to the piano"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 107,
+        "startChar": 11,
+        "endLine": 107,
+        "endChar": 66,
+        "mentionText": "Last time he had come to see her, Basil had worn a rose"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 147,
+        "startChar": 37,
+        "endLine": 147,
+        "endChar": 58,
+        "mentionText": "Basil was twenty-five"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 5,
+        "mentionText": "Basil"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 107,
+        "startChar": 45,
+        "endLine": 107,
+        "endChar": 50,
+        "mentionText": "Basil"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 147,
+        "startChar": 37,
+        "endLine": 147,
+        "endChar": 42,
+        "mentionText": "Basil"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 192,
+        "startChar": 0,
+        "endLine": 192,
+        "endChar": 5,
+        "mentionText": "Basil"
+      },
+      {
+        "entityId": "basil",
+        "startLine": 198,
+        "startChar": 7,
+        "endLine": 198,
+        "endChar": 12,
+        "mentionText": "Basil"
+      },
+      {
+        "entityId": "science-mistress",
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 41,
+        "mentionText": "The Science Mistress stopped Miss Meadows"
+      },
+      {
+        "entityId": "science-mistress",
+        "startLine": 20,
+        "startChar": 10,
+        "endLine": 20,
+        "endChar": 58,
+        "mentionText": "Everything about her was sweet, pale, like honey"
+      },
+      {
+        "entityId": "science-mistress",
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 20,
+        "mentionText": "The Science Mistress"
+      },
+      {
+        "entityId": "science-mistress",
+        "startLine": 146,
+        "startChar": 0,
+        "endLine": 146,
+        "endChar": 20,
+        "mentionText": "The Science Mistress"
+      },
+      {
+        "entityId": "mary-beazley",
+        "startLine": 73,
+        "startChar": 19,
+        "endLine": 73,
+        "endChar": 65,
+        "mentionText": "Mary blushed until the tears stood in her eyes"
+      },
+      {
+        "entityId": "mary-beazley",
+        "startLine": 36,
+        "startChar": 52,
+        "endLine": 36,
+        "endChar": 64,
+        "mentionText": "Mary Beazley"
+      },
+      {
+        "entityId": "mary-beazley",
+        "startLine": 60,
+        "startChar": 51,
+        "endLine": 60,
+        "endChar": 63,
+        "mentionText": "Mary Beazley"
+      },
+      {
+        "entityId": "mary-beazley",
+        "startLine": 133,
+        "startChar": 49,
+        "endLine": 133,
+        "endChar": 61,
+        "mentionText": "Mary Beazley"
+      },
+      {
+        "entityId": "monica",
+        "startLine": 174,
+        "startChar": 1,
+        "endLine": 174,
+        "endChar": 26,
+        "mentionText": "Well, Monica, what is it?"
+      },
+      {
+        "entityId": "monica",
+        "startLine": 176,
+        "startChar": 1,
+        "endLine": 176,
+        "endChar": 32,
+        "mentionText": "Oh, if you please, Miss Meadows"
+      },
+      {
+        "entityId": "monica",
+        "startLine": 174,
+        "startChar": 7,
+        "endLine": 174,
+        "endChar": 13,
+        "mentionText": "Monica"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 184,
+        "startChar": 0,
+        "endLine": 184,
+        "endChar": 33,
+        "mentionText": "The head mistress sat at her desk"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 190,
+        "startChar": 20,
+        "endLine": 190,
+        "endChar": 30,
+        "mentionText": "Miss Wyatt"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 193,
+        "startChar": 9,
+        "endLine": 193,
+        "endChar": 19,
+        "mentionText": "Miss Wyatt"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 200,
+        "startChar": 44,
+        "endLine": 200,
+        "endChar": 54,
+        "mentionText": "Miss Wyatt"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 203,
+        "startChar": 20,
+        "endLine": 203,
+        "endChar": 30,
+        "mentionText": "Miss Wyatt"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 206,
+        "startChar": 5,
+        "endLine": 206,
+        "endChar": 15,
+        "mentionText": "Miss Wyatt"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 209,
+        "startChar": 6,
+        "endLine": 209,
+        "endChar": 16,
+        "mentionText": "Miss Wyatt"
+      },
+      {
+        "entityId": "miss-wyatt",
+        "startLine": 211,
+        "startChar": 42,
+        "endLine": 211,
+        "endChar": 52,
+        "mentionText": "Miss Wyatt"
+      },
+      {
+        "entityId": "forms-four-five-six",
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 58,
+        "mentionText": "Forms Four, Five, and Six were assembled in the music hall"
+      },
+      {
+        "entityId": "forms-four-five-six",
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 25,
+        "mentionText": "Forms Four, Five, and Six"
+      },
+      {
+        "entityId": "north-richmond-st-corridors",
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 45,
+        "mentionText": "the cold corridors that led to the music hall"
+      },
+      {
+        "entityId": "music-hall",
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 58,
+        "mentionText": "Forms Four, Five, and Six were assembled in the music hall"
+      },
+      {
+        "entityId": "mistress-room",
+        "startLine": 184,
+        "startChar": 0,
+        "endLine": 184,
+        "endChar": 33,
+        "mentionText": "The head mistress sat at her desk"
+      },
+      {
+        "entityId": "school-exterior",
+        "startLine": 157,
+        "startChar": 19,
+        "endLine": 157,
+        "endChar": 61,
+        "mentionText": "Big spots of rain blew against the windows"
+      },
+      {
+        "entityId": "baton",
+        "startLine": 5,
+        "startChar": 41,
+        "endLine": 5,
+        "endChar": 64,
+        "mentionText": "carrying a little baton"
+      },
+      {
+        "entityId": "baton",
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 46,
+        "mentionText": "gave two sharp taps with her baton for silence"
+      },
+      {
+        "entityId": "telegram",
+        "startLine": 188,
+        "startChar": 17,
+        "endLine": 188,
+        "endChar": 47,
+        "mentionText": "this telegram has come for you"
+      },
+      {
+        "entityId": "music-books",
+        "startLine": 68,
+        "startChar": 33,
+        "endLine": 68,
+        "endChar": 56,
+        "mentionText": "Turn to page thirty-two"
+      },
+      {
+        "entityId": "brass-music-stand",
+        "startLine": 41,
+        "startChar": 9,
+        "endLine": 41,
+        "endChar": 65,
+        "mentionText": "seized the brass music stand, planted it in front of her"
+      },
+      {
+        "entityId": "piano",
+        "startLine": 36,
+        "startChar": 32,
+        "endLine": 36,
+        "endChar": 64,
+        "mentionText": "by the piano, stood Mary Beazley"
+      },
+      {
+        "entityId": "ostrich-feather-boa",
+        "startLine": 150,
+        "startChar": 13,
+        "endLine": 150,
+        "endChar": 68,
+        "mentionText": "he had taken hold of the end of her ostrich feather boa"
+      },
+      {
+        "entityId": "rose-buttonhole",
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 23,
+        "mentionText": "with that dark red rose"
+      },
+      {
+        "entityId": "blue-suit",
+        "startLine": 108,
+        "startChar": 16,
+        "endLine": 108,
+        "endChar": 67,
+        "mentionText": "How handsome he had looked in that bright blue suit"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {

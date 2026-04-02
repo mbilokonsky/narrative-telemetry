@@ -6240,7 +6240,1928 @@
         "firstIntroduced": "e59-mahony-runs"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "mahony",
+        "startLine": 65,
+        "startChar": 23,
+        "endLine": 65,
+        "endChar": 29,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 67,
+        "startChar": 8,
+        "endLine": 67,
+        "endChar": 14,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 71,
+        "startChar": 63,
+        "endLine": 71,
+        "endChar": 69,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 77,
+        "startChar": 14,
+        "endLine": 77,
+        "endChar": 20,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 94,
+        "startChar": 60,
+        "endLine": 94,
+        "endChar": 66,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 6,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 102,
+        "startChar": 12,
+        "endLine": 102,
+        "endChar": 18,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 108,
+        "startChar": 23,
+        "endLine": 108,
+        "endChar": 29,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 112,
+        "startChar": 51,
+        "endLine": 112,
+        "endChar": 57,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 118,
+        "startChar": 55,
+        "endLine": 118,
+        "endChar": 61,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 134,
+        "startChar": 64,
+        "endLine": 134,
+        "endChar": 70,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 162,
+        "startChar": 19,
+        "endLine": 162,
+        "endChar": 25,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 169,
+        "startChar": 36,
+        "endLine": 169,
+        "endChar": 42,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 202,
+        "startChar": 3,
+        "endLine": 202,
+        "endChar": 9,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 207,
+        "startChar": 60,
+        "endLine": 207,
+        "endChar": 66,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 209,
+        "startChar": 63,
+        "endLine": 209,
+        "endChar": 69,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 212,
+        "startChar": 18,
+        "endLine": 212,
+        "endChar": 24,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 216,
+        "startChar": 16,
+        "endLine": 216,
+        "endChar": 22,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 247,
+        "startChar": 47,
+        "endLine": 247,
+        "endChar": 53,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 251,
+        "startChar": 41,
+        "endLine": 251,
+        "endChar": 47,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 260,
+        "startChar": 35,
+        "endLine": 260,
+        "endChar": 41,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 262,
+        "startChar": 59,
+        "endLine": 262,
+        "endChar": 65,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "mahony",
+        "startLine": 304,
+        "startChar": 54,
+        "endLine": 304,
+        "endChar": 60,
+        "mentionText": "Mahony"
+      },
+      {
+        "entityId": "joe-dillon",
+        "startLine": 4,
+        "startChar": 7,
+        "endLine": 4,
+        "endChar": 17,
+        "mentionText": "Joe Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 7,
+        "startChar": 58,
+        "endLine": 7,
+        "endChar": 61,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 34,
+        "startChar": 47,
+        "endLine": 34,
+        "endChar": 50,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 41,
+        "startChar": 31,
+        "endLine": 41,
+        "endChar": 34,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 54,
+        "startChar": 52,
+        "endLine": 54,
+        "endChar": 55,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 64,
+        "startChar": 63,
+        "endLine": 64,
+        "endChar": 66,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 67,
+        "startChar": 63,
+        "endLine": 67,
+        "endChar": 66,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 70,
+        "startChar": 48,
+        "endLine": 70,
+        "endChar": 51,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 3,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 3,
+        "mentionText": "Leo"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 34,
+        "startChar": 47,
+        "endLine": 34,
+        "endChar": 57,
+        "mentionText": "Leo Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 41,
+        "startChar": 31,
+        "endLine": 41,
+        "endChar": 41,
+        "mentionText": "Leo Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 54,
+        "startChar": 52,
+        "endLine": 54,
+        "endChar": 62,
+        "mentionText": "Leo Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 70,
+        "startChar": 48,
+        "endLine": 70,
+        "endChar": 58,
+        "mentionText": "Leo Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 10,
+        "mentionText": "Leo Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 10,
+        "mentionText": "Leo Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 4,
+        "startChar": 11,
+        "endLine": 4,
+        "endChar": 17,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 6,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 12,
+        "startChar": 63,
+        "endLine": 12,
+        "endChar": 69,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 34,
+        "startChar": 51,
+        "endLine": 34,
+        "endChar": 57,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 37,
+        "startChar": 41,
+        "endLine": 37,
+        "endChar": 47,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 41,
+        "startChar": 35,
+        "endLine": 41,
+        "endChar": 41,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 50,
+        "startChar": 57,
+        "endLine": 50,
+        "endChar": 63,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 54,
+        "startChar": 56,
+        "endLine": 54,
+        "endChar": 62,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 6,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 6,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 70,
+        "startChar": 52,
+        "endLine": 70,
+        "endChar": 58,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 102,
+        "startChar": 4,
+        "endLine": 102,
+        "endChar": 10,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "leo-dillon",
+        "startLine": 122,
+        "startChar": 4,
+        "endLine": 122,
+        "endChar": 10,
+        "mentionText": "Dillon"
+      },
+      {
+        "entityId": "father-butler",
+        "startLine": 33,
+        "startChar": 49,
+        "endLine": 33,
+        "endChar": 62,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "father-butler",
+        "startLine": 42,
+        "startChar": 35,
+        "endLine": 42,
+        "endChar": 48,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "father-butler",
+        "startLine": 71,
+        "startChar": 14,
+        "endLine": 71,
+        "endChar": 27,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "father-butler",
+        "startLine": 72,
+        "startChar": 33,
+        "endLine": 72,
+        "endChar": 46,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "father-butler",
+        "startLine": 100,
+        "startChar": 39,
+        "endLine": 100,
+        "endChar": 52,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "mysterious-man",
+        "startLine": 253,
+        "startChar": 24,
+        "endLine": 253,
+        "endChar": 34,
+        "mentionText": "old josser"
+      },
+      {
+        "entityId": "mrs-dillon",
+        "startLine": 12,
+        "startChar": 59,
+        "endLine": 12,
+        "endChar": 69,
+        "mentionText": "Mrs Dillon"
+      },
+      {
+        "entityId": "mr-dillon",
+        "startLine": 11,
+        "startChar": 31,
+        "endLine": 11,
+        "endChar": 42,
+        "mentionText": "His parents"
+      },
+      {
+        "entityId": "leo-dillon-brother",
+        "startLine": 68,
+        "startChar": 19,
+        "endLine": 68,
+        "endChar": 30,
+        "mentionText": "his brother"
+      },
+      {
+        "entityId": "mr-ryan",
+        "startLine": 123,
+        "startChar": 26,
+        "endLine": 123,
+        "endChar": 33,
+        "mentionText": "Mr Ryan"
+      },
+      {
+        "entityId": "ragged-girls",
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 114,
+        "endChar": 12,
+        "mentionText": "ragged girls"
+      },
+      {
+        "entityId": "ragged-girls",
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 29,
+        "endChar": 29,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-girls",
+        "startLine": 32,
+        "startChar": 67,
+        "endLine": 32,
+        "endChar": 71,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-girls",
+        "startLine": 61,
+        "startChar": 27,
+        "endLine": 61,
+        "endChar": 31,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-girls",
+        "startLine": 229,
+        "startChar": 0,
+        "endLine": 229,
+        "endChar": 4,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-girls",
+        "startLine": 230,
+        "startChar": 8,
+        "endLine": 230,
+        "endChar": 12,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-girls",
+        "startLine": 272,
+        "startChar": 30,
+        "endLine": 272,
+        "endChar": 34,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-boys",
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 29,
+        "endChar": 29,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-boys",
+        "startLine": 32,
+        "startChar": 67,
+        "endLine": 32,
+        "endChar": 71,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-boys",
+        "startLine": 61,
+        "startChar": 27,
+        "endLine": 61,
+        "endChar": 31,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-boys",
+        "startLine": 229,
+        "startChar": 0,
+        "endLine": 229,
+        "endChar": 4,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-boys",
+        "startLine": 230,
+        "startChar": 8,
+        "endLine": 230,
+        "endChar": 12,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "ragged-boys",
+        "startLine": 272,
+        "startChar": 30,
+        "endLine": 272,
+        "endChar": 34,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 129,
+        "startChar": 11,
+        "endLine": 129,
+        "endChar": 20,
+        "mentionText": "labourers"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 142,
+        "startChar": 34,
+        "endLine": 142,
+        "endChar": 43,
+        "mentionText": "labourers"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 29,
+        "endChar": 29,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 32,
+        "startChar": 67,
+        "endLine": 32,
+        "endChar": 71,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 61,
+        "startChar": 27,
+        "endLine": 61,
+        "endChar": 31,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 229,
+        "startChar": 0,
+        "endLine": 229,
+        "endChar": 4,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 230,
+        "startChar": 8,
+        "endLine": 230,
+        "endChar": 12,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "labourers",
+        "startLine": 272,
+        "startChar": 30,
+        "endLine": 272,
+        "endChar": 34,
+        "mentionText": "they"
+      },
+      {
+        "entityId": "little-jew",
+        "startLine": 142,
+        "startChar": 50,
+        "endLine": 142,
+        "endChar": 60,
+        "mentionText": "little Jew"
+      },
+      {
+        "entityId": "green-eyed-sailor",
+        "startLine": 151,
+        "startChar": 29,
+        "endLine": 151,
+        "endChar": 37,
+        "mentionText": "tall man"
+      },
+      {
+        "entityId": "green-eyed-sailor",
+        "startLine": 148,
+        "startChar": 44,
+        "endLine": 148,
+        "endChar": 50,
+        "mentionText": "sailor"
+      },
+      {
+        "entityId": "green-eyed-sailor",
+        "startLine": 149,
+        "startChar": 55,
+        "endLine": 149,
+        "endChar": 61,
+        "mentionText": "sailor"
+      },
+      {
+        "entityId": "green-eyed-sailor",
+        "startLine": 150,
+        "startChar": 44,
+        "endLine": 150,
+        "endChar": 50,
+        "mentionText": "sailor"
+      },
+      {
+        "entityId": "bystander",
+        "startLine": 146,
+        "startChar": 12,
+        "endLine": 146,
+        "endChar": 26,
+        "mentionText": "Some bystander"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 20,
+        "startChar": 62,
+        "endLine": 20,
+        "endChar": 65,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 49,
+        "startChar": 35,
+        "endLine": 49,
+        "endChar": 38,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 3,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 114,
+        "startChar": 39,
+        "endLine": 114,
+        "endChar": 42,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 162,
+        "startChar": 35,
+        "endLine": 162,
+        "endChar": 38,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 162,
+        "startChar": 60,
+        "endLine": 162,
+        "endChar": 63,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 170,
+        "startChar": 0,
+        "endLine": 170,
+        "endChar": 3,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 260,
+        "startChar": 43,
+        "endLine": 260,
+        "endChar": 46,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 260,
+        "startChar": 65,
+        "endLine": 260,
+        "endChar": 68,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "cat",
+        "startLine": 262,
+        "startChar": 33,
+        "endLine": 262,
+        "endChar": 36,
+        "mentionText": "cat"
+      },
+      {
+        "entityId": "dillon-back-garden",
+        "startLine": 6,
+        "startChar": 56,
+        "endLine": 6,
+        "endChar": 71,
+        "mentionText": "his back garden"
+      },
+      {
+        "entityId": "dillon-back-garden",
+        "startLine": 15,
+        "startChar": 29,
+        "endLine": 15,
+        "endChar": 39,
+        "mentionText": "the garden"
+      },
+      {
+        "entityId": "dillon-back-garden",
+        "startLine": 83,
+        "startChar": 21,
+        "endLine": 83,
+        "endChar": 31,
+        "mentionText": "the garden"
+      },
+      {
+        "entityId": "dillon-house",
+        "startLine": 13,
+        "startChar": 29,
+        "endLine": 13,
+        "endChar": 38,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "school",
+        "startLine": 6,
+        "startChar": 39,
+        "endLine": 6,
+        "endChar": 45,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 33,
+        "startChar": 28,
+        "endLine": 33,
+        "endChar": 34,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 53,
+        "startChar": 38,
+        "endLine": 53,
+        "endChar": 44,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 55,
+        "startChar": 65,
+        "endLine": 55,
+        "endChar": 71,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 59,
+        "startChar": 11,
+        "endLine": 59,
+        "endChar": 17,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 64,
+        "startChar": 24,
+        "endLine": 64,
+        "endChar": 30,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 137,
+        "startChar": 49,
+        "endLine": 137,
+        "endChar": 55,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 194,
+        "startChar": 18,
+        "endLine": 194,
+        "endChar": 24,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 196,
+        "startChar": 48,
+        "endLine": 196,
+        "endChar": 54,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 267,
+        "startChar": 53,
+        "endLine": 267,
+        "endChar": 59,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school",
+        "startLine": 47,
+        "startChar": 31,
+        "endLine": 47,
+        "endChar": 38,
+        "mentionText": "college"
+      },
+      {
+        "entityId": "school",
+        "startLine": 71,
+        "startChar": 50,
+        "endLine": 71,
+        "endChar": 57,
+        "mentionText": "college"
+      },
+      {
+        "entityId": "school",
+        "startLine": 71,
+        "startChar": 46,
+        "endLine": 71,
+        "endChar": 57,
+        "mentionText": "the college"
+      },
+      {
+        "entityId": "canal-bridge",
+        "startLine": 85,
+        "startChar": 32,
+        "endLine": 85,
+        "endChar": 42,
+        "mentionText": "the bridge"
+      },
+      {
+        "entityId": "canal-bridge",
+        "startLine": 90,
+        "startChar": 32,
+        "endLine": 90,
+        "endChar": 42,
+        "mentionText": "the bridge"
+      },
+      {
+        "entityId": "canal-bridge",
+        "startLine": 96,
+        "startChar": 13,
+        "endLine": 96,
+        "endChar": 23,
+        "mentionText": "the bridge"
+      },
+      {
+        "entityId": "canal-bridge",
+        "startLine": 85,
+        "startChar": 18,
+        "endLine": 85,
+        "endChar": 42,
+        "mentionText": "the coping of the bridge"
+      },
+      {
+        "entityId": "canal-bank",
+        "startLine": 84,
+        "startChar": 6,
+        "endLine": 84,
+        "endChar": 20,
+        "mentionText": "the canal bank"
+      },
+      {
+        "entityId": "canal-bank",
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 20,
+        "mentionText": "along the canal bank"
+      },
+      {
+        "entityId": "north-strand-road",
+        "startLine": 111,
+        "startChar": 20,
+        "endLine": 111,
+        "endChar": 37,
+        "mentionText": "North Strand Road"
+      },
+      {
+        "entityId": "north-strand-road",
+        "startLine": 111,
+        "startChar": 16,
+        "endLine": 111,
+        "endChar": 37,
+        "mentionText": "the North Strand Road"
+      },
+      {
+        "entityId": "vitriol-works",
+        "startLine": 111,
+        "startChar": 58,
+        "endLine": 111,
+        "endChar": 71,
+        "mentionText": "Vitriol Works"
+      },
+      {
+        "entityId": "vitriol-works",
+        "startLine": 111,
+        "startChar": 54,
+        "endLine": 111,
+        "endChar": 71,
+        "mentionText": "the Vitriol Works"
+      },
+      {
+        "entityId": "wharf-road",
+        "startLine": 69,
+        "startChar": 10,
+        "endLine": 69,
+        "endChar": 20,
+        "mentionText": "Wharf Road"
+      },
+      {
+        "entityId": "wharf-road",
+        "startLine": 112,
+        "startChar": 39,
+        "endLine": 112,
+        "endChar": 49,
+        "mentionText": "Wharf Road"
+      },
+      {
+        "entityId": "wharf-road",
+        "startLine": 69,
+        "startChar": 6,
+        "endLine": 69,
+        "endChar": 20,
+        "mentionText": "the Wharf Road"
+      },
+      {
+        "entityId": "wharf-road",
+        "startLine": 112,
+        "startChar": 35,
+        "endLine": 112,
+        "endChar": 49,
+        "mentionText": "the Wharf Road"
+      },
+      {
+        "entityId": "wharf-road",
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 20,
+        "mentionText": "along the Wharf Road"
+      },
+      {
+        "entityId": "wharf-road",
+        "startLine": 112,
+        "startChar": 29,
+        "endLine": 112,
+        "endChar": 49,
+        "mentionText": "along the Wharf Road"
+      },
+      {
+        "entityId": "smoothing-iron",
+        "startLine": 120,
+        "startChar": 20,
+        "endLine": 120,
+        "endChar": 34,
+        "mentionText": "Smoothing Iron"
+      },
+      {
+        "entityId": "smoothing-iron",
+        "startLine": 120,
+        "startChar": 16,
+        "endLine": 120,
+        "endChar": 34,
+        "mentionText": "the Smoothing Iron"
+      },
+      {
+        "entityId": "quays",
+        "startLine": 128,
+        "startChar": 59,
+        "endLine": 128,
+        "endChar": 64,
+        "mentionText": "quays"
+      },
+      {
+        "entityId": "quays",
+        "startLine": 128,
+        "startChar": 55,
+        "endLine": 128,
+        "endChar": 64,
+        "mentionText": "the quays"
+      },
+      {
+        "entityId": "quays",
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 13,
+        "mentionText": "noisy streets"
+      },
+      {
+        "entityId": "liffey-ferryboat",
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 9,
+        "mentionText": "ferryboat"
+      },
+      {
+        "entityId": "liffey-ferryboat",
+        "startLine": 141,
+        "startChar": 29,
+        "endLine": 141,
+        "endChar": 38,
+        "mentionText": "ferryboat"
+      },
+      {
+        "entityId": "liffey-ferryboat",
+        "startLine": 141,
+        "startChar": 25,
+        "endLine": 141,
+        "endChar": 38,
+        "mentionText": "the ferryboat"
+      },
+      {
+        "entityId": "liffey-river",
+        "startLine": 141,
+        "startChar": 15,
+        "endLine": 141,
+        "endChar": 21,
+        "mentionText": "Liffey"
+      },
+      {
+        "entityId": "liffey-river",
+        "startLine": 125,
+        "startChar": 18,
+        "endLine": 125,
+        "endChar": 27,
+        "mentionText": "the river"
+      },
+      {
+        "entityId": "liffey-river",
+        "startLine": 131,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 9,
+        "mentionText": "the river"
+      },
+      {
+        "entityId": "ringsend",
+        "startLine": 133,
+        "startChar": 38,
+        "endLine": 133,
+        "endChar": 46,
+        "mentionText": "Ringsend"
+      },
+      {
+        "entityId": "ringsend",
+        "startLine": 156,
+        "startChar": 57,
+        "endLine": 156,
+        "endChar": 65,
+        "mentionText": "Ringsend"
+      },
+      {
+        "entityId": "ringsend",
+        "startLine": 156,
+        "startChar": 52,
+        "endLine": 156,
+        "endChar": 65,
+        "mentionText": "into Ringsend"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 163,
+        "startChar": 12,
+        "endLine": 163,
+        "endChar": 17,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 5,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 174,
+        "startChar": 38,
+        "endLine": 174,
+        "endChar": 43,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 176,
+        "startChar": 15,
+        "endLine": 176,
+        "endChar": 20,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 246,
+        "startChar": 31,
+        "endLine": 246,
+        "endChar": 36,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 261,
+        "startChar": 60,
+        "endLine": 261,
+        "endChar": 65,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 264,
+        "startChar": 41,
+        "endLine": 264,
+        "endChar": 46,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 299,
+        "startChar": 18,
+        "endLine": 299,
+        "endChar": 23,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 306,
+        "startChar": 0,
+        "endLine": 306,
+        "endChar": 5,
+        "mentionText": "field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 174,
+        "startChar": 34,
+        "endLine": 174,
+        "endChar": 43,
+        "mentionText": "the field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 176,
+        "startChar": 11,
+        "endLine": 176,
+        "endChar": 20,
+        "mentionText": "the field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 246,
+        "startChar": 27,
+        "endLine": 246,
+        "endChar": 36,
+        "mentionText": "the field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 261,
+        "startChar": 56,
+        "endLine": 261,
+        "endChar": 65,
+        "mentionText": "the field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 264,
+        "startChar": 37,
+        "endLine": 264,
+        "endChar": 46,
+        "mentionText": "the field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 299,
+        "startChar": 14,
+        "endLine": 299,
+        "endChar": 23,
+        "mentionText": "the field"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 164,
+        "startChar": 28,
+        "endLine": 164,
+        "endChar": 40,
+        "mentionText": "sloping bank"
+      },
+      {
+        "entityId": "dodder-field",
+        "startLine": 165,
+        "startChar": 10,
+        "endLine": 165,
+        "endChar": 20,
+        "mentionText": "the Dodder"
+      },
+      {
+        "entityId": "pigeon-house",
+        "startLine": 70,
+        "startChar": 34,
+        "endLine": 70,
+        "endChar": 46,
+        "mentionText": "Pigeon House"
+      },
+      {
+        "entityId": "pigeon-house",
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 12,
+        "mentionText": "Pigeon House"
+      },
+      {
+        "entityId": "pigeon-house",
+        "startLine": 168,
+        "startChar": 13,
+        "endLine": 168,
+        "endChar": 25,
+        "mentionText": "Pigeon House"
+      },
+      {
+        "entityId": "pigeon-house",
+        "startLine": 70,
+        "startChar": 30,
+        "endLine": 70,
+        "endChar": 46,
+        "mentionText": "the Pigeon House"
+      },
+      {
+        "entityId": "pigeon-house",
+        "startLine": 168,
+        "startChar": 9,
+        "endLine": 168,
+        "endChar": 25,
+        "mentionText": "the Pigeon House"
+      },
+      {
+        "entityId": "gardiner-street",
+        "startLine": 12,
+        "startChar": 17,
+        "endLine": 12,
+        "endChar": 32,
+        "mentionText": "Gardiner Street"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 131,
+        "startChar": 54,
+        "endLine": 131,
+        "endChar": 60,
+        "mentionText": "Dublin"
+      },
+      {
+        "entityId": "ringsend-quay",
+        "startLine": 134,
+        "startChar": 49,
+        "endLine": 134,
+        "endChar": 62,
+        "mentionText": "opposite quay"
+      },
+      {
+        "entityId": "ringsend-quay",
+        "startLine": 128,
+        "startChar": 55,
+        "endLine": 128,
+        "endChar": 63,
+        "mentionText": "the quay"
+      },
+      {
+        "entityId": "ringsend-quay",
+        "startLine": 151,
+        "startChar": 62,
+        "endLine": 151,
+        "endChar": 70,
+        "mentionText": "the quay"
+      },
+      {
+        "entityId": "union-jack-magazine",
+        "startLine": 5,
+        "startChar": 34,
+        "endLine": 5,
+        "endChar": 50,
+        "mentionText": "_The Union Jack_"
+      },
+      {
+        "entityId": "union-jack-magazine",
+        "startLine": 5,
+        "startChar": 35,
+        "endLine": 5,
+        "endChar": 49,
+        "mentionText": "The Union Jack"
+      },
+      {
+        "entityId": "pluck-magazine",
+        "startLine": 5,
+        "startChar": 52,
+        "endLine": 5,
+        "endChar": 59,
+        "mentionText": "_Pluck_"
+      },
+      {
+        "entityId": "pluck-magazine",
+        "startLine": 5,
+        "startChar": 53,
+        "endLine": 5,
+        "endChar": 58,
+        "mentionText": "Pluck"
+      },
+      {
+        "entityId": "halfpenny-marvel",
+        "startLine": 35,
+        "startChar": 26,
+        "endLine": 35,
+        "endChar": 48,
+        "mentionText": "_The Halfpenny Marvel_"
+      },
+      {
+        "entityId": "halfpenny-marvel",
+        "startLine": 45,
+        "startChar": 34,
+        "endLine": 45,
+        "endChar": 53,
+        "mentionText": "_The Apache Chief!_"
+      },
+      {
+        "entityId": "halfpenny-marvel",
+        "startLine": 35,
+        "startChar": 27,
+        "endLine": 35,
+        "endChar": 47,
+        "mentionText": "The Halfpenny Marvel"
+      },
+      {
+        "entityId": "american-detective-stories",
+        "startLine": 30,
+        "startChar": 5,
+        "endLine": 30,
+        "endChar": 31,
+        "mentionText": "American detective stories"
+      },
+      {
+        "entityId": "thomas-moore-poetry",
+        "startLine": 197,
+        "startChar": 33,
+        "endLine": 197,
+        "endChar": 55,
+        "mentionText": "poetry of Thomas Moore"
+      },
+      {
+        "entityId": "walter-scott-works",
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 198,
+        "endChar": 16,
+        "mentionText": "Sir Walter Scott"
+      },
+      {
+        "entityId": "walter-scott-works",
+        "startLine": 205,
+        "startChar": 19,
+        "endLine": 205,
+        "endChar": 35,
+        "mentionText": "Sir Walter Scott"
+      },
+      {
+        "entityId": "lord-lytton-works",
+        "startLine": 198,
+        "startChar": 21,
+        "endLine": 198,
+        "endChar": 32,
+        "mentionText": "Lord Lytton"
+      },
+      {
+        "entityId": "lord-lytton-works",
+        "startLine": 205,
+        "startChar": 52,
+        "endLine": 205,
+        "endChar": 63,
+        "mentionText": "Lord Lytton"
+      },
+      {
+        "entityId": "lord-lytton-works",
+        "startLine": 207,
+        "startChar": 13,
+        "endLine": 207,
+        "endChar": 24,
+        "mentionText": "Lord Lytton"
+      },
+      {
+        "entityId": "catapult",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 8,
+        "mentionText": "catapult"
+      },
+      {
+        "entityId": "catapult",
+        "startLine": 114,
+        "startChar": 39,
+        "endLine": 114,
+        "endChar": 47,
+        "mentionText": "catapult"
+      },
+      {
+        "entityId": "catapult",
+        "startLine": 170,
+        "startChar": 0,
+        "endLine": 170,
+        "endChar": 8,
+        "mentionText": "catapult"
+      },
+      {
+        "entityId": "sixpence-coins",
+        "startLine": 66,
+        "startChar": 9,
+        "endLine": 66,
+        "endChar": 17,
+        "mentionText": "sixpence"
+      },
+      {
+        "entityId": "sixpence-coins",
+        "startLine": 74,
+        "startChar": 29,
+        "endLine": 74,
+        "endChar": 37,
+        "mentionText": "sixpence"
+      },
+      {
+        "entityId": "sixpence-coins",
+        "startLine": 75,
+        "startChar": 25,
+        "endLine": 75,
+        "endChar": 33,
+        "mentionText": "sixpence"
+      },
+      {
+        "entityId": "sixpence-coins",
+        "startLine": 106,
+        "startChar": 9,
+        "endLine": 106,
+        "endChar": 17,
+        "mentionText": "sixpence"
+      },
+      {
+        "entityId": "canvas-shoes",
+        "startLine": 86,
+        "startChar": 29,
+        "endLine": 86,
+        "endChar": 39,
+        "mentionText": "pipeclayed"
+      },
+      {
+        "entityId": "tea-cosy",
+        "startLine": 15,
+        "startChar": 44,
+        "endLine": 15,
+        "endChar": 56,
+        "mentionText": "old tea-cosy"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 16,
+        "startChar": 3,
+        "endLine": 16,
+        "endChar": 6,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 16,
+        "startChar": 10,
+        "endLine": 16,
+        "endChar": 13,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 59,
+        "startChar": 3,
+        "endLine": 59,
+        "endChar": 6,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 74,
+        "startChar": 24,
+        "endLine": 74,
+        "endChar": 27,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 94,
+        "startChar": 19,
+        "endLine": 94,
+        "endChar": 22,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 96,
+        "startChar": 42,
+        "endLine": 96,
+        "endChar": 45,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 129,
+        "startChar": 36,
+        "endLine": 129,
+        "endChar": 39,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 168,
+        "startChar": 4,
+        "endLine": 168,
+        "endChar": 7,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 183,
+        "startChar": 23,
+        "endLine": 183,
+        "endChar": 26,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 201,
+        "startChar": 67,
+        "endLine": 201,
+        "endChar": 70,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 233,
+        "startChar": 9,
+        "endLine": 233,
+        "endChar": 12,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 240,
+        "startChar": 27,
+        "endLine": 240,
+        "endChar": 30,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 263,
+        "startChar": 52,
+        "endLine": 263,
+        "endChar": 55,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 280,
+        "startChar": 11,
+        "endLine": 280,
+        "endChar": 14,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "tin-drum",
+        "startLine": 296,
+        "startChar": 61,
+        "endLine": 296,
+        "endChar": 64,
+        "mentionText": "tin"
+      },
+      {
+        "entityId": "biscuits-chocolate",
+        "startLine": 158,
+        "startChar": 39,
+        "endLine": 158,
+        "endChar": 61,
+        "mentionText": "biscuits and chocolate"
+      },
+      {
+        "entityId": "raspberry-lemonade",
+        "startLine": 161,
+        "startChar": 36,
+        "endLine": 161,
+        "endChar": 64,
+        "mentionText": "bottle of raspberry lemonade"
+      },
+      {
+        "entityId": "green-stems",
+        "startLine": 177,
+        "startChar": 0,
+        "endLine": 177,
+        "endChar": 11,
+        "mentionText": "green stems"
+      },
+      {
+        "entityId": "stick",
+        "startLine": 179,
+        "startChar": 7,
+        "endLine": 179,
+        "endChar": 12,
+        "mentionText": "stick"
+      },
+      {
+        "entityId": "stick",
+        "startLine": 186,
+        "startChar": 35,
+        "endLine": 186,
+        "endChar": 40,
+        "mentionText": "stick"
+      },
+      {
+        "entityId": "jerry-hat",
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 9,
+        "mentionText": "jerry hat"
+      },
+      {
+        "entityId": "greenish-black-suit",
+        "startLine": 180,
+        "startChar": 13,
+        "endLine": 180,
+        "endChar": 35,
+        "mentionText": "suit of greenish-black"
+      },
+      {
+        "entityId": "cricket-club-badge",
+        "startLine": 119,
+        "startChar": 28,
+        "endLine": 119,
+        "endChar": 58,
+        "mentionText": "silver badge of a cricket club"
+      },
+      {
+        "entityId": "metal-piping",
+        "startLine": 130,
+        "startChar": 50,
+        "endLine": 130,
+        "endChar": 62,
+        "mentionText": "metal piping"
+      },
+      {
+        "entityId": "books",
+        "startLine": 82,
+        "startChar": 36,
+        "endLine": 82,
+        "endChar": 41,
+        "mentionText": "books"
+      },
+      {
+        "entityId": "books",
+        "startLine": 196,
+        "startChar": 62,
+        "endLine": 196,
+        "endChar": 67,
+        "mentionText": "books"
+      },
+      {
+        "entityId": "boys-circle",
+        "startLine": 116,
+        "startChar": 36,
+        "endLine": 116,
+        "endChar": 44,
+        "mentionText": "the boys"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 6,
+        "startChar": 39,
+        "endLine": 6,
+        "endChar": 45,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 33,
+        "startChar": 28,
+        "endLine": 33,
+        "endChar": 34,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 53,
+        "startChar": 38,
+        "endLine": 53,
+        "endChar": 44,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 55,
+        "startChar": 65,
+        "endLine": 55,
+        "endChar": 71,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 59,
+        "startChar": 11,
+        "endLine": 59,
+        "endChar": 17,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 64,
+        "startChar": 24,
+        "endLine": 64,
+        "endChar": 30,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 137,
+        "startChar": 49,
+        "endLine": 137,
+        "endChar": 55,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 194,
+        "startChar": 18,
+        "endLine": 194,
+        "endChar": 24,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 196,
+        "startChar": 48,
+        "endLine": 196,
+        "endChar": 54,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 267,
+        "startChar": 53,
+        "endLine": 267,
+        "endChar": 59,
+        "mentionText": "school"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 47,
+        "startChar": 31,
+        "endLine": 47,
+        "endChar": 38,
+        "mentionText": "college"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 71,
+        "startChar": 50,
+        "endLine": 71,
+        "endChar": 57,
+        "mentionText": "college"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 33,
+        "startChar": 49,
+        "endLine": 33,
+        "endChar": 62,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 42,
+        "startChar": 35,
+        "endLine": 42,
+        "endChar": 48,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 71,
+        "startChar": 14,
+        "endLine": 71,
+        "endChar": 27,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 72,
+        "startChar": 33,
+        "endLine": 72,
+        "endChar": 46,
+        "mentionText": "Father Butler"
+      },
+      {
+        "entityId": "school-authority",
+        "startLine": 100,
+        "startChar": 39,
+        "endLine": 100,
+        "endChar": 52,
+        "mentionText": "Father Butler"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {

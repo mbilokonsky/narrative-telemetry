@@ -3964,7 +3964,2072 @@
         "firstIntroduced": "e23-marriage-prospects"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "little-chandler",
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 13,
+        "startChar": 43,
+        "endLine": 13,
+        "endChar": 58,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 49,
+        "startChar": 40,
+        "endLine": 49,
+        "endChar": 55,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 73,
+        "startChar": 38,
+        "endLine": 73,
+        "endChar": 53,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 158,
+        "startChar": 24,
+        "endLine": 158,
+        "endChar": 39,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 169,
+        "startChar": 0,
+        "endLine": 169,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 174,
+        "startChar": 38,
+        "endLine": 174,
+        "endChar": 53,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 185,
+        "startChar": 16,
+        "endLine": 185,
+        "endChar": 31,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 194,
+        "startChar": 26,
+        "endLine": 194,
+        "endChar": 41,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 203,
+        "startChar": 37,
+        "endLine": 203,
+        "endChar": 52,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 214,
+        "startChar": 51,
+        "endLine": 214,
+        "endChar": 66,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 224,
+        "startChar": 0,
+        "endLine": 224,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 231,
+        "startChar": 0,
+        "endLine": 231,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 239,
+        "startChar": 23,
+        "endLine": 239,
+        "endChar": 38,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 247,
+        "startChar": 0,
+        "endLine": 247,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 259,
+        "startChar": 27,
+        "endLine": 259,
+        "endChar": 42,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 266,
+        "startChar": 35,
+        "endLine": 266,
+        "endChar": 50,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 300,
+        "startChar": 32,
+        "endLine": 300,
+        "endChar": 47,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 305,
+        "startChar": 34,
+        "endLine": 305,
+        "endChar": 49,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 314,
+        "startChar": 0,
+        "endLine": 314,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 322,
+        "startChar": 28,
+        "endLine": 322,
+        "endChar": 43,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 328,
+        "startChar": 20,
+        "endLine": 328,
+        "endChar": 35,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 332,
+        "startChar": 0,
+        "endLine": 332,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 344,
+        "startChar": 0,
+        "endLine": 344,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 366,
+        "startChar": 18,
+        "endLine": 366,
+        "endChar": 33,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 372,
+        "startChar": 34,
+        "endLine": 372,
+        "endChar": 49,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 379,
+        "startChar": 27,
+        "endLine": 379,
+        "endChar": 42,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 385,
+        "startChar": 0,
+        "endLine": 385,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 404,
+        "startChar": 33,
+        "endLine": 404,
+        "endChar": 48,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 419,
+        "startChar": 26,
+        "endLine": 419,
+        "endChar": 41,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 426,
+        "startChar": 45,
+        "endLine": 426,
+        "endChar": 60,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 438,
+        "startChar": 0,
+        "endLine": 438,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 460,
+        "startChar": 0,
+        "endLine": 460,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 464,
+        "startChar": 6,
+        "endLine": 464,
+        "endChar": 21,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 476,
+        "startChar": 33,
+        "endLine": 476,
+        "endChar": 48,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 567,
+        "startChar": 0,
+        "endLine": 567,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 581,
+        "startChar": 0,
+        "endLine": 581,
+        "endChar": 15,
+        "mentionText": "Little Chandler"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 144,
+        "startChar": 8,
+        "endLine": 144,
+        "endChar": 13,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 166,
+        "startChar": 52,
+        "endLine": 166,
+        "endChar": 57,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 198,
+        "startChar": 1,
+        "endLine": 198,
+        "endChar": 6,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 229,
+        "startChar": 49,
+        "endLine": 229,
+        "endChar": 54,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 271,
+        "startChar": 49,
+        "endLine": 271,
+        "endChar": 54,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 281,
+        "startChar": 48,
+        "endLine": 281,
+        "endChar": 53,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 324,
+        "startChar": 7,
+        "endLine": 324,
+        "endChar": 12,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 342,
+        "startChar": 41,
+        "endLine": 342,
+        "endChar": 46,
+        "mentionText": "Tommy"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 14,
+        "startChar": 7,
+        "endLine": 14,
+        "endChar": 52,
+        "mentionText": "he was but slightly under the average stature"
+      },
+      {
+        "entityId": "little-chandler",
+        "startLine": 16,
+        "startChar": 13,
+        "endLine": 16,
+        "endChar": 61,
+        "mentionText": "his voice was quiet and his manners were refined"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 71,
+        "startChar": 45,
+        "endLine": 71,
+        "endChar": 62,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 83,
+        "startChar": 27,
+        "endLine": 83,
+        "endChar": 44,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 89,
+        "startChar": 9,
+        "endLine": 89,
+        "endChar": 26,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 152,
+        "startChar": 0,
+        "endLine": 152,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 171,
+        "startChar": 51,
+        "endLine": 171,
+        "endChar": 68,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 177,
+        "startChar": 17,
+        "endLine": 177,
+        "endChar": 34,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 182,
+        "startChar": 41,
+        "endLine": 182,
+        "endChar": 58,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 196,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 205,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 216,
+        "startChar": 38,
+        "endLine": 216,
+        "endChar": 55,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 219,
+        "startChar": 18,
+        "endLine": 219,
+        "endChar": 35,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 227,
+        "startChar": 33,
+        "endLine": 227,
+        "endChar": 50,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 241,
+        "startChar": 35,
+        "endLine": 241,
+        "endChar": 52,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 252,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 261,
+        "startChar": 0,
+        "endLine": 261,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 269,
+        "startChar": 15,
+        "endLine": 269,
+        "endChar": 32,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 283,
+        "startChar": 0,
+        "endLine": 283,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 286,
+        "startChar": 33,
+        "endLine": 286,
+        "endChar": 50,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 291,
+        "startChar": 0,
+        "endLine": 291,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 302,
+        "startChar": 17,
+        "endLine": 302,
+        "endChar": 34,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 308,
+        "startChar": 13,
+        "endLine": 308,
+        "endChar": 30,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 319,
+        "startChar": 0,
+        "endLine": 319,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 330,
+        "startChar": 23,
+        "endLine": 330,
+        "endChar": 40,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 340,
+        "startChar": 0,
+        "endLine": 340,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 351,
+        "startChar": 33,
+        "endLine": 351,
+        "endChar": 50,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 362,
+        "startChar": 22,
+        "endLine": 362,
+        "endChar": 39,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 369,
+        "startChar": 27,
+        "endLine": 369,
+        "endChar": 44,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 375,
+        "startChar": 0,
+        "endLine": 375,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 381,
+        "startChar": 24,
+        "endLine": 381,
+        "endChar": 41,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 409,
+        "startChar": 8,
+        "endLine": 409,
+        "endChar": 25,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 411,
+        "startChar": 0,
+        "endLine": 411,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 421,
+        "startChar": 0,
+        "endLine": 421,
+        "endChar": 17,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 431,
+        "startChar": 42,
+        "endLine": 431,
+        "endChar": 59,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 440,
+        "startChar": 23,
+        "endLine": 440,
+        "endChar": 40,
+        "mentionText": "Ignatius Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 29,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 8,
+        "startChar": 14,
+        "endLine": 8,
+        "endChar": 22,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 12,
+        "startChar": 13,
+        "endLine": 12,
+        "endChar": 21,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 12,
+        "startChar": 26,
+        "endLine": 12,
+        "endChar": 34,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 13,
+        "startChar": 13,
+        "endLine": 13,
+        "endChar": 21,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 71,
+        "startChar": 54,
+        "endLine": 71,
+        "endChar": 62,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 75,
+        "startChar": 9,
+        "endLine": 75,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 8,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 83,
+        "startChar": 36,
+        "endLine": 83,
+        "endChar": 44,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 89,
+        "startChar": 18,
+        "endLine": 89,
+        "endChar": 26,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 102,
+        "startChar": 29,
+        "endLine": 102,
+        "endChar": 37,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 127,
+        "startChar": 35,
+        "endLine": 127,
+        "endChar": 43,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 141,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 8,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 152,
+        "startChar": 9,
+        "endLine": 152,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 171,
+        "startChar": 60,
+        "endLine": 171,
+        "endChar": 68,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 177,
+        "startChar": 26,
+        "endLine": 177,
+        "endChar": 34,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 182,
+        "startChar": 50,
+        "endLine": 182,
+        "endChar": 58,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 196,
+        "startChar": 9,
+        "endLine": 196,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 205,
+        "startChar": 9,
+        "endLine": 205,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 216,
+        "startChar": 47,
+        "endLine": 216,
+        "endChar": 55,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 219,
+        "startChar": 27,
+        "endLine": 219,
+        "endChar": 35,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 227,
+        "startChar": 42,
+        "endLine": 227,
+        "endChar": 50,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 234,
+        "startChar": 0,
+        "endLine": 234,
+        "endChar": 8,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 238,
+        "startChar": 51,
+        "endLine": 238,
+        "endChar": 59,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 241,
+        "startChar": 44,
+        "endLine": 241,
+        "endChar": 52,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 252,
+        "startChar": 9,
+        "endLine": 252,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 261,
+        "startChar": 9,
+        "endLine": 261,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 269,
+        "startChar": 24,
+        "endLine": 269,
+        "endChar": 32,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 283,
+        "startChar": 9,
+        "endLine": 283,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 286,
+        "startChar": 42,
+        "endLine": 286,
+        "endChar": 50,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 291,
+        "startChar": 9,
+        "endLine": 291,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 302,
+        "startChar": 26,
+        "endLine": 302,
+        "endChar": 34,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 308,
+        "startChar": 22,
+        "endLine": 308,
+        "endChar": 30,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 319,
+        "startChar": 9,
+        "endLine": 319,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 330,
+        "startChar": 32,
+        "endLine": 330,
+        "endChar": 40,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 340,
+        "startChar": 9,
+        "endLine": 340,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 351,
+        "startChar": 42,
+        "endLine": 351,
+        "endChar": 50,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 362,
+        "startChar": 31,
+        "endLine": 362,
+        "endChar": 39,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 369,
+        "startChar": 36,
+        "endLine": 369,
+        "endChar": 44,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 375,
+        "startChar": 9,
+        "endLine": 375,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 381,
+        "startChar": 33,
+        "endLine": 381,
+        "endChar": 41,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 388,
+        "startChar": 34,
+        "endLine": 388,
+        "endChar": 42,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 390,
+        "startChar": 8,
+        "endLine": 390,
+        "endChar": 16,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 390,
+        "startChar": 60,
+        "endLine": 390,
+        "endChar": 68,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 391,
+        "startChar": 58,
+        "endLine": 391,
+        "endChar": 66,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 392,
+        "startChar": 41,
+        "endLine": 392,
+        "endChar": 49,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 395,
+        "startChar": 22,
+        "endLine": 395,
+        "endChar": 30,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 400,
+        "startChar": 34,
+        "endLine": 400,
+        "endChar": 42,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 401,
+        "startChar": 0,
+        "endLine": 401,
+        "endChar": 8,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 409,
+        "startChar": 17,
+        "endLine": 409,
+        "endChar": 25,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 411,
+        "startChar": 9,
+        "endLine": 411,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 421,
+        "startChar": 9,
+        "endLine": 421,
+        "endChar": 17,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 431,
+        "startChar": 51,
+        "endLine": 431,
+        "endChar": 59,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 440,
+        "startChar": 32,
+        "endLine": 440,
+        "endChar": 40,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 500,
+        "startChar": 0,
+        "endLine": 500,
+        "endChar": 8,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 510,
+        "startChar": 0,
+        "endLine": 510,
+        "endChar": 8,
+        "mentionText": "Gallaher"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 144,
+        "startChar": 8,
+        "endLine": 144,
+        "endChar": 23,
+        "mentionText": "Tommy, old hero"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 6,
+        "startChar": 3,
+        "endLine": 6,
+        "endChar": 20,
+        "mentionText": "his travelled air"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 6,
+        "startChar": 22,
+        "endLine": 6,
+        "endChar": 45,
+        "mentionText": "his well-cut tweed suit"
+      },
+      {
+        "entityId": "ignatius-gallaher",
+        "startLine": 6,
+        "startChar": 51,
+        "endLine": 6,
+        "endChar": 66,
+        "mentionText": "fearless accent"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 461,
+        "startChar": 45,
+        "endLine": 461,
+        "endChar": 50,
+        "mentionText": "Annie"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 465,
+        "startChar": 19,
+        "endLine": 465,
+        "endChar": 24,
+        "mentionText": "Annie"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 476,
+        "startChar": 13,
+        "endLine": 476,
+        "endChar": 18,
+        "mentionText": "Annie"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 486,
+        "startChar": 24,
+        "endLine": 486,
+        "endChar": 29,
+        "mentionText": "Annie"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 506,
+        "startChar": 41,
+        "endLine": 506,
+        "endChar": 46,
+        "mentionText": "Annie"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 561,
+        "startChar": 15,
+        "endLine": 561,
+        "endChar": 20,
+        "mentionText": "Annie"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 39,
+        "startChar": 36,
+        "endLine": 39,
+        "endChar": 44,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "annie",
+        "startLine": 477,
+        "startChar": 33,
+        "endLine": 477,
+        "endChar": 60,
+        "mentionText": "the pale blue summer blouse"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 5,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 29,
+        "startChar": 26,
+        "endLine": 29,
+        "endChar": 31,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 47,
+        "startChar": 24,
+        "endLine": 47,
+        "endChar": 29,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 334,
+        "startChar": 13,
+        "endLine": 334,
+        "endChar": 18,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 345,
+        "startChar": 21,
+        "endLine": 345,
+        "endChar": 26,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 460,
+        "startChar": 56,
+        "endLine": 460,
+        "endChar": 61,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 469,
+        "startChar": 64,
+        "endLine": 469,
+        "endChar": 69,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 515,
+        "startChar": 55,
+        "endLine": 515,
+        "endChar": 60,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 529,
+        "startChar": 4,
+        "endLine": 529,
+        "endChar": 9,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 538,
+        "startChar": 7,
+        "endLine": 538,
+        "endChar": 12,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 540,
+        "startChar": 15,
+        "endLine": 540,
+        "endChar": 20,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 544,
+        "startChar": 4,
+        "endLine": 544,
+        "endChar": 9,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 546,
+        "startChar": 14,
+        "endLine": 546,
+        "endChar": 19,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 550,
+        "startChar": 4,
+        "endLine": 550,
+        "endChar": 9,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 551,
+        "startChar": 34,
+        "endLine": 551,
+        "endChar": 39,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 558,
+        "startChar": 4,
+        "endLine": 558,
+        "endChar": 9,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 563,
+        "startChar": 52,
+        "endLine": 563,
+        "endChar": 57,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 575,
+        "startChar": 4,
+        "endLine": 575,
+        "endChar": 9,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 582,
+        "startChar": 60,
+        "endLine": 582,
+        "endChar": 65,
+        "mentionText": "child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 338,
+        "startChar": 3,
+        "endLine": 338,
+        "endChar": 13,
+        "mentionText": "little boy"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 29,
+        "startChar": 22,
+        "endLine": 29,
+        "endChar": 31,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 515,
+        "startChar": 51,
+        "endLine": 515,
+        "endChar": 60,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 538,
+        "startChar": 3,
+        "endLine": 538,
+        "endChar": 12,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 540,
+        "startChar": 11,
+        "endLine": 540,
+        "endChar": 20,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 546,
+        "startChar": 10,
+        "endLine": 546,
+        "endChar": 19,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 550,
+        "startChar": 0,
+        "endLine": 550,
+        "endChar": 9,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 551,
+        "startChar": 30,
+        "endLine": 551,
+        "endChar": 39,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 563,
+        "startChar": 48,
+        "endLine": 563,
+        "endChar": 57,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 575,
+        "startChar": 0,
+        "endLine": 575,
+        "endChar": 9,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 582,
+        "startChar": 56,
+        "endLine": 582,
+        "endChar": 65,
+        "mentionText": "the child"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 470,
+        "startChar": 10,
+        "endLine": 470,
+        "endChar": 18,
+        "mentionText": "his arms"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 531,
+        "startChar": 0,
+        "endLine": 531,
+        "endChar": 8,
+        "mentionText": "his arms"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 546,
+        "startChar": 23,
+        "endLine": 546,
+        "endChar": 31,
+        "mentionText": "his arms"
+      },
+      {
+        "entityId": "chandler-child",
+        "startLine": 469,
+        "startChar": 51,
+        "endLine": 469,
+        "endChar": 69,
+        "mentionText": "the sleeping child"
+      },
+      {
+        "entityId": "monica",
+        "startLine": 462,
+        "startChar": 0,
+        "endLine": 462,
+        "endChar": 6,
+        "mentionText": "Monica"
+      },
+      {
+        "entityId": "monica",
+        "startLine": 463,
+        "startChar": 21,
+        "endLine": 463,
+        "endChar": 27,
+        "mentionText": "Monica"
+      },
+      {
+        "entityId": "hogan",
+        "startLine": 187,
+        "startChar": 5,
+        "endLine": 187,
+        "endChar": 10,
+        "mentionText": "Hogan"
+      },
+      {
+        "entityId": "hogan",
+        "startLine": 270,
+        "startChar": 19,
+        "endLine": 270,
+        "endChar": 24,
+        "mentionText": "Hogan"
+      },
+      {
+        "entityId": "hogan",
+        "startLine": 311,
+        "startChar": 38,
+        "endLine": 311,
+        "endChar": 43,
+        "mentionText": "Hogan"
+      },
+      {
+        "entityId": "kings-inns-gardens",
+        "startLine": 30,
+        "startChar": 41,
+        "endLine": 30,
+        "endChar": 52,
+        "mentionText": "the gardens"
+      },
+      {
+        "entityId": "henrietta-street",
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 16,
+        "mentionText": "Henrietta Street"
+      },
+      {
+        "entityId": "henrietta-street",
+        "startLine": 47,
+        "startChar": 7,
+        "endLine": 47,
+        "endChar": 53,
+        "mentionText": "A horde of grimy children populated the street"
+      },
+      {
+        "entityId": "henrietta-street",
+        "startLine": 51,
+        "startChar": 29,
+        "endLine": 51,
+        "endChar": 56,
+        "mentionText": "the gaunt spectral mansions"
+      },
+      {
+        "entityId": "capel-street",
+        "startLine": 71,
+        "startChar": 31,
+        "endLine": 71,
+        "endChar": 43,
+        "mentionText": "Capel Street"
+      },
+      {
+        "entityId": "capel-street",
+        "startLine": 94,
+        "startChar": 45,
+        "endLine": 94,
+        "endChar": 57,
+        "mentionText": "Capel Street"
+      },
+      {
+        "entityId": "capel-street",
+        "startLine": 94,
+        "startChar": 22,
+        "endLine": 94,
+        "endChar": 57,
+        "mentionText": "the dull inelegance of Capel Street"
+      },
+      {
+        "entityId": "grattan-bridge",
+        "startLine": 96,
+        "startChar": 36,
+        "endLine": 96,
+        "endChar": 50,
+        "mentionText": "Grattan Bridge"
+      },
+      {
+        "entityId": "grattan-bridge",
+        "startLine": 526,
+        "startChar": 49,
+        "endLine": 526,
+        "endChar": 63,
+        "mentionText": "Grattan Bridge"
+      },
+      {
+        "entityId": "grattan-bridge",
+        "startLine": 96,
+        "startChar": 25,
+        "endLine": 96,
+        "endChar": 50,
+        "mentionText": "he crossed Grattan Bridge"
+      },
+      {
+        "entityId": "dublin-quays",
+        "startLine": 97,
+        "startChar": 14,
+        "endLine": 97,
+        "endChar": 29,
+        "mentionText": "the lower quays"
+      },
+      {
+        "entityId": "dublin-quays",
+        "startLine": 97,
+        "startChar": 41,
+        "endLine": 97,
+        "endChar": 64,
+        "mentionText": "the poor stunted houses"
+      },
+      {
+        "entityId": "dublin-quays",
+        "startLine": 98,
+        "startChar": 14,
+        "endLine": 98,
+        "endChar": 69,
+        "mentionText": "a band of tramps, huddled together along the riverbanks"
+      },
+      {
+        "entityId": "corless",
+        "startLine": 59,
+        "startChar": 13,
+        "endLine": 59,
+        "endChar": 34,
+        "mentionText": "richly dressed ladies"
+      },
+      {
+        "entityId": "corless-bar",
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 30,
+        "mentionText": "The light and noise of the bar"
+      },
+      {
+        "entityId": "london",
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 6,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 24,
+        "startChar": 59,
+        "endLine": 24,
+        "endChar": 65,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 6,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 6,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 108,
+        "startChar": 33,
+        "endLine": 108,
+        "endChar": 39,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 191,
+        "startChar": 24,
+        "endLine": 191,
+        "endChar": 30,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 207,
+        "startChar": 35,
+        "endLine": 207,
+        "endChar": 41,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 236,
+        "startChar": 56,
+        "endLine": 236,
+        "endChar": 62,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 267,
+        "startChar": 34,
+        "endLine": 267,
+        "endChar": 40,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 269,
+        "startChar": 1,
+        "endLine": 269,
+        "endChar": 7,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 270,
+        "startChar": 59,
+        "endLine": 270,
+        "endChar": 65,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "london",
+        "startLine": 510,
+        "startChar": 25,
+        "endLine": 510,
+        "endChar": 31,
+        "mentionText": "London"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 207,
+        "startChar": 45,
+        "endLine": 207,
+        "endChar": 50,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 207,
+        "startChar": 52,
+        "endLine": 207,
+        "endChar": 57,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 210,
+        "startChar": 15,
+        "endLine": 210,
+        "endChar": 20,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 221,
+        "startChar": 38,
+        "endLine": 221,
+        "endChar": 43,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 222,
+        "startChar": 21,
+        "endLine": 222,
+        "endChar": 26,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 241,
+        "startChar": 15,
+        "endLine": 241,
+        "endChar": 20,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 243,
+        "startChar": 33,
+        "endLine": 243,
+        "endChar": 38,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 249,
+        "startChar": 37,
+        "endLine": 249,
+        "endChar": 42,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 255,
+        "startChar": 0,
+        "endLine": 255,
+        "endChar": 5,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 264,
+        "startChar": 0,
+        "endLine": 264,
+        "endChar": 5,
+        "mentionText": "Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 207,
+        "startChar": 29,
+        "endLine": 207,
+        "endChar": 69,
+        "mentionText": "Go to London or Paris: Paris, for choice"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 221,
+        "startChar": 26,
+        "endLine": 221,
+        "endChar": 43,
+        "mentionText": "the life of Paris"
+      },
+      {
+        "entityId": "paris",
+        "startLine": 227,
+        "startChar": 14,
+        "endLine": 227,
+        "endChar": 30,
+        "mentionText": "the Moulin Rouge"
+      },
+      {
+        "entityId": "moulin-rouge",
+        "startLine": 227,
+        "startChar": 14,
+        "endLine": 227,
+        "endChar": 30,
+        "mentionText": "the Moulin Rouge"
+      },
+      {
+        "entityId": "moulin-rouge",
+        "startLine": 227,
+        "startChar": 18,
+        "endLine": 227,
+        "endChar": 30,
+        "mentionText": "Moulin Rouge"
+      },
+      {
+        "entityId": "isle-of-man",
+        "startLine": 203,
+        "startChar": 14,
+        "endLine": 203,
+        "endChar": 29,
+        "mentionText": "the Isle of Man"
+      },
+      {
+        "entityId": "isle-of-man",
+        "startLine": 203,
+        "startChar": 18,
+        "endLine": 203,
+        "endChar": 29,
+        "mentionText": "Isle of Man"
+      },
+      {
+        "entityId": "isle-of-man",
+        "startLine": 207,
+        "startChar": 5,
+        "endLine": 207,
+        "endChar": 16,
+        "mentionText": "Isle of Man"
+      },
+      {
+        "entityId": "chandler-home",
+        "startLine": 509,
+        "startChar": 0,
+        "endLine": 509,
+        "endChar": 16,
+        "mentionText": "his little house"
+      },
+      {
+        "entityId": "chandler-home",
+        "startLine": 460,
+        "startChar": 23,
+        "endLine": 460,
+        "endChar": 44,
+        "mentionText": "the room off the hall"
+      },
+      {
+        "entityId": "chandler-home",
+        "startLine": 506,
+        "startChar": 11,
+        "endLine": 506,
+        "endChar": 20,
+        "mentionText": "his house"
+      },
+      {
+        "entityId": "chandler-room",
+        "startLine": 460,
+        "startChar": 23,
+        "endLine": 460,
+        "endChar": 44,
+        "mentionText": "the room off the hall"
+      },
+      {
+        "entityId": "chandler-room",
+        "startLine": 474,
+        "startChar": 0,
+        "endLine": 474,
+        "endChar": 59,
+        "mentionText": "A little lamp with a white china shade stood upon the table"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 52,
+        "startChar": 16,
+        "endLine": 52,
+        "endChar": 22,
+        "mentionText": "Dublin"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 96,
+        "startChar": 14,
+        "endLine": 96,
+        "endChar": 20,
+        "mentionText": "Dublin"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 166,
+        "startChar": 27,
+        "endLine": 166,
+        "endChar": 33,
+        "mentionText": "Dublin"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 267,
+        "startChar": 44,
+        "endLine": 267,
+        "endChar": 50,
+        "mentionText": "Dublin"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 303,
+        "startChar": 0,
+        "endLine": 303,
+        "endChar": 6,
+        "mentionText": "Dublin"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 166,
+        "startChar": 16,
+        "endLine": 166,
+        "endChar": 33,
+        "mentionText": "dear dirty Dublin"
+      },
+      {
+        "entityId": "north-wall",
+        "startLine": 4,
+        "startChar": 49,
+        "endLine": 4,
+        "endChar": 63,
+        "mentionText": "the North Wall"
+      },
+      {
+        "entityId": "north-wall",
+        "startLine": 4,
+        "startChar": 19,
+        "endLine": 4,
+        "endChar": 63,
+        "mentionText": "he had seen his friend off at the North Wall"
+      },
+      {
+        "entityId": "north-wall",
+        "startLine": 4,
+        "startChar": 53,
+        "endLine": 4,
+        "endChar": 63,
+        "mentionText": "North Wall"
+      },
+      {
+        "entityId": "gallaher-tweed-suit",
+        "startLine": 6,
+        "startChar": 22,
+        "endLine": 6,
+        "endChar": 45,
+        "mentionText": "his well-cut tweed suit"
+      },
+      {
+        "entityId": "gallaher-orange-tie",
+        "startLine": 155,
+        "startChar": 24,
+        "endLine": 155,
+        "endChar": 52,
+        "mentionText": "the vivid orange tie he wore"
+      },
+      {
+        "entityId": "poetry-books",
+        "startLine": 36,
+        "startChar": 14,
+        "endLine": 36,
+        "endChar": 58,
+        "mentionText": "the books of poetry upon his shelves at home"
+      },
+      {
+        "entityId": "annie-photograph",
+        "startLine": 477,
+        "startChar": 33,
+        "endLine": 477,
+        "endChar": 60,
+        "mentionText": "the pale blue summer blouse"
+      },
+      {
+        "entityId": "lamp",
+        "startLine": 474,
+        "startChar": 0,
+        "endLine": 474,
+        "endChar": 59,
+        "mentionText": "A little lamp with a white china shade stood upon the table"
+      },
+      {
+        "entityId": "whisky",
+        "startLine": 147,
+        "startChar": 19,
+        "endLine": 147,
+        "endChar": 44,
+        "mentionText": "two halves of malt whisky"
+      },
+      {
+        "entityId": "whisky",
+        "startLine": 145,
+        "startChar": 25,
+        "endLine": 145,
+        "endChar": 66,
+        "mentionText": "better stuff than we get across the water"
+      },
+      {
+        "entityId": "cigar",
+        "startLine": 283,
+        "startChar": 0,
+        "endLine": 283,
+        "endChar": 41,
+        "mentionText": "Ignatius Gallaher produced his cigar-case"
+      },
+      {
+        "entityId": "gold-watch",
+        "startLine": 375,
+        "startChar": 0,
+        "endLine": 375,
+        "endChar": 62,
+        "mentionText": "Ignatius Gallaher took out a large gold watch and looked at it"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {

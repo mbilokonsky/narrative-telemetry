@@ -5769,7 +5769,464 @@
         "firstIntroduced": "e38"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "holohan",
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 57,
+        "mentionText": "Mr Holohan, assistant secretary of the _Eire Abu_ Society"
+      },
+      {
+        "entityId": "mrs-kearney",
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 47,
+        "mentionText": "Miss Devlin had become Mrs Kearney out of spite"
+      },
+      {
+        "entityId": "fitzpatrick",
+        "startLine": 105,
+        "startChar": 6,
+        "endLine": 105,
+        "endChar": 51,
+        "mentionText": "He was a little man, with a white vacant face"
+      },
+      {
+        "entityId": "fitzpatrick",
+        "startLine": 108,
+        "startChar": 16,
+        "endLine": 108,
+        "endChar": 57,
+        "mentionText": "he chewed one end of it into a moist pulp"
+      },
+      {
+        "entityId": "bell",
+        "startLine": 227,
+        "startChar": 14,
+        "endLine": 227,
+        "endChar": 69,
+        "mentionText": "Mr Bell, the second tenor, was a fair-haired little man"
+      },
+      {
+        "entityId": "madam-glynn",
+        "startLine": 251,
+        "startChar": 0,
+        "endLine": 251,
+        "endChar": 50,
+        "mentionText": "Someone said that she was Madam Glynn, the soprano"
+      },
+      {
+        "entityId": "madam-glynn",
+        "startLine": 258,
+        "startChar": 36,
+        "endLine": 258,
+        "endChar": 59,
+        "mentionText": "Madam Glynn from London"
+      },
+      {
+        "entityId": "madam-glynn",
+        "startLine": 251,
+        "startChar": 26,
+        "endLine": 251,
+        "endChar": 37,
+        "mentionText": "Madam Glynn"
+      },
+      {
+        "entityId": "madam-glynn",
+        "startLine": 258,
+        "startChar": 36,
+        "endLine": 258,
+        "endChar": 47,
+        "mentionText": "Madam Glynn"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 248,
+        "startChar": 21,
+        "endLine": 248,
+        "endChar": 46,
+        "mentionText": "Miss Healy, the contralto"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 248,
+        "startChar": 21,
+        "endLine": 248,
+        "endChar": 31,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 253,
+        "startChar": 55,
+        "endLine": 253,
+        "endChar": 65,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 256,
+        "startChar": 0,
+        "endLine": 256,
+        "endChar": 10,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 303,
+        "startChar": 17,
+        "endLine": 303,
+        "endChar": 27,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 337,
+        "startChar": 27,
+        "endLine": 337,
+        "endChar": 37,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 359,
+        "startChar": 8,
+        "endLine": 359,
+        "endChar": 18,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 411,
+        "startChar": 6,
+        "endLine": 411,
+        "endChar": 16,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 424,
+        "startChar": 12,
+        "endLine": 424,
+        "endChar": 22,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 424,
+        "startChar": 24,
+        "endLine": 424,
+        "endChar": 34,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "miss-healy",
+        "startLine": 465,
+        "startChar": 50,
+        "endLine": 465,
+        "endChar": 60,
+        "mentionText": "Miss Healy"
+      },
+      {
+        "entityId": "first-tenor",
+        "startLine": 264,
+        "startChar": 10,
+        "endLine": 264,
+        "endChar": 59,
+        "mentionText": "They were both well dressed, stout and complacent"
+      },
+      {
+        "entityId": "baritone",
+        "startLine": 264,
+        "startChar": 10,
+        "endLine": 264,
+        "endChar": 59,
+        "mentionText": "They were both well dressed, stout and complacent"
+      },
+      {
+        "entityId": "hendrick",
+        "startLine": 315,
+        "startChar": 1,
+        "endLine": 315,
+        "endChar": 33,
+        "mentionText": "Thank you very much, Mr Hendrick"
+      },
+      {
+        "entityId": "miss-beirne",
+        "startLine": 196,
+        "startChar": 17,
+        "endLine": 196,
+        "endChar": 71,
+        "mentionText": "a steward brought out a little woman named Miss Beirne"
+      },
+      {
+        "entityId": "miss-beirne",
+        "startLine": 205,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 51,
+        "mentionText": "The little woman hoped they would have a good house"
+      },
+      {
+        "entityId": "miss-beirne",
+        "startLine": 408,
+        "startChar": 1,
+        "endLine": 408,
+        "endChar": 25,
+        "mentionText": "I agree with Miss Beirne"
+      },
+      {
+        "entityId": "miss-beirne",
+        "startLine": 196,
+        "startChar": 60,
+        "endLine": 196,
+        "endChar": 71,
+        "mentionText": "Miss Beirne"
+      },
+      {
+        "entityId": "miss-beirne",
+        "startLine": 198,
+        "startChar": 13,
+        "endLine": 198,
+        "endChar": 24,
+        "mentionText": "Miss Beirne"
+      },
+      {
+        "entityId": "miss-beirne",
+        "startLine": 398,
+        "startChar": 33,
+        "endLine": 398,
+        "endChar": 44,
+        "mentionText": "Miss Beirne"
+      },
+      {
+        "entityId": "miss-beirne",
+        "startLine": 408,
+        "startChar": 14,
+        "endLine": 408,
+        "endChar": 25,
+        "mentionText": "Miss Beirne"
+      },
+      {
+        "entityId": "young-lady-reciter",
+        "startLine": 393,
+        "startChar": 13,
+        "endLine": 393,
+        "endChar": 58,
+        "mentionText": "a young lady who arranged amateur theatricals"
+      },
+      {
+        "entityId": "miss-devlin",
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 47,
+        "mentionText": "Miss Devlin had become Mrs Kearney out of spite"
+      },
+      {
+        "entityId": "miss-devlin",
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 11,
+        "mentionText": "Miss Devlin"
+      },
+      {
+        "entityId": "dublin-streets",
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 45,
+        "mentionText": "walking up and down Dublin for nearly a month"
+      },
+      {
+        "entityId": "antient-concert-rooms",
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 25,
+        "mentionText": "the Antient Concert Rooms"
+      },
+      {
+        "entityId": "antient-concert-rooms",
+        "startLine": 95,
+        "startChar": 46,
+        "endLine": 95,
+        "endChar": 71,
+        "mentionText": "the Antient Concert Rooms"
+      },
+      {
+        "entityId": "antient-concert-rooms",
+        "startLine": 190,
+        "startChar": 21,
+        "endLine": 190,
+        "endChar": 46,
+        "mentionText": "the Antient Concert Rooms"
+      },
+      {
+        "entityId": "antient-concert-rooms",
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 37,
+        "mentionText": "In the dressing-room behind the stage"
+      },
+      {
+        "entityId": "antient-concert-rooms",
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 25,
+        "mentionText": "Antient Concert Rooms"
+      },
+      {
+        "entityId": "antient-concert-rooms",
+        "startLine": 95,
+        "startChar": 50,
+        "endLine": 95,
+        "endChar": 71,
+        "mentionText": "Antient Concert Rooms"
+      },
+      {
+        "entityId": "antient-concert-rooms",
+        "startLine": 190,
+        "startChar": 25,
+        "endLine": 190,
+        "endChar": 46,
+        "mentionText": "Antient Concert Rooms"
+      },
+      {
+        "entityId": "ormond-quay",
+        "startLine": 23,
+        "startChar": 32,
+        "endLine": 23,
+        "endChar": 43,
+        "mentionText": "Ormond Quay"
+      },
+      {
+        "entityId": "skerries",
+        "startLine": 42,
+        "startChar": 1,
+        "endLine": 42,
+        "endChar": 58,
+        "mentionText": "My good man is packing us off to Skerries for a few weeks"
+      },
+      {
+        "entityId": "skerries",
+        "startLine": 42,
+        "startChar": 34,
+        "endLine": 42,
+        "endChar": 42,
+        "mentionText": "Skerries"
+      },
+      {
+        "entityId": "skerries",
+        "startLine": 44,
+        "startChar": 14,
+        "endLine": 44,
+        "endChar": 22,
+        "mentionText": "Skerries"
+      },
+      {
+        "entityId": "howth",
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 49,
+        "mentionText": "If it was not Skerries it was Howth or Greystones"
+      },
+      {
+        "entityId": "howth",
+        "startLine": 44,
+        "startChar": 30,
+        "endLine": 44,
+        "endChar": 35,
+        "mentionText": "Howth"
+      },
+      {
+        "entityId": "greystones",
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 49,
+        "mentionText": "If it was not Skerries it was Howth or Greystones"
+      },
+      {
+        "entityId": "greystones",
+        "startLine": 44,
+        "startChar": 39,
+        "endLine": 44,
+        "endChar": 49,
+        "mentionText": "Greystones"
+      },
+      {
+        "entityId": "academy",
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 38,
+        "mentionText": "afterward paid her fees at the Academy"
+      },
+      {
+        "entityId": "academy",
+        "startLine": 39,
+        "startChar": 31,
+        "endLine": 39,
+        "endChar": 38,
+        "mentionText": "Academy"
+      },
+      {
+        "entityId": "feis-ceoil",
+        "startLine": 228,
+        "startChar": 42,
+        "endLine": 228,
+        "endChar": 52,
+        "mentionText": "Feis Ceoil"
+      },
+      {
+        "entityId": "mansion-house",
+        "startLine": 297,
+        "startChar": 18,
+        "endLine": 297,
+        "endChar": 31,
+        "mentionText": "Mansion House"
+      },
+      {
+        "entityId": "general-post-office",
+        "startLine": 183,
+        "startChar": 49,
+        "endLine": 183,
+        "endChar": 68,
+        "mentionText": "General Post Office"
+      },
+      {
+        "entityId": "eire-abu-society",
+        "startLine": 4,
+        "startChar": 35,
+        "endLine": 4,
+        "endChar": 57,
+        "mentionText": "the _Eire Abu_ Society"
+      },
+      {
+        "entityId": "kearney-family",
+        "startLine": 426,
+        "startChar": 4,
+        "endLine": 426,
+        "endChar": 16,
+        "mentionText": "the Kearneys"
+      },
+      {
+        "entityId": "nationalist-circle",
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 37,
+        "mentionText": "said good-bye to one another in Irish"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading: Structure, Style, and Narrative Technique": {

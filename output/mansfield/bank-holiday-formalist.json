@@ -4133,7 +4133,144 @@
         "firstIntroduced": "e22"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "fat-chauffeur",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 66,
+        "mentionText": "A motor-car driven by a fat chauffeur comes rushing down the hill."
+      },
+      {
+        "entityId": "professor-leonard",
+        "startLine": 114,
+        "startChar": 14,
+        "endLine": 114,
+        "endChar": 31,
+        "mentionText": "Professor Leonard"
+      },
+      {
+        "entityId": "fruit-shop-opposite",
+        "startLine": 11,
+        "startChar": 9,
+        "endLine": 11,
+        "endChar": 54,
+        "mentionText": "in the broad sunlight opposite the fruit-shop"
+      },
+      {
+        "entityId": "stalls-corner",
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 43,
+        "mentionText": "At the corner of the road the stalls begin."
+      },
+      {
+        "entityId": "hill-road",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 65,
+        "mentionText": "A motor-car driven by a fat chauffeur comes rushing down the hill"
+      },
+      {
+        "entityId": "hill-road",
+        "startLine": 108,
+        "startChar": 16,
+        "endLine": 108,
+        "endChar": 60,
+        "mentionText": "A huge barouche comes swinging down the hill"
+      },
+      {
+        "entityId": "public-house",
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 61,
+        "mentionText": "Outside the two swing-doors there is a thick mass of children"
+      },
+      {
+        "entityId": "guitar",
+        "startLine": 6,
+        "startChar": 42,
+        "endLine": 6,
+        "endChar": 62,
+        "mentionText": "He plays the guitar."
+      },
+      {
+        "entityId": "flute",
+        "startLine": 8,
+        "startChar": 13,
+        "endLine": 8,
+        "endChar": 34,
+        "mentionText": "breathes into a flute"
+      },
+      {
+        "entityId": "oranges",
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 44,
+        "mentionText": "A crowd collects, eating oranges and bananas"
+      },
+      {
+        "entityId": "bananas",
+        "startLine": 16,
+        "startChar": 18,
+        "endLine": 16,
+        "endChar": 67,
+        "mentionText": "eating oranges and bananas, tearing off the skins"
+      },
+      {
+        "entityId": "ticklers",
+        "startLine": 51,
+        "startChar": 1,
+        "endLine": 51,
+        "endChar": 9,
+        "mentionText": "Ticklers"
+      },
+      {
+        "entityId": "roses",
+        "startLine": 61,
+        "startChar": 35,
+        "endLine": 61,
+        "endChar": 40,
+        "mentionText": "Roses"
+      },
+      {
+        "entityId": "lemonade",
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 8,
+        "mentionText": "Lemonade"
+      },
+      {
+        "entityId": "motor-car",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 66,
+        "mentionText": "A motor-car driven by a fat chauffeur comes rushing down the hill."
+      },
+      {
+        "entityId": "watch",
+        "startLine": 106,
+        "startChar": 23,
+        "endLine": 106,
+        "endChar": 43,
+        "mentionText": "Nobody buys a watch."
+      },
+      {
+        "entityId": "lace-parasol",
+        "startLine": 109,
+        "startChar": 24,
+        "endLine": 109,
+        "endChar": 51,
+        "mentionText": "She holds up a lace parasol"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading: A Carnival Day": {

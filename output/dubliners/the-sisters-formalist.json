@@ -5310,7 +5310,1328 @@
         "firstIntroduced": "e34"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "father-flynn",
+        "startLine": 41,
+        "startChar": 1,
+        "endLine": 41,
+        "endChar": 13,
+        "mentionText": "Father Flynn"
+      },
+      {
+        "entityId": "father-flynn",
+        "startLine": 93,
+        "startChar": 29,
+        "endLine": 93,
+        "endChar": 42,
+        "mentionText": "the paralytic"
+      },
+      {
+        "entityId": "father-flynn",
+        "startLine": 113,
+        "startChar": 14,
+        "endLine": 113,
+        "endChar": 25,
+        "mentionText": "James Flynn"
+      },
+      {
+        "entityId": "father-flynn",
+        "startLine": 191,
+        "startChar": 26,
+        "endLine": 191,
+        "endChar": 40,
+        "mentionText": "the old priest"
+      },
+      {
+        "entityId": "father-flynn",
+        "startLine": 342,
+        "startChar": 36,
+        "endLine": 342,
+        "endChar": 50,
+        "mentionText": "the old priest"
+      },
+      {
+        "entityId": "old-cotter",
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 10,
+        "mentionText": "Old Cotter"
+      },
+      {
+        "entityId": "old-cotter",
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 10,
+        "mentionText": "Old Cotter"
+      },
+      {
+        "entityId": "old-cotter",
+        "startLine": 45,
+        "startChar": 1,
+        "endLine": 45,
+        "endChar": 10,
+        "mentionText": "Mr Cotter"
+      },
+      {
+        "entityId": "old-cotter",
+        "startLine": 63,
+        "startChar": 18,
+        "endLine": 63,
+        "endChar": 27,
+        "mentionText": "Mr Cotter"
+      },
+      {
+        "entityId": "old-cotter",
+        "startLine": 73,
+        "startChar": 41,
+        "endLine": 73,
+        "endChar": 50,
+        "mentionText": "Mr Cotter"
+      },
+      {
+        "entityId": "old-cotter",
+        "startLine": 80,
+        "startChar": 50,
+        "endLine": 80,
+        "endChar": 59,
+        "mentionText": "Mr Cotter"
+      },
+      {
+        "entityId": "old-cotter",
+        "startLine": 27,
+        "startChar": 15,
+        "endLine": 27,
+        "endChar": 23,
+        "mentionText": "old fool"
+      },
+      {
+        "entityId": "boys-uncle",
+        "startLine": 69,
+        "startChar": 33,
+        "endLine": 69,
+        "endChar": 41,
+        "mentionText": "my uncle"
+      },
+      {
+        "entityId": "boys-uncle",
+        "startLine": 139,
+        "startChar": 0,
+        "endLine": 139,
+        "endChar": 8,
+        "mentionText": "my uncle"
+      },
+      {
+        "entityId": "boys-uncle",
+        "startLine": 67,
+        "startChar": 23,
+        "endLine": 67,
+        "endChar": 27,
+        "mentionText": "Jack"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 19,
+        "startChar": 14,
+        "endLine": 19,
+        "endChar": 21,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 53,
+        "startChar": 35,
+        "endLine": 53,
+        "endChar": 42,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 63,
+        "startChar": 36,
+        "endLine": 63,
+        "endChar": 43,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 74,
+        "startChar": 30,
+        "endLine": 74,
+        "endChar": 37,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 7,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 172,
+        "startChar": 15,
+        "endLine": 172,
+        "endChar": 22,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 176,
+        "startChar": 16,
+        "endLine": 176,
+        "endChar": 23,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 177,
+        "startChar": 40,
+        "endLine": 177,
+        "endChar": 47,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 233,
+        "startChar": 32,
+        "endLine": 233,
+        "endChar": 39,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 239,
+        "startChar": 20,
+        "endLine": 239,
+        "endChar": 27,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 264,
+        "startChar": 32,
+        "endLine": 264,
+        "endChar": 39,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 271,
+        "startChar": 28,
+        "endLine": 271,
+        "endChar": 35,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 279,
+        "startChar": 53,
+        "endLine": 279,
+        "endChar": 60,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 304,
+        "startChar": 40,
+        "endLine": 304,
+        "endChar": 47,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 313,
+        "startChar": 12,
+        "endLine": 313,
+        "endChar": 19,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "boys-aunt",
+        "startLine": 326,
+        "startChar": 24,
+        "endLine": 326,
+        "endChar": 31,
+        "mentionText": "my aunt"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 201,
+        "startChar": 6,
+        "endLine": 201,
+        "endChar": 11,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 212,
+        "startChar": 21,
+        "endLine": 212,
+        "endChar": 26,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 216,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 5,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 221,
+        "startChar": 36,
+        "endLine": 221,
+        "endChar": 41,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 247,
+        "startChar": 0,
+        "endLine": 247,
+        "endChar": 5,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 255,
+        "startChar": 28,
+        "endLine": 255,
+        "endChar": 33,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 266,
+        "startChar": 0,
+        "endLine": 266,
+        "endChar": 5,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 275,
+        "startChar": 23,
+        "endLine": 275,
+        "endChar": 28,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 281,
+        "startChar": 20,
+        "endLine": 281,
+        "endChar": 25,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 306,
+        "startChar": 0,
+        "endLine": 306,
+        "endChar": 5,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 317,
+        "startChar": 24,
+        "endLine": 317,
+        "endChar": 29,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 328,
+        "startChar": 0,
+        "endLine": 328,
+        "endChar": 5,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 346,
+        "startChar": 0,
+        "endLine": 346,
+        "endChar": 5,
+        "mentionText": "Eliza"
+      },
+      {
+        "entityId": "eliza",
+        "startLine": 243,
+        "startChar": 7,
+        "endLine": 243,
+        "endChar": 17,
+        "mentionText": "Miss Flynn"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 174,
+        "startChar": 61,
+        "endLine": 174,
+        "endChar": 67,
+        "mentionText": "Nannie"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 186,
+        "startChar": 40,
+        "endLine": 186,
+        "endChar": 46,
+        "mentionText": "Nannie"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 202,
+        "startChar": 35,
+        "endLine": 202,
+        "endChar": 41,
+        "mentionText": "Nannie"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 252,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 6,
+        "mentionText": "Nannie"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 255,
+        "startChar": 14,
+        "endLine": 255,
+        "endChar": 20,
+        "mentionText": "Nannie"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 297,
+        "startChar": 57,
+        "endLine": 297,
+        "endChar": 63,
+        "mentionText": "Nannie"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 181,
+        "startChar": 31,
+        "endLine": 181,
+        "endChar": 44,
+        "mentionText": "the old woman"
+      },
+      {
+        "entityId": "nannie",
+        "startLine": 188,
+        "startChar": 37,
+        "endLine": 188,
+        "endChar": 50,
+        "mentionText": "the old woman"
+      },
+      {
+        "entityId": "telegram-boy",
+        "startLine": 109,
+        "startChar": 47,
+        "endLine": 109,
+        "endChar": 59,
+        "mentionText": "telegram boy"
+      },
+      {
+        "entityId": "poor-women",
+        "startLine": 109,
+        "startChar": 26,
+        "endLine": 109,
+        "endChar": 40,
+        "mentionText": "Two poor women"
+      },
+      {
+        "entityId": "washing-woman",
+        "startLine": 235,
+        "startChar": 13,
+        "endLine": 235,
+        "endChar": 44,
+        "mentionText": "the woman we had in to wash him"
+      },
+      {
+        "entityId": "north-richmond-st",
+        "startLine": 5,
+        "startChar": 25,
+        "endLine": 5,
+        "endChar": 34,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "north-richmond-st",
+        "startLine": 45,
+        "startChar": 52,
+        "endLine": 45,
+        "endChar": 61,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "north-richmond-st",
+        "startLine": 172,
+        "startChar": 49,
+        "endLine": 172,
+        "endChar": 58,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "north-richmond-st",
+        "startLine": 173,
+        "startChar": 45,
+        "endLine": 173,
+        "endChar": 54,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "north-richmond-st",
+        "startLine": 276,
+        "startChar": 21,
+        "endLine": 276,
+        "endChar": 30,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "north-richmond-st",
+        "startLine": 342,
+        "startChar": 9,
+        "endLine": 342,
+        "endChar": 18,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 18,
+        "startChar": 57,
+        "endLine": 18,
+        "endChar": 67,
+        "mentionText": "downstairs"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 200,
+        "startChar": 55,
+        "endLine": 200,
+        "endChar": 65,
+        "mentionText": "downstairs"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 92,
+        "startChar": 41,
+        "endLine": 92,
+        "endChar": 48,
+        "mentionText": "my room"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 5,
+        "startChar": 25,
+        "endLine": 5,
+        "endChar": 34,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 45,
+        "startChar": 52,
+        "endLine": 45,
+        "endChar": 61,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 172,
+        "startChar": 49,
+        "endLine": 172,
+        "endChar": 58,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 173,
+        "startChar": 45,
+        "endLine": 173,
+        "endChar": 54,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 276,
+        "startChar": 21,
+        "endLine": 276,
+        "endChar": 30,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "boys-home",
+        "startLine": 342,
+        "startChar": 9,
+        "endLine": 342,
+        "endChar": 18,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "great-britain-st",
+        "startLine": 104,
+        "startChar": 9,
+        "endLine": 104,
+        "endChar": 29,
+        "mentionText": "Great Britain Street"
+      },
+      {
+        "entityId": "drapery-shop",
+        "startLine": 119,
+        "startChar": 38,
+        "endLine": 119,
+        "endChar": 46,
+        "mentionText": "the shop"
+      },
+      {
+        "entityId": "drapery-shop",
+        "startLine": 135,
+        "startChar": 29,
+        "endLine": 135,
+        "endChar": 37,
+        "mentionText": "the shop"
+      },
+      {
+        "entityId": "dark-room-shop",
+        "startLine": 119,
+        "startChar": 10,
+        "endLine": 119,
+        "endChar": 46,
+        "mentionText": "the little dark room behind the shop"
+      },
+      {
+        "entityId": "dark-room-shop",
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 120,
+        "endChar": 13,
+        "mentionText": "his arm-chair"
+      },
+      {
+        "entityId": "dark-room-shop",
+        "startLine": 201,
+        "startChar": 22,
+        "endLine": 201,
+        "endChar": 35,
+        "mentionText": "his arm-chair"
+      },
+      {
+        "entityId": "dead-room",
+        "startLine": 198,
+        "startChar": 50,
+        "endLine": 198,
+        "endChar": 58,
+        "mentionText": "the room"
+      },
+      {
+        "entityId": "dead-room",
+        "startLine": 187,
+        "startChar": 32,
+        "endLine": 187,
+        "endChar": 39,
+        "mentionText": "the bed"
+      },
+      {
+        "entityId": "dead-room",
+        "startLine": 194,
+        "startChar": 48,
+        "endLine": 194,
+        "endChar": 55,
+        "mentionText": "the bed"
+      },
+      {
+        "entityId": "downstairs-room",
+        "startLine": 200,
+        "startChar": 39,
+        "endLine": 200,
+        "endChar": 65,
+        "mentionText": "the little room downstairs"
+      },
+      {
+        "entityId": "downstairs-room",
+        "startLine": 198,
+        "startChar": 50,
+        "endLine": 198,
+        "endChar": 58,
+        "mentionText": "the room"
+      },
+      {
+        "entityId": "boys-room",
+        "startLine": 92,
+        "startChar": 41,
+        "endLine": 92,
+        "endChar": 48,
+        "mentionText": "my room"
+      },
+      {
+        "entityId": "boys-room",
+        "startLine": 8,
+        "startChar": 41,
+        "endLine": 8,
+        "endChar": 49,
+        "mentionText": "the dark"
+      },
+      {
+        "entityId": "boys-room",
+        "startLine": 92,
+        "startChar": 29,
+        "endLine": 92,
+        "endChar": 37,
+        "mentionText": "the dark"
+      },
+      {
+        "entityId": "boys-room",
+        "startLine": 338,
+        "startChar": 11,
+        "endLine": 338,
+        "endChar": 19,
+        "mentionText": "the dark"
+      },
+      {
+        "entityId": "dream-realm",
+        "startLine": 8,
+        "startChar": 41,
+        "endLine": 8,
+        "endChar": 49,
+        "mentionText": "the dark"
+      },
+      {
+        "entityId": "dream-realm",
+        "startLine": 92,
+        "startChar": 29,
+        "endLine": 92,
+        "endChar": 37,
+        "mentionText": "the dark"
+      },
+      {
+        "entityId": "dream-realm",
+        "startLine": 338,
+        "startChar": 11,
+        "endLine": 338,
+        "endChar": 19,
+        "mentionText": "the dark"
+      },
+      {
+        "entityId": "dream-realm",
+        "startLine": 96,
+        "startChar": 29,
+        "endLine": 96,
+        "endChar": 61,
+        "mentionText": "some pleasant and vicious region"
+      },
+      {
+        "entityId": "persia",
+        "startLine": 169,
+        "startChar": 24,
+        "endLine": 169,
+        "endChar": 30,
+        "mentionText": "Persia"
+      },
+      {
+        "entityId": "irish-college-rome",
+        "startLine": 140,
+        "startChar": 15,
+        "endLine": 140,
+        "endChar": 40,
+        "mentionText": "the Irish college in Rome"
+      },
+      {
+        "entityId": "catacombs",
+        "startLine": 141,
+        "startChar": 55,
+        "endLine": 141,
+        "endChar": 68,
+        "mentionText": "the catacombs"
+      },
+      {
+        "entityId": "chapel",
+        "startLine": 258,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 10,
+        "mentionText": "the chapel"
+      },
+      {
+        "entityId": "chapel",
+        "startLine": 260,
+        "startChar": 20,
+        "endLine": 260,
+        "endChar": 30,
+        "mentionText": "the chapel"
+      },
+      {
+        "entityId": "chapel",
+        "startLine": 334,
+        "startChar": 52,
+        "endLine": 334,
+        "endChar": 62,
+        "mentionText": "the chapel"
+      },
+      {
+        "entityId": "chapel",
+        "startLine": 335,
+        "startChar": 29,
+        "endLine": 335,
+        "endChar": 39,
+        "mentionText": "the chapel"
+      },
+      {
+        "entityId": "irishtown",
+        "startLine": 297,
+        "startChar": 31,
+        "endLine": 297,
+        "endChar": 40,
+        "mentionText": "Irishtown"
+      },
+      {
+        "entityId": "confession-box",
+        "startLine": 338,
+        "startChar": 23,
+        "endLine": 338,
+        "endChar": 41,
+        "mentionText": "his confession-box"
+      },
+      {
+        "entityId": "window-light",
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 28,
+        "mentionText": "the lighted square of window"
+      },
+      {
+        "entityId": "window-light",
+        "startLine": 107,
+        "startChar": 8,
+        "endLine": 107,
+        "endChar": 18,
+        "mentionText": "the window"
+      },
+      {
+        "entityId": "window-light",
+        "startLine": 173,
+        "startChar": 25,
+        "endLine": 173,
+        "endChar": 35,
+        "mentionText": "the window"
+      },
+      {
+        "entityId": "candles",
+        "startLine": 9,
+        "startChar": 5,
+        "endLine": 9,
+        "endChar": 16,
+        "mentionText": "two candles"
+      },
+      {
+        "entityId": "candles",
+        "startLine": 8,
+        "startChar": 30,
+        "endLine": 8,
+        "endChar": 37,
+        "mentionText": "candles"
+      },
+      {
+        "entityId": "candles",
+        "startLine": 9,
+        "startChar": 9,
+        "endLine": 9,
+        "endChar": 16,
+        "mentionText": "candles"
+      },
+      {
+        "entityId": "candles",
+        "startLine": 185,
+        "startChar": 48,
+        "endLine": 185,
+        "endChar": 55,
+        "mentionText": "candles"
+      },
+      {
+        "entityId": "candles",
+        "startLine": 260,
+        "startChar": 0,
+        "endLine": 260,
+        "endChar": 7,
+        "mentionText": "candles"
+      },
+      {
+        "entityId": "candles",
+        "startLine": 186,
+        "startChar": 0,
+        "endLine": 186,
+        "endChar": 16,
+        "mentionText": "pale thin flames"
+      },
+      {
+        "entityId": "blind",
+        "startLine": 184,
+        "startChar": 54,
+        "endLine": 184,
+        "endChar": 63,
+        "mentionText": "the blind"
+      },
+      {
+        "entityId": "blind",
+        "startLine": 8,
+        "startChar": 41,
+        "endLine": 8,
+        "endChar": 59,
+        "mentionText": "the darkened blind"
+      },
+      {
+        "entityId": "stirabout",
+        "startLine": 19,
+        "startChar": 41,
+        "endLine": 19,
+        "endChar": 50,
+        "mentionText": "stirabout"
+      },
+      {
+        "entityId": "stirabout",
+        "startLine": 87,
+        "startChar": 24,
+        "endLine": 87,
+        "endChar": 33,
+        "mentionText": "stirabout"
+      },
+      {
+        "entityId": "pipe",
+        "startLine": 26,
+        "startChar": 20,
+        "endLine": 26,
+        "endChar": 28,
+        "mentionText": "his pipe"
+      },
+      {
+        "entityId": "pipe",
+        "startLine": 34,
+        "startChar": 26,
+        "endLine": 34,
+        "endChar": 34,
+        "mentionText": "his pipe"
+      },
+      {
+        "entityId": "pipe",
+        "startLine": 57,
+        "startChar": 25,
+        "endLine": 57,
+        "endChar": 33,
+        "mentionText": "his pipe"
+      },
+      {
+        "entityId": "pipe",
+        "startLine": 26,
+        "startChar": 24,
+        "endLine": 26,
+        "endChar": 28,
+        "mentionText": "pipe"
+      },
+      {
+        "entityId": "pipe",
+        "startLine": 34,
+        "startChar": 30,
+        "endLine": 34,
+        "endChar": 34,
+        "mentionText": "pipe"
+      },
+      {
+        "entityId": "pipe",
+        "startLine": 57,
+        "startChar": 29,
+        "endLine": 57,
+        "endChar": 33,
+        "mentionText": "pipe"
+      },
+      {
+        "entityId": "leg-mutton",
+        "startLine": 74,
+        "startChar": 5,
+        "endLine": 74,
+        "endChar": 15,
+        "mentionText": "leg mutton"
+      },
+      {
+        "entityId": "crape-bouquet",
+        "startLine": 108,
+        "startChar": 38,
+        "endLine": 108,
+        "endChar": 53,
+        "mentionText": "A crape bouquet"
+      },
+      {
+        "entityId": "crape-bouquet",
+        "startLine": 108,
+        "startChar": 40,
+        "endLine": 108,
+        "endChar": 45,
+        "mentionText": "crape"
+      },
+      {
+        "entityId": "crape-bouquet",
+        "startLine": 110,
+        "startChar": 31,
+        "endLine": 110,
+        "endChar": 36,
+        "mentionText": "crape"
+      },
+      {
+        "entityId": "death-card",
+        "startLine": 110,
+        "startChar": 8,
+        "endLine": 110,
+        "endChar": 16,
+        "mentionText": "the card"
+      },
+      {
+        "entityId": "death-card",
+        "startLine": 117,
+        "startChar": 15,
+        "endLine": 117,
+        "endChar": 23,
+        "mentionText": "the card"
+      },
+      {
+        "entityId": "death-card",
+        "startLine": 260,
+        "startChar": 45,
+        "endLine": 260,
+        "endChar": 55,
+        "mentionText": "the notice"
+      },
+      {
+        "entityId": "shutters",
+        "startLine": 108,
+        "startChar": 16,
+        "endLine": 108,
+        "endChar": 28,
+        "mentionText": "the shutters"
+      },
+      {
+        "entityId": "umbrellas",
+        "startLine": 106,
+        "startChar": 23,
+        "endLine": 106,
+        "endChar": 32,
+        "mentionText": "umbrellas"
+      },
+      {
+        "entityId": "umbrellas",
+        "startLine": 107,
+        "startChar": 29,
+        "endLine": 107,
+        "endChar": 38,
+        "mentionText": "Umbrellas"
+      },
+      {
+        "entityId": "arm-chair",
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 120,
+        "endChar": 13,
+        "mentionText": "his arm-chair"
+      },
+      {
+        "entityId": "arm-chair",
+        "startLine": 201,
+        "startChar": 22,
+        "endLine": 201,
+        "endChar": 35,
+        "mentionText": "his arm-chair"
+      },
+      {
+        "entityId": "great-coat",
+        "startLine": 120,
+        "startChar": 47,
+        "endLine": 120,
+        "endChar": 61,
+        "mentionText": "his great-coat"
+      },
+      {
+        "entityId": "snuff-box",
+        "startLine": 123,
+        "startChar": 28,
+        "endLine": 123,
+        "endChar": 47,
+        "mentionText": "his black snuff-box"
+      },
+      {
+        "entityId": "high-toast",
+        "startLine": 121,
+        "startChar": 40,
+        "endLine": 121,
+        "endChar": 50,
+        "mentionText": "High Toast"
+      },
+      {
+        "entityId": "priestly-garments",
+        "startLine": 128,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 29,
+        "mentionText": "his ancient priestly garments"
+      },
+      {
+        "entityId": "velvet-curtains",
+        "startLine": 167,
+        "startChar": 19,
+        "endLine": 167,
+        "endChar": 39,
+        "mentionText": "long velvet curtains"
+      },
+      {
+        "entityId": "blankets",
+        "startLine": 93,
+        "startChar": 51,
+        "endLine": 93,
+        "endChar": 63,
+        "mentionText": "the blankets"
+      },
+      {
+        "entityId": "coffin",
+        "startLine": 186,
+        "startChar": 30,
+        "endLine": 186,
+        "endChar": 36,
+        "mentionText": "coffin"
+      },
+      {
+        "entityId": "coffin",
+        "startLine": 192,
+        "startChar": 4,
+        "endLine": 192,
+        "endChar": 10,
+        "mentionText": "coffin"
+      },
+      {
+        "entityId": "coffin",
+        "startLine": 257,
+        "startChar": 28,
+        "endLine": 257,
+        "endChar": 34,
+        "mentionText": "coffin"
+      },
+      {
+        "entityId": "coffin",
+        "startLine": 343,
+        "startChar": 4,
+        "endLine": 343,
+        "endChar": 10,
+        "mentionText": "coffin"
+      },
+      {
+        "entityId": "coffin",
+        "startLine": 187,
+        "startChar": 32,
+        "endLine": 187,
+        "endChar": 39,
+        "mentionText": "the bed"
+      },
+      {
+        "entityId": "coffin",
+        "startLine": 194,
+        "startChar": 48,
+        "endLine": 194,
+        "endChar": 55,
+        "mentionText": "the bed"
+      },
+      {
+        "entityId": "lace-blind",
+        "startLine": 184,
+        "startChar": 38,
+        "endLine": 184,
+        "endChar": 63,
+        "mentionText": "the lace end of the blind"
+      },
+      {
+        "entityId": "chalice",
+        "startLine": 196,
+        "startChar": 43,
+        "endLine": 196,
+        "endChar": 50,
+        "mentionText": "chalice"
+      },
+      {
+        "entityId": "chalice",
+        "startLine": 321,
+        "startChar": 13,
+        "endLine": 321,
+        "endChar": 20,
+        "mentionText": "chalice"
+      },
+      {
+        "entityId": "chalice",
+        "startLine": 344,
+        "startChar": 0,
+        "endLine": 344,
+        "endChar": 7,
+        "mentionText": "chalice"
+      },
+      {
+        "entityId": "flowers",
+        "startLine": 198,
+        "startChar": 59,
+        "endLine": 198,
+        "endChar": 70,
+        "mentionText": "the flowers"
+      },
+      {
+        "entityId": "candlesticks",
+        "startLine": 260,
+        "startChar": 0,
+        "endLine": 260,
+        "endChar": 12,
+        "mentionText": "candlesticks"
+      },
+      {
+        "entityId": "sherry",
+        "startLine": 203,
+        "startChar": 26,
+        "endLine": 203,
+        "endChar": 32,
+        "mentionText": "sherry"
+      },
+      {
+        "entityId": "sherry",
+        "startLine": 205,
+        "startChar": 41,
+        "endLine": 205,
+        "endChar": 47,
+        "mentionText": "sherry"
+      },
+      {
+        "entityId": "sherry",
+        "startLine": 316,
+        "startChar": 35,
+        "endLine": 316,
+        "endChar": 41,
+        "mentionText": "sherry"
+      },
+      {
+        "entityId": "sherry",
+        "startLine": 203,
+        "startChar": 42,
+        "endLine": 203,
+        "endChar": 46,
+        "mentionText": "wine"
+      },
+      {
+        "entityId": "sherry",
+        "startLine": 204,
+        "startChar": 54,
+        "endLine": 204,
+        "endChar": 58,
+        "mentionText": "wine"
+      },
+      {
+        "entityId": "sherry",
+        "startLine": 217,
+        "startChar": 12,
+        "endLine": 217,
+        "endChar": 16,
+        "mentionText": "wine"
+      },
+      {
+        "entityId": "wine-glasses",
+        "startLine": 203,
+        "startChar": 42,
+        "endLine": 203,
+        "endChar": 54,
+        "mentionText": "wine-glasses"
+      },
+      {
+        "entityId": "cream-crackers",
+        "startLine": 206,
+        "startChar": 47,
+        "endLine": 206,
+        "endChar": 61,
+        "mentionText": "cream crackers"
+      },
+      {
+        "entityId": "breviary",
+        "startLine": 290,
+        "startChar": 0,
+        "endLine": 290,
+        "endChar": 12,
+        "mentionText": "his breviary"
+      },
+      {
+        "entityId": "soup",
+        "startLine": 289,
+        "startChar": 32,
+        "endLine": 289,
+        "endChar": 40,
+        "mentionText": "his soup"
+      },
+      {
+        "entityId": "carriage",
+        "startLine": 298,
+        "startChar": 38,
+        "endLine": 298,
+        "endChar": 59,
+        "mentionText": "new-fangled carriages"
+      },
+      {
+        "entityId": "handkerchief",
+        "startLine": 306,
+        "startChar": 15,
+        "endLine": 306,
+        "endChar": 31,
+        "mentionText": "her handkerchief"
+      },
+      {
+        "entityId": "fireplace",
+        "startLine": 210,
+        "startChar": 16,
+        "endLine": 210,
+        "endChar": 35,
+        "mentionText": "the empty fireplace"
+      },
+      {
+        "entityId": "sofa",
+        "startLine": 209,
+        "startChar": 11,
+        "endLine": 209,
+        "endChar": 19,
+        "mentionText": "the sofa"
+      },
+      {
+        "entityId": "sofa",
+        "startLine": 252,
+        "startChar": 35,
+        "endLine": 252,
+        "endChar": 43,
+        "mentionText": "the sofa"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 148,
+        "startChar": 29,
+        "endLine": 148,
+        "endChar": 39,
+        "mentionText": "the Church"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 310,
+        "startChar": 57,
+        "endLine": 310,
+        "endChar": 71,
+        "mentionText": "the priesthood"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {

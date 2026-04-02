@@ -21,6 +21,7 @@ const suites = [
   { name: 'Relationship Graph', script: 'src/tests/test-relationship-graph.ts' },
   { name: 'OTEL Import', script: 'src/tests/test-otel-import.ts' },
   { name: 'Interpretive Causality', script: 'src/tests/test-causality.ts' },
+  { name: 'Annotations & Trajectories', script: 'src/tests/test-annotations.ts' },
 ];
 
 let totalPassed = 0;

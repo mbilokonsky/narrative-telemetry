@@ -4219,7 +4219,1368 @@
         "firstIntroduced": "e12-daughter-reluctant"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "daughter",
+        "startLine": 9,
+        "startChar": 22,
+        "endLine": 9,
+        "endChar": 34,
+        "mentionText": "the daughter"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 6,
+        "startChar": 39,
+        "endLine": 6,
+        "endChar": 51,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 7,
+        "startChar": 44,
+        "endLine": 7,
+        "endChar": 56,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 14,
+        "startChar": 37,
+        "endLine": 14,
+        "endChar": 49,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 22,
+        "startChar": 27,
+        "endLine": 22,
+        "endChar": 39,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 27,
+        "startChar": 57,
+        "endLine": 27,
+        "endChar": 69,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 49,
+        "startChar": 34,
+        "endLine": 49,
+        "endChar": 46,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 50,
+        "startChar": 41,
+        "endLine": 50,
+        "endChar": 53,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 12,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 255,
+        "startChar": 42,
+        "endLine": 255,
+        "endChar": 54,
+        "mentionText": "Mrs. Raddick"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 19,
+        "startChar": 14,
+        "endLine": 19,
+        "endChar": 20,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 66,
+        "startChar": 49,
+        "endLine": 66,
+        "endChar": 55,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "mrs-raddick",
+        "startLine": 69,
+        "startChar": 48,
+        "endLine": 69,
+        "endChar": 54,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 14,
+        "startChar": 23,
+        "endLine": 14,
+        "endChar": 29,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 83,
+        "startChar": 54,
+        "endLine": 83,
+        "endChar": 60,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 102,
+        "startChar": 47,
+        "endLine": 102,
+        "endChar": 53,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 126,
+        "startChar": 15,
+        "endLine": 126,
+        "endChar": 21,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 135,
+        "startChar": 1,
+        "endLine": 135,
+        "endChar": 7,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 141,
+        "startChar": 60,
+        "endLine": 141,
+        "endChar": 66,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 155,
+        "startChar": 19,
+        "endLine": 155,
+        "endChar": 25,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 155,
+        "startChar": 27,
+        "endLine": 155,
+        "endChar": 33,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 172,
+        "startChar": 41,
+        "endLine": 172,
+        "endChar": 47,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 183,
+        "startChar": 30,
+        "endLine": 183,
+        "endChar": 36,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 198,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 201,
+        "startChar": 0,
+        "endLine": 201,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 204,
+        "startChar": 0,
+        "endLine": 204,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 214,
+        "startChar": 49,
+        "endLine": 214,
+        "endChar": 55,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 216,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 225,
+        "startChar": 62,
+        "endLine": 225,
+        "endChar": 68,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 239,
+        "startChar": 0,
+        "endLine": 239,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 244,
+        "startChar": 0,
+        "endLine": 244,
+        "endChar": 6,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 252,
+        "startChar": 17,
+        "endLine": 252,
+        "endChar": 23,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 260,
+        "startChar": 47,
+        "endLine": 260,
+        "endChar": 53,
+        "mentionText": "Hennie"
+      },
+      {
+        "entityId": "hennie",
+        "startLine": 105,
+        "startChar": 21,
+        "endLine": 105,
+        "endChar": 35,
+        "mentionText": "little brother"
+      },
+      {
+        "entityId": "old-woman",
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 9,
+        "mentionText": "old woman"
+      },
+      {
+        "entityId": "old-woman",
+        "startLine": 43,
+        "startChar": 4,
+        "endLine": 43,
+        "endChar": 30,
+        "mentionText": "ancient, withered creature"
+      },
+      {
+        "entityId": "mrs-macewen",
+        "startLine": 61,
+        "startChar": 34,
+        "endLine": 61,
+        "endChar": 46,
+        "mentionText": "Mrs. MacEwen"
+      },
+      {
+        "entityId": "mrs-macewen",
+        "startLine": 73,
+        "startChar": 5,
+        "endLine": 73,
+        "endChar": 17,
+        "mentionText": "Mrs. MacEwen"
+      },
+      {
+        "entityId": "mrs-macewen",
+        "startLine": 78,
+        "startChar": 9,
+        "endLine": 78,
+        "endChar": 21,
+        "mentionText": "Mrs. MacEwen"
+      },
+      {
+        "entityId": "english-bulldog",
+        "startLine": 33,
+        "startChar": 31,
+        "endLine": 33,
+        "endChar": 46,
+        "mentionText": "English bulldog"
+      },
+      {
+        "entityId": "english-bulldog",
+        "startLine": 33,
+        "startChar": 43,
+        "endLine": 33,
+        "endChar": 46,
+        "mentionText": "dog"
+      },
+      {
+        "entityId": "english-bulldog",
+        "startLine": 34,
+        "startChar": 5,
+        "endLine": 34,
+        "endChar": 8,
+        "mentionText": "dog"
+      },
+      {
+        "entityId": "waitress",
+        "startLine": 122,
+        "startChar": 4,
+        "endLine": 122,
+        "endChar": 12,
+        "mentionText": "waitress"
+      },
+      {
+        "entityId": "waitress",
+        "startLine": 128,
+        "startChar": 16,
+        "endLine": 128,
+        "endChar": 24,
+        "mentionText": "waitress"
+      },
+      {
+        "entityId": "waitress",
+        "startLine": 140,
+        "startChar": 4,
+        "endLine": 140,
+        "endChar": 12,
+        "mentionText": "waitress"
+      },
+      {
+        "entityId": "waitress",
+        "startLine": 204,
+        "startChar": 30,
+        "endLine": 204,
+        "endChar": 38,
+        "mentionText": "waitress"
+      },
+      {
+        "entityId": "pastry-boy",
+        "startLine": 150,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 10,
+        "mentionText": "tiny boy"
+      },
+      {
+        "entityId": "chauffeur",
+        "startLine": 244,
+        "startChar": 33,
+        "endLine": 244,
+        "endChar": 42,
+        "mentionText": "chauffeur"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 10,
+        "startChar": 36,
+        "endLine": 10,
+        "endChar": 55,
+        "mentionText": "steps of the Casino"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 10,
+        "startChar": 49,
+        "endLine": 10,
+        "endChar": 55,
+        "mentionText": "Casino"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 255,
+        "startChar": 24,
+        "endLine": 255,
+        "endChar": 30,
+        "mentionText": "Casino"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 10,
+        "startChar": 32,
+        "endLine": 10,
+        "endChar": 41,
+        "mentionText": "the steps"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 30,
+        "startChar": 22,
+        "endLine": 30,
+        "endChar": 31,
+        "mentionText": "the steps"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 45,
+        "startChar": 10,
+        "endLine": 45,
+        "endChar": 19,
+        "mentionText": "the steps"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 81,
+        "startChar": 18,
+        "endLine": 81,
+        "endChar": 27,
+        "mentionText": "the steps"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 86,
+        "startChar": 38,
+        "endLine": 86,
+        "endChar": 47,
+        "mentionText": "the steps"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 256,
+        "startChar": 30,
+        "endLine": 256,
+        "endChar": 39,
+        "mentionText": "the steps"
+      },
+      {
+        "entityId": "casino-steps",
+        "startLine": 261,
+        "startChar": 46,
+        "endLine": 261,
+        "endChar": 55,
+        "mentionText": "the steps"
+      },
+      {
+        "entityId": "tea-palace",
+        "startLine": 96,
+        "startChar": 21,
+        "endLine": 96,
+        "endChar": 60,
+        "mentionText": "immense palace of pink-and-white marble"
+      },
+      {
+        "entityId": "tea-palace",
+        "startLine": 96,
+        "startChar": 29,
+        "endLine": 96,
+        "endChar": 35,
+        "mentionText": "palace"
+      },
+      {
+        "entityId": "tea-palace",
+        "startLine": 186,
+        "startChar": 47,
+        "endLine": 186,
+        "endChar": 52,
+        "mentionText": "place"
+      },
+      {
+        "entityId": "tea-palace",
+        "startLine": 214,
+        "startChar": 31,
+        "endLine": 214,
+        "endChar": 36,
+        "mentionText": "place"
+      },
+      {
+        "entityId": "tea-palace",
+        "startLine": 219,
+        "startChar": 11,
+        "endLine": 219,
+        "endChar": 16,
+        "mentionText": "place"
+      },
+      {
+        "entityId": "tea-palace",
+        "startLine": 230,
+        "startChar": 20,
+        "endLine": 230,
+        "endChar": 25,
+        "mentionText": "place"
+      },
+      {
+        "entityId": "tea-palace",
+        "startLine": 271,
+        "startChar": 31,
+        "endLine": 271,
+        "endChar": 36,
+        "mentionText": "place"
+      },
+      {
+        "entityId": "car",
+        "startLine": 15,
+        "startChar": 12,
+        "endLine": 15,
+        "endChar": 15,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 75,
+        "startChar": 39,
+        "endLine": 75,
+        "endChar": 42,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 84,
+        "startChar": 36,
+        "endLine": 84,
+        "endChar": 39,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 86,
+        "startChar": 23,
+        "endLine": 86,
+        "endChar": 26,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 88,
+        "startChar": 43,
+        "endLine": 88,
+        "endChar": 46,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 99,
+        "startChar": 11,
+        "endLine": 99,
+        "endChar": 14,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 108,
+        "startChar": 33,
+        "endLine": 108,
+        "endChar": 36,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 128,
+        "startChar": 51,
+        "endLine": 128,
+        "endChar": 54,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 136,
+        "startChar": 12,
+        "endLine": 136,
+        "endChar": 15,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 236,
+        "startChar": 4,
+        "endLine": 236,
+        "endChar": 7,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 258,
+        "startChar": 22,
+        "endLine": 258,
+        "endChar": 25,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 261,
+        "startChar": 27,
+        "endLine": 261,
+        "endChar": 30,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "car",
+        "startLine": 263,
+        "startChar": 8,
+        "endLine": 263,
+        "endChar": 11,
+        "mentionText": "car"
+      },
+      {
+        "entityId": "seaside-resort",
+        "startLine": 251,
+        "startChar": 35,
+        "endLine": 251,
+        "endChar": 39,
+        "mentionText": "town"
+      },
+      {
+        "entityId": "seaside-resort",
+        "startLine": 251,
+        "startChar": 20,
+        "endLine": 251,
+        "endChar": 39,
+        "mentionText": "black-and-gold town"
+      },
+      {
+        "entityId": "salle-privee",
+        "startLine": 62,
+        "startChar": 35,
+        "endLine": 62,
+        "endChar": 47,
+        "mentionText": "Salle Privée"
+      },
+      {
+        "entityId": "blue-dress",
+        "startLine": 4,
+        "startChar": 7,
+        "endLine": 4,
+        "endChar": 17,
+        "mentionText": "blue dress"
+      },
+      {
+        "entityId": "blue-dress",
+        "startLine": 274,
+        "startChar": 7,
+        "endLine": 274,
+        "endChar": 17,
+        "mentionText": "blue dress"
+      },
+      {
+        "entityId": "gold-curls",
+        "startLine": 5,
+        "startChar": 14,
+        "endLine": 5,
+        "endChar": 24,
+        "mentionText": "gold curls"
+      },
+      {
+        "entityId": "gold-curls",
+        "startLine": 5,
+        "startChar": 19,
+        "endLine": 5,
+        "endChar": 24,
+        "mentionText": "curls"
+      },
+      {
+        "entityId": "blue-eyes",
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 4,
+        "mentionText": "eyes"
+      },
+      {
+        "entityId": "blue-eyes",
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 4,
+        "mentionText": "eyes"
+      },
+      {
+        "entityId": "blue-eyes",
+        "startLine": 138,
+        "startChar": 22,
+        "endLine": 138,
+        "endChar": 26,
+        "mentionText": "eyes"
+      },
+      {
+        "entityId": "blue-eyes",
+        "startLine": 169,
+        "startChar": 11,
+        "endLine": 169,
+        "endChar": 15,
+        "mentionText": "eyes"
+      },
+      {
+        "entityId": "blue-eyes",
+        "startLine": 220,
+        "startChar": 50,
+        "endLine": 220,
+        "endChar": 54,
+        "mentionText": "eyes"
+      },
+      {
+        "entityId": "blue-eyes",
+        "startLine": 268,
+        "startChar": 39,
+        "endLine": 268,
+        "endChar": 43,
+        "mentionText": "eyes"
+      },
+      {
+        "entityId": "money-notes",
+        "startLine": 27,
+        "startChar": 11,
+        "endLine": 27,
+        "endChar": 23,
+        "mentionText": "fifty francs"
+      },
+      {
+        "entityId": "money-notes",
+        "startLine": 27,
+        "startChar": 41,
+        "endLine": 27,
+        "endChar": 48,
+        "mentionText": "hundred"
+      },
+      {
+        "entityId": "money-notes",
+        "startLine": 28,
+        "startChar": 9,
+        "endLine": 28,
+        "endChar": 14,
+        "mentionText": "notes"
+      },
+      {
+        "entityId": "boot-bag",
+        "startLine": 47,
+        "startChar": 53,
+        "endLine": 47,
+        "endChar": 67,
+        "mentionText": "dirty boot-bag"
+      },
+      {
+        "entityId": "boot-bag",
+        "startLine": 47,
+        "startChar": 59,
+        "endLine": 47,
+        "endChar": 67,
+        "mentionText": "boot-bag"
+      },
+      {
+        "entityId": "mrs-raddick-purse",
+        "startLine": 60,
+        "startChar": 3,
+        "endLine": 60,
+        "endChar": 8,
+        "mentionText": "purse"
+      },
+      {
+        "entityId": "mrs-raddick-purse",
+        "startLine": 20,
+        "startChar": 15,
+        "endLine": 20,
+        "endChar": 18,
+        "mentionText": "bag"
+      },
+      {
+        "entityId": "mrs-raddick-purse",
+        "startLine": 47,
+        "startChar": 64,
+        "endLine": 47,
+        "endChar": 67,
+        "mentionText": "bag"
+      },
+      {
+        "entityId": "mrs-raddick-purse",
+        "startLine": 81,
+        "startChar": 39,
+        "endLine": 81,
+        "endChar": 42,
+        "mentionText": "bag"
+      },
+      {
+        "entityId": "gold-powder-box",
+        "startLine": 131,
+        "startChar": 31,
+        "endLine": 131,
+        "endChar": 54,
+        "mentionText": "little, gold powder-box"
+      },
+      {
+        "entityId": "gold-powder-box",
+        "startLine": 131,
+        "startChar": 44,
+        "endLine": 131,
+        "endChar": 54,
+        "mentionText": "powder-box"
+      },
+      {
+        "entityId": "gold-powder-box",
+        "startLine": 247,
+        "startChar": 9,
+        "endLine": 247,
+        "endChar": 19,
+        "mentionText": "powder-box"
+      },
+      {
+        "entityId": "gold-powder-box",
+        "startLine": 131,
+        "startChar": 39,
+        "endLine": 131,
+        "endChar": 54,
+        "mentionText": "gold powder-box"
+      },
+      {
+        "entityId": "gold-powder-box",
+        "startLine": 247,
+        "startChar": 4,
+        "endLine": 247,
+        "endChar": 19,
+        "mentionText": "gold powder-box"
+      },
+      {
+        "entityId": "pink-carnations",
+        "startLine": 108,
+        "startChar": 28,
+        "endLine": 108,
+        "endChar": 43,
+        "mentionText": "pink carnations"
+      },
+      {
+        "entityId": "pink-carnations",
+        "startLine": 108,
+        "startChar": 33,
+        "endLine": 108,
+        "endChar": 43,
+        "mentionText": "carnations"
+      },
+      {
+        "entityId": "pink-carnations",
+        "startLine": 136,
+        "startChar": 12,
+        "endLine": 136,
+        "endChar": 22,
+        "mentionText": "carnations"
+      },
+      {
+        "entityId": "pink-carnations",
+        "startLine": 135,
+        "startChar": 32,
+        "endLine": 135,
+        "endChar": 39,
+        "mentionText": "flowers"
+      },
+      {
+        "entityId": "pink-carnations",
+        "startLine": 136,
+        "startChar": 62,
+        "endLine": 136,
+        "endChar": 69,
+        "mentionText": "flowers"
+      },
+      {
+        "entityId": "pink-plates",
+        "startLine": 108,
+        "startChar": 48,
+        "endLine": 108,
+        "endChar": 59,
+        "mentionText": "pink plates"
+      },
+      {
+        "entityId": "pink-plates",
+        "startLine": 108,
+        "startChar": 53,
+        "endLine": 108,
+        "endChar": 59,
+        "mentionText": "plates"
+      },
+      {
+        "entityId": "pink-plates",
+        "startLine": 225,
+        "startChar": 54,
+        "endLine": 225,
+        "endChar": 60,
+        "mentionText": "plates"
+      },
+      {
+        "entityId": "white-wicker-chair",
+        "startLine": 113,
+        "startChar": 42,
+        "endLine": 113,
+        "endChar": 60,
+        "mentionText": "white wicker chair"
+      },
+      {
+        "entityId": "white-wicker-chair",
+        "startLine": 113,
+        "startChar": 55,
+        "endLine": 113,
+        "endChar": 60,
+        "mentionText": "chair"
+      },
+      {
+        "entityId": "chocolate",
+        "startLine": 129,
+        "startChar": 23,
+        "endLine": 129,
+        "endChar": 32,
+        "mentionText": "chocolate"
+      },
+      {
+        "entityId": "chocolate",
+        "startLine": 140,
+        "startChar": 32,
+        "endLine": 140,
+        "endChar": 41,
+        "mentionText": "chocolate"
+      },
+      {
+        "entityId": "chocolate",
+        "startLine": 150,
+        "startChar": 43,
+        "endLine": 150,
+        "endChar": 52,
+        "mentionText": "chocolate"
+      },
+      {
+        "entityId": "chocolate",
+        "startLine": 156,
+        "startChar": 32,
+        "endLine": 156,
+        "endChar": 41,
+        "mentionText": "chocolate"
+      },
+      {
+        "entityId": "chocolate",
+        "startLine": 126,
+        "startChar": 34,
+        "endLine": 126,
+        "endChar": 43,
+        "mentionText": "Chocolate"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 15,
+        "startChar": 33,
+        "endLine": 15,
+        "endChar": 36,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 75,
+        "startChar": 55,
+        "endLine": 75,
+        "endChar": 58,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 109,
+        "startChar": 5,
+        "endLine": 109,
+        "endChar": 8,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 123,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 3,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 123,
+        "startChar": 12,
+        "endLine": 123,
+        "endChar": 15,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 140,
+        "startChar": 50,
+        "endLine": 140,
+        "endChar": 53,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 167,
+        "startChar": 42,
+        "endLine": 167,
+        "endChar": 45,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 232,
+        "startChar": 0,
+        "endLine": 232,
+        "endChar": 3,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 251,
+        "startChar": 64,
+        "endLine": 251,
+        "endChar": 67,
+        "mentionText": "tea"
+      },
+      {
+        "entityId": "tea",
+        "startLine": 122,
+        "startChar": 51,
+        "endLine": 122,
+        "endChar": 54,
+        "mentionText": "Tea"
+      },
+      {
+        "entityId": "pastries",
+        "startLine": 151,
+        "startChar": 15,
+        "endLine": 151,
+        "endChar": 23,
+        "mentionText": "pastries"
+      },
+      {
+        "entityId": "pastries",
+        "startLine": 156,
+        "startChar": 32,
+        "endLine": 156,
+        "endChar": 47,
+        "mentionText": "chocolate cream"
+      },
+      {
+        "entityId": "pastries",
+        "startLine": 156,
+        "startChar": 51,
+        "endLine": 156,
+        "endChar": 64,
+        "mentionText": "coffee éclair"
+      },
+      {
+        "entityId": "pastries",
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 8,
+        "mentionText": "meringue"
+      },
+      {
+        "entityId": "pastries",
+        "startLine": 157,
+        "startChar": 42,
+        "endLine": 157,
+        "endChar": 46,
+        "mentionText": "horn"
+      },
+      {
+        "entityId": "pastries",
+        "startLine": 173,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 4,
+        "mentionText": "horn"
+      },
+      {
+        "entityId": "pastries",
+        "startLine": 163,
+        "startChar": 47,
+        "endLine": 163,
+        "endChar": 61,
+        "mentionText": "cherry tartlet"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 24,
+        "startChar": 63,
+        "endLine": 24,
+        "endChar": 66,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 123,
+        "startChar": 7,
+        "endLine": 123,
+        "endChar": 10,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 145,
+        "startChar": 19,
+        "endLine": 145,
+        "endChar": 22,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 200,
+        "startChar": 64,
+        "endLine": 200,
+        "endChar": 67,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 212,
+        "startChar": 41,
+        "endLine": 212,
+        "endChar": 44,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 214,
+        "startChar": 27,
+        "endLine": 214,
+        "endChar": 30,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 219,
+        "startChar": 1,
+        "endLine": 219,
+        "endChar": 4,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 219,
+        "startChar": 19,
+        "endLine": 219,
+        "endChar": 22,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 270,
+        "startChar": 14,
+        "endLine": 270,
+        "endChar": 17,
+        "mentionText": "ice"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 201,
+        "startChar": 19,
+        "endLine": 201,
+        "endChar": 39,
+        "mentionText": "tangerine and ginger"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 207,
+        "startChar": 13,
+        "endLine": 207,
+        "endChar": 33,
+        "mentionText": "tangerine and ginger"
+      },
+      {
+        "entityId": "ice-cream",
+        "startLine": 202,
+        "startChar": 14,
+        "endLine": 202,
+        "endChar": 29,
+        "mentionText": "pineapple cream"
+      },
+      {
+        "entityId": "white-gloves",
+        "startLine": 226,
+        "startChar": 47,
+        "endLine": 226,
+        "endChar": 59,
+        "mentionText": "white gloves"
+      },
+      {
+        "entityId": "white-gloves",
+        "startLine": 118,
+        "startChar": 44,
+        "endLine": 118,
+        "endChar": 50,
+        "mentionText": "gloves"
+      },
+      {
+        "entityId": "white-gloves",
+        "startLine": 226,
+        "startChar": 53,
+        "endLine": 226,
+        "endChar": 59,
+        "mentionText": "gloves"
+      },
+      {
+        "entityId": "diamond-wrist-watch",
+        "startLine": 227,
+        "startChar": 26,
+        "endLine": 227,
+        "endChar": 45,
+        "mentionText": "diamond wrist-watch"
+      },
+      {
+        "entityId": "diamond-wrist-watch",
+        "startLine": 30,
+        "startChar": 42,
+        "endLine": 30,
+        "endChar": 47,
+        "mentionText": "watch"
+      },
+      {
+        "entityId": "diamond-wrist-watch",
+        "startLine": 146,
+        "startChar": 26,
+        "endLine": 146,
+        "endChar": 31,
+        "mentionText": "watch"
+      },
+      {
+        "entityId": "diamond-wrist-watch",
+        "startLine": 158,
+        "startChar": 39,
+        "endLine": 158,
+        "endChar": 44,
+        "mentionText": "watch"
+      },
+      {
+        "entityId": "diamond-wrist-watch",
+        "startLine": 227,
+        "startChar": 40,
+        "endLine": 227,
+        "endChar": 45,
+        "mentionText": "watch"
+      },
+      {
+        "entityId": "dark-coat",
+        "startLine": 273,
+        "startChar": 4,
+        "endLine": 273,
+        "endChar": 13,
+        "mentionText": "dark coat"
+      },
+      {
+        "entityId": "dark-coat",
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 4,
+        "mentionText": "coat"
+      },
+      {
+        "entityId": "dark-coat",
+        "startLine": 266,
+        "startChar": 27,
+        "endLine": 266,
+        "endChar": 31,
+        "mentionText": "coat"
+      },
+      {
+        "entityId": "dark-coat",
+        "startLine": 273,
+        "startChar": 9,
+        "endLine": 273,
+        "endChar": 13,
+        "mentionText": "coat"
+      },
+      {
+        "entityId": "cigarette",
+        "startLine": 193,
+        "startChar": 36,
+        "endLine": 193,
+        "endChar": 45,
+        "mentionText": "cigarette"
+      },
+      {
+        "entityId": "butterfly-list",
+        "startLine": 200,
+        "startChar": 13,
+        "endLine": 200,
+        "endChar": 27,
+        "mentionText": "butterfly list"
+      },
+      {
+        "entityId": "violin",
+        "startLine": 119,
+        "startChar": 38,
+        "endLine": 119,
+        "endChar": 50,
+        "mentionText": "faint violin"
+      },
+      {
+        "entityId": "orchestra",
+        "startLine": 208,
+        "startChar": 37,
+        "endLine": 208,
+        "endChar": 46,
+        "mentionText": "orchestra"
+      },
+      {
+        "entityId": "orange-trees",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 12,
+        "mentionText": "orange-trees"
+      },
+      {
+        "entityId": "monocle",
+        "startLine": 221,
+        "startChar": 54,
+        "endLine": 221,
+        "endChar": 61,
+        "mentionText": "monocle"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {

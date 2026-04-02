@@ -73,6 +73,8 @@ export interface Absential {
   id: string;
   name: string;
   description: string;
+  holder?: string;
+  relatedEntities?: Array<{ entityId: string; relationship: string; strength: number }>;
   stateHistory: AbsentialState[];
 }
 

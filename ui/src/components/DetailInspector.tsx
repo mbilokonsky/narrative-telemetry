@@ -390,8 +390,10 @@ export function DetailInspector({
       <div className="detail-inspector">
         <AbsentialTimeline
           absential={abs}
+          absentialId={selection.absentialId}
           events={model.text.events}
           reading={model.readings[activeReading]}
+          diegetic={model.text.diegetic}
           onSelectEvent={onSelectEvent ?? (() => {})}
         />
         <TensionChart

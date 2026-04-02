@@ -5074,7 +5074,872 @@
         "firstIntroduced": "e23"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "miss-brill",
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 10,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 6,
+        "startChar": 10,
+        "endLine": 6,
+        "endChar": 20,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 9,
+        "startChar": 59,
+        "endLine": 9,
+        "endChar": 69,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 41,
+        "startChar": 55,
+        "endLine": 41,
+        "endChar": 65,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 55,
+        "startChar": 54,
+        "endLine": 55,
+        "endChar": 64,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 69,
+        "startChar": 54,
+        "endLine": 69,
+        "endChar": 64,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 87,
+        "startChar": 19,
+        "endLine": 87,
+        "endChar": 29,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 103,
+        "startChar": 28,
+        "endLine": 103,
+        "endChar": 38,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 10,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 125,
+        "startChar": 23,
+        "endLine": 125,
+        "endChar": 33,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 133,
+        "startChar": 31,
+        "endLine": 133,
+        "endChar": 41,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 141,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 10,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 147,
+        "endChar": 10,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "miss-brill",
+        "startLine": 154,
+        "startChar": 60,
+        "endLine": 154,
+        "endChar": 70,
+        "mentionText": "Miss Brill"
+      },
+      {
+        "entityId": "fur-stole",
+        "startLine": 6,
+        "startChar": 58,
+        "endLine": 6,
+        "endChar": 61,
+        "mentionText": "fur"
+      },
+      {
+        "entityId": "fur-stole",
+        "startLine": 10,
+        "startChar": 32,
+        "endLine": 10,
+        "endChar": 35,
+        "mentionText": "fur"
+      },
+      {
+        "entityId": "fur-stole",
+        "startLine": 163,
+        "startChar": 13,
+        "endLine": 163,
+        "endChar": 16,
+        "mentionText": "fur"
+      },
+      {
+        "entityId": "fur-stole",
+        "startLine": 181,
+        "startChar": 59,
+        "endLine": 181,
+        "endChar": 62,
+        "mentionText": "fur"
+      },
+      {
+        "entityId": "fur-stole",
+        "startLine": 10,
+        "startChar": 42,
+        "endLine": 10,
+        "endChar": 54,
+        "mentionText": "little thing"
+      },
+      {
+        "entityId": "old-man-velvet",
+        "startLine": 38,
+        "startChar": 45,
+        "endLine": 38,
+        "endChar": 57,
+        "mentionText": "fine old man"
+      },
+      {
+        "entityId": "old-man-velvet",
+        "startLine": 38,
+        "startChar": 50,
+        "endLine": 38,
+        "endChar": 57,
+        "mentionText": "old man"
+      },
+      {
+        "entityId": "old-man-velvet",
+        "startLine": 107,
+        "startChar": 55,
+        "endLine": 107,
+        "endChar": 62,
+        "mentionText": "old man"
+      },
+      {
+        "entityId": "englishman-panama",
+        "startLine": 48,
+        "startChar": 58,
+        "endLine": 48,
+        "endChar": 68,
+        "mentionText": "Englishman"
+      },
+      {
+        "entityId": "englishwoman-spectacles",
+        "startLine": 49,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 12,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "young-soldiers",
+        "startLine": 81,
+        "startChar": 35,
+        "endLine": 81,
+        "endChar": 61,
+        "mentionText": "two young soldiers in blue"
+      },
+      {
+        "entityId": "young-girls-red",
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 22,
+        "mentionText": "Two young girls in red"
+      },
+      {
+        "entityId": "peasant-women",
+        "startLine": 82,
+        "startChar": 53,
+        "endLine": 82,
+        "endChar": 70,
+        "mentionText": "Two peasant women"
+      },
+      {
+        "entityId": "nun",
+        "startLine": 84,
+        "startChar": 9,
+        "endLine": 84,
+        "endChar": 25,
+        "mentionText": "A cold, pale nun"
+      },
+      {
+        "entityId": "beautiful-woman-violets",
+        "startLine": 84,
+        "startChar": 38,
+        "endLine": 84,
+        "endChar": 55,
+        "mentionText": "A beautiful woman"
+      },
+      {
+        "entityId": "little-boy-violets",
+        "startLine": 85,
+        "startChar": 34,
+        "endLine": 85,
+        "endChar": 46,
+        "mentionText": "a little boy"
+      },
+      {
+        "entityId": "ermine-toque-woman",
+        "startLine": 88,
+        "startChar": 16,
+        "endLine": 88,
+        "endChar": 28,
+        "mentionText": "ermine toque"
+      },
+      {
+        "entityId": "ermine-toque-woman",
+        "startLine": 99,
+        "startChar": 30,
+        "endLine": 99,
+        "endChar": 42,
+        "mentionText": "ermine toque"
+      },
+      {
+        "entityId": "ermine-toque-woman",
+        "startLine": 103,
+        "startChar": 53,
+        "endLine": 103,
+        "endChar": 65,
+        "mentionText": "ermine toque"
+      },
+      {
+        "entityId": "gentleman-grey",
+        "startLine": 88,
+        "startChar": 35,
+        "endLine": 88,
+        "endChar": 52,
+        "mentionText": "gentleman in grey"
+      },
+      {
+        "entityId": "invalid-gentleman",
+        "startLine": 126,
+        "startChar": 30,
+        "endLine": 126,
+        "endChar": 51,
+        "mentionText": "old invalid gentleman"
+      },
+      {
+        "entityId": "young-girl-lover",
+        "startLine": 64,
+        "startChar": 7,
+        "endLine": 64,
+        "endChar": 11,
+        "mentionText": "girl"
+      },
+      {
+        "entityId": "young-girl-lover",
+        "startLine": 81,
+        "startChar": 10,
+        "endLine": 81,
+        "endChar": 14,
+        "mentionText": "girl"
+      },
+      {
+        "entityId": "young-girl-lover",
+        "startLine": 109,
+        "startChar": 13,
+        "endLine": 109,
+        "endChar": 17,
+        "mentionText": "girl"
+      },
+      {
+        "entityId": "young-girl-lover",
+        "startLine": 151,
+        "startChar": 30,
+        "endLine": 151,
+        "endChar": 34,
+        "mentionText": "girl"
+      },
+      {
+        "entityId": "young-girl-lover",
+        "startLine": 157,
+        "startChar": 24,
+        "endLine": 157,
+        "endChar": 28,
+        "mentionText": "girl"
+      },
+      {
+        "entityId": "young-girl-lover",
+        "startLine": 163,
+        "startChar": 49,
+        "endLine": 163,
+        "endChar": 53,
+        "mentionText": "girl"
+      },
+      {
+        "entityId": "young-girl-lover",
+        "startLine": 169,
+        "startChar": 25,
+        "endLine": 169,
+        "endChar": 29,
+        "mentionText": "girl"
+      },
+      {
+        "entityId": "band-conductor",
+        "startLine": 30,
+        "startChar": 48,
+        "endLine": 30,
+        "endChar": 57,
+        "mentionText": "conductor"
+      },
+      {
+        "entityId": "bandsmen",
+        "startLine": 32,
+        "startChar": 55,
+        "endLine": 32,
+        "endChar": 63,
+        "mentionText": "bandsmen"
+      },
+      {
+        "entityId": "old-beggar",
+        "startLine": 61,
+        "startChar": 47,
+        "endLine": 61,
+        "endChar": 57,
+        "mentionText": "old beggar"
+      },
+      {
+        "entityId": "little-children",
+        "startLine": 62,
+        "startChar": 28,
+        "endLine": 62,
+        "endChar": 43,
+        "mentionText": "Little children"
+      },
+      {
+        "entityId": "little-staggerer",
+        "startLine": 65,
+        "startChar": 12,
+        "endLine": 65,
+        "endChar": 26,
+        "mentionText": "tiny staggerer"
+      },
+      {
+        "entityId": "young-hen-mother",
+        "startLine": 67,
+        "startChar": 4,
+        "endLine": 67,
+        "endChar": 30,
+        "mentionText": "small high-stepping mother"
+      },
+      {
+        "entityId": "little-brown-dog",
+        "startLine": 114,
+        "startChar": 7,
+        "endLine": 114,
+        "endChar": 23,
+        "mentionText": "little brown dog"
+      },
+      {
+        "entityId": "baker",
+        "startLine": 173,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 5,
+        "mentionText": "baker"
+      },
+      {
+        "entityId": "baker",
+        "startLine": 179,
+        "startChar": 26,
+        "endLine": 179,
+        "endChar": 31,
+        "mentionText": "baker"
+      },
+      {
+        "entityId": "jardins-publiques",
+        "startLine": 127,
+        "startChar": 59,
+        "endLine": 127,
+        "endChar": 65,
+        "mentionText": "garden"
+      },
+      {
+        "entityId": "jardins-publiques",
+        "startLine": 33,
+        "startChar": 13,
+        "endLine": 33,
+        "endChar": 20,
+        "mentionText": "rotunda"
+      },
+      {
+        "entityId": "jardins-publiques",
+        "startLine": 60,
+        "startChar": 13,
+        "endLine": 60,
+        "endChar": 20,
+        "mentionText": "rotunda"
+      },
+      {
+        "entityId": "jardins-publiques",
+        "startLine": 75,
+        "startChar": 11,
+        "endLine": 75,
+        "endChar": 18,
+        "mentionText": "rotunda"
+      },
+      {
+        "entityId": "jardins-publiques",
+        "startLine": 68,
+        "startChar": 36,
+        "endLine": 68,
+        "endChar": 43,
+        "mentionText": "benches"
+      },
+      {
+        "entityId": "jardins-publiques",
+        "startLine": 145,
+        "startChar": 4,
+        "endLine": 145,
+        "endChar": 11,
+        "mentionText": "benches"
+      },
+      {
+        "entityId": "jardins-publiques",
+        "startLine": 59,
+        "startChar": 59,
+        "endLine": 59,
+        "endChar": 70,
+        "mentionText": "flower-beds"
+      },
+      {
+        "entityId": "band-rotunda",
+        "startLine": 33,
+        "startChar": 7,
+        "endLine": 33,
+        "endChar": 20,
+        "mentionText": "green rotunda"
+      },
+      {
+        "entityId": "band-rotunda",
+        "startLine": 33,
+        "startChar": 13,
+        "endLine": 33,
+        "endChar": 20,
+        "mentionText": "rotunda"
+      },
+      {
+        "entityId": "band-rotunda",
+        "startLine": 60,
+        "startChar": 13,
+        "endLine": 60,
+        "endChar": 20,
+        "mentionText": "rotunda"
+      },
+      {
+        "entityId": "band-rotunda",
+        "startLine": 75,
+        "startChar": 11,
+        "endLine": 75,
+        "endChar": 18,
+        "mentionText": "rotunda"
+      },
+      {
+        "entityId": "miss-brills-special-seat",
+        "startLine": 58,
+        "startChar": 26,
+        "endLine": 58,
+        "endChar": 31,
+        "mentionText": "bench"
+      },
+      {
+        "entityId": "miss-brills-special-seat",
+        "startLine": 68,
+        "startChar": 36,
+        "endLine": 68,
+        "endChar": 41,
+        "mentionText": "bench"
+      },
+      {
+        "entityId": "miss-brills-special-seat",
+        "startLine": 145,
+        "startChar": 4,
+        "endLine": 145,
+        "endChar": 9,
+        "mentionText": "bench"
+      },
+      {
+        "entityId": "miss-brills-room",
+        "startLine": 180,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 16,
+        "mentionText": "little dark room"
+      },
+      {
+        "entityId": "miss-brills-room",
+        "startLine": 180,
+        "startChar": 21,
+        "endLine": 180,
+        "endChar": 41,
+        "mentionText": "room like a cupboard"
+      },
+      {
+        "entityId": "miss-brills-room",
+        "startLine": 15,
+        "startChar": 4,
+        "endLine": 15,
+        "endChar": 17,
+        "mentionText": "red eiderdown"
+      },
+      {
+        "entityId": "invalid-gentlemans-garden",
+        "startLine": 127,
+        "startChar": 59,
+        "endLine": 127,
+        "endChar": 65,
+        "mentionText": "garden"
+      },
+      {
+        "entityId": "sea",
+        "startLine": 17,
+        "startChar": 33,
+        "endLine": 17,
+        "endChar": 36,
+        "mentionText": "sea"
+      },
+      {
+        "entityId": "sea",
+        "startLine": 28,
+        "startChar": 16,
+        "endLine": 28,
+        "endChar": 19,
+        "mentionText": "sea"
+      },
+      {
+        "entityId": "sea",
+        "startLine": 38,
+        "startChar": 37,
+        "endLine": 38,
+        "endChar": 40,
+        "mentionText": "sea"
+      },
+      {
+        "entityId": "sea",
+        "startLine": 76,
+        "startChar": 32,
+        "endLine": 76,
+        "endChar": 35,
+        "mentionText": "sea"
+      },
+      {
+        "entityId": "sea",
+        "startLine": 95,
+        "startChar": 49,
+        "endLine": 95,
+        "endChar": 52,
+        "mentionText": "sea"
+      },
+      {
+        "entityId": "sea",
+        "startLine": 107,
+        "startChar": 8,
+        "endLine": 107,
+        "endChar": 11,
+        "mentionText": "sea"
+      },
+      {
+        "entityId": "fur-stole",
+        "startLine": 182,
+        "startChar": 37,
+        "endLine": 182,
+        "endChar": 44,
+        "mentionText": "necklet"
+      },
+      {
+        "entityId": "moth-powder",
+        "startLine": 12,
+        "startChar": 8,
+        "endLine": 12,
+        "endChar": 19,
+        "mentionText": "moth-powder"
+      },
+      {
+        "entityId": "black-sealing-wax",
+        "startLine": 17,
+        "startChar": 27,
+        "endLine": 17,
+        "endChar": 44,
+        "mentionText": "black sealing-wax"
+      },
+      {
+        "entityId": "walking-stick",
+        "startLine": 39,
+        "startChar": 31,
+        "endLine": 39,
+        "endChar": 56,
+        "mentionText": "huge carved walking-stick"
+      },
+      {
+        "entityId": "knitting",
+        "startLine": 40,
+        "startChar": 31,
+        "endLine": 40,
+        "endChar": 47,
+        "mentionText": "roll of knitting"
+      },
+      {
+        "entityId": "panama-hat",
+        "startLine": 49,
+        "startChar": 27,
+        "endLine": 49,
+        "endChar": 46,
+        "mentionText": "dreadful Panama hat"
+      },
+      {
+        "entityId": "button-boots",
+        "startLine": 49,
+        "startChar": 55,
+        "endLine": 49,
+        "endChar": 67,
+        "mentionText": "button boots"
+      },
+      {
+        "entityId": "spectacles",
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 10,
+        "mentionText": "spectacles"
+      },
+      {
+        "entityId": "flowers-tray",
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 4,
+        "mentionText": "tray"
+      },
+      {
+        "entityId": "white-silk-bows",
+        "startLine": 63,
+        "startChar": 31,
+        "endLine": 63,
+        "endChar": 50,
+        "mentionText": "big white silk bows"
+      },
+      {
+        "entityId": "velvet-lace-dresses",
+        "startLine": 64,
+        "startChar": 49,
+        "endLine": 64,
+        "endChar": 64,
+        "mentionText": "velvet and lace"
+      },
+      {
+        "entityId": "violets",
+        "startLine": 85,
+        "startChar": 12,
+        "endLine": 85,
+        "endChar": 28,
+        "mentionText": "bunch of violets"
+      },
+      {
+        "entityId": "ermine-toque",
+        "startLine": 88,
+        "startChar": 16,
+        "endLine": 88,
+        "endChar": 28,
+        "mentionText": "ermine toque"
+      },
+      {
+        "entityId": "ermine-toque",
+        "startLine": 99,
+        "startChar": 30,
+        "endLine": 99,
+        "endChar": 42,
+        "mentionText": "ermine toque"
+      },
+      {
+        "entityId": "ermine-toque",
+        "startLine": 103,
+        "startChar": 53,
+        "endLine": 103,
+        "endChar": 65,
+        "mentionText": "ermine toque"
+      },
+      {
+        "entityId": "cleaned-glove",
+        "startLine": 92,
+        "startChar": 17,
+        "endLine": 92,
+        "endChar": 30,
+        "mentionText": "cleaned glove"
+      },
+      {
+        "entityId": "cigarette",
+        "startLine": 97,
+        "startChar": 16,
+        "endLine": 97,
+        "endChar": 25,
+        "mentionText": "cigarette"
+      },
+      {
+        "entityId": "match",
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 5,
+        "mentionText": "match"
+      },
+      {
+        "entityId": "match",
+        "startLine": 177,
+        "startChar": 23,
+        "endLine": 177,
+        "endChar": 28,
+        "mentionText": "match"
+      },
+      {
+        "entityId": "newspaper",
+        "startLine": 127,
+        "startChar": 4,
+        "endLine": 127,
+        "endChar": 13,
+        "mentionText": "newspaper"
+      },
+      {
+        "entityId": "newspaper",
+        "startLine": 133,
+        "startChar": 55,
+        "endLine": 133,
+        "endChar": 64,
+        "mentionText": "newspaper"
+      },
+      {
+        "entityId": "cotton-pillow",
+        "startLine": 128,
+        "startChar": 44,
+        "endLine": 128,
+        "endChar": 57,
+        "mentionText": "cotton pillow"
+      },
+      {
+        "entityId": "honey-cake",
+        "startLine": 172,
+        "startChar": 46,
+        "endLine": 172,
+        "endChar": 56,
+        "mentionText": "honey-cake"
+      },
+      {
+        "entityId": "honey-cake",
+        "startLine": 172,
+        "startChar": 37,
+        "endLine": 172,
+        "endChar": 56,
+        "mentionText": "slice of honey-cake"
+      },
+      {
+        "entityId": "almond",
+        "startLine": 173,
+        "startChar": 57,
+        "endLine": 173,
+        "endChar": 63,
+        "mentionText": "almond"
+      },
+      {
+        "entityId": "almond",
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 175,
+        "endChar": 6,
+        "mentionText": "almond"
+      },
+      {
+        "entityId": "almond",
+        "startLine": 176,
+        "startChar": 61,
+        "endLine": 176,
+        "endChar": 67,
+        "mentionText": "almond"
+      },
+      {
+        "entityId": "kettle",
+        "startLine": 177,
+        "startChar": 37,
+        "endLine": 177,
+        "endChar": 43,
+        "mentionText": "kettle"
+      },
+      {
+        "entityId": "match-for-kettle",
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 5,
+        "mentionText": "match"
+      },
+      {
+        "entityId": "match-for-kettle",
+        "startLine": 177,
+        "startChar": 23,
+        "endLine": 177,
+        "endChar": 28,
+        "mentionText": "match"
+      },
+      {
+        "entityId": "fur-box",
+        "startLine": 11,
+        "startChar": 43,
+        "endLine": 11,
+        "endChar": 46,
+        "mentionText": "box"
+      },
+      {
+        "entityId": "fur-box",
+        "startLine": 181,
+        "startChar": 46,
+        "endLine": 181,
+        "endChar": 49,
+        "mentionText": "box"
+      },
+      {
+        "entityId": "red-eiderdown",
+        "startLine": 15,
+        "startChar": 4,
+        "endLine": 15,
+        "endChar": 17,
+        "mentionText": "red eiderdown"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {

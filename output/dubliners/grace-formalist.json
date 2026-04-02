@@ -7418,7 +7418,3232 @@
         "firstIntroduced": "e31"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "tom-kernan",
+        "startLine": 129,
+        "startChar": 18,
+        "endLine": 129,
+        "endChar": 27,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 138,
+        "startChar": 37,
+        "endLine": 138,
+        "endChar": 46,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 145,
+        "startChar": 58,
+        "endLine": 145,
+        "endChar": 67,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 147,
+        "startChar": 54,
+        "endLine": 147,
+        "endChar": 63,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 155,
+        "startChar": 24,
+        "endLine": 155,
+        "endChar": 33,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 158,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 175,
+        "startChar": 49,
+        "endLine": 175,
+        "endChar": 58,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 181,
+        "startChar": 62,
+        "endLine": 181,
+        "endChar": 71,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 237,
+        "startChar": 13,
+        "endLine": 237,
+        "endChar": 22,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 252,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 262,
+        "startChar": 34,
+        "endLine": 262,
+        "endChar": 43,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 272,
+        "startChar": 32,
+        "endLine": 272,
+        "endChar": 41,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 300,
+        "startChar": 15,
+        "endLine": 300,
+        "endChar": 24,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 328,
+        "startChar": 14,
+        "endLine": 328,
+        "endChar": 23,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 330,
+        "startChar": 27,
+        "endLine": 330,
+        "endChar": 36,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 335,
+        "startChar": 11,
+        "endLine": 335,
+        "endChar": 20,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 383,
+        "startChar": 36,
+        "endLine": 383,
+        "endChar": 45,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 392,
+        "startChar": 0,
+        "endLine": 392,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 400,
+        "startChar": 17,
+        "endLine": 400,
+        "endChar": 26,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 407,
+        "startChar": 18,
+        "endLine": 407,
+        "endChar": 27,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 416,
+        "startChar": 49,
+        "endLine": 416,
+        "endChar": 58,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 419,
+        "startChar": 19,
+        "endLine": 419,
+        "endChar": 28,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 452,
+        "startChar": 28,
+        "endLine": 452,
+        "endChar": 37,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 463,
+        "startChar": 47,
+        "endLine": 463,
+        "endChar": 56,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 510,
+        "startChar": 27,
+        "endLine": 510,
+        "endChar": 36,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 518,
+        "startChar": 25,
+        "endLine": 518,
+        "endChar": 34,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 523,
+        "startChar": 10,
+        "endLine": 523,
+        "endChar": 19,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 553,
+        "startChar": 0,
+        "endLine": 553,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 588,
+        "startChar": 12,
+        "endLine": 588,
+        "endChar": 21,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 599,
+        "startChar": 29,
+        "endLine": 599,
+        "endChar": 38,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 605,
+        "startChar": 60,
+        "endLine": 605,
+        "endChar": 69,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 629,
+        "startChar": 0,
+        "endLine": 629,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 648,
+        "startChar": 20,
+        "endLine": 648,
+        "endChar": 29,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 662,
+        "startChar": 22,
+        "endLine": 662,
+        "endChar": 31,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 683,
+        "startChar": 26,
+        "endLine": 683,
+        "endChar": 35,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 707,
+        "startChar": 22,
+        "endLine": 707,
+        "endChar": 31,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 708,
+        "startChar": 38,
+        "endLine": 708,
+        "endChar": 47,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 742,
+        "startChar": 29,
+        "endLine": 742,
+        "endChar": 38,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 757,
+        "startChar": 31,
+        "endLine": 757,
+        "endChar": 40,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 769,
+        "startChar": 31,
+        "endLine": 769,
+        "endChar": 40,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 783,
+        "startChar": 0,
+        "endLine": 783,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 798,
+        "startChar": 16,
+        "endLine": 798,
+        "endChar": 25,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 839,
+        "startChar": 14,
+        "endLine": 839,
+        "endChar": 23,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 870,
+        "startChar": 32,
+        "endLine": 870,
+        "endChar": 41,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 884,
+        "startChar": 0,
+        "endLine": 884,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 904,
+        "startChar": 21,
+        "endLine": 904,
+        "endChar": 30,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 911,
+        "startChar": 0,
+        "endLine": 911,
+        "endChar": 9,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 933,
+        "startChar": 13,
+        "endLine": 933,
+        "endChar": 22,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 937,
+        "startChar": 24,
+        "endLine": 937,
+        "endChar": 33,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 946,
+        "startChar": 26,
+        "endLine": 946,
+        "endChar": 35,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 954,
+        "startChar": 23,
+        "endLine": 954,
+        "endChar": 32,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 969,
+        "startChar": 60,
+        "endLine": 969,
+        "endChar": 69,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 976,
+        "startChar": 56,
+        "endLine": 976,
+        "endChar": 65,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 984,
+        "startChar": 28,
+        "endLine": 984,
+        "endChar": 37,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 986,
+        "startChar": 7,
+        "endLine": 986,
+        "endChar": 16,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 994,
+        "startChar": 27,
+        "endLine": 994,
+        "endChar": 36,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 1001,
+        "startChar": 22,
+        "endLine": 1001,
+        "endChar": 31,
+        "mentionText": "Mr Kernan"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 82,
+        "startChar": 8,
+        "endLine": 82,
+        "endChar": 11,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 95,
+        "startChar": 11,
+        "endLine": 95,
+        "endChar": 14,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 404,
+        "startChar": 40,
+        "endLine": 404,
+        "endChar": 43,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 430,
+        "startChar": 34,
+        "endLine": 430,
+        "endChar": 37,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 527,
+        "startChar": 24,
+        "endLine": 527,
+        "endChar": 27,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 548,
+        "startChar": 17,
+        "endLine": 548,
+        "endChar": 20,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 563,
+        "startChar": 43,
+        "endLine": 563,
+        "endChar": 46,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 613,
+        "startChar": 29,
+        "endLine": 613,
+        "endChar": 32,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 617,
+        "startChar": 23,
+        "endLine": 617,
+        "endChar": 26,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 631,
+        "startChar": 8,
+        "endLine": 631,
+        "endChar": 11,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 633,
+        "startChar": 11,
+        "endLine": 633,
+        "endChar": 14,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 634,
+        "startChar": 19,
+        "endLine": 634,
+        "endChar": 22,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 669,
+        "startChar": 49,
+        "endLine": 669,
+        "endChar": 52,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 753,
+        "startChar": 23,
+        "endLine": 753,
+        "endChar": 26,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 814,
+        "startChar": 30,
+        "endLine": 814,
+        "endChar": 33,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 931,
+        "startChar": 29,
+        "endLine": 931,
+        "endChar": 32,
+        "mentionText": "Tom"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 36,
+        "startChar": 37,
+        "endLine": 36,
+        "endChar": 52,
+        "mentionText": "the injured man"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 52,
+        "startChar": 42,
+        "endLine": 52,
+        "endChar": 57,
+        "mentionText": "the injured man"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 54,
+        "startChar": 15,
+        "endLine": 54,
+        "endChar": 30,
+        "mentionText": "the injured man"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 63,
+        "startChar": 24,
+        "endLine": 63,
+        "endChar": 39,
+        "mentionText": "the injured man"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 105,
+        "startChar": 41,
+        "endLine": 105,
+        "endChar": 56,
+        "mentionText": "the injured man"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 16,
+        "startChar": 27,
+        "endLine": 16,
+        "endChar": 40,
+        "mentionText": "the gentleman"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 115,
+        "startChar": 44,
+        "endLine": 115,
+        "endChar": 57,
+        "mentionText": "the gentleman"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 313,
+        "startChar": 30,
+        "endLine": 313,
+        "endChar": 41,
+        "mentionText": "the invalid"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 349,
+        "startChar": 46,
+        "endLine": 349,
+        "endChar": 57,
+        "mentionText": "the invalid"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 545,
+        "startChar": 54,
+        "endLine": 545,
+        "endChar": 65,
+        "mentionText": "the invalid"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 615,
+        "startChar": 37,
+        "endLine": 615,
+        "endChar": 48,
+        "mentionText": "the invalid"
+      },
+      {
+        "entityId": "tom-kernan",
+        "startLine": 636,
+        "startChar": 28,
+        "endLine": 636,
+        "endChar": 39,
+        "mentionText": "the invalid"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 93,
+        "startChar": 12,
+        "endLine": 93,
+        "endChar": 20,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 95,
+        "startChar": 22,
+        "endLine": 95,
+        "endChar": 30,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 101,
+        "startChar": 49,
+        "endLine": 101,
+        "endChar": 57,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 119,
+        "startChar": 40,
+        "endLine": 119,
+        "endChar": 48,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 153,
+        "startChar": 20,
+        "endLine": 153,
+        "endChar": 28,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 173,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 178,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 182,
+        "startChar": 57,
+        "endLine": 182,
+        "endChar": 65,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 193,
+        "startChar": 0,
+        "endLine": 193,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 195,
+        "startChar": 12,
+        "endLine": 195,
+        "endChar": 20,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 198,
+        "startChar": 30,
+        "endLine": 198,
+        "endChar": 38,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 203,
+        "startChar": 0,
+        "endLine": 203,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 209,
+        "startChar": 0,
+        "endLine": 209,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 214,
+        "startChar": 27,
+        "endLine": 214,
+        "endChar": 35,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 223,
+        "startChar": 19,
+        "endLine": 223,
+        "endChar": 27,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 236,
+        "startChar": 32,
+        "endLine": 236,
+        "endChar": 40,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 270,
+        "startChar": 37,
+        "endLine": 270,
+        "endChar": 45,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 271,
+        "startChar": 41,
+        "endLine": 271,
+        "endChar": 49,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 278,
+        "startChar": 13,
+        "endLine": 278,
+        "endChar": 21,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 344,
+        "startChar": 31,
+        "endLine": 344,
+        "endChar": 39,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 345,
+        "startChar": 53,
+        "endLine": 345,
+        "endChar": 61,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 351,
+        "startChar": 0,
+        "endLine": 351,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 388,
+        "startChar": 34,
+        "endLine": 388,
+        "endChar": 42,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 397,
+        "startChar": 24,
+        "endLine": 397,
+        "endChar": 32,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 411,
+        "startChar": 0,
+        "endLine": 411,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 472,
+        "startChar": 0,
+        "endLine": 472,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 474,
+        "startChar": 30,
+        "endLine": 474,
+        "endChar": 38,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 489,
+        "startChar": 52,
+        "endLine": 489,
+        "endChar": 60,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 494,
+        "startChar": 22,
+        "endLine": 494,
+        "endChar": 30,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 501,
+        "startChar": 31,
+        "endLine": 501,
+        "endChar": 39,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 525,
+        "startChar": 30,
+        "endLine": 525,
+        "endChar": 38,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 537,
+        "startChar": 23,
+        "endLine": 537,
+        "endChar": 31,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 539,
+        "startChar": 17,
+        "endLine": 539,
+        "endChar": 25,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 551,
+        "startChar": 18,
+        "endLine": 551,
+        "endChar": 26,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 570,
+        "startChar": 43,
+        "endLine": 570,
+        "endChar": 51,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 581,
+        "startChar": 34,
+        "endLine": 581,
+        "endChar": 42,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 586,
+        "startChar": 18,
+        "endLine": 586,
+        "endChar": 26,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 594,
+        "startChar": 14,
+        "endLine": 594,
+        "endChar": 22,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 613,
+        "startChar": 40,
+        "endLine": 613,
+        "endChar": 48,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 660,
+        "startChar": 49,
+        "endLine": 660,
+        "endChar": 57,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 668,
+        "startChar": 36,
+        "endLine": 668,
+        "endChar": 44,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 714,
+        "startChar": 0,
+        "endLine": 714,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 724,
+        "startChar": 0,
+        "endLine": 724,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 753,
+        "startChar": 34,
+        "endLine": 753,
+        "endChar": 42,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 760,
+        "startChar": 20,
+        "endLine": 760,
+        "endChar": 28,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 778,
+        "startChar": 21,
+        "endLine": 778,
+        "endChar": 29,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 819,
+        "startChar": 30,
+        "endLine": 819,
+        "endChar": 38,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 833,
+        "startChar": 54,
+        "endLine": 833,
+        "endChar": 62,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 891,
+        "startChar": 39,
+        "endLine": 891,
+        "endChar": 47,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 893,
+        "startChar": 25,
+        "endLine": 893,
+        "endChar": 33,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 925,
+        "startChar": 0,
+        "endLine": 925,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 971,
+        "startChar": 0,
+        "endLine": 971,
+        "endChar": 8,
+        "mentionText": "Mr Power"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 409,
+        "startChar": 38,
+        "endLine": 409,
+        "endChar": 42,
+        "mentionText": "Jack"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 492,
+        "startChar": 30,
+        "endLine": 492,
+        "endChar": 34,
+        "mentionText": "Jack"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 529,
+        "startChar": 39,
+        "endLine": 529,
+        "endChar": 43,
+        "mentionText": "Jack"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 712,
+        "startChar": 43,
+        "endLine": 712,
+        "endChar": 47,
+        "mentionText": "Jack"
+      },
+      {
+        "entityId": "mr-power",
+        "startLine": 61,
+        "startChar": 30,
+        "endLine": 61,
+        "endChar": 63,
+        "mentionText": "the young man in the cycling-suit"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 270,
+        "startChar": 9,
+        "endLine": 270,
+        "endChar": 22,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 272,
+        "startChar": 17,
+        "endLine": 272,
+        "endChar": 30,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 277,
+        "startChar": 0,
+        "endLine": 277,
+        "endChar": 13,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 293,
+        "startChar": 31,
+        "endLine": 293,
+        "endChar": 44,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 301,
+        "startChar": 9,
+        "endLine": 301,
+        "endChar": 22,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 308,
+        "startChar": 45,
+        "endLine": 308,
+        "endChar": 58,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 315,
+        "startChar": 19,
+        "endLine": 315,
+        "endChar": 32,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 333,
+        "startChar": 25,
+        "endLine": 333,
+        "endChar": 38,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 344,
+        "startChar": 13,
+        "endLine": 344,
+        "endChar": 26,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 345,
+        "startChar": 11,
+        "endLine": 345,
+        "endChar": 24,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 355,
+        "startChar": 27,
+        "endLine": 355,
+        "endChar": 40,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 364,
+        "startChar": 11,
+        "endLine": 364,
+        "endChar": 24,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 366,
+        "startChar": 5,
+        "endLine": 366,
+        "endChar": 18,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 404,
+        "startChar": 51,
+        "endLine": 404,
+        "endChar": 64,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 427,
+        "startChar": 0,
+        "endLine": 427,
+        "endChar": 13,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 437,
+        "startChar": 51,
+        "endLine": 437,
+        "endChar": 64,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 458,
+        "startChar": 0,
+        "endLine": 458,
+        "endChar": 13,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 474,
+        "startChar": 9,
+        "endLine": 474,
+        "endChar": 22,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 489,
+        "startChar": 23,
+        "endLine": 489,
+        "endChar": 36,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 496,
+        "startChar": 15,
+        "endLine": 496,
+        "endChar": 28,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 506,
+        "startChar": 15,
+        "endLine": 506,
+        "endChar": 28,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 515,
+        "startChar": 24,
+        "endLine": 515,
+        "endChar": 37,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 520,
+        "startChar": 15,
+        "endLine": 520,
+        "endChar": 28,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 529,
+        "startChar": 23,
+        "endLine": 529,
+        "endChar": 36,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 543,
+        "startChar": 48,
+        "endLine": 543,
+        "endChar": 61,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 563,
+        "startChar": 54,
+        "endLine": 563,
+        "endChar": 67,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 572,
+        "startChar": 29,
+        "endLine": 572,
+        "endChar": 42,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 579,
+        "startChar": 22,
+        "endLine": 579,
+        "endChar": 35,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 591,
+        "startChar": 29,
+        "endLine": 591,
+        "endChar": 42,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 601,
+        "startChar": 28,
+        "endLine": 601,
+        "endChar": 41,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 607,
+        "startChar": 16,
+        "endLine": 607,
+        "endChar": 29,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 610,
+        "startChar": 41,
+        "endLine": 610,
+        "endChar": 54,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 617,
+        "startChar": 34,
+        "endLine": 617,
+        "endChar": 47,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 633,
+        "startChar": 28,
+        "endLine": 633,
+        "endChar": 41,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 639,
+        "startChar": 56,
+        "endLine": 639,
+        "endChar": 69,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 652,
+        "startChar": 17,
+        "endLine": 652,
+        "endChar": 30,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 680,
+        "startChar": 23,
+        "endLine": 680,
+        "endChar": 36,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 719,
+        "startChar": 23,
+        "endLine": 719,
+        "endChar": 36,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 726,
+        "startChar": 18,
+        "endLine": 726,
+        "endChar": 31,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 734,
+        "startChar": 17,
+        "endLine": 734,
+        "endChar": 30,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 738,
+        "startChar": 27,
+        "endLine": 738,
+        "endChar": 40,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 744,
+        "startChar": 12,
+        "endLine": 744,
+        "endChar": 25,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 766,
+        "startChar": 27,
+        "endLine": 766,
+        "endChar": 40,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 771,
+        "startChar": 12,
+        "endLine": 771,
+        "endChar": 25,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 785,
+        "startChar": 0,
+        "endLine": 785,
+        "endChar": 13,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 791,
+        "startChar": 21,
+        "endLine": 791,
+        "endChar": 34,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 803,
+        "startChar": 12,
+        "endLine": 803,
+        "endChar": 25,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 816,
+        "startChar": 28,
+        "endLine": 816,
+        "endChar": 41,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 821,
+        "startChar": 0,
+        "endLine": 821,
+        "endChar": 13,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 844,
+        "startChar": 25,
+        "endLine": 844,
+        "endChar": 38,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 857,
+        "startChar": 16,
+        "endLine": 857,
+        "endChar": 29,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 864,
+        "startChar": 0,
+        "endLine": 864,
+        "endChar": 13,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 917,
+        "startChar": 0,
+        "endLine": 917,
+        "endChar": 13,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 928,
+        "startChar": 26,
+        "endLine": 928,
+        "endChar": 39,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 935,
+        "startChar": 14,
+        "endLine": 935,
+        "endChar": 27,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 969,
+        "startChar": 42,
+        "endLine": 969,
+        "endChar": 55,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 976,
+        "startChar": 37,
+        "endLine": 976,
+        "endChar": 50,
+        "mentionText": "Mr Cunningham"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 215,
+        "startChar": 19,
+        "endLine": 215,
+        "endChar": 25,
+        "mentionText": "Martin"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 283,
+        "startChar": 30,
+        "endLine": 283,
+        "endChar": 36,
+        "mentionText": "Martin"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 456,
+        "startChar": 28,
+        "endLine": 456,
+        "endChar": 34,
+        "mentionText": "Martin"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 624,
+        "startChar": 14,
+        "endLine": 624,
+        "endChar": 20,
+        "mentionText": "Martin"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 787,
+        "startChar": 10,
+        "endLine": 787,
+        "endChar": 16,
+        "mentionText": "Martin"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 819,
+        "startChar": 15,
+        "endLine": 819,
+        "endChar": 21,
+        "mentionText": "Martin"
+      },
+      {
+        "entityId": "mr-cunningham",
+        "startLine": 277,
+        "startChar": 18,
+        "endLine": 277,
+        "endChar": 30,
+        "mentionText": "the very man"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 187,
+        "startChar": 53,
+        "endLine": 187,
+        "endChar": 63,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 194,
+        "startChar": 54,
+        "endLine": 194,
+        "endChar": 64,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 214,
+        "startChar": 9,
+        "endLine": 214,
+        "endChar": 19,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 227,
+        "startChar": 53,
+        "endLine": 227,
+        "endChar": 63,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 230,
+        "startChar": 0,
+        "endLine": 230,
+        "endChar": 10,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 291,
+        "startChar": 41,
+        "endLine": 291,
+        "endChar": 51,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 468,
+        "startChar": 0,
+        "endLine": 468,
+        "endChar": 10,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 479,
+        "startChar": 43,
+        "endLine": 479,
+        "endChar": 53,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 685,
+        "startChar": 0,
+        "endLine": 685,
+        "endChar": 10,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 866,
+        "startChar": 48,
+        "endLine": 866,
+        "endChar": 58,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 877,
+        "startChar": 0,
+        "endLine": 877,
+        "endChar": 10,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 893,
+        "startChar": 44,
+        "endLine": 893,
+        "endChar": 54,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 896,
+        "startChar": 7,
+        "endLine": 896,
+        "endChar": 17,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 906,
+        "startChar": 0,
+        "endLine": 906,
+        "endChar": 10,
+        "mentionText": "Mrs Kernan"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 200,
+        "startChar": 51,
+        "endLine": 200,
+        "endChar": 59,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 873,
+        "startChar": 18,
+        "endLine": 873,
+        "endChar": 26,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 885,
+        "startChar": 10,
+        "endLine": 885,
+        "endChar": 18,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 944,
+        "startChar": 23,
+        "endLine": 944,
+        "endChar": 31,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 952,
+        "startChar": 40,
+        "endLine": 952,
+        "endChar": 48,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "mrs-kernan",
+        "startLine": 987,
+        "startChar": 17,
+        "endLine": 987,
+        "endChar": 25,
+        "mentionText": "his wife"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 691,
+        "startChar": 1,
+        "endLine": 691,
+        "endChar": 11,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 697,
+        "startChar": 28,
+        "endLine": 697,
+        "endChar": 38,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 706,
+        "startChar": 0,
+        "endLine": 706,
+        "endChar": 10,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 710,
+        "startChar": 36,
+        "endLine": 710,
+        "endChar": 46,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 716,
+        "startChar": 14,
+        "endLine": 716,
+        "endChar": 24,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 729,
+        "startChar": 15,
+        "endLine": 729,
+        "endChar": 25,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 746,
+        "startChar": 19,
+        "endLine": 746,
+        "endChar": 29,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 762,
+        "startChar": 25,
+        "endLine": 762,
+        "endChar": 35,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 800,
+        "startChar": 51,
+        "endLine": 800,
+        "endChar": 61,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 808,
+        "startChar": 0,
+        "endLine": 808,
+        "endChar": 10,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 841,
+        "startChar": 34,
+        "endLine": 841,
+        "endChar": 44,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 855,
+        "startChar": 20,
+        "endLine": 855,
+        "endChar": 30,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 922,
+        "startChar": 29,
+        "endLine": 922,
+        "endChar": 39,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "mr-fogarty",
+        "startLine": 971,
+        "startChar": 13,
+        "endLine": 971,
+        "endChar": 23,
+        "mentionText": "Mr Fogarty"
+      },
+      {
+        "entityId": "father-purdon",
+        "startLine": 610,
+        "startChar": 57,
+        "endLine": 610,
+        "endChar": 70,
+        "mentionText": "Father Purdon"
+      },
+      {
+        "entityId": "father-purdon",
+        "startLine": 615,
+        "startChar": 1,
+        "endLine": 615,
+        "endChar": 14,
+        "mentionText": "Father Purdon"
+      },
+      {
+        "entityId": "father-purdon",
+        "startLine": 615,
+        "startChar": 16,
+        "endLine": 615,
+        "endChar": 29,
+        "mentionText": "Father Purdon"
+      },
+      {
+        "entityId": "father-purdon",
+        "startLine": 998,
+        "startChar": 0,
+        "endLine": 998,
+        "endChar": 13,
+        "mentionText": "Father Purdon"
+      },
+      {
+        "entityId": "father-purdon",
+        "startLine": 1014,
+        "startChar": 0,
+        "endLine": 1014,
+        "endChar": 13,
+        "mentionText": "Father Purdon"
+      },
+      {
+        "entityId": "father-purdon",
+        "startLine": 1002,
+        "startChar": 56,
+        "endLine": 1002,
+        "endChar": 68,
+        "mentionText": "the preacher"
+      },
+      {
+        "entityId": "young-man-cycling-suit",
+        "startLine": 61,
+        "startChar": 30,
+        "endLine": 61,
+        "endChar": 63,
+        "mentionText": "the young man in the cycling-suit"
+      },
+      {
+        "entityId": "young-man-cycling-suit",
+        "startLine": 61,
+        "startChar": 30,
+        "endLine": 61,
+        "endChar": 43,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "young-man-cycling-suit",
+        "startLine": 103,
+        "startChar": 43,
+        "endLine": 103,
+        "endChar": 56,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "young-man-cycling-suit",
+        "startLine": 127,
+        "startChar": 25,
+        "endLine": 127,
+        "endChar": 38,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "young-man-cycling-suit",
+        "startLine": 131,
+        "startChar": 3,
+        "endLine": 131,
+        "endChar": 16,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "young-man-cycling-suit",
+        "startLine": 134,
+        "startChar": 21,
+        "endLine": 134,
+        "endChar": 34,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "bar-manager",
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 40,
+        "mentionText": "The manager"
+      },
+      {
+        "entityId": "bar-manager",
+        "startLine": 30,
+        "startChar": 7,
+        "endLine": 30,
+        "endChar": 18,
+        "mentionText": "The manager"
+      },
+      {
+        "entityId": "bar-manager",
+        "startLine": 35,
+        "startChar": 57,
+        "endLine": 35,
+        "endChar": 68,
+        "mentionText": "The manager"
+      },
+      {
+        "entityId": "bar-manager",
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 11,
+        "mentionText": "The manager"
+      },
+      {
+        "entityId": "bar-manager",
+        "startLine": 65,
+        "startChar": 27,
+        "endLine": 65,
+        "endChar": 38,
+        "mentionText": "The manager"
+      },
+      {
+        "entityId": "bar-manager",
+        "startLine": 114,
+        "startChar": 13,
+        "endLine": 114,
+        "endChar": 24,
+        "mentionText": "The manager"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 41,
+        "startChar": 51,
+        "endLine": 41,
+        "endChar": 64,
+        "mentionText": "The constable"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 53,
+        "startChar": 11,
+        "endLine": 53,
+        "endChar": 24,
+        "mentionText": "The constable"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 13,
+        "mentionText": "The constable"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 67,
+        "startChar": 26,
+        "endLine": 67,
+        "endChar": 39,
+        "mentionText": "The constable"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 13,
+        "mentionText": "The constable"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 37,
+        "startChar": 49,
+        "endLine": 37,
+        "endChar": 69,
+        "mentionText": "an immense constable"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 61,
+        "startChar": 30,
+        "endLine": 61,
+        "endChar": 43,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 103,
+        "startChar": 43,
+        "endLine": 103,
+        "endChar": 56,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 127,
+        "startChar": 25,
+        "endLine": 127,
+        "endChar": 38,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 131,
+        "startChar": 3,
+        "endLine": 131,
+        "endChar": 16,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "constable",
+        "startLine": 134,
+        "startChar": 21,
+        "endLine": 134,
+        "endChar": 34,
+        "mentionText": "the young man"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 362,
+        "startChar": 1,
+        "endLine": 362,
+        "endChar": 8,
+        "mentionText": "Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 368,
+        "startChar": 39,
+        "endLine": 368,
+        "endChar": 46,
+        "mentionText": "Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 386,
+        "startChar": 54,
+        "endLine": 386,
+        "endChar": 61,
+        "mentionText": "Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 387,
+        "startChar": 59,
+        "endLine": 387,
+        "endChar": 66,
+        "mentionText": "Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 977,
+        "startChar": 16,
+        "endLine": 977,
+        "endChar": 23,
+        "mentionText": "Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 368,
+        "startChar": 36,
+        "endLine": 368,
+        "endChar": 46,
+        "mentionText": "Mr Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 386,
+        "startChar": 51,
+        "endLine": 386,
+        "endChar": 61,
+        "mentionText": "Mr Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 387,
+        "startChar": 56,
+        "endLine": 387,
+        "endChar": 66,
+        "mentionText": "Mr Harford"
+      },
+      {
+        "entityId": "mr-harford",
+        "startLine": 977,
+        "startChar": 13,
+        "endLine": 977,
+        "endChar": 23,
+        "mentionText": "Mr Harford"
+      },
+      {
+        "entityId": "mr-goldberg",
+        "startLine": 376,
+        "startChar": 11,
+        "endLine": 376,
+        "endChar": 22,
+        "mentionText": "Mr Goldberg"
+      },
+      {
+        "entityId": "crofton",
+        "startLine": 649,
+        "startChar": 15,
+        "endLine": 649,
+        "endChar": 22,
+        "mentionText": "Crofton"
+      },
+      {
+        "entityId": "crofton",
+        "startLine": 657,
+        "startChar": 64,
+        "endLine": 657,
+        "endChar": 71,
+        "mentionText": "Crofton"
+      },
+      {
+        "entityId": "crofton",
+        "startLine": 660,
+        "startChar": 24,
+        "endLine": 660,
+        "endChar": 31,
+        "mentionText": "Crofton"
+      },
+      {
+        "entityId": "father-tom-burke",
+        "startLine": 631,
+        "startChar": 1,
+        "endLine": 631,
+        "endChar": 17,
+        "mentionText": "Father Tom Burke"
+      },
+      {
+        "entityId": "father-tom-burke",
+        "startLine": 633,
+        "startChar": 4,
+        "endLine": 633,
+        "endChar": 20,
+        "mentionText": "Father Tom Burke"
+      },
+      {
+        "entityId": "father-tom-burke",
+        "startLine": 631,
+        "startChar": 1,
+        "endLine": 631,
+        "endChar": 11,
+        "mentionText": "Father Tom"
+      },
+      {
+        "entityId": "father-tom-burke",
+        "startLine": 633,
+        "startChar": 4,
+        "endLine": 633,
+        "endChar": 14,
+        "mentionText": "Father Tom"
+      },
+      {
+        "entityId": "father-tom-burke",
+        "startLine": 669,
+        "startChar": 42,
+        "endLine": 669,
+        "endChar": 52,
+        "mentionText": "Father Tom"
+      },
+      {
+        "entityId": "john-machale",
+        "startLine": 837,
+        "startChar": 14,
+        "endLine": 837,
+        "endChar": 26,
+        "mentionText": "John MacHale"
+      },
+      {
+        "entityId": "john-machale",
+        "startLine": 851,
+        "startChar": 54,
+        "endLine": 851,
+        "endChar": 66,
+        "mentionText": "John MacHale"
+      },
+      {
+        "entityId": "john-machale",
+        "startLine": 870,
+        "startChar": 12,
+        "endLine": 870,
+        "endChar": 24,
+        "mentionText": "John MacHale"
+      },
+      {
+        "entityId": "john-machale",
+        "startLine": 839,
+        "startChar": 32,
+        "endLine": 839,
+        "endChar": 44,
+        "mentionText": "John of Tuam"
+      },
+      {
+        "entityId": "john-machale",
+        "startLine": 844,
+        "startChar": 1,
+        "endLine": 844,
+        "endChar": 13,
+        "mentionText": "John of Tuam"
+      },
+      {
+        "entityId": "pope-leo-xiii",
+        "startLine": 719,
+        "startChar": 1,
+        "endLine": 719,
+        "endChar": 14,
+        "mentionText": "Pope Leo XIII"
+      },
+      {
+        "entityId": "pope-leo-xiii",
+        "startLine": 719,
+        "startChar": 1,
+        "endLine": 719,
+        "endChar": 9,
+        "mentionText": "Pope Leo"
+      },
+      {
+        "entityId": "pope-leo-xiii",
+        "startLine": 740,
+        "startChar": 1,
+        "endLine": 740,
+        "endChar": 9,
+        "mentionText": "Pope Leo"
+      },
+      {
+        "entityId": "pope-leo-xiii",
+        "startLine": 766,
+        "startChar": 55,
+        "endLine": 766,
+        "endChar": 63,
+        "mentionText": "Pope Leo"
+      },
+      {
+        "entityId": "sir-john-gray",
+        "startLine": 879,
+        "startChar": 28,
+        "endLine": 879,
+        "endChar": 41,
+        "mentionText": "Sir John Gray"
+      },
+      {
+        "entityId": "edmund-dwyer-gray",
+        "startLine": 879,
+        "startChar": 52,
+        "endLine": 879,
+        "endChar": 69,
+        "mentionText": "Edmund Dwyer Gray"
+      },
+      {
+        "entityId": "mr-fanning",
+        "startLine": 978,
+        "startChar": 7,
+        "endLine": 978,
+        "endChar": 17,
+        "mentionText": "Mr Fanning"
+      },
+      {
+        "entityId": "michael-grimes",
+        "startLine": 980,
+        "startChar": 54,
+        "endLine": 980,
+        "endChar": 68,
+        "mentionText": "Michael Grimes"
+      },
+      {
+        "entityId": "michael-grimes",
+        "startLine": 980,
+        "startChar": 50,
+        "endLine": 980,
+        "endChar": 68,
+        "mentionText": "old Michael Grimes"
+      },
+      {
+        "entityId": "kernan-children",
+        "startLine": 184,
+        "startChar": 28,
+        "endLine": 184,
+        "endChar": 40,
+        "mentionText": "The children"
+      },
+      {
+        "entityId": "kernan-children",
+        "startLine": 184,
+        "startChar": 41,
+        "endLine": 184,
+        "endChar": 60,
+        "mentionText": "two girls and a boy"
+      },
+      {
+        "entityId": "kernan-eldest-sons",
+        "startLine": 248,
+        "startChar": 20,
+        "endLine": 248,
+        "endChar": 39,
+        "mentionText": "the other was clerk"
+      },
+      {
+        "entityId": "blackwhite",
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 10,
+        "mentionText": "Blackwhite"
+      },
+      {
+        "entityId": "mrs-mcoy",
+        "startLine": 182,
+        "startChar": 27,
+        "endLine": 182,
+        "endChar": 35,
+        "mentionText": "His wife"
+      },
+      {
+        "entityId": "mrs-mcoy",
+        "startLine": 319,
+        "startChar": 58,
+        "endLine": 319,
+        "endChar": 66,
+        "mentionText": "His wife"
+      },
+      {
+        "entityId": "mrs-cunningham",
+        "startLine": 280,
+        "startChar": 28,
+        "endLine": 280,
+        "endChar": 49,
+        "mentionText": "an incurable drunkard"
+      },
+      {
+        "entityId": "carman",
+        "startLine": 130,
+        "startChar": 31,
+        "endLine": 130,
+        "endChar": 41,
+        "mentionText": "the carman"
+      },
+      {
+        "entityId": "curate",
+        "startLine": 12,
+        "startChar": 24,
+        "endLine": 12,
+        "endChar": 42,
+        "mentionText": "one of the curates"
+      },
+      {
+        "entityId": "curate",
+        "startLine": 116,
+        "startChar": 62,
+        "endLine": 116,
+        "endChar": 70,
+        "mentionText": "a curate"
+      },
+      {
+        "entityId": "lay-brother",
+        "startLine": 959,
+        "startChar": 12,
+        "endLine": 959,
+        "endChar": 27,
+        "mentionText": "the lay-brother"
+      },
+      {
+        "entityId": "bar-lavatory",
+        "startLine": 4,
+        "startChar": 26,
+        "endLine": 4,
+        "endChar": 38,
+        "mentionText": "the lavatory"
+      },
+      {
+        "entityId": "bar-lavatory",
+        "startLine": 12,
+        "startChar": 58,
+        "endLine": 12,
+        "endChar": 68,
+        "mentionText": "the stairs"
+      },
+      {
+        "entityId": "bar-lavatory",
+        "startLine": 103,
+        "startChar": 25,
+        "endLine": 103,
+        "endChar": 35,
+        "mentionText": "the stairs"
+      },
+      {
+        "entityId": "bar-lavatory",
+        "startLine": 114,
+        "startChar": 50,
+        "endLine": 114,
+        "endChar": 60,
+        "mentionText": "the stairs"
+      },
+      {
+        "entityId": "bar",
+        "startLine": 13,
+        "startChar": 40,
+        "endLine": 13,
+        "endChar": 47,
+        "mentionText": "the bar"
+      },
+      {
+        "entityId": "bar",
+        "startLine": 14,
+        "startChar": 44,
+        "endLine": 14,
+        "endChar": 51,
+        "mentionText": "the bar"
+      },
+      {
+        "entityId": "bar",
+        "startLine": 37,
+        "startChar": 30,
+        "endLine": 37,
+        "endChar": 37,
+        "mentionText": "the bar"
+      },
+      {
+        "entityId": "bar",
+        "startLine": 79,
+        "startChar": 40,
+        "endLine": 79,
+        "endChar": 47,
+        "mentionText": "the bar"
+      },
+      {
+        "entityId": "bar",
+        "startLine": 113,
+        "startChar": 19,
+        "endLine": 113,
+        "endChar": 26,
+        "mentionText": "the bar"
+      },
+      {
+        "entityId": "bar",
+        "startLine": 13,
+        "startChar": 27,
+        "endLine": 13,
+        "endChar": 47,
+        "mentionText": "the floor of the bar"
+      },
+      {
+        "entityId": "grafton-street",
+        "startLine": 119,
+        "startChar": 24,
+        "endLine": 119,
+        "endChar": 38,
+        "mentionText": "Grafton Street"
+      },
+      {
+        "entityId": "westmoreland-street",
+        "startLine": 136,
+        "startChar": 26,
+        "endLine": 136,
+        "endChar": 45,
+        "mentionText": "Westmoreland Street"
+      },
+      {
+        "entityId": "kernan-home",
+        "startLine": 181,
+        "startChar": 22,
+        "endLine": 181,
+        "endChar": 57,
+        "mentionText": "a small house on the Glasnevin road"
+      },
+      {
+        "entityId": "kernan-home",
+        "startLine": 182,
+        "startChar": 16,
+        "endLine": 182,
+        "endChar": 25,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "kernan-home",
+        "startLine": 205,
+        "startChar": 53,
+        "endLine": 205,
+        "endChar": 62,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "kernan-home",
+        "startLine": 231,
+        "startChar": 34,
+        "endLine": 231,
+        "endChar": 43,
+        "mentionText": "the house"
+      },
+      {
+        "entityId": "kernan-bedroom",
+        "startLine": 261,
+        "startChar": 0,
+        "endLine": 261,
+        "endChar": 11,
+        "mentionText": "his bedroom"
+      },
+      {
+        "entityId": "kernan-bedroom",
+        "startLine": 685,
+        "startChar": 31,
+        "endLine": 685,
+        "endChar": 42,
+        "mentionText": "the bedroom"
+      },
+      {
+        "entityId": "kernan-kitchen",
+        "startLine": 183,
+        "startChar": 14,
+        "endLine": 183,
+        "endChar": 25,
+        "mentionText": "the kitchen"
+      },
+      {
+        "entityId": "kernan-kitchen",
+        "startLine": 188,
+        "startChar": 0,
+        "endLine": 188,
+        "endChar": 11,
+        "mentionText": "the kitchen"
+      },
+      {
+        "entityId": "crowe-street",
+        "startLine": 165,
+        "startChar": 17,
+        "endLine": 165,
+        "endChar": 29,
+        "mentionText": "Crowe Street"
+      },
+      {
+        "entityId": "dublin-castle",
+        "startLine": 174,
+        "startChar": 23,
+        "endLine": 174,
+        "endChar": 36,
+        "mentionText": "Dublin Castle"
+      },
+      {
+        "entityId": "liffey-loan-bank",
+        "startLine": 376,
+        "startChar": 27,
+        "endLine": 376,
+        "endChar": 47,
+        "mentionText": "the Liffey Loan Bank"
+      },
+      {
+        "entityId": "liffey-loan-bank",
+        "startLine": 376,
+        "startChar": 31,
+        "endLine": 376,
+        "endChar": 47,
+        "mentionText": "Liffey Loan Bank"
+      },
+      {
+        "entityId": "star-of-sea-church",
+        "startLine": 240,
+        "startChar": 14,
+        "endLine": 240,
+        "endChar": 54,
+        "mentionText": "the Star of the Sea Church in Sandymount"
+      },
+      {
+        "entityId": "star-of-sea-church",
+        "startLine": 240,
+        "startChar": 18,
+        "endLine": 240,
+        "endChar": 40,
+        "mentionText": "Star of the Sea Church"
+      },
+      {
+        "entityId": "thomas-street",
+        "startLine": 257,
+        "startChar": 55,
+        "endLine": 257,
+        "endChar": 68,
+        "mentionText": "Thomas Street"
+      },
+      {
+        "entityId": "moore-street",
+        "startLine": 663,
+        "startChar": 22,
+        "endLine": 663,
+        "endChar": 34,
+        "mentionText": "Moore Street"
+      },
+      {
+        "entityId": "jesuit-church-gardiner-street",
+        "startLine": 957,
+        "startChar": 16,
+        "endLine": 957,
+        "endChar": 52,
+        "mentionText": "the Jesuit Church in Gardiner Street"
+      },
+      {
+        "entityId": "jesuit-church-gardiner-street",
+        "startLine": 957,
+        "startChar": 20,
+        "endLine": 957,
+        "endChar": 52,
+        "mentionText": "Jesuit Church in Gardiner Street"
+      },
+      {
+        "entityId": "jesuit-pulpit",
+        "startLine": 969,
+        "startChar": 27,
+        "endLine": 969,
+        "endChar": 37,
+        "mentionText": "the pulpit"
+      },
+      {
+        "entityId": "jesuit-pulpit",
+        "startLine": 979,
+        "startChar": 34,
+        "endLine": 979,
+        "endChar": 44,
+        "mentionText": "the pulpit"
+      },
+      {
+        "entityId": "jesuit-pulpit",
+        "startLine": 992,
+        "startChar": 54,
+        "endLine": 992,
+        "endChar": 64,
+        "mentionText": "the pulpit"
+      },
+      {
+        "entityId": "jesuit-pulpit",
+        "startLine": 995,
+        "startChar": 37,
+        "endLine": 995,
+        "endChar": 47,
+        "mentionText": "the pulpit"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 174,
+        "startChar": 23,
+        "endLine": 174,
+        "endChar": 29,
+        "mentionText": "Dublin"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 159,
+        "startChar": 57,
+        "endLine": 159,
+        "endChar": 65,
+        "mentionText": "the city"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 369,
+        "startChar": 31,
+        "endLine": 369,
+        "endChar": 39,
+        "mentionText": "the city"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 371,
+        "startChar": 20,
+        "endLine": 371,
+        "endChar": 28,
+        "mentionText": "the city"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 698,
+        "startChar": 42,
+        "endLine": 698,
+        "endChar": 50,
+        "mentionText": "the city"
+      },
+      {
+        "entityId": "dublin",
+        "startLine": 978,
+        "startChar": 61,
+        "endLine": 978,
+        "endChar": 69,
+        "mentionText": "the city"
+      },
+      {
+        "entityId": "glasgow",
+        "startLine": 248,
+        "startChar": 8,
+        "endLine": 248,
+        "endChar": 15,
+        "mentionText": "Glasgow"
+      },
+      {
+        "entityId": "belfast",
+        "startLine": 248,
+        "startChar": 61,
+        "endLine": 248,
+        "endChar": 68,
+        "mentionText": "Belfast"
+      },
+      {
+        "entityId": "midland-railway",
+        "startLine": 323,
+        "startChar": 29,
+        "endLine": 323,
+        "endChar": 48,
+        "mentionText": "the Midland Railway"
+      },
+      {
+        "entityId": "midland-railway",
+        "startLine": 323,
+        "startChar": 33,
+        "endLine": 323,
+        "endChar": 48,
+        "mentionText": "Midland Railway"
+      },
+      {
+        "entityId": "irish-times",
+        "startLine": 324,
+        "startChar": 19,
+        "endLine": 324,
+        "endChar": 36,
+        "mentionText": "_The Irish Times_"
+      },
+      {
+        "entityId": "irish-times",
+        "startLine": 324,
+        "startChar": 20,
+        "endLine": 324,
+        "endChar": 35,
+        "mentionText": "The Irish Times"
+      },
+      {
+        "entityId": "vatican",
+        "startLine": 657,
+        "startChar": 24,
+        "endLine": 657,
+        "endChar": 35,
+        "mentionText": "the Vatican"
+      },
+      {
+        "entityId": "vatican",
+        "startLine": 657,
+        "startChar": 28,
+        "endLine": 657,
+        "endChar": 35,
+        "mentionText": "Vatican"
+      },
+      {
+        "entityId": "silk-hat",
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 7,
+        "mentionText": "His hat"
+      },
+      {
+        "entityId": "silk-hat",
+        "startLine": 986,
+        "startChar": 45,
+        "endLine": 986,
+        "endChar": 52,
+        "mentionText": "His hat"
+      },
+      {
+        "entityId": "silk-hat",
+        "startLine": 160,
+        "startChar": 8,
+        "endLine": 160,
+        "endChar": 18,
+        "mentionText": "a silk hat"
+      },
+      {
+        "entityId": "silk-hat",
+        "startLine": 242,
+        "startChar": 34,
+        "endLine": 242,
+        "endChar": 44,
+        "mentionText": "a silk hat"
+      },
+      {
+        "entityId": "gaiters",
+        "startLine": 160,
+        "startChar": 39,
+        "endLine": 160,
+        "endChar": 56,
+        "mentionText": "a pair of gaiters"
+      },
+      {
+        "entityId": "water",
+        "startLine": 53,
+        "startChar": 4,
+        "endLine": 53,
+        "endChar": 9,
+        "mentionText": "water"
+      },
+      {
+        "entityId": "water",
+        "startLine": 287,
+        "startChar": 4,
+        "endLine": 287,
+        "endChar": 9,
+        "mentionText": "water"
+      },
+      {
+        "entityId": "brandy",
+        "startLine": 54,
+        "startChar": 64,
+        "endLine": 54,
+        "endChar": 70,
+        "mentionText": "brandy"
+      },
+      {
+        "entityId": "brandy",
+        "startLine": 56,
+        "startChar": 40,
+        "endLine": 56,
+        "endChar": 46,
+        "mentionText": "brandy"
+      },
+      {
+        "entityId": "match",
+        "startLine": 146,
+        "startChar": 38,
+        "endLine": 146,
+        "endChar": 45,
+        "mentionText": "a match"
+      },
+      {
+        "entityId": "leaden-battalion",
+        "startLine": 167,
+        "startChar": 22,
+        "endLine": 167,
+        "endChar": 60,
+        "mentionText": "a little leaden battalion of canisters"
+      },
+      {
+        "entityId": "china-bowls",
+        "startLine": 168,
+        "startChar": 44,
+        "endLine": 168,
+        "endChar": 68,
+        "mentionText": "four or five china bowls"
+      },
+      {
+        "entityId": "beef-tea",
+        "startLine": 253,
+        "startChar": 5,
+        "endLine": 253,
+        "endChar": 13,
+        "mentionText": "beef-tea"
+      },
+      {
+        "entityId": "stout",
+        "startLine": 486,
+        "startChar": 0,
+        "endLine": 486,
+        "endChar": 16,
+        "mentionText": "bottles of stout"
+      },
+      {
+        "entityId": "whisky",
+        "startLine": 706,
+        "startChar": 36,
+        "endLine": 706,
+        "endChar": 65,
+        "mentionText": "a half-pint of special whisky"
+      },
+      {
+        "entityId": "handkerchief",
+        "startLine": 993,
+        "startChar": 52,
+        "endLine": 993,
+        "endChar": 65,
+        "mentionText": "handkerchiefs"
+      },
+      {
+        "entityId": "window-blind",
+        "startLine": 165,
+        "startChar": 33,
+        "endLine": 165,
+        "endChar": 49,
+        "mentionText": "the window blind"
+      },
+      {
+        "entityId": "letter",
+        "startLine": 252,
+        "startChar": 15,
+        "endLine": 252,
+        "endChar": 37,
+        "mentionText": "a letter to his office"
+      },
+      {
+        "entityId": "constable-book",
+        "startLine": 45,
+        "startChar": 24,
+        "endLine": 45,
+        "endChar": 36,
+        "mentionText": "a small book"
+      },
+      {
+        "entityId": "constable-pencil",
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 10,
+        "mentionText": "his pencil"
+      },
+      {
+        "entityId": "constable-glove",
+        "startLine": 45,
+        "startChar": 4,
+        "endLine": 45,
+        "endChar": 13,
+        "mentionText": "his glove"
+      },
+      {
+        "entityId": "constable-helmet",
+        "startLine": 91,
+        "startChar": 22,
+        "endLine": 91,
+        "endChar": 32,
+        "mentionText": "his helmet"
+      },
+      {
+        "entityId": "filthy-coat",
+        "startLine": 156,
+        "startChar": 10,
+        "endLine": 156,
+        "endChar": 25,
+        "mentionText": "his filthy coat"
+      },
+      {
+        "entityId": "collar-necktie",
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 10,
+        "mentionText": "His collar"
+      },
+      {
+        "entityId": "collar-necktie",
+        "startLine": 33,
+        "startChar": 30,
+        "endLine": 33,
+        "endChar": 41,
+        "mentionText": "his necktie"
+      },
+      {
+        "entityId": "frock-coat",
+        "startLine": 241,
+        "startChar": 57,
+        "endLine": 241,
+        "endChar": 69,
+        "mentionText": "a frock-coat"
+      },
+      {
+        "entityId": "lavender-trousers",
+        "startLine": 242,
+        "startChar": 4,
+        "endLine": 242,
+        "endChar": 21,
+        "mentionText": "lavender trousers"
+      },
+      {
+        "entityId": "jesuit-order",
+        "startLine": 558,
+        "startChar": 10,
+        "endLine": 558,
+        "endChar": 21,
+        "mentionText": "the Jesuits"
+      },
+      {
+        "entityId": "jesuit-order",
+        "startLine": 560,
+        "startChar": 33,
+        "endLine": 560,
+        "endChar": 44,
+        "mentionText": "the Jesuits"
+      },
+      {
+        "entityId": "jesuit-order",
+        "startLine": 564,
+        "startChar": 33,
+        "endLine": 564,
+        "endChar": 44,
+        "mentionText": "the Jesuits"
+      },
+      {
+        "entityId": "jesuit-order",
+        "startLine": 572,
+        "startChar": 51,
+        "endLine": 572,
+        "endChar": 67,
+        "mentionText": "the Jesuit Order"
+      },
+      {
+        "entityId": "jesuit-order",
+        "startLine": 574,
+        "startChar": 10,
+        "endLine": 574,
+        "endChar": 26,
+        "mentionText": "the Jesuit Order"
+      },
+      {
+        "entityId": "jesuit-order",
+        "startLine": 572,
+        "startChar": 55,
+        "endLine": 572,
+        "endChar": 67,
+        "mentionText": "Jesuit Order"
+      },
+      {
+        "entityId": "jesuit-order",
+        "startLine": 574,
+        "startChar": 14,
+        "endLine": 574,
+        "endChar": 26,
+        "mentionText": "Jesuit Order"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 274,
+        "startChar": 41,
+        "endLine": 274,
+        "endChar": 51,
+        "mentionText": "the Church"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 563,
+        "startChar": 31,
+        "endLine": 563,
+        "endChar": 41,
+        "mentionText": "the Church"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 573,
+        "startChar": 21,
+        "endLine": 573,
+        "endChar": 31,
+        "mentionText": "the Church"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 817,
+        "startChar": 24,
+        "endLine": 817,
+        "endChar": 34,
+        "mentionText": "the Church"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 851,
+        "startChar": 9,
+        "endLine": 851,
+        "endChar": 19,
+        "mentionText": "the Church"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 273,
+        "startChar": 32,
+        "endLine": 273,
+        "endChar": 50,
+        "mentionText": "the Catholic faith"
+      },
+      {
+        "entityId": "catholic-church",
+        "startLine": 274,
+        "startChar": 29,
+        "endLine": 274,
+        "endChar": 51,
+        "mentionText": "the pale of the Church"
+      },
+      {
+        "entityId": "commercial-travelers",
+        "startLine": 158,
+        "startChar": 16,
+        "endLine": 158,
+        "endChar": 36,
+        "mentionText": "commercial traveller"
+      },
+      {
+        "entityId": "commercial-travelers",
+        "startLine": 158,
+        "startChar": 40,
+        "endLine": 158,
+        "endChar": 54,
+        "mentionText": "the old school"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {

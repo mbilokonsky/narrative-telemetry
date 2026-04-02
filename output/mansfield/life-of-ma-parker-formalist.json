@@ -5282,7 +5282,1736 @@
         "firstIntroduced": "e32"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "ma-parker",
+        "startLine": 4,
+        "startChar": 40,
+        "endLine": 4,
+        "endChar": 53,
+        "mentionText": "old Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 18,
+        "startChar": 25,
+        "endLine": 18,
+        "endChar": 38,
+        "mentionText": "old Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 191,
+        "startChar": 26,
+        "endLine": 191,
+        "endChar": 39,
+        "mentionText": "old Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 234,
+        "startChar": 57,
+        "endLine": 234,
+        "endChar": 70,
+        "mentionText": "old Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 124,
+        "startChar": 10,
+        "endLine": 124,
+        "endChar": 21,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 128,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 11,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 11,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 136,
+        "startChar": 18,
+        "endLine": 136,
+        "endChar": 29,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 140,
+        "startChar": 22,
+        "endLine": 140,
+        "endChar": 33,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 148,
+        "startChar": 41,
+        "endLine": 148,
+        "endChar": 52,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 150,
+        "startChar": 13,
+        "endLine": 150,
+        "endChar": 24,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 199,
+        "startChar": 5,
+        "endLine": 199,
+        "endChar": 16,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 207,
+        "startChar": 17,
+        "endLine": 207,
+        "endChar": 28,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 214,
+        "startChar": 41,
+        "endLine": 214,
+        "endChar": 52,
+        "mentionText": "Mrs. Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 1,
+        "startChar": 8,
+        "endLine": 1,
+        "endChar": 17,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 4,
+        "startChar": 44,
+        "endLine": 4,
+        "endChar": 53,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 6,
+        "startChar": 10,
+        "endLine": 6,
+        "endChar": 19,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 18,
+        "startChar": 29,
+        "endLine": 18,
+        "endChar": 38,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 21,
+        "startChar": 23,
+        "endLine": 21,
+        "endChar": 32,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 9,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 80,
+        "startChar": 50,
+        "endLine": 80,
+        "endChar": 59,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 87,
+        "startChar": 29,
+        "endLine": 87,
+        "endChar": 38,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 159,
+        "startChar": 11,
+        "endLine": 159,
+        "endChar": 20,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 176,
+        "startChar": 23,
+        "endLine": 176,
+        "endChar": 32,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 191,
+        "startChar": 30,
+        "endLine": 191,
+        "endChar": 39,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 234,
+        "startChar": 61,
+        "endLine": 234,
+        "endChar": 70,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 240,
+        "startChar": 19,
+        "endLine": 240,
+        "endChar": 28,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 275,
+        "startChar": 28,
+        "endLine": 275,
+        "endChar": 37,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 289,
+        "startChar": 0,
+        "endLine": 289,
+        "endChar": 9,
+        "mentionText": "Ma Parker"
+      },
+      {
+        "entityId": "ma-parker",
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 13,
+        "mentionText": "old woman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 4,
+        "startChar": 9,
+        "endLine": 4,
+        "endChar": 27,
+        "mentionText": "literary gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 10,
+        "startChar": 48,
+        "endLine": 10,
+        "endChar": 66,
+        "mentionText": "literary gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 69,
+        "startChar": 20,
+        "endLine": 69,
+        "endChar": 38,
+        "mentionText": "literary gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 124,
+        "startChar": 28,
+        "endLine": 124,
+        "endChar": 46,
+        "mentionText": "literary gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 196,
+        "startChar": 51,
+        "endLine": 196,
+        "endChar": 69,
+        "mentionText": "literary gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 207,
+        "startChar": 40,
+        "endLine": 207,
+        "endChar": 58,
+        "mentionText": "literary gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 130,
+        "startChar": 27,
+        "endLine": 130,
+        "endChar": 40,
+        "mentionText": "the gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 140,
+        "startChar": 41,
+        "endLine": 140,
+        "endChar": 54,
+        "mentionText": "the gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 280,
+        "startChar": 56,
+        "endLine": 280,
+        "endChar": 69,
+        "mentionText": "the gentleman"
+      },
+      {
+        "entityId": "literary-gentleman",
+        "startLine": 81,
+        "startChar": 28,
+        "endLine": 81,
+        "endChar": 43,
+        "mentionText": "young gentleman"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 163,
+        "startChar": 24,
+        "endLine": 163,
+        "endChar": 37,
+        "mentionText": "little Lennie"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 185,
+        "startChar": 46,
+        "endLine": 185,
+        "endChar": 59,
+        "mentionText": "little Lennie"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 221,
+        "startChar": 11,
+        "endLine": 221,
+        "endChar": 24,
+        "mentionText": "little Lennie"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 264,
+        "startChar": 46,
+        "endLine": 264,
+        "endChar": 59,
+        "mentionText": "little Lennie"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 8,
+        "mentionText": "grandson"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 38,
+        "startChar": 25,
+        "endLine": 38,
+        "endChar": 33,
+        "mentionText": "grandson"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 164,
+        "startChar": 10,
+        "endLine": 164,
+        "endChar": 18,
+        "mentionText": "grandson"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 172,
+        "startChar": 6,
+        "endLine": 172,
+        "endChar": 17,
+        "mentionText": "fair babies"
+      },
+      {
+        "entityId": "lennie",
+        "startLine": 164,
+        "startChar": 7,
+        "endLine": 164,
+        "endChar": 18,
+        "mentionText": "my grandson"
+      },
+      {
+        "entityId": "ethel",
+        "startLine": 162,
+        "startChar": 4,
+        "endLine": 162,
+        "endChar": 9,
+        "mentionText": "Ethel"
+      },
+      {
+        "entityId": "ethel",
+        "startLine": 174,
+        "startChar": 26,
+        "endLine": 174,
+        "endChar": 31,
+        "mentionText": "Ethel"
+      },
+      {
+        "entityId": "ethel",
+        "startLine": 175,
+        "startChar": 64,
+        "endLine": 175,
+        "endChar": 69,
+        "mentionText": "Ethel"
+      },
+      {
+        "entityId": "ethel",
+        "startLine": 278,
+        "startChar": 22,
+        "endLine": 278,
+        "endChar": 27,
+        "mentionText": "Ethel"
+      },
+      {
+        "entityId": "ethel",
+        "startLine": 278,
+        "startChar": 57,
+        "endLine": 278,
+        "endChar": 62,
+        "mentionText": "Ethel"
+      },
+      {
+        "entityId": "ethel",
+        "startLine": 162,
+        "startChar": 11,
+        "endLine": 162,
+        "endChar": 23,
+        "mentionText": "the youngest"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 122,
+        "startChar": 12,
+        "endLine": 122,
+        "endChar": 19,
+        "mentionText": "husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 143,
+        "startChar": 60,
+        "endLine": 143,
+        "endChar": 67,
+        "mentionText": "husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 145,
+        "startChar": 24,
+        "endLine": 145,
+        "endChar": 31,
+        "mentionText": "husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 152,
+        "startChar": 10,
+        "endLine": 152,
+        "endChar": 17,
+        "mentionText": "husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 156,
+        "startChar": 36,
+        "endLine": 156,
+        "endChar": 43,
+        "mentionText": "husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 268,
+        "startChar": 62,
+        "endLine": 268,
+        "endChar": 69,
+        "mentionText": "husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 152,
+        "startChar": 0,
+        "endLine": 152,
+        "endChar": 17,
+        "mentionText": "poor dead husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 122,
+        "startChar": 30,
+        "endLine": 122,
+        "endChar": 35,
+        "mentionText": "baker"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 124,
+        "startChar": 3,
+        "endLine": 124,
+        "endChar": 8,
+        "mentionText": "baker"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 126,
+        "startChar": 64,
+        "endLine": 126,
+        "endChar": 69,
+        "mentionText": "baker"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 122,
+        "startChar": 8,
+        "endLine": 122,
+        "endChar": 19,
+        "mentionText": "her husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 143,
+        "startChar": 56,
+        "endLine": 143,
+        "endChar": 67,
+        "mentionText": "her husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 156,
+        "startChar": 32,
+        "endLine": 156,
+        "endChar": 43,
+        "mentionText": "her husband"
+      },
+      {
+        "entityId": "ma-parker-husband",
+        "startLine": 268,
+        "startChar": 58,
+        "endLine": 268,
+        "endChar": 69,
+        "mentionText": "her husband"
+      },
+      {
+        "entityId": "husband-sister",
+        "startLine": 156,
+        "startChar": 46,
+        "endLine": 156,
+        "endChar": 52,
+        "mentionText": "sister"
+      },
+      {
+        "entityId": "husband-sister",
+        "startLine": 160,
+        "startChar": 54,
+        "endLine": 160,
+        "endChar": 60,
+        "mentionText": "sister"
+      },
+      {
+        "entityId": "maudie",
+        "startLine": 160,
+        "startChar": 17,
+        "endLine": 160,
+        "endChar": 29,
+        "mentionText": "young Maudie"
+      },
+      {
+        "entityId": "maudie",
+        "startLine": 160,
+        "startChar": 23,
+        "endLine": 160,
+        "endChar": 29,
+        "mentionText": "Maudie"
+      },
+      {
+        "entityId": "alice",
+        "startLine": 160,
+        "startChar": 61,
+        "endLine": 160,
+        "endChar": 66,
+        "mentionText": "Alice"
+      },
+      {
+        "entityId": "alice",
+        "startLine": 160,
+        "startChar": 50,
+        "endLine": 160,
+        "endChar": 66,
+        "mentionText": "her sister Alice"
+      },
+      {
+        "entityId": "two-boys",
+        "startLine": 161,
+        "startChar": 9,
+        "endLine": 161,
+        "endChar": 17,
+        "mentionText": "two boys"
+      },
+      {
+        "entityId": "two-boys",
+        "startLine": 161,
+        "startChar": 5,
+        "endLine": 161,
+        "endChar": 17,
+        "mentionText": "the two boys"
+      },
+      {
+        "entityId": "young-jim",
+        "startLine": 161,
+        "startChar": 33,
+        "endLine": 161,
+        "endChar": 42,
+        "mentionText": "young Jim"
+      },
+      {
+        "entityId": "young-jim",
+        "startLine": 161,
+        "startChar": 39,
+        "endLine": 161,
+        "endChar": 42,
+        "mentionText": "Jim"
+      },
+      {
+        "entityId": "waiter",
+        "startLine": 162,
+        "startChar": 35,
+        "endLine": 162,
+        "endChar": 65,
+        "mentionText": "good-for-nothing little waiter"
+      },
+      {
+        "entityId": "waiter",
+        "startLine": 162,
+        "startChar": 59,
+        "endLine": 162,
+        "endChar": 65,
+        "mentionText": "waiter"
+      },
+      {
+        "entityId": "cruel-cook",
+        "startLine": 267,
+        "startChar": 51,
+        "endLine": 267,
+        "endChar": 61,
+        "mentionText": "cruel cook"
+      },
+      {
+        "entityId": "cruel-cook",
+        "startLine": 113,
+        "startChar": 23,
+        "endLine": 113,
+        "endChar": 27,
+        "mentionText": "cook"
+      },
+      {
+        "entityId": "cruel-cook",
+        "startLine": 267,
+        "startChar": 57,
+        "endLine": 267,
+        "endChar": 61,
+        "mentionText": "cook"
+      },
+      {
+        "entityId": "cruel-cook",
+        "startLine": 113,
+        "startChar": 34,
+        "endLine": 113,
+        "endChar": 45,
+        "mentionText": "cruel woman"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 120,
+        "startChar": 53,
+        "endLine": 120,
+        "endChar": 59,
+        "mentionText": "doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 144,
+        "startChar": 59,
+        "endLine": 144,
+        "endChar": 65,
+        "mentionText": "doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 146,
+        "startChar": 23,
+        "endLine": 146,
+        "endChar": 29,
+        "mentionText": "doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 148,
+        "startChar": 64,
+        "endLine": 148,
+        "endChar": 70,
+        "mentionText": "doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 268,
+        "startChar": 7,
+        "endLine": 268,
+        "endChar": 13,
+        "mentionText": "doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 144,
+        "startChar": 55,
+        "endLine": 144,
+        "endChar": 65,
+        "mentionText": "the doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 146,
+        "startChar": 19,
+        "endLine": 146,
+        "endChar": 29,
+        "mentionText": "the doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 148,
+        "startChar": 60,
+        "endLine": 148,
+        "endChar": 70,
+        "mentionText": "the doctor"
+      },
+      {
+        "entityId": "doctor",
+        "startLine": 268,
+        "startChar": 3,
+        "endLine": 268,
+        "endChar": 13,
+        "mentionText": "the doctor"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 4,
+        "startChar": 35,
+        "endLine": 4,
+        "endChar": 39,
+        "mentionText": "flat"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 252,
+        "startChar": 49,
+        "endLine": 252,
+        "endChar": 53,
+        "mentionText": "flat"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 281,
+        "startChar": 0,
+        "endLine": 281,
+        "endChar": 4,
+        "mentionText": "flat"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 252,
+        "startChar": 45,
+        "endLine": 252,
+        "endChar": 53,
+        "mentionText": "the flat"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 6,
+        "startChar": 52,
+        "endLine": 6,
+        "endChar": 68,
+        "mentionText": "dark little hall"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 13,
+        "startChar": 53,
+        "endLine": 13,
+        "endChar": 65,
+        "mentionText": "sitting-room"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 22,
+        "startChar": 19,
+        "endLine": 22,
+        "endChar": 26,
+        "mentionText": "kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 68,
+        "startChar": 57,
+        "endLine": 68,
+        "endChar": 64,
+        "mentionText": "kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 251,
+        "startChar": 15,
+        "endLine": 251,
+        "endChar": 22,
+        "mentionText": "kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-flat",
+        "startLine": 219,
+        "startChar": 58,
+        "endLine": 219,
+        "endChar": 65,
+        "mentionText": "bedroom"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 22,
+        "startChar": 19,
+        "endLine": 22,
+        "endChar": 26,
+        "mentionText": "kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 68,
+        "startChar": 57,
+        "endLine": 68,
+        "endChar": 64,
+        "mentionText": "kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 251,
+        "startChar": 15,
+        "endLine": 251,
+        "endChar": 22,
+        "mentionText": "kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 22,
+        "startChar": 15,
+        "endLine": 22,
+        "endChar": 26,
+        "mentionText": "the kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 251,
+        "startChar": 11,
+        "endLine": 251,
+        "endChar": 22,
+        "mentionText": "the kitchen"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 63,
+        "startChar": 56,
+        "endLine": 63,
+        "endChar": 65,
+        "mentionText": "gas stove"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 64,
+        "startChar": 20,
+        "endLine": 64,
+        "endChar": 24,
+        "mentionText": "sink"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 169,
+        "startChar": 0,
+        "endLine": 169,
+        "endChar": 4,
+        "mentionText": "sink"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 168,
+        "startChar": 54,
+        "endLine": 168,
+        "endChar": 61,
+        "mentionText": "dresser"
+      },
+      {
+        "entityId": "literary-gentleman-kitchen",
+        "startLine": 183,
+        "startChar": 47,
+        "endLine": 183,
+        "endChar": 54,
+        "mentionText": "dresser"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 219,
+        "startChar": 58,
+        "endLine": 219,
+        "endChar": 65,
+        "mentionText": "bedroom"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 219,
+        "startChar": 54,
+        "endLine": 219,
+        "endChar": 65,
+        "mentionText": "the bedroom"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 34,
+        "startChar": 68,
+        "endLine": 34,
+        "endChar": 71,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 43,
+        "startChar": 42,
+        "endLine": 43,
+        "endChar": 45,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 145,
+        "startChar": 42,
+        "endLine": 145,
+        "endChar": 45,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 168,
+        "startChar": 41,
+        "endLine": 168,
+        "endChar": 44,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 219,
+        "startChar": 58,
+        "endLine": 219,
+        "endChar": 61,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 220,
+        "startChar": 27,
+        "endLine": 220,
+        "endChar": 30,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 240,
+        "startChar": 60,
+        "endLine": 240,
+        "endChar": 63,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "literary-gentleman-bedroom",
+        "startLine": 240,
+        "startChar": 39,
+        "endLine": 240,
+        "endChar": 50,
+        "mentionText": "counterpane"
+      },
+      {
+        "entityId": "ma-parker-home",
+        "startLine": 91,
+        "startChar": 60,
+        "endLine": 91,
+        "endChar": 64,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "ma-parker-home",
+        "startLine": 114,
+        "startChar": 17,
+        "endLine": 114,
+        "endChar": 21,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "ma-parker-home",
+        "startLine": 278,
+        "startChar": 16,
+        "endLine": 278,
+        "endChar": 20,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "ma-parker-home",
+        "startLine": 95,
+        "startChar": 44,
+        "endLine": 95,
+        "endChar": 70,
+        "mentionText": "basement-back at Number 27"
+      },
+      {
+        "entityId": "stratford-on-avon",
+        "startLine": 99,
+        "startChar": 22,
+        "endLine": 99,
+        "endChar": 31,
+        "mentionText": "Stratford"
+      },
+      {
+        "entityId": "stratford-on-avon",
+        "startLine": 100,
+        "startChar": 21,
+        "endLine": 100,
+        "endChar": 30,
+        "mentionText": "Stratford"
+      },
+      {
+        "entityId": "stratford-on-avon",
+        "startLine": 104,
+        "startChar": 20,
+        "endLine": 104,
+        "endChar": 29,
+        "mentionText": "Stratford"
+      },
+      {
+        "entityId": "stratford-on-avon",
+        "startLine": 100,
+        "startChar": 21,
+        "endLine": 100,
+        "endChar": 38,
+        "mentionText": "Stratford-on-Avon"
+      },
+      {
+        "entityId": "stratford-on-avon",
+        "startLine": 91,
+        "startChar": 60,
+        "endLine": 91,
+        "endChar": 64,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "stratford-on-avon",
+        "startLine": 114,
+        "startChar": 17,
+        "endLine": 114,
+        "endChar": 21,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "stratford-on-avon",
+        "startLine": 278,
+        "startChar": 16,
+        "endLine": 278,
+        "endChar": 20,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "first-place",
+        "startLine": 111,
+        "startChar": 30,
+        "endLine": 111,
+        "endChar": 41,
+        "mentionText": "first place"
+      },
+      {
+        "entityId": "first-place",
+        "startLine": 267,
+        "startChar": 31,
+        "endLine": 267,
+        "endChar": 42,
+        "mentionText": "first place"
+      },
+      {
+        "entityId": "first-place",
+        "startLine": 111,
+        "startChar": 11,
+        "endLine": 111,
+        "endChar": 25,
+        "mentionText": "dreadful place"
+      },
+      {
+        "entityId": "first-place",
+        "startLine": 113,
+        "startChar": 2,
+        "endLine": 113,
+        "endChar": 13,
+        "mentionText": "fair cellar"
+      },
+      {
+        "entityId": "baker-house",
+        "startLine": 91,
+        "startChar": 60,
+        "endLine": 91,
+        "endChar": 64,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "baker-house",
+        "startLine": 114,
+        "startChar": 17,
+        "endLine": 114,
+        "endChar": 21,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "baker-house",
+        "startLine": 278,
+        "startChar": 16,
+        "endLine": 278,
+        "endChar": 20,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "hospital-infirmary",
+        "startLine": 109,
+        "startChar": 4,
+        "endLine": 109,
+        "endChar": 12,
+        "mentionText": "hospital"
+      },
+      {
+        "entityId": "hospital-infirmary",
+        "startLine": 138,
+        "startChar": 31,
+        "endLine": 138,
+        "endChar": 40,
+        "mentionText": "infirmary"
+      },
+      {
+        "entityId": "london-street",
+        "startLine": 39,
+        "startChar": 38,
+        "endLine": 39,
+        "endChar": 44,
+        "mentionText": "street"
+      },
+      {
+        "entityId": "london-street",
+        "startLine": 258,
+        "startChar": 19,
+        "endLine": 258,
+        "endChar": 25,
+        "mentionText": "street"
+      },
+      {
+        "entityId": "london-street",
+        "startLine": 39,
+        "startChar": 34,
+        "endLine": 39,
+        "endChar": 44,
+        "mentionText": "the street"
+      },
+      {
+        "entityId": "london-street",
+        "startLine": 258,
+        "startChar": 15,
+        "endLine": 258,
+        "endChar": 25,
+        "mentionText": "the street"
+      },
+      {
+        "entityId": "london-street",
+        "startLine": 258,
+        "startChar": 7,
+        "endLine": 258,
+        "endChar": 25,
+        "mentionText": "cold in the street"
+      },
+      {
+        "entityId": "cemetery",
+        "startLine": 186,
+        "startChar": 18,
+        "endLine": 186,
+        "endChar": 26,
+        "mentionText": "cemetery"
+      },
+      {
+        "entityId": "india",
+        "startLine": 161,
+        "startChar": 51,
+        "endLine": 161,
+        "endChar": 56,
+        "mentionText": "India"
+      },
+      {
+        "entityId": "fish-bag",
+        "startLine": 22,
+        "startChar": 41,
+        "endLine": 22,
+        "endChar": 53,
+        "mentionText": "old fish bag"
+      },
+      {
+        "entityId": "fish-bag",
+        "startLine": 22,
+        "startChar": 45,
+        "endLine": 22,
+        "endChar": 53,
+        "mentionText": "fish bag"
+      },
+      {
+        "entityId": "fish-bag",
+        "startLine": 92,
+        "startChar": 4,
+        "endLine": 92,
+        "endChar": 12,
+        "mentionText": "fish bag"
+      },
+      {
+        "entityId": "toque",
+        "startLine": 28,
+        "startChar": 47,
+        "endLine": 28,
+        "endChar": 52,
+        "mentionText": "toque"
+      },
+      {
+        "entityId": "toque",
+        "startLine": 28,
+        "startChar": 23,
+        "endLine": 28,
+        "endChar": 35,
+        "mentionText": "jetty spears"
+      },
+      {
+        "entityId": "worn-jacket",
+        "startLine": 29,
+        "startChar": 27,
+        "endLine": 29,
+        "endChar": 38,
+        "mentionText": "worn jacket"
+      },
+      {
+        "entityId": "worn-jacket",
+        "startLine": 29,
+        "startChar": 32,
+        "endLine": 29,
+        "endChar": 38,
+        "mentionText": "jacket"
+      },
+      {
+        "entityId": "worn-jacket",
+        "startLine": 252,
+        "startChar": 20,
+        "endLine": 252,
+        "endChar": 26,
+        "mentionText": "jacket"
+      },
+      {
+        "entityId": "apron",
+        "startLine": 23,
+        "startChar": 23,
+        "endLine": 23,
+        "endChar": 28,
+        "mentionText": "apron"
+      },
+      {
+        "entityId": "apron",
+        "startLine": 30,
+        "startChar": 9,
+        "endLine": 30,
+        "endChar": 14,
+        "mentionText": "apron"
+      },
+      {
+        "entityId": "apron",
+        "startLine": 289,
+        "startChar": 64,
+        "endLine": 289,
+        "endChar": 69,
+        "mentionText": "apron"
+      },
+      {
+        "entityId": "felt-shoes",
+        "startLine": 23,
+        "startChar": 43,
+        "endLine": 23,
+        "endChar": 53,
+        "mentionText": "felt shoes"
+      },
+      {
+        "entityId": "felt-shoes",
+        "startLine": 23,
+        "startChar": 48,
+        "endLine": 23,
+        "endChar": 53,
+        "mentionText": "shoes"
+      },
+      {
+        "entityId": "boots",
+        "startLine": 30,
+        "startChar": 44,
+        "endLine": 30,
+        "endChar": 49,
+        "mentionText": "boots"
+      },
+      {
+        "entityId": "boots",
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 5,
+        "mentionText": "boots"
+      },
+      {
+        "entityId": "boots",
+        "startLine": 38,
+        "startChar": 65,
+        "endLine": 38,
+        "endChar": 70,
+        "mentionText": "boots"
+      },
+      {
+        "entityId": "boots",
+        "startLine": 38,
+        "startChar": 58,
+        "endLine": 38,
+        "endChar": 70,
+        "mentionText": "button boots"
+      },
+      {
+        "entityId": "iron-kettle",
+        "startLine": 63,
+        "startChar": 36,
+        "endLine": 63,
+        "endChar": 47,
+        "mentionText": "iron kettle"
+      },
+      {
+        "entityId": "iron-kettle",
+        "startLine": 63,
+        "startChar": 41,
+        "endLine": 63,
+        "endChar": 47,
+        "mentionText": "kettle"
+      },
+      {
+        "entityId": "iron-kettle",
+        "startLine": 64,
+        "startChar": 65,
+        "endLine": 64,
+        "endChar": 71,
+        "mentionText": "kettle"
+      },
+      {
+        "entityId": "pail",
+        "startLine": 65,
+        "startChar": 45,
+        "endLine": 65,
+        "endChar": 49,
+        "mentionText": "pail"
+      },
+      {
+        "entityId": "washing-up-bowl",
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 15,
+        "mentionText": "washing-up bowl"
+      },
+      {
+        "entityId": "broom",
+        "startLine": 88,
+        "startChar": 20,
+        "endLine": 88,
+        "endChar": 25,
+        "mentionText": "broom"
+      },
+      {
+        "entityId": "black-leather-purse",
+        "startLine": 55,
+        "startChar": 32,
+        "endLine": 55,
+        "endChar": 66,
+        "mentionText": "old, squashed, black leather purse"
+      },
+      {
+        "entityId": "black-leather-purse",
+        "startLine": 55,
+        "startChar": 61,
+        "endLine": 55,
+        "endChar": 66,
+        "mentionText": "purse"
+      },
+      {
+        "entityId": "jam-jar",
+        "startLine": 70,
+        "startChar": 52,
+        "endLine": 70,
+        "endChar": 59,
+        "mentionText": "jam jar"
+      },
+      {
+        "entityId": "roller-towel",
+        "startLine": 72,
+        "startChar": 11,
+        "endLine": 72,
+        "endChar": 23,
+        "mentionText": "roller towel"
+      },
+      {
+        "entityId": "dirty-cups",
+        "startLine": 166,
+        "startChar": 13,
+        "endLine": 166,
+        "endChar": 23,
+        "mentionText": "dirty cups"
+      },
+      {
+        "entityId": "dirty-cups",
+        "startLine": 166,
+        "startChar": 19,
+        "endLine": 166,
+        "endChar": 23,
+        "mentionText": "cups"
+      },
+      {
+        "entityId": "dirty-dishes",
+        "startLine": 166,
+        "startChar": 25,
+        "endLine": 166,
+        "endChar": 37,
+        "mentionText": "dirty dishes"
+      },
+      {
+        "entityId": "dirty-dishes",
+        "startLine": 166,
+        "startChar": 31,
+        "endLine": 166,
+        "endChar": 37,
+        "mentionText": "dishes"
+      },
+      {
+        "entityId": "ink-black-knives",
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 167,
+        "endChar": 16,
+        "mentionText": "ink-black knives"
+      },
+      {
+        "entityId": "ink-black-knives",
+        "startLine": 167,
+        "startChar": 10,
+        "endLine": 167,
+        "endChar": 16,
+        "mentionText": "knives"
+      },
+      {
+        "entityId": "potato",
+        "startLine": 167,
+        "startChar": 37,
+        "endLine": 167,
+        "endChar": 52,
+        "mentionText": "piece of potato"
+      },
+      {
+        "entityId": "cork",
+        "startLine": 168,
+        "startChar": 7,
+        "endLine": 168,
+        "endChar": 20,
+        "mentionText": "piece of cork"
+      },
+      {
+        "entityId": "table",
+        "startLine": 168,
+        "startChar": 26,
+        "endLine": 168,
+        "endChar": 31,
+        "mentionText": "table"
+      },
+      {
+        "entityId": "dresser",
+        "startLine": 168,
+        "startChar": 54,
+        "endLine": 168,
+        "endChar": 61,
+        "mentionText": "dresser"
+      },
+      {
+        "entityId": "dresser",
+        "startLine": 183,
+        "startChar": 47,
+        "endLine": 183,
+        "endChar": 54,
+        "mentionText": "dresser"
+      },
+      {
+        "entityId": "sink",
+        "startLine": 64,
+        "startChar": 20,
+        "endLine": 64,
+        "endChar": 24,
+        "mentionText": "sink"
+      },
+      {
+        "entityId": "sink",
+        "startLine": 169,
+        "startChar": 0,
+        "endLine": 169,
+        "endChar": 4,
+        "mentionText": "sink"
+      },
+      {
+        "entityId": "sink",
+        "startLine": 169,
+        "startChar": 14,
+        "endLine": 169,
+        "endChar": 27,
+        "mentionText": "sardine tails"
+      },
+      {
+        "entityId": "gas-stove",
+        "startLine": 63,
+        "startChar": 56,
+        "endLine": 63,
+        "endChar": 65,
+        "mentionText": "gas stove"
+      },
+      {
+        "entityId": "smudgy-window",
+        "startLine": 82,
+        "startChar": 22,
+        "endLine": 82,
+        "endChar": 42,
+        "mentionText": "smudgy little window"
+      },
+      {
+        "entityId": "smudgy-window",
+        "startLine": 82,
+        "startChar": 36,
+        "endLine": 82,
+        "endChar": 42,
+        "mentionText": "window"
+      },
+      {
+        "entityId": "smudgy-window",
+        "startLine": 192,
+        "startChar": 35,
+        "endLine": 192,
+        "endChar": 41,
+        "mentionText": "window"
+      },
+      {
+        "entityId": "toast-crusts",
+        "startLine": 80,
+        "startChar": 5,
+        "endLine": 80,
+        "endChar": 17,
+        "mentionText": "toast crusts"
+      },
+      {
+        "entityId": "envelopes",
+        "startLine": 80,
+        "startChar": 19,
+        "endLine": 80,
+        "endChar": 28,
+        "mentionText": "envelopes"
+      },
+      {
+        "entityId": "cigarette-ends",
+        "startLine": 80,
+        "startChar": 30,
+        "endLine": 80,
+        "endChar": 44,
+        "mentionText": "cigarette ends"
+      },
+      {
+        "entityId": "crumpled-newspaper",
+        "startLine": 12,
+        "startChar": 35,
+        "endLine": 12,
+        "endChar": 53,
+        "mentionText": "crumpled newspaper"
+      },
+      {
+        "entityId": "shabby-dressing-gown",
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 20,
+        "mentionText": "shabby dressing-gown"
+      },
+      {
+        "entityId": "marmalade",
+        "startLine": 26,
+        "startChar": 61,
+        "endLine": 26,
+        "endChar": 70,
+        "mentionText": "marmalade"
+      },
+      {
+        "entityId": "half-crown",
+        "startLine": 203,
+        "startChar": 22,
+        "endLine": 203,
+        "endChar": 32,
+        "mentionText": "half-crown"
+      },
+      {
+        "entityId": "inkstand",
+        "startLine": 203,
+        "startChar": 52,
+        "endLine": 203,
+        "endChar": 60,
+        "mentionText": "inkstand"
+      },
+      {
+        "entityId": "inkstand",
+        "startLine": 203,
+        "startChar": 40,
+        "endLine": 203,
+        "endChar": 60,
+        "mentionText": "tray of the inkstand"
+      },
+      {
+        "entityId": "cocoa-tin",
+        "startLine": 208,
+        "startChar": 27,
+        "endLine": 208,
+        "endChar": 32,
+        "mentionText": "cocoa"
+      },
+      {
+        "entityId": "cocoa-tin",
+        "startLine": 212,
+        "startChar": 60,
+        "endLine": 212,
+        "endChar": 65,
+        "mentionText": "cocoa"
+      },
+      {
+        "entityId": "brushes-cloths",
+        "startLine": 219,
+        "startChar": 30,
+        "endLine": 219,
+        "endChar": 48,
+        "mentionText": "brushes and cloths"
+      },
+      {
+        "entityId": "brushes-cloths",
+        "startLine": 219,
+        "startChar": 30,
+        "endLine": 219,
+        "endChar": 35,
+        "mentionText": "brush"
+      },
+      {
+        "entityId": "brushes-cloths",
+        "startLine": 250,
+        "startChar": 50,
+        "endLine": 250,
+        "endChar": 55,
+        "mentionText": "brush"
+      },
+      {
+        "entityId": "counterpane",
+        "startLine": 240,
+        "startChar": 39,
+        "endLine": 240,
+        "endChar": 50,
+        "mentionText": "counterpane"
+      },
+      {
+        "entityId": "egg-cup-ink",
+        "startLine": 183,
+        "startChar": 13,
+        "endLine": 183,
+        "endChar": 27,
+        "mentionText": "egg-cup of ink"
+      },
+      {
+        "entityId": "postal-order",
+        "startLine": 184,
+        "startChar": 37,
+        "endLine": 184,
+        "endChar": 49,
+        "mentionText": "postal order"
+      },
+      {
+        "entityId": "bus",
+        "startLine": 107,
+        "startChar": 12,
+        "endLine": 107,
+        "endChar": 15,
+        "mentionText": "bus"
+      },
+      {
+        "entityId": "bus",
+        "startLine": 108,
+        "startChar": 8,
+        "endLine": 108,
+        "endChar": 11,
+        "mentionText": "bus"
+      },
+      {
+        "entityId": "bus",
+        "startLine": 187,
+        "startChar": 16,
+        "endLine": 187,
+        "endChar": 19,
+        "mentionText": "bus"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading: Structure, Style, and Narrative Form": {

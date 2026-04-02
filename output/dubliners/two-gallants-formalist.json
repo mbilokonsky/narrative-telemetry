@@ -5580,7 +5580,1136 @@
         "firstIntroduced": "e49-corley-reveals-coin"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "lenehan",
+        "startLine": 20,
+        "startChar": 27,
+        "endLine": 20,
+        "endChar": 69,
+        "mentionText": "His eyes, twinkling with cunning enjoyment"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 41,
+        "startChar": 15,
+        "endLine": 41,
+        "endChar": 53,
+        "mentionText": "Most people considered Lenehan a leech"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 60,
+        "mentionText": "He was a sporting vagrant armed with a vast stock of stories"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 41,
+        "startChar": 38,
+        "endLine": 41,
+        "endChar": 45,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 67,
+        "startChar": 42,
+        "endLine": 67,
+        "endChar": 49,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 100,
+        "startChar": 18,
+        "endLine": 100,
+        "endChar": 25,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 109,
+        "startChar": 30,
+        "endLine": 109,
+        "endChar": 37,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 115,
+        "startChar": 42,
+        "endLine": 115,
+        "endChar": 49,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 125,
+        "startChar": 38,
+        "endLine": 125,
+        "endChar": 45,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 134,
+        "startChar": 4,
+        "endLine": 134,
+        "endChar": 11,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 140,
+        "startChar": 19,
+        "endLine": 140,
+        "endChar": 26,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 155,
+        "startChar": 36,
+        "endLine": 155,
+        "endChar": 43,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 159,
+        "startChar": 10,
+        "endLine": 159,
+        "endChar": 17,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 166,
+        "startChar": 0,
+        "endLine": 166,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 170,
+        "startChar": 54,
+        "endLine": 170,
+        "endChar": 61,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 178,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 184,
+        "startChar": 20,
+        "endLine": 184,
+        "endChar": 27,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 194,
+        "startChar": 0,
+        "endLine": 194,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 222,
+        "startChar": 24,
+        "endLine": 222,
+        "endChar": 31,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 231,
+        "startChar": 16,
+        "endLine": 231,
+        "endChar": 23,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 237,
+        "startChar": 14,
+        "endLine": 237,
+        "endChar": 21,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 239,
+        "startChar": 55,
+        "endLine": 239,
+        "endChar": 62,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 250,
+        "startChar": 30,
+        "endLine": 250,
+        "endChar": 37,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 260,
+        "startChar": 0,
+        "endLine": 260,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 270,
+        "startChar": 40,
+        "endLine": 270,
+        "endChar": 47,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 275,
+        "startChar": 7,
+        "endLine": 275,
+        "endChar": 14,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 279,
+        "startChar": 0,
+        "endLine": 279,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 361,
+        "startChar": 51,
+        "endLine": 361,
+        "endChar": 58,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 364,
+        "startChar": 27,
+        "endLine": 364,
+        "endChar": 34,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 412,
+        "startChar": 0,
+        "endLine": 412,
+        "endChar": 7,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 421,
+        "startChar": 19,
+        "endLine": 421,
+        "endChar": 26,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "lenehan",
+        "startLine": 433,
+        "startChar": 29,
+        "endLine": 433,
+        "endChar": 36,
+        "mentionText": "Lenehan"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 80,
+        "startChar": 24,
+        "endLine": 80,
+        "endChar": 68,
+        "mentionText": "Corley was the son of an inspector of police"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 83,
+        "startChar": 14,
+        "endLine": 83,
+        "endChar": 51,
+        "mentionText": "His head was large, globular and oily"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 51,
+        "startChar": 32,
+        "endLine": 51,
+        "endChar": 38,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 69,
+        "startChar": 38,
+        "endLine": 69,
+        "endChar": 44,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 80,
+        "startChar": 24,
+        "endLine": 80,
+        "endChar": 30,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 99,
+        "startChar": 18,
+        "endLine": 99,
+        "endChar": 24,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 104,
+        "startChar": 19,
+        "endLine": 104,
+        "endChar": 25,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 112,
+        "startChar": 24,
+        "endLine": 112,
+        "endChar": 30,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 120,
+        "startChar": 32,
+        "endLine": 120,
+        "endChar": 38,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 127,
+        "startChar": 48,
+        "endLine": 127,
+        "endChar": 54,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 138,
+        "startChar": 48,
+        "endLine": 138,
+        "endChar": 54,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 142,
+        "startChar": 32,
+        "endLine": 142,
+        "endChar": 38,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 157,
+        "startChar": 42,
+        "endLine": 157,
+        "endChar": 48,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 162,
+        "startChar": 28,
+        "endLine": 162,
+        "endChar": 34,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 164,
+        "startChar": 22,
+        "endLine": 164,
+        "endChar": 28,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 175,
+        "startChar": 20,
+        "endLine": 175,
+        "endChar": 26,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 180,
+        "startChar": 7,
+        "endLine": 180,
+        "endChar": 13,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 182,
+        "startChar": 37,
+        "endLine": 182,
+        "endChar": 43,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 189,
+        "startChar": 0,
+        "endLine": 189,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 196,
+        "startChar": 24,
+        "endLine": 196,
+        "endChar": 30,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 218,
+        "startChar": 21,
+        "endLine": 218,
+        "endChar": 27,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 224,
+        "startChar": 27,
+        "endLine": 224,
+        "endChar": 33,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 226,
+        "startChar": 0,
+        "endLine": 226,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 234,
+        "startChar": 28,
+        "endLine": 234,
+        "endChar": 34,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 239,
+        "startChar": 0,
+        "endLine": 239,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 244,
+        "startChar": 21,
+        "endLine": 244,
+        "endChar": 27,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 252,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 275,
+        "startChar": 62,
+        "endLine": 275,
+        "endChar": 68,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 283,
+        "startChar": 46,
+        "endLine": 283,
+        "endChar": 52,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 302,
+        "startChar": 55,
+        "endLine": 302,
+        "endChar": 61,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 335,
+        "startChar": 3,
+        "endLine": 335,
+        "endChar": 9,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 336,
+        "startChar": 39,
+        "endLine": 336,
+        "endChar": 45,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 357,
+        "startChar": 43,
+        "endLine": 357,
+        "endChar": 49,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 358,
+        "startChar": 50,
+        "endLine": 358,
+        "endChar": 56,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 373,
+        "startChar": 28,
+        "endLine": 373,
+        "endChar": 34,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 377,
+        "startChar": 35,
+        "endLine": 377,
+        "endChar": 41,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 379,
+        "startChar": 46,
+        "endLine": 379,
+        "endChar": 52,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 382,
+        "startChar": 57,
+        "endLine": 382,
+        "endChar": 63,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 383,
+        "startChar": 55,
+        "endLine": 383,
+        "endChar": 61,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 385,
+        "startChar": 0,
+        "endLine": 385,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 388,
+        "startChar": 6,
+        "endLine": 388,
+        "endChar": 12,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 397,
+        "startChar": 6,
+        "endLine": 397,
+        "endChar": 12,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 399,
+        "startChar": 28,
+        "endLine": 399,
+        "endChar": 34,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 404,
+        "startChar": 7,
+        "endLine": 404,
+        "endChar": 13,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 407,
+        "startChar": 19,
+        "endLine": 407,
+        "endChar": 25,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 409,
+        "startChar": 38,
+        "endLine": 409,
+        "endChar": 44,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 418,
+        "startChar": 8,
+        "endLine": 418,
+        "endChar": 14,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 420,
+        "startChar": 0,
+        "endLine": 420,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 424,
+        "startChar": 8,
+        "endLine": 424,
+        "endChar": 14,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 432,
+        "startChar": 0,
+        "endLine": 432,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "corley",
+        "startLine": 439,
+        "startChar": 0,
+        "endLine": 439,
+        "endChar": 6,
+        "mentionText": "Corley"
+      },
+      {
+        "entityId": "young-woman",
+        "startLine": 220,
+        "startChar": 0,
+        "endLine": 220,
+        "endChar": 55,
+        "mentionText": "At the corner of Hume Street a young woman was standing"
+      },
+      {
+        "entityId": "harpist",
+        "startLine": 203,
+        "startChar": 0,
+        "endLine": 203,
+        "endChar": 65,
+        "mentionText": "Not far from the porch of the club a harpist stood in the roadway"
+      },
+      {
+        "entityId": "slatternly-girl",
+        "startLine": 318,
+        "startChar": 10,
+        "endLine": 318,
+        "endChar": 41,
+        "mentionText": "A slatternly girl waited on him"
+      },
+      {
+        "entityId": "slatternly-girl",
+        "startLine": 352,
+        "startChar": 30,
+        "endLine": 352,
+        "endChar": 49,
+        "mentionText": "the slatternly girl"
+      },
+      {
+        "entityId": "two-friends",
+        "startLine": 357,
+        "startChar": 9,
+        "endLine": 357,
+        "endChar": 49,
+        "mentionText": "His friends asked him had he seen Corley"
+      },
+      {
+        "entityId": "mac",
+        "startLine": 361,
+        "startChar": 0,
+        "endLine": 361,
+        "endChar": 3,
+        "mentionText": "Mac"
+      },
+      {
+        "entityId": "mac",
+        "startLine": 362,
+        "startChar": 14,
+        "endLine": 362,
+        "endChar": 17,
+        "mentionText": "Mac"
+      },
+      {
+        "entityId": "mac",
+        "startLine": 363,
+        "startChar": 5,
+        "endLine": 363,
+        "endChar": 8,
+        "mentionText": "Mac"
+      },
+      {
+        "entityId": "mac",
+        "startLine": 363,
+        "startChar": 55,
+        "endLine": 363,
+        "endChar": 58,
+        "mentionText": "Mac"
+      },
+      {
+        "entityId": "holohan",
+        "startLine": 364,
+        "startChar": 62,
+        "endLine": 364,
+        "endChar": 69,
+        "mentionText": "Holohan"
+      },
+      {
+        "entityId": "dublin-city",
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 59,
+        "mentionText": "The grey warm evening of August had descended upon the city"
+      },
+      {
+        "entityId": "rutland-square",
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 50,
+        "mentionText": "Two young men came down the hill of Rutland Square"
+      },
+      {
+        "entityId": "rutland-square",
+        "startLine": 12,
+        "startChar": 36,
+        "endLine": 12,
+        "endChar": 50,
+        "mentionText": "Rutland Square"
+      },
+      {
+        "entityId": "rutland-square",
+        "startLine": 305,
+        "startChar": 0,
+        "endLine": 305,
+        "endChar": 14,
+        "mentionText": "Rutland Square"
+      },
+      {
+        "entityId": "dorset-street",
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 13,
+        "mentionText": "Dorset Street"
+      },
+      {
+        "entityId": "dame-street",
+        "startLine": 55,
+        "startChar": 46,
+        "endLine": 55,
+        "endChar": 57,
+        "mentionText": "Dame Street"
+      },
+      {
+        "entityId": "dame-street",
+        "startLine": 354,
+        "startChar": 49,
+        "endLine": 354,
+        "endChar": 60,
+        "mentionText": "Dame Street"
+      },
+      {
+        "entityId": "baggot-street",
+        "startLine": 58,
+        "startChar": 14,
+        "endLine": 58,
+        "endChar": 27,
+        "mentionText": "Baggot Street"
+      },
+      {
+        "entityId": "baggot-street",
+        "startLine": 401,
+        "startChar": 17,
+        "endLine": 401,
+        "endChar": 30,
+        "mentionText": "Baggot Street"
+      },
+      {
+        "entityId": "donnybrook",
+        "startLine": 60,
+        "startChar": 12,
+        "endLine": 60,
+        "endChar": 22,
+        "mentionText": "Donnybrook"
+      },
+      {
+        "entityId": "donnybrook",
+        "startLine": 286,
+        "startChar": 27,
+        "endLine": 286,
+        "endChar": 37,
+        "mentionText": "Donnybrook"
+      },
+      {
+        "entityId": "south-circular",
+        "startLine": 128,
+        "startChar": 1,
+        "endLine": 128,
+        "endChar": 29,
+        "mentionText": "girls off the South Circular"
+      },
+      {
+        "entityId": "south-circular",
+        "startLine": 128,
+        "startChar": 15,
+        "endLine": 128,
+        "endChar": 29,
+        "mentionText": "South Circular"
+      },
+      {
+        "entityId": "earl-street",
+        "startLine": 152,
+        "startChar": 47,
+        "endLine": 152,
+        "endChar": 58,
+        "mentionText": "Earl Street"
+      },
+      {
+        "entityId": "trinity-college",
+        "startLine": 170,
+        "startChar": 37,
+        "endLine": 170,
+        "endChar": 52,
+        "mentionText": "Trinity College"
+      },
+      {
+        "entityId": "nassau-street",
+        "startLine": 202,
+        "startChar": 0,
+        "endLine": 202,
+        "endChar": 31,
+        "mentionText": "They walked along Nassau Street"
+      },
+      {
+        "entityId": "nassau-street",
+        "startLine": 202,
+        "startChar": 18,
+        "endLine": 202,
+        "endChar": 31,
+        "mentionText": "Nassau Street"
+      },
+      {
+        "entityId": "kildare-street",
+        "startLine": 202,
+        "startChar": 53,
+        "endLine": 202,
+        "endChar": 67,
+        "mentionText": "Kildare Street"
+      },
+      {
+        "entityId": "hume-street-corner",
+        "startLine": 220,
+        "startChar": 0,
+        "endLine": 220,
+        "endChar": 55,
+        "mentionText": "At the corner of Hume Street a young woman was standing"
+      },
+      {
+        "entityId": "shelbourne-hotel",
+        "startLine": 279,
+        "startChar": 29,
+        "endLine": 279,
+        "endChar": 45,
+        "mentionText": "Shelbourne Hotel"
+      },
+      {
+        "entityId": "merrion-square",
+        "startLine": 282,
+        "startChar": 37,
+        "endLine": 282,
+        "endChar": 51,
+        "mentionText": "Merrion Square"
+      },
+      {
+        "entityId": "refreshment-bar",
+        "startLine": 307,
+        "startChar": 52,
+        "endLine": 307,
+        "endChar": 67,
+        "mentionText": "Refreshment Bar"
+      },
+      {
+        "entityId": "capel-street",
+        "startLine": 353,
+        "startChar": 48,
+        "endLine": 353,
+        "endChar": 60,
+        "mentionText": "Capel Street"
+      },
+      {
+        "entityId": "city-hall",
+        "startLine": 354,
+        "startChar": 18,
+        "endLine": 354,
+        "endChar": 27,
+        "mentionText": "City Hall"
+      },
+      {
+        "entityId": "westmoreland-street",
+        "startLine": 361,
+        "startChar": 22,
+        "endLine": 361,
+        "endChar": 41,
+        "mentionText": "Westmoreland Street"
+      },
+      {
+        "entityId": "westmoreland-street",
+        "startLine": 363,
+        "startChar": 12,
+        "endLine": 363,
+        "endChar": 31,
+        "mentionText": "Westmoreland Street"
+      },
+      {
+        "entityId": "college-of-surgeons",
+        "startLine": 371,
+        "startChar": 47,
+        "endLine": 371,
+        "endChar": 66,
+        "mentionText": "College of Surgeons"
+      },
+      {
+        "entityId": "college-of-surgeons",
+        "startLine": 387,
+        "startChar": 48,
+        "endLine": 387,
+        "endChar": 67,
+        "mentionText": "College of Surgeons"
+      },
+      {
+        "entityId": "merrion-street",
+        "startLine": 248,
+        "startChar": 11,
+        "endLine": 248,
+        "endChar": 25,
+        "mentionText": "Merrion Street"
+      },
+      {
+        "entityId": "merrion-street",
+        "startLine": 374,
+        "startChar": 22,
+        "endLine": 374,
+        "endChar": 36,
+        "mentionText": "Merrion Street"
+      },
+      {
+        "entityId": "ely-place",
+        "startLine": 431,
+        "startChar": 0,
+        "endLine": 431,
+        "endChar": 40,
+        "mentionText": "They had reached the corner of Ely Place"
+      },
+      {
+        "entityId": "ely-place",
+        "startLine": 431,
+        "startChar": 31,
+        "endLine": 431,
+        "endChar": 40,
+        "mentionText": "Ely Place"
+      },
+      {
+        "entityId": "white-rubber-shoes",
+        "startLine": 23,
+        "startChar": 32,
+        "endLine": 23,
+        "endChar": 54,
+        "mentionText": "his white rubber shoes"
+      },
+      {
+        "entityId": "cigarettes",
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 38,
+        "mentionText": "Lenehan offered his friend a cigarette"
+      },
+      {
+        "entityId": "cigarettes",
+        "startLine": 388,
+        "startChar": 35,
+        "endLine": 388,
+        "endChar": 60,
+        "mentionText": "He lit his last cigarette"
+      },
+      {
+        "entityId": "cigarettes",
+        "startLine": 61,
+        "startChar": 56,
+        "endLine": 61,
+        "endChar": 66,
+        "mentionText": "Cigarettes"
+      },
+      {
+        "entityId": "black-boa",
+        "startLine": 268,
+        "startChar": 24,
+        "endLine": 268,
+        "endChar": 46,
+        "mentionText": "and a ragged black boa"
+      },
+      {
+        "entityId": "lamp-post",
+        "startLine": 376,
+        "startChar": 8,
+        "endLine": 376,
+        "endChar": 39,
+        "mentionText": "He leaned against the lamp-post"
+      },
+      {
+        "entityId": "peas",
+        "startLine": 324,
+        "startChar": 1,
+        "endLine": 324,
+        "endChar": 25,
+        "mentionText": "Bring me a plate of peas"
+      },
+      {
+        "entityId": "ginger-beer",
+        "startLine": 324,
+        "startChar": 38,
+        "endLine": 324,
+        "endChar": 65,
+        "mentionText": "and a bottle of ginger beer"
+      },
+      {
+        "entityId": "ginger-beer",
+        "startLine": 332,
+        "startChar": 20,
+        "endLine": 332,
+        "endChar": 35,
+        "mentionText": "his ginger beer"
+      },
+      {
+        "entityId": "ginger-beer",
+        "startLine": 334,
+        "startChar": 23,
+        "endLine": 334,
+        "endChar": 38,
+        "mentionText": "his ginger beer"
+      },
+      {
+        "entityId": "ginger-beer",
+        "startLine": 309,
+        "startChar": 22,
+        "endLine": 309,
+        "endChar": 33,
+        "mentionText": "Ginger Beer"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading: Structure, Style, and Narrative Technique": {

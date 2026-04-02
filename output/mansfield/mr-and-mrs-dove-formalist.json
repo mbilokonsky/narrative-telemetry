@@ -4097,7 +4097,1432 @@
         "firstIntroduced": "e26-anne-openness"
       }
     },
-    "annotations": []
+    "annotations": [
+      {
+        "entityId": "reggie",
+        "startLine": 66,
+        "startChar": 51,
+        "endLine": 66,
+        "endChar": 59,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 84,
+        "startChar": 24,
+        "endLine": 84,
+        "endChar": 32,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 97,
+        "startChar": 11,
+        "endLine": 97,
+        "endChar": 19,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 184,
+        "startChar": 7,
+        "endLine": 184,
+        "endChar": 15,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 188,
+        "startChar": 0,
+        "endLine": 188,
+        "endChar": 8,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 196,
+        "startChar": 26,
+        "endLine": 196,
+        "endChar": 34,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 202,
+        "startChar": 49,
+        "endLine": 202,
+        "endChar": 57,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 233,
+        "startChar": 27,
+        "endLine": 233,
+        "endChar": 35,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 241,
+        "endChar": 8,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 286,
+        "startChar": 28,
+        "endLine": 286,
+        "endChar": 36,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 326,
+        "startChar": 37,
+        "endLine": 326,
+        "endChar": 45,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 344,
+        "startChar": 38,
+        "endLine": 344,
+        "endChar": 46,
+        "mentionText": "Reginald"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 6,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 69,
+        "startChar": 41,
+        "endLine": 69,
+        "endChar": 47,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 74,
+        "startChar": 64,
+        "endLine": 74,
+        "endChar": 70,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 75,
+        "startChar": 52,
+        "endLine": 75,
+        "endChar": 58,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 82,
+        "startChar": 44,
+        "endLine": 82,
+        "endChar": 50,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 86,
+        "startChar": 36,
+        "endLine": 86,
+        "endChar": 42,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 89,
+        "startChar": 23,
+        "endLine": 89,
+        "endChar": 29,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 103,
+        "startChar": 25,
+        "endLine": 103,
+        "endChar": 31,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 120,
+        "startChar": 18,
+        "endLine": 120,
+        "endChar": 24,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 126,
+        "startChar": 47,
+        "endLine": 126,
+        "endChar": 53,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 132,
+        "startChar": 47,
+        "endLine": 132,
+        "endChar": 53,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 6,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 149,
+        "startChar": 28,
+        "endLine": 149,
+        "endChar": 34,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 154,
+        "startChar": 59,
+        "endLine": 154,
+        "endChar": 65,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 162,
+        "startChar": 34,
+        "endLine": 162,
+        "endChar": 40,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 176,
+        "startChar": 35,
+        "endLine": 176,
+        "endChar": 41,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 210,
+        "startChar": 62,
+        "endLine": 210,
+        "endChar": 68,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 212,
+        "startChar": 16,
+        "endLine": 212,
+        "endChar": 22,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 226,
+        "startChar": 49,
+        "endLine": 226,
+        "endChar": 55,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 229,
+        "startChar": 0,
+        "endLine": 229,
+        "endChar": 6,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 250,
+        "startChar": 0,
+        "endLine": 250,
+        "endChar": 6,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 263,
+        "startChar": 50,
+        "endLine": 263,
+        "endChar": 56,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 266,
+        "startChar": 17,
+        "endLine": 266,
+        "endChar": 23,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 272,
+        "startChar": 0,
+        "endLine": 272,
+        "endChar": 6,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 276,
+        "startChar": 0,
+        "endLine": 276,
+        "endChar": 6,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 297,
+        "startChar": 29,
+        "endLine": 297,
+        "endChar": 35,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 304,
+        "startChar": 25,
+        "endLine": 304,
+        "endChar": 31,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 309,
+        "startChar": 23,
+        "endLine": 309,
+        "endChar": 29,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 317,
+        "startChar": 0,
+        "endLine": 317,
+        "endChar": 6,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 321,
+        "startChar": 20,
+        "endLine": 321,
+        "endChar": 26,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 333,
+        "startChar": 57,
+        "endLine": 333,
+        "endChar": 63,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 339,
+        "startChar": 1,
+        "endLine": 339,
+        "endChar": 7,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "reggie",
+        "startLine": 339,
+        "startChar": 9,
+        "endLine": 339,
+        "endChar": 15,
+        "mentionText": "Reggie"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 129,
+        "startChar": 30,
+        "endLine": 129,
+        "endChar": 34,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 137,
+        "startChar": 12,
+        "endLine": 137,
+        "endChar": 16,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 149,
+        "startChar": 15,
+        "endLine": 149,
+        "endChar": 19,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 155,
+        "startChar": 29,
+        "endLine": 155,
+        "endChar": 33,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 4,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 174,
+        "startChar": 0,
+        "endLine": 174,
+        "endChar": 4,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 181,
+        "startChar": 21,
+        "endLine": 181,
+        "endChar": 25,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 193,
+        "startChar": 55,
+        "endLine": 193,
+        "endChar": 59,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 199,
+        "startChar": 37,
+        "endLine": 199,
+        "endChar": 41,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 209,
+        "startChar": 0,
+        "endLine": 209,
+        "endChar": 4,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 213,
+        "startChar": 38,
+        "endLine": 213,
+        "endChar": 42,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 219,
+        "startChar": 40,
+        "endLine": 219,
+        "endChar": 44,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 222,
+        "startChar": 50,
+        "endLine": 222,
+        "endChar": 54,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 231,
+        "startChar": 47,
+        "endLine": 231,
+        "endChar": 51,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 231,
+        "startChar": 54,
+        "endLine": 231,
+        "endChar": 58,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 235,
+        "startChar": 0,
+        "endLine": 235,
+        "endChar": 4,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 240,
+        "startChar": 56,
+        "endLine": 240,
+        "endChar": 60,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 253,
+        "startChar": 52,
+        "endLine": 253,
+        "endChar": 56,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 256,
+        "startChar": 10,
+        "endLine": 256,
+        "endChar": 14,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 260,
+        "startChar": 0,
+        "endLine": 260,
+        "endChar": 4,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 262,
+        "startChar": 52,
+        "endLine": 262,
+        "endChar": 56,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 267,
+        "startChar": 64,
+        "endLine": 267,
+        "endChar": 68,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 274,
+        "startChar": 15,
+        "endLine": 274,
+        "endChar": 19,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 288,
+        "startChar": 10,
+        "endLine": 288,
+        "endChar": 14,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 292,
+        "startChar": 61,
+        "endLine": 292,
+        "endChar": 65,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 300,
+        "startChar": 26,
+        "endLine": 300,
+        "endChar": 30,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 310,
+        "startChar": 0,
+        "endLine": 310,
+        "endChar": 4,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 320,
+        "startChar": 44,
+        "endLine": 320,
+        "endChar": 48,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 335,
+        "startChar": 0,
+        "endLine": 335,
+        "endChar": 4,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "anne",
+        "startLine": 344,
+        "startChar": 28,
+        "endLine": 344,
+        "endChar": 32,
+        "mentionText": "Anne"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 32,
+        "startChar": 4,
+        "endLine": 32,
+        "endChar": 9,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 66,
+        "startChar": 34,
+        "endLine": 66,
+        "endChar": 39,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 67,
+        "startChar": 4,
+        "endLine": 67,
+        "endChar": 9,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 78,
+        "startChar": 4,
+        "endLine": 78,
+        "endChar": 9,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 81,
+        "startChar": 4,
+        "endLine": 81,
+        "endChar": 9,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 86,
+        "startChar": 23,
+        "endLine": 86,
+        "endChar": 28,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 94,
+        "startChar": 61,
+        "endLine": 94,
+        "endChar": 66,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 101,
+        "startChar": 61,
+        "endLine": 101,
+        "endChar": 66,
+        "mentionText": "mater"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 91,
+        "startChar": 50,
+        "endLine": 91,
+        "endChar": 56,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 101,
+        "startChar": 34,
+        "endLine": 101,
+        "endChar": 40,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 131,
+        "startChar": 34,
+        "endLine": 131,
+        "endChar": 40,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "the-mater",
+        "startLine": 330,
+        "startChar": 27,
+        "endLine": 330,
+        "endChar": 33,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "colonel-proctor",
+        "startLine": 104,
+        "startChar": 35,
+        "endLine": 104,
+        "endChar": 50,
+        "mentionText": "Colonel Proctor"
+      },
+      {
+        "entityId": "colonel-proctor",
+        "startLine": 112,
+        "startChar": 4,
+        "endLine": 112,
+        "endChar": 19,
+        "mentionText": "Colonel Proctor"
+      },
+      {
+        "entityId": "colonel-proctor",
+        "startLine": 6,
+        "startChar": 54,
+        "endLine": 6,
+        "endChar": 60,
+        "mentionText": "father"
+      },
+      {
+        "entityId": "colonel-proctor",
+        "startLine": 7,
+        "startChar": 13,
+        "endLine": 7,
+        "endChar": 19,
+        "mentionText": "father"
+      },
+      {
+        "entityId": "colonel-proctor",
+        "startLine": 38,
+        "startChar": 34,
+        "endLine": 38,
+        "endChar": 40,
+        "mentionText": "father"
+      },
+      {
+        "entityId": "colonel-proctor",
+        "startLine": 131,
+        "startChar": 15,
+        "endLine": 131,
+        "endChar": 21,
+        "mentionText": "father"
+      },
+      {
+        "entityId": "mrs-proctor",
+        "startLine": 91,
+        "startChar": 50,
+        "endLine": 91,
+        "endChar": 56,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "mrs-proctor",
+        "startLine": 101,
+        "startChar": 34,
+        "endLine": 101,
+        "endChar": 40,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "mrs-proctor",
+        "startLine": 131,
+        "startChar": 34,
+        "endLine": 131,
+        "endChar": 40,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "mrs-proctor",
+        "startLine": 330,
+        "startChar": 27,
+        "endLine": 330,
+        "endChar": 33,
+        "mentionText": "mother"
+      },
+      {
+        "entityId": "chinny",
+        "startLine": 65,
+        "startChar": 58,
+        "endLine": 65,
+        "endChar": 64,
+        "mentionText": "Chinny"
+      },
+      {
+        "entityId": "chinny",
+        "startLine": 78,
+        "startChar": 63,
+        "endLine": 78,
+        "endChar": 69,
+        "mentionText": "Chinny"
+      },
+      {
+        "entityId": "chinny",
+        "startLine": 96,
+        "startChar": 46,
+        "endLine": 96,
+        "endChar": 52,
+        "mentionText": "Chinny"
+      },
+      {
+        "entityId": "chinny",
+        "startLine": 66,
+        "startChar": 19,
+        "endLine": 66,
+        "endChar": 24,
+        "mentionText": "Pekes"
+      },
+      {
+        "entityId": "chinny",
+        "startLine": 94,
+        "startChar": 13,
+        "endLine": 94,
+        "endChar": 18,
+        "mentionText": "Pekes"
+      },
+      {
+        "entityId": "biddy",
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 5,
+        "mentionText": "Biddy"
+      },
+      {
+        "entityId": "biddy",
+        "startLine": 79,
+        "startChar": 4,
+        "endLine": 79,
+        "endChar": 9,
+        "mentionText": "Biddy"
+      },
+      {
+        "entityId": "biddy",
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 95,
+        "endChar": 5,
+        "mentionText": "Biddy"
+      },
+      {
+        "entityId": "biddy",
+        "startLine": 66,
+        "startChar": 19,
+        "endLine": 66,
+        "endChar": 24,
+        "mentionText": "Pekes"
+      },
+      {
+        "entityId": "biddy",
+        "startLine": 94,
+        "startChar": 13,
+        "endLine": 94,
+        "endChar": 18,
+        "mentionText": "Pekes"
+      },
+      {
+        "entityId": "housemaid",
+        "startLine": 119,
+        "startChar": 10,
+        "endLine": 119,
+        "endChar": 19,
+        "mentionText": "housemaid"
+      },
+      {
+        "entityId": "the-governor",
+        "startLine": 74,
+        "startChar": 36,
+        "endLine": 74,
+        "endChar": 44,
+        "mentionText": "governor"
+      },
+      {
+        "entityId": "reggies-bedroom",
+        "startLine": 32,
+        "startChar": 36,
+        "endLine": 32,
+        "endChar": 43,
+        "mentionText": "bedroom"
+      },
+      {
+        "entityId": "reggies-bedroom",
+        "startLine": 11,
+        "startChar": 67,
+        "endLine": 11,
+        "endChar": 70,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "reggies-bedroom",
+        "startLine": 32,
+        "startChar": 36,
+        "endLine": 32,
+        "endChar": 39,
+        "mentionText": "bed"
+      },
+      {
+        "entityId": "reggies-bedroom",
+        "startLine": 33,
+        "startChar": 20,
+        "endLine": 33,
+        "endChar": 36,
+        "mentionText": "chest of drawers"
+      },
+      {
+        "entityId": "reggies-bedroom",
+        "startLine": 50,
+        "startChar": 26,
+        "endLine": 50,
+        "endChar": 42,
+        "mentionText": "chest of drawers"
+      },
+      {
+        "entityId": "reggies-bedroom",
+        "startLine": 18,
+        "startChar": 57,
+        "endLine": 18,
+        "endChar": 63,
+        "mentionText": "mirror"
+      },
+      {
+        "entityId": "reggies-bedroom",
+        "startLine": 27,
+        "startChar": 37,
+        "endLine": 27,
+        "endChar": 43,
+        "mentionText": "mirror"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 104,
+        "startChar": 13,
+        "endLine": 104,
+        "endChar": 18,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 118,
+        "startChar": 58,
+        "endLine": 118,
+        "endChar": 63,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 119,
+        "startChar": 10,
+        "endLine": 119,
+        "endChar": 15,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 217,
+        "startChar": 0,
+        "endLine": 217,
+        "endChar": 5,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 226,
+        "startChar": 0,
+        "endLine": 226,
+        "endChar": 5,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 75,
+        "startChar": 63,
+        "endLine": 75,
+        "endChar": 67,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 287,
+        "startChar": 41,
+        "endLine": 287,
+        "endChar": 45,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 292,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 4,
+        "mentionText": "home"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 60,
+        "startChar": 62,
+        "endLine": 60,
+        "endChar": 66,
+        "mentionText": "hall"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 119,
+        "startChar": 42,
+        "endLine": 119,
+        "endChar": 46,
+        "mentionText": "hall"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 61,
+        "startChar": 24,
+        "endLine": 61,
+        "endChar": 34,
+        "mentionText": "front door"
+      },
+      {
+        "entityId": "reggies-family-home",
+        "startLine": 119,
+        "startChar": 61,
+        "endLine": 119,
+        "endChar": 71,
+        "mentionText": "front door"
+      },
+      {
+        "entityId": "proctor-garden",
+        "startLine": 65,
+        "startChar": 41,
+        "endLine": 65,
+        "endChar": 52,
+        "mentionText": "garden path"
+      },
+      {
+        "entityId": "proctor-garden",
+        "startLine": 78,
+        "startChar": 45,
+        "endLine": 78,
+        "endChar": 56,
+        "mentionText": "garden path"
+      },
+      {
+        "entityId": "proctor-garden",
+        "startLine": 239,
+        "startChar": 17,
+        "endLine": 239,
+        "endChar": 28,
+        "mentionText": "garden path"
+      },
+      {
+        "entityId": "proctor-garden",
+        "startLine": 336,
+        "startChar": 18,
+        "endLine": 336,
+        "endChar": 29,
+        "mentionText": "garden path"
+      },
+      {
+        "entityId": "proctor-garden",
+        "startLine": 110,
+        "startChar": 37,
+        "endLine": 110,
+        "endChar": 43,
+        "mentionText": "hedges"
+      },
+      {
+        "entityId": "proctor-garden",
+        "startLine": 111,
+        "startChar": 19,
+        "endLine": 111,
+        "endChar": 29,
+        "mentionText": "hollyhocks"
+      },
+      {
+        "entityId": "proctor-garden",
+        "startLine": 111,
+        "startChar": 44,
+        "endLine": 111,
+        "endChar": 59,
+        "mentionText": "cottage gardens"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 104,
+        "startChar": 13,
+        "endLine": 104,
+        "endChar": 18,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 118,
+        "startChar": 58,
+        "endLine": 118,
+        "endChar": 63,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 119,
+        "startChar": 10,
+        "endLine": 119,
+        "endChar": 15,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 217,
+        "startChar": 0,
+        "endLine": 217,
+        "endChar": 5,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 226,
+        "startChar": 0,
+        "endLine": 226,
+        "endChar": 5,
+        "mentionText": "house"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 112,
+        "startChar": 63,
+        "endLine": 112,
+        "endChar": 67,
+        "mentionText": "gate"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 61,
+        "startChar": 24,
+        "endLine": 61,
+        "endChar": 34,
+        "mentionText": "front door"
+      },
+      {
+        "entityId": "proctor-house",
+        "startLine": 119,
+        "startChar": 61,
+        "endLine": 119,
+        "endChar": 71,
+        "mentionText": "front door"
+      },
+      {
+        "entityId": "proctor-drawing-room",
+        "startLine": 120,
+        "startChar": 47,
+        "endLine": 120,
+        "endChar": 59,
+        "mentionText": "drawing-room"
+      },
+      {
+        "entityId": "proctor-drawing-room",
+        "startLine": 122,
+        "startChar": 35,
+        "endLine": 122,
+        "endChar": 42,
+        "mentionText": "parasol"
+      },
+      {
+        "entityId": "proctor-drawing-room",
+        "startLine": 142,
+        "startChar": 35,
+        "endLine": 142,
+        "endChar": 42,
+        "mentionText": "parasol"
+      },
+      {
+        "entityId": "proctor-side-veranda",
+        "startLine": 210,
+        "startChar": 18,
+        "endLine": 210,
+        "endChar": 30,
+        "mentionText": "side veranda"
+      },
+      {
+        "entityId": "proctor-side-veranda",
+        "startLine": 216,
+        "startChar": 37,
+        "endLine": 216,
+        "endChar": 45,
+        "mentionText": "red sand"
+      },
+      {
+        "entityId": "proctor-garden-lawn",
+        "startLine": 240,
+        "startChar": 0,
+        "endLine": 240,
+        "endChar": 4,
+        "mentionText": "lawn"
+      },
+      {
+        "entityId": "proctor-garden-lawn",
+        "startLine": 288,
+        "startChar": 37,
+        "endLine": 288,
+        "endChar": 41,
+        "mentionText": "lawn"
+      },
+      {
+        "entityId": "proctor-garden-lawn",
+        "startLine": 292,
+        "startChar": 51,
+        "endLine": 292,
+        "endChar": 55,
+        "mentionText": "lawn"
+      },
+      {
+        "entityId": "proctor-garden-lawn",
+        "startLine": 345,
+        "startChar": 0,
+        "endLine": 345,
+        "endChar": 4,
+        "mentionText": "lawn"
+      },
+      {
+        "entityId": "proctor-garden-lawn",
+        "startLine": 239,
+        "startChar": 40,
+        "endLine": 239,
+        "endChar": 56,
+        "mentionText": "pink rose arches"
+      },
+      {
+        "entityId": "proctor-garden-lawn",
+        "startLine": 240,
+        "startChar": 26,
+        "endLine": 240,
+        "endChar": 43,
+        "mentionText": "herbaceous border"
+      },
+      {
+        "entityId": "england",
+        "startLine": 9,
+        "startChar": 27,
+        "endLine": 9,
+        "endChar": 34,
+        "mentionText": "England"
+      },
+      {
+        "entityId": "rhodesia",
+        "startLine": 21,
+        "startChar": 7,
+        "endLine": 21,
+        "endChar": 15,
+        "mentionText": "Rhodesia"
+      },
+      {
+        "entityId": "rhodesia",
+        "startLine": 226,
+        "startChar": 39,
+        "endLine": 226,
+        "endChar": 47,
+        "mentionText": "Rhodesia"
+      },
+      {
+        "entityId": "umtali",
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 6,
+        "mentionText": "Umtali"
+      },
+      {
+        "entityId": "jungle",
+        "startLine": 56,
+        "startChar": 12,
+        "endLine": 56,
+        "endChar": 18,
+        "mentionText": "jungle"
+      },
+      {
+        "entityId": "east-africa",
+        "startLine": 24,
+        "startChar": 39,
+        "endLine": 24,
+        "endChar": 50,
+        "mentionText": "East Africa"
+      },
+      {
+        "entityId": "gardeners-cottage",
+        "startLine": 289,
+        "startChar": 23,
+        "endLine": 289,
+        "endChar": 32,
+        "mentionText": "ilex-tree"
+      },
+      {
+        "entityId": "blue-cream-check-tie",
+        "startLine": 11,
+        "startChar": 14,
+        "endLine": 11,
+        "endChar": 38,
+        "mentionText": "blue and cream check tie"
+      },
+      {
+        "entityId": "blue-cream-check-tie",
+        "startLine": 245,
+        "startChar": 11,
+        "endLine": 245,
+        "endChar": 22,
+        "mentionText": "check t-tie"
+      },
+      {
+        "entityId": "blue-cream-check-tie",
+        "startLine": 246,
+        "startChar": 61,
+        "endLine": 246,
+        "endChar": 68,
+        "mentionText": "bow-tie"
+      },
+      {
+        "entityId": "straw-hat",
+        "startLine": 60,
+        "startChar": 43,
+        "endLine": 60,
+        "endChar": 52,
+        "mentionText": "straw hat"
+      },
+      {
+        "entityId": "cigarette-case",
+        "startLine": 31,
+        "startChar": 33,
+        "endLine": 31,
+        "endChar": 47,
+        "mentionText": "cigarette case"
+      },
+      {
+        "entityId": "cigarettes",
+        "startLine": 170,
+        "startChar": 58,
+        "endLine": 170,
+        "endChar": 68,
+        "mentionText": "cigarettes"
+      },
+      {
+        "entityId": "parasol",
+        "startLine": 122,
+        "startChar": 35,
+        "endLine": 122,
+        "endChar": 42,
+        "mentionText": "parasol"
+      },
+      {
+        "entityId": "parasol",
+        "startLine": 142,
+        "startChar": 35,
+        "endLine": 142,
+        "endChar": 42,
+        "mentionText": "parasol"
+      },
+      {
+        "entityId": "pocket-handkerchief",
+        "startLine": 146,
+        "startChar": 11,
+        "endLine": 146,
+        "endChar": 30,
+        "mentionText": "pocket-handkerchief"
+      },
+      {
+        "entityId": "white-woolly-jacket",
+        "startLine": 146,
+        "startChar": 42,
+        "endLine": 146,
+        "endChar": 61,
+        "mentionText": "white woolly jacket"
+      },
+      {
+        "entityId": "pearl-necklace",
+        "startLine": 194,
+        "startChar": 23,
+        "endLine": 194,
+        "endChar": 37,
+        "mentionText": "pearl necklace"
+      },
+      {
+        "entityId": "green-ash-tray",
+        "startLine": 182,
+        "startChar": 33,
+        "endLine": 182,
+        "endChar": 47,
+        "mentionText": "green ash-tray"
+      },
+      {
+        "entityId": "green-ash-tray",
+        "startLine": 203,
+        "startChar": 38,
+        "endLine": 203,
+        "endChar": 52,
+        "mentionText": "green ash-tray"
+      },
+      {
+        "entityId": "scissors",
+        "startLine": 81,
+        "startChar": 20,
+        "endLine": 81,
+        "endChar": 28,
+        "mentionText": "scissors"
+      },
+      {
+        "entityId": "scissors",
+        "startLine": 98,
+        "startChar": 42,
+        "endLine": 98,
+        "endChar": 50,
+        "mentionText": "scissors"
+      },
+      {
+        "entityId": "yellow-grains",
+        "startLine": 225,
+        "startChar": 21,
+        "endLine": 225,
+        "endChar": 34,
+        "mentionText": "yellow grains"
+      },
+      {
+        "entityId": "grey-shoe",
+        "startLine": 145,
+        "startChar": 60,
+        "endLine": 145,
+        "endChar": 69,
+        "mentionText": "grey shoe"
+      }
+    ]
   },
   "readings": {
     "Formalist Reading": {
