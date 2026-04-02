@@ -144,8 +144,11 @@ npm run otel:import              # import all stories to Jaeger
 npm run ui:dev                   # Vite dev server (auto-copies data)
 npm run ui:build                 # production build
 
-# Tests (591 total, 16 suites)
+# Tests (690 total, 17 suites)
 npx ts-node src/tests/run-all.ts # all tests
+
+# Code review (three parallel subagent reviewers)
+/review                          # spawns staff engineer + narrative scholar + info designer
 ```
 
 ## Working with the code
