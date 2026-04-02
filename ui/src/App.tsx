@@ -10,6 +10,7 @@ import { SplitTextView } from './components/SplitTextView'
 import { AbsentialList } from './components/AbsentialList'
 import { AnalyzeView } from './components/AnalyzeView'
 import { ReadingEditor } from './components/ReadingEditor'
+import { HelpView } from './components/HelpView'
 import { DetailInspector } from './components/DetailInspector'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [analyzeMode, setAnalyzeMode] = useState(false)
   const [editingReading, setEditingReading] = useState(false)
+  const [showHelp, setShowHelp] = useState(false)
 
   const loadStory = useCallback((slug: string) => {
     const entry = getStoryBySlug(slug)
@@ -138,6 +140,22 @@ function App() {
     })
   }, [])
 
+  if (showHelp) {
+    return (
+      <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <div className="top-bar">
+          <div className="top-bar-left">
+            <div className="top-bar-title">Narrative Telemetry</div>
+          </div>
+          <button className="analyze-toggle" onClick={() => setShowHelp(false)}>
+            Back to Explorer
+          </button>
+        </div>
+        <HelpView onClose={() => setShowHelp(false)} />
+      </div>
+    )
+  }
+
   if (editingReading && model) {
     return (
       <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -205,6 +223,9 @@ function App() {
           </button>
           <button className="analyze-toggle" onClick={() => setAnalyzeMode(true)}>
             + Analyze
+          </button>
+          <button className="analyze-toggle" onClick={() => setShowHelp(true)}>
+            ? Help
           </button>
         </div>
       </div>

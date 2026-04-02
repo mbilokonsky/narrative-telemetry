@@ -3,6 +3,7 @@ import { significanceColor } from '../utils'
 import { TensionChart } from './TensionChart'
 import { AbsentialTimeline } from './AbsentialTimeline'
 import { RelationshipGraph } from './RelationshipGraph'
+import { CausalChainExplorer } from './CausalChainExplorer'
 
 interface DetailInspectorProps {
   model: StoryModel;
@@ -196,6 +197,13 @@ export function DetailInspector({
             })}
           </div>
         </div>
+        <CausalChainExplorer
+          model={model}
+          eventId={evt.id}
+          activeReading={activeReading}
+          readingKeys={displayedReadings}
+          onSelectEvent={onSelectEvent ?? (() => {})}
+        />
         <TensionChart
           tensions={tensionData}
           selection={selection}
