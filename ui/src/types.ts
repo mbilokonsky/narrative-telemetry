@@ -52,13 +52,8 @@ export {
 
 // ── UI-only types ──
 
-export interface Significance {
-  significance: number;
-  dimensions?: import('@narrative-telemetry/types').TensionDimensions;
-  note?: string;
-  causes?: string[];
-  effects?: import('@narrative-telemetry/types').ReadingEventEffect[];
-}
+/** @deprecated Use ReadingEventAnnotation instead */
+export type Significance = import('@narrative-telemetry/types').ReadingEventAnnotation;
 
 export interface TensionPoint {
   timestamp: import('@narrative-telemetry/types').Timestamp;

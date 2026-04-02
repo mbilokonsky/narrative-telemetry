@@ -20,12 +20,12 @@ const DIMENSION_COLORS: Record<string, string> = {
   pacing: '#45e87b',
 };
 
-const DIMENSION_LABELS: Record<string, string> = {
-  absential: 'Absential',
-  relational: 'Relational',
-  epistemic: 'Epistemic',
-  atmospheric: 'Atmospheric',
-  pacing: 'Pacing',
+const DIMENSION_ABBREVS: Record<string, string> = {
+  absential: 'ABS',
+  relational: 'REL',
+  epistemic: 'EPI',
+  atmospheric: 'ATM',
+  pacing: 'PAC',
 };
 
 export function TensionChart({ tensions, selection, events }: TensionChartProps) {
@@ -89,7 +89,7 @@ export function TensionChart({ tensions, selection, events }: TensionChartProps)
               <g key={dim}>
                 {/* Label */}
                 <text x={PAD.left - 4} y={y0 + sparkH / 2 + 3} textAnchor="end" fill={color} fontSize={8} fontWeight={600}>
-                  {DIMENSION_LABELS[dim].slice(0, 4)}
+                  {DIMENSION_ABBREVS[dim]}
                 </text>
                 {/* Background */}
                 <rect x={PAD.left} y={y0} width={plotW} height={sparkH} fill="var(--bg)" rx={1} opacity={0.5} />

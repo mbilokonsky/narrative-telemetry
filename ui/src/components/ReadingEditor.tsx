@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import type { StoryModel, Reading, Significance, StoryEvent } from '../types'
+import type { StoryModel, Reading, ReadingEventAnnotation, StoryEvent } from '../types'
 import { significanceColor } from '../utils'
 
 interface ReadingEditorProps {
@@ -9,7 +9,7 @@ interface ReadingEditorProps {
 }
 
 function createEmptyReading(name: string, description: string, events: Record<string, StoryEvent>): Reading {
-  const eventSignificance: Record<string, Significance> = {};
+  const eventSignificance: Record<string, ReadingEventAnnotation> = {};
   for (const eventId of Object.keys(events)) {
     eventSignificance[eventId] = { significance: 0.3 };
   }

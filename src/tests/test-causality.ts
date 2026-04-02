@@ -62,11 +62,11 @@ check('DetailInspector shows effects', inspectorSource.includes("Causes:"));
 check('DetailInspector has causal links', inspectorSource.includes('causal-link'));
 check('Causal links are clickable', inspectorSource.includes('onSelectEvent'));
 
-// UI types
-const uiTypesPath = path.resolve(__dirname, '../../ui/src/types.ts');
-const uiTypesSource = fs.readFileSync(uiTypesPath, 'utf-8');
-check('UI Significance type has causes', uiTypesSource.includes("causes?: string[]"));
-check('UI Significance type has effects', uiTypesSource.includes("effects?:"));
+// UI types — now re-exported from engine, check engine source
+const engineTypesPath = path.resolve(__dirname, '../types/structural.ts');
+const engineTypesSource = fs.readFileSync(engineTypesPath, 'utf-8');
+check('Engine ReadingEventAnnotation has causes', engineTypesSource.includes("causes?: EventID[]"));
+check('Engine ReadingEventAnnotation has effects', engineTypesSource.includes("effects?: ReadingEventEffect[]"));
 
 console.log('\n--- Causality: Synthetic Data ---\n');
 

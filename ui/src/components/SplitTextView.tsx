@@ -189,7 +189,6 @@ export function SplitTextView({
         }
         .split-line.divergence-high {
           box-shadow: inset 4px 0 0 0 hsl(25, 85%, 50%);
-          background: rgba(200, 120, 50, 0.06) !important;
         }
         .split-line-number {
           display: inline-block;

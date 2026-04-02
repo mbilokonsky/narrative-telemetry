@@ -85,6 +85,11 @@ function toEventType(s: string): NarrativeEventType {
     revelation: NarrativeEventType.REVELATION,
     decision: NarrativeEventType.DECISION,
     environmental: NarrativeEventType.ENVIRONMENTAL,
+    interior_monologue: NarrativeEventType.INTERIOR_MONOLOGUE,
+    free_indirect: NarrativeEventType.FREE_INDIRECT,
+    narrator_commentary: NarrativeEventType.NARRATOR_COMMENTARY,
+    flashback: NarrativeEventType.FLASHBACK,
+    ekphrasis: NarrativeEventType.EKPHRASIS,
   };
   return map[s] ?? NarrativeEventType.ACTION;
 }
@@ -725,11 +730,12 @@ async function extractChunk(
   }
 
   try {
-    return JSON.parse(rawJson);
+    const parsed = JSON.parse(rawJson);
+    return ExtractionResultSchema.parse(parsed) as ChunkExtractionResult;
   } catch (err) {
-    console.error('[chunked-extract] Failed to parse chunk JSON');
+    console.error('[chunked-extract] Failed to parse/validate chunk JSON');
     console.error('[chunked-extract] Raw (first 500 chars):', rawJson.slice(0, 500));
-    throw new Error(`Chunk parse error: ${(err as Error).message}`);
+    throw new Error(`Chunk parse/validation error: ${(err as Error).message}`);
   }
 }
 

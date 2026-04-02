@@ -17,7 +17,7 @@ const PORT = process.env.PORT ?? 3001;
 app.use(cors());
 app.use(express.json({ limit: '1mb' }));
 
-// Simple rate limiter: max 5 requests per minute per IP
+// Simple rate limiter: max 5 requests per minute per IP, with periodic eviction
 const rateLimitMap = new Map<string, number[]>();
 function rateLimit(ip: string, windowMs = 60000, max = 5): boolean {
   const now = Date.now();
@@ -27,6 +27,17 @@ function rateLimit(ip: string, windowMs = 60000, max = 5): boolean {
   rateLimitMap.set(ip, timestamps);
   return true;
 }
+// Evict stale entries every 5 minutes to prevent memory leak
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, timestamps] of rateLimitMap) {
+    const fresh = timestamps.filter(t => now - t < 60000);
+    if (fresh.length === 0) rateLimitMap.delete(ip);
+    else rateLimitMap.set(ip, fresh);
+  }
+}, 300000);
+
+const MAX_TEXT_LENGTH = 500_000; // ~500K chars max
 
 /**
  * POST /api/ingest
@@ -58,6 +69,11 @@ app.post('/api/ingest', async (req, res) => {
 
   if (text.length < 50) {
     res.status(400).json({ error: 'Text too short (minimum 50 characters)' });
+    return;
+  }
+
+  if (text.length > MAX_TEXT_LENGTH) {
+    res.status(400).json({ error: `Text too long (maximum ${MAX_TEXT_LENGTH.toLocaleString()} characters)` });
     return;
   }
 
