@@ -4,11 +4,11 @@
 
 S1-S4 and M1-M5 are implemented. 690 tests across 17 suites, all passing. The UI is a full multi-story explorer with reading authoring, absential timelines, relationship graphs, causal chain navigation, and paste-and-analyze. The LLM pipeline produces 5D tension scoring, multi-causal state transitions, and interpretive causality.
 
-Three reviewer personas have identified concrete issues that need addressing before the next wave of features. The priorities below reflect their feedback.
+Three reviewer personas identified concrete issues. All R1-R10 fixes and T1-T2 theoretical improvements are now implemented.
 
 ---
 
-## IMMEDIATE: Reviewer-Identified Fixes
+## COMPLETED: Reviewer-Identified Fixes
 
 ### R1. Fix Conditional Hooks Violation (Critical — will crash)
 **Source**: Staff Engineer
@@ -62,7 +62,7 @@ Three reviewer personas have identified concrete issues that need addressing bef
 
 ---
 
-## THEORETICAL: Architectural Questions from Dr. Vasquez
+## COMPLETED: Architectural Questions from Dr. Vasquez
 
 ### T1. Reading-Scoped Absentials
 **Source**: Dr. Vasquez
