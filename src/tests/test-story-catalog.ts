@@ -79,11 +79,51 @@ for (const entry of catalog) {
   check(`${entry.slug}: data file exists`, fs.existsSync(filePath), filePath);
 }
 
-// Test 4: Text files exist when specified
+// Test 4: Text files exist for all stories
+console.log('\n--- Story Catalog: Text File Existence ---\n');
+const textPaths: Record<string, string> = {
+  'araby': '/data/araby.txt',
+  'the-sisters': '/data/dubliners/the-sisters.txt',
+  'an-encounter': '/data/dubliners/an-encounter.txt',
+  'araby-auto': '/data/dubliners/araby.txt',
+  'eveline': '/data/dubliners/eveline.txt',
+  'after-the-race': '/data/dubliners/after-the-race.txt',
+  'two-gallants': '/data/dubliners/two-gallants.txt',
+  'the-boarding-house': '/data/dubliners/the-boarding-house.txt',
+  'a-little-cloud': '/data/dubliners/a-little-cloud.txt',
+  'counterparts': '/data/dubliners/counterparts.txt',
+  'clay': '/data/dubliners/clay.txt',
+  'a-painful-case': '/data/dubliners/a-painful-case.txt',
+  'ivy-day-in-the-committee-room': '/data/dubliners/ivy-day-in-the-committee-room.txt',
+  'a-mother': '/data/dubliners/a-mother.txt',
+  'grace': '/data/dubliners/grace.txt',
+  'the-dead': '/data/dubliners/the-dead.txt',
+  'at-the-bay': '/data/mansfield/at-the-bay.txt',
+  'the-garden-party': '/data/mansfield/the-garden-party.txt',
+  'miss-brill': '/data/mansfield/miss-brill.txt',
+  'the-daughters-of-the-late-colonel': '/data/mansfield/the-daughters-of-the-late-colonel.txt',
+  'her-first-ball': '/data/mansfield/her-first-ball.txt',
+  'the-voyage': '/data/mansfield/the-voyage.txt',
+  'the-stranger': '/data/mansfield/the-stranger.txt',
+  'marriage-a-la-mode': '/data/mansfield/marriage-a-la-mode.txt',
+  'mr-and-mrs-dove': '/data/mansfield/mr-and-mrs-dove.txt',
+  'the-young-girl': '/data/mansfield/the-young-girl.txt',
+  'life-of-ma-parker': '/data/mansfield/life-of-ma-parker.txt',
+  'the-singing-lesson': '/data/mansfield/the-singing-lesson.txt',
+  'the-ladys-maid': '/data/mansfield/the-ladys-maid.txt',
+  'bank-holiday': '/data/mansfield/bank-holiday.txt',
+  'an-ideal-family': '/data/mansfield/an-ideal-family.txt',
+};
 for (const entry of catalog) {
-  if (entry.textPath) {
-    const filePath = path.join(UI_PUBLIC, entry.textPath);
-    check(`${entry.slug}: text file exists`, fs.existsSync(filePath), filePath);
+  const tp = textPaths[entry.slug];
+  if (tp) {
+    const filePath = path.join(UI_PUBLIC, tp);
+    const exists = fs.existsSync(filePath);
+    check(`${entry.slug}: text file exists`, exists, filePath);
+    if (exists) {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      check(`${entry.slug}: text has content (${content.split('\n').length} lines)`, content.length > 100);
+    }
   }
 }
 

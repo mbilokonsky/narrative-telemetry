@@ -27,6 +27,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/the-sisters-formalist.json',
+    textPath: '/data/dubliners/the-sisters.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -35,6 +36,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/an-encounter-formalist.json',
+    textPath: '/data/dubliners/an-encounter.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -43,6 +45,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/araby-formalist.json',
+    textPath: '/data/dubliners/araby.txt',
     readings: ['Formalist Reading of Araby'],
   },
   {
@@ -51,6 +54,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/eveline-formalist.json',
+    textPath: '/data/dubliners/eveline.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -59,6 +63,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/after-the-race-formalist.json',
+    textPath: '/data/dubliners/after-the-race.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -67,6 +72,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/two-gallants-formalist.json',
+    textPath: '/data/dubliners/two-gallants.txt',
     readings: ['Formalist Reading: Structure, Style, and Narrative Technique'],
   },
   {
@@ -75,6 +81,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/the-boarding-house-formalist.json',
+    textPath: '/data/dubliners/the-boarding-house.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -83,6 +90,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/a-little-cloud-formalist.json',
+    textPath: '/data/dubliners/a-little-cloud.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -91,6 +99,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/counterparts-formalist.json',
+    textPath: '/data/dubliners/counterparts.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -99,6 +108,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/clay-formalist.json',
+    textPath: '/data/dubliners/clay.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -107,6 +117,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/a-painful-case-formalist.json',
+    textPath: '/data/dubliners/a-painful-case.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -115,6 +126,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/ivy-day-in-the-committee-room-formalist.json',
+    textPath: '/data/dubliners/ivy-day-in-the-committee-room.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -123,6 +135,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/a-mother-formalist.json',
+    textPath: '/data/dubliners/a-mother.txt',
     readings: ['Formalist Reading: Structure, Style, and Narrative Technique'],
   },
   {
@@ -131,6 +144,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/grace-formalist.json',
+    textPath: '/data/dubliners/grace.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -139,6 +153,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'James Joyce',
     collection: 'dubliners',
     dataPath: '/data/dubliners/the-dead-formalist.json',
+    textPath: '/data/dubliners/the-dead.txt',
     readings: ["Formalist Reading of 'The Dead'"],
   },
 
@@ -149,6 +164,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/at-the-bay-formalist.json',
+    textPath: '/data/mansfield/at-the-bay.txt',
     readings: ['Formalist Reading: Structure, Style, and Narrative Technique'],
   },
   {
@@ -157,6 +173,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/the-garden-party-formalist.json',
+    textPath: '/data/mansfield/the-garden-party.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -165,6 +182,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/miss-brill-formalist.json',
+    textPath: '/data/mansfield/miss-brill.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -173,6 +191,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/the-daughters-of-the-late-colonel-formalist.json',
+    textPath: '/data/mansfield/the-daughters-of-the-late-colonel.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -181,6 +200,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/her-first-ball-formalist.json',
+    textPath: '/data/mansfield/her-first-ball.txt',
     readings: ["Formalist Reading: 'Her First Ball'"],
   },
   {
@@ -189,6 +209,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/the-voyage-formalist.json',
+    textPath: '/data/mansfield/the-voyage.txt',
     readings: ['Formalist Reading: Structure and Narrative Technique'],
   },
   {
@@ -197,6 +218,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/the-stranger-formalist.json',
+    textPath: '/data/mansfield/the-stranger.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -205,6 +227,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/marriage-a-la-mode-formalist.json',
+    textPath: '/data/mansfield/marriage-a-la-mode.txt',
     readings: ['Formalist Reading: Structure, Style, and Narrative Technique'],
   },
   {
@@ -213,6 +236,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/mr-and-mrs-dove-formalist.json',
+    textPath: '/data/mansfield/mr-and-mrs-dove.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -221,6 +245,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/the-young-girl-formalist.json',
+    textPath: '/data/mansfield/the-young-girl.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -229,6 +254,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/life-of-ma-parker-formalist.json',
+    textPath: '/data/mansfield/life-of-ma-parker.txt',
     readings: ['Formalist Reading: Structure, Style, and Narrative Form'],
   },
   {
@@ -237,6 +263,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/the-singing-lesson-formalist.json',
+    textPath: '/data/mansfield/the-singing-lesson.txt',
     readings: ['Formalist Reading'],
   },
   {
@@ -245,6 +272,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/the-ladys-maid-formalist.json',
+    textPath: '/data/mansfield/the-ladys-maid.txt',
     readings: ['Formalist Reading: Structure, Style, and Narrative Form'],
   },
   {
@@ -253,6 +281,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/bank-holiday-formalist.json',
+    textPath: '/data/mansfield/bank-holiday.txt',
     readings: ['Formalist Reading: A Carnival Day'],
   },
   {
@@ -261,6 +290,7 @@ export const storyCatalog: StoryEntry[] = [
     author: 'Katherine Mansfield',
     collection: 'mansfield',
     dataPath: '/data/mansfield/an-ideal-family-formalist.json',
+    textPath: '/data/mansfield/an-ideal-family.txt',
     readings: ['Formalist Reading'],
   },
 ];
