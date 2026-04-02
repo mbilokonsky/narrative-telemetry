@@ -67,6 +67,7 @@ export interface ReadingEventEffect {
   entityId: NarrativeEntityID;
   stateChanges: Record<string, unknown>;
   description: string;
+  changeType?: 'emotional' | 'epistemic' | 'relational' | 'status' | 'atmospheric';
 }
 
 export interface TensionDimensions {

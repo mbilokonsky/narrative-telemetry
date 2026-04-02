@@ -207,13 +207,20 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
       note: ann.note,
       causes: Array.isArray(ann.causes) ? ann.causes : undefined,
     };
-    // Map effects from simple event ID array to ReadingEventEffect[]
+    // Map effects — either structured { entityId, change, type } or legacy string[] of event IDs
     if (Array.isArray(ann.effects)) {
-      entry.effects = ann.effects.map((eid: string) => ({
-        entityId: eid,
-        stateChanges: {},
-        description: `Causes ${eid}`,
-      }));
+      entry.effects = ann.effects.map((eff: any) => {
+        if (typeof eff === 'string') {
+          // Legacy: just an event ID
+          return { entityId: eff, stateChanges: {}, description: `Causes ${eff}` };
+        }
+        // Structured: { entityId, change, type }
+        return {
+          entityId: eff.entityId ?? '',
+          stateChanges: { type: eff.type ?? 'status' },
+          description: eff.change ?? eff.description ?? '',
+        };
+      });
     }
     // Include 5D dimensions if provided by the LLM
     if (ann.dimensions && typeof ann.dimensions === 'object') {

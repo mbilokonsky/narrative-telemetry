@@ -38,10 +38,10 @@ const promptPath = path.resolve(__dirname, '../ingest/prompts.ts');
 const promptSource = fs.readFileSync(promptPath, 'utf-8');
 
 check('Prompt defines causes field', promptSource.includes("causes?: string[]"));
-check('Prompt defines effects field', promptSource.includes("effects?: string[]"));
+check('Prompt defines effects field', promptSource.includes("effects?:"));
 check('Prompt has causality rules section', promptSource.includes('Interpretive Causality'));
-check('Prompt explains lens-specific causality', promptSource.includes('Different readings may identify different causal chains'));
-check('Prompt sets minimum causal annotations', promptSource.includes('5-10 events'));
+check('Prompt explains lens-specific causality', promptSource.includes('interpretive claims'));
+check('Prompt sets minimum causal annotations', promptSource.includes('5-15 events'));
 
 console.log('\n--- Causality: Interpret Pipeline ---\n');
 
@@ -50,7 +50,7 @@ const interpretSource = fs.readFileSync(interpretPath, 'utf-8');
 
 check('interpret.ts handles causes array', interpretSource.includes('Array.isArray(ann.causes)'));
 check('interpret.ts handles effects array', interpretSource.includes('Array.isArray(ann.effects)'));
-check('interpret.ts maps effects to ReadingEventEffect', interpretSource.includes('ReadingEventEffect'));
+check('interpret.ts maps structured effects', interpretSource.includes('eff.entityId') || interpretSource.includes('eff.change'));
 
 console.log('\n--- Causality: UI Support ---\n');
 

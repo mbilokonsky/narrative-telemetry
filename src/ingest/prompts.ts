@@ -57,6 +57,14 @@ interface CharacterNode {
   physicalDescription: string;
   initialLocation: string;    // setting ID
   firstEvent: string;         // event ID of first appearance
+  stateTransitions: Array<{   // track how this character changes through the story
+    eventId: string;          // event that causes this change
+    percentage: number;       // 0-100 position in story
+    location?: string;        // setting ID if location changes
+    emotionalShift?: string;  // brief description of emotional change
+    knowledgeChange?: string; // what does the character learn or realize?
+    description: string;      // what changes and why
+  }>;
 }
 
 interface SettingNode {
@@ -149,15 +157,20 @@ interface AbsentialNode {
   holder: string;             // character ID who holds this desire/fear/goal
   origin: string;             // textual explanation of where it comes from
   type: "desire" | "fear" | "goal" | "need" | "expectation" | "lack" | "potential" | "trigger";
-  initialStatus: "unsatisfied" | "canceled" | "resolved_satisfied" | "resolved_blocked" | "resolved_mixed";
-  urgency: number;            // 0-1
-  intensity: number;          // 0-1
   relatedEntities: Array<{
     entityId: string;
     relationship: "target" | "obstacle" | "facilitator" | "influenced_by" | "catalyst" | "resolver" | "creator" | "beneficiary" | "victim";
     strength: number;
   }>;
   firstEvent: string;
+  stateTransitions: Array<{   // track how this absential evolves through the story
+    eventId: string;          // event that causes this change
+    percentage: number;       // 0-100 position in story
+    status: "unsatisfied" | "canceled" | "resolved_satisfied" | "resolved_blocked" | "resolved_mixed";
+    urgency: number;          // 0-1
+    intensity: number;        // 0-1
+    description: string;      // what happens to this desire/fear/goal
+  }>;
 }
 
 interface MentalConstructNode {
@@ -188,7 +201,9 @@ interface MentalConstructNode {
 7. **Percentage timestamps.** Estimate where in the text (0-100%) each event occurs based on line position.
 8. **Event chaining.** Set precedingEvent to link events in narrative order.
 9. **Only diegetic mental constructs.** In Pass 1, only extract beliefs/knowledge that characters demonstrably hold in the story world.
-10. **Valid cross-references.** Every entity ID referenced in events, relationships, absentials, etc. must correspond to an entity you've defined.`;
+10. **Valid cross-references.** Every entity ID referenced in events, relationships, absentials, etc. must correspond to an entity you've defined.
+11. **State transitions for characters.** For each major character, provide 3-8 stateTransitions tracking how they change through the story: location changes, emotional shifts, knowledge gains, decisions made. Each must reference a valid event ID.
+12. **State transitions for absentials.** For each absential, provide 2-5 stateTransitions tracking how the desire/fear/goal evolves: when it's introduced (unsatisfied), when it intensifies, when it's complicated by obstacles, and when/how it resolves. The first entry should be the introduction, the last the resolution.`;
 
 export function buildExtractionUserPrompt(text: string, lineCount: number): string {
   return `Here is the full text to analyze (${lineCount} lines). Extract the complete narrative structure as a JSON object matching the ExtractionResult schema.
@@ -289,7 +304,11 @@ interface EventAnnotation {
   dimensions: TensionDimensions;  // independent 5D scoring
   note?: string;
   causes?: string[];          // event IDs that causally led to this event
-  effects?: string[];         // event IDs that this event causally triggers
+  effects?: Array<{           // how this event changes entities (interpretive claims)
+    entityId: string;         // character, absential, or setting ID affected
+    change: string;           // what changes under this reading's interpretation
+    type: "emotional" | "epistemic" | "relational" | "status" | "atmospheric";
+  }>;
 }
 
 interface TensionPoint {
@@ -325,16 +344,24 @@ Score each event AND each tension point independently across FIVE dimensions (0-
 
 **CRITICAL: These dimensions are INDEPENDENT.** An event can be high in absential (0.8) but low in atmospheric (0.2). Do NOT force them to correlate or sum to 1. Score each dimension on its own merits.
 
-## Interpretive Causality
+## Interpretive Causality & State Effects
 
-For events with significance >= 0.5, annotate causal relationships:
+For events with significance >= 0.5, annotate:
 
-- **causes**: List event IDs that *under this reading's interpretation* causally led to this event. Not just temporal order — actual narrative causation (e.g., the uncle's lateness *caused* the boy's late arrival at the bazaar).
-- **effects**: List event IDs that this event causally triggers downstream.
+### Causal Chains
+- **causes**: List event IDs that *under this reading's interpretation* causally led to this event. Not just temporal order — actual narrative causation. Different readings may identify different causes.
 
-Different readings may identify different causal chains for the same events. A formalist might focus on structural causation (plot mechanics), while a psychoanalytic reading might trace unconscious motivations.
+### Entity State Effects
+- **effects**: For significant events, describe what changes in entities *as interpreted by this lens*. Each effect names an entityId (character, absential, or setting), a change description, and a type:
+  - **emotional**: character's emotional state shifts
+  - **epistemic**: character learns, realizes, or becomes confused about something
+  - **relational**: relationship between entities changes
+  - **status**: absential status changes (urgency/intensity shifts)
+  - **atmospheric**: setting or mood transforms
 
-Aim for at least 5-10 events with populated causes/effects. Not every event needs them — only those where the causal relationship is interpretively meaningful.`;
+These are *interpretive claims*, not neutral facts. A formalist might say "the boy's romantic idealism shatters" at the epiphany. A postcolonial reading might say "the boy recognizes the emptiness of orientalist fantasy." Same event, different state effects.
+
+Aim for 5-15 events with effects. Focus on moments where the reading claims something changes in a character or absential.`;
 
 export function buildInterpretationUserPrompt(textModelJson: string, lens: string): string {
   return `Here is the TextModel (neutral extraction) of the story:

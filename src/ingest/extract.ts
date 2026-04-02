@@ -266,8 +266,46 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
     });
   }
 
-  // Register characters
+  // Register characters (with state transitions)
   for (const c of extraction.characters ?? []) {
+    const initialState = {
+      timestamp: ts(0),
+      data: {
+        ...base(c.firstEvent ?? 'init'),
+        emotionalState: emptyEmotion(),
+        mentalConstructs: [],
+        inventory: [],
+        location: c.initialLocation ?? '',
+        factionRelationships: {},
+        age: c.age ?? 0,
+        gender: c.gender ?? 'unknown',
+        occupation: c.occupation ?? '',
+        personalityTraits: c.personalityTraits ?? [],
+        coreValues: c.coreValues ?? [],
+        physicalDescription: c.physicalDescription ?? '',
+        skills: {},
+        socialStatus: {},
+      },
+      causedBy: {},
+    };
+
+    // Build stateHistory from transitions
+    const stateHistory = [initialState];
+    for (const tr of c.stateTransitions ?? []) {
+      const prevData = stateHistory[stateHistory.length - 1].data;
+      stateHistory.push({
+        timestamp: ts(tr.percentage),
+        data: {
+          ...prevData,
+          ...base(tr.eventId),
+          location: tr.location ?? prevData.location,
+          // Store transition metadata in generatedBy and description via version
+          version: `v1:${tr.description ?? ''}` as any,
+        },
+        causedBy: { eventId: tr.eventId },
+      });
+    }
+
     sys.addCharacter({
       id: c.id,
       name: c.name,
@@ -276,26 +314,7 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
       textMentions: c.textMentions ?? [],
       context: c.context ?? '',
       type: DiegeticEntityType.CHARACTER,
-      stateHistory: [{
-        timestamp: ts(0),
-        data: {
-          ...base(c.firstEvent ?? 'init'),
-          emotionalState: emptyEmotion(),
-          mentalConstructs: [],
-          inventory: [],
-          location: c.initialLocation ?? '',
-          factionRelationships: {},
-          age: c.age ?? 0,
-          gender: c.gender ?? 'unknown',
-          occupation: c.occupation ?? '',
-          personalityTraits: c.personalityTraits ?? [],
-          coreValues: c.coreValues ?? [],
-          physicalDescription: c.physicalDescription ?? '',
-          skills: {},
-          socialStatus: {},
-        },
-        causedBy: {},
-      }],
+      stateHistory,
       firstIntroduced: c.firstEvent ?? 'init',
     });
   }
@@ -432,8 +451,39 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
     });
   }
 
-  // Register absentials
+  // Register absentials (with state transitions)
   for (const a of extraction.absentials ?? []) {
+    // Build stateHistory from transitions array (or fall back to single initial state)
+    const transitions = a.stateTransitions ?? [];
+    let stateHistory;
+
+    if (transitions.length > 0) {
+      stateHistory = transitions.map((tr: any) => ({
+        timestamp: ts(tr.percentage),
+        data: {
+          ...base(tr.eventId),
+          type: toAbsentialType(a.type),
+          status: toAbsentialStatus(tr.status ?? 'unsatisfied'),
+          urgency: tr.urgency ?? 0.5,
+          intensity: tr.intensity ?? 0.5,
+        },
+        causedBy: { eventId: tr.eventId },
+      }));
+    } else {
+      // Legacy fallback: single initial state
+      stateHistory = [{
+        timestamp: ts(0),
+        data: {
+          ...base(a.firstEvent ?? 'init'),
+          type: toAbsentialType(a.type),
+          status: toAbsentialStatus(a.initialStatus ?? 'unsatisfied'),
+          urgency: a.urgency ?? 0.5,
+          intensity: a.intensity ?? 0.5,
+        },
+        causedBy: {},
+      }];
+    }
+
     sys.addAbsential({
       id: a.id,
       name: a.name,
@@ -449,17 +499,7 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
         strength: re.strength ?? 0.5,
       })),
       relatedAbsentials: [],
-      stateHistory: [{
-        timestamp: ts(0),
-        data: {
-          ...base(a.firstEvent ?? 'init'),
-          type: toAbsentialType(a.type),
-          status: toAbsentialStatus(a.initialStatus ?? 'unsatisfied'),
-          urgency: a.urgency ?? 0.5,
-          intensity: a.intensity ?? 0.5,
-        },
-        causedBy: {},
-      }],
+      stateHistory,
       firstIntroduced: a.firstEvent ?? 'init',
     });
   }

@@ -4,6 +4,7 @@ import { TensionChart } from './TensionChart'
 import { AbsentialTimeline } from './AbsentialTimeline'
 import { RelationshipGraph } from './RelationshipGraph'
 import { CausalChainExplorer } from './CausalChainExplorer'
+import { EntityHistory } from './EntityHistory'
 
 interface DetailInspectorProps {
   model: StoryModel;
@@ -379,6 +380,14 @@ export function DetailInspector({
             </div>
           </div>
         )}
+        <EntityHistory
+          model={model}
+          entityId={entityId}
+          entityType={entityCategory.toLowerCase() as 'character' | 'setting' | 'item'}
+          activeReading={activeReading}
+          readingKeys={displayedReadings}
+          onSelectEvent={onSelectEvent ?? (() => {})}
+        />
         <TensionChart
           tensions={tensionData}
           selection={selection}
@@ -409,6 +418,14 @@ export function DetailInspector({
               absential: model.text.absentials[id],
             })).filter(x => x.absential) ?? []
           }
+        />
+        <EntityHistory
+          model={model}
+          entityId={selection.absentialId}
+          entityType="absential"
+          activeReading={activeReading}
+          readingKeys={displayedReadings}
+          onSelectEvent={onSelectEvent ?? (() => {})}
         />
         <TensionChart
           tensions={tensionData}
