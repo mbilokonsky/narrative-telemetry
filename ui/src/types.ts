@@ -151,5 +151,5 @@ export type Selection =
   | { type: 'event'; id: string }
   | { type: 'span'; id: string }
   | { type: 'entity'; entityId: string }
-  | { type: 'absential'; absentialId: string }
+  | { type: 'absential'; absentialId: string; compareIds?: string[] }
   | null;

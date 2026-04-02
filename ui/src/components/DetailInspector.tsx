@@ -395,6 +395,12 @@ export function DetailInspector({
           reading={model.readings[activeReading]}
           diegetic={model.text.diegetic}
           onSelectEvent={onSelectEvent ?? (() => {})}
+          compareAbsentials={
+            selection.compareIds?.map(id => ({
+              id,
+              absential: model.text.absentials[id],
+            })).filter(x => x.absential) ?? []
+          }
         />
         <TensionChart
           tensions={tensionData}

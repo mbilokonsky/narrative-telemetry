@@ -118,10 +118,24 @@ function App() {
     setEditingReading(false);
   }, [])
 
-  const handleSelectAbsential = useCallback((absentialId: string) => {
-    setSelection(prev =>
-      prev?.type === 'absential' && prev.absentialId === absentialId ? null : { type: 'absential', absentialId }
-    )
+  const handleSelectAbsential = useCallback((absentialId: string, addToCompare?: boolean) => {
+    setSelection(prev => {
+      if (addToCompare && prev?.type === 'absential') {
+        // Shift-click: toggle this absential in the compare set
+        const existing = prev.compareIds ?? []
+        const isAlreadyCompared = existing.includes(absentialId)
+        if (absentialId === prev.absentialId) return prev // can't remove primary
+        const newCompare = isAlreadyCompared
+          ? existing.filter(id => id !== absentialId)
+          : [...existing, absentialId]
+        return { ...prev, compareIds: newCompare.length > 0 ? newCompare : undefined }
+      }
+      // Normal click: select as primary, clear comparisons
+      if (prev?.type === 'absential' && prev.absentialId === absentialId && !prev.compareIds?.length) {
+        return null
+      }
+      return { type: 'absential', absentialId }
+    })
   }, [])
 
   if (editingReading && model) {

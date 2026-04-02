@@ -5,7 +5,7 @@ interface AbsentialListProps {
   absentials: Record<string, Absential>;
   reading: Reading;
   selection: Selection;
-  onSelect: (id: string) => void;
+  onSelect: (id: string, addToCompare?: boolean) => void;
 }
 
 export function AbsentialList({ absentials, reading, selection, onSelect }: AbsentialListProps) {
@@ -13,19 +13,28 @@ export function AbsentialList({ absentials, reading, selection, onSelect }: Abse
   if (entries.length === 0) return null
 
   const selectedId = selection?.type === 'absential' ? selection.absentialId : null
+  const compareIds = selection?.type === 'absential' ? (selection.compareIds ?? []) : []
+  const allSelected = new Set([selectedId, ...compareIds].filter(Boolean))
 
   return (
     <div className="absential-list">
-      <div className="absential-list-header">Absentials</div>
+      <div className="absential-list-header">
+        Absentials
+        {compareIds.length > 0 && (
+          <span className="absential-list-compare-hint"> ({allSelected.size} overlaid)</span>
+        )}
+      </div>
+      <div className="absential-list-hint">shift-click to overlay</div>
       {entries.map(([id, abs]) => {
         const sig = reading.absentialSignificance[id]?.significance ?? 0
-        const isSelected = id === selectedId
+        const isSelected = allSelected.has(id)
+        const isPrimary = id === selectedId
 
         return (
           <div
             key={id}
-            className={`absential-list-item ${isSelected ? 'selected' : ''}`}
-            onClick={() => onSelect(id)}
+            className={`absential-list-item ${isPrimary ? 'selected' : isSelected ? 'compared' : ''}`}
+            onClick={(e) => onSelect(id, e.shiftKey)}
           >
             <div
               className="absential-list-indicator"
@@ -35,6 +44,7 @@ export function AbsentialList({ absentials, reading, selection, onSelect }: Abse
               <div className="absential-list-name">{abs.name}</div>
               <div className="absential-list-type">
                 {(abs.stateHistory[0]?.data?.type as string) ?? 'desire'}
+                {abs.holder && ` — ${abs.holder}`}
               </div>
             </div>
             <div className="absential-list-sig">{sig.toFixed(1)}</div>
@@ -53,7 +63,19 @@ export function AbsentialList({ absentials, reading, selection, onSelect }: Abse
           letter-spacing: 0.05em;
           color: var(--text-dim);
           font-weight: 600;
-          padding: 4px 12px 8px;
+          padding: 4px 12px 2px;
+        }
+        .absential-list-compare-hint {
+          text-transform: none;
+          letter-spacing: normal;
+          font-weight: 400;
+          color: var(--accent);
+        }
+        .absential-list-hint {
+          font-size: 9px;
+          color: var(--text-dim);
+          padding: 0 12px 6px;
+          opacity: 0.6;
         }
         .absential-list-item {
           display: flex;
@@ -69,6 +91,11 @@ export function AbsentialList({ absentials, reading, selection, onSelect }: Abse
         .absential-list-item.selected {
           background: var(--accent-dim, rgba(123,140,222,0.15));
           border-left: 2px solid var(--accent);
+          padding-left: 10px;
+        }
+        .absential-list-item.compared {
+          background: rgba(123,140,222,0.08);
+          border-left: 2px dotted var(--accent);
           padding-left: 10px;
         }
         .absential-list-indicator {
