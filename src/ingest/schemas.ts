@@ -112,6 +112,15 @@ export const ReadingResultSchema = z.object({
     significance: z.number(),
     note: z.string().optional(),
   })).default({}),
+  interpretiveAbsentials: z.array(z.object({
+    id: z.string(),
+    name: z.string(),
+    description: z.string().default(''),
+    holder: z.string(),
+    type: z.string().default('desire'),
+    significance: z.number().default(0.5),
+    note: z.string().default(''),
+  }).passthrough()).optional(),
   globalTension: z.array(z.object({
     timestamp: z.object({ percentage: z.number() }),
     value: z.number(),

@@ -276,6 +276,7 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
     entitySignificance,
     absentialSignificance,
     mentalConstructs: {},
+    interpretiveAbsentials: buildInterpretiveAbsentials(result),
     annotations: [],
     globalTension: (result.globalTension ?? []).map(pt => {
       const entry: Reading['globalTension'][number] = {
@@ -300,6 +301,45 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
 }
 
 // ── Main interpretation function ──
+
+function buildInterpretiveAbsentials(result: ReadingResult): Reading['interpretiveAbsentials'] {
+  const absentials = (result as any).interpretiveAbsentials;
+  if (!Array.isArray(absentials) || absentials.length === 0) return undefined;
+
+  const record: NonNullable<Reading['interpretiveAbsentials']> = {};
+  for (const a of absentials) {
+    if (!a.id || !a.name) continue;
+    record[a.id] = {
+      id: a.id,
+      name: a.name,
+      description: a.description ?? '',
+      tags: [],
+      holder: a.holder ?? '',
+      origin: a.note ?? '',
+      childAbsentials: [],
+      conflictingAbsentials: [],
+      relatedEntities: (a.relatedEntities ?? []).map((re: any) => ({
+        entityId: re.entityId,
+        relationship: re.relationship ?? 'target',
+        strength: re.strength ?? 0.5,
+      })),
+      relatedAbsentials: [],
+      stateHistory: [{
+        timestamp: ts(0),
+        data: {
+          ...base('init'),
+          type: a.type ?? 'desire',
+          status: 'unsatisfied',
+          urgency: 0.5,
+          intensity: a.significance ?? 0.5,
+        },
+        causedBy: {},
+      }],
+      firstIntroduced: 'init',
+    } as any;
+  }
+  return Object.keys(record).length > 0 ? record : undefined;
+}
 
 export async function interpretReading(
   textModel: TextModel,

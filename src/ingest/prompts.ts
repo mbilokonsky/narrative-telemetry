@@ -121,7 +121,7 @@ interface FactionNode {
 
 interface EventNode {
   id: string;
-  type: "action" | "dialogue" | "revelation" | "decision" | "environmental";
+  type: "action" | "dialogue" | "revelation" | "decision" | "environmental" | "interior_monologue" | "free_indirect" | "narrator_commentary" | "flashback" | "ekphrasis";
   description: string;
   timestamp: { percentage: number };  // 0-100 position in story
   textLocation: { startLine: number; endLine: number };
@@ -252,6 +252,17 @@ interface ReadingResult {
 
   globalTension: Array<TensionPoint>;
   spanAnnotations: Record<string, SpanAnnotation>;
+
+  interpretiveAbsentials?: Array<{  // desires/fears/goals that only exist under THIS lens
+    id: string;                     // e.g. "abs-colonial-desire"
+    name: string;
+    description: string;
+    holder: string;                 // character ID
+    type: "desire" | "fear" | "goal" | "need" | "expectation" | "lack";
+    relatedEntities: Array<{ entityId: string; relationship: string; strength: number }>;
+    significance: number;           // 0-1
+    note: string;                   // why this absential matters under this lens
+  }>;
 }
 
 interface ThemeNode {
@@ -339,6 +350,7 @@ interface SpanAnnotation {
 4. **Themes and symbols.** Identify 2-5 themes and 2-5 symbols relevant to this lens.
 5. **Semantic IDs.** Use readable slugs for themes/symbols: "theme-disillusionment", "sym-light-dark".
 6. **Significance scores.** 0 = irrelevant to this lens, 1 = maximally significant. Most events should score 0.3-0.7. Reserve 0.8+ for truly pivotal moments.
+7. **Interpretive absentials.** If this lens identifies desires, fears, or goals that are NOT explicitly stated in the text but emerge from this reading's interpretive framework, add them to interpretiveAbsentials. Example: a postcolonial reading might posit "colonial subject's desire for metropolitan culture" — a desire the text never names but the lens claims is operative. Only include 1-3, and only when they are genuinely lens-specific (not already in the TextModel absentials).
 
 ## Five Tension Dimensions (Independent Scoring)
 
