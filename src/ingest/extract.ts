@@ -731,7 +731,7 @@ async function extractChunk(
 
   try {
     const parsed = JSON.parse(rawJson);
-    return ExtractionResultSchema.parse(parsed) as ChunkExtractionResult;
+    return ExtractionResultSchema.parse(parsed) as unknown as ChunkExtractionResult;
   } catch (err) {
     console.error('[chunked-extract] Failed to parse/validate chunk JSON');
     console.error('[chunked-extract] Raw (first 500 chars):', rawJson.slice(0, 500));

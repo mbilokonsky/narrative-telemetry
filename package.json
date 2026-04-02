@@ -11,7 +11,7 @@
     "ingest": "npx ts-node src/ingest-araby.ts",
     "validate": "npx ts-node src/validate.ts",
     "server": "npx ts-node src/server.ts",
-    "ui:setup": "mkdir -p ui/public/data/dubliners ui/public/data/mansfield && cp output/dubliners/*.json ui/public/data/dubliners/ && cp output/mansfield/*.json ui/public/data/mansfield/ && cp corpus/dubliners/*.txt ui/public/data/dubliners/ && cp corpus/mansfield/*.txt ui/public/data/mansfield/",
+    "ui:setup": "mkdir -p ui/public/data/dubliners ui/public/data/mansfield && cp output/dubliners/*.json ui/public/data/dubliners/ 2>/dev/null; cp output/mansfield/*.json ui/public/data/mansfield/ 2>/dev/null; cp corpus/dubliners/*.txt ui/public/data/dubliners/ 2>/dev/null; cp corpus/mansfield/*.txt ui/public/data/mansfield/ 2>/dev/null; true",
     "ui:dev": "npm run ui:setup && cd ui && npx vite --open",
     "ui:build": "npm run ui:setup && cd ui && npx vite build",
     "ingest:auto": "npx ts-node src/ingest/cli.ts",

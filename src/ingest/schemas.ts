@@ -1,63 +1,37 @@
 /**
  * Zod schemas for validating LLM output.
- * Catches malformed responses before they silently corrupt the StoryModel.
+ * These are intentionally lenient — LLMs produce inconsistent JSON.
+ * We validate required structure while being permissive with optional fields.
  */
 import { z } from 'zod';
+
+// Helper: accept string or null, coerce null to undefined
+const optStr = z.string().nullable().optional().transform(v => v ?? undefined);
 
 // ── Extraction (Pass 1) ──
 
 const SpanNodeSchema: z.ZodType<any> = z.lazy(() => z.object({
   id: z.string(),
   type: z.string(),
-  title: z.string(),
+  title: z.string().default(''),
   description: z.string().default(''),
-  startPct: z.number(),
-  endPct: z.number(),
+  startPct: z.number().default(0),
+  endPct: z.number().default(100),
   eventIds: z.array(z.string()).default([]),
   children: z.array(SpanNodeSchema).default([]),
-}));
-
-const StateTransitionSchema = z.object({
-  percentage: z.number(),
-  description: z.string().default(''),
-  causes: z.array(z.object({
-    eventId: z.string(),
-    role: z.string().default('contributing'),
-    description: z.string().optional(),
-  })).default([]),
-}).passthrough();
-
-const CharacterSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  description: z.string().default(''),
-  tags: z.array(z.string()).default([]),
-  textMentions: z.array(z.string()).default([]),
-  firstEvent: z.string().optional(),
-  stateTransitions: z.array(StateTransitionSchema).default([]),
-}).passthrough();
+}).passthrough());
 
 const EventSchema = z.object({
   id: z.string(),
   type: z.string().default('action'),
   description: z.string().default(''),
-  timestamp: z.object({ percentage: z.number() }),
+  timestamp: z.object({ percentage: z.number() }).passthrough(),
   textLocation: z.object({
     startLine: z.number(),
     endLine: z.number(),
-  }),
+  }).passthrough(),
   participants: z.array(z.string()).default([]),
-  precedingEvent: z.string().optional(),
-});
-
-const AbsentialSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  description: z.string().default(''),
-  tags: z.array(z.string()).default([]),
-  holder: z.string(),
-  type: z.string().default('desire'),
-  stateTransitions: z.array(StateTransitionSchema).default([]),
+  precedingEvent: optStr,
 }).passthrough();
 
 export const ExtractionResultSchema = z.object({
@@ -65,7 +39,7 @@ export const ExtractionResultSchema = z.object({
   author: z.string(),
   description: z.string().default(''),
   rootSpan: SpanNodeSchema,
-  characters: z.array(CharacterSchema).default([]),
+  characters: z.array(z.object({ id: z.string(), name: z.string() }).passthrough()).default([]),
   settings: z.array(z.object({ id: z.string(), name: z.string() }).passthrough()).default([]),
   items: z.array(z.object({ id: z.string(), name: z.string() }).passthrough()).default([]),
   factions: z.array(z.object({ id: z.string(), name: z.string() }).passthrough()).default([]),
@@ -74,24 +48,24 @@ export const ExtractionResultSchema = z.object({
     interpersonal: z.array(z.any()).default([]),
     group: z.array(z.any()).default([]),
   }).default({ interpersonal: [], group: [] }),
-  absentials: z.array(AbsentialSchema).default([]),
+  absentials: z.array(z.object({ id: z.string(), name: z.string(), holder: z.string() }).passthrough()).default([]),
   mentalConstructs: z.array(z.any()).default([]),
-});
+}).passthrough();
 
 // ── Interpretation (Pass 2) ──
 
 const EventAnnotationSchema = z.object({
   significance: z.number().min(0).max(1),
-  note: z.string().optional(),
-  causes: z.array(z.string()).optional(),
-  effects: z.array(z.any()).optional(),
+  note: optStr,
+  causes: z.array(z.string()).nullable().optional(),
+  effects: z.array(z.any()).nullable().optional(),
   dimensions: z.object({
     absential: z.number(),
     relational: z.number(),
     epistemic: z.number(),
     atmospheric: z.number(),
     pacing: z.number(),
-  }).optional(),
+  }).nullable().optional(),
 }).passthrough();
 
 export const ReadingResultSchema = z.object({
@@ -106,27 +80,22 @@ export const ReadingResultSchema = z.object({
   eventSignificance: z.record(z.string(), EventAnnotationSchema).default({}),
   entitySignificance: z.record(z.string(), z.object({
     significance: z.number(),
-    note: z.string().optional(),
-  })).default({}),
+    note: optStr,
+  }).passthrough()).default({}),
   absentialSignificance: z.record(z.string(), z.object({
     significance: z.number(),
-    note: z.string().optional(),
-  })).default({}),
-  interpretiveAbsentials: z.array(z.object({
-    id: z.string(),
-    name: z.string(),
-    description: z.string().default(''),
-    holder: z.string(),
-    type: z.string().default('desire'),
-    significance: z.number().default(0.5),
-    note: z.string().default(''),
-  }).passthrough()).optional(),
+    note: optStr,
+  }).passthrough()).default({}),
   globalTension: z.array(z.object({
-    timestamp: z.object({ percentage: z.number() }),
+    timestamp: z.object({ percentage: z.number() }).passthrough(),
     value: z.number(),
   }).passthrough()).default([]),
   spanAnnotations: z.record(z.string(), z.any()).default({}),
-});
+  interpretiveAbsentials: z.array(z.object({
+    id: z.string(),
+    name: z.string(),
+  }).passthrough()).nullable().optional(),
+}).passthrough();
 
 export type ValidatedExtraction = z.infer<typeof ExtractionResultSchema>;
 export type ValidatedReading = z.infer<typeof ReadingResultSchema>;
