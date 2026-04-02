@@ -143,10 +143,12 @@ function AnnotatedSegment({
   segment,
   entities,
   onSelectEntity,
+  onPopupToggle,
 }: {
   segment: LineSegment;
   entities: Entities;
   onSelectEntity: (entityId: string) => void;
+  onPopupToggle?: (open: boolean) => void;
 }) {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -179,7 +181,9 @@ function AnnotatedSegment({
   const handleClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (hasMultiple) {
-      setShowPopup(prev => !prev);
+      const next = !showPopup;
+      setShowPopup(next);
+      onPopupToggle?.(next);
     } else {
       onSelectEntity(uniqueAnnotations[0].entityId);
     }
@@ -188,7 +192,7 @@ function AnnotatedSegment({
   return (
     <span
       className={`entity-mention ${styleClass}`}
-      style={{ position: 'relative', zIndex: showPopup ? 1000 : undefined }}
+      style={{ position: 'relative' }}
       onClick={handleClick}
     >
       {segment.text}
@@ -200,7 +204,7 @@ function AnnotatedSegment({
           annotations={uniqueAnnotations}
           entities={entities}
           onSelect={onSelectEntity}
-          onClose={() => setShowPopup(false)}
+          onClose={() => { setShowPopup(false); onPopupToggle?.(false); }}
         />
       )}
     </span>
@@ -214,6 +218,7 @@ function annotateLine(
   annotations: TaggedAnnotation[],
   entities: Entities,
   onSelectEntity: (entityId: string) => void,
+  onPopupToggle?: (open: boolean) => void,
 ): ReactNode {
   if (!lineText) return '\u00A0';
 
@@ -237,6 +242,7 @@ function annotateLine(
           segment={seg}
           entities={entities}
           onSelectEntity={onSelectEntity}
+          onPopupToggle={onPopupToggle}
         />
       ))}
     </>
@@ -256,6 +262,7 @@ export function TextView({
 }: TextViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const selectedRef = useRef<HTMLDivElement>(null);
+  const [popupLine, setPopupLine] = useState<number | null>(null);
 
   // Build a map: lineNum (1-indexed) -> event IDs covering that line
   const lineEventMap = useMemo(() => {
@@ -358,7 +365,11 @@ export function TextView({
               key={lineNum}
               ref={isPartOfSelection ? selectedRef : undefined}
               className={`text-line ${hasEvent ? 'has-event' : ''} ${isPartOfSelection ? 'selected' : ''}`}
-              style={{ background: bgColor }}
+              style={{
+                background: bgColor,
+                position: popupLine === lineNum ? 'relative' : undefined,
+                zIndex: popupLine === lineNum ? 1000 : undefined,
+              }}
               onClick={bestEventId ? () => onSelectEvent(bestEventId!) : undefined}
             >
               {compareReading && (
@@ -379,7 +390,8 @@ export function TextView({
               )}
               <span className="line-number">{lineNum}</span>
               <span className="line-text">
-                {annotateLine(lineNum, line, allAnnotations, entities, onSelectEntity)}
+                {annotateLine(lineNum, line, allAnnotations, entities, onSelectEntity,
+                  (open) => setPopupLine(open ? lineNum : null))}
               </span>
             </div>
           );
