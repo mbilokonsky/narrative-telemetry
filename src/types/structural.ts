@@ -115,6 +115,9 @@ export interface Reading {
 
   mentalConstructs: Record<NarrativeEntityID, MentalConstruct>;
 
+  /** Reading-scoped absentials — interpretive constructs that only exist under this lens. */
+  interpretiveAbsentials?: Record<NarrativeEntityID, Absential>;
+
   annotations: TextAnnotation[];
 
   globalTension: Array<{ timestamp: Timestamp; value: number; dimensions?: TensionDimensions }>;

@@ -1,160 +1,69 @@
-export interface TextAnnotation {
-  entityId: string;
-  startLine: number;  // 1-indexed
-  startChar: number;  // 0-indexed within line
-  endLine: number;
-  endChar: number;
-  mentionText: string;
-  note?: string;
-}
+/**
+ * UI types — re-exported from the engine type system.
+ *
+ * This file used to be a hand-maintained subset of the engine types.
+ * Now it re-exports directly from @narrative-telemetry/types to prevent
+ * type drift between engine and UI.
+ *
+ * UI-only types (Selection) are defined here.
+ */
+export type {
+  // Core
+  Timestamp,
+  EventID,
+  SpanID,
+  NarrativeEntityID,
+  CausalRole,
+  CausalFactor,
+  State,
+  Emotion,
 
-export interface Timestamp {
-  percentage: number;
-}
+  // Structural
+  StoryModel,
+  TextModel,
+  StorySpan,
+  Reading,
+  ReadingEventAnnotation,
+  ReadingSignificance,
+  ReadingEventEffect,
+  ReadingSpanAnnotation,
+  TextAnnotation,
+  TensionDimensions,
 
-export interface StorySpan {
-  id: string;
-  type: 'story' | 'act' | 'scene';
-  title: string;
-  description: string;
-  startTimestamp: Timestamp;
-  endTimestamp: Timestamp;
-  events: string[];
-  childSpans: StorySpan[];
-}
+  // Events
+  Event as StoryEvent,
 
-export interface StoryEvent {
-  id: string;
-  type: string;
-  description: string;
-  timestamp: Timestamp;
-  textLocation: { startLine: number; endLine: number };
-  participants: string[];
-  precedingEvent?: string;
-}
+  // Entities
+  Character,
+  Setting,
+  Item,
+  Absential,
+  AbsentialState,
+  Relationship,
+} from '@narrative-telemetry/types';
 
-export interface Character {
-  id: string;
-  name: string;
-  description: string;
-  tags: string[];
-  type: string;
-  textMentions?: string[];
-  context?: string;
-}
+// Re-export enums as values (not just types)
+export {
+  StorySpanType,
+  NarrativeEventType,
+  AbsentialType,
+  AbsentialStatus,
+} from '@narrative-telemetry/types';
 
-export interface Setting {
-  id: string;
-  name: string;
-  description: string;
-  tags?: string[];
-  type?: string;
-  textMentions?: string[];
-  context?: string;
-}
-
-export interface Item {
-  id: string;
-  name: string;
-  description: string;
-  tags?: string[];
-  type?: string;
-  textMentions?: string[];
-  context?: string;
-}
-
-export interface CausalFactor {
-  eventId: string;
-  role: string;
-  description?: string;
-}
-
-export interface AbsentialState {
-  timestamp: Timestamp;
-  data: Record<string, unknown>;
-  causedBy?: {
-    eventId?: string;
-    factors?: CausalFactor[];
-    [key: string]: unknown;
-  };
-}
-
-export interface Absential {
-  id: string;
-  name: string;
-  description: string;
-  holder?: string;
-  relatedEntities?: Array<{ entityId: string; relationship: string; strength: number }>;
-  stateHistory: AbsentialState[];
-}
-
-export interface TensionDimensions {
-  absential: number;
-  relational: number;
-  epistemic: number;
-  atmospheric: number;
-  pacing: number;
-}
+// ── UI-only types ──
 
 export interface Significance {
   significance: number;
-  dimensions?: TensionDimensions;
+  dimensions?: import('@narrative-telemetry/types').TensionDimensions;
   note?: string;
   causes?: string[];
-  effects?: { entityId: string; description: string }[];
+  effects?: import('@narrative-telemetry/types').ReadingEventEffect[];
 }
 
 export interface TensionPoint {
-  timestamp: Timestamp;
+  timestamp: import('@narrative-telemetry/types').Timestamp;
   value: number;
-  dimensions?: TensionDimensions;
-}
-
-export interface Reading {
-  name: string;
-  description: string;
-  themes: unknown;
-  symbols: Record<string, unknown>;
-  narrator: unknown;
-  reader: unknown;
-  author: unknown;
-  eventSignificance: Record<string, Significance>;
-  entitySignificance: Record<string, Significance>;
-  absentialSignificance: Record<string, Significance>;
-  globalTension: TensionPoint[];
-  spanAnnotations: Record<string, unknown>;
-  annotations?: TextAnnotation[];
-}
-
-export interface StoryModel {
-  text: {
-    title: string;
-    author: string;
-    description: string;
-    rootSpan: StorySpan;
-    diegetic: {
-      characters: Record<string, Character>;
-      settings: Record<string, Setting>;
-      items: Record<string, Item>;
-      factions: Record<string, unknown>;
-    };
-    events: Record<string, StoryEvent>;
-    relationships: { interpersonal: Record<string, unknown>; group: Record<string, unknown> };
-    absentials: Record<string, Absential>;
-    mentalConstructs: Record<string, unknown>;
-    annotations?: TextAnnotation[];
-  };
-  readings: Record<string, Reading>;
-}
-
-export interface Relationship {
-  id: string;
-  type: string;
-  participants: string[];
-  nature?: string;
-  name: string;
-  description: string;
-  tags?: string[];
+  dimensions?: import('@narrative-telemetry/types').TensionDimensions;
 }
 
 export type Selection =

@@ -128,7 +128,6 @@ export function CausalChainExplorer({
   const [showBackward, setShowBackward] = useState(true);
 
   const event = model.text.events[eventId];
-  if (!event) return null;
 
   const backwardDiegetic = useMemo(
     () => traceDiegeticChain(eventId, model.text.events, 'backward'),
@@ -152,6 +151,8 @@ export function CausalChainExplorer({
     }
     return chains;
   }, [eventId, model.readings, readingKeys, model.text.events]);
+
+  if (!event) return null;
 
   const hasDiegeticChain = backwardDiegetic.length > 0 || forwardDiegetic.length > 0;
   const hasInterpretiveChain = interpretiveChains.length > 0;

@@ -5,6 +5,7 @@ export interface NarrativeEntityState {
   activeAbsentials: string[];
   currentRelationships: NarrativeEntityID[];
   generatedBy: EventID;
+  transitionDescription?: string;
 }
 
 export interface NarrativeEntity<T extends NarrativeEntityState = NarrativeEntityState> {

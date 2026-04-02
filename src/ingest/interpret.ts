@@ -7,6 +7,7 @@ import {
 } from '../types';
 import { NarrativeAnalysisSystem } from '../NarrativeAnalysisSystem';
 import { INTERPRETATION_SYSTEM_PROMPT, buildInterpretationUserPrompt } from './prompts';
+import { ReadingResultSchema } from './schemas';
 
 export interface InterpretOptions {
   model?: string;
@@ -386,11 +387,12 @@ export async function interpretReading(
 
   let result: ReadingResult;
   try {
-    result = JSON.parse(rawJson);
+    const parsed = JSON.parse(rawJson);
+    result = ReadingResultSchema.parse(parsed);
   } catch (err) {
-    console.error('[interpret] Failed to parse LLM JSON output');
+    console.error('[interpret] Failed to parse/validate LLM JSON output');
     console.error('[interpret] Raw output (first 500 chars):', rawJson.slice(0, 500));
-    throw new Error(`JSON parse error: ${(err as Error).message}`);
+    throw new Error(`JSON parse/validation error: ${(err as Error).message}`);
   }
 
   const eventCount = Object.keys(result.eventSignificance ?? {}).length;

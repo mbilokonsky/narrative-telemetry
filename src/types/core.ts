@@ -10,7 +10,12 @@ export enum NarrativeEventType {
   DIALOGUE = 'dialogue',
   REVELATION = 'revelation',
   DECISION = 'decision',
-  ENVIRONMENTAL = 'environmental'
+  ENVIRONMENTAL = 'environmental',
+  INTERIOR_MONOLOGUE = 'interior_monologue',
+  FREE_INDIRECT = 'free_indirect',
+  NARRATOR_COMMENTARY = 'narrator_commentary',
+  FLASHBACK = 'flashback',
+  EKPHRASIS = 'ekphrasis',
 }
 
 export enum RealmType {

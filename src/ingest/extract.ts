@@ -16,6 +16,7 @@ import {
   TextModel,
 } from '../types';
 import { EXTRACTION_SYSTEM_PROMPT, buildExtractionUserPrompt } from './prompts';
+import { ExtractionResultSchema } from './schemas';
 
 // ── Wire types from LLM output ──
 
@@ -301,8 +302,8 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
           ...prevData,
           ...base(primaryEvent ?? 'unknown'),
           location: tr.location ?? prevData.location,
-          version: `v1:${tr.description ?? ''}` as any,
-        },
+          transitionDescription: tr.description ?? undefined,
+        } as any,
         causedBy: {
           eventId: primaryEvent,
           factors: causes.map((c: any) => ({
@@ -593,11 +594,12 @@ export async function extractTextModel(text: string, options: ExtractOptions = {
 
   let extraction: ExtractionResult;
   try {
-    extraction = JSON.parse(rawJson);
+    const parsed = JSON.parse(rawJson);
+    extraction = ExtractionResultSchema.parse(parsed);
   } catch (err) {
-    console.error('[extract] Failed to parse LLM JSON output');
+    console.error('[extract] Failed to parse/validate LLM JSON output');
     console.error('[extract] Raw output (first 500 chars):', rawJson.slice(0, 500));
-    throw new Error(`JSON parse error: ${(err as Error).message}`);
+    throw new Error(`JSON parse/validation error: ${(err as Error).message}`);
   }
 
   console.log(`[extract] Parsed extraction: ${extraction.events?.length ?? 0} events, ${extraction.characters?.length ?? 0} characters, ${extraction.settings?.length ?? 0} settings`);

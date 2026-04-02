@@ -1,4 +1,4 @@
-import { useEffect, useRef, useMemo } from 'react'
+import { useEffect, useRef, useMemo, useCallback } from 'react'
 import type { StoryEvent, Reading, Selection, Character, Setting, Item } from '../types'
 import { significanceColor } from '../utils'
 import { computeEventDivergence, buildDivergenceMap } from '../divergence'
@@ -27,6 +27,20 @@ export function SplitTextView({
 }: SplitTextViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const selectedRef = useRef<HTMLDivElement>(null)
+  const colARef = useRef<HTMLDivElement>(null)
+  const colBRef = useRef<HTMLDivElement>(null)
+  const syncing = useRef(false)
+
+  const handleScroll = useCallback((source: 'a' | 'b') => {
+    if (syncing.current) return
+    syncing.current = true
+    const from = source === 'a' ? colARef.current : colBRef.current
+    const to = source === 'a' ? colBRef.current : colARef.current
+    if (from && to) {
+      to.scrollTop = from.scrollTop
+    }
+    requestAnimationFrame(() => { syncing.current = false })
+  }, [])
 
   // Compute divergence map
   const divergenceMap = useMemo(() => {
@@ -57,9 +71,9 @@ export function SplitTextView({
   const selectedEventId = selection?.type === 'event' ? selection.id : null
   const selectedEvent = selectedEventId ? events[selectedEventId] : null
 
-  function renderColumn(reading: Reading, label: string) {
+  function renderColumn(reading: Reading, label: string, ref: React.RefObject<HTMLDivElement | null>, onScroll: () => void) {
     return (
-      <div className="split-column">
+      <div className="split-column" ref={ref} onScroll={onScroll}>
         <div className="split-column-header">{label}</div>
         <div className="split-column-content">
           {lines.map((line, idx) => {
@@ -115,9 +129,9 @@ export function SplitTextView({
 
   return (
     <div className="split-text-view" ref={containerRef}>
-      {renderColumn(readingA, readingA.name)}
+      {renderColumn(readingA, readingA.name, colARef, () => handleScroll('a'))}
       <div className="split-divider" />
-      {renderColumn(readingB, readingB.name)}
+      {renderColumn(readingB, readingB.name, colBRef, () => handleScroll('b'))}
 
       <style>{`
         .split-text-view {
@@ -171,16 +185,11 @@ export function SplitTextView({
           padding-left: 5px;
         }
         .split-line.divergence-medium {
-          box-shadow: inset 2px 0 0 0 hsl(45, 90%, 55%);
-          animation: divergence-pulse 2s ease-in-out infinite;
+          box-shadow: inset 3px 0 0 0 hsl(45, 80%, 55%);
         }
         .split-line.divergence-high {
-          box-shadow: inset 3px 0 0 0 hsl(0, 80%, 55%);
-          animation: divergence-pulse 1.5s ease-in-out infinite;
-        }
-        @keyframes divergence-pulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.7; }
+          box-shadow: inset 4px 0 0 0 hsl(25, 85%, 50%);
+          background: rgba(200, 120, 50, 0.06) !important;
         }
         .split-line-number {
           display: inline-block;

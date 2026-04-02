@@ -60,20 +60,16 @@ export function EntityHistory({
         if (!eventId || eventId === 'init') continue;
 
         const evt = model.text.events[eventId];
-        const version = state.data?.version ?? '';
-        // Extract description from version field if encoded there
-        const versionDesc = typeof version === 'string' && version.startsWith('v1:')
-          ? version.slice(3)
-          : '';
-
         let description = '';
+        const transDesc = state.data?.transitionDescription as string | undefined;
         if (entityType === 'absential') {
           const status = state.data?.status ?? '';
           const intensity = state.data?.intensity ?? 0;
           const urgency = state.data?.urgency ?? 0;
-          description = `${status} (intensity: ${intensity.toFixed(1)}, urgency: ${urgency.toFixed(1)})`;
-        } else if (versionDesc) {
-          description = versionDesc;
+          description = `${status} (intensity: ${(intensity as number).toFixed(1)}, urgency: ${(urgency as number).toFixed(1)})`;
+          if (transDesc) description = `${transDesc} — ${description}`;
+        } else if (transDesc) {
+          description = transDesc;
         } else if (evt) {
           description = evt.description;
         }
