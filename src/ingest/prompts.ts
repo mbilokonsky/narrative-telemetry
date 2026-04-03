@@ -154,11 +154,11 @@ interface GroupRelNode {
 }
 
 interface AbsentialNode {
-  id: string;                 // e.g. "abs-quest-to-araby"
+  id: string;                 // e.g. "abs-quest-to-araby", "abs-street-spiritual-void"
   name: string;
   description: string;
   tags: string[];
-  holder: string;             // character ID who holds this desire/fear/goal
+  holder: string;             // entity ID — can be a character, setting, faction, or group
   origin: string;             // textual explanation of where it comes from
   type: "desire" | "fear" | "goal" | "need" | "expectation" | "lack" | "potential" | "trigger";
   relatedEntities: Array<{
@@ -200,7 +200,7 @@ interface MentalConstructNode {
 
 ## Rules
 
-1. **Exhaustive extraction.** Capture every character mentioned (even minor ones), every distinct setting, every item of note, every event that advances the narrative or reveals character. For absentials: identify EVERY desire, fear, goal, need, expectation, or lack held by ANY character — not just the protagonist. Minor characters have desires too. A story typically has 8-20 absentials. If you find fewer than 8, look harder: what does each character want, fear, or need in each scene?
+1. **Exhaustive extraction.** Capture every character mentioned (even minor ones), every distinct setting, every item of note, every event that advances the narrative or reveals character.
 2. **Neutral, objective tone.** Describe what happens, not what it means. No thematic analysis, no significance scores.
 3. **Text-anchored events.** Every event must have accurate startLine/endLine references to the source text. Line numbers are 1-indexed.
 4. **Semantic IDs.** Use readable slugs: "boy", "mangans-sister", "north-richmond-st", "e01-street-description", "abs-quest-to-araby".
@@ -211,7 +211,8 @@ interface MentalConstructNode {
 9. **Only diegetic mental constructs.** In Pass 1, only extract beliefs/knowledge that characters demonstrably hold in the story world.
 10. **Valid cross-references.** Every entity ID referenced in events, relationships, absentials, etc. must correspond to an entity you've defined.
 11. **State transitions for characters.** For each major character, provide 3-8 stateTransitions tracking how they change through the story. Each transition has a "causes" array — state changes are rarely caused by a single event. Include the primary driver, contributing factors, and even opposing forces that were overcome. Use causal roles: primary (main driver), contributing (helped but not sufficient), necessary (required condition), catalytic (triggered without being consumed), enabling (made possible), opposing (pushed against but was overcome), complicating (made the outcome messy/partial).
-12. **State transitions for absentials.** For each absential, provide 2-5 stateTransitions with multi-causal "causes". A desire might intensify because of a primary event AND a contributing atmospheric shift AND despite an opposing obstacle. The first entry should be the introduction, the last the resolution.`;
+12. **State transitions for absentials.** For each absential, provide 2-5 stateTransitions with multi-causal "causes". A desire might intensify because of a primary event AND a contributing atmospheric shift AND despite an opposing obstacle. The first entry should be the introduction, the last the resolution.
+13. **Exhaustive absentials.** Absentials are not just character desires. They are any force that shapes the narrative through absence, lack, or unfulfilled potential. The holder can be a character, a setting, a faction, or a group. Examples: a character's romantic longing (desire), a street's spiritual void after a priest dies (lack), an institution's decaying authority (potential), a crowd's unspoken fear (fear), a house's promise of shelter that fails (expectation). Extract absentials for every entity that has unresolved tension — not just the protagonist. The number of absentials should scale with the text's complexity: a short lyric story might have 5-8, a novella 15-30, an epic hundreds. When in doubt, err on the side of more.`;
 
 export function buildExtractionUserPrompt(text: string, lineCount: number): string {
   return `Here is the full text to analyze (${lineCount} lines). Extract the complete narrative structure as a JSON object matching the ExtractionResult schema.

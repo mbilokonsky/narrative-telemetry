@@ -7,7 +7,7 @@ interface AbsentialTimelineProps {
   absentialId: string;
   events: Record<string, StoryEvent>;
   reading: Reading;
-  diegetic: { characters: Record<string, any> };
+  diegetic: { characters: Record<string, any>; settings: Record<string, any>; items: Record<string, any> };
   onSelectEvent: (id: string) => void;
   compareAbsentials?: Array<{ id: string; absential: Absential }>;
 }
@@ -162,7 +162,9 @@ export function AbsentialTimeline({
   const absentialSig = reading.absentialSignificance[absentialId]
   const stateHistory = absential.stateHistory ?? []
   const holder = absential.holder
-  const holderName = holder ? (diegetic.characters[holder]?.name ?? holder) : undefined
+  const holderName = holder
+    ? (diegetic.characters[holder]?.name ?? diegetic.settings[holder]?.name ?? diegetic.items[holder]?.name ?? holder)
+    : undefined
   const relatedEntities = absential.relatedEntities ?? []
 
   // Find the introduction point (first event in trajectory)
@@ -221,7 +223,7 @@ export function AbsentialTimeline({
               {holderName && <> &middot; </>}
               <span className="abs-tl-label-inline">Involves:</span>{' '}
               {relatedEntities.slice(0, 4).map((r, i) => {
-                const name = diegetic.characters[r.entityId]?.name ?? r.entityId
+                const name = diegetic.characters[r.entityId]?.name ?? diegetic.settings[r.entityId]?.name ?? diegetic.items[r.entityId]?.name ?? r.entityId
                 return <span key={i}>{i > 0 ? ', ' : ''}{name} <span className="abs-tl-role">({r.relationship})</span></span>
               })}
             </>
