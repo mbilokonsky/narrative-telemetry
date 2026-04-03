@@ -200,7 +200,7 @@ interface MentalConstructNode {
 
 ## Rules
 
-1. **Exhaustive extraction.** Capture every character mentioned (even minor ones), every distinct setting, every item of note, every event that advances the narrative or reveals character.
+1. **Exhaustive extraction.** Capture every character mentioned (even minor ones), every distinct setting, every item of note, every event that advances the narrative or reveals character. For absentials: identify EVERY desire, fear, goal, need, expectation, or lack held by ANY character — not just the protagonist. Minor characters have desires too. A story typically has 8-20 absentials. If you find fewer than 8, look harder: what does each character want, fear, or need in each scene?
 2. **Neutral, objective tone.** Describe what happens, not what it means. No thematic analysis, no significance scores.
 3. **Text-anchored events.** Every event must have accurate startLine/endLine references to the source text. Line numbers are 1-indexed.
 4. **Semantic IDs.** Use readable slugs: "boy", "mangans-sister", "north-richmond-st", "e01-street-description", "abs-quest-to-araby".
