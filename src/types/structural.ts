@@ -67,10 +67,20 @@ export interface ReadingEventEffect {
   entityId: NarrativeEntityID;
   stateChanges: Record<string, unknown>;
   description: string;
+  changeType?: 'emotional' | 'epistemic' | 'relational' | 'status' | 'atmospheric';
+}
+
+export interface TensionDimensions {
+  absential: number;    // 0-1: unresolved desires, fears, goals
+  relational: number;   // 0-1: interpersonal conflict/stress
+  epistemic: number;    // 0-1: information asymmetry, uncertainty
+  atmospheric: number;  // 0-1: environmental/mood pressure
+  pacing: number;       // 0-1: event density / temporal compression
 }
 
 export interface ReadingEventAnnotation {
   significance: number;
+  dimensions?: TensionDimensions;
   note?: string;
   causes?: EventID[];
   effects?: ReadingEventEffect[];
@@ -105,9 +115,12 @@ export interface Reading {
 
   mentalConstructs: Record<NarrativeEntityID, MentalConstruct>;
 
+  /** Reading-scoped absentials — interpretive constructs that only exist under this lens. */
+  interpretiveAbsentials?: Record<NarrativeEntityID, Absential>;
+
   annotations: TextAnnotation[];
 
-  globalTension: Array<{ timestamp: Timestamp; value: number }>;
+  globalTension: Array<{ timestamp: Timestamp; value: number; dimensions?: TensionDimensions }>;
   spanAnnotations: Record<SpanID, ReadingSpanAnnotation>;
 }
 

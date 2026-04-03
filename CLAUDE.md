@@ -22,27 +22,38 @@ The ambition: if this ontology is rich enough to capture what makes a story work
 
 **Semantic IDs everywhere.** Use slugs (`boy`, `mangans-sister`, `e09-conversation`, `abs-quest-to-araby`), not auto-generated counters. A bounded text has a bounded namespace. Readable JSON is debuggable JSON.
 
-## Current State (277 tests passing)
+## Current State (591 tests passing)
 
 ### What exists and works
-- **Type system**: characters, settings, items, factions, themes, symbols, relationships (interpersonal/group/symbolic), absentials, mental constructs, narrator, reader, author, text annotations
+- **Type system**: characters, settings, items, factions, themes, symbols, relationships (interpersonal/group/symbolic), absentials, mental constructs, narrator, reader, author, text annotations, 5D tension dimensions, interpretive causality
 - **NarrativeAnalysisSystem**: Pass 1 (text-building) + Pass 2 (reading-building) APIs + compareReadings()
-- **LLM pipeline** (`src/ingest/`): two-pass extraction (extract.ts → interpret.ts), text chunking with entity deduplication for long texts, CLI interface
-- **OTEL export** (`src/export/`): Jaeger, OTLP, console formats — deterministic trace IDs, full attribute encoding
+- **LLM pipeline** (`src/ingest/`): two-pass extraction (extract.ts → interpret.ts), text chunking with entity deduplication, CLI interface, 5D tension scoring, causal chain annotation
+- **OTEL export** (`src/export/`): Jaeger, OTLP, console formats — deterministic trace IDs, full attribute encoding, Docker Compose with Jaeger, batch import script
 - **Derive** (`src/derive/`): tension curves, TensionField (5-dimensional entity-scoped), pacing, divergence, authorial profiling
 - **Analytics** (`src/analytics/`): Joyce vs Mansfield comparative analysis across 30 stories
-- **UI** (`ui/`): span waterfall, annotated text view with overlapping entity annotations, reading comparison, tension chart, entity inspector with context
+- **API server** (`src/server.ts`): Express API for live LLM ingestion with SSE progress streaming
+- **UI** (`ui/`): multi-story explorer (30 stories), span waterfall, annotated text view, split-screen reading comparison with divergence highlighting, absential timeline, entity relationship graph, tension chart with 5D toggle, reading authoring, paste-and-analyze, entity inspector with causal chain navigation
 - **Corpus**: 30 stories analyzed (15 Joyce Dubliners + 15 Mansfield), hand-coded Araby with formalist + postcolonial readings
 - **Persistence**: JSON file save/load
-- **Tests**: 277 passing (unit, OTEL, TensionField, compareReadings, chunking, Eveline corpus)
+- **Tests**: 591 passing (16 test suites)
 
-### What's next (see PLAN.md for full roadmap)
-- **S1**: Multi-story explorer UI (load any of 30 analyzed stories)
-- **S2**: Absential timeline visualization (watch a desire accumulate and break)
-- **S3**: Side-by-side reading comparison (superposition made visible)
-- **S4**: Paste-and-analyze (live LLM ingestion in the UI)
-- **M4**: Dimension-specific tension scoring (fix the biggest analytical limitation)
-- **M1**: Reading authoring in the UI (scholars create their own readings)
+### Completed features (S1-S4 + M1-M5)
+- **S1**: Multi-story explorer — browse all 30 analyzed stories via dropdown
+- **S2**: Absential timeline visualization — click absentials to see lifecycle with tension overlay
+- **S3**: Side-by-side reading comparison — split-screen with divergence pulsing
+- **S4**: Paste-and-analyze — live LLM ingestion via API server
+- **M1**: Reading authoring — create custom readings with significance slider + notes
+- **M2**: Entity relationship graph — force-directed SVG visualization
+- **M3**: OTEL query layer — Docker Compose with Jaeger, batch import
+- **M4**: 5D tension scoring — independent absential/relational/epistemic/atmospheric/pacing
+- **M5**: Interpretive causality — per-reading causal chains with clickable navigation
+
+### What's next (see PLAN.md for long-term roadmap)
+- **L1**: Narrative generation from structure (reverse the pipeline)
+- **L2**: Cross-work structural search (find structurally similar stories)
+- **L3**: Collaborative reading platform (multi-user classrooms)
+- **L4**: Real-time narrative monitoring (game narrative systems)
+- **L5**: Training LLMs to read (fine-tuning on structured readings)
 
 ## Architecture
 
@@ -60,10 +71,14 @@ StoryModel
     ├── themes, symbols, symbolic relationships
     ├── narrator, reader, author
     ├── eventSignificance        ← the "collapse" from superposition
+    │   ├── significance         ← composite 0-1
+    │   ├── dimensions           ← 5D: absential/relational/epistemic/atmospheric/pacing
+    │   ├── causes/effects       ← interpretive causal chains
+    │   └── note                 ← interpretive annotation
     ├── entitySignificance, absentialSignificance
     ├── mentalConstructs         ← interpretive (what the critic notices)
     ├── annotations              ← reading-specific text anchors
-    ├── globalTension            ← tension curve
+    ├── globalTension            ← tension curve (composite + optional 5D)
     └── spanAnnotations          ← per-span tension, pacing, notes
 ```
 
@@ -88,6 +103,18 @@ StoryModel
 | `src/derive/divergence.ts` | Reading comparison metrics |
 | `src/derive/author-profile.ts` | Authorial signature aggregation |
 | `src/analytics/compare-authors.ts` | Cross-corpus comparative analysis |
+| `src/server.ts` | Express API server for live LLM ingestion |
+| `src/export/import-to-jaeger.ts` | Batch import stories to Jaeger |
+| `docker-compose.yml` | Jaeger all-in-one for OTEL query layer |
+| `ui/src/storyCatalog.ts` | Story catalog with all 31 entries |
+| `ui/src/divergence.ts` | Event divergence computation for comparisons |
+| `ui/src/components/StorySelector.tsx` | Multi-story dropdown selector |
+| `ui/src/components/SplitTextView.tsx` | Side-by-side reading comparison |
+| `ui/src/components/AbsentialList.tsx` | Absential list in left panel |
+| `ui/src/components/AbsentialTimeline.tsx` | Absential lifecycle visualization |
+| `ui/src/components/AnalyzeView.tsx` | Paste-and-analyze UI |
+| `ui/src/components/ReadingEditor.tsx` | Reading authoring interface |
+| `ui/src/components/RelationshipGraph.tsx` | Force-directed entity graph |
 
 ### Diegetic vs non-diegetic split
 - **Diegetic** (in the story world): characters, settings, items, factions, interpersonal/group relationships, absentials, diegetic mental constructs → TextModel
@@ -105,12 +132,23 @@ npm run validate                 # 35-check validation suite
 npx ts-node src/ingest/cli.ts corpus/araby.txt --title "Araby" --lens formalist
 npx ts-node src/export/cli.ts data/araby.json --format otlp --output traces/araby.json
 
+# API server (for paste-and-analyze)
+ANTHROPIC_API_KEY=... npm run server   # Express on port 3001
+
+# OTEL query layer
+docker compose up -d             # start Jaeger
+npm run otel:import              # import all stories to Jaeger
+# open http://localhost:16686    # Jaeger UI
+
 # UI
-npm run ui:dev                   # Vite dev server
+npm run ui:dev                   # Vite dev server (auto-copies data)
 npm run ui:build                 # production build
 
-# Tests (277 total)
+# Tests (690 total, 17 suites)
 npx ts-node src/tests/run-all.ts # all tests
+
+# Code review (three parallel subagent reviewers)
+/review                          # spawns staff engineer + narrative scholar + info designer
 ```
 
 ## Working with the code
@@ -161,14 +199,14 @@ LLM-generated analysis outputs are checked in because they're expensive to repro
 
 Lives in `ui/` (Vite + React + TypeScript). Loads data from `ui/public/data/`.
 
-**Layout**: top bar (reading selector + compare toggle) | left (span waterfall) | center (annotated text) | right (detail inspector + tension chart)
+**Layout**: top bar (story selector + reading selector + compare/analyze/reading buttons) | left (span waterfall + absential list) | center (annotated text or split view or event list) | right (detail inspector + relationship graph + tension chart)
 
-**Key features**: event highlighting by significance, overlapping entity annotations with popup selector, per-reading side-by-side comparison, entity context (reader-facing background notes like a critical edition)
+**Key features**: multi-story explorer (30 stories), event highlighting by significance, overlapping entity annotations, split-screen reading comparison with divergence pulsing, absential lifecycle visualization, entity relationship graph, 5D tension chart, reading authoring with significance slider, paste-and-analyze live LLM ingestion, causal chain navigation
 
 ## Known Limitations
 
-- **Dimension-specific tension**: TensionField has 5 dimensions but they're currently derived proportionally from composite significance, not scored independently by the LLM. Fix: update interpretation prompt (see PLAN.md M4).
-- **Interpretive causality**: `ReadingEventAnnotation.causes/effects` fields exist in the type but are never populated.
 - **Flat absential state histories**: LLM extraction doesn't produce intermediate state transitions, so tension computation uses event-significance fallback instead of absential accumulation strategy.
-- **UI is read-only**: No reading creation/editing (see PLAN.md M1).
-- **UI loads one story**: Hardcoded to araby.json (see PLAN.md S1).
+- **5D tension data on existing corpus**: The 30 pre-analyzed stories were generated before the 5D prompt update, so they have scalar-only tension. Re-running the pipeline would produce 5D data.
+- **Source text for auto-analyzed stories**: The auto-analyzed stories in output/ don't include source text, so the UI shows an event list instead of annotated text for those stories. Only hand-coded Araby has the full text view.
+- **Causal chains on existing corpus**: Similarly, the existing readings were generated without the causality prompt, so causes/effects are empty. New analyses will produce them.
+- **API server requires manual start**: The paste-and-analyze feature needs `npm run server` running separately.

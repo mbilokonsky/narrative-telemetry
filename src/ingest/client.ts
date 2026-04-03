@@ -40,19 +40,25 @@ export function createClient(): Anthropic {
 }
 
 function loadOAuthToken(): string | undefined {
-  const profilePaths = [
+  const searchPaths = [
+    // Claude Code credentials
+    path.join(process.env.HOME ?? '', '.claude/.credentials.json'),
+    // OpenClaw auth profiles
     path.join(process.env.HOME ?? '', '.openclaw/agents/main/agent/auth-profiles.json'),
   ];
 
-  for (const p of profilePaths) {
+  for (const p of searchPaths) {
     try {
-      if (fs.existsSync(p)) {
-        const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
-        const profile = data.profiles?.['anthropic:default'];
-        if (profile?.token?.startsWith('sk-ant-oat')) {
-          return profile.token;
-        }
-      }
+      if (!fs.existsSync(p)) continue;
+      const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
+
+      // Claude Code format: { claudeAiOauth: { accessToken: "sk-ant-oat..." } }
+      const ccToken = data?.claudeAiOauth?.accessToken;
+      if (ccToken?.startsWith('sk-ant-oat')) return ccToken;
+
+      // OpenClaw format: { profiles: { "anthropic:default": { token: "sk-ant-oat..." } } }
+      const profile = data?.profiles?.['anthropic:default'];
+      if (profile?.token?.startsWith('sk-ant-oat')) return profile.token;
     } catch {
       // ignore
     }

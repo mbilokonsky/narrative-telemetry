@@ -3,7 +3,7 @@ interface ReadingSelectorProps {
   active: string;
   onSelect: (key: string) => void;
   compareMode: boolean;
-  onToggleCompare: () => void;
+  onToggleCompare?: () => void;
 }
 
 export function ReadingSelector({
@@ -26,12 +26,14 @@ export function ReadingSelector({
           </button>
         ))}
       </div>
-      <button
-        className={`compare-toggle ${compareMode ? 'active' : ''}`}
-        onClick={onToggleCompare}
-      >
-        Compare
-      </button>
+      {onToggleCompare && (
+        <button
+          className={`compare-toggle ${compareMode ? 'active' : ''}`}
+          onClick={onToggleCompare}
+        >
+          Compare
+        </button>
+      )}
 
       <style>{`
         .reading-selector {

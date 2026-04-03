@@ -1,6 +1,10 @@
 import type { StoryModel, Selection, Character, Setting, Item, Relationship, TextAnnotation } from '../types'
 import { significanceColor } from '../utils'
 import { TensionChart } from './TensionChart'
+import { AbsentialTimeline } from './AbsentialTimeline'
+import { RelationshipGraph } from './RelationshipGraph'
+import { CausalChainExplorer } from './CausalChainExplorer'
+import { EntityHistory } from './EntityHistory'
 
 interface DetailInspectorProps {
   model: StoryModel;
@@ -8,6 +12,8 @@ interface DetailInspectorProps {
   activeReading: string;
   compareMode: boolean;
   readingKeys: string[];
+  onSelectEvent?: (id: string) => void;
+  onSelectEntity?: (id: string) => void;
 }
 
 const READING_COLORS: Record<string, string> = {};
@@ -44,6 +50,8 @@ export function DetailInspector({
   activeReading,
   compareMode,
   readingKeys,
+  onSelectEvent,
+  onSelectEntity,
 }: DetailInspectorProps) {
   const displayedReadings = compareMode ? readingKeys : [activeReading];
 
@@ -85,6 +93,12 @@ export function DetailInspector({
             </div>
           ))}
         </div>
+        <RelationshipGraph
+          model={model}
+          reading={model.readings[activeReading]}
+          selection={selection}
+          onSelectEntity={onSelectEntity ?? (() => {})}
+        />
         <TensionChart
           tensions={tensionData}
           selection={selection}
@@ -145,11 +159,52 @@ export function DetailInspector({
                     </span>
                   </div>
                   {sig?.note && <div className="sig-note">{sig.note}</div>}
+                  {sig?.causes && sig.causes.length > 0 && (
+                    <div className="causal-chain">
+                      <span className="causal-label">Caused by:</span>
+                      {sig.causes.map((cid: string) => {
+                        const causeEvt = model.text.events[cid];
+                        return (
+                          <span
+                            key={cid}
+                            className="causal-link"
+                            onClick={(e) => { e.stopPropagation(); onSelectEvent?.(cid); }}
+                          >
+                            {causeEvt ? causeEvt.description.slice(0, 60) : cid}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
+                  {sig?.effects && sig.effects.length > 0 && (
+                    <div className="causal-chain">
+                      <span className="causal-label">Causes:</span>
+                      {sig.effects.map((eff: any, i: number) => {
+                        const effEvt = model.text.events[eff.entityId];
+                        return (
+                          <span
+                            key={`eff-${i}`}
+                            className="causal-link"
+                            onClick={(e) => { e.stopPropagation(); onSelectEvent?.(eff.entityId); }}
+                          >
+                            {effEvt ? effEvt.description.slice(0, 60) : eff.entityId}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
               );
             })}
           </div>
         </div>
+        <CausalChainExplorer
+          model={model}
+          eventId={evt.id}
+          activeReading={activeReading}
+          readingKeys={displayedReadings}
+          onSelectEvent={onSelectEvent ?? (() => {})}
+        />
         <TensionChart
           tensions={tensionData}
           selection={selection}
@@ -325,6 +380,53 @@ export function DetailInspector({
             </div>
           </div>
         )}
+        <EntityHistory
+          model={model}
+          entityId={entityId}
+          entityType={entityCategory.toLowerCase() as 'character' | 'setting' | 'item'}
+          activeReading={activeReading}
+          readingKeys={displayedReadings}
+          onSelectEvent={onSelectEvent ?? (() => {})}
+        />
+        <TensionChart
+          tensions={tensionData}
+          selection={selection}
+          events={model.text.events}
+        />
+        <DetailStyle />
+      </div>
+    );
+  }
+
+  // Absential selected
+  if (selection.type === 'absential') {
+    const abs = model.text.absentials[selection.absentialId];
+    if (!abs) return <div className="detail-inspector">Unknown absential<DetailStyle /></div>;
+
+    return (
+      <div className="detail-inspector">
+        <AbsentialTimeline
+          absential={abs}
+          absentialId={selection.absentialId}
+          events={model.text.events}
+          reading={model.readings[activeReading]}
+          diegetic={model.text.diegetic}
+          onSelectEvent={onSelectEvent ?? (() => {})}
+          compareAbsentials={
+            selection.compareIds?.map(id => ({
+              id,
+              absential: model.text.absentials[id],
+            })).filter(x => x.absential) ?? []
+          }
+        />
+        <EntityHistory
+          model={model}
+          entityId={selection.absentialId}
+          entityType="absential"
+          activeReading={activeReading}
+          readingKeys={displayedReadings}
+          onSelectEvent={onSelectEvent ?? (() => {})}
+        />
         <TensionChart
           tensions={tensionData}
           selection={selection}
@@ -555,6 +657,30 @@ function DetailStyle() {
       .annotation-note-text {
         font-style: italic;
         color: var(--text);
+      }
+      .causal-chain {
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+      }
+      .causal-label {
+        font-size: 10px;
+        font-weight: 600;
+        color: var(--text-dim);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+      .causal-link {
+        font-size: 11px;
+        color: var(--accent);
+        cursor: pointer;
+        padding: 2px 0;
+        line-height: 1.4;
+      }
+      .causal-link:hover {
+        color: var(--text-bright);
+        text-decoration: underline;
       }
     `}</style>
   );

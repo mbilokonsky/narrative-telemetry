@@ -10,7 +10,12 @@ export enum NarrativeEventType {
   DIALOGUE = 'dialogue',
   REVELATION = 'revelation',
   DECISION = 'decision',
-  ENVIRONMENTAL = 'environmental'
+  ENVIRONMENTAL = 'environmental',
+  INTERIOR_MONOLOGUE = 'interior_monologue',
+  FREE_INDIRECT = 'free_indirect',
+  NARRATOR_COMMENTARY = 'narrator_commentary',
+  FLASHBACK = 'flashback',
+  EKPHRASIS = 'ekphrasis',
 }
 
 export enum RealmType {
@@ -55,12 +60,28 @@ export type Timestamp = {
   percentage: number;
 };
 
+export type CausalRole =
+  | 'primary'          // the main driver of this state change
+  | 'contributing'     // helped cause it but wasn't sufficient alone
+  | 'necessary'        // required condition — without it, change wouldn't happen
+  | 'catalytic'        // triggered the change without being consumed by it
+  | 'enabling'         // made the change possible but didn't push toward it
+  | 'opposing'         // pushed against this change but was overcome
+  | 'complicating';    // made the change messier/partial/mixed
+
+export interface CausalFactor {
+  eventId: EventID;
+  role: CausalRole;
+  description?: string;  // why this event matters to this state change
+}
+
 export interface State<T> {
   timestamp: Timestamp;
   data: T;
   causedBy: {
-    eventId?: EventID;
+    eventId?: EventID;   // legacy: single primary cause (backward compatible)
     spanId?: SpanID;
+    factors?: CausalFactor[];  // rich: multiple causes with roles
   };
 }
 

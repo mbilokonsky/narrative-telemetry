@@ -7,6 +7,7 @@ import {
 } from '../types';
 import { NarrativeAnalysisSystem } from '../NarrativeAnalysisSystem';
 import { INTERPRETATION_SYSTEM_PROMPT, buildInterpretationUserPrompt } from './prompts';
+import { ReadingResultSchema } from './schemas';
 
 export interface InterpretOptions {
   model?: string;
@@ -51,7 +52,7 @@ interface ReadingResult {
   eventSignificance: Record<string, any>;
   entitySignificance: Record<string, any>;
   absentialSignificance: Record<string, any>;
-  globalTension: Array<{ timestamp: { percentage: number }; value: number }>;
+  globalTension: Array<{ timestamp: { percentage: number }; value: number; dimensions?: any }>;
   spanAnnotations: Record<string, any>;
 }
 
@@ -199,14 +200,40 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
     };
   }
 
-  // Build event significance (ensure all events covered)
+  // Build event significance (ensure all events covered, with optional 5D dimensions)
   const eventSignificance: Reading['eventSignificance'] = {};
   for (const [eventId, ann] of Object.entries(result.eventSignificance ?? {})) {
-    eventSignificance[eventId] = {
+    const entry: Reading['eventSignificance'][string] = {
       significance: ann.significance ?? 0.5,
       note: ann.note,
-      causes: ann.causes,
+      causes: Array.isArray(ann.causes) ? ann.causes : undefined,
     };
+    // Map effects — either structured { entityId, change, type } or legacy string[] of event IDs
+    if (Array.isArray(ann.effects)) {
+      entry.effects = ann.effects.map((eff: any) => {
+        if (typeof eff === 'string') {
+          // Legacy: just an event ID
+          return { entityId: eff, stateChanges: {}, description: `Causes ${eff}` };
+        }
+        // Structured: { entityId, change, type }
+        return {
+          entityId: eff.entityId ?? '',
+          stateChanges: { type: eff.type ?? 'status' },
+          description: eff.change ?? eff.description ?? '',
+        };
+      });
+    }
+    // Include 5D dimensions if provided by the LLM
+    if (ann.dimensions && typeof ann.dimensions === 'object') {
+      entry.dimensions = {
+        absential: Number(ann.dimensions.absential) || 0,
+        relational: Number(ann.dimensions.relational) || 0,
+        epistemic: Number(ann.dimensions.epistemic) || 0,
+        atmospheric: Number(ann.dimensions.atmospheric) || 0,
+        pacing: Number(ann.dimensions.pacing) || 0,
+      };
+    }
+    eventSignificance[eventId] = entry;
   }
   // Fill in any missing events with default 0.3
   for (const eventId of Object.keys(textModel.events)) {
@@ -249,11 +276,24 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
     entitySignificance,
     absentialSignificance,
     mentalConstructs: {},
+    interpretiveAbsentials: buildInterpretiveAbsentials(result),
     annotations: [],
-    globalTension: (result.globalTension ?? []).map(pt => ({
-      timestamp: pt.timestamp,
-      value: pt.value,
-    })),
+    globalTension: (result.globalTension ?? []).map(pt => {
+      const entry: Reading['globalTension'][number] = {
+        timestamp: pt.timestamp,
+        value: pt.value,
+      };
+      if (pt.dimensions && typeof pt.dimensions === 'object') {
+        entry.dimensions = {
+          absential: Number(pt.dimensions.absential) || 0,
+          relational: Number(pt.dimensions.relational) || 0,
+          epistemic: Number(pt.dimensions.epistemic) || 0,
+          atmospheric: Number(pt.dimensions.atmospheric) || 0,
+          pacing: Number(pt.dimensions.pacing) || 0,
+        };
+      }
+      return entry;
+    }),
     spanAnnotations,
   };
 
@@ -261,6 +301,45 @@ function buildReading(result: ReadingResult, textModel: TextModel): { name: stri
 }
 
 // ── Main interpretation function ──
+
+function buildInterpretiveAbsentials(result: ReadingResult): Reading['interpretiveAbsentials'] {
+  const absentials = (result as any).interpretiveAbsentials;
+  if (!Array.isArray(absentials) || absentials.length === 0) return undefined;
+
+  const record: NonNullable<Reading['interpretiveAbsentials']> = {};
+  for (const a of absentials) {
+    if (!a.id || !a.name) continue;
+    record[a.id] = {
+      id: a.id,
+      name: a.name,
+      description: a.description ?? '',
+      tags: [],
+      holder: a.holder ?? '',
+      origin: a.note ?? '',
+      childAbsentials: [],
+      conflictingAbsentials: [],
+      relatedEntities: (a.relatedEntities ?? []).map((re: any) => ({
+        entityId: re.entityId,
+        relationship: re.relationship ?? 'target',
+        strength: re.strength ?? 0.5,
+      })),
+      relatedAbsentials: [],
+      stateHistory: [{
+        timestamp: ts(0),
+        data: {
+          ...base('init'),
+          type: a.type ?? 'desire',
+          status: 'unsatisfied',
+          urgency: 0.5,
+          intensity: a.significance ?? 0.5,
+        },
+        causedBy: {},
+      }],
+      firstIntroduced: 'init',
+    } as any;
+  }
+  return Object.keys(record).length > 0 ? record : undefined;
+}
 
 export async function interpretReading(
   textModel: TextModel,
@@ -348,11 +427,12 @@ export async function interpretReading(
 
   let result: ReadingResult;
   try {
-    result = JSON.parse(rawJson);
+    const parsed = JSON.parse(rawJson);
+    result = ReadingResultSchema.parse(parsed);
   } catch (err) {
-    console.error('[interpret] Failed to parse LLM JSON output');
+    console.error('[interpret] Failed to parse/validate LLM JSON output');
     console.error('[interpret] Raw output (first 500 chars):', rawJson.slice(0, 500));
-    throw new Error(`JSON parse error: ${(err as Error).message}`);
+    throw new Error(`JSON parse/validation error: ${(err as Error).message}`);
   }
 
   const eventCount = Object.keys(result.eventSignificance ?? {}).length;

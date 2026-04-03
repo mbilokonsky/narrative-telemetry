@@ -1,0 +1,25 @@
+# Narrative Telemetry — OTEL Query Layer
+#
+# Jaeger all-in-one for querying narrative traces via TraceQL-style queries.
+#
+# Usage:
+#   docker compose up -d
+#   npm run otel:import              # import all stories as traces
+#   open http://localhost:16686      # Jaeger UI
+#
+# To import a single story:
+#   npm run otel:export -- data/araby.json --format otlp --output traces/araby.json
+#   curl -X POST http://localhost:4318/v1/traces -H "Content-Type: application/json" -d @traces/araby.json
+
+services:
+  jaeger:
+    image: jaegertracing/all-in-one:1.55
+    container_name: narrative-telemetry-jaeger
+    ports:
+      - "16686:16686"   # Jaeger UI
+      - "4317:4317"     # OTLP gRPC
+      - "4318:4318"     # OTLP HTTP
+      - "14268:14268"   # Jaeger HTTP thrift
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    restart: unless-stopped

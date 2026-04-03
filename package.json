@@ -10,8 +10,10 @@
     "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
     "ingest": "npx ts-node src/ingest-araby.ts",
     "validate": "npx ts-node src/validate.ts",
-    "ui:dev": "cd ui && npx vite --open",
-    "ui:build": "cd ui && npx vite build",
+    "server": "npx ts-node src/server.ts",
+    "ui:setup": "mkdir -p ui/public/data/dubliners ui/public/data/mansfield && cp output/dubliners/*.json ui/public/data/dubliners/ 2>/dev/null; cp output/mansfield/*.json ui/public/data/mansfield/ 2>/dev/null; cp corpus/dubliners/*.txt ui/public/data/dubliners/ 2>/dev/null; cp corpus/mansfield/*.txt ui/public/data/mansfield/ 2>/dev/null; true",
+    "ui:dev": "npm run ui:setup && cd ui && npx vite --open",
+    "ui:build": "npm run ui:setup && cd ui && npx vite build",
     "ingest:auto": "npx ts-node src/ingest/cli.ts",
     "test": "npx ts-node src/tests/run-all.ts",
     "test:auto": "npx ts-node src/tests/validate-auto.ts",
@@ -19,18 +21,25 @@
     "test:unit": "npx ts-node src/tests/unit.ts",
     "test:otel": "npx ts-node src/tests/validate-otel.ts",
     "test:manual": "npx ts-node src/validate.ts",
-    "otel:export": "npx ts-node src/export/cli.ts"
+    "enrich": "npx ts-node src/derive/enrich-annotations.ts",
+    "otel:export": "npx ts-node src/export/cli.ts",
+    "otel:import": "npx ts-node src/export/import-to-jaeger.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
     "@types/node": "^22.5.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.81.0"
+    "@anthropic-ai/sdk": "^0.81.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "zod": "^4.3.6"
   }
 }

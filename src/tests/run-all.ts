@@ -12,6 +12,16 @@ const suites = [
   { name: 'CompareReadings API', script: 'src/tests/test-compare-readings.ts' },
   { name: 'TensionField', script: 'src/tests/test-tension-field.ts' },
   { name: 'Eveline Corpus', script: 'src/tests/test-eveline.ts' },
+  { name: 'Story Catalog', script: 'src/tests/test-story-catalog.ts' },
+  { name: 'Divergence (UI)', script: 'src/tests/test-divergence-ui.ts' },
+  { name: 'Absential Timeline', script: 'src/tests/test-absential-timeline.ts' },
+  { name: 'Server & Analyze', script: 'src/tests/test-server.ts' },
+  { name: 'Tension Dimensions', script: 'src/tests/test-tension-dimensions.ts' },
+  { name: 'Reading Editor', script: 'src/tests/test-reading-editor.ts' },
+  { name: 'Relationship Graph', script: 'src/tests/test-relationship-graph.ts' },
+  { name: 'OTEL Import', script: 'src/tests/test-otel-import.ts' },
+  { name: 'Interpretive Causality', script: 'src/tests/test-causality.ts' },
+  { name: 'Annotations & Trajectories', script: 'src/tests/test-annotations.ts' },
 ];
 
 let totalPassed = 0;

@@ -1,0 +1,5317 @@
+{
+  "text": {
+    "title": "A Carnival Day",
+    "author": "Katherine Mansfield",
+    "description": "A vivid impressionistic sketch of a street carnival or fair on a sunny day, depicting street musicians, vendors, crowds, and various attractions as people move up a hill toward a public house.",
+    "rootSpan": {
+      "id": "span_1",
+      "type": "story",
+      "title": "A Carnival Day",
+      "description": "A vivid impressionistic sketch of a street carnival or fair on a sunny day, depicting street musicians, vendors, crowds, and various attractions as people move up a hill toward a public house.",
+      "startTimestamp": {
+        "percentage": 0
+      },
+      "endTimestamp": {
+        "percentage": 100
+      },
+      "events": [],
+      "childSpans": [
+        {
+          "id": "span_2",
+          "type": "act",
+          "title": "The Musicians and Initial Crowd",
+          "description": "Street musicians perform and a diverse crowd gathers to watch",
+          "startTimestamp": {
+            "percentage": 0
+          },
+          "endTimestamp": {
+            "percentage": 25
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_3",
+              "type": "scene",
+              "title": "Musicians Perform",
+              "description": "Three street musicians play instruments opposite a fruit shop",
+              "startTimestamp": {
+                "percentage": 0
+              },
+              "endTimestamp": {
+                "percentage": 12
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_4",
+                  "type": "beat",
+                  "title": "Description of Musicians",
+                  "description": "The three musicians are described in detail with their instruments and appearance",
+                  "startTimestamp": {
+                    "percentage": 0
+                  },
+                  "endTimestamp": {
+                    "percentage": 6
+                  },
+                  "events": [
+                    "e01"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_5",
+                  "type": "beat",
+                  "title": "Music Performance",
+                  "description": "The musicians play their instruments in the sunlight",
+                  "startTimestamp": {
+                    "percentage": 6
+                  },
+                  "endTimestamp": {
+                    "percentage": 12
+                  },
+                  "events": [
+                    "e02"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_6",
+              "type": "scene",
+              "title": "Crowd Assembles",
+              "description": "A diverse crowd collects to watch the musicians, eating fruit and socializing",
+              "startTimestamp": {
+                "percentage": 12
+              },
+              "endTimestamp": {
+                "percentage": 25
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_7",
+                  "type": "beat",
+                  "title": "Crowd Eating Fruit",
+                  "description": "The crowd eats oranges, bananas, and strawberries while watching",
+                  "startTimestamp": {
+                    "percentage": 12
+                  },
+                  "endTimestamp": {
+                    "percentage": 18
+                  },
+                  "events": [
+                    "e03",
+                    "e04"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_8",
+                  "type": "beat",
+                  "title": "Diverse Crowd Types",
+                  "description": "Various types of people are described: old women, young women, soldiers, sailors, clerks, Jews, hospital boys",
+                  "startTimestamp": {
+                    "percentage": 18
+                  },
+                  "endTimestamp": {
+                    "percentage": 22
+                  },
+                  "events": [
+                    "e05"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_9",
+                  "type": "beat",
+                  "title": "Ragged Children Watch",
+                  "description": "Ragged children stand close to the musicians, watching intently and occasionally moving",
+                  "startTimestamp": {
+                    "percentage": 22
+                  },
+                  "endTimestamp": {
+                    "percentage": 25
+                  },
+                  "events": [
+                    "e06"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_10",
+          "type": "act",
+          "title": "Music Ends and Stalls Begin",
+          "description": "The music ends, the crowd scatters, and street vendors begin selling various items",
+          "startTimestamp": {
+            "percentage": 25
+          },
+          "endTimestamp": {
+            "percentage": 55
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_11",
+              "type": "scene",
+              "title": "Music Dissolution",
+              "description": "The music breaks apart and the crowd disperses up the hill",
+              "startTimestamp": {
+                "percentage": 25
+              },
+              "endTimestamp": {
+                "percentage": 30
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_12",
+                  "type": "beat",
+                  "title": "Music Fragments and Ends",
+                  "description": "The music breaks into pieces, joins together, and dissolves as the crowd scatters",
+                  "startTimestamp": {
+                    "percentage": 25
+                  },
+                  "endTimestamp": {
+                    "percentage": 30
+                  },
+                  "events": [
+                    "e07"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_13",
+              "type": "scene",
+              "title": "Street Vendors and Stalls",
+              "description": "Various street vendors sell toys, feathers, hats, and other items to the crowd",
+              "startTimestamp": {
+                "percentage": 30
+              },
+              "endTimestamp": {
+                "percentage": 55
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_14",
+                  "type": "beat",
+                  "title": "Tickler Vendor",
+                  "description": "A vendor sells ticklers (soft brooms) to soldiers",
+                  "startTimestamp": {
+                    "percentage": 30
+                  },
+                  "endTimestamp": {
+                    "percentage": 35
+                  },
+                  "events": [
+                    "e08"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_15",
+                  "type": "beat",
+                  "title": "Various Toy and Item Vendors",
+                  "description": "Vendors sell golliwogs, jumping donkeys, chewing gum, roses, and feathers",
+                  "startTimestamp": {
+                    "percentage": 35
+                  },
+                  "endTimestamp": {
+                    "percentage": 50
+                  },
+                  "events": [
+                    "e09",
+                    "e10",
+                    "e11",
+                    "e12",
+                    "e13"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_16",
+                  "type": "beat",
+                  "title": "Three-Cornered Hat Vendor",
+                  "description": "An old woman sells three-cornered paper hats with urgent advice",
+                  "startTimestamp": {
+                    "percentage": 50
+                  },
+                  "endTimestamp": {
+                    "percentage": 55
+                  },
+                  "events": [
+                    "e14"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_17",
+          "type": "act",
+          "title": "Weather Effects and Food Vendors",
+          "description": "The weather changes, affecting the crowd's mood and behavior; food and drink vendors appear",
+          "startTimestamp": {
+            "percentage": 55
+          },
+          "endTimestamp": {
+            "percentage": 75
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_18",
+              "type": "scene",
+              "title": "Flying Day Weather",
+              "description": "The sun and wind create a dynamic, energizing atmosphere that affects the crowd",
+              "startTimestamp": {
+                "percentage": 55
+              },
+              "endTimestamp": {
+                "percentage": 62
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_19",
+                  "type": "beat",
+                  "title": "Sun and Wind Effects",
+                  "description": "The alternating sun and wind make people feel their bodies expanding and alive",
+                  "startTimestamp": {
+                    "percentage": 55
+                  },
+                  "endTimestamp": {
+                    "percentage": 62
+                  },
+                  "events": [
+                    "e15"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_20",
+              "type": "scene",
+              "title": "Lemonade and Ice Cream",
+              "description": "Vendors sell lemonade and ice cream to the crowd",
+              "startTimestamp": {
+                "percentage": 62
+              },
+              "endTimestamp": {
+                "percentage": 75
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_21",
+                  "type": "beat",
+                  "title": "Lemonade Vendor",
+                  "description": "A tank of lemonade is served in thick glasses, with people spilling it",
+                  "startTimestamp": {
+                    "percentage": 62
+                  },
+                  "endTimestamp": {
+                    "percentage": 68
+                  },
+                  "events": [
+                    "e16"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_22",
+                  "type": "beat",
+                  "title": "Ice Cream Cart",
+                  "description": "Children gather around an ice cream cart with striped awning, licking ice cream",
+                  "startTimestamp": {
+                    "percentage": 68
+                  },
+                  "endTimestamp": {
+                    "percentage": 75
+                  },
+                  "events": [
+                    "e17"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_23",
+          "type": "act",
+          "title": "Fortune Tellers and Spectacles",
+          "description": "Various fortune tellers and attractions appear, including a love-bird fortune teller, an auctioneer, and a phrenologist",
+          "startTimestamp": {
+            "percentage": 75
+          },
+          "endTimestamp": {
+            "percentage": 95
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_24",
+              "type": "scene",
+              "title": "Love-Bird Fortune Teller",
+              "description": "An Italian woman tells fortunes using love-birds that select papers from a seed-tray",
+              "startTimestamp": {
+                "percentage": 75
+              },
+              "endTimestamp": {
+                "percentage": 82
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_25",
+                  "type": "beat",
+                  "title": "Fortune Teller Appearance",
+                  "description": "A shrivelled Italian woman with dark claws and a green-and-gold scarf stands beside a cage",
+                  "startTimestamp": {
+                    "percentage": 75
+                  },
+                  "endTimestamp": {
+                    "percentage": 78
+                  },
+                  "events": [
+                    "e18"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_26",
+                  "type": "beat",
+                  "title": "Fortune Reading and Motor Car",
+                  "description": "A fortune is read about strength of character, marriage, and a warning about a blonde woman; a motor car rushes down the hill",
+                  "startTimestamp": {
+                    "percentage": 78
+                  },
+                  "endTimestamp": {
+                    "percentage": 82
+                  },
+                  "events": [
+                    "e19"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_27",
+              "type": "scene",
+              "title": "Auctioneer and Watch",
+              "description": "An auctioneer attempts to sell a watch, sweating and nervous",
+              "startTimestamp": {
+                "percentage": 82
+              },
+              "endTimestamp": {
+                "percentage": 87
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_28",
+                  "type": "beat",
+                  "title": "Auctioneer's Pitch",
+                  "description": "An auctioneer holds his licence and tries to sell a watch, but nobody buys",
+                  "startTimestamp": {
+                    "percentage": 82
+                  },
+                  "endTimestamp": {
+                    "percentage": 87
+                  },
+                  "events": [
+                    "e20"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_29",
+              "type": "scene",
+              "title": "Barouche and Professor Leonard",
+              "description": "A barouche passes with old people inside; Professor Leonard offers face-reading fortunes",
+              "startTimestamp": {
+                "percentage": 87
+              },
+              "endTimestamp": {
+                "percentage": 95
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_30",
+                  "type": "beat",
+                  "title": "Barouche Passes",
+                  "description": "A huge barouche comes down the hill with two old babies inside, the woman holding a lace parasol",
+                  "startTimestamp": {
+                    "percentage": 87
+                  },
+                  "endTimestamp": {
+                    "percentage": 90
+                  },
+                  "events": [
+                    "e21"
+                  ],
+                  "childSpans": []
+                },
+                {
+                  "id": "span_31",
+                  "type": "beat",
+                  "title": "Professor Leonard's Fortune Reading",
+                  "description": "Professor Leonard, in cap and gown, reads fortunes from faces; big men become serious and timid before him",
+                  "startTimestamp": {
+                    "percentage": 90
+                  },
+                  "endTimestamp": {
+                    "percentage": 95
+                  },
+                  "events": [
+                    "e22"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "span_32",
+          "type": "act",
+          "title": "Reaching the Hill Top and Final Ascent",
+          "description": "The crowd reaches the top of the hill where a public house is located, then continues upward into the light",
+          "startTimestamp": {
+            "percentage": 95
+          },
+          "endTimestamp": {
+            "percentage": 100
+          },
+          "events": [],
+          "childSpans": [
+            {
+              "id": "span_33",
+              "type": "scene",
+              "title": "Public House at Hill Top",
+              "description": "The crowd reaches the public house at the top of the hill; parents and children gather outside",
+              "startTimestamp": {
+                "percentage": 95
+              },
+              "endTimestamp": {
+                "percentage": 98
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_34",
+                  "type": "beat",
+                  "title": "Public House Scene",
+                  "description": "The public house is open; a mother sits on the pavement with her baby while the father brings her a drink",
+                  "startTimestamp": {
+                    "percentage": 95
+                  },
+                  "endTimestamp": {
+                    "percentage": 98
+                  },
+                  "events": [
+                    "e23"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            },
+            {
+              "id": "span_35",
+              "type": "scene",
+              "title": "Final Upward Movement",
+              "description": "The crowd continues up the hill with their purchases, moving toward the light and heat",
+              "startTimestamp": {
+                "percentage": 98
+              },
+              "endTimestamp": {
+                "percentage": 100
+              },
+              "events": [],
+              "childSpans": [
+                {
+                  "id": "span_36",
+                  "type": "beat",
+                  "title": "Crowd Ascends into Light",
+                  "description": "People move up the hill with ticklers, golliwogs, roses, and feathers, shouting and laughing, drawn toward the light",
+                  "startTimestamp": {
+                    "percentage": 98
+                  },
+                  "endTimestamp": {
+                    "percentage": 100
+                  },
+                  "events": [
+                    "e24"
+                  ],
+                  "childSpans": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "diegetic": {
+      "characters": {
+        "stout-guitarist": {
+          "id": "stout-guitarist",
+          "name": "Stout Man with Pink Face",
+          "description": "A street musician who plays guitar",
+          "tags": [
+            "musician",
+            "street-performer",
+            "male"
+          ],
+          "textMentions": [
+            "A stout man with a pink face wears dingy white flannel trousers, a blue coat with a pink handkerchief showing, and a straw hat much too small for him, perched at the back of his head. He plays the guitar."
+          ],
+          "context": "Street musician performing at a carnival or fair",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "fruit-shop-opposite",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "street musician",
+                "personalityTraits": [
+                  "unsmiling",
+                  "not serious"
+                ],
+                "coreValues": [],
+                "physicalDescription": "stout, pink face, dingy white flannel trousers, blue coat with pink handkerchief, straw hat much too small perched at back of head",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "little-flute-player": {
+          "id": "little-flute-player",
+          "name": "Little Chap in White Canvas Shoes",
+          "description": "A street musician who plays flute",
+          "tags": [
+            "musician",
+            "street-performer",
+            "male",
+            "small"
+          ],
+          "textMentions": [
+            "A little chap in white canvas shoes, his face hidden under a felt hat like a broken wing, breathes into a flute"
+          ],
+          "context": "Street musician performing at a carnival or fair",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "fruit-shop-opposite",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "street musician",
+                "personalityTraits": [
+                  "unsmiling",
+                  "not serious"
+                ],
+                "coreValues": [],
+                "physicalDescription": "little, white canvas shoes, face hidden under felt hat like a broken wing",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "tall-fiddler": {
+          "id": "tall-fiddler",
+          "name": "Tall Thin Fellow",
+          "description": "A street musician who plays fiddle",
+          "tags": [
+            "musician",
+            "street-performer",
+            "male",
+            "tall"
+          ],
+          "textMentions": [
+            "a tall thin fellow, with bursting over-ripe button boots, draws ribbons—long, twisted, streaming ribbons—of tune out of a fiddle"
+          ],
+          "context": "Street musician performing at a carnival or fair",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "fruit-shop-opposite",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "street musician",
+                "personalityTraits": [
+                  "unsmiling",
+                  "not serious"
+                ],
+                "coreValues": [],
+                "physicalDescription": "tall, thin, bursting over-ripe button boots",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "young-girl-strawberries": {
+          "id": "young-girl-strawberries",
+          "name": "Young Girl with Strawberries",
+          "description": "A young girl in the crowd who has a basket of strawberries but is afraid to eat them",
+          "tags": [
+            "female",
+            "young",
+            "crowd-member"
+          ],
+          "textMentions": [
+            "One young girl has even a basket of strawberries, but she does not eat them. \"Aren't they _dear_!\" She stares at the tiny pointed fruits as if she were afraid of them."
+          ],
+          "context": "Member of the carnival crowd",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "fruit-shop-opposite",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "",
+                "personalityTraits": [
+                  "frightened",
+                  "puzzled"
+                ],
+                "coreValues": [],
+                "physicalDescription": "young, little frightened face, puzzled eyes",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        },
+        "australian-soldier": {
+          "id": "australian-soldier",
+          "name": "Australian Soldier",
+          "description": "A soldier in the crowd who interacts with the young girl with strawberries",
+          "tags": [
+            "male",
+            "soldier",
+            "crowd-member"
+          ],
+          "textMentions": [
+            "The Australian soldier laughs. \"Here, go on, there's not more than a mouthful.\" But he doesn't want her to eat them, either. He likes to watch her little frightened face, and her puzzled eyes lifted to his"
+          ],
+          "context": "Member of the carnival crowd, Australian military personnel",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "fruit-shop-opposite",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "soldier",
+                "personalityTraits": [
+                  "playful",
+                  "enjoys watching others"
+                ],
+                "coreValues": [],
+                "physicalDescription": "pushes out his chest, grins",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        },
+        "ragged-children": {
+          "id": "ragged-children",
+          "name": "Ragged Children",
+          "description": "Poor children who watch the musicians intently",
+          "tags": [
+            "children",
+            "crowd-member",
+            "poor"
+          ],
+          "textMentions": [
+            "The only ones who are quiet are the ragged children. They stand, as close up to the musicians as they can get, their hands behind their backs, their eyes big. Occasionally a leg hops, an arm wags. A tiny staggerer, overcome, turns round twice, sits down solemn, and then gets up again."
+          ],
+          "context": "Members of the carnival crowd, economically disadvantaged",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e06",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "fruit-shop-opposite",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "",
+                "personalityTraits": [
+                  "quiet",
+                  "attentive",
+                  "excited"
+                ],
+                "coreValues": [],
+                "physicalDescription": "ragged, hands behind backs, big eyes",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e06"
+        },
+        "small-girl-lovely": {
+          "id": "small-girl-lovely",
+          "name": "Small Girl",
+          "description": "A small girl who whispers about the music",
+          "tags": [
+            "female",
+            "child",
+            "crowd-member"
+          ],
+          "textMentions": [
+            "\"Ain't it lovely?\" whispers a small girl behind her hand."
+          ],
+          "context": "Member of the carnival crowd",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e06",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "fruit-shop-opposite",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "",
+                "personalityTraits": [
+                  "appreciative"
+                ],
+                "coreValues": [],
+                "physicalDescription": "small",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e06"
+        },
+        "tickler-vendor": {
+          "id": "tickler-vendor",
+          "name": "Tickler Vendor",
+          "description": "A street vendor selling ticklers (soft brooms)",
+          "tags": [
+            "vendor",
+            "male",
+            "street-seller"
+          ],
+          "textMentions": [
+            "\"Ticklers! Tuppence a tickler! 'Ool 'ave a tickler? Tickle 'em up, boys.\""
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "stalls-corner",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "vendor",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "golliwog-vendor": {
+          "id": "golliwog-vendor",
+          "name": "Golliwog Vendor",
+          "description": "A street vendor selling golliwogs",
+          "tags": [
+            "vendor",
+            "street-seller"
+          ],
+          "textMentions": [
+            "\"Buy a golliwog! Tuppence a golliwog!\""
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "stalls-corner",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "vendor",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09"
+        },
+        "jumping-donkey-vendor": {
+          "id": "jumping-donkey-vendor",
+          "name": "Jumping Donkey Vendor",
+          "description": "A street vendor selling jumping donkeys",
+          "tags": [
+            "vendor",
+            "street-seller"
+          ],
+          "textMentions": [
+            "\"Buy a jumping donkey! All alive-oh!\""
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "stalls-corner",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "vendor",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10"
+        },
+        "chewing-gum-vendor": {
+          "id": "chewing-gum-vendor",
+          "name": "Chewing Gum Vendor",
+          "description": "A street vendor selling superior chewing gum",
+          "tags": [
+            "vendor",
+            "street-seller"
+          ],
+          "textMentions": [
+            "\"_Su_-perior chewing gum. Buy something to do, boys.\""
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "stalls-corner",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "vendor",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11"
+        },
+        "rose-vendor": {
+          "id": "rose-vendor",
+          "name": "Rose Vendor",
+          "description": "A street vendor selling roses",
+          "tags": [
+            "vendor",
+            "street-seller"
+          ],
+          "textMentions": [
+            "\"Buy a rose. Give 'er a rose, boy. Roses, lady?\""
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "stalls-corner",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "vendor",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12"
+        },
+        "feather-vendor": {
+          "id": "feather-vendor",
+          "name": "Feather Vendor",
+          "description": "A street vendor selling feathers",
+          "tags": [
+            "vendor",
+            "street-seller"
+          ],
+          "textMentions": [
+            "\"Fevvers! Fevvers!\" They are hard to resist. Lovely, streaming feathers, emerald green, scarlet, bright blue, canary yellow."
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "stalls-corner",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "vendor",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13"
+        },
+        "hat-vendor-old-woman": {
+          "id": "hat-vendor-old-woman",
+          "name": "Old Woman in Three-Cornered Paper Hat",
+          "description": "An old woman vendor selling three-cornered paper hats with urgent advice",
+          "tags": [
+            "vendor",
+            "female",
+            "old",
+            "street-seller"
+          ],
+          "textMentions": [
+            "And an old woman in a three-cornered paper hat cries as if it were her final parting advice, the only way of saving yourself or of bringing him to his senses: \"Buy a three-cornered 'at, my dear, an' put it on!\""
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "stalls-corner",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "vendor",
+                "personalityTraits": [
+                  "urgent",
+                  "dramatic"
+                ],
+                "coreValues": [],
+                "physicalDescription": "old, wears three-cornered paper hat",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "italian-fortune-teller": {
+          "id": "italian-fortune-teller",
+          "name": "Italian Fortune Teller",
+          "description": "A shrivelled ageless Italian woman who tells fortunes using love-birds",
+          "tags": [
+            "fortune-teller",
+            "female",
+            "italian"
+          ],
+          "textMentions": [
+            "She stands beside the cage, a shrivelled ageless Italian, clasping and unclasping her dark claws. Her face, a treasure of delicate carving, is tied in a green-and-gold scarf."
+          ],
+          "context": "Fortune teller at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "carnival-grounds",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "fortune teller",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "shrivelled, ageless, dark claws, face with delicate carving, green-and-gold scarf",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18"
+        },
+        "fat-chauffeur": {
+          "id": "fat-chauffeur",
+          "name": "Fat Chauffeur",
+          "description": "A chauffeur driving a motor car down the hill",
+          "tags": [
+            "male",
+            "chauffeur",
+            "driver"
+          ],
+          "textMentions": [
+            "A motor-car driven by a fat chauffeur comes rushing down the hill."
+          ],
+          "context": "Driver passing through carnival area",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e19",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "hill-road",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "chauffeur",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "fat",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e19"
+        },
+        "blonde-woman-motorcar": {
+          "id": "blonde-woman-motorcar",
+          "name": "Blonde Woman in Motor Car",
+          "description": "A blonde woman inside the motor car, pouting and leaning forward",
+          "tags": [
+            "female",
+            "blonde"
+          ],
+          "textMentions": [
+            "Inside there a blonde woman, pouting, leaning forward—rushing through your life—beware! beware!"
+          ],
+          "context": "Passenger in motor car passing through carnival area",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e19",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "hill-road",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "",
+                "personalityTraits": [
+                  "pouting"
+                ],
+                "coreValues": [],
+                "physicalDescription": "blonde, pouting, leaning forward",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e19"
+        },
+        "auctioneer": {
+          "id": "auctioneer",
+          "name": "Auctioneer",
+          "description": "A nervous auctioneer attempting to sell a watch",
+          "tags": [
+            "male",
+            "auctioneer",
+            "vendor"
+          ],
+          "textMentions": [
+            "\"Ladies and gentlemen, I am an auctioneer by profession, and if what I tell you is not the truth I am liable to have my licence taken away from me and a heavy imprisonment.\" He holds the licence across his chest; the sweat pours down his face into his paper collar; his eyes look glazed."
+          ],
+          "context": "Street vendor at carnival",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e20",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "carnival-grounds",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "auctioneer",
+                "personalityTraits": [
+                  "nervous",
+                  "sweating",
+                  "anxious"
+                ],
+                "coreValues": [],
+                "physicalDescription": "sweat pours down face, paper collar, glazed eyes, deep pucker of angry flesh on forehead",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e20"
+        },
+        "old-woman-barouche": {
+          "id": "old-woman-barouche",
+          "name": "Old Woman in Barouche",
+          "description": "An old woman in a barouche holding a lace parasol",
+          "tags": [
+            "female",
+            "old"
+          ],
+          "textMentions": [
+            "A huge barouche comes swinging down the hill with two old, old babies inside. She holds up a lace parasol"
+          ],
+          "context": "Passenger in barouche passing through carnival area",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "hill-road",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "old, fat old body",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "old-man-barouche": {
+          "id": "old-man-barouche",
+          "name": "Old Man in Barouche",
+          "description": "An old man in a barouche sucking the knob of his cane",
+          "tags": [
+            "male",
+            "old"
+          ],
+          "textMentions": [
+            "he sucks the knob of his cane, and the fat old bodies roll together as the cradle rocks"
+          ],
+          "context": "Passenger in barouche passing through carnival area",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "hill-road",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "old, fat old body",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "professor-leonard": {
+          "id": "professor-leonard",
+          "name": "Professor Leonard",
+          "description": "A fortune teller who reads fortunes from faces, from the London, Paris and Brussels Exhibition",
+          "tags": [
+            "male",
+            "fortune-teller",
+            "professor"
+          ],
+          "textMentions": [
+            "Under a tree, Professor Leonard, in cap and gown, stands beside his banner. He is here \"for one day,\" from the London, Paris and Brussels Exhibition, to tell your fortune from your face."
+          ],
+          "context": "Fortune teller at carnival, visiting from exhibition",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "tree-location",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "fortune teller, professor",
+                "personalityTraits": [
+                  "encouraging",
+                  "clumsy"
+                ],
+                "coreValues": [],
+                "physicalDescription": "in cap and gown, smiling encouragement like a clumsy dentist",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22"
+        },
+        "mother-pavement": {
+          "id": "mother-pavement",
+          "name": "Mother",
+          "description": "A mother sitting on the pavement edge with her baby at the public house",
+          "tags": [
+            "female",
+            "mother",
+            "parent"
+          ],
+          "textMentions": [
+            "The mother sits on the pavement edge with her baby, and the father brings her out a glass of dark, brownish stuff"
+          ],
+          "context": "Member of crowd at public house",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "public-house",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "female",
+                "occupation": "",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23"
+        },
+        "father-pavement": {
+          "id": "father-pavement",
+          "name": "Father",
+          "description": "A father who brings his wife a drink at the public house",
+          "tags": [
+            "male",
+            "father",
+            "parent"
+          ],
+          "textMentions": [
+            "the father brings her out a glass of dark, brownish stuff, and then savagely elbows his way in again"
+          ],
+          "context": "Member of crowd at public house",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "public-house",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "male",
+                "occupation": "",
+                "personalityTraits": [
+                  "savage"
+                ],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23"
+        },
+        "baby-pavement": {
+          "id": "baby-pavement",
+          "name": "Baby",
+          "description": "A baby held by the mother at the public house",
+          "tags": [
+            "infant",
+            "child"
+          ],
+          "textMentions": [
+            "The mother sits on the pavement edge with her baby"
+          ],
+          "context": "Member of crowd at public house",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "public-house",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23"
+        },
+        "children-swing-doors": {
+          "id": "children-swing-doors",
+          "name": "Children at Swing Doors",
+          "description": "Children gathered like flies at the mouth of the public house",
+          "tags": [
+            "children",
+            "crowd-member"
+          ],
+          "textMentions": [
+            "Outside the two swing-doors there is a thick mass of children like flies at the mouth of a sweet-jar."
+          ],
+          "context": "Members of crowd at public house",
+          "type": "character",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23",
+                "emotionalState": {
+                  "joy": 0,
+                  "trust": 0,
+                  "fear": 0,
+                  "surprise": 0,
+                  "sadness": 0,
+                  "disgust": 0,
+                  "anger": 0,
+                  "anticipation": 0,
+                  "intensity": 0
+                },
+                "mentalConstructs": [],
+                "inventory": [],
+                "location": "public-house",
+                "factionRelationships": {},
+                "age": 0,
+                "gender": "",
+                "occupation": "",
+                "personalityTraits": [],
+                "coreValues": [],
+                "physicalDescription": "",
+                "skills": {},
+                "socialStatus": {}
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23"
+        }
+      },
+      "settings": {
+        "fruit-shop-opposite": {
+          "id": "fruit-shop-opposite",
+          "name": "Fruit Shop Area",
+          "description": "The area opposite a fruit shop where the street musicians perform",
+          "tags": [
+            "street",
+            "shop",
+            "public-space"
+          ],
+          "textMentions": [
+            "in the broad sunlight opposite the fruit-shop"
+          ],
+          "context": "Urban carnival setting",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "street location opposite a fruit shop",
+          "climate": "sunny, broad sunlight",
+          "historicalContext": "Early 20th century street carnival",
+          "culturalBackground": "Urban working-class entertainment",
+          "parentSetting": "carnival-grounds",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "lively, musical, crowded"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "stalls-corner": {
+          "id": "stalls-corner",
+          "name": "Corner of the Road with Stalls",
+          "description": "The corner where street vendors set up their stalls selling various items",
+          "tags": [
+            "street",
+            "market",
+            "vendor-area"
+          ],
+          "textMentions": [
+            "At the corner of the road the stalls begin."
+          ],
+          "context": "Urban carnival setting",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "corner of a road",
+          "climate": "sunny",
+          "historicalContext": "Early 20th century street carnival",
+          "culturalBackground": "Urban working-class entertainment and commerce",
+          "parentSetting": "carnival-grounds",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "bustling, commercial, energetic"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "carnival-grounds": {
+          "id": "carnival-grounds",
+          "name": "Carnival Grounds",
+          "description": "The general area of the carnival or fair extending up a hill",
+          "tags": [
+            "carnival",
+            "fair",
+            "public-space"
+          ],
+          "textMentions": [
+            "the crowd scatters, moving slowly up the hill"
+          ],
+          "context": "Urban carnival or street fair",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "hilly urban area",
+          "climate": "sunny, windy, hot",
+          "historicalContext": "Early 20th century street carnival",
+          "culturalBackground": "Urban working-class entertainment",
+          "parentSetting": null,
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "festive, energetic, crowded"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "hill-road": {
+          "id": "hill-road",
+          "name": "Hill Road",
+          "description": "The road going up the hill where the motor car and barouche pass",
+          "tags": [
+            "road",
+            "hill",
+            "street"
+          ],
+          "textMentions": [
+            "A motor-car driven by a fat chauffeur comes rushing down the hill",
+            "A huge barouche comes swinging down the hill"
+          ],
+          "context": "Urban carnival setting",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "sloped road",
+          "climate": "sunny, hot",
+          "historicalContext": "Early 20th century urban area",
+          "culturalBackground": "Urban street",
+          "parentSetting": "carnival-grounds",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e19",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "busy, dangerous"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e19"
+        },
+        "tree-location": {
+          "id": "tree-location",
+          "name": "Area Under a Tree",
+          "description": "The location where Professor Leonard stands with his banner",
+          "tags": [
+            "tree",
+            "outdoor-space"
+          ],
+          "textMentions": [
+            "Under a tree, Professor Leonard, in cap and gown, stands beside his banner."
+          ],
+          "context": "Carnival grounds",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "shaded area under a tree",
+          "climate": "sunny",
+          "historicalContext": "Early 20th century carnival",
+          "culturalBackground": "Urban entertainment",
+          "parentSetting": "carnival-grounds",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "calm, professional"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22"
+        },
+        "public-house": {
+          "id": "public-house",
+          "name": "Public House",
+          "description": "A public house (pub) at the top of the hill where the crowd gathers",
+          "tags": [
+            "pub",
+            "building",
+            "drinking-establishment"
+          ],
+          "textMentions": [
+            "The public-house is open, and the crowd presses in.",
+            "Outside the two swing-doors there is a thick mass of children"
+          ],
+          "context": "Urban carnival setting",
+          "type": "setting",
+          "realm": "material_reality",
+          "geography": "top of the hill",
+          "climate": "hot, sunny",
+          "historicalContext": "Early 20th century urban pub",
+          "culturalBackground": "Working-class drinking establishment",
+          "parentSetting": "carnival-grounds",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23",
+                "currentCharacters": [],
+                "currentItems": [],
+                "dominantFactions": {},
+                "environmentalConditions": {},
+                "culturalNorms": {},
+                "tension": 0,
+                "atmosphere": "crowded, loud, alcoholic"
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23"
+        }
+      },
+      "items": {
+        "guitar": {
+          "id": "guitar",
+          "name": "Guitar",
+          "description": "A musical instrument played by the stout man",
+          "tags": [
+            "musical-instrument",
+            "string-instrument"
+          ],
+          "textMentions": [
+            "He plays the guitar.",
+            "the pink spider of a hand beats the guitar"
+          ],
+          "context": "Street musician's instrument",
+          "type": "item",
+          "itemType": "musical instrument",
+          "origin": "musician's possession",
+          "physicalDescription": "guitar",
+          "defaultFunction": "musical performance",
+          "culturalSignificance": "street entertainment",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "location": "fruit-shop-opposite",
+                "condition": "normal",
+                "owner": "stout-guitarist",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "flute": {
+          "id": "flute",
+          "name": "Flute",
+          "description": "A musical instrument played by the little chap",
+          "tags": [
+            "musical-instrument",
+            "wind-instrument"
+          ],
+          "textMentions": [
+            "breathes into a flute",
+            "the little squat hand, with a brass-and-turquoise ring, forces the reluctant flute"
+          ],
+          "context": "Street musician's instrument",
+          "type": "item",
+          "itemType": "musical instrument",
+          "origin": "musician's possession",
+          "physicalDescription": "flute, reluctant",
+          "defaultFunction": "musical performance",
+          "culturalSignificance": "street entertainment",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "location": "fruit-shop-opposite",
+                "condition": "normal",
+                "owner": "little-flute-player",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "fiddle": {
+          "id": "fiddle",
+          "name": "Fiddle",
+          "description": "A musical instrument played by the tall thin fellow",
+          "tags": [
+            "musical-instrument",
+            "string-instrument"
+          ],
+          "textMentions": [
+            "draws ribbons—long, twisted, streaming ribbons—of tune out of a fiddle",
+            "the fiddler's arm tries to saw the fiddle in two"
+          ],
+          "context": "Street musician's instrument",
+          "type": "item",
+          "itemType": "musical instrument",
+          "origin": "musician's possession",
+          "physicalDescription": "fiddle",
+          "defaultFunction": "musical performance",
+          "culturalSignificance": "street entertainment",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "location": "fruit-shop-opposite",
+                "condition": "normal",
+                "owner": "tall-fiddler",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "strawberries-basket": {
+          "id": "strawberries-basket",
+          "name": "Basket of Strawberries",
+          "description": "A basket of strawberries held by the young girl",
+          "tags": [
+            "food",
+            "fruit",
+            "basket"
+          ],
+          "textMentions": [
+            "One young girl has even a basket of strawberries, but she does not eat them."
+          ],
+          "context": "Food item at carnival",
+          "type": "item",
+          "itemType": "food",
+          "origin": "purchased at carnival",
+          "physicalDescription": "basket of strawberries, tiny pointed fruits",
+          "defaultFunction": "eating",
+          "culturalSignificance": "luxury food item",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "location": "fruit-shop-opposite",
+                "condition": "normal",
+                "owner": "young-girl-strawberries",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        },
+        "oranges": {
+          "id": "oranges",
+          "name": "Oranges",
+          "description": "Oranges eaten by the crowd",
+          "tags": [
+            "food",
+            "fruit"
+          ],
+          "textMentions": [
+            "A crowd collects, eating oranges and bananas"
+          ],
+          "context": "Food at carnival",
+          "type": "item",
+          "itemType": "food",
+          "origin": "purchased at carnival",
+          "physicalDescription": "oranges",
+          "defaultFunction": "eating",
+          "culturalSignificance": "common fruit",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "location": "fruit-shop-opposite",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        },
+        "bananas": {
+          "id": "bananas",
+          "name": "Bananas",
+          "description": "Bananas eaten by the crowd",
+          "tags": [
+            "food",
+            "fruit"
+          ],
+          "textMentions": [
+            "eating oranges and bananas, tearing off the skins"
+          ],
+          "context": "Food at carnival",
+          "type": "item",
+          "itemType": "food",
+          "origin": "purchased at carnival",
+          "physicalDescription": "bananas",
+          "defaultFunction": "eating",
+          "culturalSignificance": "common fruit",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "location": "fruit-shop-opposite",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        },
+        "ticklers": {
+          "id": "ticklers",
+          "name": "Ticklers",
+          "description": "Soft brooms on wire handles sold by a vendor",
+          "tags": [
+            "toy",
+            "novelty-item"
+          ],
+          "textMentions": [
+            "\"Ticklers! Tuppence a tickler! 'Ool 'ave a tickler? Tickle 'em up, boys.\" Little soft brooms on wire handles. They are eagerly bought by the soldiers."
+          ],
+          "context": "Carnival toy",
+          "type": "item",
+          "itemType": "toy",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "little soft brooms on wire handles",
+          "defaultFunction": "entertainment",
+          "culturalSignificance": "carnival novelty",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e08",
+                "location": "stalls-corner",
+                "condition": "normal",
+                "owner": "tickler-vendor",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e08"
+        },
+        "golliwogs": {
+          "id": "golliwogs",
+          "name": "Golliwogs",
+          "description": "Dolls sold by a vendor at the carnival",
+          "tags": [
+            "toy",
+            "doll"
+          ],
+          "textMentions": [
+            "\"Buy a golliwog! Tuppence a golliwog!\""
+          ],
+          "context": "Carnival toy",
+          "type": "item",
+          "itemType": "toy",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "golliwog dolls",
+          "defaultFunction": "entertainment",
+          "culturalSignificance": "carnival novelty",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e09",
+                "location": "stalls-corner",
+                "condition": "normal",
+                "owner": "golliwog-vendor",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e09"
+        },
+        "jumping-donkeys": {
+          "id": "jumping-donkeys",
+          "name": "Jumping Donkeys",
+          "description": "Toy donkeys sold by a vendor",
+          "tags": [
+            "toy",
+            "novelty-item"
+          ],
+          "textMentions": [
+            "\"Buy a jumping donkey! All alive-oh!\""
+          ],
+          "context": "Carnival toy",
+          "type": "item",
+          "itemType": "toy",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "jumping donkey toys",
+          "defaultFunction": "entertainment",
+          "culturalSignificance": "carnival novelty",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e10",
+                "location": "stalls-corner",
+                "condition": "normal",
+                "owner": "jumping-donkey-vendor",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e10"
+        },
+        "chewing-gum": {
+          "id": "chewing-gum",
+          "name": "Superior Chewing Gum",
+          "description": "Chewing gum sold by a vendor",
+          "tags": [
+            "food",
+            "novelty-item"
+          ],
+          "textMentions": [
+            "\"_Su_-perior chewing gum. Buy something to do, boys.\""
+          ],
+          "context": "Carnival item",
+          "type": "item",
+          "itemType": "food",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "superior chewing gum",
+          "defaultFunction": "chewing",
+          "culturalSignificance": "novelty food",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e11",
+                "location": "stalls-corner",
+                "condition": "normal",
+                "owner": "chewing-gum-vendor",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e11"
+        },
+        "roses": {
+          "id": "roses",
+          "name": "Roses",
+          "description": "Flowers sold by a vendor",
+          "tags": [
+            "flower",
+            "gift-item"
+          ],
+          "textMentions": [
+            "\"Buy a rose. Give 'er a rose, boy. Roses, lady?\""
+          ],
+          "context": "Carnival item",
+          "type": "item",
+          "itemType": "flower",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "roses",
+          "defaultFunction": "gift-giving",
+          "culturalSignificance": "romantic gift",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e12",
+                "location": "stalls-corner",
+                "condition": "normal",
+                "owner": "rose-vendor",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e12"
+        },
+        "feathers": {
+          "id": "feathers",
+          "name": "Feathers",
+          "description": "Streaming feathers in various colors sold by a vendor",
+          "tags": [
+            "novelty-item",
+            "decoration"
+          ],
+          "textMentions": [
+            "\"Fevvers! Fevvers!\" They are hard to resist. Lovely, streaming feathers, emerald green, scarlet, bright blue, canary yellow. Even the babies wear feathers threaded through their bonnets."
+          ],
+          "context": "Carnival item",
+          "type": "item",
+          "itemType": "decoration",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "streaming feathers, emerald green, scarlet, bright blue, canary yellow",
+          "defaultFunction": "decoration",
+          "culturalSignificance": "carnival novelty",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e13",
+                "location": "stalls-corner",
+                "condition": "normal",
+                "owner": "feather-vendor",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e13"
+        },
+        "three-cornered-hats": {
+          "id": "three-cornered-hats",
+          "name": "Three-Cornered Paper Hats",
+          "description": "Paper hats sold by an old woman vendor",
+          "tags": [
+            "hat",
+            "novelty-item"
+          ],
+          "textMentions": [
+            "\"Buy a three-cornered 'at, my dear, an' put it on!\""
+          ],
+          "context": "Carnival item",
+          "type": "item",
+          "itemType": "hat",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "three-cornered paper hats",
+          "defaultFunction": "wearing",
+          "culturalSignificance": "carnival novelty",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e14",
+                "location": "stalls-corner",
+                "condition": "normal",
+                "owner": "hat-vendor-old-woman",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e14"
+        },
+        "lemonade": {
+          "id": "lemonade",
+          "name": "Lemonade",
+          "description": "A beverage served in thick glasses",
+          "tags": [
+            "drink",
+            "beverage"
+          ],
+          "textMentions": [
+            "Lemonade! A whole tank of it stands on a table covered with a cloth; and lemons like blunted fishes blob in the yellow water. It looks solid, like a jelly, in the thick glasses."
+          ],
+          "context": "Carnival refreshment",
+          "type": "item",
+          "itemType": "beverage",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "tank of lemonade, yellow water with lemons, served in thick glasses",
+          "defaultFunction": "drinking",
+          "culturalSignificance": "refreshment",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e16",
+                "location": "carnival-grounds",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e16"
+        },
+        "ice-cream": {
+          "id": "ice-cream",
+          "name": "Ice Cream",
+          "description": "Ice cream served from a cart with striped awning",
+          "tags": [
+            "food",
+            "dessert"
+          ],
+          "textMentions": [
+            "Round the ice-cream cart, with its striped awning and bright brass cover, the children cluster. Little tongues lick, lick round the cream trumpets, round the squares."
+          ],
+          "context": "Carnival food",
+          "type": "item",
+          "itemType": "food",
+          "origin": "vendor's merchandise",
+          "physicalDescription": "ice cream in cream trumpets and squares",
+          "defaultFunction": "eating",
+          "culturalSignificance": "dessert",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e17",
+                "location": "carnival-grounds",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e17"
+        },
+        "love-birds-cage": {
+          "id": "love-birds-cage",
+          "name": "Love-Birds Cage",
+          "description": "A cage containing love-birds used for fortune telling",
+          "tags": [
+            "cage",
+            "fortune-telling-tool"
+          ],
+          "textMentions": [
+            "She stands beside the cage, a shrivelled ageless Italian, clasping and unclasping her dark claws. Her face, a treasure of delicate carving, is tied in a green-and-gold scarf. And inside their prison the love-birds flutter towards the papers in the seed-tray."
+          ],
+          "context": "Fortune telling apparatus",
+          "type": "item",
+          "itemType": "cage",
+          "origin": "fortune teller's possession",
+          "physicalDescription": "cage with love-birds inside",
+          "defaultFunction": "fortune telling",
+          "culturalSignificance": "fortune telling tool",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18",
+                "location": "carnival-grounds",
+                "condition": "normal",
+                "owner": "italian-fortune-teller",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18"
+        },
+        "fortune-papers": {
+          "id": "fortune-papers",
+          "name": "Fortune Papers",
+          "description": "Papers in a seed-tray that love-birds select for fortune telling",
+          "tags": [
+            "fortune-telling-tool",
+            "paper"
+          ],
+          "textMentions": [
+            "inside their prison the love-birds flutter towards the papers in the seed-tray"
+          ],
+          "context": "Fortune telling apparatus",
+          "type": "item",
+          "itemType": "paper",
+          "origin": "fortune teller's possession",
+          "physicalDescription": "papers in a seed-tray",
+          "defaultFunction": "fortune telling",
+          "culturalSignificance": "fortune telling tool",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e18",
+                "location": "carnival-grounds",
+                "condition": "normal",
+                "owner": "italian-fortune-teller",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e18"
+        },
+        "motor-car": {
+          "id": "motor-car",
+          "name": "Motor Car",
+          "description": "A motor car driven by a fat chauffeur down the hill",
+          "tags": [
+            "vehicle",
+            "automobile"
+          ],
+          "textMentions": [
+            "A motor-car driven by a fat chauffeur comes rushing down the hill."
+          ],
+          "context": "Vehicle passing through carnival area",
+          "type": "item",
+          "itemType": "vehicle",
+          "origin": "transportation",
+          "physicalDescription": "motor car",
+          "defaultFunction": "transportation",
+          "culturalSignificance": "modern transportation",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e19",
+                "location": "hill-road",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e19"
+        },
+        "auctioneer-licence": {
+          "id": "auctioneer-licence",
+          "name": "Auctioneer's Licence",
+          "description": "A licence held by the auctioneer across his chest",
+          "tags": [
+            "document",
+            "credential"
+          ],
+          "textMentions": [
+            "He holds the licence across his chest"
+          ],
+          "context": "Auctioneer's credential",
+          "type": "item",
+          "itemType": "document",
+          "origin": "auctioneer's possession",
+          "physicalDescription": "licence",
+          "defaultFunction": "credential",
+          "culturalSignificance": "professional credential",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e20",
+                "location": "carnival-grounds",
+                "condition": "normal",
+                "owner": "auctioneer",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e20"
+        },
+        "watch": {
+          "id": "watch",
+          "name": "Watch",
+          "description": "A watch that the auctioneer attempts to sell",
+          "tags": [
+            "timepiece",
+            "item-for-sale"
+          ],
+          "textMentions": [
+            "Nobody buys a watch."
+          ],
+          "context": "Item for sale at carnival",
+          "type": "item",
+          "itemType": "timepiece",
+          "origin": "auctioneer's merchandise",
+          "physicalDescription": "watch",
+          "defaultFunction": "timekeeping",
+          "culturalSignificance": "valuable item",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e20",
+                "location": "carnival-grounds",
+                "condition": "normal",
+                "owner": "auctioneer",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e20"
+        },
+        "barouche": {
+          "id": "barouche",
+          "name": "Barouche",
+          "description": "A large carriage with two old people inside",
+          "tags": [
+            "vehicle",
+            "carriage"
+          ],
+          "textMentions": [
+            "A huge barouche comes swinging down the hill with two old, old babies inside."
+          ],
+          "context": "Vehicle passing through carnival area",
+          "type": "item",
+          "itemType": "vehicle",
+          "origin": "transportation",
+          "physicalDescription": "huge barouche",
+          "defaultFunction": "transportation",
+          "culturalSignificance": "luxury transportation",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "location": "hill-road",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "lace-parasol": {
+          "id": "lace-parasol",
+          "name": "Lace Parasol",
+          "description": "A parasol held by the old woman in the barouche",
+          "tags": [
+            "accessory",
+            "sun-protection"
+          ],
+          "textMentions": [
+            "She holds up a lace parasol"
+          ],
+          "context": "Accessory in barouche",
+          "type": "item",
+          "itemType": "parasol",
+          "origin": "old woman's possession",
+          "physicalDescription": "lace parasol",
+          "defaultFunction": "sun protection",
+          "culturalSignificance": "fashion accessory",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "location": "hill-road",
+                "condition": "normal",
+                "owner": "old-woman-barouche",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "cane-knob": {
+          "id": "cane-knob",
+          "name": "Cane Knob",
+          "description": "The knob of a cane sucked by the old man in the barouche",
+          "tags": [
+            "accessory",
+            "cane"
+          ],
+          "textMentions": [
+            "he sucks the knob of his cane"
+          ],
+          "context": "Accessory in barouche",
+          "type": "item",
+          "itemType": "cane",
+          "origin": "old man's possession",
+          "physicalDescription": "cane with knob",
+          "defaultFunction": "walking aid",
+          "culturalSignificance": "fashion accessory",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e21",
+                "location": "hill-road",
+                "condition": "normal",
+                "owner": "old-man-barouche",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e21"
+        },
+        "professor-banner": {
+          "id": "professor-banner",
+          "name": "Professor Leonard's Banner",
+          "description": "A banner displayed by Professor Leonard",
+          "tags": [
+            "banner",
+            "sign"
+          ],
+          "textMentions": [
+            "Professor Leonard, in cap and gown, stands beside his banner."
+          ],
+          "context": "Fortune telling apparatus",
+          "type": "item",
+          "itemType": "banner",
+          "origin": "professor's possession",
+          "physicalDescription": "banner",
+          "defaultFunction": "advertisement",
+          "culturalSignificance": "fortune telling sign",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22",
+                "location": "tree-location",
+                "condition": "normal",
+                "owner": "professor-leonard",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22"
+        },
+        "printed-card": {
+          "id": "printed-card",
+          "name": "Printed Card",
+          "description": "A printed card notched by Professor Leonard during fortune reading",
+          "tags": [
+            "card",
+            "fortune-telling-tool"
+          ],
+          "textMentions": [
+            "the Professor's quick hand notches the printed card"
+          ],
+          "context": "Fortune telling apparatus",
+          "type": "item",
+          "itemType": "card",
+          "origin": "professor's possession",
+          "physicalDescription": "printed card",
+          "defaultFunction": "fortune telling",
+          "culturalSignificance": "fortune telling tool",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e22",
+                "location": "tree-location",
+                "condition": "normal",
+                "owner": "professor-leonard",
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e22"
+        },
+        "glass-drink": {
+          "id": "glass-drink",
+          "name": "Glass of Dark Drink",
+          "description": "A glass of dark, brownish stuff brought to the mother",
+          "tags": [
+            "drink",
+            "glass"
+          ],
+          "textMentions": [
+            "the father brings her out a glass of dark, brownish stuff"
+          ],
+          "context": "Beverage at public house",
+          "type": "item",
+          "itemType": "beverage",
+          "origin": "public house",
+          "physicalDescription": "glass of dark, brownish stuff",
+          "defaultFunction": "drinking",
+          "culturalSignificance": "alcoholic beverage",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e23",
+                "location": "public-house",
+                "condition": "normal",
+                "owner": null,
+                "isHidden": false
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e23"
+        }
+      },
+      "factions": {}
+    },
+    "events": {
+      "e01": {
+        "id": "e01",
+        "type": "environmental",
+        "description": "Three street musicians are described in detail: a stout man with pink face playing guitar, a little chap in white canvas shoes playing flute, and a tall thin fellow playing fiddle. They stand unsmiling but not serious in the broad sunlight opposite the fruit shop.",
+        "timestamp": {
+          "percentage": 2
+        },
+        "textLocation": {
+          "startLine": 1,
+          "endLine": 11
+        },
+        "participants": [
+          "stout-guitarist",
+          "little-flute-player",
+          "tall-fiddler",
+          "fruit-shop-opposite"
+        ],
+        "precedingEvent": null
+      },
+      "e02": {
+        "id": "e02",
+        "type": "action",
+        "description": "The three musicians play their instruments: the guitarist's hand beats the guitar, the flute player forces the reluctant flute, and the fiddler's arm tries to saw the fiddle in two.",
+        "timestamp": {
+          "percentage": 4
+        },
+        "textLocation": {
+          "startLine": 8,
+          "endLine": 11
+        },
+        "participants": [
+          "stout-guitarist",
+          "little-flute-player",
+          "tall-fiddler",
+          "guitar",
+          "flute",
+          "fiddle"
+        ],
+        "precedingEvent": "e01"
+      },
+      "e03": {
+        "id": "e03",
+        "type": "action",
+        "description": "A crowd collects opposite the fruit shop, eating oranges and bananas, tearing off the skins, dividing and sharing. One young girl has a basket of strawberries but does not eat them, staring at them as if afraid.",
+        "timestamp": {
+          "percentage": 10
+        },
+        "textLocation": {
+          "startLine": 12,
+          "endLine": 17
+        },
+        "participants": [
+          "young-girl-strawberries",
+          "oranges",
+          "bananas",
+          "strawberries-basket",
+          "fruit-shop-opposite"
+        ],
+        "precedingEvent": "e02"
+      },
+      "e04": {
+        "id": "e04",
+        "type": "dialogue",
+        "description": "The Australian soldier laughs and encourages the young girl to eat the strawberries, saying there's not more than a mouthful. However, he doesn't actually want her to eat them; he enjoys watching her frightened face and puzzled eyes. He pushes out his chest and grins.",
+        "timestamp": {
+          "percentage": 12
+        },
+        "textLocation": {
+          "startLine": 17,
+          "endLine": 21
+        },
+        "participants": [
+          "australian-soldier",
+          "young-girl-strawberries"
+        ],
+        "precedingEvent": "e03"
+      },
+      "e05": {
+        "id": "e05",
+        "type": "environmental",
+        "description": "A diverse crowd is described: old fat women in velvet bodices, young women in muslins with unusual hats, men in khaki, sailors, shabby clerks, young Jews in fine cloth suits, and hospital boys in blue. The sun discovers them and the loud, bold music holds them together in one big knot for a moment.",
+        "timestamp": {
+          "percentage": 15
+        },
+        "textLocation": {
+          "startLine": 21,
+          "endLine": 28
+        },
+        "participants": [
+          "fruit-shop-opposite"
+        ],
+        "precedingEvent": "e04"
+      },
+      "e06": {
+        "id": "e06",
+        "type": "action",
+        "description": "Ragged children stand as close as they can to the musicians, hands behind their backs, eyes big. Occasionally a leg hops, an arm wags. A tiny staggerer, overcome, turns round twice, sits down solemn, and gets up again. A small girl whispers \"Ain't it lovely?\" behind her hand.",
+        "timestamp": {
+          "percentage": 18
+        },
+        "textLocation": {
+          "startLine": 32,
+          "endLine": 40
+        },
+        "participants": [
+          "ragged-children",
+          "small-girl-lovely",
+          "fruit-shop-opposite"
+        ],
+        "precedingEvent": "e05"
+      },
+      "e07": {
+        "id": "e07",
+        "type": "action",
+        "description": "The music breaks into bright pieces, joins together again, breaks again, is dissolved, and the crowd scatters, moving slowly up the hill.",
+        "timestamp": {
+          "percentage": 25
+        },
+        "textLocation": {
+          "startLine": 41,
+          "endLine": 44
+        },
+        "participants": [
+          "fruit-shop-opposite",
+          "carnival-grounds"
+        ],
+        "precedingEvent": "e06"
+      },
+      "e08": {
+        "id": "e08",
+        "type": "action",
+        "description": "At the corner of the road, a vendor sells ticklers (little soft brooms on wire handles) for tuppence each. They are eagerly bought by the soldiers.",
+        "timestamp": {
+          "percentage": 30
+        },
+        "textLocation": {
+          "startLine": 45,
+          "endLine": 48
+        },
+        "participants": [
+          "tickler-vendor",
+          "ticklers",
+          "stalls-corner"
+        ],
+        "precedingEvent": "e07"
+      },
+      "e09": {
+        "id": "e09",
+        "type": "action",
+        "description": "A vendor sells golliwogs for tuppence each.",
+        "timestamp": {
+          "percentage": 32
+        },
+        "textLocation": {
+          "startLine": 49,
+          "endLine": 49
+        },
+        "participants": [
+          "golliwog-vendor",
+          "golliwogs",
+          "stalls-corner"
+        ],
+        "precedingEvent": "e08"
+      },
+      "e10": {
+        "id": "e10",
+        "type": "action",
+        "description": "A vendor sells jumping donkeys with the cry 'All alive-oh!'",
+        "timestamp": {
+          "percentage": 33
+        },
+        "textLocation": {
+          "startLine": 50,
+          "endLine": 50
+        },
+        "participants": [
+          "jumping-donkey-vendor",
+          "jumping-donkeys",
+          "stalls-corner"
+        ],
+        "precedingEvent": "e09"
+      },
+      "e11": {
+        "id": "e11",
+        "type": "action",
+        "description": "A vendor sells superior chewing gum, calling it 'something to do' for boys.",
+        "timestamp": {
+          "percentage": 34
+        },
+        "textLocation": {
+          "startLine": 51,
+          "endLine": 51
+        },
+        "participants": [
+          "chewing-gum-vendor",
+          "chewing-gum",
+          "stalls-corner"
+        ],
+        "precedingEvent": "e10"
+      },
+      "e12": {
+        "id": "e12",
+        "type": "action",
+        "description": "A vendor sells roses, encouraging boys to give them to girls.",
+        "timestamp": {
+          "percentage": 35
+        },
+        "textLocation": {
+          "startLine": 52,
+          "endLine": 52
+        },
+        "participants": [
+          "rose-vendor",
+          "roses",
+          "stalls-corner"
+        ],
+        "precedingEvent": "e11"
+      },
+      "e13": {
+        "id": "e13",
+        "type": "action",
+        "description": "A vendor sells feathers in various colors (emerald green, scarlet, bright blue, canary yellow). The feathers are hard to resist, and even babies wear feathers threaded through their bonnets.",
+        "timestamp": {
+          "percentage": 37
+        },
+        "textLocation": {
+          "startLine": 53,
+          "endLine": 56
+        },
+        "participants": [
+          "feather-vendor",
+          "feathers",
+          "stalls-corner"
+        ],
+        "precedingEvent": "e12"
+      },
+      "e14": {
+        "id": "e14",
+        "type": "action",
+        "description": "An old woman in a three-cornered paper hat cries out urgently, as if giving final parting advice, urging people to buy three-cornered hats and put them on.",
+        "timestamp": {
+          "percentage": 39
+        },
+        "textLocation": {
+          "startLine": 57,
+          "endLine": 59
+        },
+        "participants": [
+          "hat-vendor-old-woman",
+          "three-cornered-hats",
+          "stalls-corner"
+        ],
+        "precedingEvent": "e13"
+      },
+      "e15": {
+        "id": "e15",
+        "type": "environmental",
+        "description": "It is a flying day, half sun, half wind. When the sun goes in, a shadow flies over; when it comes out again, it is fiery. The men and women feel the sun burning their backs, breasts, and arms. They feel their bodies expanding and coming alive, making large embracing gestures, lifting up their arms, swooping down on girls, and bursting into laughter.",
+        "timestamp": {
+          "percentage": 42
+        },
+        "textLocation": {
+          "startLine": 60,
+          "endLine": 67
+        },
+        "participants": [
+          "carnival-grounds"
+        ],
+        "precedingEvent": "e14"
+      },
+      "e16": {
+        "id": "e16",
+        "type": "action",
+        "description": "A whole tank of lemonade stands on a table covered with a cloth, with lemons like blunted fishes bobbing in the yellow water. It looks solid like jelly in thick glasses. Everybody spills it, and before the glass is handed back, the last drops are thrown in a ring.",
+        "timestamp": {
+          "percentage": 48
+        },
+        "textLocation": {
+          "startLine": 68,
+          "endLine": 73
+        },
+        "participants": [
+          "lemonade",
+          "carnival-grounds"
+        ],
+        "precedingEvent": "e15"
+      },
+      "e17": {
+        "id": "e17",
+        "type": "action",
+        "description": "Children cluster around an ice-cream cart with striped awning and bright brass cover. Little tongues lick around the cream trumpets and squares. The cover is lifted, the wooden spoon plunges in, and children shut their eyes to feel it, silently scrunching.",
+        "timestamp": {
+          "percentage": 52
+        },
+        "textLocation": {
+          "startLine": 74,
+          "endLine": 78
+        },
+        "participants": [
+          "ice-cream",
+          "carnival-grounds"
+        ],
+        "precedingEvent": "e16"
+      },
+      "e18": {
+        "id": "e18",
+        "type": "action",
+        "description": "A shrivelled ageless Italian woman stands beside a cage of love-birds, clasping and unclasping her dark claws. Her face, a treasure of delicate carving, is tied in a green-and-gold scarf. Inside the cage, the love-birds flutter towards papers in the seed-tray.",
+        "timestamp": {
+          "percentage": 56
+        },
+        "textLocation": {
+          "startLine": 79,
+          "endLine": 84
+        },
+        "participants": [
+          "italian-fortune-teller",
+          "love-birds-cage",
+          "fortune-papers",
+          "carnival-grounds"
+        ],
+        "precedingEvent": "e17"
+      },
+      "e19": {
+        "id": "e19",
+        "type": "action",
+        "description": "The fortune teller reads a fortune: 'You have great strength of character. You will marry a red-haired man and have three children. Beware of a blonde woman.' A motor car driven by a fat chauffeur comes rushing down the hill with a blonde woman inside, pouting and leaning forward, rushing through life.",
+        "timestamp": {
+          "percentage": 60
+        },
+        "textLocation": {
+          "startLine": 85,
+          "endLine": 90
+        },
+        "participants": [
+          "italian-fortune-teller",
+          "fat-chauffeur",
+          "blonde-woman-motorcar",
+          "motor-car",
+          "hill-road"
+        ],
+        "precedingEvent": "e18"
+      },
+      "e20": {
+        "id": "e20",
+        "type": "action",
+        "description": "An auctioneer, sweating and nervous, holds his licence across his chest and attempts to sell a watch. He claims that if what he tells is not the truth, he is liable to have his licence taken away and face heavy imprisonment. His eyes look glazed, and there is a deep pucker of angry flesh on his forehead. Nobody buys the watch.",
+        "timestamp": {
+          "percentage": 65
+        },
+        "textLocation": {
+          "startLine": 91,
+          "endLine": 97
+        },
+        "participants": [
+          "auctioneer",
+          "auctioneer-licence",
+          "watch",
+          "carnival-grounds"
+        ],
+        "precedingEvent": "e19"
+      },
+      "e21": {
+        "id": "e21",
+        "type": "action",
+        "description": "A huge barouche comes swinging down the hill with two old, old babies inside. The woman holds up a lace parasol; the man sucks the knob of his cane. The fat old bodies roll together as the cradle rocks, and the steaming horse leaves a trail of manure as it ambles down the hill.",
+        "timestamp": {
+          "percentage": 70
+        },
+        "textLocation": {
+          "startLine": 98,
+          "endLine": 102
+        },
+        "participants": [
+          "old-woman-barouche",
+          "old-man-barouche",
+          "barouche",
+          "lace-parasol",
+          "cane-knob",
+          "hill-road"
+        ],
+        "precedingEvent": "e20"
+      },
+      "e22": {
+        "id": "e22",
+        "type": "action",
+        "description": "Under a tree, Professor Leonard, in cap and gown, stands beside his banner. He is here for one day from the London, Paris and Brussels Exhibition to tell fortunes from faces. He stands smiling encouragement like a clumsy dentist. When big men, romping and swearing a moment before, hand across their sixpence and stand before him, they suddenly become serious, dumb, timid, almost blushing as the Professor's quick hand notches the printed card. They are like little children caught playing in a forbidden garden.",
+        "timestamp": {
+          "percentage": 75
+        },
+        "textLocation": {
+          "startLine": 103,
+          "endLine": 113
+        },
+        "participants": [
+          "professor-leonard",
+          "professor-banner",
+          "printed-card",
+          "tree-location"
+        ],
+        "precedingEvent": "e21"
+      },
+      "e23": {
+        "id": "e23",
+        "type": "action",
+        "description": "The top of the hill is reached. The public house is open and the crowd presses in. The mother sits on the pavement edge with her baby, and the father brings her out a glass of dark, brownish stuff, then savagely elbows his way in again. A reek of beer floats from the public house, and a loud clatter and rattle of voices. The wind has dropped, and the sun burns more fiercely than ever. Outside the two swing doors, there is a thick mass of children like flies at the mouth of a sweet jar.",
+        "timestamp": {
+          "percentage": 85
+        },
+        "textLocation": {
+          "startLine": 114,
+          "endLine": 127
+        },
+        "participants": [
+          "mother-pavement",
+          "father-pavement",
+          "baby-pavement",
+          "children-swing-doors",
+          "glass-drink",
+          "public-house"
+        ],
+        "precedingEvent": "e22"
+      },
+      "e24": {
+        "id": "e24",
+        "type": "action",
+        "description": "Up, up the hill come the people, with ticklers and golliwogs, roses and feathers. Up, up they thrust into the light and heat, shouting, laughing, squealing, as though they were being pushed by something far below and by the sun far ahead of them—drawn up into the full, bright, dazzling radiance to... what?",
+        "timestamp": {
+          "percentage": 95
+        },
+        "textLocation": {
+          "startLine": 128,
+          "endLine": 136
+        },
+        "participants": [
+          "carnival-grounds",
+          "ticklers",
+          "golliwogs",
+          "roses",
+          "feathers"
+        ],
+        "precedingEvent": "e23"
+      }
+    },
+    "relationships": {
+      "interpersonal": {
+        "rel-soldier-girl": {
+          "id": "rel-soldier-girl",
+          "name": "Soldier and Girl Interaction",
+          "description": "The Australian soldier playfully interacts with the young girl with strawberries, enjoying watching her frightened and puzzled expressions",
+          "tags": [
+            "playful",
+            "one-sided-interest"
+          ],
+          "type": "interpersonal",
+          "participants": [
+            "australian-soldier",
+            "young-girl-strawberries"
+          ],
+          "nature": "playful, one-sided attraction",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e04",
+                "strength": 0.3,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e04"
+        }
+      },
+      "group": {
+        "grp-crowd-musicians": {
+          "id": "grp-crowd-musicians",
+          "name": "Crowd Watching Musicians",
+          "description": "A diverse crowd gathers to watch the street musicians perform",
+          "tags": [
+            "audience",
+            "street-performance"
+          ],
+          "type": "group",
+          "participants": [
+            "stout-guitarist",
+            "little-flute-player",
+            "tall-fiddler",
+            "young-girl-strawberries",
+            "australian-soldier",
+            "ragged-children"
+          ],
+          "nature": "audience gathered for entertainment",
+          "subRelationships": [],
+          "groupDynamics": {
+            "cohesion": 0.6,
+            "sharedPurpose": 0.7,
+            "internalConflict": 0
+          },
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02"
+        },
+        "grp-carnival-crowd": {
+          "id": "grp-carnival-crowd",
+          "name": "Carnival Crowd",
+          "description": "The entire diverse crowd moving through the carnival, purchasing items and experiencing attractions",
+          "tags": [
+            "crowd",
+            "carnival-goers"
+          ],
+          "type": "group",
+          "participants": [
+            "young-girl-strawberries",
+            "australian-soldier",
+            "ragged-children",
+            "tickler-vendor",
+            "golliwog-vendor",
+            "rose-vendor",
+            "feather-vendor",
+            "italian-fortune-teller",
+            "auctioneer",
+            "professor-leonard",
+            "mother-pavement",
+            "father-pavement"
+          ],
+          "nature": "diverse group experiencing carnival attractions",
+          "subRelationships": [],
+          "groupDynamics": {
+            "cohesion": 0.4,
+            "sharedPurpose": 0.5,
+            "internalConflict": 0
+          },
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e03",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e03"
+        }
+      }
+    },
+    "absentials": {
+      "abs-girl-strawberry-fear": {
+        "id": "abs-girl-strawberry-fear",
+        "name": "Young Girl's Fear of Strawberries",
+        "description": "The young girl's inexplicable fear or hesitation about eating the strawberries, despite having a basket of them",
+        "tags": [
+          "fear",
+          "food",
+          "psychological"
+        ],
+        "holder": "young-girl-strawberries",
+        "origin": "She stares at the tiny pointed fruits as if she were afraid of them",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "strawberries-basket",
+            "relationship": "target",
+            "strength": 0.8
+          },
+          {
+            "entityId": "australian-soldier",
+            "relationship": "influenced_by",
+            "strength": 0.5
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e03",
+              "type": "fear",
+              "status": "unsatisfied",
+              "urgency": 0.3,
+              "intensity": 0.4
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e03"
+      },
+      "abs-soldier-watch-girl": {
+        "id": "abs-soldier-watch-girl",
+        "name": "Soldier's Desire to Watch the Girl",
+        "description": "The Australian soldier's desire to watch the young girl's frightened and puzzled expressions rather than have her eat the strawberries",
+        "tags": [
+          "desire",
+          "voyeuristic",
+          "entertainment"
+        ],
+        "holder": "australian-soldier",
+        "origin": "He likes to watch her little frightened face, and her puzzled eyes lifted to his",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "young-girl-strawberries",
+            "relationship": "target",
+            "strength": 0.9
+          },
+          {
+            "entityId": "strawberries-basket",
+            "relationship": "facilitator",
+            "strength": 0.6
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e04",
+              "type": "desire",
+              "status": "unsatisfied",
+              "urgency": 0.4,
+              "intensity": 0.5
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e04"
+      },
+      "abs-crowd-upward-movement": {
+        "id": "abs-crowd-upward-movement",
+        "name": "Crowd's Upward Movement",
+        "description": "The crowd's continuous movement up the hill, drawn by something below and the sun ahead, toward an uncertain destination",
+        "tags": [
+          "goal",
+          "movement",
+          "collective"
+        ],
+        "holder": "carnival-crowd",
+        "origin": "Up, up the hill come the people... as though they were being pushed by something, far below, and by the sun, far ahead of them",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "carnival-grounds",
+            "relationship": "target",
+            "strength": 0.9
+          },
+          {
+            "entityId": "public-house",
+            "relationship": "target",
+            "strength": 0.7
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e24",
+              "type": "goal",
+              "status": "unsatisfied",
+              "urgency": 0.7,
+              "intensity": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e24"
+      },
+      "abs-men-fortune-reading-anxiety": {
+        "id": "abs-men-fortune-reading-anxiety",
+        "name": "Men's Anxiety About Fortune Reading",
+        "description": "The big men's sudden shift from romping and swearing to becoming serious, dumb, timid, and blushing when standing before Professor Leonard for fortune reading",
+        "tags": [
+          "fear",
+          "anxiety",
+          "vulnerability"
+        ],
+        "holder": "professor-leonard",
+        "origin": "When the big men, romping and swearing a moment before, hand across their sixpence, and stand before him, they are suddenly serious, dumb, timid, almost blushing",
+        "childAbsentials": [],
+        "conflictingAbsentials": [],
+        "relatedEntities": [
+          {
+            "entityId": "professor-leonard",
+            "relationship": "catalyst",
+            "strength": 0.9
+          }
+        ],
+        "relatedAbsentials": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e22",
+              "type": "fear",
+              "status": "unsatisfied",
+              "urgency": 0.5,
+              "intensity": 0.6
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e22"
+      }
+    },
+    "mentalConstructs": {
+      "mc-girl-strawberries-dear": {
+        "id": "mc-girl-strawberries-dear",
+        "name": "Strawberries Are Dear",
+        "description": "The young girl's belief or observation that the strawberries are expensive or precious",
+        "tags": [
+          "value-judgment",
+          "economic"
+        ],
+        "holder": "young-girl-strawberries",
+        "subject": "strawberries-basket",
+        "isDiegetic": true,
+        "source": "e03",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e03",
+              "content": "The strawberries are dear (expensive or precious)",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.6
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e03"
+      },
+      "mc-soldier-girl-frightened": {
+        "id": "mc-soldier-girl-frightened",
+        "name": "Soldier's Observation of Girl's Fear",
+        "description": "The soldier's knowledge or belief that the girl is frightened of the strawberries",
+        "tags": [
+          "observation",
+          "perception"
+        ],
+        "holder": "australian-soldier",
+        "subject": "young-girl-strawberries",
+        "isDiegetic": true,
+        "source": "e04",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e04",
+              "content": "The girl is frightened of the strawberries",
+              "type": "fact",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e04"
+      },
+      "mc-auctioneer-licence-threat": {
+        "id": "mc-auctioneer-licence-threat",
+        "name": "Auctioneer's Belief About Licence Consequences",
+        "description": "The auctioneer's belief that if he lies, he is liable to have his licence taken away and face heavy imprisonment",
+        "tags": [
+          "legal-knowledge",
+          "professional-concern"
+        ],
+        "holder": "auctioneer",
+        "subject": "auctioneer-licence",
+        "isDiegetic": true,
+        "source": "e20",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e20",
+              "content": "If I lie, I am liable to have my licence taken away and face heavy imprisonment",
+              "type": "belief",
+              "certainty": "certain",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.9
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e20"
+      },
+      "mc-professor-fortune-reading-power": {
+        "id": "mc-professor-fortune-reading-power",
+        "name": "Professor's Confidence in Fortune Reading",
+        "description": "Professor Leonard's apparent belief or confidence in his ability to read fortunes from faces",
+        "tags": [
+          "professional-confidence",
+          "skill"
+        ],
+        "holder": "professor-leonard",
+        "subject": "professor-leonard",
+        "isDiegetic": true,
+        "source": "e22",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e22",
+              "content": "I can read fortunes from people's faces",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.7
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e22"
+      },
+      "mc-men-vulnerability-fortune": {
+        "id": "mc-men-vulnerability-fortune",
+        "name": "Men's Belief in Fortune Reading Power",
+        "description": "The big men's apparent belief or acceptance that Professor Leonard can read their fortunes, causing them to become serious and vulnerable",
+        "tags": [
+          "superstition",
+          "belief-in-fortune"
+        ],
+        "holder": "professor-leonard",
+        "subject": "professor-leonard",
+        "isDiegetic": true,
+        "source": "e22",
+        "relatedConstructs": [],
+        "conflictingConstructs": [],
+        "supportingConstructs": [],
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "e22",
+              "content": "The professor can read my fortune from my face",
+              "type": "belief",
+              "certainty": "probable",
+              "awareness": "conscious",
+              "emotionalAssociation": {},
+              "salience": 0.8
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "e22"
+      }
+    },
+    "annotations": [
+      {
+        "entityId": "fat-chauffeur",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 66,
+        "mentionText": "A motor-car driven by a fat chauffeur comes rushing down the hill."
+      },
+      {
+        "entityId": "professor-leonard",
+        "startLine": 114,
+        "startChar": 14,
+        "endLine": 114,
+        "endChar": 31,
+        "mentionText": "Professor Leonard"
+      },
+      {
+        "entityId": "fruit-shop-opposite",
+        "startLine": 11,
+        "startChar": 9,
+        "endLine": 11,
+        "endChar": 54,
+        "mentionText": "in the broad sunlight opposite the fruit-shop"
+      },
+      {
+        "entityId": "stalls-corner",
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 43,
+        "mentionText": "At the corner of the road the stalls begin."
+      },
+      {
+        "entityId": "hill-road",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 65,
+        "mentionText": "A motor-car driven by a fat chauffeur comes rushing down the hill"
+      },
+      {
+        "entityId": "hill-road",
+        "startLine": 108,
+        "startChar": 16,
+        "endLine": 108,
+        "endChar": 60,
+        "mentionText": "A huge barouche comes swinging down the hill"
+      },
+      {
+        "entityId": "public-house",
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 61,
+        "mentionText": "Outside the two swing-doors there is a thick mass of children"
+      },
+      {
+        "entityId": "guitar",
+        "startLine": 6,
+        "startChar": 42,
+        "endLine": 6,
+        "endChar": 62,
+        "mentionText": "He plays the guitar."
+      },
+      {
+        "entityId": "flute",
+        "startLine": 8,
+        "startChar": 13,
+        "endLine": 8,
+        "endChar": 34,
+        "mentionText": "breathes into a flute"
+      },
+      {
+        "entityId": "oranges",
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 44,
+        "mentionText": "A crowd collects, eating oranges and bananas"
+      },
+      {
+        "entityId": "bananas",
+        "startLine": 16,
+        "startChar": 18,
+        "endLine": 16,
+        "endChar": 67,
+        "mentionText": "eating oranges and bananas, tearing off the skins"
+      },
+      {
+        "entityId": "ticklers",
+        "startLine": 51,
+        "startChar": 1,
+        "endLine": 51,
+        "endChar": 9,
+        "mentionText": "Ticklers"
+      },
+      {
+        "entityId": "roses",
+        "startLine": 61,
+        "startChar": 35,
+        "endLine": 61,
+        "endChar": 40,
+        "mentionText": "Roses"
+      },
+      {
+        "entityId": "lemonade",
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 8,
+        "mentionText": "Lemonade"
+      },
+      {
+        "entityId": "motor-car",
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 66,
+        "mentionText": "A motor-car driven by a fat chauffeur comes rushing down the hill."
+      },
+      {
+        "entityId": "watch",
+        "startLine": 106,
+        "startChar": 23,
+        "endLine": 106,
+        "endChar": 43,
+        "mentionText": "Nobody buys a watch."
+      },
+      {
+        "entityId": "lace-parasol",
+        "startLine": 109,
+        "startChar": 24,
+        "endLine": 109,
+        "endChar": 51,
+        "mentionText": "She holds up a lace parasol"
+      }
+    ]
+  },
+  "readings": {
+    "Formalist Reading: A Carnival Day": {
+      "name": "Formalist Reading: A Carnival Day",
+      "description": "A formalist analysis examining the structural patterns, linguistic devices, narrative techniques, and formal properties of Mansfield's impressionistic sketch, focusing on how form creates meaning through rhythm, imagery, and compositional balance.",
+      "themes": {
+        "theme-sensory-immediacy": {
+          "id": "theme-sensory-immediacy",
+          "name": "Sensory Immediacy and Impressionistic Form",
+          "description": "The text's reliance on vivid sensory details and present-tense narration to create an immediate, unmediated experience of the carnival moment, rejecting conventional narrative structure in favor of impressionistic accumulation.",
+          "tags": [
+            "form",
+            "style",
+            "narration",
+            "imagery"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "theme-fragmentation-unity": {
+          "id": "theme-fragmentation-unity",
+          "name": "Fragmentation and Structural Unity",
+          "description": "The tension between the text's fragmented, episodic structure (discrete vendors, characters, moments) and its underlying formal unity achieved through rhythm, repetition, and the upward movement toward the public house.",
+          "tags": [
+            "structure",
+            "composition",
+            "form"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "theme-linguistic-vitality": {
+          "id": "theme-linguistic-vitality",
+          "name": "Linguistic Vitality and Verb-Driven Prose",
+          "description": "The text's energetic use of active verbs, participles, and dynamic syntax to convey motion, life, and sensory experience, creating a formal rhythm that mirrors the carnival's physical energy.",
+          "tags": [
+            "language",
+            "syntax",
+            "style"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e02",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e02"
+        },
+        "theme-metaphorical-density": {
+          "id": "theme-metaphorical-density",
+          "name": "Metaphorical and Symbolic Density",
+          "description": "The concentrated use of similes and metaphors (music as fragments, crowd as knot, children as flies) that function as formal devices to compress meaning and create layered interpretive possibilities.",
+          "tags": [
+            "imagery",
+            "metaphor",
+            "symbolism"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "theme-narrative-closure": {
+          "id": "theme-narrative-closure",
+          "name": "Deferred and Ambiguous Closure",
+          "description": "The text's formal strategy of ending with an unanswered question ('to... what?'), refusing conventional narrative resolution and maintaining formal openness that invites interpretive completion.",
+          "tags": [
+            "closure",
+            "structure",
+            "form"
+          ],
+          "type": "theme",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e24",
+                "prevalence": 0.5,
+                "relatedElements": [],
+                "manifestations": [],
+                "progression": []
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e24"
+        }
+      },
+      "symbols": {
+        "sym-upward-movement": {
+          "id": "sym-upward-movement",
+          "name": "Upward Movement / The Hill",
+          "description": "The formal organizing principle of the narrative: the literal upward movement of the crowd toward the public house serves as both structural spine and metaphorical vehicle, creating directional momentum and compositional coherence.",
+          "tags": [
+            "structure",
+            "movement",
+            "composition"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07",
+                "currentMeanings": [
+                  {
+                    "description": "Structural organizing principle creating narrative momentum",
+                    "strength": 0.95
+                  },
+                  {
+                    "description": "Formal device linking disparate episodes into unified progression",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Metaphorical ascent toward uncertain destination",
+                    "strength": 0.7
+                  }
+                ],
+                "currentManifestations": [
+                  "carnival-grounds",
+                  "hill-road",
+                  "public-house"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07"
+        },
+        "sym-music-fragmentation": {
+          "id": "sym-music-fragmentation",
+          "name": "Music as Formal Fragmentation",
+          "description": "The opening music and its dissolution (e07) function as a formal microcosm of the text's own structure: coherent wholes that break into pieces, disperse, and reform, mirroring the impressionistic technique itself.",
+          "tags": [
+            "form",
+            "structure",
+            "metaphor"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "currentMeanings": [
+                  {
+                    "description": "Formal analogue to impressionistic narrative technique",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Rhythmic principle organizing the text's movement",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Metaphor for sensory experience and perception",
+                    "strength": 0.65
+                  }
+                ],
+                "currentManifestations": [
+                  "guitar",
+                  "flute",
+                  "fiddle"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "sym-light-radiance": {
+          "id": "sym-light-radiance",
+          "name": "Light and Radiance",
+          "description": "The persistent imagery of sun, brightness, and radiance functions as a formal device creating visual coherence, intensity, and the text's characteristic luminosity, culminating in the 'dazzling radiance' of the final ascent.",
+          "tags": [
+            "imagery",
+            "form",
+            "style"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e01",
+                "currentMeanings": [
+                  {
+                    "description": "Formal device creating visual and tonal unity",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Impressionistic technique capturing momentary perception",
+                    "strength": 0.85
+                  },
+                  {
+                    "description": "Metaphor for vitality and life force",
+                    "strength": 0.7
+                  }
+                ],
+                "currentManifestations": [
+                  "carnival-grounds"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e01"
+        },
+        "sym-crowd-collective": {
+          "id": "sym-crowd-collective",
+          "name": "The Crowd as Formal Entity",
+          "description": "The crowd functions as a formal protagonist, described through collective verbs and unified imagery ('held them together in one big knot'), creating a structural counterpoint to individual characters and episodes.",
+          "tags": [
+            "structure",
+            "form",
+            "characterization"
+          ],
+          "type": "symbol",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "currentMeanings": [
+                  {
+                    "description": "Formal unifying principle linking disparate elements",
+                    "strength": 0.9
+                  },
+                  {
+                    "description": "Impressionistic technique capturing collective consciousness",
+                    "strength": 0.8
+                  },
+                  {
+                    "description": "Metaphor for social cohesion and dissolution",
+                    "strength": 0.65
+                  }
+                ],
+                "currentManifestations": [
+                  "carnival-grounds"
+                ]
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        }
+      },
+      "symbolicRelationships": {
+        "symrel-music-structure": {
+          "id": "symrel-music-structure",
+          "name": "Music as Structural Analogue",
+          "description": "The music's fragmentation and dissolution (e07) mirrors the text's own formal strategy of accumulating discrete impressions that cohere through rhythm and repetition rather than causal logic.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-music-fragmentation",
+            "theme-fragmentation-unity"
+          ],
+          "nature": "The text's formal structure replicates musical form: themes introduced, developed, fragmented, and reformed through impressionistic accumulation.",
+          "symbol": "sym-music-fragmentation",
+          "symbolized": "theme-fragmentation-unity",
+          "interpretation": "The text's formal structure replicates musical form: themes introduced, developed, fragmented, and reformed through impressionistic accumulation.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e07",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e07"
+        },
+        "symrel-light-vitality": {
+          "id": "symrel-light-vitality",
+          "name": "Light as Formal Vitality",
+          "description": "The recurring imagery of sun and radiance creates formal intensity and linguistic energy, manifesting the text's characteristic impressionistic style through visual and syntactic brightness.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-light-radiance",
+            "theme-linguistic-vitality"
+          ],
+          "nature": "Formal brightness in imagery corresponds to syntactic energy and verb-driven prose, creating unified stylistic effect.",
+          "symbol": "sym-light-radiance",
+          "symbolized": "theme-linguistic-vitality",
+          "interpretation": "Formal brightness in imagery corresponds to syntactic energy and verb-driven prose, creating unified stylistic effect.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e15",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e15"
+        },
+        "symrel-crowd-fragmentation": {
+          "id": "symrel-crowd-fragmentation",
+          "name": "Crowd as Formal Coherence",
+          "description": "The crowd's collective movement provides structural unity to otherwise fragmented episodes, functioning as the formal principle that prevents the text from dissolving into pure impressionistic chaos.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-crowd-collective",
+            "theme-fragmentation-unity"
+          ],
+          "nature": "The crowd's upward movement serves as the formal spine organizing disparate vendors, characters, and moments into coherent narrative progression.",
+          "symbol": "sym-crowd-collective",
+          "symbolized": "theme-fragmentation-unity",
+          "interpretation": "The crowd's upward movement serves as the formal spine organizing disparate vendors, characters, and moments into coherent narrative progression.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e05",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e05"
+        },
+        "symrel-hill-closure": {
+          "id": "symrel-hill-closure",
+          "name": "The Hill as Deferred Resolution",
+          "description": "The upward movement toward the public house creates formal momentum while the final question mark ('to... what?') formally enacts the text's refusal of conventional closure.",
+          "tags": [],
+          "type": "symbolic",
+          "participants": [
+            "sym-upward-movement",
+            "theme-narrative-closure"
+          ],
+          "nature": "The hill's ascent promises resolution but the text's final interrogative formally suspends meaning, maintaining interpretive openness.",
+          "symbol": "sym-upward-movement",
+          "symbolized": "theme-narrative-closure",
+          "interpretation": "The hill's ascent promises resolution but the text's final interrogative formally suspends meaning, maintaining interpretive openness.",
+          "stateHistory": [
+            {
+              "timestamp": {
+                "percentage": 0
+              },
+              "data": {
+                "version": "v1",
+                "activeAbsentials": [],
+                "currentRelationships": [],
+                "generatedBy": "e24",
+                "strength": 0.5,
+                "dynamics": {
+                  "power": 0,
+                  "influence": 0,
+                  "conflict": 0
+                }
+              },
+              "causedBy": {}
+            }
+          ],
+          "firstIntroduced": "e24"
+        }
+      },
+      "narrator": {
+        "id": "narrator",
+        "name": "Impressionistic Third-Person Narrator",
+        "description": "An omniscient but sensory-focused narrator who presents the carnival through vivid impressions, sensory details, and immediate present-tense narration. The narrator's consciousness seems to move through the crowd, capturing moments of perception without authorial judgment or psychological depth.",
+        "tags": [],
+        "type": "narrator",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "reliability": 0.85,
+              "mentalConstructs": [],
+              "perspective": "third_person_omniscient"
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "reader": {
+        "id": "reader",
+        "name": "Formalist Reader",
+        "description": "A reader attentive to formal properties: narrative structure, linguistic patterns, imagery systems, rhythm, and compositional devices. This reader values how form creates meaning and how the text's impressionistic technique shapes perception and interpretation.",
+        "tags": [],
+        "type": "reader",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "mentalConstructs": [],
+              "emotions": {
+                "joy": 0,
+                "trust": 0,
+                "fear": 0,
+                "surprise": 0,
+                "sadness": 0,
+                "disgust": 0,
+                "anger": 0,
+                "anticipation": 0,
+                "intensity": 0
+              }
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "author": {
+        "id": "author",
+        "name": "Katherine Mansfield",
+        "description": "A modernist writer employing impressionistic techniques to capture momentary perception and sensory experience. Mansfield's formal innovation lies in her rejection of conventional plot in favor of rhythmic accumulation, vivid imagery, and the capture of consciousness in motion.",
+        "tags": [],
+        "type": "author",
+        "stateHistory": [
+          {
+            "timestamp": {
+              "percentage": 0
+            },
+            "data": {
+              "version": "v1",
+              "activeAbsentials": [],
+              "currentRelationships": [],
+              "generatedBy": "init",
+              "style": {},
+              "themes": []
+            },
+            "causedBy": {}
+          }
+        ],
+        "firstIntroduced": "init"
+      },
+      "eventSignificance": {
+        "e01": {
+          "significance": 0.85,
+          "note": "Establishes the text's formal opening: vivid physical description of musicians, introduces impressionistic style with precise sensory detail and present-tense narration."
+        },
+        "e02": {
+          "significance": 0.8,
+          "note": "Demonstrates the text's characteristic verb-driven prose and dynamic syntax; music performance introduces the formal principle of rhythm and movement."
+        },
+        "e03": {
+          "significance": 0.65,
+          "note": "Introduces the crowd and establishes the pattern of sensory detail; the young girl's fear creates formal contrast and psychological complexity within impressionistic mode."
+        },
+        "e04": {
+          "significance": 0.6,
+          "note": "Develops characterization through action and dialogue; the soldier's psychology adds formal depth but remains subordinate to impressionistic surface."
+        },
+        "e05": {
+          "significance": 0.9,
+          "note": "Crucial formal moment: the crowd is unified through imagery ('one big knot'), establishing the collective as formal protagonist and structural organizing principle."
+        },
+        "e06": {
+          "significance": 0.75,
+          "note": "Demonstrates impressionistic technique applied to children; vivid physical details and the child's exclamation ('Ain't it lovely?') create formal intensity and emotional immediacy."
+        },
+        "e07": {
+          "significance": 0.95,
+          "note": "Pivotal formal moment: music's fragmentation and dissolution mirrors the text's own structural strategy; marks transition from one formal section to another; introduces upward movement."
+        },
+        "e08": {
+          "significance": 0.7,
+          "note": "First vendor episode; establishes the formal pattern of rapid, catalogic description that will dominate the middle section; introduces the principle of accumulation."
+        },
+        "e09": {
+          "significance": 0.65,
+          "note": "Continues vendor cataloging; formal function is primarily rhythmic and accumulative rather than narrative or psychological."
+        },
+        "e10": {
+          "significance": 0.65,
+          "note": "Maintains the vendor sequence; the vendor's cry ('All alive-oh!') contributes to formal vitality and linguistic energy."
+        },
+        "e11": {
+          "significance": 0.6,
+          "note": "Part of the vendor accumulation; formal function is primarily structural, building rhythmic momentum through repetition."
+        },
+        "e12": {
+          "significance": 0.6,
+          "note": "Continues the vendor sequence; introduces romantic element (roses for girls) but remains formally subordinate to the accumulative pattern."
+        },
+        "e13": {
+          "significance": 0.75,
+          "note": "Vendor sequence reaches formal intensity through vivid color imagery (emerald, scarlet, blue, yellow); demonstrates impressionistic technique at its most concentrated."
+        },
+        "e14": {
+          "significance": 0.7,
+          "note": "Concludes vendor section with formal flourish; the old woman's urgent voice and imperative tone create rhythmic variation and tonal intensity."
+        },
+        "e15": {
+          "significance": 0.85,
+          "note": "Major formal transition: shifts from vendors to weather and bodily sensation; introduces the text's characteristic imagery of light and physical vitality; demonstrates impressionistic technique applied to atmosphere and embodied experience."
+        },
+        "e16": {
+          "significance": 0.7,
+          "note": "Food vendor episode with vivid sensory description; the lemonade's visual and tactile qualities demonstrate impressionistic technique; formal function is primarily descriptive and atmospheric."
+        },
+        "e17": {
+          "significance": 0.75,
+          "note": "Ice cream scene demonstrates impressionistic technique applied to sensory pleasure; vivid physical details and the children's silent enjoyment create formal intensity and emotional immediacy."
+        },
+        "e18": {
+          "significance": 0.8,
+          "note": "Fortune teller introduction; vivid physical description (Italian woman as 'treasure of delicate carving') demonstrates impressionistic technique; introduces formal complexity through characterization."
+        },
+        "e19": {
+          "significance": 0.75,
+          "note": "Fortune reading and motor car episode; demonstrates formal irony through juxtaposition; the blonde woman's appearance enacts the fortune's prediction, creating formal coherence through coincidence."
+        },
+        "e20": {
+          "significance": 0.7,
+          "note": "Auctioneer episode; vivid physical description of anxiety and desperation; formal function is to introduce character type and psychological complexity within impressionistic mode."
+        },
+        "e21": {
+          "significance": 0.75,
+          "note": "Barouche episode; vivid physical description of old age and decay; demonstrates impressionistic technique applied to social observation; formal function is to introduce character type and social commentary."
+        },
+        "e22": {
+          "significance": 0.8,
+          "note": "Professor Leonard episode; crucial formal moment demonstrating the text's interest in psychology and social behavior; the men's transformation from 'romping' to 'timid' creates formal irony and psychological depth."
+        },
+        "e23": {
+          "significance": 0.85,
+          "note": "Public house scene; formal climax of the upward movement; demonstrates impressionistic technique applied to social observation; the family scene and children at doors create formal intensity and social commentary."
+        },
+        "e24": {
+          "significance": 0.95,
+          "note": "Final formal moment; the crowd's ascent into 'dazzling radiance' and the unanswered question ('to... what?') formally enact the text's refusal of closure and maintain interpretive openness; demonstrates the text's characteristic impressionistic technique and formal innovation."
+        }
+      },
+      "entitySignificance": {
+        "stout-guitarist": {
+          "significance": 0.7,
+          "note": "Part of the opening formal ensemble; vivid physical description establishes impressionistic style; formal function is primarily to create visual and rhythmic interest."
+        },
+        "little-flute-player": {
+          "significance": 0.7,
+          "note": "Part of the opening musical ensemble; the 'little chap' contributes to formal variety through physical contrast; formal function is rhythmic and compositional."
+        },
+        "tall-fiddler": {
+          "significance": 0.7,
+          "note": "Part of the opening musical ensemble; physical description contributes to formal composition; the fiddler's arm 'trying to saw the fiddle in two' demonstrates impressionistic technique."
+        },
+        "young-girl-strawberries": {
+          "significance": 0.75,
+          "note": "Introduces psychological complexity and formal contrast; her fear creates tension within the impressionistic surface; demonstrates the text's capacity for characterization within impressionistic mode."
+        },
+        "australian-soldier": {
+          "significance": 0.65,
+          "note": "Demonstrates the text's interest in psychology and social behavior; his desire to watch rather than enable eating creates formal irony; formal function is primarily psychological."
+        },
+        "ragged-children": {
+          "significance": 0.75,
+          "note": "Collective character demonstrating impressionistic technique; vivid physical details (hands behind backs, eyes big) create formal intensity; the small girl's exclamation contributes to tonal and emotional immediacy."
+        },
+        "small-girl-lovely": {
+          "significance": 0.7,
+          "note": "Individual voice within the ragged children collective; her whispered 'Ain't it lovely?' provides formal contrast and emotional authenticity."
+        },
+        "tickler-vendor": {
+          "significance": 0.65,
+          "note": "First in the vendor sequence; establishes the formal pattern of rapid, catalogic description; formal function is primarily structural and rhythmic."
+        },
+        "golliwog-vendor": {
+          "significance": 0.6,
+          "note": "Part of vendor sequence; formal function is primarily to maintain rhythmic momentum through repetition."
+        },
+        "jumping-donkey-vendor": {
+          "significance": 0.6,
+          "note": "Continues vendor sequence; the vendor's cry contributes to formal vitality; formal function is rhythmic and accumulative."
+        },
+        "chewing-gum-vendor": {
+          "significance": 0.6,
+          "note": "Part of vendor accumulation; formal function is primarily structural, building rhythmic momentum."
+        },
+        "rose-vendor": {
+          "significance": 0.6,
+          "note": "Vendor sequence element; introduces romantic element but remains formally subordinate to accumulative pattern."
+        },
+        "feather-vendor": {
+          "significance": 0.75,
+          "note": "Vendor sequence reaches formal intensity through vivid color imagery; demonstrates impressionistic technique at its most concentrated."
+        },
+        "hat-vendor-old-woman": {
+          "significance": 0.7,
+          "note": "Concludes vendor section; her urgent voice and imperative tone create rhythmic variation and formal intensity."
+        },
+        "italian-fortune-teller": {
+          "significance": 0.8,
+          "note": "Vivid physical description ('treasure of delicate carving') demonstrates impressionistic technique; introduces formal complexity through characterization and psychological interest."
+        },
+        "fat-chauffeur": {
+          "significance": 0.65,
+          "note": "Minor character whose presence creates formal irony through juxtaposition with fortune reading; formal function is primarily structural."
+        },
+        "blonde-woman-motorcar": {
+          "significance": 0.7,
+          "note": "Formal irony created through juxtaposition; her appearance enacts the fortune's prediction, creating formal coherence through coincidence."
+        },
+        "auctioneer": {
+          "significance": 0.75,
+          "note": "Vivid physical description of anxiety and desperation; demonstrates impressionistic technique applied to psychology; formal function is to introduce character type and social observation."
+        },
+        "old-woman-barouche": {
+          "significance": 0.7,
+          "note": "Vivid physical description of old age; demonstrates impressionistic technique applied to social observation; formal function is characterization and social commentary."
+        },
+        "old-man-barouche": {
+          "significance": 0.7,
+          "note": "Part of the barouche couple; physical description contributes to formal composition and social observation."
+        },
+        "professor-leonard": {
+          "significance": 0.85,
+          "note": "Crucial formal moment; the men's transformation from 'romping' to 'timid' creates formal irony and psychological depth; demonstrates the text's interest in psychology and social behavior."
+        },
+        "mother-pavement": {
+          "significance": 0.75,
+          "note": "Family scene at public house; demonstrates impressionistic technique applied to social observation; formal function is to create emotional immediacy and social commentary."
+        },
+        "father-pavement": {
+          "significance": 0.7,
+          "note": "Part of family scene; his action of bringing drink and 'savagely elbowing' creates formal contrast and social observation."
+        },
+        "baby-pavement": {
+          "significance": 0.65,
+          "note": "Part of family scene; represents innocence and vulnerability; formal function is primarily emotional and social."
+        },
+        "children-swing-doors": {
+          "significance": 0.75,
+          "note": "Collective character at public house; the simile 'like flies at the mouth of a sweet jar' demonstrates impressionistic technique; formal function is to create visual intensity and social commentary."
+        }
+      },
+      "absentialSignificance": {
+        "abs-girl-strawberry-fear": {
+          "significance": 0.75,
+          "note": "The girl's unexplained fear creates formal tension and psychological complexity within the impressionistic surface; demonstrates the text's capacity for psychological depth."
+        },
+        "abs-soldier-watch-girl": {
+          "significance": 0.7,
+          "note": "The soldier's hidden desire creates formal irony and psychological complexity; demonstrates the text's interest in unspoken motivations and social behavior."
+        },
+        "abs-crowd-upward-movement": {
+          "significance": 0.95,
+          "note": "The crowd's mysterious upward movement toward an uncertain destination is the text's primary formal organizing principle; the absence of clear motivation creates formal openness and interpretive possibility."
+        },
+        "abs-men-fortune-reading-anxiety": {
+          "significance": 0.8,
+          "note": "The men's sudden transformation from confident to anxious creates formal irony and psychological complexity; demonstrates the text's interest in hidden anxieties and social vulnerability."
+        }
+      },
+      "mentalConstructs": {},
+      "annotations": [],
+      "globalTension": [
+        {
+          "timestamp": {
+            "percentage": 2
+          },
+          "value": 0.4
+        },
+        {
+          "timestamp": {
+            "percentage": 4
+          },
+          "value": 0.5
+        },
+        {
+          "timestamp": {
+            "percentage": 10
+          },
+          "value": 0.55
+        },
+        {
+          "timestamp": {
+            "percentage": 12
+          },
+          "value": 0.6
+        },
+        {
+          "timestamp": {
+            "percentage": 15
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 18
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 25
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 30
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 37
+          },
+          "value": 0.65
+        },
+        {
+          "timestamp": {
+            "percentage": 42
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 48
+          },
+          "value": 0.7
+        },
+        {
+          "timestamp": {
+            "percentage": 56
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 60
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 65
+          },
+          "value": 0.75
+        },
+        {
+          "timestamp": {
+            "percentage": 70
+          },
+          "value": 0.8
+        },
+        {
+          "timestamp": {
+            "percentage": 75
+          },
+          "value": 0.85
+        },
+        {
+          "timestamp": {
+            "percentage": 85
+          },
+          "value": 0.9
+        },
+        {
+          "timestamp": {
+            "percentage": 95
+          },
+          "value": 0.95
+        }
+      ],
+      "spanAnnotations": {
+        "span_1": {
+          "tension": 0.5,
+          "note": "Opening establishes impressionistic style and formal approach; moderate tension as narrative mode is established."
+        },
+        "span_2": {
+          "tension": 0.6,
+          "note": "Musicians and crowd assembly; tension builds through accumulation of sensory detail and crowd formation."
+        },
+        "span_3": {
+          "tension": 0.55,
+          "note": "Musicians perform; establishes rhythm and formal principle of musical structure."
+        },
+        "span_4": {
+          "tension": 0.4,
+          "note": "Opening description of musicians; sets impressionistic tone with vivid physical detail."
+        },
+        "span_5": {
+          "tension": 0.5,
+          "note": "Music performance; introduces dynamic verbs and rhythmic energy."
+        },
+        "span_6": {
+          "tension": 0.65,
+          "note": "Crowd assembles; tension increases through collective formation and psychological complexity (girl's fear)."
+        },
+        "span_7": {
+          "tension": 0.6,
+          "note": "Crowd eating fruit; introduces psychological tension through girl's fear and soldier's hidden desire."
+        },
+        "span_8": {
+          "tension": 0.65,
+          "note": "Diverse crowd types described; formal unity achieved through imagery ('one big knot')."
+        },
+        "span_9": {
+          "tension": 0.7,
+          "note": "Ragged children watch; emotional intensity increases through vivid physical detail and child's exclamation."
+        },
+        "span_10": {
+          "tension": 0.7,
+          "note": "Music ends and stalls begin; formal transition creates structural momentum."
+        },
+        "span_11": {
+          "tension": 0.75,
+          "note": "Music dissolution; pivotal formal moment as narrative structure shifts."
+        },
+        "span_12": {
+          "tension": 0.75,
+          "note": "Music fragments and ends; formal analogue to impressionistic technique; introduces upward movement."
+        },
+        "span_13": {
+          "tension": 0.65,
+          "note": "Vendor stalls; tension moderates as narrative shifts to catalogic accumulation and rhythmic repetition."
+        },
+        "span_14": {
+          "tension": 0.65,
+          "note": "Tickler vendor; establishes vendor sequence pattern."
+        },
+        "span_15": {
+          "tension": 0.65,
+          "note": "Multiple vendors; rhythmic accumulation maintains moderate tension through repetition."
+        },
+        "span_16": {
+          "tension": 0.7,
+          "note": "Hat vendor; concludes vendor section with formal intensity through urgent voice."
+        },
+        "span_17": {
+          "tension": 0.7,
+          "note": "Weather effects and food vendors; formal transition introduces atmospheric and bodily sensation."
+        },
+        "span_18": {
+          "tension": 0.75,
+          "note": "Flying day weather; tension increases through vivid sensory description and physical vitality."
+        },
+        "span_19": {
+          "tension": 0.75,
+          "note": "Sun and wind effects; demonstrates impressionistic technique applied to atmosphere and embodied experience."
+        },
+        "span_20": {
+          "tension": 0.7,
+          "note": "Lemonade and ice cream; sensory pleasure creates formal intensity and emotional immediacy."
+        },
+        "span_21": {
+          "tension": 0.7,
+          "note": "Lemonade vendor; vivid sensory description maintains impressionistic intensity."
+        },
+        "span_22": {
+          "tension": 0.75,
+          "note": "Ice cream cart; sensory pleasure and children's silent enjoyment create formal intensity."
+        },
+        "span_23": {
+          "tension": 0.75,
+          "note": "Fortune tellers and spectacles; formal complexity increases through characterization and psychological interest."
+        },
+        "span_24": {
+          "tension": 0.75,
+          "note": "Love-bird fortune teller; vivid physical description and formal irony create tension."
+        },
+        "span_25": {
+          "tension": 0.75,
+          "note": "Fortune teller appearance; impressionistic technique applied to characterization."
+        },
+        "span_26": {
+          "tension": 0.8,
+          "note": "Fortune reading and motor car; formal irony through juxtaposition increases tension."
+        },
+        "span_27": {
+          "tension": 0.75,
+          "note": "Auctioneer episode; psychological tension through vivid description of anxiety."
+        },
+        "span_28": {
+          "tension": 0.75,
+          "note": "Auctioneer's pitch; formal intensity through characterization and social observation."
+        },
+        "span_29": {
+          "tension": 0.8,
+          "note": "Barouche and Professor Leonard; formal complexity increases through characterization and social commentary."
+        },
+        "span_30": {
+          "tension": 0.75,
+          "note": "Barouche passes; vivid physical description of old age creates formal intensity."
+        },
+        "span_31": {
+          "tension": 0.85,
+          "note": "Professor Leonard's fortune reading; crucial formal moment with psychological depth and irony."
+        },
+        "span_32": {
+          "tension": 0.85,
+          "note": "Reaching hill top and final ascent; formal climax as narrative approaches conclusion."
+        },
+        "span_33": {
+          "tension": 0.9,
+          "note": "Public house at hill top; formal climax of upward movement; social observation and emotional intensity."
+        },
+        "span_34": {
+          "tension": 0.9,
+          "note": "Public house scene; demonstrates impressionistic technique applied to social observation; formal intensity peaks."
+        },
+        "span_35": {
+          "tension": 0.95,
+          "note": "Final upward movement; formal climax as crowd ascends into 'dazzling radiance'."
+        },
+        "span_36": {
+          "tension": 0.95,
+          "note": "Crowd ascends into light; final formal moment with unanswered question maintaining interpretive openness."
+        }
+      }
+    }
+  }
+}

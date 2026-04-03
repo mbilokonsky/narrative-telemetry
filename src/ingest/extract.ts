@@ -16,6 +16,7 @@ import {
   TextModel,
 } from '../types';
 import { EXTRACTION_SYSTEM_PROMPT, buildExtractionUserPrompt } from './prompts';
+import { ExtractionResultSchema } from './schemas';
 
 // ── Wire types from LLM output ──
 
@@ -84,6 +85,11 @@ function toEventType(s: string): NarrativeEventType {
     revelation: NarrativeEventType.REVELATION,
     decision: NarrativeEventType.DECISION,
     environmental: NarrativeEventType.ENVIRONMENTAL,
+    interior_monologue: NarrativeEventType.INTERIOR_MONOLOGUE,
+    free_indirect: NarrativeEventType.FREE_INDIRECT,
+    narrator_commentary: NarrativeEventType.NARRATOR_COMMENTARY,
+    flashback: NarrativeEventType.FLASHBACK,
+    ekphrasis: NarrativeEventType.EKPHRASIS,
   };
   return map[s] ?? NarrativeEventType.ACTION;
 }
@@ -266,8 +272,54 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
     });
   }
 
-  // Register characters
+  // Register characters (with state transitions)
   for (const c of extraction.characters ?? []) {
+    const initialState = {
+      timestamp: ts(0),
+      data: {
+        ...base(c.firstEvent ?? 'init'),
+        emotionalState: emptyEmotion(),
+        mentalConstructs: [],
+        inventory: [],
+        location: c.initialLocation ?? '',
+        factionRelationships: {},
+        age: c.age ?? 0,
+        gender: c.gender ?? 'unknown',
+        occupation: c.occupation ?? '',
+        personalityTraits: c.personalityTraits ?? [],
+        coreValues: c.coreValues ?? [],
+        physicalDescription: c.physicalDescription ?? '',
+        skills: {},
+        socialStatus: {},
+      },
+      causedBy: {},
+    };
+
+    // Build stateHistory from transitions
+    const stateHistory = [initialState];
+    for (const tr of c.stateTransitions ?? []) {
+      const prevData = stateHistory[stateHistory.length - 1].data;
+      const causes = tr.causes ?? [];
+      const primaryEvent = causes.find((c: any) => c.role === 'primary')?.eventId ?? causes[0]?.eventId;
+      stateHistory.push({
+        timestamp: ts(tr.percentage),
+        data: {
+          ...prevData,
+          ...base(primaryEvent ?? 'unknown'),
+          location: tr.location ?? prevData.location,
+          transitionDescription: tr.description ?? undefined,
+        } as any,
+        causedBy: {
+          eventId: primaryEvent,
+          factors: causes.map((c: any) => ({
+            eventId: c.eventId,
+            role: c.role ?? 'contributing',
+            description: c.description,
+          })),
+        },
+      });
+    }
+
     sys.addCharacter({
       id: c.id,
       name: c.name,
@@ -276,26 +328,7 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
       textMentions: c.textMentions ?? [],
       context: c.context ?? '',
       type: DiegeticEntityType.CHARACTER,
-      stateHistory: [{
-        timestamp: ts(0),
-        data: {
-          ...base(c.firstEvent ?? 'init'),
-          emotionalState: emptyEmotion(),
-          mentalConstructs: [],
-          inventory: [],
-          location: c.initialLocation ?? '',
-          factionRelationships: {},
-          age: c.age ?? 0,
-          gender: c.gender ?? 'unknown',
-          occupation: c.occupation ?? '',
-          personalityTraits: c.personalityTraits ?? [],
-          coreValues: c.coreValues ?? [],
-          physicalDescription: c.physicalDescription ?? '',
-          skills: {},
-          socialStatus: {},
-        },
-        causedBy: {},
-      }],
+      stateHistory,
       firstIntroduced: c.firstEvent ?? 'init',
     });
   }
@@ -432,8 +465,51 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
     });
   }
 
-  // Register absentials
+  // Register absentials (with state transitions)
   for (const a of extraction.absentials ?? []) {
+    // Build stateHistory from transitions array (or fall back to single initial state)
+    const transitions = a.stateTransitions ?? [];
+    let stateHistory;
+
+    if (transitions.length > 0) {
+      stateHistory = transitions.map((tr: any) => {
+        const causes = tr.causes ?? [];
+        const primaryEvent = causes.find((c: any) => c.role === 'primary')?.eventId
+          ?? causes[0]?.eventId ?? tr.eventId;
+        return {
+          timestamp: ts(tr.percentage),
+          data: {
+            ...base(primaryEvent),
+            type: toAbsentialType(a.type),
+            status: toAbsentialStatus(tr.status ?? 'unsatisfied'),
+            urgency: tr.urgency ?? 0.5,
+            intensity: tr.intensity ?? 0.5,
+          },
+          causedBy: {
+            eventId: primaryEvent,
+            factors: causes.map((c: any) => ({
+              eventId: c.eventId,
+              role: c.role ?? 'contributing',
+              description: c.description,
+            })),
+          },
+        };
+      });
+    } else {
+      // Legacy fallback: single initial state
+      stateHistory = [{
+        timestamp: ts(0),
+        data: {
+          ...base(a.firstEvent ?? 'init'),
+          type: toAbsentialType(a.type),
+          status: toAbsentialStatus(a.initialStatus ?? 'unsatisfied'),
+          urgency: a.urgency ?? 0.5,
+          intensity: a.intensity ?? 0.5,
+        },
+        causedBy: {},
+      }];
+    }
+
     sys.addAbsential({
       id: a.id,
       name: a.name,
@@ -449,17 +525,7 @@ function buildTextModel(extraction: ExtractionResult): TextModel {
         strength: re.strength ?? 0.5,
       })),
       relatedAbsentials: [],
-      stateHistory: [{
-        timestamp: ts(0),
-        data: {
-          ...base(a.firstEvent ?? 'init'),
-          type: toAbsentialType(a.type),
-          status: toAbsentialStatus(a.initialStatus ?? 'unsatisfied'),
-          urgency: a.urgency ?? 0.5,
-          intensity: a.intensity ?? 0.5,
-        },
-        causedBy: {},
-      }],
+      stateHistory,
       firstIntroduced: a.firstEvent ?? 'init',
     });
   }
@@ -533,11 +599,12 @@ export async function extractTextModel(text: string, options: ExtractOptions = {
 
   let extraction: ExtractionResult;
   try {
-    extraction = JSON.parse(rawJson);
+    const parsed = JSON.parse(rawJson);
+    extraction = ExtractionResultSchema.parse(parsed);
   } catch (err) {
-    console.error('[extract] Failed to parse LLM JSON output');
+    console.error('[extract] Failed to parse/validate LLM JSON output');
     console.error('[extract] Raw output (first 500 chars):', rawJson.slice(0, 500));
-    throw new Error(`JSON parse error: ${(err as Error).message}`);
+    throw new Error(`JSON parse/validation error: ${(err as Error).message}`);
   }
 
   console.log(`[extract] Parsed extraction: ${extraction.events?.length ?? 0} events, ${extraction.characters?.length ?? 0} characters, ${extraction.settings?.length ?? 0} settings`);
@@ -663,11 +730,12 @@ async function extractChunk(
   }
 
   try {
-    return JSON.parse(rawJson);
+    const parsed = JSON.parse(rawJson);
+    return ExtractionResultSchema.parse(parsed) as unknown as ChunkExtractionResult;
   } catch (err) {
-    console.error('[chunked-extract] Failed to parse chunk JSON');
+    console.error('[chunked-extract] Failed to parse/validate chunk JSON');
     console.error('[chunked-extract] Raw (first 500 chars):', rawJson.slice(0, 500));
-    throw new Error(`Chunk parse error: ${(err as Error).message}`);
+    throw new Error(`Chunk parse/validation error: ${(err as Error).message}`);
   }
 }
 
