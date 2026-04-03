@@ -154,20 +154,42 @@ interface GroupRelNode {
 }
 
 interface AbsentialNode {
-  id: string;                 // e.g. "abs-quest-to-araby", "abs-street-spiritual-void"
+  id: string;                 // e.g. "abs-quest-to-araby", "abs-dublin-paralysis"
   name: string;
   description: string;
   tags: string[];
-  holder: string;             // entity ID — can be a character, setting, faction, or group
-  origin: string;             // textual explanation of where it comes from
+
+  // What generates this tension field — entities, relationships, conditions
+  holder: string;             // primary entity (legacy, for simple cases)
+  origin: string;             // textual explanation of where the field comes from
+  sources?: Array<{           // richer: multiple entities that generate/carry this field
+    entityId: string;
+    role: "origin" | "carrier" | "amplifier" | "expression" | "context";
+  }>;
+
   type: "desire" | "fear" | "goal" | "need" | "expectation" | "lack" | "potential" | "trigger";
+
+  // How this field manifests per entity — each has its own trajectory
+  manifestations?: Array<{
+    entityId: string;         // the entity experiencing this field
+    nature: string;           // e.g. "temptation resisted", "gradual corruption"
+    intensity: number;        // 0-1: how strongly the field activates
+    status: "unsatisfied" | "canceled" | "resolved_satisfied" | "resolved_blocked" | "resolved_mixed";
+  }>;
+
+  // Events this field drives (the field → event arrow)
+  drivenEvents?: Array<{
+    eventId: string;
+    role: "caused_by" | "resists" | "expresses" | "transforms" | "resolves";
+  }>;
+
   relatedEntities: Array<{
     entityId: string;
     relationship: "target" | "obstacle" | "facilitator" | "influenced_by" | "catalyst" | "resolver" | "creator" | "beneficiary" | "victim";
     strength: number;
   }>;
   firstEvent: string;
-  stateTransitions: Array<{   // track how this absential evolves through the story
+  stateTransitions: Array<{   // track how this field evolves through the story
     percentage: number;       // 0-100 position in story
     status: "unsatisfied" | "canceled" | "resolved_satisfied" | "resolved_blocked" | "resolved_mixed";
     urgency: number;          // 0-1
@@ -212,7 +234,19 @@ interface MentalConstructNode {
 10. **Valid cross-references.** Every entity ID referenced in events, relationships, absentials, etc. must correspond to an entity you've defined.
 11. **State transitions for characters.** For each major character, provide 3-8 stateTransitions tracking how they change through the story. Each transition has a "causes" array — state changes are rarely caused by a single event. Include the primary driver, contributing factors, and even opposing forces that were overcome. Use causal roles: primary (main driver), contributing (helped but not sufficient), necessary (required condition), catalytic (triggered without being consumed), enabling (made possible), opposing (pushed against but was overcome), complicating (made the outcome messy/partial).
 12. **State transitions for absentials.** For each absential, provide 2-5 stateTransitions with multi-causal "causes". A desire might intensify because of a primary event AND a contributing atmospheric shift AND despite an opposing obstacle. The first entry should be the introduction, the last the resolution.
-13. **Exhaustive absentials.** Absentials are not just character desires. They are any force that shapes the narrative through absence, lack, or unfulfilled potential. The holder can be a character, a setting, a faction, or a group. Examples: a character's romantic longing (desire), a street's spiritual void after a priest dies (lack), an institution's decaying authority (potential), a crowd's unspoken fear (fear), a house's promise of shelter that fails (expectation). Extract absentials for every entity that has unresolved tension — not just the protagonist. The number of absentials should scale with the text's complexity: a short lyric story might have 5-8, a novella 15-30, an epic hundreds. When in doubt, err on the side of more.`;
+13. **Absentials as tension fields.** Absentials are the generative engine of narrative. They are not properties of a single character — they are tension fields that emerge from relational webs and drive events.
+
+    The core loop: **field tension → drives events → events mutate state → state changes reconfigure the field → new tension → ...**
+
+    Model absentials as fields with:
+    - **sources**: what generates the tension (an entity, a relationship, a condition). Use the "sources" array when multiple entities contribute. Use "holder" for simple single-source cases.
+    - **manifestations**: how the field activates differently per entity. The same field (e.g., "the Ring's corrupting potential") produces different experiences for different characters (Gandalf resists, Boromir succumbs, Frodo is slowly corrupted). Include manifestations for each entity that engages with the field.
+    - **drivenEvents**: which events does this field's tension cause or shape? This is the field→event arrow. An event can be "caused_by" the field, "resist" it, "express" it, "transform" it, or "resolve" it.
+    - **stateTransitions**: how the field itself evolves. After Boromir's death, the Ring's field reconfigures — new manifestations, new intensities.
+
+    Examples: a street's spiritual void (lack, source=dead priest, manifestation=boy feels haunted), an institution's decaying authority (potential), colonial Dublin's paralysis (lack, sources=multiple settings, manifestations=different for each Dubliner), a crowd's unspoken fear.
+
+    The number of absentials scales with the text: a short story might have 5-10, a novella 15-30. When in doubt, err on the side of more. Every entity with unresolved tension is participating in at least one absential field.`;
 
 export function buildExtractionUserPrompt(text: string, lineCount: number): string {
   return `Here is the full text to analyze (${lineCount} lines). Extract the complete narrative structure as a JSON object matching the ExtractionResult schema.
